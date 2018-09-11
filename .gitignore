@@ -8,3 +8,5 @@ bin/
 src/ontology/seed.txt
 src/ontology/target/
 src/ontology/dosdp-tools.log
+src/ontology/ed_definitions_merged.owl
+src/ontology/patterns
