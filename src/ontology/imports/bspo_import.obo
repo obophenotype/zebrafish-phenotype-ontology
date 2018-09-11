@@ -1,0 +1,18 @@
+format-version: 1.2
+ontology: zp/imports/bspo_import
+
+[Typedef]
+id: has_part
+name: has part
+namespace: spatial
+xref: BFO:0000051
+is_transitive: true
+
+[Typedef]
+id: part_of
+name: part of
+namespace: spatial
+xref: BFO:0000050
+is_transitive: true
+inverse_of: has_part ! has part
+

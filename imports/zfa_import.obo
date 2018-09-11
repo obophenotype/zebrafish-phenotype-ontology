@@ -1,0 +1,26 @@
+format-version: 1.2
+ontology: zp/imports/zfa_import
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: zebrafish_anatomical_ontology
+xref: BFO:0000051
+is_transitive: true
+is_a: overlaps ! overlaps
+
+[Typedef]
+id: overlaps
+name: overlaps
+namespace: zebrafish_anatomical_ontology
+xref: RO:0002131
+
+[Typedef]
+id: part_of
+name: part of
+namespace: zebrafish_anatomical_ontology
+xref: BFO:0000050
+is_transitive: true
+is_a: overlaps ! overlaps
+inverse_of: has_part ! has_part
+
