@@ -21,6 +21,7 @@ SPARQLDIR = ../sparql
 DOSDP_SCHEMA=http:// # change to PURL when ready.
 PATTERN_TESTER=simple_pattern_tester.py
 DOSDPT=dosdp-tools
+TARGET=target
 
 
 # ----------------------------------------
@@ -140,7 +141,11 @@ build-docker:
 # Test patterns for schema compliance:
 
 
-PATTERN_IMPORTS = ../patterns/pattern.owl $(patsubst %, ../patterns/imports/%_import.owl,$(IMPORTS))
+# TODO - move declarations like this to top
+IMS=$(TARGET)/intermediates
+
+#PATTERN_IMPORTS = ../patterns/pattern.owl $(patsubst %, ../patterns/imports/%_import.owl,$(IMPORTS))
+
 
 # Better to make this an intermediate & merge with pattern.owl file having correct iri and import statements - configured by make
 
@@ -167,15 +172,33 @@ patterns: $(PATTERN_IMPORTS)
 pattern_files := $(wildcard ../patterns/*.yaml)
 pattern_tsv_files := $(wildcard ../patterns/*.tsv)
 
-# TODO - move declarations like this to top
-IMS=target/intermediates
-
-$(IMS)/patterns/%.ofn: ../patterns/%.yaml ../patterns/%.tsv $(ONT)-edit.owl
-	mkdir -p $(IMS)/patterns &&\
-	dosdp-tools generate --catalog=catalog-v001.xml --infile=$(word 2, $^) --template=$< --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
-
+definitions: ../patterns/definitions.owl
 
 pattern_modules := $(patsubst %.yaml, $(IMS)/patterns/%.ofn, $(notdir $(wildcard ../patterns/*.yaml)))
 
+$(IMS)/patterns/%.ofn: ../patterns/%.yaml ../patterns/%.tsv $(IMS)/all_imports.owl
+	mkdir -p $(IMS)/patterns &&\
+	dosdp-tools generate --catalog=catalog-v001.xml --infile=$(word 2, $^) --template=$< --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
+
 ../patterns/definitions.owl: $(pattern_modules)
 	$(ROBOT) merge $(addprefix -i , $(pattern_modules)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@
+
+imports_all_pattern = $(patsubst %, mirror/%.owl,$(IMPORTS))
+
+$(IMS)/all_imports.owl: $(IMS)/all_pattern_terms.txt $(imports_all_pattern)
+	$(ROBOT) merge $(addprefix -i , $(IMPORTS_ALL_PATTERN)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/all_imports.owl -o $@
+
+$(IMS)/all_pattern_terms.txt: $(pattern_term_lists)
+	cat $^ | sort | uniq >$@
+
+pattern_term_lists := $(patsubst %.yaml, $(IMS)/patterns/%.txt, $(notdir $(wildcard src/patterns/*.yaml)))
+
+$(IMS)/patterns/%.txt: src/patterns/%.yaml src/patterns/%.tsv
+	mkdir -p $(IMS)/patterns &&\
+	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
+
+$(IMS)/patterns/target/all_imports_module.owl: $(IMS)/all_pattern_terms.txt $(IMS)/patterns/target/all_imports.owl
+	$(ROBOT) extract -i $(word 2, $^) -T $< --method BOT -o $@
+
+pattern_clean:
+	rm -r $(IMS)
