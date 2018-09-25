@@ -1,0 +1,49 @@
+pattern_name: increasedKinestheticBehavior
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/increasedKinestheticBehavior
+
+classes:
+  increased frequency: PATO:0000380
+  abnormal: PATO:0000460
+  kinesthetic behavior: NBO:0000338
+  anatomy: owl:Thing
+
+relations:
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  results_in_movement_of: RO:0002565
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  movement: "'kinesthetic behavior'"
+  anatomy: "anatomy"
+
+data_list_vars:
+  def_xrefs: "xsd:string"
+  xrefs: "xsd:string"
+
+name:
+  text: "increased frequency of %s resulting in movement of %s"
+  vars:
+   - movement
+   - anatomy
+
+xref: # Boilerplate - don't edit
+  value: xrefs
+
+def:
+  text: "A phenotype that is an abnormally increased frequency of %s which results in movement of %s."
+  vars:
+    - movement
+    - anatomy
+  #xrefs: # Boilerplate - don't edit
+  #   value: 'def_xrefs'
+
+
+equivalentTo:
+  text: "'has_part' some ('increased frequency' and ('inheres_in' some (%s and 'results_in_movement_of' some %s)) and ('qualifier' some 'abnormal'))"
+  vars:
+    - movement
+    - anatomy

@@ -58,7 +58,7 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = go ro pato bspo zfa bfo uberon
+IMPORTS = go ro pato bspo zfa bfo uberon nbo
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS)) $(patsubst %, imports/%_terms.txt,$(IMPORTS))
 
 # generate seed with all referenced entities
