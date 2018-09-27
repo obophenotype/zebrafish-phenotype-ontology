@@ -7,13 +7,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/zp.owl>
-Import(<http://purl.obolibrary.org/obo/zp/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/zp/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/imports/zfa_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/zp/patterns/definitions.owl>)
+Import(<http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/zp/imports/go_import.owl>)
 Annotation(rdfs:comment "Zebrafish Phenotype Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_00000000>))
