@@ -21,6 +21,7 @@ SPARQLDIR = ../sparql
 DOSDP_SCHEMA=http:// # change to PURL when ready.
 PATTERN_TESTER=simple_pattern_tester.py
 DOSDPT=dosdp-tools
+TARGET=target
 
 
 # ----------------------------------------
@@ -57,7 +58,7 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = go ro pato bspo zfa bfo uberon
+IMPORTS = go ro pato bspo zfa bfo uberon nbo
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS)) $(patsubst %, imports/%_terms.txt,$(IMPORTS))
 
 # generate seed with all referenced entities
@@ -140,9 +141,46 @@ build-docker:
 # Test patterns for schema compliance:
 
 
-PATTERN_IMPORTS = ../patterns/pattern.owl $(patsubst %, ../patterns/imports/%_import.owl,$(IMPORTS))
+# TODO - move declarations like this to top
+IMS=$(TARGET)/intermediates
+
+#PATTERN_IMPORTS = ../patterns/pattern.owl $(patsubst %, ../patterns/imports/%_import.owl,$(IMPORTS))
+
 
 # Better to make this an intermediate & merge with pattern.owl file having correct iri and import statements - configured by make
+
+
+# ----------------------------------------
+# Main command to generate the pattern ontology and the definitions
+# ----------------------------------------
+# The pattern.owl ontology contains the OWL versions of all the patterns currently in the patterns directory
+DOSDP_TEMP=$(IMS)/dosdp
+DOSDP_TEMP_PATTERN=$(DOSDP_TEMP)/patterns
+DOSDP_TEMP_TERMS=$(DOSDP_TEMP)/terms
+DOSDP_TEMP_ONTOLOGIES=$(DOSDP_TEMP)/ontologies
+
+patterns: ../patterns/pattern.owl ../patterns/definitions.owl
+
+pattern_clean:
+	rm -r $(DOSDP_TEMP)
+
+$(DOSDP_TEMP):
+	mkdir -p $@
+
+$(DOSDP_TEMP_PATTERN):
+	mkdir -p $@
+
+$(DOSDP_TEMP_TERMS):
+	mkdir -p $@
+
+$(DOSDP_TEMP_ONTOLOGIES):
+	mkdir -p $@
+
+# ----------------------------------------
+# Build pattern.owl
+# ----------------------------------------
+# The pattern.owl ontology contains the OWL versions of all the patterns currently in the patterns directory
+
 
 ../patterns/pattern.owl: pattern_schema_checks
 	$(DOSDPT) prototype --obo-prefixes --template=../patterns --outfile=$@
@@ -150,32 +188,50 @@ PATTERN_IMPORTS = ../patterns/pattern.owl $(patsubst %, ../patterns/imports/%_im
 pattern_schema_checks:
 	simple_pattern_tester.py ../patterns/ # 2>&1 | tee $@
 
-../patterns/imports/seed.txt: ../patterns/pattern.owl
-	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@
 
-../patterns/imports/seed_sorted.txt: ../patterns/imports/seed.txt
-	cat ../patterns/imports/seed.txt | sort | uniq > $@
+#../patterns/imports/seed.txt: ../patterns/pattern.owl
+#	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@
+
+#../patterns/imports/seed_sorted.txt: ../patterns/imports/seed.txt
+#	cat ../patterns/imports/seed.txt | sort | uniq > $@
 
 #../patterns/imports/%_terms.txt: ../patterns/imports/seed.txt
 #	grep -i $(OBO)/$*_ $< > $@ || true  # Returns 1 if grep is empty
 
-../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
-	$(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(OBO)/$(ONT)/patterns/imports/$*_import.owl -o $@
+#../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
+#	$(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(OBO)/$(ONT)/patterns/imports/$*_import.owl -o $@
 
-patterns: $(PATTERN_IMPORTS)
-
-pattern_files := $(wildcard ../patterns/*.yaml)
-pattern_tsv_files := $(wildcard ../patterns/*.tsv)
-
-# TODO - move declarations like this to top
-IMS=target/intermediates
-
-$(IMS)/patterns/%.ofn: ../patterns/%.yaml ../patterns/%.tsv $(ONT)-edit.owl
-	mkdir -p $(IMS)/patterns &&\
-	dosdp-tools generate --catalog=catalog-v001.xml --infile=$(word 2, $^) --template=$< --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
+# ----------------------------------------
+# Build definitions.owl
+# ----------------------------------------
+# The following target will create a merged version of all imports indicated as project import dependencies (including the edit file itself), and then extract a module based
+# on the entities used in the TSV files
+individual_patterns := $(patsubst %.yaml, $(DOSDP_TEMP_PATTERN)/%.ofn, $(notdir $(wildcard ../patterns/*.yaml)))
+pattern_term_lists := $(patsubst %.yaml, $(DOSDP_TEMP_TERMS)/%.txt, $(notdir $(wildcard ../patterns/*.yaml)))
 
 
-pattern_modules := $(patsubst %.yaml, $(IMS)/patterns/%.ofn, $(notdir $(wildcard ../patterns/*.yaml)))
+../patterns/definitions.owl: $(individual_patterns)
+	echo 'dependencies: '$(individual_patterns) &&\
+	$(ROBOT) merge $(addprefix -i , $(individual_patterns)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@
 
-../patterns/definitions.owl: $(pattern_modules)
-	$(ROBOT) merge $(addprefix -i , $(pattern_modules)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@
+#pattern_files := $(wildcard ../patterns/*.yaml)
+#pattern_tsv_files := $(wildcard ../patterns/*.tsv)
+
+$(DOSDP_TEMP_PATTERN)/%.ofn: ../patterns/%.yaml ../patterns/%.tsv $(DOSDP_TEMP_ONTOLOGIES)/all_imports_module.owl $(DOSDP_TEMP_PATTERN)
+	dosdp-tools generate --infile=$(word 2, $^) --template=$< --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
+
+$(DOSDP_TEMP_ONTOLOGIES)/all_imports_module.owl: $(DOSDP_TEMP_ONTOLOGIES)/all_pattern_terms.txt $(DOSDP_TEMP_ONTOLOGIES)/all_imports.owl $(DOSDP_TEMP_ONTOLOGIES)
+	$(ROBOT) extract -i $(word 2, $^) -T $< --method BOT -o $@
+
+$(DOSDP_TEMP_ONTOLOGIES)/all_pattern_terms.txt: $(pattern_term_lists) $(DOSDP_TEMP_ONTOLOGIES)
+	echo $^ &&\
+	cat $^ | sort | uniq >$@
+
+$(DOSDP_TEMP_TERMS)/%.txt: ../patterns/%.yaml ../patterns/%.tsv $(DOSDP_TEMP_TERMS)
+	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
+
+imports_all_pattern := $(patsubst %, mirror/%.owl,$(IMPORTS))
+
+$(DOSDP_TEMP_ONTOLOGIES)/all_imports.owl: $(imports_all_pattern)
+	echo 'imports: '$(imports_all_pattern) &&\
+	$(ROBOT) merge $(addprefix -i , $^) annotate --ontology-iri $(DOSDP_TEMP_ONTOLOGIES)/all_imports.owl -o $@

@@ -13,30 +13,24 @@ relations:
   has_part: BFO:0000051
   part_of: BFO:0000050
 
-annotationProperties:
-  exact_synonym: oio:hasExactSynonym
-
 vars:
   entity: "'entity'"
   quality: "'quality'"
   entityitspartof: "'entityitspartof'"
 
 name:
-  text: "abnormal %s of %s"
+  text: "Abnormal(ly) %s in %s part of %s"
   vars:
    - quality
    - entity
-
-annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormality of %s"
-    vars:
-     - entity
+   - entityitspartof
 
 def:
-  text: "Abnormality of %s."
+  text: "Abnormal(ly) %s in %s part of %s."
   vars:
-    - entity
+   - quality
+   - entity
+   - entityitspartof
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some (%s and 'part_of' some %s)) and ('qualifier' some 'abnormal'))"

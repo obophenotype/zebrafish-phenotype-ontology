@@ -14,25 +14,17 @@ relations:
   part_of: BFO:0000050
   occurs_in: BFO:0000066
 
-annotationProperties:
-  exact_synonym: oio:hasExactSynonym
-
 vars:
   entity: "'entity'"
   quality: "'quality'"
   entityitspartof: "'entityitspartof'"
 
 name:
-  text: "abnormal %s of %s"
+  text: "Abnormal(ly) %s of %s occurring in %s."
   vars:
    - quality
    - entity
-
-annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormality of %s"
-    vars:
-     - entity
+   - entityitspartof
 
 def:
   text: "Abnormality of %s."

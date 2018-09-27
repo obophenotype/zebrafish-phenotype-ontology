@@ -13,31 +13,24 @@ relations:
   has_part: BFO:0000051
   towards: RO:0002503
 
-
-annotationProperties:
-  exact_synonym: oio:hasExactSynonym
-
 vars:
   entity: "'entity'"
   quality: "'quality'"
   entitytowards: "'entitytowards'"
 
 name:
-  text: "abnormal %s of %s"
+  text: "Abnormal(ly) %s of %s in %s"
   vars:
    - quality
+   - entitytowards
    - entity
 
-annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormality of %s"
-    vars:
-     - entity
-
 def:
-  text: "Abnormality of %s."
+  text: "Abnormal(ly) %s of %s in %s."
   vars:
-    - entity
+   - quality
+   - entitytowards
+   - entity
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some %s) and ('towards' some %s) and ('qualifier' some 'abnormal'))"
