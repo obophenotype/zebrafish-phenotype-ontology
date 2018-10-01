@@ -20,16 +20,18 @@ vars:
   entityitspartof: "'entityitspartof'"
 
 name:
-  text: "Abnormal(ly) %s of %s occurring in %s."
+  text: "Abnormal(ly) %s (of) %s of %s"
   vars:
    - quality
    - entity
    - entityitspartof
 
 def:
-  text: "Abnormality of %s."
+  text: "Abnormal(ly) %s (of) %s of %s."
   vars:
+    - quality
     - entity
+    - entityitspartof
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some (%s and 'occurs_in' some %s)) and ('qualifier' some 'abnormal'))"

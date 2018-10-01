@@ -1,0 +1,522 @@
+format-version: 1.2
+ontology: zp/imports/mpath_import
+
+[Term]
+id: MPATH:0
+name: pathological entity
+namespace: mouse_pathology.ontology
+def: "Pathological structure or process" [Pathbase: Curation]
+
+[Term]
+id: MPATH:218
+name: neoplasm
+namespace: mouse_pathology.ontology
+def: "A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant." [Pathbase: Pathology Committee]
+is_a: MPATH:603 ! pathological anatomical entity
+created_by: George Gkoutos
+
+[Term]
+id: MPATH:219
+name: adnexal and skin appendage tumor
+namespace: mouse_pathology.ontology
+def: "Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+created_by: George Gkoutos
+
+[Term]
+id: MPATH:235
+name: blood vessel tumor
+namespace: mouse_pathology.ontology
+def: "Tumor of venous or arterial vessels or capillaries." [Pathbase: Pathology Committee]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:242
+name: hemangiosarcoma
+namespace: mouse_pathology.ontology
+def: "Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3)." [PMID:8569146]
+synonym: "hemangioendothelioma malignant, angiosarcoma" RELATED [Pathbase: Curation]
+synonym: "hemangioendothelioma malignant." RELATED [Pathbase: Curation]
+synonym: "Hemangioma malignant" RELATED [Pathbase: Curation]
+is_a: MPATH:235 ! blood vessel tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:243
+name: central nervous system tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasm of the neurones, glia or meninges of the CNS." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:244
+name: astrocytoma
+namespace: mouse_pathology.ontology
+def: "Glioma derived from astrocytes, both benign and malignant forms (M-9400/3)." [ISBN-13:9783794515530]
+comment: Also see comments in Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.
+synonym: "Astrocytic glioma" RELATED [Pathbase: Curation]
+synonym: "astroglioma" RELATED [Pathbase: Curation]
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:249
+name: glioma
+namespace: mouse_pathology.ontology
+def: "Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3)." [ISBN-13:9783794515530]
+comment: Also see comments in: Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.
+is_a: MPATH:565 ! tumors of neurepithelial tissue
+
+[Term]
+id: MPATH:250
+name: medulloblastoma
+namespace: mouse_pathology.ontology
+def: "Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS." [ISBN-13:9783794515530]
+comment: Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:254
+name: complex tumor
+namespace: mouse_pathology.ontology
+def: "Tumors showing mutiple histological componants/differentiation." [Pathbase: Pathology Committee]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:261
+name: nephroblastoma
+namespace: mouse_pathology.ontology
+def: "Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3)." [Pathbase: Pathology Committee]
+synonym: "nephroma" RELATED [Pathbase: Curation]
+is_a: MPATH:254 ! complex tumor
+
+[Term]
+id: MPATH:264
+name: fibroepithelial tumor
+namespace: mouse_pathology.ontology
+def: "Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030)." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:267
+name: glandular tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from glandular epithelial cells." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:268
+name: adenocarcinoma
+namespace: mouse_pathology.ontology
+def: "Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3)." [Pathbase: Curation]
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:270
+name: adenoma
+namespace: mouse_pathology.ontology
+def: "A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy." [Pathbase: Pathology Committee]
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:271
+name: adenomatous polyposis coli
+namespace: mouse_pathology.ontology
+def: "Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0)." [Pathbase: Curation]
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:309
+name: gonadal tumor
+namespace: mouse_pathology.ontology
+def: "Germ cell and non-germ cell tumors of the testis and ovary." [Pathbase: Pathology Committee]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:310
+name: germ cell tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells." [Pathbase: Pathology Committee]
+is_a: MPATH:309 ! gonadal tumor
+
+[Term]
+id: MPATH:317
+name: seminoma
+namespace: mouse_pathology.ontology
+def: "Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3)." [Pathbase: Curation]
+synonym: "dysgerminoma" RELATED [Pathbase: Curation]
+synonym: "Germinoma, malignant" RELATED [Pathbase: Curation]
+synonym: "spermatoblastoma" RELATED [Pathbase: Curation]
+synonym: "spermatocytoma, malignant." RELATED [Pathbase: Curation]
+is_a: MPATH:310 ! germ cell tumor
+
+[Term]
+id: MPATH:335
+name: hematopoietic/lymphoid malignancies/disorder
+namespace: mouse_pathology.ontology
+def: "Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages." [URL:http\://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:342
+name: myeloid leukaemia
+namespace: mouse_pathology.ontology
+def: "Leukaemias of the myeloid lineage." [PMID:12070033]
+synonym: "granulocytic leukaemia" RELATED [Pathbase: Curation]
+xref: URL:http\://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2
+is_a: MPATH:496 ! Non-Lymphoid leukaemias
+
+[Term]
+id: MPATH:352
+name: hepatic tumor
+namespace: mouse_pathology.ontology
+def: "Tumors of the liver and biliary apparatus." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:353
+name: hepatocellular adenoma
+namespace: mouse_pathology.ontology
+def: "Benign neoplasm derived from hepatocytes. (M- 8170/0)." [Pathbase: Curation]
+synonym: "hepatic adenoma, benign, liver cell tumor, benign" RELATED [Pathbase: Curation]
+synonym: "hepatoma, benign" RELATED [Pathbase: Curation]
+synonym: "nodule type A" RELATED [Pathbase: Curation]
+is_a: MPATH:270 ! adenoma
+is_a: MPATH:352 ! hepatic tumor
+
+[Term]
+id: MPATH:354
+name: cholangiocarcinoma
+namespace: mouse_pathology.ontology
+def: "Malignant tumor derived from the bile duct epithelium. (M8160/3)." [Pathbase: Pathology Committee]
+is_a: MPATH:352 ! hepatic tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:356
+name: hepatoblastoma
+namespace: mouse_pathology.ontology
+def: "Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3)." [Pathbase: Curation]
+synonym: "embryonal hepatoma" RELATED [Pathbase: Curation]
+synonym: "tumor, mixed, poorly differentiated" RELATED [Pathbase: Curation]
+is_a: MPATH:352 ! hepatic tumor
+
+[Term]
+id: MPATH:357
+name: hepatocellular carcinoma
+namespace: mouse_pathology.ontology
+def: "Malignant tumor derived from hepatocytes. (M- 8170/3)." [Book: Bannasche; P and Zerban; H. Preneoplastic and neoplastic lesions of the rat iver. In; Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 18-63]
+synonym: "carcinoma, trabecular" RELATED [Pathbase: Curation]
+synonym: "carcinoma, trabecular (liver)" RELATED [Pathbase: Curation]
+synonym: "hepatoma, malignant" RELATED [Pathbase: Curation]
+synonym: "nodule type B" RELATED [Pathbase: Curation]
+is_a: MPATH:352 ! hepatic tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:358
+name: melanocytic tumor
+namespace: mouse_pathology.ontology
+def: "Tumors derived from melanocytes." [Pathbase: Pathology Committee]
+is_a: MPATH:219 ! adnexal and skin appendage tumor
+
+[Term]
+id: MPATH:359
+name: melanoma
+namespace: mouse_pathology.ontology
+def: "Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3)." [Book: Klein-Szanto; A.J.; Neoplastic and preneoplastic lesions of the mouse skin; in Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 1-18]
+synonym: "melanosarcoma" RELATED [Pathbase: Curation]
+synonym: "melanosarcoma, malignant melanoma" RELATED [Pathbase: Curation]
+xref: URL: http\://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table
+is_a: MPATH:358 ! melanocytic tumor
+
+[Term]
+id: MPATH:360
+name: melanoma in situ
+namespace: mouse_pathology.ontology
+def: "A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2)." [Pathbase: Pathology Committee]
+synonym: "level I melanoma" RELATED [Pathbase: Curation]
+is_a: MPATH:358 ! melanocytic tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:361
+name: naevus
+namespace: mouse_pathology.ontology
+def: "Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0)." [Pathbase: Pathology Committee]
+synonym: "mole (sensu melanocytic nevus)" RELATED [Pathbase: Curation]
+is_a: MPATH:358 ! melanocytic tumor
+
+[Term]
+id: MPATH:366
+name: neuroendocrine tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from the neuroendocrine system." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:370
+name: primitive neurectodermal tumor
+namespace: mouse_pathology.ontology
+def: "Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3)." [ISBN-13:9783794515530]
+synonym: "PNET" RELATED [Pathbase: Curation]
+is_a: MPATH:373 ! CNS progenitor tumor
+is_a: MPATH:570 ! peripheral nervous system tumors
+
+[Term]
+id: MPATH:371
+name: small cell carcinoma
+namespace: mouse_pathology.ontology
+def: "Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification." [PMID:15059877]
+comment: see: Meuwissen, R., Linn, S.C., Linnoila, R.I. et al. (2003) Induction of small cell lung cancer by somatic inactivation of both Trp53 and Rb1 in a conditional mouse model. Cancer cell, 4: 181-189. AND Calbo, J., Meuwissen, R., van Montfort, E. et al. (2005) Genotype-phenotype relationships in a mouse model for human small-cell lung cancer. Cold Spring Harbor symposia on quantitative biology, 70: 225-232. AND Meuwissen, R. and Berns, A. (2005) Mouse models for human lung cancer. Genes & development, 19: 643-664.
+synonym: "oat cell carcinoma" RELATED [Pathbase: Curation]
+xref: URL: http\://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass
+is_a: MPATH:366 ! neuroendocrine tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:373
+name: CNS progenitor tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from neuroepithelial precursors." [Pathbase: Pathology Committee]
+comment: Renamed from neuroepitheliomatous tumor, to reflect primitive origins of this class of tumor.
+is_a: MPATH:565 ! tumors of neurepithelial tissue
+
+[Term]
+id: MPATH:376
+name: neuroblastoma
+namespace: mouse_pathology.ontology
+def: "A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3)." [ISBN-13:9783794515530]
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:378
+name: retinoblastoma
+namespace: mouse_pathology.ontology
+def: "Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3)." [Pathbase: Curation]
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:404
+name: soft tissue tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms of the soft and connective tissues." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:405
+name: chordoma
+namespace: mouse_pathology.ontology
+def: "Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3)." [Pathbase: Curation]
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:423
+name: myomatous tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation." [Pathbase: Curation]
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:428
+name: rhabdomyosarcoma
+namespace: mouse_pathology.ontology
+def: "Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3)." [Pathbase: Curation]
+is_a: MPATH:423 ! myomatous tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:433
+name: nerve sheath tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms of the nerve sheath." [Pathbase: Pathology Committee]
+is_a: MPATH:404 ! soft tissue tumor
+is_a: MPATH:570 ! peripheral nervous system tumors
+
+[Term]
+id: MPATH:435
+name: neurofibroma
+namespace: mouse_pathology.ontology
+def: "Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0)." [ISBN-13:9783794515530]
+is_a: MPATH:433 ! nerve sheath tumor
+
+[Term]
+id: MPATH:437
+name: neurofibrosarcoma
+namespace: mouse_pathology.ontology
+def: "Malignant neoplasm derived from Schwann cells. (M-9540/3)." [ISBN-13:9783794515530]
+synonym: "malignant peripheral nerve sheath tumor" RELATED [Pathbase: Curation]
+is_a: MPATH:433 ! nerve sheath tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:445
+name: papilloma
+namespace: mouse_pathology.ontology
+def: "A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0)." [Pathbase: Pathology Committee]
+is_a: MPATH:264 ! fibroepithelial tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:490
+name: adenomatous polyp
+namespace: mouse_pathology.ontology
+def: "Benign neoplastic growth containing areas of adenomatous structure (progression)." [Pathbase: Curation]
+synonym: "polypoid adenoma, cellular polyp." RELATED [Pathbase: Curation]
+is_a: MPATH:270 ! adenoma
+relationship: part_of MPATH:271 ! adenomatous polyposis coli
+
+[Term]
+id: MPATH:496
+name: Non-Lymphoid leukaemias
+namespace: mouse_pathology.ontology
+def: "Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition." [PMID:12070033]
+xref: URL:http\://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2
+is_a: MPATH:515 ! Non-Lymphoid neoplasias
+
+[Term]
+id: MPATH:513
+name: Lymphoid neoplasms
+namespace: mouse_pathology.ontology
+def: "Neoplasms of the B or T cell lineage." [PMID:12070034]
+is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+
+[Term]
+id: MPATH:515
+name: Non-Lymphoid neoplasias
+namespace: mouse_pathology.ontology
+def: "Hematological neoplasias of non-lymphoid origin." [PMID:12070033]
+xref: URL:http\://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2
+is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+
+[Term]
+id: MPATH:535
+name: T-cell neoplasms
+namespace: mouse_pathology.ontology
+def: "Neoplasms derived from cells of the T lymphocyte lineage." [PMID:12070034]
+is_a: MPATH:513 ! Lymphoid neoplasms
+
+[Term]
+id: MPATH:536
+name: precursor T-cell neoplasms
+namespace: mouse_pathology.ontology
+def: "Neoplasms of precursor T cells." [PMID:12070034]
+is_a: MPATH:535 ! T-cell neoplasms
+
+[Term]
+id: MPATH:537
+name: precursor T-cell lymphoblastic lymphoma/leukaemia
+namespace: mouse_pathology.ontology
+def: "Precursor T cell derived neoplasia. Most commonly found in the thymus." [PMID:12070034]
+synonym: "thymic lymphoma" RELATED [Pathbase: Curation]
+is_a: MPATH:536 ! precursor T-cell neoplasms
+
+[Term]
+id: MPATH:545
+name: hepatocholangiocellular carcinoma
+namespace: mouse_pathology.ontology
+def: "Malignant tumor of unknown origin showing features of hepatocelluar carcinoma and cholangiocarcinoma. (M-8180/3)." [Pathbase: Pathology Committee]
+is_a: MPATH:254 ! complex tumor
+is_a: MPATH:352 ! hepatic tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:549
+name: carcinoma
+namespace: mouse_pathology.ontology
+def: "Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma)." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:551
+name: sarcoma
+namespace: mouse_pathology.ontology
+def: "A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:556
+name: potentially cancerous lesions
+namespace: mouse_pathology.ontology
+def: "Lesions which in some cases have the potential to become progressively growing malignant tumors." [Pathbase: Pathology Committee]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:559
+name: Acinar adenocarcinoma
+namespace: mouse_pathology.ontology
+def: "Tumor composed of small glandular clusters with small lumens." [PMID:10713680]
+is_a: MPATH:268 ! adenocarcinoma
+
+[Term]
+id: MPATH:564
+name: glioblastoma
+namespace: mouse_pathology.ontology
+def: "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3)." [ISBN-13:9783794515530]
+comment: Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.
+synonym: "glioblastoma multiforme" RELATED [Pathbase: Curation]
+synonym: "monstrocytoma" RELATED [Pathbase: Curation]
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:565
+name: tumors of neurepithelial tissue
+namespace: mouse_pathology.ontology
+def: "Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium." [Pathbase: Pathology Committee]
+is_a: MPATH:243 ! central nervous system tumor
+
+[Term]
+id: MPATH:570
+name: peripheral nervous system tumors
+namespace: mouse_pathology.ontology
+def: "Tumors of the peripheral nervous system." [Pathbase: Pathology Committee]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:603
+name: pathological anatomical entity
+namespace: mouse_pathology.ontology
+def: "Anatomically located instance of pathological response or entity." [Pathbase: Pathology Committee]
+is_a: MPATH:0 ! pathological entity
+
+[Term]
+id: MPATH:695
+name: spindle cell sarcoma
+namespace: mouse_pathology.ontology
+is_a: MPATH:551 ! sarcoma
+created_by: George Gkoutos
+creation_date: 2011-02-19T05:12:17Z
+
+[Term]
+id: MPATH:710
+name: embryonal rhabdomyosarcoma
+namespace: mouse_pathology.ontology
+def: "Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle." [ICD-O:8910/3, ICDO-:8912/3]
+comment: Includes spindle cell, botryoid, anaplastic.
+synonym: " Rhabdopoietic Sarcoma" RELATED []
+synonym: " Sarcoma Botryoides [Soft Tissues]" RELATED []
+synonym: "Embryonal Sarcoma" RELATED []
+synonym: "Malignant Rhabdomyoma" RELATED []
+synonym: "Myosarcoma " EXACT []
+is_a: MPATH:428 ! rhabdomyosarcoma
+created_by: Paul
+creation_date: 2011-06-06T03:31:11Z
+
+[Term]
+id: MPATH:722
+name: rhabdomyoma
+namespace: mouse_pathology.ontology
+def: "Benign stromal tumors of the soft tissue with skeletal muscle differentiation." [ICD-O:M-8900/0, PMID:3525381]
+comment: Adult and fetal types.
+is_a: MPATH:423 ! myomatous tumor
+created_by: Paul
+creation_date: 2011-06-06T03:59:49Z
+
+[Typedef]
+id: part_of
+name: part of
+namespace: mouse_pathology.ontology
+is_transitive: true
+

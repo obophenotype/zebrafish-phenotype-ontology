@@ -24,20 +24,21 @@ vars:
   entitytowardspartof: "'entitytowardspartof'"
 
 name:
-  text: "Abnormal(ly) %s of %s (part of %s) in %s"
+  text: "Abnormal(ly) %s (of) %s (%s of %s)"
   vars:
    - quality
+   - entity
    - entitytowards
    - entitytowardspartof
-   - entity
+   
 
 def:
-  text: "Abnormal(ly) %s of %s (part of %s) in %s."
+  text: "Abnormal(ly) %s (of) %s (%s of %s)."
   vars:
    - quality
+   - entity
    - entitytowards
    - entitytowardspartof
-   - entity
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some %s) and ('towards' some (%s and 'part_of' some %s)) and ('qualifier' some 'abnormal'))"

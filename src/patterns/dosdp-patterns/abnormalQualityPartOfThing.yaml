@@ -19,14 +19,14 @@ vars:
   entityitspartof: "'entityitspartof'"
 
 name:
-  text: "Abnormal(ly) %s in %s part of %s"
+  text: "Abnormal(ly) %s (of) %s of %s"
   vars:
    - quality
    - entity
    - entityitspartof
 
 def:
-  text: "Abnormal(ly) %s in %s part of %s."
+  text: "Abnormal(ly) %s (of) %s of %s."
   vars:
    - quality
    - entity
