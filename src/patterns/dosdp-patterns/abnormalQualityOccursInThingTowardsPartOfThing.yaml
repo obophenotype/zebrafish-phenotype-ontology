@@ -1,0 +1,52 @@
+pattern_name: abnormalQualityOccursInThingTowardsPartOfThing
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing
+
+classes:
+  quality: owl:Thing
+  abnormal: PATO:0000460
+  entity: owl:Thing
+  entityitspartof: owl:Thing
+  entitytowards: owl:Thing
+  entitytowardspartof: owl:Thing
+
+relations:
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+  occurs_in: BFO:0000066
+  towards: RO:0002503
+
+vars:
+  entity: "'entity'"
+  quality: "'quality'"
+  entityitspartof: "'entityitspartof'"
+  entitytowards: "'entitytowards'"
+  entitytowardspartof: "'entitytowardspartof'"
+
+name:
+  text: "Abnormal(ly) %s of %s (part of %s) in %s occurring in %s"
+  vars:
+   - quality
+   - entitytowards
+   - entitytowardspartof
+   - entity
+   - entityitspartof
+
+def:
+  text: "Abnormal(ly) %s of %s (part of %s) in %s occurring in %s."
+  vars:
+   - quality
+   - entitytowards
+   - entitytowardspartof
+   - entity
+   - entityitspartof
+
+equivalentTo:
+  text: "'has_part' some (%s and ('inheres_in' some (%s and 'occurs_in' some %s)) and ('towards' some (%s and 'part_of' some %s)) and ('qualifier' some 'abnormal'))"
+  vars:
+    - quality
+    - entity
+    - entityitspartof
+    - entitytowards
+    - entitytowardspartof

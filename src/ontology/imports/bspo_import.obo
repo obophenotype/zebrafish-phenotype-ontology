@@ -1524,6 +1524,16 @@ is_transitive: true
 inverse_of: right_of ! right of
 
 [Typedef]
+id: obsolete_surrounds
+name: obsolete surrounds
+namespace: spatial
+xref: BSPO:0000101
+property_value: seeAlso FBcv:0000048
+property_value: seeAlso FBql:00005861
+is_obsolete: true
+replaced_by: RO:0002221
+
+[Typedef]
 id: opposite_to
 name: opposite to
 namespace: spatial
