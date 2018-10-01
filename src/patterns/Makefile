@@ -17,8 +17,8 @@ query: $(pattern-files)
 
 ZP = zp_newgen.owl
 
-$(ZP):
-	curl -L -O https://raw.githubusercontent.com/matentzn/ontologies/master/zp_newgen.owl
+#$(ZP):
+#	curl -L -O https://raw.githubusercontent.com/matentzn/ontologies/master/zp_newgen.owl
 
 #https://raw.githubusercontent.com/obophenotype/upheno/master/src
 

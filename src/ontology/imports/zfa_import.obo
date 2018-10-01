@@ -6272,6 +6272,18 @@ relationship: part_of ZFA:0001101 ! gustatory system
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
 
 [Term]
+id: ZFA:0001075
+name: choroidal fissure
+namespace: zebrafish_anatomy
+def: "The narrow cleft along the medial wall of the lateral ventricle along the margins of which the choroid plexus is attached; it lies between the upper surface of the thalamus and lateral edge of the fornix in the central part of the ventricle and between the terminal stria and fimbria hippocampi in the inferior horn." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+synonym: "choroidal fissures" EXACT PLURAL []
+xref: TAO:0001075
+is_a: ZFA:0001643 ! anatomical space
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000008 ! brain
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+
+[Term]
 id: ZFA:0001076
 name: intestinal bulb
 namespace: zebrafish_anatomy
@@ -14416,6 +14428,20 @@ relationship: end ZFS:0000000 ! Unknown
 relationship: start ZFS:0000034 ! Hatching:Pec-fin
 created_by: Ceri
 creation_date: 2010-06-28T01:47:43Z
+
+[Term]
+id: ZFA:0005452
+name: tract of the caudal commissure
+namespace: zebrafish_anatomy
+def: "Tract which originates from several clusters of cell bodies in the rostral midbrain, the anterior tegmentum and the nucleus of the posterior commissure.  The neurons that are part of the nucleus of the posterior commissure have axons which course ventrally toward the anterior tegmentum, while the ventral tegmental clusters of neurons have axons which course dorsally along the posterior commissure and cross the dorsal midline to the contralateral side they then turn posteriorly and extend to the posterior region of the tegmentum and eventually into the hindbrain via the tract of the postoptic commissure. ." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-1268, ZFIN:ZDB-PUB-961014-167]
+synonym: "TPC" RELATED [ZFIN:ZDB-PUB-961014-1268]
+synonym: "tract of the posterior commissure" EXACT [ZFIN:ZDB-PUB-961014-421]
+is_a: ZFA:0001682 ! white matter
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000320 ! caudal commissure
+relationship: start ZFS:0000028 ! Segmentation:26+ somites
+created_by: Ceri
+creation_date: 2010-07-21T01:49:43Z
 
 [Term]
 id: ZFA:0005463

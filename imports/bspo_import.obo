@@ -1,6 +1,1433 @@
 format-version: 1.2
 ontology: zp/imports/bspo_import
 
+[Term]
+id: BSPO:0000000
+name: left side
+namespace: spatial
+def: "The side of an organism that is left of the sagittal plane." [BSPO:cjm]
+synonym: "left" EXACT []
+is_a: BSPO:0000054 ! anatomical side
+relationship: left_of BSPO:0000007 ! right side
+relationship: starts_axis BSPO:0000017 ! left-right axis
+
+[Term]
+id: BSPO:0000001
+name: upper side
+namespace: spatial
+comment: Consider merging with superior side.
+synonym: "upper" EXACT []
+is_a: BSPO:0000054 ! anatomical side
+relationship: starts_axis BSPO:0000011 ! upper-lower axis
+
+[Term]
+id: BSPO:0000004
+name: superficial side
+namespace: spatial
+synonym: "superficial" EXACT []
+is_a: BSPO:0000054 ! anatomical side
+relationship: finishes_axis BSPO:0000012 ! deep-superficial axis
+
+[Term]
+id: BSPO:0000005
+name: anatomical surface
+namespace: spatial
+def: "A 2D surface of an anatomical continuant." [BSPO:cjm]
+comment: to be merged into CARO
+synonym: "surface" EXACT []
+xref: FMA:24137
+is_a: CARO:0000010 ! anatomical boundary
+
+[Term]
+id: BSPO:0000006
+name: anatomical margin
+namespace: spatial
+def: "Fiat anatomical region extending a short distance from the boundary of an object inwards." [BSPO:cjm]
+synonym: "edge" EXACT []
+synonym: "margin" EXACT []
+is_a: BSPO:0000070 ! anatomical region
+
+[Term]
+id: BSPO:0000007
+name: right side
+namespace: spatial
+def: "The side of an organism that is right of the sagittal plane." [BSPO:cjm, BSPO:wd]
+synonym: "right" EXACT []
+is_a: BSPO:0000054 ! anatomical side
+relationship: finishes_axis BSPO:0000017 ! left-right axis
+
+[Term]
+id: BSPO:0000010
+name: anatomical axis
+namespace: spatial
+def: "A straight line through space, intersecting an anatomical entity." [BSPO:cjm]
+comment: Axis directions are defined in terms of axes.
+xref: http://upload.wikimedia.org/wikipedia/commons/3/34/Anatomical_Directions_and_Axes.JPG
+is_a: CARO:0000008 ! anatomical line
+relationship: passes_through CARO:0000000 ! anatomical entity
+
+[Term]
+id: BSPO:0000011
+name: upper-lower axis
+namespace: spatial
+def: "An anatomical axis determined by gravity." [BSPO:cjm]
+synonym: "superior-inferior axis" RELATED []
+is_a: BSPO:0000010 ! anatomical axis
+
+[Term]
+id: BSPO:0000012
+name: deep-superficial axis
+namespace: spatial
+def: "An axis that extends from an internal position to a more external position in the body or body part." [BSPO:PM]
+comment: Muscles are frequently categorized as 'deep', 'intermediate', and 'superficial'.
+is_a: BSPO:0000010 ! anatomical axis
+
+[Term]
+id: BSPO:0000013
+name: anterior-posterior axis
+namespace: spatial
+def: "An axis that extends through an organism from head end to opposite end of body or tail." [BSPO:cjm]
+comment: In sponges, AP is used to indicate the direction of movement [in larval stage] (as it is in other metazoans that move, e.g., the basal bilaterians). [PM]
+synonym: "A-P axis" EXACT []
+synonym: "anteroposterior axis" EXACT []
+synonym: "AP axis" EXACT []
+synonym: "cephalocaudal axis" NARROW [http://en.wikipedia.org/wiki/Anatomical_terms_of_location]
+synonym: "craniocaudal axis" NARROW vertebrate []
+synonym: "longitudinal axis" RELATED []
+synonym: "rostral/caudal" NARROW vertebrate []
+synonym: "rostrocaudal axis" NARROW vertebrate []
+is_a: BSPO:0000010 ! anatomical axis
+intersection_of: BSPO:0000010 ! anatomical axis
+intersection_of: orthogonal_to BSPO:0000018 ! transverse plane
+relationship: approximately_perpendicular_to BSPO:0000016 ! dorsal-ventral axis
+relationship: orthogonal_to BSPO:0000018 ! transverse plane
+
+[Term]
+id: BSPO:0000014
+name: apical-basal axis relative to substrate
+namespace: spatial
+def: "An axis that extends through an organism or organism part from the part of the organism or organism part attached to a substrate (basal) to the furthest from the attachment (apical). Note that the apical-basal axis is often used for organismal parts where there is attachment via a basal lamina or other structure." [BSPO:mah]
+synonym: "apical/basal" EXACT []
+synonym: "longitudinal axis" RELATED []
+is_a: BSPO:0000010 ! anatomical axis
+
+[Term]
+id: BSPO:0000015
+name: proximal-distal axis
+namespace: spatial
+def: "An axis that extends from the point of attachment of a structure (proximal) to the  point furthest away from the plane of attachment (distal)." [BSPO:curators, http://en.wikipedia.org/wiki/Anatomical_terms_of_location]
+comment: In some communities, proximal and distal are used when specifying the position of parts of elements that are contained within the body, such as gill arches or vertebral spines. In these cases, use of the classes medial-lateral axis or medial-external axis are more appropriate.
+synonym: "proximal/distal" EXACT []
+synonym: "proximodistal" EXACT []
+is_a: BSPO:0000010 ! anatomical axis
+
+[Term]
+id: BSPO:0000016
+name: dorsal-ventral axis
+namespace: spatial
+def: "An axis that is approximately perpendicular to the anterior-posterior axis and that extends through the horizontal plane of the body." [BSPO:curators]
+synonym: "anterior-posterior axis" NARROW human []
+synonym: "D-V axis" EXACT []
+synonym: "dorsoventral axis" EXACT []
+synonym: "DV axis" EXACT []
+is_a: BSPO:0000010 ! anatomical axis
+intersection_of: BSPO:0000010 ! anatomical axis
+intersection_of: orthogonal_to BSPO:0000019 ! horizontal plane
+relationship: orthogonal_to BSPO:0000019 ! horizontal plane
+
+[Term]
+id: BSPO:0000017
+name: left-right axis
+namespace: spatial
+def: "An axis that bisects an organism from left to right sides of body, through a sagittal plane." [BSPO:cjm]
+synonym: "dextro-sinister axis" EXACT []
+synonym: "L-R axis" EXACT []
+synonym: "left to right axis" EXACT []
+synonym: "LR axis" EXACT []
+synonym: "R-L axis" EXACT []
+synonym: "right to left axis" EXACT []
+synonym: "right-left axis" EXACT []
+synonym: "RL axis" EXACT []
+is_a: BSPO:0000010 ! anatomical axis
+intersection_of: BSPO:0000010 ! anatomical axis
+intersection_of: orthogonal_to BSPO:0000417 ! sagittal plane
+relationship: orthogonal_to BSPO:0000417 ! sagittal plane
+
+[Term]
+id: BSPO:0000018
+name: transverse plane
+namespace: spatial
+def: "Anatomical plane that divides body into anterior and posterior parts." [BSPO:mah]
+synonym: "axial plane" EXACT []
+synonym: "axial section" EXACT []
+synonym: "cross-section" RELATED []
+synonym: "transverse section" EXACT []
+xref: FMA:12247
+is_a: BSPO:0000400 ! anatomical plane
+
+[Term]
+id: BSPO:0000019
+name: horizontal plane
+namespace: spatial
+def: "Anatomical plane that divides bilateral body into dorsal and ventral parts." [BSPO:mah]
+synonym: "coronal section" RELATED []
+synonym: "frontal plane" EXACT []
+synonym: "frontal section" RELATED []
+synonym: "horizontal anatomical plane" EXACT [FMA:52810]
+synonym: "horizontal section" EXACT []
+xref: FMA:52810
+is_a: BSPO:0000400 ! anatomical plane
+
+[Term]
+id: BSPO:0000026
+name: antero-dorsal region
+namespace: spatial
+def: "Anatomical region that overlaps the anterior and dorsal regions of a body or body part." [BSPO:wd]
+synonym: "anterodorsal region " EXACT []
+is_a: BSPO:0000071 ! anterior region
+is_a: BSPO:0000079 ! dorsal region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000063 ! dorsal side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:01:38Z
+
+[Term]
+id: BSPO:0000027
+name: antero-ventral region
+namespace: spatial
+def: "Anatomical region that overlaps the anterior and ventral regions of a body or body part." [BSPO:wd]
+synonym: "anteroventral region " EXACT []
+is_a: BSPO:0000071 ! anterior region
+is_a: BSPO:0000084 ! ventral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000068 ! ventral side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:04:59Z
+
+[Term]
+id: BSPO:0000028
+name: postero-lateral region
+namespace: spatial
+def: "Anatomical region that overlaps the posterior and lateral regions of the body or body part." [BSPO:wd]
+synonym: "posterolateral region" EXACT []
+is_a: BSPO:0000072 ! posterior region
+is_a: BSPO:0000082 ! lateral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000066 ! lateral side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:06:01Z
+
+[Term]
+id: BSPO:0000029
+name: antero-lateral region
+namespace: spatial
+def: "Anatomical region that overlaps the anterior and lateral regions of a body or body part." [BSPO:wd]
+synonym: "anterolateral region" EXACT []
+is_a: BSPO:0000071 ! anterior region
+is_a: BSPO:0000082 ! lateral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000066 ! lateral side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:07:18Z
+
+[Term]
+id: BSPO:0000030
+name: postero-dorsal region
+namespace: spatial
+def: "Anatomical region that overlaps the posterior and dorsal regions of the body or body part." [BSPO:wd]
+synonym: "posterodorsal region" EXACT []
+is_a: BSPO:0000072 ! posterior region
+is_a: BSPO:0000079 ! dorsal region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000063 ! dorsal side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:08:13Z
+
+[Term]
+id: BSPO:0000031
+name: upper region
+namespace: spatial
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000001 ! upper side
+relationship: overlaps BSPO:0000001 ! upper side
+
+[Term]
+id: BSPO:0000034
+name: superficial region
+namespace: spatial
+def: "Anatomical region superficially located on the body or body part." [BSPO:wd]
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000004 ! superficial side
+relationship: overlaps BSPO:0000004 ! superficial side
+
+[Term]
+id: BSPO:0000035
+name: postero-ventral region
+namespace: spatial
+def: "Anatomical region that overlaps the posterior and ventral regions of a body or body part." [BSPO:wd]
+synonym: "posteroventral region" EXACT []
+is_a: BSPO:0000072 ! posterior region
+is_a: BSPO:0000084 ! ventral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000068 ! ventral side
+created_by: Melissa  Haendel
+creation_date: 2009-06-15T01:08:38Z
+
+[Term]
+id: BSPO:0000036
+name: anterior-most region
+namespace: spatial
+synonym: "anterior-most" EXACT []
+synonym: "anteriormost" EXACT []
+is_a: BSPO:0000071 ! anterior region
+created_by: Melissa  Haendel
+creation_date: 2009-06-16T08:49:03Z
+
+[Term]
+id: BSPO:0000037
+name: posterior-most region
+namespace: spatial
+synonym: "posterior-most" EXACT []
+synonym: "posteriormost" EXACT []
+is_a: BSPO:0000072 ! posterior region
+created_by: Melissa  Haendel
+creation_date: 2009-06-16T08:49:50Z
+
+[Term]
+id: BSPO:0000038
+name: dorsal-most region
+namespace: spatial
+synonym: "dorsal-most" EXACT []
+synonym: "dorsalmost" EXACT []
+is_a: BSPO:0000079 ! dorsal region
+created_by: Melissa  Haendel
+creation_date: 2009-06-16T08:50:26Z
+
+[Term]
+id: BSPO:0000039
+name: ventral-most region
+namespace: spatial
+synonym: "ventral-most" EXACT []
+synonym: "ventralmost" EXACT []
+is_a: BSPO:0000084 ! ventral region
+created_by: Melissa  Haendel
+creation_date: 2009-06-16T08:51:07Z
+
+[Term]
+id: BSPO:0000042
+name: antero-medial margin
+namespace: spatial
+def: "Anatomical margin that is located on the antero-medial region of the body or body part." [BSPO:wd<new dbxref>]
+synonym: "anteromedial margin" EXACT []
+is_a: BSPO:0000050 ! antero-medial region
+is_a: BSPO:0000671 ! anterior margin
+is_a: BSPO:0000683 ! medial margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:49:57Z
+
+[Term]
+id: BSPO:0000045
+name: antero-lateral margin
+namespace: spatial
+def: "Anatomical margin that is located on the antero-lateral region of the body or body part." [BSPO:wd]
+synonym: "anterolateral margin" EXACT []
+is_a: BSPO:0000029 ! antero-lateral region
+is_a: BSPO:0000671 ! anterior margin
+is_a: BSPO:0000682 ! lateral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000066 ! lateral side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:50:37Z
+
+[Term]
+id: BSPO:0000046
+name: postero-medial margin
+namespace: spatial
+def: "Anatomical margin that is located on the postero-medial region of the body or body part." [BSPO:wd]
+synonym: "posteromedial margin" EXACT []
+is_a: BSPO:0000064 ! postero-medial region
+is_a: BSPO:0000672 ! posterior margin
+is_a: BSPO:0000683 ! medial margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:51:07Z
+
+[Term]
+id: BSPO:0000047
+name: postero-lateral margin
+namespace: spatial
+def: "Anatomical margin that is located on the postero-lateral region of the body or body part." [BSPO:wd]
+synonym: "posterolateral margin" EXACT []
+is_a: BSPO:0000028 ! postero-lateral region
+is_a: BSPO:0000672 ! posterior margin
+is_a: BSPO:0000682 ! lateral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000066 ! lateral side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:51:42Z
+
+[Term]
+id: BSPO:0000048
+name: dorso-medial margin
+namespace: spatial
+def: "Anatomical margin that is located on the dorso-medial region of the body or body part." [BSPO:wd]
+synonym: "dorso-medial margin" EXACT []
+is_a: BSPO:0000069 ! dorso-medial region
+is_a: BSPO:0000679 ! dorsal margin
+is_a: BSPO:0000683 ! medial margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:52:04Z
+
+[Term]
+id: BSPO:0000049
+name: ventro-medial margin
+namespace: spatial
+def: "Anatomical margin that is located on the ventro-medial region of the body or body part." [BSPO:wd]
+synonym: "ventromedial margin" EXACT []
+is_a: BSPO:0000112 ! ventro-medial region
+is_a: BSPO:0000683 ! medial margin
+is_a: BSPO:0000684 ! ventral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000067 ! medial side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000068 ! ventral side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:52:48Z
+
+[Term]
+id: BSPO:0000050
+name: antero-medial region
+namespace: spatial
+def: "Anatomical region that overlaps the anterior and medial regions of the body or body part." [BSPO:wd]
+synonym: "anteromedial region" EXACT []
+is_a: BSPO:0000071 ! anterior region
+is_a: BSPO:0000083 ! medial region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:55:32Z
+
+[Term]
+id: BSPO:0000054
+name: anatomical side
+namespace: spatial
+def: "An anatomical region bounded by a plane perpendicular to an axis through the middle." [BSPO:cjm]
+xref: FBql:00005841
+is_a: BSPO:0000070 ! anatomical region
+
+[Term]
+id: BSPO:0000055
+name: anterior side
+namespace: spatial
+def: "An anatomical region that is the entire part of an anatomical structure anterior to a transverse plane and bounded on one side by the same transverse plane." [BSPO:RW]
+synonym: "anterior" EXACT []
+synonym: "rostral" EXACT []
+xref: FBcv:0000053
+xref: FBql:00005848
+is_a: BSPO:0000054 ! anatomical side
+relationship: anterior_to BSPO:0000056 ! posterior side
+relationship: opposite_to BSPO:0000056 ! posterior side
+relationship: starts_axis BSPO:0000013 ! anterior-posterior axis
+
+[Term]
+id: BSPO:0000056
+name: posterior side
+namespace: spatial
+def: "An anatomical region that is the entire part of an anatomical structure posterior to a transverse plane and bounded on one side by the same transverse plane." [BSPO:RW, BSPO:wd]
+synonym: "caudal" NARROW vertebrate []
+synonym: "posterior" EXACT []
+xref: FBcv:0000065
+xref: FBql:00005849
+is_a: BSPO:0000054 ! anatomical side
+relationship: finishes_axis BSPO:0000013 ! anterior-posterior axis
+relationship: posterior_to BSPO:0000055 ! anterior side
+
+[Term]
+id: BSPO:0000057
+name: apical side
+namespace: spatial
+def: "Anatomical side that is located on the apical end of an organism or structure." [BSPO:wd]
+synonym: "apical" EXACT []
+xref: FBcv:0000054
+xref: FBql:00005854
+is_a: BSPO:0000054 ! anatomical side
+relationship: opposite_to BSPO:0000058 ! basal side
+relationship: starts_axis BSPO:0000014 ! apical-basal axis relative to substrate
+
+[Term]
+id: BSPO:0000058
+name: basal side
+namespace: spatial
+def: "Anatomical side that is located on the basal end of an organism or structure." [BSPO:wd]
+comment: The part of the organism attached to a substrate. Axis of symmetry.
+synonym: "basal" EXACT []
+xref: FBcv:0000055
+xref: FBql:00005855
+is_a: BSPO:0000054 ! anatomical side
+relationship: finishes_axis BSPO:0000014 ! apical-basal axis relative to substrate
+
+[Term]
+id: BSPO:0000059
+name: central side
+namespace: spatial
+def: "Anatomical side that is centrally located on an organism or structure." [BSPO:wd]
+comment: central is not an axis direction
+synonym: "central" EXACT []
+xref: FBcv:0000056
+xref: FBql:00015851
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000060
+name: contralateral side
+namespace: spatial
+def: "On the opposite side." [BSPO:cjm]
+comment: inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation.
+synonym: "contralateral" EXACT []
+xref: FBcv:0000057
+xref: FBql:00005851
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000061
+name: proximal side
+namespace: spatial
+synonym: "proximal" EXACT []
+xref: FBcv:0000066
+xref: FBql:00005852
+is_a: BSPO:0000054 ! anatomical side
+relationship: opposite_to BSPO:0000062 ! distal side
+relationship: starts_axis BSPO:0000015 ! proximal-distal axis
+
+[Term]
+id: BSPO:0000062
+name: distal side
+namespace: spatial
+def: "Anatomical side that is distally located on an organism or structure." [BSPO:wd]
+synonym: "distal" EXACT []
+xref: FBcv:0000058
+xref: FBql:00005853
+is_a: BSPO:0000054 ! anatomical side
+relationship: distal_to BSPO:0000061 ! proximal side
+relationship: finishes_axis BSPO:0000015 ! proximal-distal axis
+
+[Term]
+id: BSPO:0000063
+name: dorsal side
+namespace: spatial
+def: "An anatomical region that is the entire part of an anatomical structure dorsal to a horizontal plane and bounded on one side by the same transverse plane." [BSPO:wd]
+synonym: "dorsal" EXACT []
+xref: FBcv:0000059
+xref: FBql:00005842
+is_a: BSPO:0000054 ! anatomical side
+relationship: dorsal_to BSPO:0000066 ! lateral side
+relationship: opposite_to BSPO:0000068 ! ventral side
+relationship: starts_axis BSPO:0000016 ! dorsal-ventral axis
+
+[Term]
+id: BSPO:0000064
+name: postero-medial region
+namespace: spatial
+def: "Anatomical region that overlaps the posterior and medial regions of the body or body part." [BSPO:wd]
+synonym: "posteromedial region" EXACT []
+is_a: BSPO:0000072 ! posterior region
+is_a: BSPO:0000083 ! medial region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:56:39Z
+
+[Term]
+id: BSPO:0000065
+name: ipsilateral side
+namespace: spatial
+def: "On the same side" [BSPO:cjm]
+comment: inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation.
+synonym: "ipsilateral" EXACT []
+xref: FBcv:0000062
+xref: FBql:00005850
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000066
+name: lateral side
+namespace: spatial
+synonym: "lateral" EXACT []
+xref: FBcv:0000063
+xref: FBql:00005844
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000067
+name: medial side
+namespace: spatial
+comment: a point in the centre of the organism (where the left-right axis intersects the midsagittal plane)
+synonym: "medial" EXACT []
+xref: FBcv:0000064
+xref: FBql:00005847
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000068
+name: ventral side
+namespace: spatial
+def: "An anatomical region that is the entire part of an anatomical structure ventral to a horizontal plane and bounded on one side by the same horizontal plane." [BSPO:RW, BSPO:wd]
+synonym: "ventral" EXACT []
+xref: FBcv:0000070
+xref: FBql:00005843
+is_a: BSPO:0000054 ! anatomical side
+relationship: finishes_axis BSPO:0000016 ! dorsal-ventral axis
+
+[Term]
+id: BSPO:0000069
+name: dorso-medial region
+namespace: spatial
+def: "Anatomical region that overlaps the dorsal and medial regions of the body or body part." [BSPO:wd]
+synonym: "dorsomedial region" EXACT []
+is_a: BSPO:0000079 ! dorsal region
+is_a: BSPO:0000083 ! medial region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000067 ! medial side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:57:22Z
+
+[Term]
+id: BSPO:0000070
+name: anatomical region
+namespace: spatial
+def: "A 3D region in space without well-defined compartmental boundaries; for example, the dorsal region of an ectoderm." [BSPO:cjm]
+comment: to be merged into CARO
+xref: FBql:00005841
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
+id: BSPO:0000071
+name: anterior region
+namespace: spatial
+def: "Anatomical region anteriorly located on the body or body part." [BSPO:wd]
+xref: FBql:00005848
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000055 ! anterior side
+
+[Term]
+id: BSPO:0000072
+name: posterior region
+namespace: spatial
+def: "Anatomical region posteriorly located on the body or body part." [BSPO:wd]
+xref: FBql:00005849
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000056 ! posterior side
+
+[Term]
+id: BSPO:0000073
+name: apical region
+namespace: spatial
+def: "Anatomical region located on the apical end on the body or body part." [BSPO:wd]
+xref: FBql:00005854
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000057 ! apical side
+relationship: overlaps BSPO:0000057 ! apical side
+
+[Term]
+id: BSPO:0000074
+name: basal region
+namespace: spatial
+def: "Anatomical region located basally on the body or body part." [BSPO:wd]
+xref: FBql:00005855
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000058 ! basal side
+relationship: overlaps BSPO:0000058 ! basal side
+
+[Term]
+id: BSPO:0000075
+name: central region
+namespace: spatial
+def: "Anatomical region centrally located on the body or body part." [BSPO:wd]
+xref: FBql:00015851
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000059 ! central side
+relationship: overlaps BSPO:0000059 ! central side
+
+[Term]
+id: BSPO:0000076
+name: contralateral region
+namespace: spatial
+comment: inherited from flybase cv. not clear how this would be used
+xref: FBql:00005851
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000060 ! contralateral side
+relationship: overlaps BSPO:0000060 ! contralateral side
+
+[Term]
+id: BSPO:0000077
+name: proximal region
+namespace: spatial
+def: "Anatomical region proximally located on the body or body part." [BSPO:wd]
+xref: FBql:00005852
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000061 ! proximal side
+relationship: overlaps BSPO:0000061 ! proximal side
+
+[Term]
+id: BSPO:0000078
+name: distal region
+namespace: spatial
+def: "Anatomical region distally located on the body or body part." [BSPO:wd]
+xref: FBql:00005853
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000062 ! distal side
+relationship: overlaps BSPO:0000062 ! distal side
+
+[Term]
+id: BSPO:0000079
+name: dorsal region
+namespace: spatial
+def: "Anatomical region dorsally located on the body or body part." [BSPO:wd]
+xref: FBql:00005842
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000063 ! dorsal side
+
+[Term]
+id: BSPO:0000080
+name: dorso-lateral region
+namespace: spatial
+def: "Anatomical region that overlaps the dorsal and lateral regions of a body or body part." [BSPO:wd]
+synonym: "dorsolateral region" EXACT []
+xref: FBql:00005845
+is_a: BSPO:0000079 ! dorsal region
+is_a: BSPO:0000082 ! lateral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000066 ! lateral side
+
+[Term]
+id: BSPO:0000081
+name: ipsilateral region
+namespace: spatial
+xref: FBql:00005850
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000065 ! ipsilateral side
+relationship: overlaps BSPO:0000065 ! ipsilateral side
+
+[Term]
+id: BSPO:0000082
+name: lateral region
+namespace: spatial
+def: "Anatomical region laterally located on the body or body part." [BSPO:wd]
+xref: FBql:00005844
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000066 ! lateral side
+
+[Term]
+id: BSPO:0000083
+name: medial region
+namespace: spatial
+def: "Anatomical region medially located on the body or body part." [BSPO:wd]
+xref: FBql:00005847
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000067 ! medial side
+
+[Term]
+id: BSPO:0000084
+name: ventral region
+namespace: spatial
+def: "Anatomical region ventrally located on the body or body part." [BSPO:wd]
+xref: FBql:00005843
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000085
+name: ventro-lateral region
+namespace: spatial
+def: "Anatomical region that overlaps the ventral and lateral regions of a body or body part." [BSPO:wd]
+comment: This is an example of a composition of two axis positions.
+synonym: "ventrolateral region" EXACT []
+xref: FBql:00005846
+is_a: BSPO:0000082 ! lateral region
+is_a: BSPO:0000084 ! ventral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000066 ! lateral side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000086
+name: anatomical compartment
+namespace: spatial
+comment: to be merged into CARO
+xref: FBql:00005873
+xref: FMA:9647
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
+id: BSPO:0000087
+name: anterior compartment
+namespace: spatial
+xref: FBcv:0000031
+xref: FBql:00005874
+is_a: BSPO:0000086 ! anatomical compartment
+
+[Term]
+id: BSPO:0000088
+name: compartment boundary
+namespace: spatial
+xref: FBcv:0000032
+xref: FBql:00005878
+is_a: BSPO:0000086 ! anatomical compartment
+
+[Term]
+id: BSPO:0000089
+name: dorsal compartment
+namespace: spatial
+xref: FBcv:0000035
+xref: FBql:00005876
+is_a: BSPO:0000086 ! anatomical compartment
+
+[Term]
+id: BSPO:0000092
+name: anatomical compartment boundary
+namespace: spatial
+comment: to be merged into CARO
+xref: FBql:00005881
+is_a: CARO:0000010 ! anatomical boundary
+
+[Term]
+id: BSPO:0000093
+name: anterior/posterior compartment boundary
+namespace: spatial
+xref: FBcv:0000033
+xref: FBql:00005880
+is_a: BSPO:0000092 ! anatomical compartment boundary
+
+[Term]
+id: BSPO:0000112
+name: ventro-medial region
+namespace: spatial
+def: "The region corresponding to the ventral region of the entity, towards the midline." [BSPO:wd]
+synonym: "medioventral region" EXACT []
+synonym: "ventromedial region" EXACT []
+is_a: BSPO:0000083 ! medial region
+is_a: BSPO:0000084 ! ventral region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000067 ! medial side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000068 ! ventral side
+created_by: Melissa  Haendel
+creation_date: 2009-09-10T08:57:54Z
+
+[Term]
+id: BSPO:0000127
+name: peripheral region
+namespace: spatial
+def: "Anatomical region peripherally located on the body or body part." [BSPO:wd]
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000129 ! peripheral side
+relationship: overlaps BSPO:0000129 ! peripheral side
+
+[Term]
+id: BSPO:0000128
+name: axial region
+namespace: spatial
+is_a: BSPO:0000070 ! anatomical region
+intersection_of: BSPO:0000070 ! anatomical region
+intersection_of: overlaps BSPO:0000130 ! axial side
+relationship: overlaps BSPO:0000130 ! axial side
+
+[Term]
+id: BSPO:0000129
+name: peripheral side
+namespace: spatial
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000130
+name: axial side
+namespace: spatial
+is_a: BSPO:0000054 ! anatomical side
+
+[Term]
+id: BSPO:0000196
+name: medial-external axis
+namespace: spatial
+def: "An anatomical axis that extends from the center of the body outwards or externally." [BSPO:curators]
+comment: The medial-external axis could apply to a sphere-shaped body.
+synonym: "proximal-distal axis" RELATED []
+is_a: BSPO:0000010 ! anatomical axis
+created_by: wasila.dahdul
+creation_date: 2013-07-02T11:21:42Z
+
+[Term]
+id: BSPO:0000199
+name: animal-vegetal axis
+namespace: spatial
+def: "An axis that extends from the animal end of an egg or early embryo to the opposite, vegetal end. In animals with yolk-bearing eggs, the vegetal end is the yolk bearing pole. (pertains to animals only - both vertebrate and invertebrate embryos)." [BSPO:PM]
+synonym: "A-V axis" EXACT []
+synonym: "animal/vegetal axis" EXACT []
+synonym: "AV axis" EXACT []
+is_a: BSPO:0000010 ! anatomical axis
+created_by: wasila.dahdul
+creation_date: 2013-07-02T11:30:13Z
+
+[Term]
+id: BSPO:0000371
+name: anterior surface
+namespace: spatial
+def: "Anatomical surface that is located on the anterior side of the body or body part." [BSPO:wd]
+xref: FBql:00005848
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000055 ! anterior side
+relationship: surface_of BSPO:0000055 ! anterior side
+
+[Term]
+id: BSPO:0000372
+name: posterior surface
+namespace: spatial
+def: "Anatomical surface that is located on the posterior side of the body or body part." [BSPO:wd]
+xref: FBql:00005849
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000056 ! posterior side
+relationship: surface_of BSPO:0000056 ! posterior side
+
+[Term]
+id: BSPO:0000373
+name: apical surface
+namespace: spatial
+def: "Anatomical surface that is located on the apical side of the body or body part." [BSPO:wd]
+xref: FBql:00005854
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000057 ! apical side
+relationship: surface_of BSPO:0000057 ! apical side
+
+[Term]
+id: BSPO:0000374
+name: basal surface
+namespace: spatial
+def: "Anatomical surface that is located on the basal side of the body or body part." [BSPO:wd]
+xref: FBql:00005855
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000058 ! basal side
+relationship: surface_of BSPO:0000058 ! basal side
+
+[Term]
+id: BSPO:0000376
+name: contralateral surface
+namespace: spatial
+xref: FBql:00005851
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000060 ! contralateral side
+relationship: surface_of BSPO:0000060 ! contralateral side
+
+[Term]
+id: BSPO:0000377
+name: proximal surface
+namespace: spatial
+def: "Anatomical surface that is located on the proximal side of the body or body part." [BSPO:wd]
+xref: FBql:00005852
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000061 ! proximal side
+relationship: surface_of BSPO:0000061 ! proximal side
+
+[Term]
+id: BSPO:0000378
+name: distal surface
+namespace: spatial
+def: "Anatomical surface that is located on the distal side of the body or body part." [BSPO:wd]
+xref: FBql:00005853
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000062 ! distal side
+relationship: surface_of BSPO:0000062 ! distal side
+
+[Term]
+id: BSPO:0000379
+name: dorsal surface
+namespace: spatial
+def: "Anatomical surface that located on the dorsal side of the body or body part." [BSPO:wd]
+xref: FBql:00005842
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000063 ! dorsal side
+relationship: surface_of BSPO:0000063 ! dorsal side
+
+[Term]
+id: BSPO:0000381
+name: ipsilateral surface
+namespace: spatial
+def: "Anatomical surface that is located on the same side of an organism or structure." [BSPO:wd]
+xref: FBql:00005850
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000065 ! ipsilateral side
+relationship: surface_of BSPO:0000065 ! ipsilateral side
+
+[Term]
+id: BSPO:0000382
+name: lateral surface
+namespace: spatial
+def: "Anatomical surface that located on the lateral side of the body or body part." [BSPO:wd]
+xref: FBql:00005844
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000066 ! lateral side
+relationship: surface_of BSPO:0000066 ! lateral side
+
+[Term]
+id: BSPO:0000383
+name: medial surface
+namespace: spatial
+def: "Anatomical surface that located on the medial side of the body or body part." [BSPO:wd]
+xref: FBql:00005847
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000067 ! medial side
+relationship: surface_of BSPO:0000067 ! medial side
+
+[Term]
+id: BSPO:0000384
+name: ventral surface
+namespace: spatial
+def: "Anatomical surface that is located on the ventral side of the body or body part." [BSPO:wd]
+xref: FBql:00005843
+is_a: BSPO:0000005 ! anatomical surface
+intersection_of: BSPO:0000005 ! anatomical surface
+intersection_of: surface_of BSPO:0000068 ! ventral side
+relationship: surface_of BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000400
+name: anatomical plane
+namespace: spatial
+def: "A flat 2D plane intersecting an anatomical continuant, dividing it into two adjacent portions." [BSPO:cjm]
+comment: These anatomical sections are applicable to most bilaterally symmetrical animals, but bipedal animals such as humans have more complex usage of these terms. For example, in post-embryonic humans a coronal plane is vertical and a transverse plane is horizontal, but for embryos and quadrupeds a coronal plane is horizontal and a transverse plane is vertical.
+synonym: "anatomical cross-section" EXACT []
+synonym: "anatomical section" EXACT []
+synonym: "cross-section" RELATED []
+synonym: "plane" EXACT []
+synonym: "section" EXACT []
+xref: FMA:242982
+is_a: CARO:0000010 ! anatomical boundary
+
+[Term]
+id: BSPO:0000417
+name: sagittal plane
+namespace: spatial
+def: "Anatomical plane that divides a bilateral body into left and right parts, not necessarily of even size." [BSPO:cjm, BSPO:DOS, BSPO:mah]
+synonym: "left/right plane" EXACT []
+synonym: "median plane" EXACT []
+synonym: "sagittal section" EXACT []
+xref: FMA:11361
+is_a: BSPO:0000010 ! anatomical axis
+is_a: BSPO:0000400 ! anatomical plane
+intersection_of: BSPO:0000400 ! anatomical plane
+intersection_of: orthogonal_to BSPO:0000017 ! left-right axis
+intersection_of: parallel_to BSPO:0000013 ! anterior-posterior axis
+intersection_of: parallel_to BSPO:0000016 ! dorsal-ventral axis
+
+[Term]
+id: BSPO:0000671
+name: anterior margin
+namespace: spatial
+def: "Anatomical margin that is located on the anterior side of a body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000071 ! anterior region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000055 ! anterior side
+
+[Term]
+id: BSPO:0000672
+name: posterior margin
+namespace: spatial
+def: "Anatomical margin that is located on the posterior side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000072 ! posterior region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000056 ! posterior side
+
+[Term]
+id: BSPO:0000673
+name: apical margin
+namespace: spatial
+def: "Anatomical margin that is located on the apical side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000073 ! apical region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000057 ! apical side
+relationship: overlaps BSPO:0000057 ! apical side
+
+[Term]
+id: BSPO:0000674
+name: basal margin
+namespace: spatial
+def: "Anatomical margin that is located on the basal side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000074 ! basal region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000058 ! basal side
+relationship: overlaps BSPO:0000058 ! basal side
+
+[Term]
+id: BSPO:0000677
+name: proximal margin
+namespace: spatial
+def: "Anatomical margin that is located on the proximal region of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000077 ! proximal region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000061 ! proximal side
+relationship: overlaps BSPO:0000061 ! proximal side
+
+[Term]
+id: BSPO:0000678
+name: distal margin
+namespace: spatial
+def: "Anatomical margin that is located on the distal side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000078 ! distal region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000062 ! distal side
+relationship: overlaps BSPO:0000062 ! distal side
+
+[Term]
+id: BSPO:0000679
+name: dorsal margin
+namespace: spatial
+def: "Anatomical margin that is located on the dorsal side of body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000079 ! dorsal region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000063 ! dorsal side
+
+[Term]
+id: BSPO:0000680
+name: dorso-lateral margin
+namespace: spatial
+def: "Anatomical margin that is located on the dorso-lateral region of the body or body part." [BSPO:wd]
+synonym: "dorsolateral margin" EXACT []
+is_a: BSPO:0000080 ! dorso-lateral region
+is_a: BSPO:0000679 ! dorsal margin
+is_a: BSPO:0000682 ! lateral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000066 ! lateral side
+
+[Term]
+id: BSPO:0000682
+name: lateral margin
+namespace: spatial
+def: "Anatomical margin that is located on the lateral side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000082 ! lateral region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000066 ! lateral side
+
+[Term]
+id: BSPO:0000683
+name: medial margin
+namespace: spatial
+def: "Anatomical margin that is located on the medial side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000083 ! medial region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000067 ! medial side
+relationship: overlaps BSPO:0000067 ! medial side
+
+[Term]
+id: BSPO:0000684
+name: ventral margin
+namespace: spatial
+def: "Anatomical margin that is located on the ventral side of the body or body part." [BSPO:wd]
+is_a: BSPO:0000006 ! anatomical margin
+is_a: BSPO:0000084 ! ventral region
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000685
+name: ventro-lateral margin
+namespace: spatial
+def: "Anatomical margin that is located on the ventro-lateral region of the body or body part." [BSPO:wd]
+comment: This is an example of a composition of two axis positions
+synonym: "ventrolateral margin" EXACT []
+is_a: BSPO:0000085 ! ventro-lateral region
+is_a: BSPO:0000682 ! lateral margin
+is_a: BSPO:0000684 ! ventral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000066 ! lateral side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000066 ! lateral side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000686
+name: antero-dorsal margin
+namespace: spatial
+def: "Anatomical margin that is located on the antero-dorso region of the body or body part." [BSPO:wd]
+synonym: "anterodorsal margin" EXACT []
+is_a: BSPO:0000026 ! antero-dorsal region
+is_a: BSPO:0000671 ! anterior margin
+is_a: BSPO:0000679 ! dorsal margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000063 ! dorsal side
+
+[Term]
+id: BSPO:0000687
+name: postero-dorsal margin
+namespace: spatial
+def: "Anatomical margin that is located on the postero-dorsal region of the body or body part." [BSPO:wd]
+synonym: "posterodorsal margin" EXACT []
+is_a: BSPO:0000030 ! postero-dorsal region
+is_a: BSPO:0000672 ! posterior margin
+is_a: BSPO:0000679 ! dorsal margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000063 ! dorsal side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000063 ! dorsal side
+
+[Term]
+id: BSPO:0000688
+name: antero-ventral margin
+namespace: spatial
+def: "Anatomical margin that is located on the antero-ventral region of the body or body part." [BSPO:wd]
+synonym: "anteroventral margin" EXACT []
+is_a: BSPO:0000027 ! antero-ventral region
+is_a: BSPO:0000671 ! anterior margin
+is_a: BSPO:0000684 ! ventral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000055 ! anterior side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000055 ! anterior side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0000689
+name: postero-ventral margin
+namespace: spatial
+def: "Anatomical margin that is located on the postero-ventral region of the body or body part." [BSPO:wd]
+synonym: "posteroventral margin" EXACT []
+is_a: BSPO:0000035 ! postero-ventral region
+is_a: BSPO:0000672 ! posterior margin
+is_a: BSPO:0000684 ! ventral margin
+intersection_of: BSPO:0000006 ! anatomical margin
+intersection_of: overlaps BSPO:0000056 ! posterior side
+intersection_of: overlaps BSPO:0000068 ! ventral side
+relationship: overlaps BSPO:0000056 ! posterior side
+relationship: overlaps BSPO:0000068 ! ventral side
+
+[Term]
+id: BSPO:0001001
+name: medial-lateral axis
+namespace: spatial
+def: "An axis that extends from the center of organism to one or other side." [BSPO:cjm]
+comment: Properly, the ML axis is a half axis; practically, its usage is less clumsy and less linguistically biased than "left-right". The terms may still be used relatively to describe locations along the LR axis. The gills are medial to the operculum, but lateral to the heart.
+synonym: "M-L axis" EXACT []
+synonym: "medio-lateral axis" EXACT []
+synonym: "mediolateral axis" EXACT []
+synonym: "ML axis" EXACT []
+synonym: "proximal-distal axis " RELATED []
+xref: http://upload.wikimedia.org/wikipedia/commons/3/34/Anatomical_Directions_and_Axes.JPG
+is_a: BSPO:0000196 ! medial-external axis
+
+[Term]
+id: CARO:0000000
+name: anatomical entity
+namespace: spatial
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [CARO:MAH]
+
+[Term]
+id: CARO:0000003
+name: anatomical structure
+namespace: spatial
+def: "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." [CC:DOS]
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+namespace: spatial
+def: "An anatomical entity that has mass." [CC:DOS]
+is_a: CARO:0000000 ! anatomical entity
+
+[Term]
+id: CARO:0000007
+name: immaterial anatomical entity
+namespace: spatial
+def: "An anatomical entity that has no mass." [CC:DOS]
+is_a: CARO:0000000 ! anatomical entity
+
+[Term]
+id: CARO:0000008
+name: anatomical line
+namespace: spatial
+def: "A one dimensional, immaterial anatomical entity." [CC:DOS]
+is_a: CARO:0000007 ! immaterial anatomical entity
+
+[Term]
+id: CARO:0000010
+name: anatomical boundary
+namespace: spatial
+def: "A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures." [CC:DOS]
+is_a: CARO:0000007 ! immaterial anatomical entity
+
+[Typedef]
+id: adjacent_to
+name: adjacent to
+namespace: spatial
+xref: RO:0002220
+is_symmetric: true
+
+[Typedef]
+id: anterior_to
+name: anterior to
+namespace: spatial
+def: "x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail." [BSPO:cjm]
+synonym: "rostral_to" EXACT []
+xref: BSPO:0000096
+property_value: seeAlso FBcv:0000039
+property_value: seeAlso FBql:00005863
+is_transitive: true
+inverse_of: posterior_to ! posterior to
+
+[Typedef]
+id: approximately_perpendicular_to
+name: approximately perpendicular to
+namespace: spatial
+def: "Crosses at an angle that is 90 degrees, or close to 90 degrees. In any non-linear organism, the main axes are rarely perpendicular when taken through the organism as a whole." [BSPO:cjm]
+xref: BSPO:0000104
+domain: BSPO:0000010 ! anatomical axis
+range: BSPO:0000010 ! anatomical axis
+
+[Typedef]
+id: deep_to
+name: deep to
+namespace: spatial
+def: "Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines." [BSPO:cjm]
+xref: BSPO:0000107
+is_transitive: true
+inverse_of: superficial_to ! superficial to
+
+[Typedef]
+id: distal_to
+name: distal to
+namespace: spatial
+def: "x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal)." [BSPO:cjm]
+xref: BSPO:0000097
+property_value: seeAlso FBcv:0000040
+property_value: seeAlso FBql:00005867
+is_transitive: true
+inverse_of: proximal_to ! proximal to
+
+[Typedef]
+id: dorsal_to
+name: dorsal to
+namespace: spatial
+def: "x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly)." [BSPO:cjm]
+xref: BSPO:0000098
+property_value: seeAlso FBcv:0000041
+property_value: seeAlso FBql:00005865
+is_transitive: true
+inverse_of: ventral_to ! ventral to
+
+[Typedef]
+id: finishes_axis
+name: finishes axis
+namespace: spatial
+comment: A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. If s finishes axis x, and x has end point p, then x overlaps p
+xref: BSPO:0015001
+domain: BSPO:0000054 ! anatomical side
+range: BSPO:0000010 ! anatomical axis
+
 [Typedef]
 id: has_part
 name: has part
@@ -9,10 +1436,220 @@ xref: BFO:0000051
 is_transitive: true
 
 [Typedef]
+id: immediately_deep_to
+name: immediately deep to
+namespace: spatial
+def: "x immediately deep to y iff x deep_to y and x is contiguous with y." [BSPO:curators]
+xref: BSPO:0001107
+is_a: deep_to ! deep to
+inverse_of: immediately_superficial_to ! immediately superficial to
+
+[Typedef]
+id: immediately_superficial_to
+name: immediately superficial to
+namespace: spatial
+def: "x immediately superficial to y iff x superficial to y and x is contiguous with y." [BSPO:curators]
+xref: BSPO:0015014
+is_a: superficial_to ! superficial to
+
+[Typedef]
+id: in_anterior_side_of
+name: in anterior side of
+namespace: spatial
+def: "X anterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the anterior portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000123
+is_a: part_of ! part of
+
+[Typedef]
+id: in_distal_side_of
+name: in distal side of
+namespace: spatial
+def: "x in distal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the distal portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000125
+is_a: part_of ! part of
+
+[Typedef]
+id: in_lateral_side_of
+name: in lateral side of
+namespace: spatial
+def: "X in lateral side of Y <=> if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure" [UBERON:cjm]
+xref: BSPO:0000126
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern xsd:anyURI
+is_a: part_of ! part of
+
+[Typedef]
+id: in_left_side_of
+name: in left side of
+namespace: spatial
+def: "X in left side of Y <=> if Y is subdivided into two left and right portions, X is part of the left portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000120
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern xsd:anyURI
+is_a: in_lateral_side_of ! in lateral side of
+inverse_of: in_right_side_of ! in right side of
+
+[Typedef]
+id: in_proximal_side_of
+name: in proximal side of
+namespace: spatial
+def: "x in proximal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the proximal portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000124
+is_a: part_of ! part of
+
+[Typedef]
+id: in_right_side_of
+name: in right side of
+namespace: spatial
+def: "X in right side of Y <=> if Y is subdivided into two left and right portions, X is part of the right portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000121
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern xsd:anyURI
+is_a: in_lateral_side_of ! in lateral side of
+
+[Typedef]
+id: ipsilateral_to
+name: ipsilateral to
+namespace: spatial
+def: "On the same side as. For example, the left arm is ipsilateral to the left leg." [BSPO:cjm]
+xref: BSPO:0000105
+property_value: seeAlso FBql:00005850
+is_symmetric: true
+is_a: in_lateral_side_of ! in lateral side of
+
+[Typedef]
+id: left_of
+name: left of
+namespace: spatial
+def: "Closer to the left side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y <=> every instance x of X is left of some instance y of Y, and there exists some organism o such that x part of o and y part of o." [BSPO:cjm]
+xref: BSPO:0000110
+is_transitive: true
+inverse_of: right_of ! right of
+
+[Typedef]
+id: obsolete_surrounds
+name: obsolete surrounds
+namespace: spatial
+xref: BSPO:0000101
+property_value: seeAlso FBcv:0000048
+property_value: seeAlso FBql:00005861
+is_obsolete: true
+replaced_by: RO:0002221
+
+[Typedef]
+id: opposite_to
+name: opposite to
+namespace: spatial
+def: "Direcly opposite to. i.e. on the opposite side through the axis." [BSPO:cjm]
+xref: BSPO:0000113
+is_a: ipsilateral_to ! ipsilateral to
+
+[Typedef]
+id: orthogonal_to
+name: orthogonal to
+namespace: spatial
+def: "crossing at right angles" [BSPO:cjm]
+xref: BSPO:0015005
+domain: BSPO:0000010 ! anatomical axis
+range: BSPO:0000400 ! anatomical plane
+
+[Typedef]
+id: overlaps
+name: overlaps
+namespace: spatial
+def: "x overlaps y iff they have some part in common." [BSPO:cjm]
+comment: "(forall (x y) (iff (overlaps x y) (exists (z) (and (part of z x) (part of z y)))))" CLIF []
+xref: RO:0002131
+
+[Typedef]
+id: parallel_to
+name: parallel to
+namespace: spatial
+def: "x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross." [BSPO:curators]
+
+[Typedef]
 id: part_of
 name: part of
 namespace: spatial
 xref: BFO:0000050
 is_transitive: true
 inverse_of: has_part ! has part
+
+[Typedef]
+id: passes_through
+name: passes through
+namespace: spatial
+def: "Intersects at two points." [BSPO:cjm]
+xref: BSPO:0015006
+domain: BSPO:0000010 ! anatomical axis
+
+[Typedef]
+id: posterior_to
+name: posterior to
+namespace: spatial
+def: "x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail." [BSPO:cjm]
+synonym: "caudal to" NARROW vertebrate []
+xref: BSPO:0000099
+property_value: seeAlso FBcv:0000045
+property_value: seeAlso FBql:00005864
+is_transitive: true
+
+[Typedef]
+id: proximal_to
+name: proximal to
+namespace: spatial
+def: "x proximal to y iff x is closer to the point of attachment with the body than y." [BSPO:cjm]
+comment: The elbow is proximal to the hand, but distal to the shoulder.
+xref: BSPO:0000100
+property_value: seeAlso FBcv:0000047
+property_value: seeAlso FBql:00005868
+is_transitive: true
+
+[Typedef]
+id: proximalmost_part_of
+name: proximalmost part of
+namespace: spatial
+def: "X proximalmost part of Y <=> X is in proximal side of Y and X is adjacent to the proximal boundary of Y" [https://orcid.org/0000-0002-6601-2165]
+xref: BSPO:0001106
+is_a: in_proximal_side_of ! in proximal side of
+
+[Typedef]
+id: right_of
+name: right of
+namespace: spatial
+def: "Closer to the right side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y <=> every instance x of X is right of some instance y of Y, and there exists some organism o such that x part of o and y part of o." [BSPO:cjm]
+xref: BSPO:0000111
+is_transitive: true
+
+[Typedef]
+id: starts_axis
+name: starts axis
+namespace: spatial
+comment: A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. . If s starts axis x, and x has start point p, then x overlaps p
+xref: BSPO:0015007
+domain: BSPO:0000054 ! anatomical side
+range: BSPO:0000010 ! anatomical axis
+
+[Typedef]
+id: superficial_to
+name: superficial to
+namespace: spatial
+def: "Near the outer surface of the organism. Thus, skin is superficial to the muscle layer." [BSPO:cjm]
+xref: BSPO:0000108
+is_transitive: true
+
+[Typedef]
+id: surface_of
+name: surface of
+namespace: spatial
+comment: placeholder. used for relation between anatomical surface and an anatomical side.
+xref: BSPO:0015008
+domain: BSPO:0000005 ! anatomical surface
+
+[Typedef]
+id: ventral_to
+name: ventral to
+namespace: spatial
+def: "x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly)." [BSPO:cjm]
+xref: BSPO:0000102
+property_value: seeAlso FBcv:0000049
+property_value: seeAlso FBql:00005866
+is_transitive: true
 
