@@ -16,13 +16,15 @@ synonym: "e-" RELATED [KEGG_COMPOUND]
 synonym: "electron" EXACT [KEGG_COMPOUND]
 synonym: "electron" EXACT IUPAC_NAME [IUPAC]
 synonym: "electron" EXACT [ChEBI]
+synonym: "Elektron" RELATED [ChEBI]
 synonym: "negatron" RELATED [IUPAC]
 xref: KEGG:C05359
 xref: PMID:21614077 "Europe PMC"
+xref: Wikipedia:Electron
 is_a: CHEBI:36338 ! lepton
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "0.000548579903" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*-]" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "0.0" xsd:string
 
 [Term]
 id: CHEBI:12164
@@ -5673,7 +5675,6 @@ subset: 3_STAR
 synonym: "glicosaminoglicano" RELATED [IUPAC]
 synonym: "Glycosaminoglycan" EXACT [KEGG_COMPOUND]
 synonym: "glycosaminoglycan" EXACT IUPAC_NAME [IUPAC]
-synonym: "glycosaminoglycan" EXACT [UniProt]
 synonym: "glycosaminoglycane" RELATED [IUPAC]
 synonym: "glycosaminoglycans" RELATED [ChEBI]
 synonym: "Glykosaminoglykan" RELATED [ChEBI]
@@ -6974,8 +6975,8 @@ name: cytidine phosphate
 namespace: chebi_ontology
 subset: 3_STAR
 synonym: "cytidine phosphates" RELATED [ChEBI]
-is_a: CHEBI:23524 ! cytidines
 is_a: CHEBI:25608 ! nucleoside phosphate
+relationship: has_functional_parent CHEBI:16040 ! cytosine
 
 [Term]
 id: CHEBI:23524
@@ -16393,7 +16394,6 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: "adenosine 5'-phosphates" RELATED [ChEBI]
 is_a: CHEBI:22256 ! adenosine phosphate
-is_a: CHEBI:37021 ! purine ribonucleoside 5'-monophosphate
 
 [Term]
 id: CHEBI:37142
@@ -19039,7 +19039,6 @@ alt_id: CHEBI:35319
 alt_id: CHEBI:7758
 def: "A compound in which monosaccharide units are joined by glycosidic linkages. The term is commonly used to refer to a defined structure as opposed to a polymer of unspecified length or a homologous mixture. When the linkages are of other types the compounds are regarded as oligosaccharide analogues." []
 subset: 3_STAR
-synonym: "an oligosaccharide" RELATED [UniProt]
 synonym: "O-glycosylglycoside" RELATED [ChEBI]
 synonym: "O-glycosylglycosides" RELATED [ChEBI]
 synonym: "oligosacarido" RELATED [ChEBI]
@@ -23622,6 +23621,7 @@ namespace: chebi_ontology
 def: "An anionic phospholipid obtained by deprotonation of the phospho groups of any phosphatidylinositol bisphosphate; major species at pH 7.3." []
 subset: 3_STAR
 synonym: "1,2-diacylglycero-3-phospho-1-inositol bisphosphate(5-)" RELATED [ChEBI]
+synonym: "phosphatidylinositol bisphosphate" RELATED [UniProt]
 is_a: CHEBI:62643 ! anionic phospholipid
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C11H14O19P3R2" xsd:string
 
@@ -23816,8 +23816,8 @@ name: 2-saturated fatty acid anion
 namespace: chebi_ontology
 def: "A fatty acid anion obtained by deprotonation of the carboxy group of any 2-saturated fatty acid." []
 subset: 3_STAR
-synonym: "1,2-saturated fatty acid" RELATED [UniProt]
 synonym: "1,2-saturated fatty acid anion" RELATED [ChEBI]
+synonym: "a 1,2-saturated fatty acid" RELATED [UniProt]
 is_a: CHEBI:28868 ! fatty acid anion
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H2O2R" xsd:string

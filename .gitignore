@@ -12,3 +12,4 @@ src/ontology/ed_definitions_merged.owl
 src/ontology/patterns
 .DS_Store
 src/.DS_Store
+src/ontology/zp-merged.owl

@@ -32,60 +32,60 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 #   Classes
 ############################
 
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> (Abnormal(ly) 'quality' (of) 'entity')
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> ('entity' 'quality', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "Abnormal(ly) 'quality' (of) 'entity'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "abnormalQualityOfThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "Abnormal(ly) 'quality' (of) 'entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "'entity' 'quality', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> (Abnormal(ly) 'quality' (of) 'entity' ('entitytowards' of 'entitytowardspartof'))
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> ('entity' 'quality' 'entitytowardspartof' 'entitytowards', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' ('entitytowards' of 'entitytowardspartof')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "abnormalQualityOfThingTowardsPartOfThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' ('entitytowards' of 'entitytowardspartof')"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "'entity' 'quality' 'entitytowardspartof' 'entitytowards', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> (Abnormal(ly) 'quality' (of) 'entity' ('entitytowards'))
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> ('entity' 'quality' 'entitytowards', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "Abnormal(ly) 'quality' (of) 'entity' ('entitytowards')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "abnormalQualityOfThingTowardsThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "Abnormal(ly) 'quality' (of) 'entity' ('entitytowards')"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "'entity' 'quality' 'entitytowards', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> (Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof')
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> ('entityitspartof' 'entity' 'quality', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "abnormalQualityPartOfThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "'entityitspartof' 'entity' 'quality', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> (Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof')
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> ('entity' 'quality' 'entityitspartof', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "abnormalQualityOccursInThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "'entity' 'quality' 'entityitspartof', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> (Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof'))
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> ('entity' 'quality' 'entityitspartof' 'entitytowardspartof' 'entitytowards', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "abnormalQualityOccursInThingTowardsPartOfThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof')"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "'entity' 'quality' 'entityitspartof' 'entitytowardspartof' 'entitytowards', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> (Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof'))
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> ('entity' 'quality' 'entityitspartof' 'entitytowardspartof' 'entitytowards', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "abnormalQualityPartOfThingTowardsPartOfThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards' of 'entitytowardspartof')"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "'entity' 'quality' 'entityitspartof' 'entitytowardspartof' 'entitytowards', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> (Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards'))
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> ('entity' 'quality' 'entityitspartof' 'entitytowards', abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards')."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "abnormalQualityPartOfThingTowardsThing"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "Abnormal(ly) 'quality' (of) 'entity' of 'entityitspartof' ('entitytowards')"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "'entity' 'quality' 'entityitspartof' 'entitytowards', abnormal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 

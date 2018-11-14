@@ -696,7 +696,6 @@ xref: BILS:0000106
 xref: EFO:0001322
 xref: EHDAA:27
 xref: FBdv:00005288
-xref: HsapDv:0000001
 xref: http://en.wikipedia.org/wiki/Zygote
 xref: NCIT:C12601
 xref: PdumDv:0000100
@@ -14002,6 +14001,19 @@ intersection_of: UBERON:0007779 ! transudate
 intersection_of: filtered_through UBERON:0000042 ! serous membrane
 relationship: filtered_through UBERON:0000042 ! serous membrane
 relationship: located_in UBERON:0005906 ! serous sac
+
+[Term]
+id: UBERON:0036294
+name: mucosa of lip
+namespace: uberon
+def: "A mucosa that is part of a lip region [Automatically generated definition]." [OBOL:automatic]
+synonym: "labial mucosa" EXACT [UBERON:cjm]
+xref: NCIT:C12226
+is_a: UBERON:0003729 ! mouth mucosa
+is_a: UBERON:0013754 ! integumentary system layer
+intersection_of: UBERON:0000344 ! mucosa
+intersection_of: part_of UBERON:0001833 ! lip
+relationship: part_of UBERON:0001833 ! lip
 
 [Term]
 id: UBERON:1000021
