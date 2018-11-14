@@ -4,6 +4,8 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/ro_import.owl" uri="imports/ro_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/pato_import.owl" uri="imports/pato_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl" uri="imports/bspo_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl" uri="imports/mpath_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/zfa_import.owl" uri="imports/zfa_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
