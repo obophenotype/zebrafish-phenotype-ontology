@@ -16,10 +16,10 @@ vars:
   quality: "'quality'"
 
 name:
-  text: "Abnormal(ly) %s (of) %s"
+  text: "%s %s, abnormal"
   vars:
-   - quality
    - entity
+   - quality
 
 def:
   text: "Abnormal(ly) %s (of) %s."

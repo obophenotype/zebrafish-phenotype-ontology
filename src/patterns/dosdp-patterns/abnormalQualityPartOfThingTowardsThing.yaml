@@ -22,10 +22,10 @@ vars:
   entitytowards: "'entitytowards'"
 
 name:
-  text: "Abnormal(ly) %s (of) %s of %s (%s)"
+  text: "%s %s %s %s, abnormal"
   vars:
-   - quality
    - entity
+   - quality
    - entityitspartof
    - entitytowards
 
