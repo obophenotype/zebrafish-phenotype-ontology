@@ -207,12 +207,14 @@ $(DOSDP_TEMP_PATTERN_AUTO): $(DOSDP_TEMP_PATTERN)
 # The pattern.owl ontology contains the OWL versions of all the patterns currently in the patterns directory
 
 
-../patterns/pattern.owl: pattern_schema_checks
+../patterns/pattern.owl: pattern_schema_checks ../patterns/dosdp-patterns
 	$(DOSDPT) prototype --obo-prefixes --template=../patterns/dosdp-patterns --outfile=$@
 
-pattern_schema_checks:
+pattern_schema_checks: ../patterns/dosdp-patterns
 	simple_pattern_tester.py ../patterns/dosdp-patterns/ # 2>&1 | tee $@
 
+../patterns/dosdp-patterns: .FORCE
+	wget -N -P ../patterns/dosdp-patterns -i ../patterns/dosdp-patterns/external.txt
 
 #../patterns/imports/seed.txt: ../patterns/pattern.owl
 #	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@

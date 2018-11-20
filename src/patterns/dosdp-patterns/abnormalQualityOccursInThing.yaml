@@ -2,10 +2,10 @@ pattern_name: abnormalQualityOccursInThing
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing
 
 classes:
-  quality: owl:Thing
+  pato_id: owl:Thing
   abnormal: PATO:0000460
-  entity: owl:Thing
-  entityitspartof: owl:Thing
+  affected_entity_1_super: owl:Thing
+  affected_entity_1_sub: owl:Thing
 
 relations:
   inheres_in: RO:0000052
@@ -15,27 +15,27 @@ relations:
   occurs_in: BFO:0000066
 
 vars:
-  entity: "'entity'"
-  quality: "'quality'"
-  entityitspartof: "'entityitspartof'"
+  affected_entity_1_super: "'affected_entity_1_super'"
+  pato_id: "'pato_id'"
+  affected_entity_1_sub: "'affected_entity_1_sub'"
 
 name:
   text: "%s %s %s, abnormal"
   vars:   
-   - entity
-   - quality
-   - entityitspartof
+   - affected_entity_1_super
+   - pato_id
+   - affected_entity_1_sub
 
 def:
   text: "Abnormal(ly) %s (of) %s of %s."
   vars:
-   - quality
-   - entity
-   - entityitspartof
+   - pato_id
+   - affected_entity_1_super
+   - affected_entity_1_sub
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some (%s and 'occurs_in' some %s)) and ('qualifier' some 'abnormal'))"
   vars:
-    - quality
-    - entity
-    - entityitspartof
+    - pato_id
+    - affected_entity_1_super
+    - affected_entity_1_sub

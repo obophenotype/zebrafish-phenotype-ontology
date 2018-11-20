@@ -13,3 +13,6 @@ src/ontology/patterns
 .DS_Store
 src/.DS_Store
 src/ontology/zp-merged.owl
+.idea
+.idea/vcs.xml
+src/archive/catalog-v001.xml

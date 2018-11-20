@@ -2,11 +2,11 @@ pattern_name: abnormalQualityPartOfThingTowardsThing
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing
 
 classes:
-  quality: owl:Thing
+  pato_id: owl:Thing
   abnormal: PATO:0000460
-  entity: owl:Thing
-  entityitspartof: owl:Thing
-  entitytowards: owl:Thing
+  affected_entity_1_super: owl:Thing
+  affected_entity_1_sub: owl:Thing
+  affected_entity_2_super: owl:Thing
 
 relations:
   inheres_in: RO:0000052
@@ -16,31 +16,31 @@ relations:
   towards: RO:0002503
 
 vars:
-  entity: "'entity'"
-  quality: "'quality'"
-  entityitspartof: "'entityitspartof'"
-  entitytowards: "'entitytowards'"
+  affected_entity_1_super: "'affected_entity_1_super'"
+  pato_id: "'pato_id'"
+  affected_entity_1_sub: "'affected_entity_1_sub'"
+  affected_entity_2_super: "'affected_entity_2_super'"
 
 name:
   text: "%s %s %s %s, abnormal"
   vars:
-   - entity
-   - quality
-   - entityitspartof
-   - entitytowards
+   - affected_entity_1_super
+   - pato_id
+   - affected_entity_1_sub
+   - affected_entity_2_super
 
 def:
   text: "Abnormal(ly) %s (of) %s of %s (%s)."
   vars:
-   - quality
-   - entity
-   - entityitspartof
-   - entitytowards
+   - pato_id
+   - affected_entity_1_super
+   - affected_entity_1_sub
+   - affected_entity_2_super
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some (%s and 'part_of' some %s)) and ('towards' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - quality
-    - entity
-    - entityitspartof
-    - entitytowards
+    - pato_id
+    - affected_entity_1_super
+    - affected_entity_1_sub
+    - affected_entity_2_super
