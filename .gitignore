@@ -16,3 +16,6 @@ src/ontology/zp-merged.owl
 .idea
 .idea/vcs.xml
 src/archive/catalog-v001.xml
+src/curation/editseed.txt
+src/curation/reserved_iris.txt
+src/curation/id_map_terms.txt
