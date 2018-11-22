@@ -57,17 +57,15 @@ $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 $(ONT).obo: $(ONT).owl
-	$(ROBOT) convert --check false -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@ &&\
-	echo "$(ONT).obo successfully created."
+	$(ROBOT) convert --check false -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 $(ONT)-base.owl: $(SRC) ../patterns/definitions.owl
 	$(ROBOT) remove --input $< --select imports --output $@ &&\
-	$(ROBOT) merge -i $@ -i ../patterns/definitions.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-base.owl annotate --ontology-iri $(BASE)/$(ONT)-base.owl -o $@ &&\
-	echo "$(ONT)-base.owl successfully created."
+	$(ROBOT) merge -i $@ -i ../patterns/definitions.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-base.owl annotate --ontology-iri $(BASE)/$(ONT)-base.owl -o $@
 	
 $(ONT)-merged.owl: $(ONT).owl
 	$(ROBOT) merge -i $< annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-merged.owl annotate --ontology-iri $(BASE)/$(ONT)-merged.owl -o $@ &&\
-	echo "$(ONT)-merged.owl successfully created."
+	gzip $(ONT)-merged.owl
 	
 # ----------------------------------------
 # Import modules
@@ -178,6 +176,8 @@ DOSDP_TEMP_PATTERN_AUTO=$(DOSDP_TEMP_PATTERN)/auto
 DOSDP_TEMP_TERMS=$(DOSDP_TEMP)/terms
 DOSDP_TEMP_ONTOLOGIES=$(DOSDP_TEMP)/ontologies
 
+.PHONY: .FORCE
+	
 patterns: ../patterns/pattern.owl ../patterns/definitions.owl
 
 pattern_clean:
@@ -253,7 +253,7 @@ $(DOSDP_TEMP_PATTERN_MANUAL)/%.ofn: ../patterns/data/manual/%.tsv ../patterns/do
 	dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
 # ../patterns/%.yaml
 $(DOSDP_TEMP_PATTERN_AUTO)/%.ofn: ../patterns/data/auto/%.tsv ../patterns/dosdp-patterns/%.yaml $(DOSDP_TEMP_ONTOLOGIES)/all_imports_module.owl $(DOSDP_TEMP_PATTERN_AUTO)
-	dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true  --outfile=$@
+	@$(if $(findstring _label.ofn,$@),dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@,dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true  --restrict-axioms-to=logical --outfile=$@)
 
 $(DOSDP_TEMP_ONTOLOGIES)/all_imports_module.owl: $(DOSDP_TEMP_ONTOLOGIES)/all_pattern_terms.txt $(DOSDP_TEMP_ONTOLOGIES)/all_imports.owl $(DOSDP_TEMP_ONTOLOGIES)
 	$(ROBOT) extract -i $(word 2, $^) -T $< --method BOT -o $@

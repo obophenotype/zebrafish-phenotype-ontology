@@ -4,10 +4,6 @@ AUTOPATTERNS = ../patterns/data/auto/
 AUTOPATTERNACCESSION = 99999
 PURL=http://purl.obolibrary.org/obo/ZP_
 
-
-$(ANATOMY):
-	curl -L -O $(ANATOMYLOCATION)
-
 #https://raw.githubusercontent.com/obophenotype/upheno/master/src
 
 
@@ -34,22 +30,42 @@ reserved_iris.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) id_ma
 	robot query -f csv -i ../ontology/zp-edit.owl --query ../sparql/zpo_terms.sparql editseed.txt
 	cat $(pattern_term_lists_auto) $(pattern_term_lists_manual) editseed.txt | sort | uniq >$@
  
-anatomy_seed.txt: $(XAO)
-	robot query -f csv -i $< --query ../sparql/zfa_terms.sparql $@
+anatomy_seed.txt: 
+	curl -L -O $(ANATOMYLOCATION)
+	robot query -f csv -i $(ANATOMY) --query ../sparql/zfa_terms.sparql $@
+	rm $(ANATOMY)
 
-$(AUTOPATTERNDIR)/abnormal.tsv: anatomy_seed.txt
-	cp $< $@
-	sed -i '' "1s/.*/entity/" $@
-	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
+#$(AUTOPATTERNDIR)/abnormal.tsv: anatomy_seed.txt
+#	cp $< $@
+#	sed -i '' "1s/.*/entity/" $@
+#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
 
-$(AUTOPATTERNDIR)/abnormalMorphology.tsv: anatomy_seed.txt
-	cp $< $@
-	sed -i '' "1s/.*/entity/" $@
-	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
+#$(AUTOPATTERNDIR)/abnormalMorphology.tsv: anatomy_seed.txt
+#	cp $< $@
+#	sed -i '' "1s/.*/entity/" $@
+#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
+
+$(AUTOPATTERNDIR)/%.tsv:
+	python3 ../scripts/zp_extract_upheno.py $@
 
 $(MANUALPATTERNDIR)/%.tsv:
 	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
 
 auto_patterns: $(AUTOPATTERNDIR)/abnormal.tsv $(AUTOPATTERNDIR)/abnormalMorphology.tsv 
 
-pattern_iris: $(MANUALPATTERNS)
+manual_pattern_iris: $(MANUALPATTERNS)
+
+# RUNNING THE FOLLOWING GOALS RESULTS IN LOSING ALL ZP-ZFINEQ MAPPINGS!	
+initialise_id_map:
+	python3 ../scripts/zp_annotation_to_id_map.py id_map.tsv
+
+kb_zp.ttl:
+	python3 ../scripts/zp_kb.py id_map.tsv zp_annotations_to_iri.tsv $@
+	
+update_zp_id_map: reserved_iris.txt
+	python3 ../scripts/zp_update_id_map.py id_map.tsv deprecated_id_map.tsv $< 100000
+
+generate_dosdp:
+	python3 ../scripts/zp_dosdp.py id_map.tsv $(AUTOPATTERNDIR) pattern_assignments.txt
+
+auto_pattern_iris: $(AUTOPATTERNS)
