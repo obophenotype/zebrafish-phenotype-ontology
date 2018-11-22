@@ -23,24 +23,6 @@ vars:
   affected_entity_2_super: "'affected_entity_2_super'"
   affected_entity_2_sub: "'affected_entity_2_sub'"
 
-name:
-  text: "%s %s %s %s %s, abnormal"
-  vars:
-   - affected_entity_1_super
-   - pato_id
-   - affected_entity_1_sub
-   - affected_entity_2_sub
-   - affected_entity_2_super
-
-def:
-  text: "Abnormal(ly) %s (of) %s of %s (%s of %s)."
-  vars:
-   - pato_id
-   - affected_entity_1_super
-   - affected_entity_1_sub
-   - affected_entity_2_super
-   - affected_entity_2_sub
-
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some (%s and 'part_of' some %s)) and ('towards' some (%s and 'part_of' some %s)) and ('qualifier' some 'abnormal'))"
   vars:

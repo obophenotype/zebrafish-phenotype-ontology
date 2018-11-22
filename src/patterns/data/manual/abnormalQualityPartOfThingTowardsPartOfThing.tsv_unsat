@@ -1,1 +1,1 @@
-defined_class	entity	entityitspartof	entitytowards	entitytowardspartof	quality
+defined_class	affected_entity_1_super	affected_entity_1_sub	affected_entity_2_super	affected_entity_2_sub	pato_id

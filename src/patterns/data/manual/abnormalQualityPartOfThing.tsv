@@ -1,4 +1,4 @@
-defined_class	entity	entityitspartof	quality
+defined_class	affected_entity_1_sub	affected_entity_1_super	pato_id
 http://purl.obolibrary.org/obo/ZP_0100145	http://purl.obolibrary.org/obo/GO_0030424	http://purl.obolibrary.org/obo/ZFA_0005179	http://purl.obolibrary.org/obo/PATO_0000460
 http://purl.obolibrary.org/obo/ZP_0100146	http://purl.obolibrary.org/obo/GO_0043005	http://purl.obolibrary.org/obo/ZFA_0000641	http://purl.obolibrary.org/obo/PATO_0000460
 http://purl.obolibrary.org/obo/ZP_0100147	http://purl.obolibrary.org/obo/GO_0043005	http://purl.obolibrary.org/obo/ZFA_0007001	http://purl.obolibrary.org/obo/PATO_0000460
