@@ -2,6 +2,10 @@ import sys
 import pandas as pd
 import os
 
+# Author: Nicolas Matentzoglu
+# Date: 21.11.2018
+# Samples, Phenotypes and Ontologies Team, EMBL-EBI
+
 tsv = sys.argv[1]
 id_map = sys.argv[2]
 reserved_ids = sys.argv[3]

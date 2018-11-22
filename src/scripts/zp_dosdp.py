@@ -1,14 +1,23 @@
 import pandas as pd
-import copy
+import sys
+import os
 
-#reserved_ids = sys.argv[3]
+# Author: Nicolas Matentzoglu
+# Date: 21.11.2018
+# Samples, Phenotypes and Ontologies Team, EMBL-EBI
+
+# This scripts takes the current id map and assigns ZP ids to one of the ZFIN default patterns
 
 # The current stable mapping between ZFIN post-composed EQ annotations and ZP identifiers
 current_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv"
 pattern_data = "/ws/zebrafish-phenotype-ontology/src/patterns/data/auto/"
 pattern_assignments = "/ws/zebrafish-phenotype-ontology/src/curation/pattern_assignments.tsv"
-prefix = "ZP:"
 
+#current_id_map = sys.argv[1]
+#pattern_data = sys.argv[2]
+#pattern_assignments = sys.argv[3]
+
+prefix = "ZP:"
 pbase="https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/patterns/dosdp-patterns/"
 ubase="https://raw.githubusercontent.com/obophenotype/upheno/master/src/patterns/"
 
@@ -29,6 +38,7 @@ def determine_base_pattern(i):
     id = ''
     if i['affected_entity_1_super'] == '' or pd.isnull(i['affected_entity_1_super']):
         print("No affected entity 1 is a case not accounted for")
+        print(str(i))
         id = ''
     else:
         # Should be all.
@@ -72,24 +82,28 @@ def determine_base_pattern(i):
 id_map = pd.read_csv(current_id_map, sep='\t')
 id_map = split_eq(id_map)
 id_map.columns = ['iri','id','affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
-cols = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
-colsp = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super','pattern']
 
+#colsp = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super','pattern']
+
+# determine pattern for each EQ definition
+cols = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
 id_map['pattern'] = id_map[cols].apply(determine_base_pattern,axis=1)
-id_map['label_pattern'] = id_map['pattern'].replace(".yaml", "_label.yaml", regex=True)
+#id_map['label_pattern'] = id_map['pattern'].replace(".yaml", "_label.yaml", regex=True)
 #id_map['eq_pattern'] = id_map[colsp].apply(determine_eq_pattern,axis=1)
 
 # Exporting the files again
 id_map.to_csv(pattern_assignments, sep = '\t', index=False)
 
+# Export DOSDP TSV Files
 cols = ['iri','affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super']
 for p in set(id_map['pattern']):
     pattern=p.replace(pbase,'').replace('.yaml','.tsv')
+    print(p)
     dx = id_map[id_map['pattern']==p]
     dx = dx[cols]
     dx.columns = ['defined_class','affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super']
     dx = dx.dropna(axis=1, how='all')
-    dx.to_csv(pattern_data + pattern, sep='\t', index=False)
-    dx.to_csv(pattern_data + pattern.replace(".yaml", "_label.yaml"), sep='\t', index=False)
+    dx.to_csv(os.path.join(pattern_data, pattern), sep='\t', index=False)
+    dx.to_csv(os.path.join(pattern_data, pattern.replace(".yaml", "_label.yaml")), sep='\t', index=False)
 
-
+print("DOSDP export of ZP base patterns complete!")
