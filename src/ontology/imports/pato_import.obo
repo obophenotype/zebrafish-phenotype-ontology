@@ -8684,6 +8684,28 @@ created_by: gkoutos
 creation_date: 2012-01-31T04:51:42Z
 
 [Term]
+id: PATO:0002354
+name: active
+namespace: quality
+def: "A quality of an physical object that is currently realizing one of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0002353 ! activation quality
+relationship: is_opposite_of PATO:0002355 ! inactive
+created_by: gkoutos
+creation_date: 2012-01-31T04:52:04Z
+
+[Term]
+id: PATO:0002355
+name: inactive
+namespace: quality
+def: "A quality of a physical object that is currently realizing none of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0002353 ! activation quality
+relationship: is_opposite_of PATO:0002354 ! active
+created_by: gkoutos
+creation_date: 2012-01-31T04:52:14Z
+
+[Term]
 id: PATO:0002358
 name: ridged
 namespace: quality
@@ -8800,6 +8822,19 @@ subset: value_slim
 is_a: PATO:0000140 ! position
 created_by: gkoutos
 creation_date: 2013-01-29T09:29:55Z
+
+[Term]
+id: PATO:0002435
+name: abutting
+namespace: quality
+def: "A positional quality inhering in a bearer by virtue of the bearer touching another entity along a border or with a projecting part." [merriam-webster:merriam-webster]
+subset: relational_slim
+subset: scalar_slim
+subset: value_slim
+synonym: "abut" EXACT []
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-01-29T09:31:12Z
 
 [Term]
 id: PATO:0002438

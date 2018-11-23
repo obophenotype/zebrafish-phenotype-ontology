@@ -313,6 +313,15 @@ def: "Believed to arise from primitive notochord remnants . Usually occurs along
 is_a: MPATH:404 ! soft tissue tumor
 
 [Term]
+id: MPATH:407
+name: fibroma
+namespace: mouse_pathology.ontology
+def: "Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0)." [Pathbase: Pathology Committee]
+comment: "Soft tissue" qualifier removed by Pathology Panel to increase scope of term.
+is_a: MPATH:404 ! soft tissue tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
 id: MPATH:423
 name: myomatous tumor
 namespace: mouse_pathology.ontology
@@ -390,6 +399,22 @@ namespace: mouse_pathology.ontology
 def: "Hematological neoplasias of non-lymphoid origin." [PMID:12070033]
 xref: URL:http\://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2
 is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+
+[Term]
+id: MPATH:516
+name: B-cell neoplasms
+namespace: mouse_pathology.ontology
+def: "Neoplasm of the B cell lymphoid lineage." [Pathbase: Curation]
+is_a: MPATH:513 ! Lymphoid neoplasms
+
+[Term]
+id: MPATH:530
+name: Plasma cell neoplasms
+namespace: mouse_pathology.ontology
+def: "Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3)." [PMID:12070034]
+synonym: "Myeloma ( human )" RELATED [Pathbase: Curation]
+xref: URL: http\://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class
+is_a: MPATH:516 ! B-cell neoplasms
 
 [Term]
 id: MPATH:535

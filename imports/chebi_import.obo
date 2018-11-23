@@ -321,6 +321,19 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "295.227" 
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=C/C=C/C(CCCCCCCC([O-])=O)O)/CCCCC" xsd:string
 
 [Term]
+id: CHEBI:13389
+name: NAD
+namespace: chebi_ontology
+def: "Abbreviation for nicotinamide-adenine dinucleotide when its oxidation state is unknown or unspecified. It is used in metabolic pathways like glycolysis and citric acid cycle." []
+subset: 3_STAR
+synonym: "NAD" EXACT [UniProt]
+synonym: "nicotinamide-adenine dinucleotide" RELATED [CBN]
+xref: HMDB:HMDB0000902
+xref: Wikipedia:Nicotinamide_adenine_dinucleotide
+is_a: CHEBI:25524 ! NAD(P)
+relationship: has_role CHEBI:78675 ! fundamental metabolite
+
+[Term]
 id: CHEBI:134179
 name: volatile organic compound
 namespace: chebi_ontology
@@ -1195,6 +1208,40 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XEYBRNLFEZDVAW-AR
 property_value: http://purl.obolibrary.org/obo/chebi/mass "352.46510" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "352.225" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCC[C@H](O)\\C=C\\[C@H]1[C@H](O)CC(=O)[C@@H]1C\\C=C/CCCC(O)=O" xsd:string
+
+[Term]
+id: CHEBI:15637
+name: 10-formyltetrahydrofolic acid
+namespace: chebi_ontology
+alt_id: CHEBI:11304
+alt_id: CHEBI:19108
+alt_id: CHEBI:19109
+alt_id: CHEBI:698
+def: "A form of tetrahydrofolate that acts as a donor of formyl groups in anabolism. In these reactions 10-formyltetrahydrofolic acid is used as a substrate in formyltransferase reactions, which is important in purine biosynthesis." []
+subset: 3_STAR
+synonym: "(6S)-10-HCO-H4folate" RELATED [JCBN]
+synonym: "10-Formyl-THF" RELATED [KEGG_COMPOUND]
+synonym: "10-Formyltetrahydrofolate" RELATED [KEGG_COMPOUND]
+synonym: "10-formyltetrahydrofolic acid" EXACT [UniProt]
+synonym: "10-formyltetrahydropteroylglutamic acid" RELATED [ChemIDplus]
+synonym: "10-FTHF" RELATED [ChemIDplus]
+synonym: "N-(10-formyl-5,6,7,8-tetrahydropteroyl)-L-glutamic acid" RELATED [ChEBI]
+synonym: "N-[4-(N-{[(6S)-2-amino-4-oxo-3,4,5,6,7,8-hexahydropteridin-6-yl]methyl}formamido)benzoyl]-L-glutamic acid" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:101559 "Beilstein"
+xref: CAS:2800-34-2 "ChemIDplus"
+xref: KEGG:C00234
+xref: KNApSAcK:C00007251
+is_a: CHEBI:24099 ! formyltetrahydrofolic acid
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: is_conjugate_acid_of CHEBI:57454 ! 10-formyltetrahydrofolate(2-)
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H23N7O7" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C20H23N7O7/c21-20-25-16-15(18(32)26-20)23-11(7-22-16)8-27(9-28)12-3-1-10(2-4-12)17(31)24-13(19(33)34)5-6-14(29)30/h1-4,9,11,13,23H,5-8H2,(H,24,31)(H,29,30)(H,33,34)(H4,21,22,25,26,32)/t11-,13+/m1/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "AUFGTPPARQZWDO-YPMHNXCESA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "473.43960" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "473.166" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]C(=O)N(C[C@H]1CNc2nc(N)[nH]c(=O)c2N1)c1ccc(cc1)C(=O)N[C@@H](CCC(O)=O)C(O)=O" xsd:string
 
 [Term]
 id: CHEBI:15693
@@ -4655,6 +4702,48 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "75.008" x
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C([C@@H](O)*)(=O)O" xsd:string
 
 [Term]
+id: CHEBI:17376
+name: cystine
+namespace: chebi_ontology
+alt_id: CHEBI:14062
+alt_id: CHEBI:23513
+alt_id: CHEBI:4052
+def: "A sulfur-containing amino acid obtained by the oxidation of two cysteine molecules which are then linked via a disulfide bond." []
+subset: 3_STAR
+synonym: "3,3'-disulfanediylbis(2-aminopropanoic acid)" EXACT IUPAC_NAME [IUPAC]
+synonym: "3,3'-dithiobis(2-aminopropanoic acid)" RELATED [ChEBI]
+synonym: "alpha-Diamino-beta-dithiolactic acid" RELATED [KEGG_COMPOUND]
+synonym: "cistina" RELATED [ChEBI]
+synonym: "Cystin" RELATED [ChEBI]
+synonym: "Cystine" EXACT [KEGG_COMPOUND]
+synonym: "cystine" EXACT IUPAC_NAME [IUPAC]
+synonym: "Dicysteine" RELATED [KEGG_COMPOUND]
+synonym: "Zystin" RELATED [ChEBI]
+xref: Beilstein:1728091 "Beilstein"
+xref: CAS:923-32-0 "KEGG COMPOUND"
+xref: Gmelin:83347 "Gmelin"
+xref: KEGG:C01420
+xref: PMID:18608550 "Europe PMC"
+xref: PMID:24327171 "Europe PMC"
+xref: PMID:24525029 "Europe PMC"
+xref: PMID:24525030 "Europe PMC"
+xref: Reaxys:1728091 "Reaxys"
+xref: Wikipedia:Cystine
+is_a: CHEBI:23509 ! cysteine derivative
+is_a: CHEBI:26834 ! sulfur-containing amino acid
+is_a: CHEBI:35489 ! organic disulfide
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_tautomer_of CHEBI:35492 ! cystine zwitterion
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H12N2O4S2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C6H12N2O4S2/c7-3(5(9)10)1-13-14-2-4(8)6(11)12/h3-4H,1-2,7-8H2,(H,9,10)(H,11,12)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LEVWYRKDKASIDU-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "240.30256" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "240.024" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "NC(CSSCC(N)C(O)=O)C(O)=O" xsd:string
+
+[Term]
 id: CHEBI:17439
 name: cyanocob(III)alamin
 namespace: chebi_ontology
@@ -4795,6 +4884,61 @@ is_a: CHEBI:16646 ! carbohydrate
 is_a: CHEBI:26191 ! polyol
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "(CH2O)nC2H6O2" xsd:string
+
+[Term]
+id: CHEBI:17544
+name: hydrogencarbonate
+namespace: chebi_ontology
+alt_id: CHEBI:13363
+alt_id: CHEBI:22863
+alt_id: CHEBI:40961
+alt_id: CHEBI:5589
+def: "The carbon oxoanion resulting from the removal of a proton from carbonic acid." []
+subset: 3_STAR
+synonym: "[CO2(OH)](-)" RELATED [IUPAC]
+synonym: "Acid carbonate" RELATED [KEGG_COMPOUND]
+synonym: "Bicarbonate" RELATED [KEGG_COMPOUND]
+synonym: "BICARBONATE ION" RELATED [PDBeChem]
+synonym: "HCO3(-)" RELATED [IUPAC]
+synonym: "HCO3-" RELATED [KEGG_COMPOUND]
+synonym: "hydrogen carbonate" RELATED [PDBeChem]
+synonym: "hydrogen(trioxidocarbonate)(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "Hydrogencarbonate" EXACT [KEGG_COMPOUND]
+synonym: "hydrogencarbonate" EXACT [UniProt]
+synonym: "hydrogencarbonate" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydrogencarbonate(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydrogentrioxocarbonate(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydrogentrioxocarbonate(IV)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydroxidodioxidocarbonate(1-)" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:3903504 "Beilstein"
+xref: CAS:71-52-3 "ChemIDplus"
+xref: Gmelin:49249 "Gmelin"
+xref: HMDB:HMDB0000595
+xref: KEGG:C00288
+xref: MetaCyc:HCO3
+xref: PDBeChem:BCT
+xref: PMID:17215880 "Europe PMC"
+xref: PMID:17505962 "Europe PMC"
+xref: PMID:28732801 "Europe PMC"
+xref: PMID:29150416 "Europe PMC"
+xref: PMID:29460248 "Europe PMC"
+xref: PMID:29466234 "Europe PMC"
+xref: PMID:4208463 "Europe PMC"
+xref: Wikipedia:Bicarbonate
+is_a: CHEBI:35604 ! carbon oxoanion
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_acid_of CHEBI:41609 ! carbonate
+relationship: is_conjugate_base_of CHEBI:28976 ! carbonic acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CHO3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)/p-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BVKZGUZCCUSVTD-UHFFFAOYSA-M" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "61.01684" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "60.993" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC([O-])=O" xsd:string
 
 [Term]
 id: CHEBI:17561
@@ -6374,6 +6518,15 @@ is_a: CHEBI:18375 ! nucleoside 3',5'-cyclic phosphate
 is_a: CHEBI:36982 ! cyclic purine nucleotide
 
 [Term]
+id: CHEBI:20612
+name: 5-methyltetrahydrofolate
+namespace: chebi_ontology
+def: "A group of heterocyclic compounds based on the 5-methyl-5,6,7,8-tetrahydropteroic acid skeleton conjugated with one or more L-glutamic acid or L-glutamate units." []
+subset: 3_STAR
+synonym: "5-methyltetrahydrofolates" RELATED [ChEBI]
+is_a: CHEBI:25345 ! methyltetrahydrofolate
+
+[Term]
 id: CHEBI:20706
 name: 6-aminopurines
 namespace: chebi_ontology
@@ -6770,6 +6923,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/mass "44.03272" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.014" xsd:string
 
 [Term]
+id: CHEBI:23016
+name: carbonates
+namespace: chebi_ontology
+def: "Organooxygen compounds that are salts or esters of carbonic acid, H2CO3." []
+subset: 3_STAR
+is_a: CHEBI:36963 ! organooxygen compound
+relationship: has_functional_parent CHEBI:28976 ! carbonic acid
+
+[Term]
 id: CHEBI:23019
 name: carbonyl group
 namespace: chebi_ontology
@@ -7154,6 +7316,14 @@ subset: 3_STAR
 synonym: "fat-soluble vitamins" RELATED [ChEBI]
 synonym: "fettloesliche Vitamine" RELATED [ChEBI]
 is_a: CHEBI:33229 ! vitamin
+
+[Term]
+id: CHEBI:24099
+name: formyltetrahydrofolic acid
+namespace: chebi_ontology
+subset: 3_STAR
+is_a: CHEBI:26907 ! tetrahydrofolic acid
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H23N7O7" xsd:string
 
 [Term]
 id: CHEBI:24261
@@ -7865,6 +8035,15 @@ subset: 3_STAR
 is_a: CHEBI:26421 ! pyridines
 
 [Term]
+id: CHEBI:25345
+name: methyltetrahydrofolate
+namespace: chebi_ontology
+def: "A group of heterocyclic compounds based on the N-methylated 5,6,7,8-tetrahydropteroic acid skeleton conjugated with one or more L-glutamic acid or L-glutamate units." []
+subset: 3_STAR
+synonym: "methyltetrahydrofolates" RELATED [ChEBI]
+is_a: CHEBI:67016 ! tetrahydrofolate
+
+[Term]
 id: CHEBI:25367
 name: molecule
 namespace: chebi_ontology
@@ -7922,6 +8101,23 @@ subset: 3_STAR
 synonym: "neurotransmitters" RELATED [ChEBI]
 xref: Wikipedia:Neurotransmitter
 is_a: CHEBI:33280 ! molecular messenger
+
+[Term]
+id: CHEBI:25524
+name: NAD(P)
+namespace: chebi_ontology
+def: "A coenzyme that may be NAD or NADP." []
+subset: 3_STAR
+is_a: CHEBI:37007 ! nicotinamide dinucleotide
+relationship: has_role CHEBI:23354 ! coenzyme
+
+[Term]
+id: CHEBI:25527
+name: nicotinamide nucleotide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "nicotinamide nucleotides" RELATED [ChEBI]
+is_a: CHEBI:36980 ! pyridine nucleotide
 
 [Term]
 id: CHEBI:25555
@@ -9128,6 +9324,18 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "71.050" x
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(C[*])(C[*])C[*]" xsd:string
 
 [Term]
+id: CHEBI:26907
+name: tetrahydrofolic acid
+namespace: chebi_ontology
+def: "A group of heterocyclic compounds based on the 5,6,7,8-tetrahydropteroic acid skeleton conjugated with one or more L-glutamic acid units." []
+subset: 3_STAR
+synonym: "tetrahydrofolate" RELATED [ChEBI]
+synonym: "tetrahydrofolates" RELATED [ChEBI]
+synonym: "tetrahydrofolic acids" RELATED [ChEBI]
+is_a: CHEBI:37445 ! folic acids
+relationship: is_conjugate_acid_of CHEBI:67016 ! tetrahydrofolate
+
+[Term]
 id: CHEBI:26912
 name: oxolanes
 namespace: chebi_ontology
@@ -10128,6 +10336,40 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2O4R" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "87.980" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C(=O)[*]C([O-])=O" xsd:string
+
+[Term]
+id: CHEBI:28976
+name: carbonic acid
+namespace: chebi_ontology
+alt_id: CHEBI:13351
+alt_id: CHEBI:23017
+alt_id: CHEBI:23744
+alt_id: CHEBI:3401
+subset: 3_STAR
+synonym: "[CO(OH)2]" RELATED [IUPAC]
+synonym: "Carbonic acid" EXACT [KEGG_COMPOUND]
+synonym: "carbonic acid" EXACT [UniProt]
+synonym: "carbonic acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "Dihydrogen carbonate" RELATED [KEGG_COMPOUND]
+synonym: "dihydroxidooxidocarbon" EXACT IUPAC_NAME [IUPAC]
+synonym: "H2CO3" RELATED [IUPAC]
+synonym: "H2CO3" RELATED [KEGG_COMPOUND]
+synonym: "Koehlensaeure" RELATED [ChEBI]
+xref: CAS:463-79-6 "ChemIDplus"
+xref: Gmelin:25554 "Gmelin"
+xref: KEGG:C01353
+xref: PDBeChem:CO3
+is_a: CHEBI:35605 ! carbon oxoacid
+is_a: CHEBI:36961 ! chalcocarbonic acid
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: is_conjugate_acid_of CHEBI:17544 ! hydrogencarbonate
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CH2O3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BVKZGUZCCUSVTD-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "62.02478" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.000" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(O)=O" xsd:string
 
 [Term]
 id: CHEBI:29035
@@ -12273,6 +12515,49 @@ xref: KEGG:C00241
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
+id: CHEBI:3311
+name: calcium carbonate
+namespace: chebi_ontology
+def: "A calcium salt with formula CCaO3." []
+subset: 3_STAR
+synonym: "CaCO3" RELATED [IUPAC]
+synonym: "Calcium carbonate" EXACT [KEGG_COMPOUND]
+synonym: "calcium carbonate" EXACT IUPAC_NAME [IUPAC]
+synonym: "calcium carbonate (1:1)" RELATED [ChemIDplus]
+synonym: "calcium trioxidocarbonate" EXACT IUPAC_NAME [IUPAC]
+synonym: "Calciumcarbonat" RELATED [ChEBI]
+synonym: "carbonate de calcium" RELATED [ChEBI]
+synonym: "carbonato de calcio" RELATED [ChEBI]
+synonym: "carbonic acid calcium salt (1:1)" RELATED [ChemIDplus]
+synonym: "E 170" RELATED [ChEBI]
+synonym: "Kalziumkarbonat" RELATED [ChEBI]
+synonym: "kohlensaurer Kalk" RELATED [ChEBI]
+synonym: "Precipitated calcium carbonate" RELATED [KEGG_COMPOUND]
+xref: BPDB:108
+xref: CAS:471-34-1 "ChemIDplus"
+xref: DrugBank:DB06724
+xref: KEGG:C08129
+xref: KEGG:D00932
+xref: PPDB:108
+xref: Reaxys:8008338 "Reaxys"
+xref: Wikipedia:Calcium_carbonate
+is_a: CHEBI:35156 ! calcium salt
+is_a: CHEBI:46721 ! carbonate salt
+is_a: CHEBI:64708 ! one-carbon compound
+relationship: has_role CHEBI:33287 ! fertilizer
+relationship: has_role CHEBI:65265 ! antacid
+relationship: has_role CHEBI:77182 ! food colouring
+relationship: has_role CHEBI:77960 ! food firming agent
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CCaO3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CO3.Ca" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH2O3.Ca/c2-1(3)4;/h(H2,2,3,4);/q;+2/p-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VTYYLEPIZMXCLO-UHFFFAOYSA-L" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "100.087" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "99.947" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ca+2].C(=O)([O-])[O-]" xsd:string
+
+[Term]
 id: CHEBI:33229
 name: vitamin
 namespace: chebi_ontology
@@ -14360,11 +14645,74 @@ synonym: "aldose phosphates" RELATED [ChEBI]
 is_a: CHEBI:33447 ! phospho sugar
 
 [Term]
+id: CHEBI:35134
+name: metalloprotein
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "metalloprotein" EXACT [COMe]
+synonym: "metalloproteine" RELATED [ChEBI]
+synonym: "metalloproteins" RELATED [ChEBI]
+xref: COMe:PRX000002
+is_a: CHEBI:33837 ! conjugated protein
+
+[Term]
+id: CHEBI:35136
+name: iron protein
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "iron protein" EXACT [COMe]
+synonym: "iron proteins" RELATED [ChEBI]
+synonym: "iron-containing proteins" RELATED [ChEBI]
+xref: COMe:PRX000004
+is_a: CHEBI:35134 ! metalloprotein
+
+[Term]
+id: CHEBI:35137
+name: hemoprotein
+namespace: chebi_ontology
+def: "Conjugated proteins containing heme as the prosthetic group." []
+subset: 3_STAR
+synonym: "haem protein" RELATED [COMe]
+synonym: "Haemoprotein" RELATED [ChEBI]
+synonym: "haemoprotein" RELATED [ChEBI]
+synonym: "Haemprotein" RELATED [ChEBI]
+synonym: "heme protein" RELATED [ChEBI]
+synonym: "hemeproteins" RELATED [IUBMB]
+synonym: "hemoprotein" EXACT [ChEBI]
+synonym: "hemoproteins" RELATED [ChEBI]
+xref: COMe:PRX000008
+is_a: CHEBI:35136 ! iron protein
+relationship: has_part CHEBI:30413 ! heme
+
+[Term]
+id: CHEBI:35143
+name: hemoglobin
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "haemoglobin" RELATED [ChEBI]
+synonym: "hemoglobin" EXACT [ChEBI]
+synonym: "vertebrate haemoglobin" RELATED [COMe]
+xref: COMe:PRX000321
+is_a: CHEBI:5386 ! globin
+
+[Term]
 id: CHEBI:35155
 name: elemental calcium
 namespace: chebi_ontology
 subset: 3_STAR
 is_a: CHEBI:22985 ! calcium molecular entity
+
+[Term]
+id: CHEBI:35156
+name: calcium salt
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "calcium salts" RELATED [ChEBI]
+synonym: "Kalziumsalz" RELATED [ChEBI]
+synonym: "Kalziumsalze" RELATED [ChEBI]
+is_a: CHEBI:22985 ! calcium molecular entity
+is_a: CHEBI:36364 ! alkaline earth salt
+relationship: has_part CHEBI:29108 ! calcium(2+)
 
 [Term]
 id: CHEBI:35158
@@ -14949,6 +15297,27 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "63.944" x
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*]SS[*]" xsd:string
 
 [Term]
+id: CHEBI:35492
+name: cystine zwitterion
+namespace: chebi_ontology
+def: "An amino acid zwitterion that is the tautomer of cystine." []
+subset: 3_STAR
+synonym: "3,3'-disulfanediylbis(2-ammoniopropanoate)" EXACT IUPAC_NAME [IUPAC]
+synonym: "3,3'-dithiobis(2-ammoniopropanoate)" RELATED [ChEBI]
+xref: Gmelin:51007 "Gmelin"
+is_a: CHEBI:35238 ! amino acid zwitterion
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_tautomer_of CHEBI:17376 ! cystine
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H12N2O4S2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C6H12N2O4S2/c7-3(5(9)10)1-13-14-2-4(8)6(11)12/h3-4H,1-2,7-8H2,(H,9,10)(H,11,12)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LEVWYRKDKASIDU-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "240.30256" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "240.024" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]C(CSSCC([NH3+])C([O-])=O)C([O-])=O" xsd:string
+
+[Term]
 id: CHEBI:35507
 name: natural product fundamental parent
 namespace: chebi_ontology
@@ -15192,6 +15561,20 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KDCGOANMDULRCW-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "120.11222" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "120.044" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "c1ncc2nc[nH]c2n1" xsd:string
+
+[Term]
+id: CHEBI:35604
+name: carbon oxoanion
+namespace: chebi_ontology
+def: "A negative ion consisting solely of carbon and oxygen  atoms, and therefore having the general formula CxOy(n-) for some integers x, y and n." []
+subset: 3_STAR
+synonym: "carbon oxoanion" EXACT [ChEBI]
+synonym: "carbon oxoanions" RELATED [ChEBI]
+synonym: "oxocarbon anion" RELATED [ChEBI]
+synonym: "oxocarbon anions" RELATED [ChEBI]
+is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:35406 ! oxoanion
+is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
 id: CHEBI:35605
@@ -16053,6 +16436,15 @@ subset: 1_STAR
 is_a: CHEBI:26082 ! phosphorus molecular entity
 
 [Term]
+id: CHEBI:36364
+name: alkaline earth salt
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "alkaline earth salts" RELATED [ChEBI]
+is_a: CHEBI:24866 ! salt
+is_a: CHEBI:33299 ! alkaline earth molecular entity
+
+[Term]
 id: CHEBI:36586
 name: carbonyl compound
 namespace: chebi_ontology
@@ -16239,6 +16631,16 @@ xref: KEGG:C01373
 is_a: CHEBI:24870 ! ion
 
 [Term]
+id: CHEBI:36961
+name: chalcocarbonic acid
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "chalcocarbonic acid" EXACT [ChEBI]
+synonym: "chalcocarbonic acids" EXACT IUPAC_NAME [IUPAC]
+synonym: "chalcocarbonic acids" RELATED [ChEBI]
+is_a: CHEBI:36962 ! organochalcogen compound
+
+[Term]
 id: CHEBI:36962
 name: organochalcogen compound
 namespace: chebi_ontology
@@ -16289,6 +16691,15 @@ xref: KEGG:C00215
 is_a: CHEBI:25608 ! nucleoside phosphate
 
 [Term]
+id: CHEBI:36980
+name: pyridine nucleotide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "pyridine nucleotides" RELATED [ChEBI]
+is_a: CHEBI:26421 ! pyridines
+is_a: CHEBI:36976 ! nucleotide
+
+[Term]
 id: CHEBI:36982
 name: cyclic purine nucleotide
 namespace: chebi_ontology
@@ -16296,6 +16707,15 @@ subset: 3_STAR
 synonym: "cyclic purine nucleotides" RELATED [ChEBI]
 is_a: CHEBI:23447 ! cyclic nucleotide
 is_a: CHEBI:26395 ! purine nucleotide
+
+[Term]
+id: CHEBI:37007
+name: nicotinamide dinucleotide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "nicotinamide dinucleotides" RELATED [ChEBI]
+is_a: CHEBI:25527 ! nicotinamide nucleotide
+is_a: CHEBI:47885 ! dinucleotide
 
 [Term]
 id: CHEBI:37010
@@ -17500,6 +17920,33 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "183.090" 
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CNC[C@@H](O)c1ccc(O)c(O)c1" xsd:string
 
 [Term]
+id: CHEBI:41609
+name: carbonate
+namespace: chebi_ontology
+alt_id: CHEBI:29201
+alt_id: CHEBI:41605
+subset: 3_STAR
+synonym: "[CO3](2-)" RELATED [IUPAC]
+synonym: "carbonate" EXACT [IUPAC]
+synonym: "CARBONATE ION" RELATED [PDBeChem]
+synonym: "CO3(2-)" RELATED [ChEBI]
+synonym: "Karbonat" RELATED [ChEBI]
+synonym: "trioxidocarbonate(2-)" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:3600898 "Beilstein"
+xref: CAS:3812-32-6 "ChemIDplus"
+xref: Gmelin:1559 "Gmelin"
+xref: PDBeChem:CO3
+is_a: CHEBI:35604 ! carbon oxoanion
+relationship: is_conjugate_base_of CHEBI:17544 ! hydrogencarbonate
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CO3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH2O3/c2-1(3)4/h(H2,2,3,4)/p-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BVKZGUZCCUSVTD-UHFFFAOYSA-L" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "60.00890" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.985" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C([O-])=O" xsd:string
+
+[Term]
 id: CHEBI:41941
 name: (3,4-dihydroxyphenyl)acetic acid
 namespace: chebi_ontology
@@ -17864,6 +18311,15 @@ synonym: "minerales" RELATED [ChEBI]
 synonym: "minerals" RELATED [ChEBI]
 synonym: "mineraux" RELATED [ChEBI]
 is_a: CHEBI:59999 ! chemical substance
+
+[Term]
+id: CHEBI:46721
+name: carbonate salt
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "carbonate salts" RELATED [ChEBI]
+is_a: CHEBI:23016 ! carbonates
+relationship: has_part CHEBI:41609 ! carbonate
 
 [Term]
 id: CHEBI:46723
@@ -18304,6 +18760,23 @@ synonym: "cyclic polypyrroles" RELATED [ChEBI]
 synonym: "macrocyclic polypyrroles" EXACT IUPAC_NAME [IUPAC]
 synonym: "polypyrrole macrocycles" RELATED [ChEBI]
 is_a: CHEBI:38077 ! polypyrrole
+
+[Term]
+id: CHEBI:47885
+name: dinucleotide
+namespace: chebi_ontology
+alt_id: CHEBI:13207
+alt_id: CHEBI:23823
+alt_id: CHEBI:4626
+subset: 3_STAR
+synonym: "Dinucleotide" EXACT [KEGG_COMPOUND]
+synonym: "dinucleotides" RELATED [ChEBI]
+xref: KEGG:C01910
+is_a: CHEBI:36976 ! nucleotide
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H18O13P2R2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "408.190" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "408.022" xsd:string
 
 [Term]
 id: CHEBI:47909
@@ -19650,6 +20123,18 @@ synonym: "polyionic macromolecule" RELATED [ChEBI]
 is_a: CHEBI:33839 ! macromolecule
 
 [Term]
+id: CHEBI:5386
+name: globin
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "Globin" EXACT [KEGG_COMPOUND]
+synonym: "globins" RELATED [ChEBI]
+synonym: "pentacoordinate globin" RELATED [COMe]
+xref: COMe:PRX000257
+xref: KEGG:C06258
+is_a: CHEBI:35137 ! hemoprotein
+
+[Term]
 id: CHEBI:566274
 name: malonaldehyde
 namespace: chebi_ontology
@@ -19749,6 +20234,27 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "KSFOVUSSGSKXFI-UJ
 property_value: http://purl.obolibrary.org/obo/chebi/mass "560.64230" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "560.242" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "Cc1c(CCC([O-])=O)c2cc3[nH]c(cc4nc(cc5[nH]c(cc1n2)c(C)c5C=C)c(C)c4C=C)c(C)c3CCC([O-])=O" xsd:string
+
+[Term]
+id: CHEBI:57454
+name: 10-formyltetrahydrofolate(2-)
+namespace: chebi_ontology
+def: "Dianion of 10-formyltetrahydrofolic acid arising from deprotonation of both carboxylic acid functions." []
+subset: 3_STAR
+synonym: "(6S)-10-formyltetrahydrofolate" RELATED [UniProt]
+synonym: "10-formyltetrahydrofolate dianion" RELATED [ChEBI]
+synonym: "N-[4-(N-{[(6S)-2-amino-4-oxo-3,4,5,6,7,8-hexahydropteridin-6-yl]methyl}formamido)benzoyl]-L-glutamate" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:28965 ! dicarboxylic acid dianion
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_base_of CHEBI:15637 ! 10-formyltetrahydrofolic acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C20H21N7O7" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C20H23N7O7/c21-20-25-16-15(18(32)26-20)23-11(7-22-16)8-27(9-28)12-3-1-10(2-4-12)17(31)24-13(19(33)34)5-6-14(29)30/h1-4,9,11,13,23H,5-8H2,(H,24,31)(H,29,30)(H,33,34)(H4,21,22,25,26,32)/p-2/t11-,13+/m1/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "AUFGTPPARQZWDO-YPMHNXCESA-L" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "471.42340" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "471.150" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]C(=O)N(C[C@H]1CNc2nc(N)[nH]c(=O)c2N1)c1ccc(cc1)C(=O)N[C@@H](CCC([O-])=O)C([O-])=O" xsd:string
 
 [Term]
 id: CHEBI:57560
@@ -22044,6 +22550,17 @@ is_a: CHEBI:33281 ! antimicrobial agent
 is_a: CHEBI:65255 ! food preservative
 
 [Term]
+id: CHEBI:65265
+name: antacid
+namespace: chebi_ontology
+def: "Any substance which is used to neutralise stomach acidity." []
+subset: 3_STAR
+synonym: "antacids" RELATED [ChEBI]
+xref: Wikipedia:Antacid
+is_a: CHEBI:23888 ! drug
+is_a: CHEBI:52210 ! pharmacological role
+
+[Term]
 id: CHEBI:65296
 name: primary ammonium ion
 namespace: chebi_ontology
@@ -22151,6 +22668,18 @@ synonym: "folate anion" RELATED [ChEBI]
 synonym: "folate anions" RELATED [ChEBI]
 is_a: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
 relationship: is_conjugate_base_of CHEBI:37445 ! folic acids
+
+[Term]
+id: CHEBI:67016
+name: tetrahydrofolate
+namespace: chebi_ontology
+def: "A folate obtained by deprotonation of any tetrahydrofolic acid." []
+subset: 3_STAR
+synonym: "tetrahydrofolate anion" RELATED [ChEBI]
+synonym: "tetrahydrofolate anions" RELATED [ChEBI]
+synonym: "tetrahydrofolates" RELATED [ChEBI]
+is_a: CHEBI:67011 ! folates
+relationship: is_conjugate_base_of CHEBI:26907 ! tetrahydrofolic acid
 
 [Term]
 id: CHEBI:67040
@@ -23060,6 +23589,18 @@ xref: Wikipedia:Prostaglandin-E2_9-reductase
 is_a: CHEBI:76835 ! EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor
 
 [Term]
+id: CHEBI:77182
+name: food colouring
+namespace: chebi_ontology
+def: "A food additive that imparts colour to food. In European countries, E-numbers for permitted food colours are from E 100 to E 199, divided into yellows (E 100-109), oranges (E 110-119), reds (E 120-129), blues and violets (E 130-139), greens (E 140-149), browns and blacks (E 150-159), and others (E 160-199)." []
+subset: 3_STAR
+synonym: "food coloring" RELATED [ChEBI]
+synonym: "food colorings" RELATED [ChEBI]
+synonym: "food colourings" RELATED [ChEBI]
+xref: Wikipedia:Food_coloring
+is_a: CHEBI:64047 ! food additive
+
+[Term]
 id: CHEBI:77703
 name: EC 4.3.1.3 (histidine ammonia-lyase) inhibitor
 namespace: chebi_ontology
@@ -23148,6 +23689,18 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WWUZIQQURGPMPG-MC
 property_value: http://purl.obolibrary.org/obo/chebi/mass "300.49930" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "300.290" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCCCCCCCCCCCC\\C=C\\[C@H](O)[C@H]([NH3+])CO" xsd:string
+
+[Term]
+id: CHEBI:77960
+name: food firming agent
+namespace: chebi_ontology
+def: "A food additive that is used to make or keep fruit or vegetable tissues firm and crisp. or which interacts with gelling agents such as pectin to produce or strengthen a gel." []
+subset: 3_STAR
+synonym: "firming agent" RELATED [ChEBI]
+synonym: "firming agents" RELATED [ChEBI]
+synonym: "food firming agents" RELATED [ChEBI]
+xref: Wikipedia:Firming_agent
+is_a: CHEBI:64047 ! food additive
 
 [Term]
 id: CHEBI:78060
