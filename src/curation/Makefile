@@ -21,12 +21,15 @@ pattern_term_lists_manual := $(patsubst %.tsv, $(MANUALPATTERNDIR)/%_terms.txt, 
 id_map_terms.txt: 
 	grep -Eo '($(PURL))[^[:space:]"]+' id_map.tsv | sort | uniq > $@
 		
-id_map_removed_terms.txt: 
-	grep -Eo '($(PURL))[^[:space:]"]+' id_map.tsv_removed.tsv | sort | uniq > $@
+idmap_removed_ambiguous_terms.txt: 
+	grep -Eo '($(PURL))[^[:space:]"]+' id_map.tsv_removed_ambiguous.tsv | sort | uniq > $@
+	
+idmap_removed_incomplete_terms.txt: 
+	grep -Eo '($(PURL))[^[:space:]"]+' id_map.tsv_removed_incomplete.tsv | sort | uniq > $@
 
-reserved_iris.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) id_map_terms.txt id_map_removed_terms.txt
+reserved_iris.txt: $(pattern_term_lists_manual) id_map_terms.txt idmap_removed_ambiguous_terms.txt idmap_removed_incomplete_terms.txt
 	robot query -f csv -i ../ontology/zp-edit.owl --query ../sparql/zpo_terms.sparql editseed.txt
-	cat $(pattern_term_lists_auto) $(pattern_term_lists_manual) editseed.txt | sort | uniq >$@
+	cat $^ editseed.txt | sort | uniq >$@
  
 anatomy_seed.txt: 
 	curl -L -O $(ANATOMYLOCATION)
