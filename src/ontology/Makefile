@@ -32,7 +32,7 @@ IMPORTS = go ro pato bspo zfa bfo uberon mpath chebi
 all: patterns all_imports sparql_test $(ONT).owl $(ONT).obo $(ONT)-base.owl $(ONT)-merged.owl
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(ONT)-base.owl $(ONT)-merged.owl $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT).obo $(ONT)-base.owl $(ONT)-merged.owl.gz $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	mkdir -p $(RELEASEDIR)/patterns &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\

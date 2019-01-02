@@ -3,14 +3,12 @@ ANATOMYLOCATION = http://purl.obolibrary.org/obo/zfa.owl
 AUTOPATTERNS = ../patterns/data/auto/
 AUTOPATTERNACCESSION = 99999
 PURL=http://purl.obolibrary.org/obo/ZP_
-
-#https://raw.githubusercontent.com/obophenotype/upheno/master/src
-
-
-MANUALPATTERNS=$(patsubst %.tsv, $(MANUALPATTERNDIR)/%.tsv, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
-AUTOPATTERNS=$(patsubst %.tsv, $(AUTOPATTERNDIR)/%.tsv, $(notdir $(wildcard ../patterns/data/auto/*.tsv)))
 AUTOPATTERNDIR=../patterns/data/auto
 MANUALPATTERNDIR=../patterns/data/manual
+
+# Index all current patterns
+MANUALPATTERNS=$(patsubst %.tsv, $(MANUALPATTERNDIR)/%.tsv, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
+AUTOPATTERNS=$(patsubst %.tsv, $(AUTOPATTERNDIR)/%.tsv, $(notdir $(wildcard ../patterns/data/auto/*.tsv)))
 pattern_term_lists_auto := $(patsubst %.tsv, $(AUTOPATTERNDIR)/%_terms.txt, $(notdir $(wildcard ../patterns/data/auto/*.tsv)))
 pattern_term_lists_manual := $(patsubst %.tsv, $(MANUALPATTERNDIR)/%_terms.txt, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
 
@@ -54,18 +52,5 @@ $(MANUALPATTERNDIR)/%.tsv:
 auto_patterns: $(AUTOPATTERNDIR)/abnormal.tsv $(AUTOPATTERNDIR)/abnormalMorphology.tsv 
 
 manual_pattern_iris: $(MANUALPATTERNS)
-
-# RUNNING THE FOLLOWING GOALS RESULTS IN LOSING ALL ZP-ZFINEQ MAPPINGS!	
-initialise_id_map:
-	python3 ../scripts/zp_annotation_to_id_map.py id_map.tsv
-
-kb_zp.ttl:
-	python3 ../scripts/zp_kb.py id_map.tsv zp_annotations_to_iri.tsv $@
-	
-update_zp_id_map: reserved_iris.txt
-	python3 ../scripts/zp_update_id_map.py id_map.tsv deprecated_id_map.tsv $< 100000
-
-generate_dosdp:
-	python3 ../scripts/zp_dosdp.py id_map.tsv $(AUTOPATTERNDIR) pattern_assignments.txt
 
 auto_pattern_iris: $(AUTOPATTERNS)
