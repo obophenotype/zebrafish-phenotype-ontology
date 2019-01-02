@@ -38,7 +38,7 @@ print(len(df_zfin))
 df_zfin['id'] = df_zfin[functionalcolumns].astype(str).apply('-'.join, axis=1)
 df_zfin = pd.merge(df_zfin, id_map, on='id', how='left')
 print(len(df_zfin))
-df_zfin[functionalcolumns] = df_zfin[functionalcolumns].replace('0', '', regex=True)
+df_zfin[functionalcolumns] = df_zfin[functionalcolumns].replace('^0$', '', regex=True)
 print(len(df_zfin))
 df_zfin.to_csv(zp_zfin_mappings, sep = '\t', index=False)
 
