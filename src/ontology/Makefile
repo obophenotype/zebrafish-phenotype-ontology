@@ -54,7 +54,7 @@ prepare_release: all
 # Equivalence checking deactived.. -e none
 
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK -D debug.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert --check false -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
