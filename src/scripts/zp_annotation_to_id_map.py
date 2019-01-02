@@ -16,8 +16,8 @@ def get_rows_with_duplicates(x,id_col):
 original_id_map = "https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology-build/master/zp.annot_sourceinfo"
 zfin = "https://zfin.org/downloads/phenotype_fish.txt"
 
-current_id_map = sys.argv[1]
-#current_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv"
+#current_id_map = sys.argv[1]
+current_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv"
 
 # Step 1: Extract ZFIN EQ annotations from phenotype_fish.txt annotation data available at ZFIN.
 # As the stable ids will be generated using the character '0' whenever an EQ annotion slot is empty
