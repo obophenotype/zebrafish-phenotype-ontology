@@ -10,10 +10,10 @@ build:
   system: git
   path: "."
 contact:
-  email: cjmungall@lbl.gov
-  label: Chris Mungall
-description: Zebrafish Phenotype Ontology is an ontology...
-domain: stuff
+  email: ybradford@zfin.org
+  label: Yvonne Bradford
+description: None
+domain: phenotype
 homepage: https://github.com/obophenotype/zebrafish-phenotype-ontology
 products:
   - id: zp.owl
