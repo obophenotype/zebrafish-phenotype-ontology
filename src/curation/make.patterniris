@@ -1,3 +1,13 @@
+#$(AUTOPATTERNDIR)/abnormal.tsv: anatomy_seed.txt
+#	cp $< $@
+#	sed -i '' "1s/.*/entity/" $@
+#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
+
+#$(AUTOPATTERNDIR)/abnormalMorphology.tsv: anatomy_seed.txt
+#	cp $< $@
+#	sed -i '' "1s/.*/entity/" $@
+#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
+
 $(AUTOPATTERNDIR)/%.tsv:
 	python3 ../scripts/zp_extract_upheno.py $@
 

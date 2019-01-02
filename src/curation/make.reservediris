@@ -35,13 +35,3 @@ anatomy_seed.txt:
 	curl -L -O $(ANATOMYLOCATION)
 	robot query -f csv -i $(ANATOMY) --query ../sparql/zfa_terms.sparql $@
 	rm $(ANATOMY)
-
-#$(AUTOPATTERNDIR)/abnormal.tsv: anatomy_seed.txt
-#	cp $< $@
-#	sed -i '' "1s/.*/entity/" $@
-#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
-
-#$(AUTOPATTERNDIR)/abnormalMorphology.tsv: anatomy_seed.txt
-#	cp $< $@
-#	sed -i '' "1s/.*/entity/" $@
-#	python3 ../scripts/assign_unique_ids.py $@ id_map.tsv reserved_iris.txt $(AUTOPATTERNACCESSION) $(PURL)
