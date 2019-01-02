@@ -434,8 +434,8 @@ name: apoprotein
 namespace: chebi_ontology
 def: "An apoprotein is a protein devoid of its characteristic prosthetic group or metal." []
 subset: 3_STAR
-synonym: "apoprotein" EXACT IUPAC_NAME [IUPAC]
 synonym: "apoprotein" EXACT [UniProt]
+synonym: "apoprotein" EXACT IUPAC_NAME [IUPAC]
 synonym: "apoproteins" RELATED [ChEBI]
 xref: KEGG:C16240
 is_a: CHEBI:38560 ! simple protein
@@ -726,7 +726,7 @@ synonym: "N,N,N-trimethylethanol-ammonium" RELATED [ChEBI]
 synonym: "N-trimethylethanolamine" RELATED [ChEBI]
 synonym: "trimethylethanolamine" RELATED [ChEBI]
 xref: Beilstein:1736748 "Beilstein"
-xref: CAS:62-49-7 "ChemIDplus"
+xref: CAS:62-49-7 "KEGG COMPOUND"
 xref: Drug_Central:3097 "DrugCentral"
 xref: DrugBank:DB00122
 xref: ECMDB:ECMDB00097
@@ -801,7 +801,7 @@ synonym: "Azetylcholin" RELATED [ChEBI]
 synonym: "choline acetate" RELATED [ChemIDplus]
 synonym: "O-Acetylcholine" RELATED [KEGG_COMPOUND]
 xref: Beilstein:1764436 "ChemIDplus"
-xref: CAS:51-84-3 "KEGG COMPOUND"
+xref: CAS:51-84-3 "ChemIDplus"
 xref: Drug_Central:65 "DrugCentral"
 xref: DrugBank:DB03128
 xref: Gmelin:326108 "Gmelin"
@@ -952,7 +952,7 @@ synonym: "MeCO2H" RELATED [ChEBI]
 synonym: "MeCOOH" RELATED [ChEBI]
 synonym: "Methanecarboxylic acid" RELATED [ChemIDplus]
 xref: Beilstein:506007 "Beilstein"
-xref: CAS:64-19-7 "ChemIDplus"
+xref: CAS:64-19-7 "KEGG COMPOUND"
 xref: Drug_Central:4211 "DrugCentral"
 xref: Gmelin:1380 "Gmelin"
 xref: HMDB:HMDB0000042
@@ -1017,7 +1017,7 @@ synonym: "S-adenosylmethionine" RELATED [ChEBI]
 synonym: "SAM" RELATED [JCBN]
 synonym: "SAMe" RELATED [ChemIDplus]
 xref: Beilstein:3576439 "Beilstein"
-xref: CAS:29908-03-0 "ChemIDplus"
+xref: CAS:29908-03-0 "KEGG COMPOUND"
 xref: COMe:MOL000172
 xref: DrugBank:DB00118
 xref: HMDB:HMDB0001185
@@ -1172,8 +1172,8 @@ synonym: "dinoprostona" RELATED INN [ChemIDplus]
 synonym: "Dinoprostone" RELATED [KEGG_COMPOUND]
 synonym: "dinoprostone" RELATED INN [KEGG_DRUG]
 synonym: "dinoprostonum" RELATED INN [ChemIDplus]
-synonym: "PGE2" RELATED [ChemIDplus]
 synonym: "PGE2" RELATED [KEGG_COMPOUND]
+synonym: "PGE2" RELATED [ChemIDplus]
 synonym: "Prepidil" RELATED BRAND_NAME [KEGG_DRUG]
 synonym: "Propess" RELATED BRAND_NAME [DrugBank]
 synonym: "Prostaglandin E2" EXACT [KEGG_COMPOUND]
@@ -1228,7 +1228,7 @@ synonym: "10-FTHF" RELATED [ChemIDplus]
 synonym: "N-(10-formyl-5,6,7,8-tetrahydropteroyl)-L-glutamic acid" RELATED [ChEBI]
 synonym: "N-[4-(N-{[(6S)-2-amino-4-oxo-3,4,5,6,7,8-hexahydropteridin-6-yl]methyl}formamido)benzoyl]-L-glutamic acid" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:101559 "Beilstein"
-xref: CAS:2800-34-2 "ChemIDplus"
+xref: CAS:2800-34-2 "KEGG COMPOUND"
 xref: KEGG:C00234
 xref: KNApSAcK:C00007251
 is_a: CHEBI:24099 ! formyltetrahydrofolic acid
@@ -1321,8 +1321,8 @@ alt_id: CHEBI:24081
 def: "A monocarboxylic acid anion that is the conjugate base of formic acid. Induces severe metabolic acidosis and ocular injury in human subjects." []
 subset: 3_STAR
 synonym: "aminate" RELATED [ChEBI]
-synonym: "formate" EXACT [UniProt]
 synonym: "formate" EXACT IUPAC_NAME [IUPAC]
+synonym: "formate" EXACT [UniProt]
 synonym: "formiate" RELATED [ChEBI]
 synonym: "formic acid, ion(1-)" RELATED [ChemIDplus]
 synonym: "formylate" RELATED [ChEBI]
@@ -1330,7 +1330,7 @@ synonym: "HCO2 anion" RELATED [NIST_Chemistry_WebBook]
 synonym: "hydrogen carboxylate" RELATED [ChEBI]
 synonym: "methanoate" RELATED [ChEBI]
 xref: Beilstein:1901205 "Beilstein"
-xref: CAS:71-47-6 "ChemIDplus"
+xref: CAS:71-47-6 "NIST Chemistry WebBook"
 xref: Gmelin:1006 "Gmelin"
 xref: HMDB:HMDB0000142
 xref: KEGG:C00058
@@ -1379,8 +1379,8 @@ synonym: "FA 16:0" RELATED [ChEBI]
 synonym: "Hexadecanoate" RELATED [KEGG_COMPOUND]
 synonym: "hexadecanoic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "hexadecoic acid" RELATED [ChEBI]
-synonym: "Hexadecylic acid" RELATED [KEGG_COMPOUND]
 synonym: "Hexadecylic acid" RELATED [HMDB]
+synonym: "Hexadecylic acid" RELATED [KEGG_COMPOUND]
 synonym: "Hexaectylic acid" RELATED [HMDB]
 synonym: "n-hexadecanoic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "n-hexadecoic acid" RELATED [NIST_Chemistry_WebBook]
@@ -1392,7 +1392,7 @@ synonym: "Palmitinic acid" RELATED [HMDB]
 synonym: "Palmitinsaeure" RELATED [ChEBI]
 synonym: "Pentadecanecarboxylic acid" RELATED [ChemIDplus]
 xref: Beilstein:607489 "Beilstein"
-xref: CAS:57-10-3 "ChemIDplus"
+xref: CAS:57-10-3 "KEGG COMPOUND"
 xref: DrugBank:DB03796
 xref: Gmelin:190200 "Gmelin"
 xref: HMDB:HMDB0000220
@@ -1490,7 +1490,7 @@ synonym: "Arachidonsaeure" RELATED [ChEBI]
 synonym: "cis-5,8,11,14-Eicosatetraenoic acid" RELATED [KEGG_COMPOUND]
 synonym: "cis-Delta(5,8,11,14)-eicosatetraenoic acid" RELATED [ChEBI]
 xref: Beilstein:1913991 "Beilstein"
-xref: CAS:506-32-1 "NIST Chemistry WebBook"
+xref: CAS:506-32-1 "KEGG COMPOUND"
 xref: DrugBank:DB04557
 xref: Gmelin:58972 "Gmelin"
 xref: HMDB:HMDB0001043
@@ -1565,7 +1565,7 @@ synonym: "Aminoethylsulfonic acid" RELATED [KEGG_COMPOUND]
 synonym: "beta-aminoethylsulfonic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "Taurine" EXACT [KEGG_COMPOUND]
 xref: Beilstein:1751215 "Beilstein"
-xref: CAS:107-35-7 "NIST Chemistry WebBook"
+xref: CAS:107-35-7 "KEGG COMPOUND"
 xref: Drug_Central:4486 "DrugCentral"
 xref: DrugBank:DB01956
 xref: Gmelin:82121 "Gmelin"
@@ -1685,7 +1685,7 @@ synonym: "D-Glutaminsaeure" RELATED [ChEBI]
 synonym: "DGL" RELATED [PDBeChem]
 synonym: "glutamic acid D-form" RELATED [ChemIDplus]
 xref: Beilstein:1723800 "Beilstein"
-xref: CAS:6893-26-1 "ChemIDplus"
+xref: CAS:6893-26-1 "KEGG COMPOUND"
 xref: DrugBank:DB02517
 xref: Gmelin:201189 "Gmelin"
 xref: HMDB:HMDB0003339
@@ -1783,7 +1783,7 @@ synonym: "L-Glutaminic acid" RELATED [KEGG_COMPOUND]
 synonym: "L-Glutaminsaeure" RELATED [ChEBI]
 xref: Beilstein:1723801 "Beilstein"
 xref: BPDB:2297
-xref: CAS:56-86-0 "ChemIDplus"
+xref: CAS:56-86-0 "KEGG COMPOUND"
 xref: Drug_Central:1310 "DrugCentral"
 xref: DrugBank:DB00142
 xref: Gmelin:3502 "Gmelin"
@@ -1850,8 +1850,8 @@ synonym: "adenosine 5'-(dihydrogen phosphate)" RELATED [CBN]
 synonym: "Adenosine 5'-monophosphate" EXACT [KEGG_COMPOUND]
 synonym: "Adenosine 5'-phosphate" RELATED [KEGG_COMPOUND]
 synonym: "ADENOSINE MONOPHOSPHATE" RELATED [PDBeChem]
-synonym: "adenosine phosphate" RELATED INN [WHO_MedNet]
 synonym: "adenosine phosphate" RELATED [ChemIDplus]
+synonym: "adenosine phosphate" RELATED INN [WHO_MedNet]
 synonym: "Adenosine-5'-monophosphoric acid" RELATED [HMDB]
 synonym: "adenosine-5'P" RELATED [CBN]
 synonym: "adenosini phosphas" RELATED INN [WHO_MedNet]
@@ -1928,7 +1928,7 @@ synonym: "Cytosine" EXACT [KEGG_COMPOUND]
 synonym: "cytosine" EXACT [UniProt]
 synonym: "Zytosin" RELATED [ChEBI]
 xref: Beilstein:2637 "Beilstein"
-xref: CAS:71-30-7 "ChemIDplus"
+xref: CAS:71-30-7 "NIST Chemistry WebBook"
 xref: Gmelin:82472 "Gmelin"
 xref: HMDB:HMDB0000630
 xref: KEGG:C00380
@@ -1998,7 +1998,7 @@ synonym: "CHOLESTEROL" EXACT [PDBeChem]
 synonym: "Cholesterol" EXACT [KEGG_COMPOUND]
 synonym: "cholesterol" EXACT [UniProt]
 xref: Beilstein:2060565 "Beilstein"
-xref: CAS:57-88-5 "NIST Chemistry WebBook"
+xref: CAS:57-88-5 "KEGG COMPOUND"
 xref: DrugBank:DB04540
 xref: Gmelin:550297 "Gmelin"
 xref: HMDB:HMDB0000067
@@ -2060,9 +2060,9 @@ synonym: "ammoniac" RELATED [ChEBI]
 synonym: "Ammoniak" RELATED [ChemIDplus]
 synonym: "amoniaco" RELATED [ChEBI]
 synonym: "azane" EXACT IUPAC_NAME [IUPAC]
-synonym: "NH3" RELATED [IUPAC]
 synonym: "NH3" RELATED [KEGG_COMPOUND]
 synonym: "NH3" RELATED [UniProt]
+synonym: "NH3" RELATED [IUPAC]
 synonym: "R-717" RELATED [ChEBI]
 synonym: "spirit of hartshorn" RELATED [ChemIDplus]
 xref: Beilstein:3587154 "Beilstein"
@@ -2164,7 +2164,7 @@ synonym: "sulfane" EXACT IUPAC_NAME [IUPAC]
 synonym: "Sulfide" RELATED [KEGG_COMPOUND]
 synonym: "sulfure d'hydrogene" RELATED [ChEBI]
 xref: Beilstein:3535004 "Beilstein"
-xref: CAS:7783-06-4 "NIST Chemistry WebBook"
+xref: CAS:7783-06-4 "KEGG COMPOUND"
 xref: Drug_Central:4260 "DrugCentral"
 xref: Gmelin:303 "Gmelin"
 xref: KEGG:C00283
@@ -2253,15 +2253,15 @@ synonym: "Adenoscan" RELATED BRAND_NAME [DrugBank]
 synonym: "Adenosin" RELATED [ChEBI]
 synonym: "ADENOSINE" EXACT [PDBeChem]
 synonym: "Adenosine" EXACT [KEGG_COMPOUND]
-synonym: "adenosine" EXACT [UniProt]
 synonym: "adenosine" EXACT IUPAC_NAME [IUPAC]
+synonym: "adenosine" EXACT [UniProt]
 synonym: "Adenyldeoxyriboside" RELATED [DrugBank]
 synonym: "Ado" RELATED [CBN]
 synonym: "beta-D-Adenosine" RELATED [ChemIDplus]
 synonym: "Deoxyadenosine" RELATED [DrugBank]
 synonym: "Desoxyadenosine" RELATED [DrugBank]
 xref: Beilstein:93029 "Beilstein"
-xref: CAS:58-61-7 "ChemIDplus"
+xref: CAS:58-61-7 "NIST Chemistry WebBook"
 xref: Drug_Central:90 "DrugCentral"
 xref: DrugBank:DB00640
 xref: ECMDB:ECMDB00050
@@ -2318,7 +2318,7 @@ synonym: "hyaluronan" RELATED [ChEBI]
 synonym: "Hyaluronic acid" EXACT [KEGG_COMPOUND]
 synonym: "Hyaluronsaeure" RELATED [ChEBI]
 xref: Beilstein:8538277 "Beilstein"
-xref: CAS:9004-61-9 "KEGG COMPOUND"
+xref: CAS:9004-61-9 "ChemIDplus"
 xref: HMDB:HMDB0010366
 xref: KEGG:C00518
 xref: KEGG:D08043
@@ -2440,7 +2440,7 @@ synonym: "trans-4-sphingenine" RELATED [CBN]
 synonym: "trans-D-erythro-2-amino-4-octadecene-1,3-diol" RELATED [ChEBI]
 xref: Beilstein:1727294 "Beilstein"
 xref: Beilstein:4676153 "Beilstein"
-xref: CAS:123-78-4 "ChemIDplus"
+xref: CAS:123-78-4 "KEGG COMPOUND"
 xref: DrugBank:DB03203
 xref: HMDB:HMDB0000252
 xref: KEGG:C00319
@@ -2537,7 +2537,7 @@ synonym: "cytidine 5'-(cholinyl pyrophosphate)" RELATED [ChemIDplus]
 synonym: "Cytidine 5'-diphosphocholine" RELATED [KEGG_COMPOUND]
 synonym: "cytidine 5'-diphosphoric choline" RELATED [ChemIDplus]
 xref: Beilstein:4170138 "ChemIDplus"
-xref: CAS:987-78-0 "ChemIDplus"
+xref: CAS:987-78-0 "KEGG COMPOUND"
 xref: Drug_Central:664 "DrugCentral"
 xref: DrugBank:DB04290
 xref: HMDB:HMDB0001413
@@ -2580,8 +2580,8 @@ subset: 3_STAR
 synonym: "(17beta)-estra-1,3,5(10)-triene-3,17-diol" RELATED [ChemIDplus]
 synonym: "17beta oestradiol" RELATED [ChEBI]
 synonym: "17beta-estra-1,3,5(10)-triene-3,17-diol" RELATED [NIST_Chemistry_WebBook]
-synonym: "17beta-estradiol" EXACT [NIST_Chemistry_WebBook]
 synonym: "17beta-estradiol" EXACT [UniProt]
+synonym: "17beta-estradiol" EXACT [NIST_Chemistry_WebBook]
 synonym: "17beta-oestradiol" RELATED [NIST_Chemistry_WebBook]
 synonym: "beta-Estradiol" RELATED [KEGG_COMPOUND]
 synonym: "cis-estradiol" RELATED [NIST_Chemistry_WebBook]
@@ -2590,7 +2590,7 @@ synonym: "ESTRADIOL" RELATED [PDBeChem]
 synonym: "Estradiol" RELATED [KEGG_COMPOUND]
 synonym: "Estradiol-17beta" RELATED [KEGG_COMPOUND]
 xref: Beilstein:1914275 "Beilstein"
-xref: CAS:50-28-2 "ChemIDplus"
+xref: CAS:50-28-2 "KEGG COMPOUND"
 xref: Drug_Central:1057 "DrugCentral"
 xref: DrugBank:DB00783
 xref: Gmelin:290805 "Gmelin"
@@ -2656,7 +2656,7 @@ synonym: "oxyde azotique" RELATED [ChEBI]
 synonym: "oxyde nitrique" RELATED [ChEBI]
 synonym: "Stickstoff(II)-oxid" RELATED [ChEBI]
 synonym: "Stickstoffmonoxid" RELATED [ChEBI]
-xref: CAS:10102-43-9 "ChemIDplus"
+xref: CAS:10102-43-9 "NIST Chemistry WebBook"
 xref: DrugBank:DB00435
 xref: Gmelin:451 "Gmelin"
 xref: KEGG:C00533
@@ -2698,6 +2698,50 @@ synonym: "protein polypeptide chains" RELATED [ChEBI]
 xref: KEGG:C00017
 is_a: CHEBI:15841 ! polypeptide
 relationship: has_part CHEBI:33700 ! proteinogenic amino-acid residue
+
+[Term]
+id: CHEBI:16581
+name: pregnenolone
+namespace: chebi_ontology
+alt_id: CHEBI:14881
+alt_id: CHEBI:26241
+alt_id: CHEBI:45027
+alt_id: CHEBI:8388
+alt_id: CHEBI:86573
+def: "A 20-oxo steroid that is pregn-5-ene substituted by a beta-hydroxy group at position 3 and an oxo group at position 20." []
+subset: 3_STAR
+synonym: "(3BETA)-3-HYDROXYPREGN-5-EN-20-ONE" RELATED [PDBeChem]
+synonym: "3beta-Hydroxypregn-5-en-20-one" RELATED [KEGG_COMPOUND]
+synonym: "3beta-hydroxypregn-5-en-20-one" EXACT IUPAC_NAME [IUPAC]
+synonym: "5-Pregnen-3beta-ol-20-one" RELATED [KEGG_COMPOUND]
+synonym: "Pregnenolone" EXACT [KEGG_COMPOUND]
+synonym: "pregnenolone" EXACT [UniProt]
+xref: Beilstein:2059026 "Beilstein"
+xref: CAS:145-13-1 "ChemIDplus"
+xref: DrugBank:DB02789
+xref: HMDB:HMDB0000253
+xref: KEGG:C01953
+xref: KEGG:D00143
+xref: LINCS:LSM-5550
+xref: LIPID_MAPS_instance:LMST02030088 "LIPID MAPS"
+xref: PDBeChem:PLO
+xref: PMID:23572091 "Europe PMC"
+xref: PMID:24385629 "Europe PMC"
+xref: Reaxys:2059026 "Reaxys"
+xref: Wikipedia:Pregnenolone
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
+is_a: CHEBI:36885 ! 20-oxo steroid
+is_a: CHEBI:61313 ! C21-steroid
+relationship: has_parent_hydride CHEBI:8386 ! pregnane
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C21H32O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C21H32O2/c1-13(22)17-6-7-18-16-5-4-14-12-15(23)8-10-20(14,2)19(16)9-11-21(17,18)3/h4,15-19,23H,5-12H2,1-3H3/t15-,16-,17+,18-,19-,20-,21+/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ORNBQBCIOKFOEO-QGVNFLHTSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "316.47760" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "316.240" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CC=C3C[C@@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@H](CC[C@@]21[H])C(C)=O" xsd:string
 
 [Term]
 id: CHEBI:16618
@@ -2751,8 +2795,8 @@ synonym: "L-methionine" EXACT IUPAC_NAME [IUPAC]
 synonym: "M" RELATED [ChEBI]
 synonym: "Met" RELATED [ChEBI]
 synonym: "METHIONINE" RELATED [PDBeChem]
-synonym: "Methionine" RELATED [KEGG_DRUG]
 synonym: "Methionine" RELATED [KEGG_COMPOUND]
+synonym: "Methionine" RELATED [KEGG_DRUG]
 xref: CAS:63-68-3 "KEGG COMPOUND"
 xref: Drug_Central:3347 "DrugCentral"
 xref: DrugBank:DB00134
@@ -2895,8 +2939,8 @@ synonym: "2-S-adenosyl-L-homocysteine" RELATED [HMDB]
 synonym: "Adenosyl-L-homocysteine" RELATED [HMDB]
 synonym: "adenosylhomocysteine" RELATED [MetaCyc]
 synonym: "AdoHcy" RELATED [ChEBI]
-synonym: "S-(5'-adenosyl)-L-homocysteine" RELATED [ChEBI]
 synonym: "S-(5'-adenosyl)-L-homocysteine" RELATED [HMDB]
+synonym: "S-(5'-adenosyl)-L-homocysteine" RELATED [ChEBI]
 synonym: "S-(5'-deoxyadenosin-5'-yl)-L-homocysteine" EXACT IUPAC_NAME [IUPAC]
 synonym: "S-[1-(adenin-9-yl)-1,5-dideoxy-beta-D-ribofuranos-5-yl]-L-homocysteine" RELATED [IUPAC]
 synonym: "S-ADENOSYL-L-HOMOCYSTEINE" EXACT [PDBeChem]
@@ -2904,7 +2948,7 @@ synonym: "S-Adenosyl-L-homocysteine" EXACT [KEGG_COMPOUND]
 synonym: "S-Adenosylhomocysteine" RELATED [KEGG_COMPOUND]
 synonym: "SAH" RELATED [MetaCyc]
 xref: Beilstein:99188 "Beilstein"
-xref: CAS:979-92-0 "ChemIDplus"
+xref: CAS:979-92-0 "KEGG COMPOUND"
 xref: DrugBank:DB01752
 xref: Gmelin:692100 "Gmelin"
 xref: HMDB:HMDB0000939
@@ -2999,7 +3043,7 @@ synonym: "ADENINE" EXACT [PDBeChem]
 synonym: "Adenine" EXACT [KEGG_COMPOUND]
 synonym: "adenine" EXACT [UniProt]
 xref: Beilstein:608603 "Beilstein"
-xref: CAS:73-24-5 "KEGG COMPOUND"
+xref: CAS:73-24-5 "ChemIDplus"
 xref: Drug_Central:89 "DrugCentral"
 xref: DrugBank:DB00173
 xref: Gmelin:3903 "Gmelin"
@@ -3049,8 +3093,8 @@ synonym: "Benzen" RELATED [IUPAC]
 synonym: "BENZENE" EXACT [PDBeChem]
 synonym: "Benzene" EXACT [KEGG_COMPOUND]
 synonym: "benzene" EXACT IUPAC_NAME [IUPAC]
-synonym: "benzene" EXACT [ChEBI]
 synonym: "benzene" EXACT [UniProt]
+synonym: "benzene" EXACT [ChEBI]
 synonym: "Benzine" RELATED [UM-BBD]
 synonym: "Benzol" RELATED [ChemIDplus]
 synonym: "benzole" RELATED [NIST_Chemistry_WebBook]
@@ -3063,7 +3107,7 @@ synonym: "phenyl hydride" RELATED [UM-BBD]
 synonym: "Pyrobenzol" RELATED [ChemIDplus]
 synonym: "Pyrobenzole" RELATED [ChemIDplus]
 xref: Beilstein:969212 "Beilstein"
-xref: CAS:71-43-2 "NIST Chemistry WebBook"
+xref: CAS:71-43-2 "KEGG COMPOUND"
 xref: Gmelin:1671 "Gmelin"
 xref: HMDB:HMDB0001505
 xref: KEGG:C01407
@@ -3221,7 +3265,7 @@ synonym: "2-(3-indolyl)ethylamine" RELATED [ChemIDplus]
 synonym: "3-(2-Aminoethyl)indole" RELATED [KEGG_COMPOUND]
 synonym: "Tryptamine" EXACT [KEGG_COMPOUND]
 xref: Beilstein:125513 "Beilstein"
-xref: CAS:61-54-1 "NIST Chemistry WebBook"
+xref: CAS:61-54-1 "KEGG COMPOUND"
 xref: DrugBank:DB08653
 xref: Gmelin:603448 "Gmelin"
 xref: HMDB:HMDB0000303
@@ -3319,8 +3363,8 @@ synonym: "M" RELATED [ChEBI]
 synonym: "Met" RELATED [ChEBI]
 synonym: "Methionin" RELATED [ChEBI]
 synonym: "Methionine" EXACT [KEGG_COMPOUND]
-synonym: "methionine" EXACT [ChEBI]
 synonym: "methionine" EXACT IUPAC_NAME [IUPAC]
+synonym: "methionine" EXACT [ChEBI]
 synonym: "metionina" RELATED [ChEBI]
 synonym: "Racemethionine" RELATED [KEGG_DRUG]
 xref: Beilstein:636185 "Beilstein"
@@ -3509,13 +3553,13 @@ def: "A gamma-amino acid that is butanoic acid with the amino substituent locate
 subset: 3_STAR
 synonym: "4-Aminobutanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutanoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "4-aminobutanoic acid" RELATED [ChEBI]
 synonym: "4-aminobutanoic acid" RELATED [UniProt]
+synonym: "4-aminobutanoic acid" RELATED [ChEBI]
 synonym: "4-Aminobutyric acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutyric acid" RELATED [ChEBI]
 synonym: "4Abu" RELATED [ChEBI]
-synonym: "GABA" RELATED [IUPHAR]
 synonym: "GABA" RELATED [KEGG_COMPOUND]
+synonym: "GABA" RELATED [IUPHAR]
 synonym: "GAMMA-AMINO-BUTANOIC ACID" RELATED [PDBeChem]
 synonym: "gamma-amino-n-butyric acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "gamma-aminobutanoic acid" RELATED [NIST_Chemistry_WebBook]
@@ -3527,7 +3571,7 @@ synonym: "piperidic acid" RELATED [ChemIDplus]
 synonym: "piperidinic acid" RELATED [ChemIDplus]
 xref: Beilstein:906818 "Beilstein"
 xref: BPDB:2298
-xref: CAS:56-12-2 "KEGG COMPOUND"
+xref: CAS:56-12-2 "ChemIDplus"
 xref: Drug_Central:1262 "DrugCentral"
 xref: DrugBank:DB02530
 xref: Gmelin:49775 "Gmelin"
@@ -3784,7 +3828,7 @@ synonym: "DNAn" RELATED [KEGG_COMPOUND]
 synonym: "DNAn+1" RELATED [KEGG_COMPOUND]
 synonym: "DNS" RELATED [ChEBI]
 synonym: "thymus nucleic acid" RELATED [ChEBI]
-xref: CAS:9007-49-2 "ChemIDplus"
+xref: CAS:9007-49-2 "KEGG COMPOUND"
 xref: KEGG:C00039
 is_a: CHEBI:33696 ! nucleic acid
 relationship: has_part CHEBI:33793 ! canonical deoxyribonucleoside residue
@@ -4034,8 +4078,8 @@ synonym: "butylacetate" RELATED [ChEBI]
 synonym: "caproate" RELATED [ChEBI]
 synonym: "capronate" RELATED [ChEBI]
 synonym: "CH3-[CH2]4-COO(-)" RELATED [IUPAC]
-synonym: "hexanoate" EXACT IUPAC_NAME [IUPAC]
 synonym: "hexanoate" EXACT [UniProt]
+synonym: "hexanoate" EXACT IUPAC_NAME [IUPAC]
 synonym: "hexoate" RELATED [ChEBI]
 synonym: "hexylate" RELATED [ChEBI]
 synonym: "n-caproate" RELATED [ChEBI]
@@ -4286,7 +4330,7 @@ synonym: "Cytidine 5'-pyrophosphate" RELATED [ChemIDplus]
 synonym: "Cytidine diphosphate" RELATED [KEGG_COMPOUND]
 synonym: "Cytidine, 5'-(trihydrogen pyrophosphate)" RELATED [ChemIDplus]
 synonym: "CYTIDINE-5'-DIPHOSPHATE" RELATED [PDBeChem]
-xref: CAS:63-38-7 "ChemIDplus"
+xref: CAS:63-38-7 "KEGG COMPOUND"
 xref: DrugBank:DB04555
 xref: KEGG:C00112
 xref: PDBeChem:CDF
@@ -4424,7 +4468,7 @@ synonym: "propanoic acid, ion(1-)" RELATED [ChemIDplus]
 synonym: "propionate" EXACT [IUPAC]
 synonym: "pseudoacetate" RELATED [ChEBI]
 xref: Beilstein:3587503 "Beilstein"
-xref: CAS:72-03-7 "ChemIDplus"
+xref: CAS:72-03-7 "NIST Chemistry WebBook"
 xref: Gmelin:1820 "Gmelin"
 xref: KEGG:C00163
 xref: PMID:17951291 "Europe PMC"
@@ -4458,7 +4502,7 @@ synonym: "Pyridoxal" EXACT [KEGG_COMPOUND]
 synonym: "pyridoxal" EXACT [UniProt]
 synonym: "pyridoxaldehyde" RELATED [ChemIDplus]
 xref: Beilstein:383768 "Beilstein"
-xref: CAS:66-72-8 "ChemIDplus"
+xref: CAS:66-72-8 "KEGG COMPOUND"
 xref: Drug_Central:4134 "DrugCentral"
 xref: DrugBank:DB00147
 xref: Gmelin:218674 "Gmelin"
@@ -4593,15 +4637,15 @@ synonym: "all-cis-9,12-octadecadienoic acid" RELATED [ChEBI]
 synonym: "C18:2 9c, 12c omega6 todos cis-9,12-octadienoico" RELATED [ChEBI]
 synonym: "C18:2, n-6,9 all-cis" RELATED [ChEBI]
 synonym: "cis,cis-9,12-octadecadienoic acid" RELATED [ChEBI]
-synonym: "cis,cis-linoleic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "cis,cis-linoleic acid" RELATED [ChEBI]
+synonym: "cis,cis-linoleic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "cis-Delta(9,12)-octadecadienoic acid" RELATED [ChemIDplus]
 synonym: "LA" RELATED [ChEBI]
 synonym: "LINOLEIC ACID" EXACT [PDBeChem]
 synonym: "Linoleic acid" EXACT [KEGG_COMPOUND]
 synonym: "linolic acid" RELATED [ChEBI]
 xref: Beilstein:1727101 "Beilstein"
-xref: CAS:60-33-3 "KEGG COMPOUND"
+xref: CAS:60-33-3 "NIST Chemistry WebBook"
 xref: Drug_Central:3323 "DrugCentral"
 xref: Gmelin:57557 "Gmelin"
 xref: HMDB:HMDB0000673
@@ -4758,13 +4802,13 @@ synonym: "CN-Cbl" RELATED [CBN]
 synonym: "CO-CYANOCOBALAMIN" RELATED [PDBeChem]
 synonym: "Coalpha-[alpha-(5,6-dimethylbenzimidazolyl)]-Cobeta-cyanocobamide" EXACT IUPAC_NAME [IUPAC]
 synonym: "Cyanocob(III)alamin" EXACT [KEGG_COMPOUND]
-synonym: "cyanocob(III)alamin" EXACT IUPAC_NAME [IUPAC]
 synonym: "cyanocob(III)alamin" EXACT [UniProt]
+synonym: "cyanocob(III)alamin" EXACT IUPAC_NAME [IUPAC]
 synonym: "cyanocobalamin" RELATED INN [KEGG_DRUG]
 synonym: "Dicopac" RELATED [KEGG_COMPOUND]
 synonym: "vitamin B-12" RELATED [CBN]
 synonym: "Vitamin B12 complex" RELATED [KEGG_COMPOUND]
-xref: CAS:68-19-9 "KEGG COMPOUND"
+xref: CAS:68-19-9 "ChemIDplus"
 xref: DrugBank:DB00115
 xref: Gmelin:249901 "Gmelin"
 xref: Gmelin:457955 "Gmelin"
@@ -4838,7 +4882,7 @@ synonym: "cAMP" RELATED [KEGG_COMPOUND]
 synonym: "Cyclic adenylic acid" RELATED [KEGG_COMPOUND]
 synonym: "Cyclic AMP" RELATED [KEGG_COMPOUND]
 xref: Beilstein:52645 "Beilstein"
-xref: CAS:60-92-4 "KEGG COMPOUND"
+xref: CAS:60-92-4 "NIST Chemistry WebBook"
 xref: DrugBank:DB02527
 xref: HMDB:HMDB0000058
 xref: KEGG:C00575
@@ -4970,7 +5014,7 @@ synonym: "L-Cysteine" EXACT [KEGG_COMPOUND]
 synonym: "L-cysteine" EXACT IUPAC_NAME [IUPAC]
 synonym: "L-Zystein" RELATED [ChEBI]
 xref: Beilstein:1721408 "Beilstein"
-xref: CAS:52-90-4 "ChemIDplus"
+xref: CAS:52-90-4 "KEGG COMPOUND"
 xref: Drug_Central:769 "DrugCentral"
 xref: DrugBank:DB00151
 xref: ECMDB:ECMDB00574
@@ -5021,9 +5065,9 @@ synonym: "phenylmethane" RELATED [ChemIDplus]
 synonym: "Toluen" RELATED [NIST_Chemistry_WebBook]
 synonym: "TOLUENE" EXACT [PDBeChem]
 synonym: "Toluene" EXACT [KEGG_COMPOUND]
+synonym: "toluene" EXACT [ChEBI]
 synonym: "toluene" EXACT [UniProt]
 synonym: "toluene" EXACT IUPAC_NAME [IUPAC]
-synonym: "toluene" EXACT [ChEBI]
 synonym: "Toluol" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:635760 "Beilstein"
 xref: CAS:108-88-3 "ChemIDplus"
@@ -5145,7 +5189,7 @@ synonym: "hydrocortisonum" RELATED INN [ChemIDplus]
 synonym: "Kendall's compound F" RELATED [KEGG_COMPOUND]
 synonym: "Reichstein's substance M" RELATED [KEGG_COMPOUND]
 xref: Beilstein:1354819 "Beilstein"
-xref: CAS:50-23-7 "KEGG COMPOUND"
+xref: CAS:50-23-7 "ChemIDplus"
 xref: Drug_Central:1388 "DrugCentral"
 xref: DrugBank:DB00741
 xref: KEGG:C00735
@@ -5215,8 +5259,8 @@ synonym: "glycerine" RELATED [ChEBI]
 synonym: "Glyceritol" RELATED [HMDB]
 synonym: "GLYCEROL" EXACT [PDBeChem]
 synonym: "Glycerol" EXACT [KEGG_COMPOUND]
-synonym: "glycerol" EXACT [ChEBI]
 synonym: "glycerol" EXACT [UniProt]
+synonym: "glycerol" EXACT [ChEBI]
 synonym: "glycerol" RELATED INN [ChemIDplus]
 synonym: "glycerolum" RELATED INN [ChemIDplus]
 synonym: "glycyl alcohol" RELATED [NIST_Chemistry_WebBook]
@@ -5337,8 +5381,8 @@ synonym: "CH3OH" RELATED [ChEBI]
 synonym: "MeOH" RELATED [ChEBI]
 synonym: "METHANOL" EXACT [PDBeChem]
 synonym: "Methanol" EXACT [KEGG_COMPOUND]
-synonym: "methanol" EXACT IUPAC_NAME [IUPAC]
 synonym: "methanol" EXACT [UniProt]
+synonym: "methanol" EXACT IUPAC_NAME [IUPAC]
 synonym: "Methyl alcohol" RELATED [KEGG_COMPOUND]
 synonym: "Methylalkohol" RELATED [NIST_Chemistry_WebBook]
 synonym: "spirit of wood" RELATED [HMDB]
@@ -5346,7 +5390,7 @@ synonym: "wood alcohol" RELATED [ChemIDplus]
 synonym: "wood naphtha" RELATED [ChemIDplus]
 synonym: "wood spirit" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:1098229 "Beilstein"
-xref: CAS:67-56-1 "KEGG COMPOUND"
+xref: CAS:67-56-1 "NIST Chemistry WebBook"
 xref: Gmelin:449 "Gmelin"
 xref: HMDB:HMDB0001875
 xref: KEGG:C00132
@@ -5407,7 +5451,7 @@ synonym: "Serin" RELATED [ChEBI]
 synonym: "Serine" EXACT [KEGG_COMPOUND]
 synonym: "serine" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:1721402 "Beilstein"
-xref: CAS:302-84-1 "NIST Chemistry WebBook"
+xref: CAS:302-84-1 "KEGG COMPOUND"
 xref: Gmelin:26429 "Gmelin"
 xref: KEGG:C00716
 xref: KNApSAcK:C00001393
@@ -5470,7 +5514,7 @@ synonym: "oxidised glutathione" RELATED [ChEBI]
 synonym: "Oxidized glutathione" RELATED [KEGG_COMPOUND]
 synonym: "OXIDIZED GLUTATHIONE DISULFIDE" RELATED [PDBeChem]
 synonym: "Oxiglutatione" RELATED [KEGG_COMPOUND]
-xref: CAS:27025-41-8 "ChemIDplus"
+xref: CAS:27025-41-8 "KEGG COMPOUND"
 xref: Drug_Central:5130 "DrugCentral"
 xref: DrugBank:DB03310
 xref: KEGG:C00127
@@ -5504,15 +5548,15 @@ synonym: "chloridohydrogen" EXACT IUPAC_NAME [IUPAC]
 synonym: "chlorure d'hydrogene" RELATED [ChEBI]
 synonym: "Chlorwasserstoff" RELATED [ChEBI]
 synonym: "cloruro de hidrogeno" RELATED [ChEBI]
-synonym: "HCl" RELATED [UniProt]
 synonym: "HCl" RELATED [KEGG_COMPOUND]
+synonym: "HCl" RELATED [UniProt]
 synonym: "hydrochloric acid" RELATED [ChemIDplus]
 synonym: "Hydrochloride" RELATED [KEGG_COMPOUND]
 synonym: "Hydrogen chloride" EXACT [KEGG_COMPOUND]
 synonym: "hydrogen chloride" EXACT IUPAC_NAME [IUPAC]
 synonym: "Hydrogenchlorid" RELATED [ChEBI]
 synonym: "Wasserstoffchlorid" RELATED [ChEBI]
-xref: CAS:7647-01-0 "ChemIDplus"
+xref: CAS:7647-01-0 "KEGG COMPOUND"
 xref: Drug_Central:4568 "DrugCentral"
 xref: Gmelin:322 "Gmelin"
 xref: HMDB:HMDB0002306
@@ -5739,7 +5783,7 @@ synonym: "lysine" RELATED INN [WHO_MedNet]
 synonym: "Lysine acid" RELATED [KEGG_COMPOUND]
 synonym: "lysinum" RELATED INN [WHO_MedNet]
 xref: Beilstein:1722531 "Beilstein"
-xref: CAS:56-87-1 "ChemIDplus"
+xref: CAS:56-87-1 "KEGG COMPOUND"
 xref: Drug_Central:1622 "DrugCentral"
 xref: DrugBank:DB00123
 xref: ECMDB:ECMDB00182
@@ -5973,8 +6017,8 @@ synonym: "tirosina" RELATED [ChEBI]
 synonym: "Tyr" RELATED [ChEBI]
 synonym: "Tyrosin" RELATED [ChEBI]
 synonym: "Tyrosine" EXACT [KEGG_COMPOUND]
-synonym: "tyrosine" EXACT IUPAC_NAME [IUPAC]
 synonym: "tyrosine" EXACT [UniProt]
+synonym: "tyrosine" EXACT IUPAC_NAME [IUPAC]
 synonym: "Y" RELATED [ChEBI]
 xref: Beilstein:515881 "Beilstein"
 xref: CAS:55520-40-6 "ChemIDplus"
@@ -6019,7 +6063,7 @@ synonym: "glutamic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Glutaminic acid" RELATED [KEGG_COMPOUND]
 synonym: "Glutaminsaeure" RELATED [ChEBI]
 xref: Beilstein:1723799 "Beilstein"
-xref: CAS:617-65-2 "NIST Chemistry WebBook"
+xref: CAS:617-65-2 "KEGG COMPOUND"
 xref: Gmelin:101971 "Gmelin"
 xref: KEGG:C00302
 xref: KEGG:D04341
@@ -6186,13 +6230,13 @@ synonym: "liothyronine" RELATED INN [ChemIDplus]
 synonym: "liothyroninum" RELATED INN [ChemIDplus]
 synonym: "liotironina" RELATED INN [ChemIDplus]
 synonym: "O-(4-hydroxy-3-iodophenyl)-3,5-diiodo-L-tyrosine" RELATED [IUPAC]
-synonym: "T3" RELATED [KEGG_COMPOUND]
 synonym: "T3" RELATED [ChEBI]
+synonym: "T3" RELATED [KEGG_COMPOUND]
 synonym: "Tertroxin" RELATED BRAND_NAME [DrugBank]
 synonym: "Tresitope" RELATED BRAND_NAME [DrugBank]
 synonym: "Triiodothyronine" RELATED [KEGG_COMPOUND]
 xref: Beilstein:2710227 "Beilstein"
-xref: CAS:6893-02-3 "ChemIDplus"
+xref: CAS:6893-02-3 "KEGG COMPOUND"
 xref: Drug_Central:1585 "DrugCentral"
 xref: DrugBank:DB00279
 xref: HMDB:HMDB0000265
@@ -6254,7 +6298,7 @@ synonym: "manganese" RELATED [ChEBI]
 synonym: "manganeso" RELATED [ChEBI]
 synonym: "manganum" RELATED [ChEBI]
 synonym: "Mn" RELATED [IUPAC]
-xref: CAS:7439-96-5 "KEGG COMPOUND"
+xref: CAS:7439-96-5 "ChemIDplus"
 xref: KEGG:C00034
 xref: WebElements:Mn
 is_a: CHEBI:33352 ! manganese group element atom
@@ -6284,7 +6328,7 @@ synonym: "2-(4-Imidazolyl)ethylamine" RELATED [KEGG_COMPOUND]
 synonym: "HISTAMINE" EXACT [PDBeChem]
 synonym: "Histamine" EXACT [KEGG_COMPOUND]
 xref: Beilstein:2012 "Beilstein"
-xref: CAS:51-45-6 "NIST Chemistry WebBook"
+xref: CAS:51-45-6 "ChemIDplus"
 xref: Drug_Central:1375 "DrugCentral"
 xref: Gmelin:2968 "Gmelin"
 xref: HMDB:HMDB0000870
@@ -6485,6 +6529,40 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WLJVXDMOQOGPHL-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "135.13998" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "135.045" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C(=O)Cc1ccccc1" xsd:string
+
+[Term]
+id: CHEBI:18420
+name: magnesium(2+)
+namespace: chebi_ontology
+alt_id: CHEBI:13379
+alt_id: CHEBI:25112
+alt_id: CHEBI:49736
+alt_id: CHEBI:6635
+subset: 3_STAR
+synonym: "magnesium cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "MAGNESIUM ION" RELATED [PDBeChem]
+synonym: "magnesium(2+)" EXACT IUPAC_NAME [IUPAC]
+synonym: "magnesium(2+) ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "magnesium(II) cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "magnesium, doubly charged positive ion" RELATED [NIST_Chemistry_WebBook]
+synonym: "magnesium, ion (Mg(2+))" RELATED [ChemIDplus]
+synonym: "Mg(2+)" RELATED [IUPAC]
+synonym: "Mg(2+)" RELATED [UniProt]
+synonym: "Mg2+" RELATED [KEGG_COMPOUND]
+xref: CAS:22537-22-0 "NIST Chemistry WebBook"
+xref: Gmelin:6857 "Gmelin"
+xref: KEGG:C00305
+xref: PDBeChem:MG
+is_a: CHEBI:30412 ! monoatomic dication
+is_a: CHEBI:39127 ! magnesium cation
+is_a: CHEBI:60240 ! divalent metal cation
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "Mg" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Mg/q+2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "JLVVSXFLKOJNIY-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "24.30500" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "23.985" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mg++]" xsd:string
 
 [Term]
 id: CHEBI:19138
@@ -6718,8 +6796,8 @@ namespace: chebi_ontology
 def: "A monoatomic or polyatomic species having one or more elementary charges of the electron." []
 subset: 3_STAR
 synonym: "Anion" EXACT [ChEBI]
-synonym: "anion" EXACT [ChEBI]
 synonym: "anion" EXACT IUPAC_NAME [IUPAC]
+synonym: "anion" EXACT [ChEBI]
 synonym: "Anionen" RELATED [ChEBI]
 synonym: "aniones" RELATED [ChEBI]
 synonym: "anions" RELATED [IUPAC]
@@ -6785,8 +6863,8 @@ namespace: chebi_ontology
 def: "A molecular entity having an available pair of electrons capable of forming a covalent bond with a hydron (Bronsted base) or with the vacant orbital of some other molecular entity (Lewis base)." []
 subset: 3_STAR
 synonym: "Base" EXACT [ChEBI]
-synonym: "base" EXACT IUPAC_NAME [IUPAC]
 synonym: "base" EXACT [ChEBI]
+synonym: "base" EXACT IUPAC_NAME [IUPAC]
 synonym: "Base1" RELATED [KEGG_COMPOUND]
 synonym: "Base2" RELATED [KEGG_COMPOUND]
 synonym: "Basen" RELATED [ChEBI]
@@ -6938,8 +7016,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [UniProt]
 synonym: "carbonyl group" EXACT [ChEBI]
+synonym: "carbonyl group" EXACT [UniProt]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -7589,6 +7667,44 @@ is_a: CHEBI:26421 ! pyridines
 is_a: CHEBI:74818 ! heteroaryl hydroxy compound
 
 [Term]
+id: CHEBI:24757
+name: hypochlorous acid
+namespace: chebi_ontology
+def: "A chlorine oxoacid with formula HOCl; a weak, unstable acid, it is the active form of chlorine in water." []
+subset: 3_STAR
+synonym: "[ClOH]" RELATED [IUPAC]
+synonym: "Chlor(I)-saeure" RELATED [ChEBI]
+synonym: "chloranol" EXACT IUPAC_NAME [IUPAC]
+synonym: "HClO" RELATED [IUPAC]
+synonym: "HOCl" RELATED [IUPAC]
+synonym: "hydroxidochlorine" EXACT IUPAC_NAME [IUPAC]
+synonym: "hypochloric acid" RELATED [ChEBI]
+synonym: "hypochlorige Saeure" RELATED [ChEBI]
+synonym: "hypochlorous acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "hypochlorous acid" EXACT [UniProt]
+xref: CAS:7790-92-3 "NIST Chemistry WebBook"
+xref: Gmelin:688 "Gmelin"
+xref: PMID:11640916 "Europe PMC"
+xref: PMID:12079432 "Europe PMC"
+xref: PMID:12215218 "Europe PMC"
+xref: PMID:15589368 "Europe PMC"
+xref: PMID:7487057 "Europe PMC"
+xref: PMID:8072005 "Europe PMC"
+is_a: CHEBI:26523 ! reactive oxygen species
+is_a: CHEBI:33426 ! chlorine oxoacid
+relationship: has_role CHEBI:38462 ! EC 3.1.1.7 (acetylcholinesterase) inhibitor
+relationship: has_role CHEBI:76797 ! EC 2.5.1.18 (glutathione transferase) inhibitor
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_acid_of CHEBI:29222 ! hypochlorite
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "ClHO" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClHO/c1-2/h2H" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QWPPOHNGKGFGJK-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "52.46004" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "51.972" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "OCl" xsd:string
+
+[Term]
 id: CHEBI:24780
 name: imidazoles
 namespace: chebi_ontology
@@ -7823,8 +7939,8 @@ namespace: chebi_ontology
 def: "A molecular entity having a net electric charge." []
 subset: 3_STAR
 synonym: "Ion" EXACT [ChEBI]
-synonym: "ion" EXACT [ChEBI]
 synonym: "ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "ion" EXACT [ChEBI]
 synonym: "Ionen" RELATED [ChEBI]
 synonym: "iones" RELATED [ChEBI]
 synonym: "ions" RELATED [ChEBI]
@@ -7840,6 +7956,18 @@ synonym: "iron molecular entities" RELATED [ChEBI]
 synonym: "iron molecular entity" EXACT [ChEBI]
 is_a: CHEBI:33744 ! iron group molecular entity
 relationship: has_part CHEBI:18248 ! iron atom
+
+[Term]
+id: CHEBI:24875
+name: iron cation
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "Fe cation" RELATED [UniProt]
+synonym: "iron cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "iron cations" RELATED [ChEBI]
+is_a: CHEBI:33515 ! transition element cation
+is_a: CHEBI:82663 ! elemental iron
+property_value: http://purl.obolibrary.org/obo/chebi/formula "Fe" xsd:string
 
 [Term]
 id: CHEBI:24913
@@ -7959,6 +8087,17 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "FYYHWMGAXLPEAU-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "24.30500" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "23.985" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Mg]" xsd:string
+
+[Term]
+id: CHEBI:25108
+name: magnesium molecular entity
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "magnesium compounds" RELATED [ChEBI]
+synonym: "magnesium molecular entities" RELATED [ChEBI]
+synonym: "magnesium molecular entity" EXACT [ChEBI]
+is_a: CHEBI:33299 ! alkaline earth molecular entity
+relationship: has_part CHEBI:25107 ! magnesium atom
 
 [Term]
 id: CHEBI:25154
@@ -8091,6 +8230,15 @@ is_a: CHEBI:23906 ! monoatomic cation
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "0.00000" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*+]" xsd:string
+
+[Term]
+id: CHEBI:25430
+name: monoatomic polycation
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "monoatomic polycations" RELATED [ChEBI]
+synonym: "multivalent inorganic cations" RELATED [ChEBI]
+is_a: CHEBI:23906 ! monoatomic cation
 
 [Term]
 id: CHEBI:25512
@@ -8409,6 +8557,17 @@ subset: 3_STAR
 synonym: "pentose" EXACT [ChEBI]
 synonym: "pentoses" RELATED [ChEBI]
 is_a: CHEBI:35381 ! monosaccharide
+
+[Term]
+id: CHEBI:25905
+name: peptide hormone
+namespace: chebi_ontology
+def: "Any peptide with hormonal activity in animals, whether endocrine, neuroendocrine, or paracrine." []
+subset: 3_STAR
+synonym: "peptide hormones" RELATED [ChEBI]
+synonym: "polypeptide hormone" RELATED [ChEBI]
+is_a: CHEBI:16670 ! peptide
+relationship: has_role CHEBI:24621 ! hormone
 
 [Term]
 id: CHEBI:25944
@@ -9249,8 +9408,8 @@ subset: 3_STAR
 synonym: "16S" RELATED [IUPAC]
 synonym: "azufre" RELATED [ChEBI]
 synonym: "Elemental sulfur" RELATED [KEGG_COMPOUND]
-synonym: "S" RELATED [IUPAC]
 synonym: "S" RELATED [KEGG_COMPOUND]
+synonym: "S" RELATED [IUPAC]
 synonym: "Schwefel" RELATED [ChEBI]
 synonym: "soufre" RELATED [ChEBI]
 synonym: "sulfur" EXACT IUPAC_NAME [IUPAC]
@@ -9258,7 +9417,7 @@ synonym: "sulfur" RELATED [ChEBI]
 synonym: "sulfur" RELATED [UniProt]
 synonym: "sulphur" RELATED [ChEBI]
 synonym: "theion" RELATED [IUPAC]
-xref: CAS:7704-34-9 "NIST Chemistry WebBook"
+xref: CAS:7704-34-9 "ChemIDplus"
 xref: KEGG:C00087
 xref: KEGG:D06527
 xref: PPDB:605
@@ -9450,6 +9609,19 @@ synonym: "triols" RELATED [ChEBI]
 is_a: CHEBI:26191 ! polyol
 
 [Term]
+id: CHEBI:27153
+name: monoatomic trication
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "monoatomic trications" RELATED [ChEBI]
+synonym: "trivalent inorganic cations" RELATED [ChEBI]
+is_a: CHEBI:25430 ! monoatomic polycation
+is_a: CHEBI:64712 ! trivalent inorganic cation
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "0.00000" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*+3]" xsd:string
+
+[Term]
 id: CHEBI:27162
 name: tryptamines
 namespace: chebi_ontology
@@ -9486,8 +9658,8 @@ def: "Any fatty acid containing at least one C=C or C#C bond." []
 subset: 3_STAR
 synonym: "alkene acid" RELATED [ChEBI]
 synonym: "olefinic acid" RELATED [ChEBI]
-synonym: "unsaturated fatty acids" RELATED [ChEBI]
 synonym: "unsaturated fatty acids" RELATED [LIPID_MAPS]
+synonym: "unsaturated fatty acids" RELATED [ChEBI]
 xref: LIPID_MAPS_class:LMFA0103 "LIPID MAPS"
 xref: PMID:5322381 "Europe PMC"
 is_a: CHEBI:35366 ! fatty acid
@@ -9568,7 +9740,7 @@ synonym: "Zink" RELATED [ChEBI]
 synonym: "Zn" RELATED [IUPAC]
 synonym: "Zn(II)" RELATED [KEGG_COMPOUND]
 synonym: "Zn2+" RELATED [KEGG_COMPOUND]
-xref: CAS:7440-66-6 "ChemIDplus"
+xref: CAS:7440-66-6 "KEGG COMPOUND"
 xref: Gmelin:16321 "Gmelin"
 xref: KEGG:C00038
 xref: PDBeChem:ZN
@@ -9673,7 +9845,7 @@ synonym: "arsenic" RELATED [ChEBI]
 synonym: "arsenico" RELATED [ChEBI]
 synonym: "arsenicum" RELATED [ChEBI]
 synonym: "As" RELATED [KEGG_COMPOUND]
-xref: CAS:7440-38-2 "ChemIDplus"
+xref: CAS:7440-38-2 "KEGG COMPOUND"
 xref: KEGG:C06269
 xref: WebElements:As
 is_a: CHEBI:137980 ! metalloid atom
@@ -9732,7 +9904,7 @@ synonym: "carbone" RELATED [ChEBI]
 synonym: "carbonium" RELATED [ChEBI]
 synonym: "carbono" RELATED [ChEBI]
 synonym: "Kohlenstoff" RELATED [ChEBI]
-xref: CAS:7440-44-0 "ChemIDplus"
+xref: CAS:7440-44-0 "KEGG COMPOUND"
 xref: KEGG:C06265
 xref: WebElements:C
 is_a: CHEBI:25585 ! nonmetal atom
@@ -9846,8 +10018,8 @@ synonym: "fenilalanina" RELATED [ChEBI]
 synonym: "PHE" RELATED [ChEBI]
 synonym: "Phenylalanin" RELATED [ChEBI]
 synonym: "Phenylalanine" EXACT [KEGG_COMPOUND]
-synonym: "phenylalanine" EXACT IUPAC_NAME [IUPAC]
 synonym: "phenylalanine" EXACT [ChEBI]
+synonym: "phenylalanine" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:1910407 "Beilstein"
 xref: CAS:150-30-1 "NIST Chemistry WebBook"
 xref: Gmelin:50836 "Gmelin"
@@ -9881,7 +10053,7 @@ subset: 3_STAR
 synonym: "animal starch" RELATED [ChemIDplus]
 synonym: "Glycogen" EXACT [KEGG_COMPOUND]
 synonym: "liver starch" RELATED [ChemIDplus]
-xref: CAS:9005-79-2 "ChemIDplus"
+xref: CAS:9005-79-2 "KEGG COMPOUND"
 xref: KEGG:C00182
 is_a: CHEBI:24384 ! glycogens
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
@@ -9905,7 +10077,7 @@ synonym: "Lactic acid" RELATED [KEGG_COMPOUND]
 synonym: "Milchsaeure" RELATED [ChEBI]
 synonym: "rac-2-hydroxypropanoic acid" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:1209341 "Beilstein"
-xref: CAS:50-21-5 "ChemIDplus"
+xref: CAS:50-21-5 "KEGG COMPOUND"
 xref: DrugBank:DB04398
 xref: KEGG:C01432
 xref: KEGG:D00111
@@ -9943,7 +10115,7 @@ synonym: "Carbamic acid" EXACT [KEGG_COMPOUND]
 synonym: "carbamic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Carbamidsaeure" RELATED [ChEBI]
 xref: Beilstein:1734754 "Beilstein"
-xref: CAS:463-77-4 "KEGG COMPOUND"
+xref: CAS:463-77-4 "ChemIDplus"
 xref: DrugBank:DB04261
 xref: Gmelin:130345 "Gmelin"
 xref: KEGG:C01563
@@ -9993,14 +10165,14 @@ alt_id: CHEBI:8168
 subset: 3_STAR
 synonym: "15P" RELATED [IUPAC]
 synonym: "fosforo" RELATED [ChEBI]
-synonym: "P" RELATED [KEGG_COMPOUND]
 synonym: "P" RELATED [IUPAC]
+synonym: "P" RELATED [KEGG_COMPOUND]
 synonym: "Phosphor" RELATED [ChEBI]
 synonym: "phosphore" RELATED [ChEBI]
 synonym: "Phosphorus" RELATED [KEGG_COMPOUND]
 synonym: "phosphorus" EXACT IUPAC_NAME [IUPAC]
 synonym: "phosphorus" RELATED [ChEBI]
-xref: CAS:7723-14-0 "ChemIDplus"
+xref: CAS:7723-14-0 "KEGG COMPOUND"
 xref: Gmelin:16235 "Gmelin"
 xref: KEGG:C06262
 xref: WebElements:P
@@ -10192,12 +10364,12 @@ synonym: "4-[(1R)-1-Hydroxy-2-(methylamino)ethyl]-1,2-benzenediol" RELATED [KEGG
 synonym: "4-[(1R)-1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol" EXACT IUPAC_NAME [IUPAC]
 synonym: "Adrenalin" RELATED [NIST_Chemistry_WebBook]
 synonym: "Adrenalin" RELATED BRAND_NAME [KEGG_DRUG]
-synonym: "adrenaline" RELATED [NIST_Chemistry_WebBook]
 synonym: "adrenaline" RELATED [ChEBI]
+synonym: "adrenaline" RELATED [NIST_Chemistry_WebBook]
 synonym: "epinefrina" RELATED INN [ChemIDplus]
 synonym: "Epinephrin" RELATED [ChEBI]
-synonym: "epinephrine" RELATED INN [ChemIDplus]
 synonym: "epinephrine" RELATED INN [ChEBI]
+synonym: "epinephrine" RELATED INN [ChemIDplus]
 synonym: "epinephrinum" RELATED INN [ChemIDplus]
 synonym: "Epipen" RELATED BRAND_NAME [KEGG_DRUG]
 synonym: "Epipen" RELATED BRAND_NAME [DrugBank]
@@ -10206,7 +10378,7 @@ synonym: "L-Adrenaline" RELATED [KEGG_COMPOUND]
 synonym: "levoepinephrine" RELATED [IUPHAR]
 synonym: "Primatene" RELATED BRAND_NAME [DrugBank]
 xref: Beilstein:2368277 "Beilstein"
-xref: CAS:51-43-4 "NIST Chemistry WebBook"
+xref: CAS:51-43-4 "ChemIDplus"
 xref: Drug_Central:1028 "DrugCentral"
 xref: DrugBank:DB00668
 xref: HMDB:HMDB0000068
@@ -10265,15 +10437,15 @@ alt_id: CHEBI:7435
 def: "An onium cation obtained by protonation of ammonia." []
 subset: 3_STAR
 synonym: "[NH4](+)" RELATED [MolBase]
-synonym: "ammonium" EXACT [ChEBI]
 synonym: "ammonium" EXACT IUPAC_NAME [IUPAC]
+synonym: "ammonium" EXACT [ChEBI]
 synonym: "AMMONIUM ION" RELATED [PDBeChem]
 synonym: "Ammonium(1+)" RELATED [ChemIDplus]
 synonym: "azanium" EXACT IUPAC_NAME [IUPAC]
-synonym: "NH4(+)" RELATED [IUPAC]
 synonym: "NH4(+)" RELATED [UniProt]
+synonym: "NH4(+)" RELATED [IUPAC]
 synonym: "NH4+" RELATED [KEGG_COMPOUND]
-xref: CAS:14798-03-9 "ChemIDplus"
+xref: CAS:14798-03-9 "NIST Chemistry WebBook"
 xref: Gmelin:84 "Gmelin"
 xref: KEGG:C01342
 xref: MetaCyc:AMMONIUM
@@ -10352,10 +10524,10 @@ synonym: "carbonic acid" EXACT [UniProt]
 synonym: "carbonic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Dihydrogen carbonate" RELATED [KEGG_COMPOUND]
 synonym: "dihydroxidooxidocarbon" EXACT IUPAC_NAME [IUPAC]
-synonym: "H2CO3" RELATED [IUPAC]
 synonym: "H2CO3" RELATED [KEGG_COMPOUND]
+synonym: "H2CO3" RELATED [IUPAC]
 synonym: "Koehlensaeure" RELATED [ChEBI]
-xref: CAS:463-79-6 "ChemIDplus"
+xref: CAS:463-79-6 "KEGG COMPOUND"
 xref: Gmelin:25554 "Gmelin"
 xref: KEGG:C01353
 xref: PDBeChem:CO3
@@ -10370,6 +10542,45 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BVKZGUZCCUSVTD-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "62.02478" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.000" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC(O)=O" xsd:string
+
+[Term]
+id: CHEBI:29034
+name: iron(3+)
+namespace: chebi_ontology
+alt_id: CHEBI:13320
+alt_id: CHEBI:21130
+alt_id: CHEBI:24877
+alt_id: CHEBI:34755
+alt_id: CHEBI:49595
+subset: 3_STAR
+synonym: "FE (III) ION" RELATED [PDBeChem]
+synonym: "Fe(3+)" RELATED [IUPAC]
+synonym: "Fe(3+)" RELATED [UniProt]
+synonym: "Fe(III)" RELATED [KEGG_COMPOUND]
+synonym: "Fe3+" RELATED [KEGG_COMPOUND]
+synonym: "Ferric ion" RELATED [KEGG_COMPOUND]
+synonym: "ferric iron" RELATED [ChEBI]
+synonym: "Iron(3+)" EXACT [KEGG_COMPOUND]
+synonym: "iron(3+)" EXACT IUPAC_NAME [IUPAC]
+synonym: "iron(3+) ion" EXACT IUPAC_NAME [IUPAC]
+synonym: "iron(III) cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "iron, ion (Fe(3+))" RELATED [ChemIDplus]
+xref: CAS:20074-52-6 "ChemIDplus"
+xref: Gmelin:15986 "Gmelin"
+xref: KEGG:C14819
+xref: PDBeChem:FE
+is_a: CHEBI:24875 ! iron cation
+is_a: CHEBI:27153 ! monoatomic trication
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "Fe" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Fe/q+3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VTLYFUHAOXGGBS-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "55.84500" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "55.935" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Fe+3]" xsd:string
 
 [Term]
 id: CHEBI:29035
@@ -10461,7 +10672,7 @@ synonym: "SODIUM ION" RELATED [PDBeChem]
 synonym: "sodium(1+)" EXACT IUPAC_NAME [IUPAC]
 synonym: "sodium(1+) ion" EXACT IUPAC_NAME [IUPAC]
 synonym: "sodium(I) cation" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:17341-25-2 "NIST Chemistry WebBook"
+xref: CAS:17341-25-2 "ChemIDplus"
 xref: Gmelin:15196 "Gmelin"
 xref: KEGG:C01330
 xref: PDBeChem:NA
@@ -10568,6 +10779,31 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BDHFUVZGWQCTTF-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "82.08008" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "81.972" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]S(O)(=O)=O" xsd:string
+
+[Term]
+id: CHEBI:29222
+name: hypochlorite
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "[ClO](-)" RELATED [IUPAC]
+synonym: "ClO(-)" RELATED [IUPAC]
+synonym: "Hypochlorit" RELATED [ChEBI]
+synonym: "hypochlorite" EXACT IUPAC_NAME [IUPAC]
+synonym: "oxidochlorate(1-)" EXACT IUPAC_NAME [IUPAC]
+xref: CAS:14380-61-1 "ChemIDplus"
+xref: Gmelin:682 "Gmelin"
+xref: Wikipedia:Hypochlorite
+is_a: CHEBI:33437 ! chlorine oxoanion
+is_a: CHEBI:37750 ! chlorine oxide
+is_a: CHEBI:79389 ! monovalent inorganic anion
+relationship: is_conjugate_base_of CHEBI:24757 ! hypochlorous acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "ClO" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClO/c1-2/q-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "WQYVRQLZKVEZGA-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "51.45210" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "50.964" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]Cl" xsd:string
 
 [Term]
 id: CHEBI:29256
@@ -10749,7 +10985,7 @@ synonym: "hydrogen sulfide" RELATED [UniProt]
 synonym: "hydrogen(sulfide)(1-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "hydrosulfide" EXACT [IUPAC]
 synonym: "sulfanide" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:15035-72-0 "NIST Chemistry WebBook"
+xref: CAS:15035-72-0 "ChemIDplus"
 xref: Gmelin:24766 "Gmelin"
 is_a: CHEBI:33535 ! sulfur hydride
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
@@ -10792,8 +11028,8 @@ def: "An alpha-amino-acid anion that is the conjugate base of L-glutamic acid, h
 subset: 3_STAR
 synonym: "(2S)-2-ammoniopentanedioate" RELATED [IUPAC]
 synonym: "hydrogen L-glutamate" EXACT IUPAC_NAME [IUPAC]
-synonym: "L-glutamate" RELATED [UniProt]
 synonym: "L-glutamate" RELATED [ChEBI]
+synonym: "L-glutamate" RELATED [UniProt]
 synonym: "L-glutamate(1-)" EXACT [JCBN]
 synonym: "L-glutamic acid monoanion" RELATED [JCBN]
 synonym: "L-glutamic acid, ion(1-)" RELATED [ChemIDplus]
@@ -10921,7 +11157,7 @@ synonym: "copper" EXACT IUPAC_NAME [IUPAC]
 synonym: "copper(0)" EXACT [IUPAC]
 synonym: "Cu(0)" RELATED [ChEBI]
 synonym: "Cun" RELATED [IUPAC]
-xref: CAS:7440-50-8 "NIST Chemistry WebBook"
+xref: CAS:7440-50-8 "ChemIDplus"
 is_a: CHEBI:37404 ! elemental copper
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Cu" xsd:string
@@ -10950,7 +11186,7 @@ synonym: "Ethanoat" RELATED [ChEBI]
 synonym: "ethanoate" RELATED [ChEBI]
 synonym: "MeCO2 anion" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:1901470 "Beilstein"
-xref: CAS:71-50-1 "ChemIDplus"
+xref: CAS:71-50-1 "NIST Chemistry WebBook"
 xref: DrugBank:DB03166
 xref: Gmelin:1379 "Gmelin"
 xref: KEGG:C00033
@@ -11039,9 +11275,9 @@ synonym: "haem" RELATED [ChEBI]
 synonym: "haem" RELATED [IUPAC]
 synonym: "haeme" RELATED [IUPAC]
 synonym: "hem" RELATED [IUPAC]
-synonym: "heme" EXACT IUPAC_NAME [IUPAC]
 synonym: "heme" EXACT [IUPAC]
 synonym: "heme" EXACT [UniProt]
+synonym: "heme" EXACT IUPAC_NAME [IUPAC]
 synonym: "hemes" EXACT IUPAC_NAME [IUPAC]
 synonym: "hemos" RELATED [IUPAC]
 xref: COMe:MOL000025
@@ -11404,7 +11640,7 @@ synonym: "Propionsaeure" RELATED [ChEBI]
 synonym: "propoic acid" RELATED [ChEBI]
 synonym: "pseudoacetic acid" RELATED [ChemIDplus]
 xref: Beilstein:506071 "Beilstein"
-xref: CAS:79-09-4 "ChemIDplus"
+xref: CAS:79-09-4 "NIST Chemistry WebBook"
 xref: DrugBank:DB03766
 xref: Gmelin:1821 "Gmelin"
 xref: KEGG:C00163
@@ -11461,7 +11697,7 @@ synonym: "n-butyric acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "propanecarboxylic acid" RELATED [HMDB]
 synonym: "propylformic acid" RELATED [MetaCyc]
 xref: Beilstein:906770 "Beilstein"
-xref: CAS:107-92-6 "ChemIDplus"
+xref: CAS:107-92-6 "KEGG COMPOUND"
 xref: DrugBank:DB03568
 xref: Gmelin:26242 "Gmelin"
 xref: HMDB:HMDB0000039
@@ -11538,7 +11774,7 @@ synonym: "Pentanecarboxylic acid" RELATED [ChemIDplus]
 synonym: "pentiformic acid" RELATED [ChemIDplus]
 synonym: "pentylformic acid" RELATED [ChemIDplus]
 xref: Beilstein:773837 "Beilstein"
-xref: CAS:142-62-1 "KEGG COMPOUND"
+xref: CAS:142-62-1 "ChemIDplus"
 xref: ECMDB:ECMDB21229
 xref: Gmelin:185066 "Gmelin"
 xref: HMDB:HMDB0000535
@@ -12363,7 +12599,7 @@ synonym: "PYRUVIC ACID" EXACT [PDBeChem]
 synonym: "Pyruvic acid" EXACT [KEGG_COMPOUND]
 synonym: "pyruvic acid" EXACT [ChEBI]
 xref: Beilstein:506211 "Beilstein"
-xref: CAS:127-17-3 "NIST Chemistry WebBook"
+xref: CAS:127-17-3 "ChemIDplus"
 xref: DrugBank:DB00119
 xref: ECMDB:ECMDB00243
 xref: Gmelin:101087 "Gmelin"
@@ -12534,7 +12770,7 @@ synonym: "Kalziumkarbonat" RELATED [ChEBI]
 synonym: "kohlensaurer Kalk" RELATED [ChEBI]
 synonym: "Precipitated calcium carbonate" RELATED [KEGG_COMPOUND]
 xref: BPDB:108
-xref: CAS:471-34-1 "ChemIDplus"
+xref: CAS:471-34-1 "KEGG COMPOUND"
 xref: DrugBank:DB06724
 xref: KEGG:C08129
 xref: KEGG:D00932
@@ -12719,8 +12955,8 @@ name: nucleon
 namespace: chebi_ontology
 def: "Heavy nuclear particle: proton or neutron." []
 subset: 3_STAR
-synonym: "nucleon" EXACT IUPAC_NAME [IUPAC]
 synonym: "nucleon" EXACT [IUPAC]
+synonym: "nucleon" EXACT IUPAC_NAME [IUPAC]
 synonym: "nucleons" RELATED [ChEBI]
 synonym: "Nukleon" RELATED [ChEBI]
 synonym: "Nukleonen" RELATED [ChEBI]
@@ -13125,6 +13361,28 @@ is_a: CHEBI:26835 ! sulfur molecular entity
 is_a: CHEBI:33241 ! oxoacid derivative
 
 [Term]
+id: CHEBI:33425
+name: halogen oxoacid
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "halogen oxoacid" EXACT [ChEBI]
+synonym: "halogen oxoacids" RELATED [ChEBI]
+is_a: CHEBI:24471 ! halogen molecular entity
+is_a: CHEBI:24833 ! oxoacid
+relationship: has_role CHEBI:138103 ! inorganic acid
+
+[Term]
+id: CHEBI:33426
+name: chlorine oxoacid
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "chlorine oxoacid" EXACT [ChEBI]
+synonym: "chlorine oxoacids" RELATED [ChEBI]
+is_a: CHEBI:23117 ! chlorine molecular entity
+is_a: CHEBI:33425 ! halogen oxoacid
+relationship: is_conjugate_acid_of CHEBI:33437 ! chlorine oxoanion
+
+[Term]
 id: CHEBI:33429
 name: monoatomic monoanion
 namespace: chebi_ontology
@@ -13172,6 +13430,17 @@ synonym: "elemental halogens" RELATED [ChEBI]
 is_a: CHEBI:33259 ! elemental molecular entity
 
 [Term]
+id: CHEBI:33437
+name: chlorine oxoanion
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "chlorine oxoanion" EXACT [ChEBI]
+synonym: "chlorine oxoanions" RELATED [ChEBI]
+is_a: CHEBI:23117 ! chlorine molecular entity
+is_a: CHEBI:33443 ! halogen oxoanion
+relationship: is_conjugate_base_of CHEBI:33426 ! chlorine oxoacid
+
+[Term]
 id: CHEBI:33442
 name: (S)-S-adenosyl-L-methionine
 namespace: chebi_ontology
@@ -13188,6 +13457,17 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "MEFKEPWMEQBLKI-FC
 property_value: http://purl.obolibrary.org/obo/chebi/mass "399.44656" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "399.145" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[S@@+](CC[C@H](N)C(O)=O)C[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1cnc2c(N)ncnc12" xsd:string
+
+[Term]
+id: CHEBI:33443
+name: halogen oxoanion
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "halogen oxoanion" EXACT [ChEBI]
+synonym: "halogen oxoanions" RELATED [ChEBI]
+is_a: CHEBI:24471 ! halogen molecular entity
+is_a: CHEBI:24834 ! inorganic anion
+is_a: CHEBI:35406 ! oxoanion
 
 [Term]
 id: CHEBI:33447
@@ -14518,6 +14798,13 @@ is_a: CHEBI:33916 ! aldopentose
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H10O5" xsd:string
 
 [Term]
+id: CHEBI:33973
+name: elemental magnesium
+namespace: chebi_ontology
+subset: 3_STAR
+is_a: CHEBI:25108 ! magnesium molecular entity
+
+[Term]
 id: CHEBI:34133
 name: 11-oxotestosterone
 namespace: chebi_ontology
@@ -14529,7 +14816,7 @@ synonym: "11-Ketotestosterone" RELATED [ChemIDplus]
 synonym: "17beta-Hydroxyandrost-4-ene-3,11-dione" RELATED [KEGG_COMPOUND]
 synonym: "17beta-hydroxyandrost-4-ene-3,11-dione" EXACT IUPAC_NAME [IUPAC]
 synonym: "17beta-hydroxyandrost-4-ene-3,11-dione" RELATED [UniProt]
-xref: CAS:564-35-2 "KEGG COMPOUND"
+xref: CAS:564-35-2 "ChemIDplus"
 xref: KEGG:C14256
 xref: MetaCyc:CPD-13749
 xref: PMID:26041454 "Europe PMC"
@@ -15359,7 +15646,7 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: "cholestane" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:5334741 "Beilstein"
-xref: CAS:14982-53-7 "ChemIDplus"
+xref: CAS:14982-53-7 "NIST Chemistry WebBook"
 xref: LIPID_MAPS_instance:LMST01010000 "LIPID MAPS"
 xref: Wikipedia:Cholestane
 is_a: CHEBI:35508 ! steroid fundamental parent
@@ -15544,8 +15831,8 @@ name: 9H-purine
 namespace: chebi_ontology
 def: "The 9H-tautomer of purine." []
 subset: 3_STAR
-synonym: "9H-purine" EXACT [UniProt]
 synonym: "9H-purine" EXACT IUPAC_NAME [IUPAC]
+synonym: "9H-purine" EXACT [UniProt]
 xref: Beilstein:606899 "Beilstein"
 xref: CAS:120-73-0 "NIST Chemistry WebBook"
 xref: Gmelin:3120 "Gmelin"
@@ -15843,8 +16130,8 @@ def: "Sphinganine, its homologs and stereoisomers, and the hydroxy and unsaturat
 subset: 3_STAR
 synonym: "Spd" RELATED [CBN]
 synonym: "sphingoid" EXACT [CBN]
-synonym: "sphingoid base" RELATED [UniProt]
 synonym: "sphingoid base" RELATED [CBN]
+synonym: "sphingoid base" RELATED [UniProt]
 synonym: "sphingoid bases" RELATED [LIPID_MAPS]
 synonym: "sphingoids" RELATED [ChEBI]
 xref: LIPID_MAPS_class:LMSP01 "LIPID MAPS"
@@ -16621,8 +16908,8 @@ alt_id: CHEBI:3473
 def: "A monoatomic or polyatomic species having one or more elementary charges of the proton." []
 subset: 3_STAR
 synonym: "Cation" EXACT [KEGG_COMPOUND]
-synonym: "cation" EXACT [ChEBI]
 synonym: "cation" EXACT IUPAC_NAME [IUPAC]
+synonym: "cation" EXACT [ChEBI]
 synonym: "cationes" RELATED [ChEBI]
 synonym: "cations" RELATED [ChEBI]
 synonym: "Kation" RELATED [ChEBI]
@@ -17150,6 +17437,24 @@ is_a: CHEBI:16247 ! phospholipid
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
+id: CHEBI:37749
+name: halogen oxide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "halogen oxide" EXACT [ChEBI]
+synonym: "halogen oxides" RELATED [ChEBI]
+is_a: CHEBI:24471 ! halogen molecular entity
+is_a: CHEBI:24836 ! inorganic oxide
+
+[Term]
+id: CHEBI:37750
+name: chlorine oxide
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "chlorine oxides" RELATED [ChEBI]
+is_a: CHEBI:37749 ! halogen oxide
+
+[Term]
 id: CHEBI:37793
 name: amino sulfonic acid
 namespace: chebi_ontology
@@ -17499,6 +17804,40 @@ is_a: CHEBI:33860 ! aromatic amine
 is_a: CHEBI:39447 ! pyrimidines
 
 [Term]
+id: CHEBI:38462
+name: EC 3.1.1.7 (acetylcholinesterase) inhibitor
+namespace: chebi_ontology
+def: "An EC 3.1.1.* (carboxylic ester hydrolase) inhibitor that interferes with the action of enzyme acetylcholinesterase (EC 3.1.1.7), which helps breaking down of acetylcholine into choline and acetic acid." []
+subset: 3_STAR
+synonym: "AcCholE inhibitor" RELATED [ChEBI]
+synonym: "AcCholE inhibitors" RELATED [ChEBI]
+synonym: "acetyl.beta-methylcholinesterase inhibitor" RELATED [ChEBI]
+synonym: "acetyl.beta-methylcholinesterase inhibitors" RELATED [ChEBI]
+synonym: "acetylcholine acetylhydrolase inhibitor" RELATED [ChEBI]
+synonym: "acetylcholine acetylhydrolase inhibitors" RELATED [ChEBI]
+synonym: "acetylcholine esterase inhibitor" RELATED [ChEBI]
+synonym: "acetylcholine hydrolase inhibitor" RELATED [ChEBI]
+synonym: "acetylcholine hydrolase inhibitors" RELATED [ChEBI]
+synonym: "acetylcholinesterase (EC 3.1.1.7) inhibitor" RELATED [ChEBI]
+synonym: "acetylcholinesterase (EC 3.1.1.7) inhibitors" RELATED [ChEBI]
+synonym: "acetylcholinesterase inhibitor" RELATED [ChEBI]
+synonym: "acetylcholinesterase inhibitors" RELATED [ChEBI]
+synonym: "acetylthiocholinesterase inhibitor" RELATED [ChEBI]
+synonym: "acetylthiocholinesterase inhibitors" RELATED [ChEBI]
+synonym: "AChEI" RELATED [ChEBI]
+synonym: "choline esterase I inhibitor" RELATED [ChEBI]
+synonym: "choline esterase I inhibitors" RELATED [ChEBI]
+synonym: "cholinesterase inhibitor" RELATED [ChEBI]
+synonym: "cholinesterase inhibitors" RELATED [ChEBI]
+synonym: "EC 3.1.1.7 (acetylcholinesterase) inhibitors" RELATED [ChEBI]
+synonym: "EC 3.1.1.7 inhibitor" RELATED [ChEBI]
+synonym: "EC 3.1.1.7 inhibitors" RELATED [ChEBI]
+synonym: "true cholinesterase inhibitor" RELATED [ChEBI]
+synonym: "true cholinesterase inhibitors" RELATED [ChEBI]
+xref: Wikipedia:Acetylcholinesterase_inhibitor
+is_a: CHEBI:76773 ! EC 3.1.1.* (carboxylic ester hydrolase) inhibitor
+
+[Term]
 id: CHEBI:38468
 name: indol-3-yl carboxylic acid anion
 namespace: chebi_ontology
@@ -17744,6 +18083,24 @@ is_a: CHEBI:35155 ! elemental calcium
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Ca" xsd:string
 
 [Term]
+id: CHEBI:39127
+name: magnesium cation
+namespace: chebi_ontology
+def: "Any magnesium ion that is positively charged." []
+subset: 3_STAR
+synonym: "magnesium cation" EXACT [ChEBI]
+is_a: CHEBI:33513 ! alkaline earth cation
+is_a: CHEBI:39128 ! magnesium ion
+property_value: http://purl.obolibrary.org/obo/chebi/formula "Mg" xsd:string
+
+[Term]
+id: CHEBI:39128
+name: magnesium ion
+namespace: chebi_ontology
+subset: 1_STAR
+is_a: CHEBI:33973 ! elemental magnesium
+
+[Term]
 id: CHEBI:39141
 name: Bronsted acid
 namespace: chebi_ontology
@@ -17962,7 +18319,7 @@ synonym: "3,4-dihydroxyphenylacetic acid" RELATED [UniProt]
 synonym: "dopacetic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "homoprotocatechuic acid" RELATED [NIST_Chemistry_WebBook]
 xref: Beilstein:2211017 "Beilstein"
-xref: CAS:102-32-9 "KEGG COMPOUND"
+xref: CAS:102-32-9 "ChemIDplus"
 xref: DrugBank:DB01702
 xref: Gmelin:874810 "Gmelin"
 xref: HMDB:HMDB0001336
@@ -18011,7 +18368,7 @@ synonym: "D-lactic acid" RELATED [ChemIDplus]
 synonym: "D-Milchsaeure" RELATED [ChEBI]
 synonym: "LACTIC ACID" RELATED [PDBeChem]
 xref: Beilstein:1720252 "Beilstein"
-xref: CAS:10326-41-7 "KEGG COMPOUND"
+xref: CAS:10326-41-7 "ChemIDplus"
 xref: DrugBank:DB03066
 xref: DrugBank:DB04398
 xref: Gmelin:362718 "Gmelin"
@@ -18054,7 +18411,7 @@ synonym: "L-(+)-lactic acid" RELATED [NIST_Chemistry_WebBook]
 synonym: "L-Lactic acid" RELATED [KEGG_COMPOUND]
 synonym: "L-Milchsaeure" RELATED [ChEBI]
 xref: Beilstein:1720251 "Beilstein"
-xref: CAS:79-33-4 "ChemIDplus"
+xref: CAS:79-33-4 "KEGG COMPOUND"
 xref: Gmelin:362717 "Gmelin"
 xref: HMDB:HMDB0000190
 xref: KEGG:C00186
@@ -18532,7 +18889,7 @@ synonym: "D-Ribose" RELATED [KEGG_COMPOUND]
 synonym: "D-ribose" RELATED [UniProt]
 synonym: "ribose" RELATED [ChemIDplus]
 xref: Beilstein:1904878 "Beilstein"
-xref: CAS:50-69-1 "ChemIDplus"
+xref: CAS:50-69-1 "KEGG COMPOUND"
 xref: Gmelin:364108 "Gmelin"
 xref: KEGG:C00121
 xref: Patent:US2152662
@@ -18704,13 +19061,13 @@ namespace: chebi_ontology
 alt_id: CHEBI:19091
 alt_id: CHEBI:8237
 subset: 3_STAR
-synonym: "1-Piperideine" EXACT [ChemIDplus]
 synonym: "1-Piperideine" EXACT [KEGG_COMPOUND]
+synonym: "1-Piperideine" EXACT [ChemIDplus]
 synonym: "2,3,4,5-tetrahydropyridine" EXACT IUPAC_NAME [IUPAC]
 synonym: "Delta(1)-piperideine" RELATED [NIST_Chemistry_WebBook]
 synonym: "Piperideine" RELATED [KEGG_COMPOUND]
 xref: Beilstein:103492 "Beilstein"
-xref: CAS:505-18-0 "ChemIDplus"
+xref: CAS:505-18-0 "NIST Chemistry WebBook"
 xref: Gmelin:485913 "Gmelin"
 xref: KEGG:C06181
 is_a: CHEBI:26145 ! piperideine
@@ -20135,6 +20492,51 @@ xref: KEGG:C06258
 is_a: CHEBI:35137 ! hemoprotein
 
 [Term]
+id: CHEBI:5391
+name: glucagon
+namespace: chebi_ontology
+def: "A 29-amino acid peptide hormone consisting of His, Ser, Gln, Gly, Thr, Phe, Thr, Ser, Asp, Tyr, Ser, Lys, Tyr, Leu, Asp, Ser, Arg, Arg, Ala, Gln, Asp, Phe, Val, Gln, Trp, Leu, Met, Asn and Thr residues joined in sequence." []
+subset: 3_STAR
+synonym: "Glucagon" EXACT [KEGG_COMPOUND]
+synonym: "glucagon" RELATED INN [ChemIDplus]
+synonym: "Glucagone" RELATED [ChemIDplus]
+synonym: "glucagonum" RELATED INN [ChemIDplus]
+synonym: "His-Ser-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys-Tyr-Leu-Asp-Ser-Arg-Arg-Ala-Gln-Asp-Phe-Val-Gln-Trp-Leu-Met-Asn-Thr" RELATED [ChEBI]
+synonym: "His-ser-glu(nh2)-gly-thr-phe-thr-ser-asp-tyr-ser-lys-tyr-leu-asp-ser-arg-arg-ala-glu(NH2)-asp-phe-val-glu(NH2)-trp-leu-met-asp(NH2)-thr" RELATED [ChemIDplus]
+synonym: "HSQGTFTSDYSKYLDSRRAQDFVQWLMNT" RELATED [ChEBI]
+synonym: "L-histidyl-L-seryl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-alpha-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-alpha-aspartyl-L-seryl-L-arginyl-L-arginyl-L-alanyl-L-glutaminyl-L-alpha-aspartyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-methionyl-L-asparaginyl-L-threonine" EXACT IUPAC_NAME [IUPAC]
+xref: CAS:16941-32-5 "ChemIDplus"
+xref: CAS:9007-92-5 "ChemIDplus"
+xref: Drug_Central:2994 "DrugCentral"
+xref: DrugBank:DB00040
+xref: KEGG:C01501
+xref: KEGG:D00116
+xref: PMID:21940356 "Europe PMC"
+xref: PMID:22014161 "Europe PMC"
+xref: PMID:22154917 "Europe PMC"
+xref: PMID:22166985 "Europe PMC"
+xref: PMID:22167521 "Europe PMC"
+xref: PMID:22214853 "Europe PMC"
+xref: PMID:22227186 "Europe PMC"
+xref: PMID:22286080 "Europe PMC"
+xref: PMID:22294753 "Europe PMC"
+xref: PMID:22318544 "Europe PMC"
+xref: PMID:22334714 "Europe PMC"
+xref: PMID:22399501 "Europe PMC"
+xref: PMID:22438981 "Europe PMC"
+xref: PMID:22454291 "Europe PMC"
+xref: Reaxys:13191924 "Reaxys"
+xref: Wikipedia:Glucagon
+is_a: CHEBI:25905 ! peptide hormone
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C153H225N43O49S" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C153H225N43O49S/c1-72(2)52-97(133(226)176-96(47-51-246-11)132(225)184-104(60-115(159)209)143(236)196-123(78(10)203)151(244)245)179-137(230)103(58-83-64-167-89-29-19-18-28-87(83)89)183-131(224)95(43-46-114(158)208)177-148(241)120(74(5)6)194-141(234)101(54-79-24-14-12-15-25-79)182-138(231)105(61-117(211)212)185-130(223)94(42-45-113(157)207)171-124(217)75(7)170-127(220)91(31-22-49-165-152(160)161)172-128(221)92(32-23-50-166-153(162)163)174-146(239)110(69-199)191-140(233)107(63-119(215)216)186-134(227)98(53-73(3)4)178-135(228)99(56-81-33-37-85(204)38-34-81)180-129(222)90(30-20-21-48-154)173-145(238)109(68-198)190-136(229)100(57-82-35-39-86(205)40-36-82)181-139(232)106(62-118(213)214)187-147(240)111(70-200)192-150(243)122(77(9)202)195-142(235)102(55-80-26-16-13-17-27-80)188-149(242)121(76(8)201)193-116(210)66-168-126(219)93(41-44-112(156)206)175-144(237)108(67-197)189-125(218)88(155)59-84-65-164-71-169-84/h12-19,24-29,33-40,64-65,71-78,88,90-111,120-123,167,197-205H,20-23,30-32,41-63,66-70,154-155H2,1-11H3,(H2,156,206)(H2,157,207)(H2,158,208)(H2,159,209)(H,164,169)(H,168,219)(H,170,220)(H,171,217)(H,172,221)(H,173,238)(H,174,239)(H,175,237)(H,176,226)(H,177,241)(H,178,228)(H,179,230)(H,180,222)(H,181,232)(H,182,231)(H,183,224)(H,184,225)(H,185,223)(H,186,227)(H,187,240)(H,188,242)(H,189,218)(H,190,229)(H,191,233)(H,192,243)(H,193,210)(H,194,234)(H,195,235)(H,196,236)(H,211,212)(H,213,214)(H,215,216)(H,244,245)(H4,160,161,165)(H4,162,163,166)/t75-,76+,77+,78+,88-,90-,91-,92-,93-,94-,95-,96-,97-,98-,99-,100-,101-,102-,103-,104-,105-,106-,107-,108-,109-,110-,111-,120-,121-,122-,123-/m0/s1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "MASNOZXLGMXCHN-ZLPAWPGGSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "3482.74700" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "3480.616" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "CSCC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](C)NC(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CO)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@@H](N)Cc1cnc[nH]1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H]([C@@H](C)O)C(O)=O" xsd:string
+
+[Term]
 id: CHEBI:566274
 name: malonaldehyde
 namespace: chebi_ontology
@@ -20155,7 +20557,7 @@ synonym: "MDA" RELATED [ChEBI]
 synonym: "MDD" RELATED [ChEBI]
 synonym: "propanedial" EXACT IUPAC_NAME [IUPAC]
 xref: Beilstein:1209262 "Beilstein"
-xref: CAS:542-78-9 "NIST Chemistry WebBook"
+xref: CAS:542-78-9 "KEGG COMPOUND"
 xref: DrugBank:DB03057
 xref: Gmelin:362229 "Gmelin"
 xref: KEGG:C19440
@@ -22355,6 +22757,14 @@ synonym: "organic acids" RELATED [ChEBI]
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:64712
+name: trivalent inorganic cation
+namespace: chebi_ontology
+def: "An atom or small molecule with a positive charge that does not contain carbon in covalent linkage, with a valency of three." []
+subset: 3_STAR
+is_a: CHEBI:36915 ! inorganic cation
+
+[Term]
 id: CHEBI:64857
 name: cosmetic
 namespace: chebi_ontology
@@ -23183,6 +23593,25 @@ synonym: "one-carbon-containing group transferase inhibitors" RELATED [ChEBI]
 is_a: CHEBI:71300 ! EC 2.* (transferase) inhibitor
 
 [Term]
+id: CHEBI:76663
+name: EC 2.5.1.* (non-methyl-alkyl or aryl transferase) inhibitor
+namespace: chebi_ontology
+def: "A transferase inhibitor that inhibits the transfer of an alkyl (other than methyl) or aryl group (EC 2.5.1.*)." []
+subset: 3_STAR
+synonym: "alkyl/aryl (non-methyl) transferase inhibitor" RELATED [ChEBI]
+synonym: "alkyl/aryl (non-methyl) transferase inhibitors" RELATED [ChEBI]
+synonym: "EC 2.5.1.* (non-methyl-alkyl or aryl transferase) inhibitors" RELATED [ChEBI]
+synonym: "EC 2.5.1.* inhibitor" RELATED [ChEBI]
+synonym: "EC 2.5.1.* inhibitors" RELATED [ChEBI]
+synonym: "non-methyl alkyl/aryl transferase (EC 2.5.1.*) inhibitor" RELATED [ChEBI]
+synonym: "non-methyl alkyl/aryl transferase (EC 2.5.1.*) inhibitors" RELATED [ChEBI]
+synonym: "non-methyl alkyl/aryl transferase inhibitor" RELATED [ChEBI]
+synonym: "non-methyl alkyl/aryl transferase inhibitors" RELATED [ChEBI]
+synonym: "non-methyl-alkyl or aryl transferase inhibitor" RELATED [ChEBI]
+synonym: "non-methyl-alkyl or aryl transferase inhibitors" RELATED [ChEBI]
+is_a: CHEBI:76834 ! EC 2.5.* (non-methyl-alkyl or aryl transferase) inhibitor
+
+[Term]
 id: CHEBI:76710
 name: EC 4.* (lyase) inhibitor
 namespace: chebi_ontology
@@ -23360,6 +23789,36 @@ synonym: "phosphoric monoester hydrolase inhibitors" RELATED [ChEBI]
 is_a: CHEBI:76760 ! EC 3.1.* (ester hydrolase) inhibitor
 
 [Term]
+id: CHEBI:76797
+name: EC 2.5.1.18 (glutathione transferase) inhibitor
+namespace: chebi_ontology
+def: "An EC 2.5.1.* (non-methyl-alkyl or aryl transferase) inhibitor that interferes with the action of a glutathione transferase (EC 2.5.1.18)." []
+subset: 3_STAR
+synonym: "EC 2.5.1.18 (glutathione transferase) inhibitors" RELATED [ChEBI]
+synonym: "EC 2.5.1.18 inhibitor" RELATED [ChEBI]
+synonym: "EC 2.5.1.18 inhibitors" RELATED [ChEBI]
+synonym: "glutathione S-alkyl transferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione S-alkyl transferase inhibitors" RELATED [ChEBI]
+synonym: "glutathione S-alkyltransferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione S-alkyltransferase inhibitors" RELATED [ChEBI]
+synonym: "glutathione S-aralkyltransferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione S-aralkyltransferase inhibitors" RELATED [ChEBI]
+synonym: "glutathione S-aryltransferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione S-aryltransferase inhibitors" RELATED [ChEBI]
+synonym: "glutathione S-transferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione S-transferase inhibitors" RELATED [ChEBI]
+synonym: "glutathione transferase (EC 2.5.1.18) inhibitor" RELATED [ChEBI]
+synonym: "glutathione transferase (EC 2.5.1.18) inhibitors" RELATED [ChEBI]
+synonym: "glutathione transferase inhibitor" RELATED [ChEBI]
+synonym: "glutathione transferase inhibitors" RELATED [ChEBI]
+synonym: "RX:glutathione R-transferase inhibitor" RELATED [ChEBI]
+synonym: "RX:glutathione R-transferase inhibitors" RELATED [ChEBI]
+synonym: "S-(hydroxyalkyl)glutathione lyase inhibitor" RELATED [ChEBI]
+synonym: "S-(hydroxyalkyl)glutathione lyase inhibitors" RELATED [ChEBI]
+xref: Wikipedia:Glutathione_S-transferase
+is_a: CHEBI:76663 ! EC 2.5.1.* (non-methyl-alkyl or aryl transferase) inhibitor
+
+[Term]
 id: CHEBI:76807
 name: EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor
 namespace: chebi_ontology
@@ -23419,6 +23878,19 @@ synonym: "EC 4.3.1.* (ammonia-lyases) inhibitors" RELATED [ChEBI]
 synonym: "EC 4.3.1.* inhibitor" RELATED [ChEBI]
 synonym: "EC 4.3.1.* inhibitors" RELATED [ChEBI]
 is_a: CHEBI:76713 ! EC 4.3.* (C-N lyase) inhibitor
+
+[Term]
+id: CHEBI:76834
+name: EC 2.5.* (non-methyl-alkyl or aryl transferase) inhibitor
+namespace: chebi_ontology
+def: "An EC 2.5.* (transferase) inhibitor that inhibits the action of any transferase that transfers an alkyl (other than methyl) or aryl group (EC 2.5.*)." []
+subset: 3_STAR
+synonym: "EC 2.5.* (non-methyl-alkyl or aryl transferase) inhibitors" RELATED [ChEBI]
+synonym: "EC 2.5.* inhibitor" RELATED [ChEBI]
+synonym: "EC 2.5.* inhibitors" RELATED [ChEBI]
+synonym: "non-methyl-alkyl or aryl transferase (EC 2.5.*) inhibitor" RELATED [ChEBI]
+synonym: "non-methyl-alkyl or aryl transferase (EC 2.5.*) inhibitors" RELATED [ChEBI]
+is_a: CHEBI:71300 ! EC 2.* (transferase) inhibitor
 
 [Term]
 id: CHEBI:76835
@@ -24118,6 +24590,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HCHKCACWOHOZIP-IG
 property_value: http://purl.obolibrary.org/obo/chebi/mass "64.92925" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "63.929" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[65Zn]" xsd:string
+
+[Term]
+id: CHEBI:82663
+name: elemental iron
+namespace: chebi_ontology
+def: "An elemental molecular entity in which all of the atoms have atomic number 26." []
+subset: 3_STAR
+is_a: CHEBI:24873 ! iron molecular entity
+is_a: CHEBI:33259 ! elemental molecular entity
 
 [Term]
 id: CHEBI:82803

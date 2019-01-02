@@ -29,6 +29,8 @@ d = df[functionalcolumns].drop_duplicates()
 d.columns = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
 d = d.replace(pd.np.nan, "0", regex=True)
 d = d.replace("nan", "0", regex=True)
+d = d.replace("http://purl.obolibrary.org/obo/", "")
+d = d.replace("_", ":")
 
 # Step 2: Load original ZP identifier map and replace empty columns with the character 0 (as before for the ZFIN data)
 df_ids = pd.read_csv(original_id_map, sep='\t', header=None)
@@ -36,6 +38,8 @@ df_ids = df_ids[[0,3,2,4,7,6]]
 df_ids.columns = ['iri','affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super']
 df_ids = df_ids.replace(pd.np.nan, "0", regex=True)
 df_ids = df_ids.replace("nan", "0", regex=True)
+df_ids = df_ids.replace("http://purl.obolibrary.org/obo/", "")
+df_ids = df_ids.replace("_", ":")
 df_ids = df_ids.drop_duplicates()
 
 # Step 3: Merge the ZFIN EQ data into the current ZP id map, using the 5 entity columns (PATO, entity1sub, entity1super, entity2sub, entity2super)
@@ -46,6 +50,8 @@ afterlen=len(df_ids)
 print("Before: "+str(beforelen)+", after: "+str(afterlen))
 df_ids = df_ids.replace(pd.np.nan, "0", regex=True)
 df_ids = df_ids.replace("nan", "0", regex=True)
+df_ids = df_ids.replace("http://purl.obolibrary.org/obo/", "")
+df_ids = df_ids.replace("_", ":")
 df_ids=df_ids[['iri','affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']]
 
 # Step 4: From the 7 EQ columns, generate a single id string by concating tall column values with a dash (-)

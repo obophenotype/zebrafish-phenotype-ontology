@@ -82,6 +82,8 @@ d.columns = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_
 # For the ID generation process, we decided to replace empty or NAN values with 0
 d = d.replace(pd.np.nan, "0", regex=True)
 d = d.replace("nan", "0", regex=True)
+d = d.replace("http://purl.obolibrary.org/obo/", "")
+d = d.replace("_", ":")
 d['id'] = d.apply('-'.join, axis=1) #generate a unique id string
 
 # Merge the fresh set of annotations with the current set of ZP identifiers

@@ -77,8 +77,8 @@ xref: MESH:D017933
 xref: MIAA:0000338
 xref: NCIT:C12465
 xref: TAO:0000142
-xref: UMLS:C0206417 {source="NIFSTD:birnlex_1111"}
 xref: UMLS:C0206417 {source="ncithesaurus:Peripheral_Nervous_System"}
+xref: UMLS:C0206417 {source="NIFSTD:birnlex_1111"}
 xref: UMLS:C1305921 {source="NIFSTD:birnlex_1111"}
 xref: VHOG:0000399
 xref: XAO:0000178
@@ -957,8 +957,8 @@ synonym: "cavum oris" RELATED [BTO:0001090]
 synonym: "mouth cavity" RELATED [BTO:0001090]
 synonym: "oral region" RELATED [EHDAA2:0001326]
 synonym: "oral vestibule" RELATED [BTO:0001090]
-synonym: "regio oralis" EXACT LATIN [FMA:49184, FMA:TA]
 synonym: "regio oralis" EXACT [BTO:0004698]
+synonym: "regio oralis" EXACT LATIN [FMA:49184, FMA:TA]
 synonym: "rima oris" RELATED [BTO:0001090]
 synonym: "stoma" RELATED []
 synonym: "stomatodaeum" RELATED [VHOG:0000812]
@@ -1086,8 +1086,8 @@ intersection_of: has_member UBERON:0002167 ! right lung
 intersection_of: has_member UBERON:0002168 ! left lung
 relationship: has_member UBERON:0002167 ! right lung
 relationship: has_member UBERON:0002167 {minCardinality="1", maxCardinality="1"} ! right lung
-relationship: has_member UBERON:0002168 ! left lung
 relationship: has_member UBERON:0002168 {minCardinality="1", maxCardinality="1"} ! left lung
+relationship: has_member UBERON:0002168 ! left lung
 relationship: located_in UBERON:0002224 ! thoracic cavity
 relationship: part_of UBERON:0001558 {source="FMA-abduced"} ! lower respiratory tract
 
@@ -1264,8 +1264,8 @@ alt_id: UBERON:0003344
 def: "A mucosa that is part of a pharynx [Automatically generated definition]." [OBOL:automatic]
 synonym: "mucosa of organ of pharynx" EXACT [OBOL:automatic]
 synonym: "mucosa of pharynx" EXACT [OBOL:automatic]
-synonym: "mucous membrane of pharynx" EXACT [FMA:55031]
 synonym: "mucous membrane of pharynx" EXACT [OBOL:automatic]
+synonym: "mucous membrane of pharynx" EXACT [FMA:55031]
 synonym: "mucous membrane of the pharynx" RELATED [BTO:0001047]
 synonym: "organ mucosa of pharynx" EXACT [OBOL:automatic]
 synonym: "pharynx mucosa" EXACT [OBOL:automatic]
@@ -2376,8 +2376,8 @@ xref: NCIT:C12439
 xref: OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA
 xref: PBA:3999
 xref: TAO:0000008
-xref: UMLS:C0006104 {source="ncithesaurus:Brain"}
 xref: UMLS:C0006104 {source="NIFSTD:birnlex_796"}
+xref: UMLS:C0006104 {source="ncithesaurus:Brain"}
 xref: UMLS:C1269537 {source="NIFSTD:birnlex_796"}
 xref: VHOG:0000157
 xref: XAO:0000010
@@ -3976,8 +3976,8 @@ xref: EMAPA:17550
 xref: EV:0100275
 xref: FMA:62004
 xref: GAID:590
-xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=698 {source="NIFSTD:birnlex_957"}
 xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=698
+xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=698 {source="NIFSTD:birnlex_957"}
 xref: http://en.wikipedia.org/wiki/Bone_marrow_of_ovary_oblongata
 xref: http://linkedlifedata.com/resource/umls/id/C0025148
 xref: http://linkedlifedata.com/resource/umls/id/C1269575
@@ -4143,8 +4143,8 @@ xref: EHDAA2:0004475
 xref: EMAPA:18215
 xref: FMA:62393
 xref: HBA:9002
-xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491 {source="NIFSTD:birnlex_1200"}
 xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491
+xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491 {source="NIFSTD:birnlex_1200"}
 xref: http://linkedlifedata.com/resource/umls/id/C0039441
 xref: http://www.snomedbrowser.com/Codes/Details/362392007
 xref: MA:0000212
@@ -4546,8 +4546,8 @@ xref: EHDAA:3514
 xref: EHDAA:6487
 xref: EMAPA:16916
 xref: FMA:67687
-xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=540 {source="NIFSTD:birnlex_942"}
 xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=540
+xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=540 {source="NIFSTD:birnlex_942"}
 xref: http://en.wikipedia.org/wiki/Rhombencephalon
 xref: http://linkedlifedata.com/resource/umls/id/C0035507
 xref: http://linkedlifedata.com/resource/umls/id/C1522180
@@ -4559,8 +4559,8 @@ xref: MESH:D012249
 xref: MIAA:0000107
 xref: NCIT:C40336
 xref: TAO:0000029
-xref: UMLS:C0035507 {source="ncithesaurus:Hind-Brain"}
 xref: UMLS:C0035507 {source="NIFSTD:birnlex_942"}
+xref: UMLS:C0035507 {source="ncithesaurus:Hind-Brain"}
 xref: UMLS:C1522180 {source="NIFSTD:birnlex_942"}
 xref: VHOG:0000070
 xref: XAO:0000015
@@ -5420,8 +5420,8 @@ xref: EMAPA:17577
 xref: EV:0100316
 xref: FMA:7647
 xref: GAID:695
-xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=22
 xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=22 {source="NIFSTD:birnlex_1709"}
+xref: http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=22
 xref: http://linkedlifedata.com/resource/umls/id/C0037925
 xref: http://www.snomedbrowser.com/Codes/Details/180959008
 xref: MA:0000216
@@ -5432,8 +5432,8 @@ xref: NCIT:C12464
 xref: OpenCyc:Mx4rvVjjk5wpEbGdrcN5Y29ycA
 xref: Spinal:cord
 xref: TAO:0000075
-xref: UMLS:C0037925 {source="NIFSTD:birnlex_1709"}
 xref: UMLS:C0037925 {source="ncithesaurus:Spinal_Cord"}
+xref: UMLS:C0037925 {source="NIFSTD:birnlex_1709"}
 xref: VHOG:0000601
 xref: XAO:0000020
 xref: ZFA:0000075

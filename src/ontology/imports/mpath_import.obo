@@ -299,6 +299,21 @@ def: "Malignant juvenile neoplasm of the eye derived from primitive retinal prec
 is_a: MPATH:373 ! CNS progenitor tumor
 
 [Term]
+id: MPATH:388
+name: osseous and chondromatous tumor
+namespace: mouse_pathology.ontology
+def: "Neoplasms of bone and cartilage." [Pathbase: Curation]
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:397
+name: osteosarcoma
+namespace: mouse_pathology.ontology
+def: "Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3)." [Pathbase: Curation]
+synonym: "osteogenic sarcoma" RELATED [Pathbase: Curation]
+is_a: MPATH:388 ! osseous and chondromatous tumor
+
+[Term]
 id: MPATH:404
 name: soft tissue tumor
 namespace: mouse_pathology.ontology
