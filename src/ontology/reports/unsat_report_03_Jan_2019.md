@@ -262,121 +262,37 @@
 
 ## Frequently used axioms across unsatisfiability explanations
 * 'catalytic activity' SubClassOf 'molecular_function' (6)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'process' SubClassOf 'occurrent' (6)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'molecular_function' SubClassOf 'process' (6)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'relation between structure and stage' Domain 'continuant' (6)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'transferase activity' SubClassOf 'catalytic activity' (5)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'transferase activity, transferring alkyl or aryl (other than methyl) groups' SubClassOf 'transferase activity' (4)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'existence starts during or after' SubPropertyOf: 'relation between structure and stage' (4)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'glutathione transferase activity' SubClassOf 'transferase activity, transferring alkyl or aryl (other than methyl) groups' (4)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'occurrent' DisjointWith 'part of' some 'continuant' (3)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'continuant' DisjointWith 'occurrent' (3)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'part of' o 'existence starts during or after' SubPropertyOf: 'existence starts during or after' (3)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'end stage' SubPropertyOf: 'relation between structure and stage' (2)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'protein kinase activity cardiac ventricle increased occurrence, abnormal' EquivalentTo 'has_part' some 
 ('increased occurrence' and ('inheres in' some 
 ('protein kinase activity' and ('part of' some 'cardiac ventricle'))) and ('has modifier' some 'abnormal')) (2)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'glutathione transferase activity whole organism decreased process quality, abnormal' EquivalentTo 'has_part' some 
 ('decreased process quality' and ('inheres in' some 
 ('glutathione transferase activity' and ('part of' some 'whole organism'))) and ('has modifier' some 'abnormal')) (2)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'glutathione transferase activity whole organism process quality, abnormal' EquivalentTo 'has_part' some 
 ('process quality' and ('inheres in' some 
 ('glutathione transferase activity' and ('part of' some 'whole organism'))) and ('has modifier' some 'abnormal')) (2)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'whole organism' SubClassOf 'existence starts during or after' some 'Zygote:1-cell' (2)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'whole organism' SubClassOf 'anatomical structure' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'cardiac ventricle' SubClassOf 'existence starts during or after' some 'Pharyngula:High-pec' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 *  Transitive: 'part of' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'anatomical structure' SubClassOf 'existence starts during or after' some 'Zygote:1-cell' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'kinase activity' SubClassOf 'transferase activity, transferring phosphorus-containing groups' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'whole organism' SubClassOf 'end stage' some 'Adult' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'transferase activity, transferring phosphorus-containing groups' SubClassOf 'transferase activity' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'heart' SubClassOf 'end stage' some 'Adult' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'protein kinase activity' SubClassOf 'catalytic activity, acting on a protein' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'catalytic activity, acting on a protein' SubClassOf 'catalytic activity' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'cardiac ventricle' SubClassOf 'part of' some 'heart' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
 * 'protein kinase activity' SubClassOf 'kinase activity' (1)
-  * Used in: 
-
-    * http://www.semanticweb.org/matentzn/zp-debug.owl
-
+ 
