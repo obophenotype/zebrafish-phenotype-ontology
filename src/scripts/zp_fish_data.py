@@ -6,15 +6,11 @@ import sys
 # Date: 21.11.2018
 # Samples, Phenotypes and Ontologies Team, EMBL-EBI
 
-# This script takes in the ZFIN EQ to GENE mappings and generates a little RDF knowledge graph from them referencing
-# the precomposed ZP classes. This file can be used to affectively query and group annotations related to phenotype,
-# for example: Find all annotations pertaining to morphological abnormalities of any anatomical part.
-
 id_map = sys.argv[1] # The current ZP-ZFIN EQ id map
 zp_zfin_mappings = sys.argv[2] # The desired location for the resulting gene annotation to ZP mappings
 
 #id_map = '/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv'
-#gene_annotation_mappings = "/ws/zebrafish-phenotype-ontology/src/curation/zp_annotations_to_iri.tsv"
+#zp_zfin_mappings = "/ws/zebrafish-phenotype-ontology/src/curation/zp_zfin_phenotype_fish.tsv"
 #annotation_ttl = "/ws/zebrafish-phenotype-ontology/src/curation/kb_zp.ttl"
 
 tsv = 'https://zfin.org/downloads/phenotype_fish.txt'
@@ -40,6 +36,15 @@ df_zfin = pd.merge(df_zfin, id_map, on='id', how='left')
 print(len(df_zfin))
 df_zfin[functionalcolumns] = df_zfin[functionalcolumns].replace('^0$', '', regex=True)
 print(len(df_zfin))
+
+cols = ['Fish ID','Fish Name','Start Stage ID','Start Stage Name',	'End Stage ID',	'End Stage Name', 'Affected Structure or Process 1 subterm ID',
+        'Affected Structure or Process 1 subterm Name',	'Post-composed Relationship ID', 'Post-composed Relationship Name',
+        'Affected Structure or Process 1 superterm ID',	'Affected Structure or Process 1 superterm Name', 'Phenotype Keyword ID',
+        'Phenotype Keyword Name', 'Phenotype Tag', 'Affected Structure or Process 2 subterm ID',
+        'Affected Structure or Process 2 subterm name', 'Post-composed Relationship (rel) ID', 'Post-composed Relationship (rel) Name',
+        'Affected Structure or Process 2 superterm ID',	'Affected Structure or Process 2 superterm name',
+        'Publication ID', 'Environment ID','ZFIN EQ ID','IRI']
+df_zfin.columns = cols
 df_zfin.to_csv(zp_zfin_mappings, sep = '\t', index=False)
 
 print("Exporting ZP-ZFIN-EQ annotations complete!")
