@@ -1488,6 +1488,14 @@ is_a: in_lateral_side_of ! in lateral side of
 inverse_of: in_right_side_of ! in right side of
 
 [Typedef]
+id: in_posterior_side_of
+name: in posterior side of
+namespace: spatial
+def: "X posterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the posterior portion." [BSPO:PATO_mtg_2009]
+xref: BSPO:0000122
+is_a: part_of ! part of
+
+[Typedef]
 id: in_proximal_side_of
 name: in proximal side of
 namespace: spatial

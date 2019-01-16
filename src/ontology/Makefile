@@ -54,7 +54,7 @@ prepare_release: all
 # Equivalence checking deactived.. -e none
 
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK -D debug.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e none relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert --check false -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
@@ -242,7 +242,7 @@ pattern_term_lists_manual := $(patsubst %.tsv, $(DOSDP_TEMP_PATTERN_MANUAL)/%.tx
 ../patterns/definitions.owl: $(DOSDP_TEMP_PATTERN_MANUAL) $(individual_patterns_manual) $(individual_patterns_auto)
 	$(ROBOT) merge $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_auto)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@ &&\
 	echo 'OCCURS IN HACK' &&\
-	java -jar zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@ 
+	java -jar ../scripts/zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@ 
 
 
 #pattern_files := $(wildcard ../patterns/dosdp-patterns/*.yaml)

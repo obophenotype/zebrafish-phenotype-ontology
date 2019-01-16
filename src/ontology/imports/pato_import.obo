@@ -7600,6 +7600,18 @@ created_by: george
 creation_date: 2009-10-06T04:40:06Z
 
 [Term]
+id: PATO:0002126
+name: osseous
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's containing bone." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "bony" EXACT []
+is_a: PATO:0000025 ! composition
+created_by: george
+creation_date: 2009-10-06T04:42:11Z
+
+[Term]
 id: PATO:0002129
 name: neoplastic, invasive
 namespace: quality

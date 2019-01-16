@@ -848,6 +848,17 @@ domain: BFO:0000004 ! independent continuant
 is_a: RO:0002323 ! mereotopologically related to
 
 [Typedef]
+id: RO:0002177
+name: attached to part of
+def: "a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b." []
+property_value: IAO:0000589 "attached to part of (anatomical structure to anatomical structure)" xsd:string
+domain: CARO:0000003 ! connected anatomical structure
+range: CARO:0000003 ! connected anatomical structure
+holds_over_chain: RO:0002371 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002323 ! mereotopologically related to
+is_a: RO:0002567 ! biomechanically related to
+
+[Typedef]
 id: RO:0002178
 name: supplies
 def: "Relation between an arterial structure and another structure, where the arterial structure acts as a conduit channeling fluid, substance or energy." []
@@ -1455,6 +1466,17 @@ is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
+id: RO:0002371
+name: attached to
+def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
+subset: ro-eco
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000589 "attached to (anatomical structure to anatomical structure)" xsd:string
+is_symmetric: true
+is_a: RO:0002170 ! connected to
+is_a: RO:0002177 ! attached to part of
+
+[Typedef]
 id: RO:0002375
 name: in branching relationship with
 def: "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network." []
@@ -1962,6 +1984,16 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "causally influences (material entity to material entity)" xsd:string
 is_a: RO:0002506 ! causal relation between material entities
+
+[Typedef]
+id: RO:0002567
+name: biomechanically related to
+def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the biomechanical processes." xsd:string
+domain: CARO:0000003 ! connected anatomical structure
+range: CARO:0000003 ! connected anatomical structure
+is_a: RO:0002328 ! functionally related to
 
 [Typedef]
 id: RO:0002569

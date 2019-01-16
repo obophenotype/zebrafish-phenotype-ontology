@@ -20,6 +20,7 @@ accession=int(sys.argv[4]) # The number from which we should start counting (if 
 #accession=100000
 
 # Fixed parameters
+startid = 0 # will be changed but needs to be declared
 maxid = 9999999 # THE maximum integer the current OBO IRI space allows (ZP_9999999).
 prefix = "ZP:"
 zfin = "https://zfin.org/downloads/phenotype_fish.txt" # The ZFIN EQ data
@@ -37,6 +38,7 @@ def get_highest_id(ids):
 
 def generate_id(i):
     global startid, maxid, prefix
+    print(startid)
     if isinstance(i,str):
         if i.startswith(prefix):
             return i

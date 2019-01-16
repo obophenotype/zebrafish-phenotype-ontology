@@ -239,7 +239,7 @@ relationship: start ZFS:0000001 ! Zygote:1-cell
 id: ZFA:0000022
 name: floor plate
 namespace: zebrafish_anatomy
-def: "Multi-tissue structure that is the ventral-most aspect of the developing neural tube.  The floor plate is a specialized glial structure that spans the rostral-caudal axis from the midbrain to the tail regions." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Multi-tissue structure that is the ventral-most aspect of the developing neural tube.  The floor plate is a specialized glial structure with secretory function that spans the rostral-caudal axis from the midbrain to the tail regions.  The floor plate is one of first structures that differentiate in the developing nervous system." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-980205-16]
 comment: The floor plate cells are a row of cells along the a-p axis ~3 cells wide that make up the ventral floor of the early spinal cord.  Floor plate cells are prominent rectangular cells with a triangular cross section with one cell in the middle that straddles the ventral midline and usually one cell lateral to the middle cell on both sides.   14hpf.
 synonym: "floorplate" EXACT []
 synonym: "fp" EXACT []
@@ -963,12 +963,12 @@ relationship: start ZFS:0000016 ! Blastula:30%-epiboly
 
 [Term]
 id: ZFA:0000088
-name: YSL
+name: yolk syncytial layer
 namespace: zebrafish_anatomy
 def: "Peripheral layer of the yolk cell including nuclei and non-yolky cytoplasm." [ZFIN:ZDB-PUB-961014-576]
 synonym: "periblast" EXACT [ZFIN:ZDB-PUB-961014-576]
 synonym: "yolk sac" RELATED []
-synonym: "yolk syncytial layer" EXACT [ZFIN:ZDB-PUB-961014-576]
+synonym: "YSL" EXACT [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000088
 is_a: ZFA:0001105 ! embryonic structure
 relationship: develops_from ZFA:0000084 ! yolk
@@ -1391,7 +1391,6 @@ relationship: develops_from ZFA:0000124 ! liver primordium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000036 ! liver and biliary system
 relationship: part_of ZFA:0000339 ! digestive system
-relationship: part_of ZFA:0001159 ! immune system
 relationship: start ZFS:0000030 ! Pharyngula:Prim-15
 
 [Term]
@@ -2704,7 +2703,7 @@ def: "The metapterygoid is a posterior bone that ossifies in the cartilaginous p
 synonym: "metapterygoids" EXACT PLURAL []
 xref: TAO:0000240
 is_a: ZFA:0001591 ! endochondral bone
-relationship: develops_from ZFA:0001399 ! palatoquadrate cartilage
+relationship: develops_from ZFA:0005902 ! pterygoid process
 relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005469 ! hyomandibula-metapterygoid joint
 relationship: overlaps ZFA:0005486 ! quadrate-metapterygoid joint
@@ -3504,14 +3503,14 @@ relationship: start ZFS:0000041 ! Larval:Days 21-29
 
 [Term]
 id: ZFA:0000309
-name: E-YSL
+name: external yolk syncytial layer
 namespace: zebrafish_anatomy
 def: "The portion of the YSL that is outside of the blastoderm margin during epiboly." [GOC:mh, ORCiD:0000-0001-9114-8737, ZFIN:ZDB-PUB-961014-576]
-synonym: "external yolk syncytial layer" EXACT [ZFIN:ZDB-PUB-961014-576]
+synonym: "E-YSL" EXACT [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000309
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000030 ! Pharyngula:Prim-15
-relationship: part_of ZFA:0000088 ! YSL
+relationship: part_of ZFA:0000088 ! yolk syncytial layer
 relationship: start ZFS:0000013 ! Blastula:Oblong
 
 [Term]
@@ -4046,7 +4045,7 @@ relationship: start ZFS:0000025 ! Segmentation:10-13 somites
 id: ZFA:0000356
 name: gill raker
 namespace: zebrafish_anatomy
-def: "Dermal bone that is a small anterior projection present on all of pharyngeal arches 3-7. The rakers have epithelial denticles and both their gross and fine structure serves to retain food particles in the mouth." [http://www.briancoad.com/Dictionary/G.htm]
+def: "Dermal bone that is a small anterior projection present on all of pharyngeal arches 3-7.  They support the gills.  The rakers have epithelial denticles and both their gross and fine structure serves to retain food particles in the mouth." [http://www.briancoad.com/Dictionary/G.htm, ZFIN:ZDB-PUB-081008-12]
 synonym: "gill rakers" EXACT PLURAL []
 xref: TAO:0000356
 is_a: ZFA:0001590 ! dermal bone
@@ -4533,7 +4532,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0000403
 name: ovary
 namespace: zebrafish_anatomy
-def: "Female reproductive organ." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Female reproductive organ.  The ovary is a bilobed cavitated organ located ventral to the swim bladder." [GOC:cvs, GOC:mh, ISBN:0199638098, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
 synonym: "ovaries" EXACT PLURAL []
 xref: TAO:0000403
 is_a: ZFA:0000413 ! gonad
@@ -4756,11 +4755,11 @@ def: "The retroarticular is a cartilage bone that forms at the posteroventral ti
 synonym: "retroarticulars" EXACT PLURAL []
 xref: TAO:0000422
 is_a: ZFA:0001591 ! endochondral bone
-relationship: develops_from ZFA:0001205 ! Meckel's cartilage
+relationship: develops_from ZFA:0005904 ! retroarticular  process
 relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000039 ! Larval:Days 7-13
 
 [Term]
 id: ZFA:0000423
@@ -4922,8 +4921,8 @@ def: "Organ that filters the blood removing defective blood cells.  The spleen i
 xref: TAO:0000436
 is_a: ZFA:0000496 ! compound organ
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000339 ! digestive system
 relationship: part_of ZFA:0001159 ! immune system
+relationship: part_of ZFA:0005023 ! hematopoietic system
 relationship: part_of ZFA:0007116 ! pleuroperitoneal region
 relationship: start ZFS:0000000 ! Unknown
 
@@ -6396,7 +6395,7 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0000560
 name: oviduct
 namespace: zebrafish_anatomy
-def: "Duct that connects ovary with cloacal chamber." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Duct that connects ovary with cloacal chamber.  In zebrafish the oviduct is a continuation of the ovary." [GOC:cvs, GOC:mh, ISBN:0199638098, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
 synonym: "oviducts" EXACT PLURAL []
 xref: TAO:0000560
 is_a: ZFA:0005171 ! duct
@@ -8175,14 +8174,14 @@ relationship: start ZFS:0000016 ! Blastula:30%-epiboly
 
 [Term]
 id: ZFA:0000712
-name: I-YSL
+name: internal yolk syncytial layer
 namespace: zebrafish_anatomy
 def: "The portion of the YSL that lies deep to the blastoderm during epiboly." [ZFIN:ZDB-PUB-961014-576]
-synonym: "internal yolk syncytial layer" EXACT [ZFIN:ZDB-PUB-961014-576]
+synonym: "I-YSL" EXACT [ZFIN:ZDB-PUB-961014-576]
 xref: TAO:0000712
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000030 ! Pharyngula:Prim-15
-relationship: part_of ZFA:0000088 ! YSL
+relationship: part_of ZFA:0000088 ! yolk syncytial layer
 relationship: start ZFS:0000013 ! Blastula:Oblong
 
 [Term]
@@ -12888,7 +12887,7 @@ synonym: "Nieuwkoop center" EXACT []
 xref: TAO:0001125
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000019 ! Gastrula:Shield
-relationship: part_of ZFA:0000088 ! YSL
+relationship: part_of ZFA:0000088 ! yolk syncytial layer
 relationship: start ZFS:0000012 ! Blastula:High
 
 [Term]
@@ -13389,7 +13388,7 @@ relationship: start ZFS:0000039 ! Larval:Days 7-13
 id: ZFA:0001172
 name: roofing cartilage
 namespace: zebrafish_anatomy
-def: "Cartilaginous larval structure dorsal to the four anterior-most vertebrae, which forms the connection between neural arches and supraneurals in the Weberian apparatus." [ZFIN:ZDB-PUB-031103-13]
+def: "Cartilaginous larval structure dorsal to the four anterior-most vertebrae, which forms the connection between neural arches and supraneurals in the Weberian apparatus.  Located dorsal to the neural tube." [ZFIN:ZDB-PUB-031103-13]
 xref: TAO:0001172
 is_a: ZFA:0001457 ! postcranial axial cartilage
 relationship: end ZFS:0000041 ! Larval:Days 21-29
@@ -15977,6 +15976,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0001399
 name: palatoquadrate cartilage
 namespace: zebrafish_anatomy
+def: "Cartilage that is the dorsal component of the first pharyngeal arch.  It is roughly triangular with slightly concave dorsal edges and convex ventral edges.  The anteroventral corner gives rise the quadrate and articulates with the posterior end of  Meckel's cartilage.  The anterodorsal tip articulates with the lateral edge of the ethmoid plate and the posteroventral edge articulates with the anterodorsal edge of the hyosymplectic." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-192]
 synonym: "dorsal mandibular cartilage" EXACT []
 synonym: "pterygoquadrate" EXACT []
 synonym: "quadrate cartilage" EXACT []
@@ -17695,6 +17695,7 @@ id: ZFA:0001554
 name: lepidotrichium
 namespace: zebrafish_anatomy
 def: "Dermal bone that is rod-like, formed and usually contained in a fin membrane, and jointed to or adjacent to distal radials. They are bilaterally paired.  Lepidotrichia are formed from paired hemitrichia surrounding actinotrichia. There are usually two more lepidotrichia than distal radials." [ZFIN:ZDB-PUB-031103-13]
+synonym: "fin ray" EXACT []
 synonym: "lepidotrichia" EXACT PLURAL []
 xref: TAO:0001554
 is_a: ZFA:0001590 ! dermal bone
@@ -19308,9 +19309,9 @@ creation_date: 2009-04-30T02:46:34Z
 id: ZFA:0001690
 name: groove
 namespace: zebrafish_anatomy
-def: "Anatomical line that delineates a furrow or depression in an organ or tissue." [GOC:mh, ORCiD:0000-0001-9114-8737]
+def: "Anatomical structure that delineates a furrow or depression in an organ or tissue." [GOC:mh, ORCiD:0000-0001-9114-8737]
 xref: TAO:0001838
-is_a: ZFA:0001689 ! anatomical line
+is_a: ZFA:0000037 ! anatomical structure
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000001 ! Zygote:1-cell
 created_by: Melissa  Haendel
@@ -19500,7 +19501,9 @@ creation_date: 2009-08-05T03:22:18Z
 id: ZFA:0001704
 name: scale primordium
 namespace: zebrafish_anatomy
-def: "A portion of tissue that is an accumulation of fibroblasts beneath the epidermal placode and giving rise to the scale." [ZFIN:ZDB-PUB-081008-12]
+def: "A portion of tissue that gives rise to the scale.  At the  initial stages the primordium  is composed of an accumulation of fibroblast below the basil epidermis.   As the primordium develops the epidermis over the fibroblast alters: the basal epidermal cells become cuboidal and narrow, the collagen matrix remodels and the hemidesmosomes disappear." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-081008-12]
+synonym: "scale placode" RELATED []
+synonym: "scale primordia " EXACT PLURAL []
 xref: TAO:0002242
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000043 ! Juvenile:Days 45-89
@@ -19543,6 +19546,7 @@ def: "Multi-tissue structure that has as its parts the medulla oblongata of the 
 xref: TAO:0002156
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000012 ! central nervous system
 relationship: start ZFS:0000000 ! Unknown
 created_by: Melissa  Haendel
 creation_date: 2009-08-13T01:39:24Z
@@ -23888,6 +23892,7 @@ def: "Any of the tubular multi-tissue structures through which blood circulates 
 xref: TAO:0002137
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001079 ! blood vasculature
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-01-29T02:17:51Z
@@ -26136,6 +26141,7 @@ xref: TAO:0001890
 xref: VSAO:0000128
 is_a: ZFA:0000496 ! compound organ
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000434 ! skeletal system
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2010-07-22T11:20:29Z
@@ -26196,7 +26202,7 @@ namespace: zebrafish_anatomy
 def: "Fine ridges on surface of scale, often parallel to the circumference of scale." [http://www.briancoad.com/main.asp?page=fishdictionary.htm, TAO:curator]
 synonym: "circuli" EXACT PLURAL []
 xref: TAO:0002051
-is_a: ZFA:0001689 ! anatomical line
+is_a: ZFA:0000037 ! anatomical structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000277 ! scale
 relationship: start ZFS:0000000 ! Unknown
@@ -27717,6 +27723,7 @@ def: "Connective tissue that functions in mechanical and structural support." [V
 xref: VSAO:0000015
 is_a: ZFA:0001632 ! portion of connective tissue
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000434 ! skeletal system
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2012-02-09T03:59:26Z
@@ -30938,6 +30945,7 @@ id: ZFA:0005871
 name: region of the nucleus of the medial longitudinal fascicle
 namespace: zebrafish_anatomy
 def: "Portion of tissue in the midbrain that will develop into the nucleus of the medial longitudinal fasciculus synencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-070711-1]
+is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000000 ! Unknown
 relationship: part_of ZFA:0000128 ! midbrain
 relationship: start ZFS:0000026 ! Segmentation:14-19 somites
@@ -31091,6 +31099,7 @@ id: ZFA:0005883
 name: tunica albuginea testis
 namespace: zebrafish_anatomy
 def: "Membranous sheath that surrounds the testis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090407-9]
+is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000598 ! testis
 relationship: start ZFS:0000000 ! Unknown
@@ -31272,7 +31281,7 @@ creation_date: 2018-02-12T10:37:38Z
 id: ZFA:0005898
 name: caudal hematopoietic tissue
 namespace: zebrafish_anatomy
-def: "Tissue that lies between the caudal artery and the caudal vein plexus where definitive homatopiesis occurs after  48hpf and before the hematopoietic progenitors migrate to the thymus and kidney." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-061227-29, ZFIN:ZDB-PUB-070303-37]
+def: "Tissue that lies between the caudal artery and the caudal vein plexus where definitive hematopoiesis occurs after  48hpf and before the hematopoietic progenitors migrate to the thymus and kidney." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-061227-29, ZFIN:ZDB-PUB-070303-37]
 synonym: "posterior blood island" RELATED [ZFIN:ZDB-PUB-070303-37]
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000039 ! Larval:Days 7-13
@@ -31280,6 +31289,55 @@ relationship: part_of ZFA:0005023 ! hematopoietic system
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 created_by: Ceri
 creation_date: 2018-02-21T12:40:50Z
+
+[Term]
+id: ZFA:0005901
+name: superior ocular sulcus
+namespace: zebrafish_anatomy
+def: "Transient groove in the dorsal eye lined by basal lamina.  The groove extends across the dorsal retina to partially separate the nasal and temporal retinal lobes.  The sulcus forms soon after optic cup formation and as the eye develops it becomes broader and shallower until it is undetectable." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180310-10]
+synonym: "dorsal ocular sulcus" EXACT []
+is_a: ZFA:0001690 ! groove
+relationship: end ZFS:0000029 ! Pharyngula:Prim-5
+relationship: part_of ZFA:0001678 ! immature eye
+relationship: start ZFS:0000027 ! Segmentation:20-25 somites
+created_by: Ceri
+creation_date: 2018-09-05T16:23:34Z
+
+[Term]
+id: ZFA:0005902
+name: pterygoid process
+namespace: zebrafish_anatomy
+def: "A medial cartilaginous spur that develops from the dorsomedial edge of the palatoquadrate.  It is derived from cells located in the maxillary prominence of the first pharyngeal arch and gives rise to the metapterygoid." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-100726-23, ZFIN:ZDB-PUB-961014-192]
+synonym: "Ptp" RELATED []
+is_a: ZFA:0005903 ! cartilaginous projection
+relationship: end ZFS:0000040 ! Larval:Days 14-20
+relationship: part_of ZFA:0001399 ! palatoquadrate cartilage
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Ceri
+creation_date: 2018-09-12T09:53:49Z
+
+[Term]
+id: ZFA:0005903
+name: cartilaginous projection
+namespace: zebrafish_anatomy
+def: "Skeletal tissue that is an extension of a skeletal element composed of  cartilage." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+is_a: ZFA:0005619 ! skeletal tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2018-09-12T10:11:35Z
+
+[Term]
+id: ZFA:0005904
+name: retroarticular  process
+namespace: zebrafish_anatomy
+def: "A protrusion of cartilage at the posteroventral tip of  Meckel's cartilage that gives rise to the retroarticular." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161203-3]
+is_a: ZFA:0005903 ! cartilaginous projection
+relationship: end ZFS:0000038 ! Larval:Day 6
+relationship: part_of ZFA:0001205 ! Meckel's cartilage
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2018-09-12T10:37:59Z
 
 [Term]
 id: ZFA:0006000
@@ -33016,7 +33074,7 @@ synonym: "colony forming unit erythroid megakaryocyte" EXACT []
 synonym: "MEP" EXACT []
 xref: CL:0000050
 xref: TAO:0009022
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0005830 ! hematopoietic cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -33096,6 +33154,7 @@ relationship: develops_from ZFA:0000041 ! mesoderm
 relationship: develops_from ZFA:0009081 ! mesenchymal cell
 relationship: develops_from ZFA:0009138 ! mesodermal cell
 relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0001501 ! cartilage element
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
@@ -33893,6 +33952,7 @@ is_a: ZFA:0009093 ! GAG secreting cell
 is_a: ZFA:0009287 ! collagen secreting cell
 relationship: develops_from ZFA:0009027 ! chondroblast
 relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001501 ! cartilage element
 relationship: start ZFS:0000000 ! Unknown
 
 [Term]
@@ -35474,7 +35534,6 @@ name: parathyroid hormone secreting cell
 namespace: zebrafish_anatomy
 subset: cell_slim
 synonym: "chief cell" EXACT []
-xref: CL:0000446
 xref: TAO:0009207
 is_a: ZFA:0009100 ! peptide hormone secreting cell
 relationship: end ZFS:0000044 ! Adult
@@ -36048,7 +36107,7 @@ synonym: "GMP" EXACT [ZFIN:ZDB-PUB-070221-1]
 synonym: "granulocyte-macrophage progenitor" EXACT [ZFIN:ZDB-PUB-070221-1]
 xref: CL:0000557
 xref: TAO:0009251
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0005830 ! hematopoietic cell
 relationship: develops_from ZFA:0009021 ! common myeloid progenitor
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
@@ -37503,7 +37562,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0009355
 name: lymphoid progenitor cell
 namespace: zebrafish_anatomy
-def: "A progenitor cell restricted to the myeloid lineage." [CL:curator, PMID:19022770]
+def: "A progenitor cell restricted to the lymphoid lineage." [CL:curator, PMID:19022770]
 comment: Note that this is a class of cell types, not an identified single cell type.
 subset: cell_slim
 synonym: "lymphoid progenitor cells" EXACT PLURAL []
@@ -37524,7 +37583,7 @@ synonym: "myeloid progenitor cell" RELATED []
 synonym: "myeloid progenitor cells" EXACT PLURAL []
 xref: CL:0000839
 xref: TAO:0009356
-is_a: ZFA:0009000 ! cell
+is_a: ZFA:0005830 ! hematopoietic cell
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
