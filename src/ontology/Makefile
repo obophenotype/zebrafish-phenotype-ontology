@@ -240,7 +240,9 @@ pattern_term_lists_manual := $(patsubst %.tsv, $(DOSDP_TEMP_PATTERN_MANUAL)/%.tx
 
 
 ../patterns/definitions.owl: $(DOSDP_TEMP_PATTERN_MANUAL) $(individual_patterns_manual) $(individual_patterns_auto)
-	$(ROBOT) merge $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_auto)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@
+	$(ROBOT) merge $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_auto)) annotate --ontology-iri $(OBO)/$(ONT)/patterns/definitions.owl -o $@ &&\
+	echo 'OCCURS IN HACK' &&\
+	java -jar zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@ 
 
 
 #pattern_files := $(wildcard ../patterns/dosdp-patterns/*.yaml)
