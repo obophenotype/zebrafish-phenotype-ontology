@@ -36,3 +36,11 @@ The pipeline can be executed by:
 After this pipeline is run, the 
 
 
+# Updating the ODK
+
+* Run `docker pull obolibrary/odkfull` to make sure you have the latest version of the ODK installed
+* Git clone the [ontology-development-kit](https://github.com/INCATools/ontology-development-kit/) source code on GitHub, or, if you already have it, make sure it is up to date (git pull)
+* go to the ontology-development-kit source code directory in terminal (cd ..).
+* Make sure you have an up to date ODK configuration file for ZP. You can find it src/metadata/zp-odk.yaml (ZP directory, not ODK). Copy it to the examples directory of the ODK repository
+* Run `./seed-via-docker.sh -c -C examples/phenotype-ontologies/zp-odk.yaml`
+* Copy the file you can find under target/zp/src/ontology/Makefile to the respective location src/ontology/Makefile in your ZP directory
