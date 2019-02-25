@@ -28,9 +28,13 @@ def determine_eq_pattern(i):
     global fn,pbase,ubase
     id = fn
     pato=i['pato_id']
+    entity=i['affected_entity_1_super']
     if fn=='abnormalQualityOfThing.tsv':
         if pato=='PATO:0000001':
-            id = 'abnormal.tsv'
+            if entity.startswith('GO'):
+                id = 'abnormalAnatomicalEntity.tsv'
+            if entity.startswith('ZFA'):
+                id = 'abnormalBiologicalProcess.tsv'
     return id
 
 # Determining the correct pattern
@@ -41,8 +45,10 @@ for p in set(df['pattern']):
     print(p)
     pattern=p.replace(pbase,'').replace(ubase,'').replace('.yaml','.tsv')
     dx = df[df['pattern']==p]
-    if pattern=="abnormal.tsv":
-        dx = dx.rename(columns={'affected_entity_1_super': 'entity', 'pato_id': 'quality'})
+    if pattern=="abnormalAnatomicalEntity.tsv":
+        dx = dx.rename(columns={'affected_entity_1_super': 'anatomical_entity', 'pato_id': 'quality'})
+    if pattern=="abnormalBiologicalProcess.tsv":
+        dx = dx.rename(columns={'affected_entity_1_super': 'biological_process', 'pato_id': 'quality'})
     dx = dx.loc[:, dx.columns != 'pattern']
     dx.to_csv(os.path.join(dir,pattern), sep='\t', index=False)
 
