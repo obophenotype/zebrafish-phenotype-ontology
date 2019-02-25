@@ -3,6 +3,8 @@ src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/zp.obo
 src/ontology/zp.owl
+src/ontology/zp-base.owl
+src/curation/tmp
 semantic.cache
 bin/
 src/ontology/seed.txt
