@@ -23,3 +23,4 @@ src/curation/reserved_iris.txt
 src/curation/id_map_terms.txt
 src/patterns/data/auto/*_terms.txt
 src/patterns/data/manual/*_terms.txt
+catalog-v001.xml

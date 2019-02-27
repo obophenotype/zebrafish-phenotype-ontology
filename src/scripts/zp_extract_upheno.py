@@ -27,14 +27,15 @@ dir = os.path.dirname(tsv)
 def determine_eq_pattern(i):
     global fn,pbase,ubase
     id = fn
-    pato=i['pato_id']
-    entity=i['affected_entity_1_super']
-    if fn=='abnormalQualityOfThing.tsv':
-        if pato=='PATO:0000001':
-            if entity.startswith('GO'):
-                id = 'abnormalAnatomicalEntity.tsv'
-            if entity.startswith('ZFA'):
-                id = 'abnormalBiologicalProcess.tsv'
+    if 'pato_id' in i:
+        pato=i['pato_id']
+        entity=i['affected_entity_1_super']
+        if fn=='abnormalQualityOfThing.tsv':
+            if pato=='PATO:0000001':
+                if entity.startswith('GO'):
+                    id = 'abnormalBiologicalProcess.tsv'
+                if entity.startswith('ZFA'):
+                    id = 'abnormalAnatomicalEntity.tsv'
     return id
 
 # Determining the correct pattern

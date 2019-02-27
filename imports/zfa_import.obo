@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: zp/releases/2019-02-27/imports/zfa_import.owl
 ontology: zp/imports/zfa_import
 
 [Term]
@@ -31291,6 +31292,31 @@ created_by: Ceri
 creation_date: 2018-02-21T12:40:50Z
 
 [Term]
+id: ZFA:0005899
+name: scale focus
+namespace: zebrafish_anatomy
+def: "The initial growth point of the scale.  In zebrafish the focus is on the anterior edge of the scale." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180311-2]
+is_a: ZFA:0000037 ! anatomical structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000277 ! scale
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2018-08-30T16:47:45Z
+
+[Term]
+id: ZFA:0005900
+name: scale radius
+namespace: zebrafish_anatomy
+def: "Grooves on the scale radiating from the focus. Zebrafish have primary radii that start at the focus and extend to the posterior margin of the scale." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180311-2]
+synonym: "scale radii" EXACT PLURAL []
+is_a: ZFA:0000037 ! anatomical structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000277 ! scale
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2018-08-30T16:50:48Z
+
+[Term]
 id: ZFA:0005901
 name: superior ocular sulcus
 namespace: zebrafish_anatomy
@@ -31338,6 +31364,31 @@ relationship: part_of ZFA:0001205 ! Meckel's cartilage
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
 creation_date: 2018-09-12T10:37:59Z
+
+[Term]
+id: ZFA:0005905
+name: coronoid process
+namespace: zebrafish_anatomy
+def: "Cartilaginous protrusion on the posterodorsal region of Meckel's cartilage.  The coronoid process of Meckel's cartilage  forms the dorsal portion of the articulation with the  anteroventral corner of  the palatoquadrate." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-060724-1, ZFIN:ZDB-PUB-161203-3]
+synonym: " coronoid process of Meckel's cartilage" EXACT []
+is_a: ZFA:0005903 ! cartilaginous projection
+relationship: end ZFS:0000040 ! Larval:Days 14-20
+relationship: part_of ZFA:0001205 ! Meckel's cartilage
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2018-09-12T14:26:48Z
+
+[Term]
+id: ZFA:0005906
+name: Reissner's fiber
+namespace: zebrafish_anatomy
+def: "Thread-like fibrous aggregation of secreted molecules extending from the subcommissural organ (SCO) through the ventricular system and central canal to the end of the spinal cord." [GOC:cvs, ISBN:978-0471888895, ZFIN:ZDB-PUB-980205-16]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000000 ! Unknown
+relationship: part_of ZFA:0000938 ! central canal
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: ceriv
+creation_date: 2018-11-29T11:06:47Z
 
 [Term]
 id: ZFA:0006000

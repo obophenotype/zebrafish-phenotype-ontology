@@ -1,0 +1,114 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing>))
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing>))
+Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002503>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> ('affected_entity_1_super' 'pato_id', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "abnormalQualityOfThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> "'affected_entity_1_super' 'pato_id', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' ('affected_entity_2_super' of 'affected_entity_2_sub')."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "abnormalQualityOfThingTowardsPartOfThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_2_super', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' ('affected_entity_2_super')."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "abnormalQualityOfThingTowardsThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_2_super', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> ('affected_entity_1_sub' 'affected_entity_1_super' 'pato_id', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' of 'affected_entity_1_sub'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "abnormalQualityPartOfThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> "'affected_entity_1_sub' 'affected_entity_1_super' 'pato_id', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml> (abnormal 'biological_process')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml> "Abnormal 'biological_process'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml> "abnormalBiologicalProcess"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml> "abnormal 'biological_process'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008150>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> (abnormal 'anatomical entity')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "Abnormality of 'anatomical entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormalAnatomicalEntity"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormality of 'anatomical entity'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormal 'anatomical entity'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001062>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_1_sub', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' of 'affected_entity_1_sub'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "abnormalQualityOccursInThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_1_sub', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' of 'affected_entity_1_sub' ('affected_entity_2_super' of 'affected_entity_2_sub')."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "abnormalQualityOccursInThingTowardsPartOfThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' of 'affected_entity_1_sub' ('affected_entity_2_super' of 'affected_entity_2_sub')."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "abnormalQualityPartOfThingTowardsPartOfThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_sub' 'affected_entity_2_super', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> ('affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_super', abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "Abnormal(ly) 'pato_id' (of) 'affected_entity_1_super' of 'affected_entity_1_sub' ('affected_entity_2_super')."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "abnormalQualityPartOfThingTowardsThing"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> "'affected_entity_1_super' 'pato_id' 'affected_entity_1_sub' 'affected_entity_2_super', abnormal"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002503> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+
+
+)

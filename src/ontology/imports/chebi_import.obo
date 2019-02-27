@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: zp/releases/2019-02-27/imports/chebi_import.owl
 ontology: zp/imports/chebi_import
 
 [Term]
@@ -719,7 +720,6 @@ subset: 3_STAR
 synonym: "S(2-)" RELATED [IUPAC]
 synonym: "sulfanediide" EXACT IUPAC_NAME [IUPAC]
 synonym: "Sulfide" RELATED [ChemIDplus]
-synonym: "sulfide" RELATED [UniProt]
 synonym: "sulfide(2-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "sulphide" RELATED [ChEBI]
 xref: CAS:18496-25-8 "ChemIDplus"
@@ -1267,7 +1267,6 @@ subset: 3_STAR
 synonym: "(6S)-10-HCO-H4folate" RELATED [JCBN]
 synonym: "10-Formyl-THF" RELATED [KEGG_COMPOUND]
 synonym: "10-Formyltetrahydrofolate" RELATED [KEGG_COMPOUND]
-synonym: "10-formyltetrahydrofolic acid" EXACT [UniProt]
 synonym: "10-formyltetrahydropteroylglutamic acid" RELATED [ChemIDplus]
 synonym: "10-FTHF" RELATED [ChemIDplus]
 synonym: "N-(10-formyl-5,6,7,8-tetrahydropteroyl)-L-glutamic acid" RELATED [ChEBI]
@@ -2443,7 +2442,6 @@ synonym: "RSR" RELATED [IUPAC]
 synonym: "Sulfide" RELATED [KEGG_COMPOUND]
 synonym: "sulfides" EXACT IUPAC_NAME [IUPAC]
 synonym: "Thioether" RELATED [KEGG_COMPOUND]
-synonym: "thioether" RELATED [UniProt]
 synonym: "thioethers" RELATED [IUPAC]
 xref: KEGG:C00297
 is_a: CHEBI:26822 ! sulfide
@@ -2800,7 +2798,6 @@ subset: 3_STAR
 synonym: "1,2-Diacyl-sn-glycero-3-phospho-(1'-myo-inositol-3',4',5'-bisphosphate)" RELATED [KEGG_COMPOUND]
 synonym: "1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,4,5-tris(dihydrogen phosphate)" EXACT IUPAC_NAME [IUPAC]
 synonym: "1-Phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate" EXACT [KEGG_COMPOUND]
-synonym: "1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate" EXACT [UniProt]
 synonym: "Phosphatidylinositol-3,4,5-trisphosphate" RELATED [KEGG_COMPOUND]
 synonym: "PIP3" RELATED [ChEBI]
 synonym: "PtsIns(3,4,5)P3" RELATED [JCBN]
@@ -3598,7 +3595,6 @@ def: "A gamma-amino acid that is butanoic acid with the amino substituent locate
 subset: 3_STAR
 synonym: "4-Aminobutanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutanoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "4-aminobutanoic acid" RELATED [UniProt]
 synonym: "4-aminobutanoic acid" RELATED [ChEBI]
 synonym: "4-Aminobutyric acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutyric acid" RELATED [ChEBI]
@@ -5278,7 +5274,6 @@ alt_id: CHEBI:26557
 alt_id: CHEBI:8845
 subset: 3_STAR
 synonym: "Ribonucleoside diphosphate" EXACT [KEGG_COMPOUND]
-synonym: "ribonucleoside diphosphate" EXACT [UniProt]
 synonym: "ribonucleoside diphosphates" RELATED [ChEBI]
 xref: KEGG:C03723
 is_a: CHEBI:16862 ! nucleoside diphosphate
@@ -5658,7 +5653,6 @@ subset: 3_STAR
 synonym: "(2R)-2-hydroxy monocarboxylic acids" RELATED [ChEBI]
 synonym: "(2R)-Hydroxy-carboxylate" RELATED [KEGG_COMPOUND]
 synonym: "(R)-2-Hydroxyacid" RELATED [KEGG_COMPOUND]
-synonym: "(R)-2-hydroxyacid" RELATED [UniProt]
 synonym: "(R)-2-Hydroxycarboxylic acid" RELATED [KEGG_COMPOUND]
 xref: KEGG:C02489
 xref: KEGG:C15487
@@ -6062,7 +6056,6 @@ synonym: "tirosina" RELATED [ChEBI]
 synonym: "Tyr" RELATED [ChEBI]
 synonym: "Tyrosin" RELATED [ChEBI]
 synonym: "Tyrosine" EXACT [KEGG_COMPOUND]
-synonym: "tyrosine" EXACT [UniProt]
 synonym: "tyrosine" EXACT IUPAC_NAME [IUPAC]
 synonym: "Y" RELATED [ChEBI]
 xref: Beilstein:515881 "Beilstein"
@@ -7093,8 +7086,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [ChEBI]
 synonym: "carbonyl group" EXACT [UniProt]
+synonym: "carbonyl group" EXACT [ChEBI]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -8846,6 +8839,7 @@ namespace: chebi_ontology
 alt_id: CHEBI:8283
 subset: 1_STAR
 is_a: CHEBI:33709 ! amino acid
+relationship: is_tautomer_of CHEBI:62031 ! polar amino acid zwitterion
 
 [Term]
 id: CHEBI:26191
@@ -9839,7 +9833,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/mass "168.11042" xsd:string
 id: CHEBI:27283
 name: very long-chain fatty acid
 namespace: chebi_ontology
-def: "A fatty acid which has a chain length greater than C22." []
+def: "A fatty acid which has a chain length greater than C22. Very long-chain fatty acids which have a chain length greater than C27 are also known as ultra-long-chain fatty acids." []
 subset: 3_STAR
 synonym: "higher fatty acid" RELATED [ChEBI]
 synonym: "very long-chain fatty acids" RELATED [ChEBI]
@@ -10678,7 +10672,6 @@ alt_id: CHEBI:3401
 subset: 3_STAR
 synonym: "[CO(OH)2]" RELATED [IUPAC]
 synonym: "Carbonic acid" EXACT [KEGG_COMPOUND]
-synonym: "carbonic acid" EXACT [UniProt]
 synonym: "carbonic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Dihydrogen carbonate" RELATED [KEGG_COMPOUND]
 synonym: "dihydroxidooxidocarbon" EXACT IUPAC_NAME [IUPAC]
@@ -11842,7 +11835,6 @@ synonym: "Butanoate" RELATED [KEGG_COMPOUND]
 synonym: "BUTANOIC ACID" RELATED [PDBeChem]
 synonym: "Butanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "butanoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "butanoic acid" RELATED [UniProt]
 synonym: "butoic acid" RELATED [ChEBI]
 synonym: "Buttersaeure" RELATED [ChEBI]
 synonym: "Butyric acid" EXACT [KEGG_COMPOUND]
@@ -14808,7 +14800,6 @@ alt_id: CHEBI:2835
 def: "An amino acid whose structure includes an aromatic ring." []
 subset: 3_STAR
 synonym: "Aromatic amino acid" EXACT [KEGG_COMPOUND]
-synonym: "aromatic amino acid" EXACT [UniProt]
 synonym: "aromatic amino acids" RELATED [ChEBI]
 xref: KEGG:C01021
 xref: Wikipedia:Aromatic_amino_acid
@@ -20610,11 +20601,11 @@ synonym: "(63)Cu" RELATED [IUPAC]
 synonym: "copper-63" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:30052 ! copper(0)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cu" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "[63Cu]" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cu/i1-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RYGMFSIKBFXOCR-BJUDXGSMSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "62.92960" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.930" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "62.930" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.92960" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[63Cu]" xsd:string
 
 [Term]
@@ -22426,14 +22417,13 @@ def: "Zwitterionic form of a polar amino acid having an anionic carboxy group an
 subset: 2_STAR
 synonym: "a polar amino acid" RELATED [UniProt]
 xref: MetaCyc:Polar-amino-acids "SUBMITTER"
-is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:35238 ! amino acid zwitterion
-is_a: CHEBI:50860 ! organic molecular entity
+relationship: is_tautomer_of CHEBI:26167 ! polar amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H4NO2R" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "74.05870" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "74.059" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "74.024" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]C([*])C([O-])=O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(C([O-])=O)(*)[NH3+]" xsd:string
 
 [Term]
 id: CHEBI:62081
@@ -24904,11 +24894,11 @@ xref: PMID:17807441 "Europe PMC"
 xref: PMID:19448268 "Europe PMC"
 is_a: CHEBI:27363 ! zinc atom
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Zn" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "[65Zn]" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Zn/i1+0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HCHKCACWOHOZIP-IGMARMGPSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "64.92925" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "63.929" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "64.929" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "64.92925" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[65Zn]" xsd:string
 
 [Term]

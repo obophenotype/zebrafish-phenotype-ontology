@@ -38,7 +38,6 @@ def get_highest_id(ids):
 
 def generate_id(i):
     global startid, maxid, prefix
-    print(startid)
     if isinstance(i,str):
         if i.startswith(prefix):
             return i
@@ -141,3 +140,4 @@ with open(reserved_ids, 'w') as f:
         f.write("%s\n" % item)
 
 print("Updating the ZP to ZFIN EQ mappings complete!")
+sys.exit()

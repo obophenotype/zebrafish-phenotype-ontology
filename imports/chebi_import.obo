@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: zp/releases/2019-02-27/imports/chebi_import.owl
 ontology: zp/imports/chebi_import
 
 [Term]
@@ -719,7 +720,6 @@ subset: 3_STAR
 synonym: "S(2-)" RELATED [IUPAC]
 synonym: "sulfanediide" EXACT IUPAC_NAME [IUPAC]
 synonym: "Sulfide" RELATED [ChemIDplus]
-synonym: "sulfide" RELATED [UniProt]
 synonym: "sulfide(2-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "sulphide" RELATED [ChEBI]
 xref: CAS:18496-25-8 "ChemIDplus"
@@ -1267,7 +1267,6 @@ subset: 3_STAR
 synonym: "(6S)-10-HCO-H4folate" RELATED [JCBN]
 synonym: "10-Formyl-THF" RELATED [KEGG_COMPOUND]
 synonym: "10-Formyltetrahydrofolate" RELATED [KEGG_COMPOUND]
-synonym: "10-formyltetrahydrofolic acid" EXACT [UniProt]
 synonym: "10-formyltetrahydropteroylglutamic acid" RELATED [ChemIDplus]
 synonym: "10-FTHF" RELATED [ChemIDplus]
 synonym: "N-(10-formyl-5,6,7,8-tetrahydropteroyl)-L-glutamic acid" RELATED [ChEBI]
@@ -2443,7 +2442,6 @@ synonym: "RSR" RELATED [IUPAC]
 synonym: "Sulfide" RELATED [KEGG_COMPOUND]
 synonym: "sulfides" EXACT IUPAC_NAME [IUPAC]
 synonym: "Thioether" RELATED [KEGG_COMPOUND]
-synonym: "thioether" RELATED [UniProt]
 synonym: "thioethers" RELATED [IUPAC]
 xref: KEGG:C00297
 is_a: CHEBI:26822 ! sulfide
@@ -2800,7 +2798,6 @@ subset: 3_STAR
 synonym: "1,2-Diacyl-sn-glycero-3-phospho-(1'-myo-inositol-3',4',5'-bisphosphate)" RELATED [KEGG_COMPOUND]
 synonym: "1-O-(3-sn-phosphatidyl)-1D-myo-inositol 3,4,5-tris(dihydrogen phosphate)" EXACT IUPAC_NAME [IUPAC]
 synonym: "1-Phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate" EXACT [KEGG_COMPOUND]
-synonym: "1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate" EXACT [UniProt]
 synonym: "Phosphatidylinositol-3,4,5-trisphosphate" RELATED [KEGG_COMPOUND]
 synonym: "PIP3" RELATED [ChEBI]
 synonym: "PtsIns(3,4,5)P3" RELATED [JCBN]
@@ -3598,7 +3595,6 @@ def: "A gamma-amino acid that is butanoic acid with the amino substituent locate
 subset: 3_STAR
 synonym: "4-Aminobutanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutanoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "4-aminobutanoic acid" RELATED [UniProt]
 synonym: "4-aminobutanoic acid" RELATED [ChEBI]
 synonym: "4-Aminobutyric acid" RELATED [KEGG_COMPOUND]
 synonym: "4-aminobutyric acid" RELATED [ChEBI]
@@ -5278,7 +5274,6 @@ alt_id: CHEBI:26557
 alt_id: CHEBI:8845
 subset: 3_STAR
 synonym: "Ribonucleoside diphosphate" EXACT [KEGG_COMPOUND]
-synonym: "ribonucleoside diphosphate" EXACT [UniProt]
 synonym: "ribonucleoside diphosphates" RELATED [ChEBI]
 xref: KEGG:C03723
 is_a: CHEBI:16862 ! nucleoside diphosphate
@@ -5658,7 +5653,6 @@ subset: 3_STAR
 synonym: "(2R)-2-hydroxy monocarboxylic acids" RELATED [ChEBI]
 synonym: "(2R)-Hydroxy-carboxylate" RELATED [KEGG_COMPOUND]
 synonym: "(R)-2-Hydroxyacid" RELATED [KEGG_COMPOUND]
-synonym: "(R)-2-hydroxyacid" RELATED [UniProt]
 synonym: "(R)-2-Hydroxycarboxylic acid" RELATED [KEGG_COMPOUND]
 xref: KEGG:C02489
 xref: KEGG:C15487
@@ -6062,7 +6056,6 @@ synonym: "tirosina" RELATED [ChEBI]
 synonym: "Tyr" RELATED [ChEBI]
 synonym: "Tyrosin" RELATED [ChEBI]
 synonym: "Tyrosine" EXACT [KEGG_COMPOUND]
-synonym: "tyrosine" EXACT [UniProt]
 synonym: "tyrosine" EXACT IUPAC_NAME [IUPAC]
 synonym: "Y" RELATED [ChEBI]
 xref: Beilstein:515881 "Beilstein"
@@ -6784,6 +6777,29 @@ is_a: CHEBI:35352 ! organonitrogen compound
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
+id: CHEBI:22470
+name: alpha-tocopherol
+namespace: chebi_ontology
+def: "A tocopherol that is chroman-6-ol substituted by methyl groups at positions 2, 5, 7 and 8 and a 4,8,12-trimethyltridecyl group at position 2." []
+subset: 3_STAR
+synonym: "(+-)-alpha-tocopherol" RELATED [ChemIDplus]
+synonym: "2,5,7,8-tetramethyl-2-(4',8',12'-trimethyltridecyl)-6-chromanol" RELATED [ChemIDplus]
+synonym: "dl-alpha-tocopherol" RELATED [ChemIDplus]
+synonym: "E 307" RELATED [ChEBI]
+synonym: "E-307" RELATED [ChEBI]
+synonym: "E307" RELATED [ChEBI]
+synonym: "rel-(2R)-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydro-2H-chromen-6-ol" EXACT IUPAC_NAME [IUPAC]
+xref: Beilstein:8176170 "Beilstein"
+xref: CAS:10191-41-0 "ChemIDplus"
+xref: PMID:23949732 "Europe PMC"
+xref: PMID:24683365 "Europe PMC"
+xref: Wikipedia:Alpha-Tocopherol
+is_a: CHEBI:27013 ! tocopherol
+relationship: has_role CHEBI:76924 ! plant metabolite
+relationship: has_role CHEBI:77962 ! food antioxidant
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H50O2" xsd:string
+
+[Term]
 id: CHEBI:22478
 name: amino alcohol
 namespace: chebi_ontology
@@ -6935,6 +6951,16 @@ synonym: "benzoate anion" RELATED [ChEBI]
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
+id: CHEBI:22727
+name: benzopyran
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "benzopyrans" RELATED [ChEBI]
+xref: Wikipedia:Benzopyran
+is_a: CHEBI:38104 ! oxacycle
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+
+[Term]
 id: CHEBI:22728
 name: benzopyrrole
 namespace: chebi_ontology
@@ -7060,8 +7086,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [ChEBI]
 synonym: "carbonyl group" EXACT [UniProt]
+synonym: "carbonyl group" EXACT [ChEBI]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -7142,6 +7168,22 @@ namespace: chebi_ontology
 def: "A quaternary ammonium ion based on the choline ion and its substituted derivatives thereof." []
 subset: 3_STAR
 is_a: CHEBI:35267 ! quaternary ammonium ion
+
+[Term]
+id: CHEBI:23229
+name: chromanol
+namespace: chebi_ontology
+def: "Any member of the class of chromanes that is chromane substituted by one or more hydroxy groups." []
+subset: 3_STAR
+is_a: CHEBI:23230 ! chromanes
+is_a: CHEBI:33822 ! organic hydroxy compound
+
+[Term]
+id: CHEBI:23230
+name: chromanes
+namespace: chebi_ontology
+subset: 3_STAR
+is_a: CHEBI:38443 ! 1-benzopyran
 
 [Term]
 id: CHEBI:23333
@@ -8797,6 +8839,7 @@ namespace: chebi_ontology
 alt_id: CHEBI:8283
 subset: 1_STAR
 is_a: CHEBI:33709 ! amino acid
+relationship: is_tautomer_of CHEBI:62031 ! polar amino acid zwitterion
 
 [Term]
 id: CHEBI:26191
@@ -9609,6 +9652,24 @@ is_a: CHEBI:26873 ! terpenoid
 relationship: has_parent_hydride CHEBI:35193 ! tetraterpene
 
 [Term]
+id: CHEBI:27013
+name: tocopherol
+namespace: chebi_ontology
+def: "A collective name for a group of closely related lipids that contain a chroman-6-ol nucleus substituted at position 2 by a methyl group and by a saturated hydrocarbon chain consisting of three isoprenoid units. They are designated as alpha-, beta-, gamma-, and delta-tocopherol depending on the number and position of additional methyl substituents on the aromatic ring. Tocopherols occur in vegetable oils and vegetable oil products, almost exclusively with R,R,R configuration. Tocotrienols differ from tocopherols only in having three double bonds in the hydrocarbon chain." []
+subset: 3_STAR
+synonym: "Methyltocols" RELATED [ChemIDplus]
+synonym: "tocoferol" RELATED [ChEBI]
+synonym: "tocoferoles" RELATED [ChEBI]
+synonym: "Tocopherol" EXACT [ChemIDplus]
+synonym: "tocopherol" EXACT [ChEBI]
+synonym: "Tocopherols" RELATED [ChemIDplus]
+synonym: "tocopherols" RELATED [ChEBI]
+xref: CAS:1406-66-2 "ChemIDplus"
+xref: Wikipedia:Tocopherol
+is_a: CHEBI:33234 ! vitamin E
+is_a: CHEBI:39437 ! tocol
+
+[Term]
 id: CHEBI:27024
 name: toluenes
 namespace: chebi_ontology
@@ -9767,6 +9828,24 @@ relationship: is_conjugate_acid_of CHEBI:46818 ! urate anion
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H4N4O3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "168.11042" xsd:string
+
+[Term]
+id: CHEBI:27283
+name: very long-chain fatty acid
+namespace: chebi_ontology
+def: "A fatty acid which has a chain length greater than C22. Very long-chain fatty acids which have a chain length greater than C27 are also known as ultra-long-chain fatty acids." []
+subset: 3_STAR
+synonym: "higher fatty acid" RELATED [ChEBI]
+synonym: "very long-chain fatty acids" RELATED [ChEBI]
+synonym: "VLCFA" RELATED [ChEBI]
+synonym: "VLCFAs" RELATED [ChEBI]
+xref: LIPID_MAPS_instance:LMFA01010025 "LIPID MAPS"
+is_a: CHEBI:35366 ! fatty acid
+relationship: is_conjugate_acid_of CHEBI:58950 ! very long-chain fatty acid anion
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CH2OR" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "30.011" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC([*])=O" xsd:string
 
 [Term]
 id: CHEBI:27300
@@ -10593,7 +10672,6 @@ alt_id: CHEBI:3401
 subset: 3_STAR
 synonym: "[CO(OH)2]" RELATED [IUPAC]
 synonym: "Carbonic acid" EXACT [KEGG_COMPOUND]
-synonym: "carbonic acid" EXACT [UniProt]
 synonym: "carbonic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "Dihydrogen carbonate" RELATED [KEGG_COMPOUND]
 synonym: "dihydroxidooxidocarbon" EXACT IUPAC_NAME [IUPAC]
@@ -11757,7 +11835,6 @@ synonym: "Butanoate" RELATED [KEGG_COMPOUND]
 synonym: "BUTANOIC ACID" RELATED [PDBeChem]
 synonym: "Butanoic acid" RELATED [KEGG_COMPOUND]
 synonym: "butanoic acid" EXACT IUPAC_NAME [IUPAC]
-synonym: "butanoic acid" RELATED [UniProt]
 synonym: "butoic acid" RELATED [ChEBI]
 synonym: "Buttersaeure" RELATED [ChEBI]
 synonym: "Butyric acid" EXACT [KEGG_COMPOUND]
@@ -12867,6 +12944,30 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "99.947" x
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[Ca+2].C(=O)([O-])[O-]" xsd:string
 
 [Term]
+id: CHEBI:33224
+name: chromane
+namespace: chebi_ontology
+def: "A benzopyran consisting of a pyran ring having a benzene ring ortho-fused across positions 2 and 3." []
+subset: 3_STAR
+synonym: "3,4-dihydro-2H-1-benzopyran" RELATED [NIST_Chemistry_WebBook]
+synonym: "3,4-dihydro-2H-chromene" EXACT IUPAC_NAME [IUPAC]
+synonym: "3,4-dihydrobenzo[b]pyran" RELATED [ChEBI]
+synonym: "Chroman" RELATED [NIST_Chemistry_WebBook]
+synonym: "chromane" EXACT [IUPAC]
+xref: Beilstein:116150 "Beilstein"
+xref: CAS:493-08-3 "NIST Chemistry WebBook"
+xref: Gmelin:122981 "Gmelin"
+xref: Reaxys:116150 "Reaxys"
+is_a: CHEBI:23230 ! chromanes
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C9H10O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C9H10O/c1-2-6-9-8(4-1)5-3-7-10-9/h1-2,4,6H,3,5,7H2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "VZWXIQHBIQLMPN-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "134.17510" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "134.073" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1COc2ccccc2C1" xsd:string
+
+[Term]
 id: CHEBI:33229
 name: vitamin
 namespace: chebi_ontology
@@ -12902,6 +13003,23 @@ subset: 3_STAR
 synonym: "elementary particle" EXACT IUPAC_NAME [IUPAC]
 synonym: "elementary particles" RELATED [ChEBI]
 is_a: CHEBI:36342 ! subatomic particle
+
+[Term]
+id: CHEBI:33234
+name: vitamin E
+namespace: chebi_ontology
+def: "A chromanol that is chroman-6-ol which is substituted at position 2 by a methyl group and (also at position 2) either a saturated or a triply-unsaturated hydrocarbon chain consisting of three isoprenoid units." []
+subset: 3_STAR
+synonym: "vitamin E" EXACT [ChemIDplus]
+xref: CAS:59-02-9 "NIST Chemistry WebBook"
+xref: MetaCyc:Vitamin-E
+xref: PMID:7898412 "Europe PMC"
+xref: PMID:7901680 "Europe PMC"
+xref: Wikipedia:Vitamin_E
+is_a: CHEBI:23229 ! chromanol
+relationship: has_functional_parent CHEBI:78631 ! chroman-6-ol
+relationship: has_role CHEBI:22586 ! antioxidant
+relationship: has_role CHEBI:24020 ! fat-soluble vitamin
 
 [Term]
 id: CHEBI:33238
@@ -14682,7 +14800,6 @@ alt_id: CHEBI:2835
 def: "An amino acid whose structure includes an aromatic ring." []
 subset: 3_STAR
 synonym: "Aromatic amino acid" EXACT [KEGG_COMPOUND]
-synonym: "aromatic amino acid" EXACT [UniProt]
 synonym: "aromatic amino acids" RELATED [ChEBI]
 xref: KEGG:C01021
 xref: Wikipedia:Aromatic_amino_acid
@@ -17879,6 +17996,14 @@ is_a: CHEBI:33860 ! aromatic amine
 is_a: CHEBI:39447 ! pyrimidines
 
 [Term]
+id: CHEBI:38443
+name: 1-benzopyran
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "1-benzopyrans" RELATED [ChEBI]
+is_a: CHEBI:22727 ! benzopyran
+
+[Term]
 id: CHEBI:38462
 name: EC 3.1.1.7 (acetylcholinesterase) inhibitor
 namespace: chebi_ontology
@@ -18238,6 +18363,22 @@ xref: PMID:15644336 "Europe PMC"
 is_a: CHEBI:26607 ! saturated fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 relationship: is_conjugate_acid_of CHEBI:58954 ! straight-chain saturated fatty acid anion
+
+[Term]
+id: CHEBI:39437
+name: tocol
+namespace: chebi_ontology
+alt_id: CHEBI:27010
+alt_id: CHEBI:27011
+def: "A chromanol with a chroman-6-ol skeleton that is substituted at position 2 by a saturated or triply-unsaturated hydrocarbon chain consisting of three isoprenoid units." []
+subset: 3_STAR
+synonym: "2-methyl-2-phytyl-6-chromanol" RELATED [ChemIDplus]
+synonym: "tocols" RELATED [ChEBI]
+xref: CAS:119-98-2 "ChemIDplus"
+xref: Reaxys:1436460 "Reaxys"
+is_a: CHEBI:23229 ! chromanol
+relationship: has_functional_parent CHEBI:78631 ! chroman-6-ol
+relationship: has_role CHEBI:22586 ! antioxidant
 
 [Term]
 id: CHEBI:39446
@@ -20460,11 +20601,11 @@ synonym: "(63)Cu" RELATED [IUPAC]
 synonym: "copper-63" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:30052 ! copper(0)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Cu" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "[63Cu]" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Cu/i1-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RYGMFSIKBFXOCR-BJUDXGSMSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "62.92960" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.930" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "62.930" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "62.92960" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[63Cu]" xsd:string
 
 [Term]
@@ -21460,6 +21601,21 @@ is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:26079 ! phosphoric acid derivative
 
 [Term]
+id: CHEBI:58950
+name: very long-chain fatty acid anion
+namespace: chebi_ontology
+def: "Any fatty acid anion with a chain length greater than C22." []
+subset: 3_STAR
+synonym: "a very long-chain fatty acid" RELATED [UniProt]
+synonym: "very long-chain fatty acid anions" RELATED [ChEBI]
+is_a: CHEBI:28868 ! fatty acid anion
+relationship: is_conjugate_base_of CHEBI:27283 ! very long-chain fatty acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.990" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C([*])=O" xsd:string
+
+[Term]
 id: CHEBI:58951
 name: short-chain fatty acid anion
 namespace: chebi_ontology
@@ -22261,14 +22417,13 @@ def: "Zwitterionic form of a polar amino acid having an anionic carboxy group an
 subset: 2_STAR
 synonym: "a polar amino acid" RELATED [UniProt]
 xref: MetaCyc:Polar-amino-acids "SUBMITTER"
-is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:35238 ! amino acid zwitterion
-is_a: CHEBI:50860 ! organic molecular entity
+relationship: is_tautomer_of CHEBI:26167 ! polar amino acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H4NO2R" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "74.05870" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "74.059" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "74.024" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[NH3+]C([*])C([O-])=O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(C([O-])=O)(*)[NH3+]" xsd:string
 
 [Term]
 id: CHEBI:62081
@@ -24300,6 +24455,16 @@ xref: Wikipedia:Firming_agent
 is_a: CHEBI:64047 ! food additive
 
 [Term]
+id: CHEBI:77962
+name: food antioxidant
+namespace: chebi_ontology
+def: "An antioxidant that used as a food additives to help guard against food deterioration." []
+subset: 3_STAR
+synonym: "food antioxidants" RELATED [ChEBI]
+is_a: CHEBI:22586 ! antioxidant
+is_a: CHEBI:65255 ! food preservative
+
+[Term]
 id: CHEBI:78060
 name: docosahexaenoate
 namespace: chebi_ontology
@@ -24527,6 +24692,26 @@ synonym: "carbohydrates and their derivatives" RELATED [ChEBI]
 is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
+id: CHEBI:78631
+name: chroman-6-ol
+namespace: chebi_ontology
+def: "A chromanol that is chromane in which the hydrogen at position 6 is replaced by a hydroxy group." []
+subset: 3_STAR
+synonym: "3,4-dihydro-2H-chromen-6-ol" EXACT IUPAC_NAME [IUPAC]
+synonym: "3,4-dihydrobenzopyran-6-ol" RELATED [ChEBI]
+xref: Reaxys:1283166 "Reaxys"
+is_a: CHEBI:23229 ! chromanol
+is_a: CHEBI:33853 ! phenols
+relationship: has_parent_hydride CHEBI:33224 ! chromane
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C9H10O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C9H10O2/c10-8-3-4-9-7(6-8)2-1-5-11-9/h3-4,6,10H,1-2,5H2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "GZCJJOLJSBCUNR-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "150.17450" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "150.068" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "Oc1ccc2OCCCc2c1" xsd:string
+
+[Term]
 id: CHEBI:78675
 name: fundamental metabolite
 namespace: chebi_ontology
@@ -24709,11 +24894,11 @@ xref: PMID:17807441 "Europe PMC"
 xref: PMID:19448268 "Europe PMC"
 is_a: CHEBI:27363 ! zinc atom
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/formula "Zn" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "[65Zn]" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/Zn/i1+0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HCHKCACWOHOZIP-IGMARMGPSA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "64.92925" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "63.929" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "64.929" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "64.92925" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[65Zn]" xsd:string
 
 [Term]

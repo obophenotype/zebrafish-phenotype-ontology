@@ -1,0 +1,4988 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000671",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the anterior side of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the posterior and ventral regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posteroventral region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:08:38Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-ventral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000673",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the apical side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apical margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0001001",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends from the center of organism to one or other side.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/34/Anatomical_Directions_and_Axes.JPG"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "medio-lateral axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mediolateral axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "proximal-distal axis ",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "M-L axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ML axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Properly, the ML axis is a half axis; practically, its usage is less clumsy and less linguistically biased than \"left-right\". The terms may still be used relatively to describe locations along the LR axis. The gills are medial to the operculum, but lateral to the heart."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial-lateral axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000672",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the posterior side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000034",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region superficially located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "superficial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000037",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterior-most",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "posteriormost",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-16T08:49:50Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior-most region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000674",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the basal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000036",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anteriormost",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "anterior-most",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-16T08:49:03Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior-most region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000677",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the proximal region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "proximal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000039",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ventralmost",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ventral-most",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-16T08:51:07Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventral-most region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000038",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsal-most",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsalmost",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-16T08:50:26Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal-most region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000679",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the dorsal side of body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000678",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the distal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "distal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015014",
+      "meta" : {
+        "definition" : {
+          "val" : "x immediately superficial to y iff x superficial to y and x is contiguous with y.",
+          "xrefs" : [ "BSPO:curators" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0015014"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_superficial_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "immediately superficial to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/bspo#parallel_to",
+      "meta" : {
+        "definition" : {
+          "val" : "x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.",
+          "xrefs" : [ "BSPO:curators" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "parallel to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000051"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_part"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000031",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "upper region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the posterior and dorsal regions of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterodorsal region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:08:13Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-dorsal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000682",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the lateral side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lateral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000684",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the ventral side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the postero-medial region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posteromedial margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:51:07Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-medial margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the antero-lateral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anterolateral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:50:37Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-lateral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000683",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the medial side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the antero-dorso region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anterodorsal margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-dorsal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the dorso-medial region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorso-medial margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:52:04Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorso-medial margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the postero-lateral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterolateral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:51:42Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-lateral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the ventro-lateral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ventrolateral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "This is an example of a composition of two axis positions"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventro-lateral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the antero-ventral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anteroventral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-ventral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the postero-dorsal region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterodorsal margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-dorsal margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the ventro-medial region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ventromedial margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:52:48Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventro-medial margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the postero-ventral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posteroventral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-ventral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BSPO:0015001"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. If s finishes axis x, and x has end point p, then x overlaps p"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "finishes_axis"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "finishes axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015006",
+      "meta" : {
+        "definition" : {
+          "val" : "Intersects at two points.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0015006"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "passes_through"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "passes through"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+      "meta" : {
+        "definition" : {
+          "val" : "crossing at right angles",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0015005"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "orthogonal_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "orthogonal to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BSPO:0015008"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "surface_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "placeholder. used for relation between anatomical surface and an anatomical side."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "surface of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BSPO:0015007"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "starts_axis"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "A directional axis can be divided by a plane. Following Allen Interval Algebra terminology we say that the side on which the axis initiates starts the axis, with the other side finishing the axis. . If s starts axis x, and x has start point p, then x overlaps p"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "starts axis"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the dorso-lateral region of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsolateral margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorso-lateral margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical margin that is located on the antero-medial region of the body or body part.",
+          "xrefs" : [ "BSPO:wd<new dbxref>" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anteromedial margin",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:49:57Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-medial margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000099",
+      "meta" : {
+        "definition" : {
+          "val" : "x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000099"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "caudal to",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "posterior_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000045"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005864"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "posterior to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000011",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical axis determined by gravity.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "superior-inferior axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "upper-lower axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000374",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the basal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005855"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000373",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the apical side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005854"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apical surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000098",
+      "meta" : {
+        "definition" : {
+          "val" : "x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000098"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000041"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005865"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "dorsal_to"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "dorsal to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "A straight line through space, intersecting an anatomical entity.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/34/Anatomical_Directions_and_Axes.JPG"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Axis directions are defined in terms of axes."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000013",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends through an organism from head end to opposite end of body or tail.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "craniocaudal axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "rostral/caudal",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "anteroposterior axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "rostrocaudal axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "longitudinal axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "AP axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "cephalocaudal axis",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Anatomical_terms_of_location" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "A-P axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "In sponges, AP is used to indicate the direction of movement [in larval stage] (as it is in other metazoans that move, e.g., the basal bilaterians). [PM]"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior-posterior axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000376",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005851"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "contralateral surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000012",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends from an internal position to a more external position in the body or body part.",
+          "xrefs" : [ "BSPO:PM" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Muscles are frequently categorized as 'deep', 'intermediate', and 'superficial'."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "deep-superficial axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000378",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the distal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005853"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "distal surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000015",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends from the point of attachment of a structure (proximal) to the  point furthest away from the plane of attachment (distal).",
+          "xrefs" : [ "BSPO:curators", "http://en.wikipedia.org/wiki/Anatomical_terms_of_location" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "proximodistal",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "proximal/distal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "In some communities, proximal and distal are used when specifying the position of parts of elements that are contained within the body, such as gill arches or vertebral spines. In these cases, use of the classes medial-lateral axis or medial-external axis are more appropriate."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "proximal-distal axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0001106",
+      "meta" : {
+        "definition" : {
+          "val" : "X proximalmost part of Y <=> X is in proximal side of Y and X is adjacent to the proximal boundary of Y",
+          "xrefs" : [ "https://orcid.org/0000-0002-6601-2165" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0001106"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "proximalmost_part_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "proximalmost part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000377",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the proximal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005852"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "proximal surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000014",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends through an organism or organism part from the part of the organism or organism part attached to a substrate (basal) to the furthest from the attachment (apical). Note that the apical-basal axis is often used for organismal parts where there is attachment via a basal lamina or other structure.",
+          "xrefs" : [ "BSPO:mah" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "apical/basal",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "longitudinal axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apical-basal axis relative to substrate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000017",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that bisects an organism from left to right sides of body, through a sagittal plane.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "right-left axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "RL axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dextro-sinister axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "left to right axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "R-L axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "L-R axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "right to left axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "LR axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "left-right axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000016",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that is approximately perpendicular to the anterior-posterior axis and that extends through the horizontal plane of the body.",
+          "xrefs" : [ "BSPO:curators" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "DV axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "anterior-posterior axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "D-V axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsoventral axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal-ventral axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000379",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that located on the dorsal side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005842"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000019",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical plane that divides bilateral body into dorsal and ventral parts.",
+          "xrefs" : [ "BSPO:mah" ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:52810"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "frontal section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "frontal plane",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "horizontal section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "horizontal anatomical plane",
+          "xrefs" : [ "FMA:52810" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "coronal section",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "horizontal plane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000018",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical plane that divides body into anterior and posterior parts.",
+          "xrefs" : [ "BSPO:mah" ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:12247"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "transverse section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "axial section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "axial plane",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cross-section",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "transverse plane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000417",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical plane that divides a bilateral body into left and right parts, not necessarily of even size.",
+          "xrefs" : [ "BSPO:DOS", "BSPO:cjm", "BSPO:mah" ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:11361"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sagittal section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "left/right plane",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "median plane",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sagittal plane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0001107",
+      "meta" : {
+        "definition" : {
+          "val" : "x immediately deep to y iff x deep_to y and x is contiguous with y.",
+          "xrefs" : [ "BSPO:curators" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0001107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "immediately_deep_to"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "immediately deep to"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000093",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBcv:0000033"
+        }, {
+          "val" : "FBql:00005880"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior/posterior compartment boundary"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000092",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005881"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "to be merged into CARO"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical compartment boundary"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000097",
+      "meta" : {
+        "definition" : {
+          "val" : "x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000097"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "distal_to"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000040"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005867"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "distal to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000130",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "axial side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000372",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the posterior side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005849"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000371",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the anterior side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005848"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000096",
+      "meta" : {
+        "definition" : {
+          "val" : "x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000096"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "rostral_to",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005863"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000039"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "anterior_to"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "anterior to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000384",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the ventral side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005843"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventral surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the anterior and dorsal regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anterodorsal region ",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:01:38Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-dorsal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the posterior and lateral regions of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterolateral region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:06:01Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-lateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/bspo#vertebrate",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+          "val" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "synonym typically used in the context of vertebrate anatomy"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the anterior and ventral regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anteroventral region ",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:04:59Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-ventral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the anterior and lateral regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anterolateral region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-15T01:07:18Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-lateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000381",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that is located on the same side of an organism or structure.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005850"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ipsilateral surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.",
+          "xrefs" : [ "CARO:MAH" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.",
+          "xrefs" : [ "CC:DOS" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000383",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that located on the medial side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005847"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000382",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical surface that located on the lateral side of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005844"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lateral surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000110",
+      "meta" : {
+        "definition" : {
+          "val" : "Closer to the left side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y <=> every instance x of X is left of some instance y of Y, and there exists some organism o such that x part of o and y part of o.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000110"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "left_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "left of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000077",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region proximally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005852"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "proximal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000076",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005851"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "inherited from flybase cv. not clear how this would be used"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "contralateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "meta" : {
+        "definition" : {
+          "val" : "The region corresponding to the ventral region of the entity, towards the midline.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "medioventral region",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ventromedial region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:57:54Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventro-medial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000079",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region dorsally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005842"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000007",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical entity that has no mass.",
+          "xrefs" : [ "CC:DOS" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immaterial anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000078",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region distally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005853"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "distal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000111",
+      "meta" : {
+        "definition" : {
+          "val" : "Closer to the right side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y <=> every instance x of X is right of some instance y of Y, and there exists some organism o such that x part of o and y part of o.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000111"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "right_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "right of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000199",
+      "meta" : {
+        "definition" : {
+          "val" : "An axis that extends from the animal end of an egg or early embryo to the opposite, vegetal end. In animals with yolk-bearing eggs, the vegetal end is the yolk bearing pole. (pertains to animals only - both vertebrate and invertebrate embryos).",
+          "xrefs" : [ "BSPO:PM" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "A-V axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "animal/vegetal axis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "AV axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-07-02T11:30:13Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "wasila.dahdul"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "animal-vegetal axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000006",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical entity that has mass.",
+          "xrefs" : [ "CC:DOS" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "material anatomical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "meta" : {
+        "definition" : {
+          "val" : "Direcly opposite to. i.e. on the opposite side through the axis.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000113"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "opposite_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "opposite to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000008",
+      "meta" : {
+        "definition" : {
+          "val" : "A one dimensional, immaterial anatomical entity.",
+          "xrefs" : [ "CC:DOS" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical line"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+      "type" : "PROPERTY",
+      "lbl" : "has_synonym_type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "meta" : {
+        "definition" : {
+          "val" : "x overlaps y iff they have some part in common.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002131"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "overlaps"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "\"(forall (x y) (iff (overlaps x y) (exists (z) (and (part of z x) (part of z y)))))\" CLIF []"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "overlaps"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000071",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region anteriorly located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005848"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CARO_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.",
+          "xrefs" : [ "CC:DOS" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical boundary"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000070",
+      "meta" : {
+        "definition" : {
+          "val" : "A 3D region in space without well-defined compartmental boundaries; for example, the dorsal region of an ectoderm.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005841"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "to be merged into CARO"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000073",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region located on the apical end on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005854"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apical region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000072",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region posteriorly located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005849"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000196",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical axis that extends from the center of the body outwards or externally.",
+          "xrefs" : [ "BSPO:curators" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "proximal-distal axis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The medial-external axis could apply to a sphere-shaped body."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "wasila.dahdul"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-07-02T11:21:42Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial-external axis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000075",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region centrally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00015851"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "central region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000074",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region located basally on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005855"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000088",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005878"
+        }, {
+          "val" : "FBcv:0000032"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "compartment boundary"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "The side of an organism that is left of the sagittal plane.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "left",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "left side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000121",
+      "meta" : {
+        "definition" : {
+          "val" : "X in right side of Y <=> if Y is subdivided into two left and right portions, X is part of the right portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000121"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_right_side_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in right side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000120",
+      "meta" : {
+        "definition" : {
+          "val" : "X in left side of Y <=> if Y is subdivided into two left and right portions, X is part of the left portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000120"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_left_side_of"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in left side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000087",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBcv:0000031"
+        }, {
+          "val" : "FBql:00005874"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior compartment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000123",
+      "meta" : {
+        "definition" : {
+          "val" : "X anterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the anterior portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000123"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_anterior_side_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in anterior side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "X posterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the posterior portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000122"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_posterior_side_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in posterior side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000089",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBcv:0000035"
+        }, {
+          "val" : "FBql:00005876"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal compartment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000001",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "upper",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Consider merging with superior side."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "upper side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000004",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "superficial",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "superficial side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000400",
+      "meta" : {
+        "definition" : {
+          "val" : "A flat 2D plane intersecting an anatomical continuant, dividing it into two adjacent portions.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:242982"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anatomical cross-section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "anatomical section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "section",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "plane",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cross-section",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "These anatomical sections are applicable to most bilaterally symmetrical animals, but bipedal animals such as humans have more complex usage of these terms. For example, in post-embryonic humans a coronal plane is vertical and a transverse plane is horizontal, but for embryos and quadrupeds a coronal plane is horizontal and a transverse plane is vertical."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical plane"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000125",
+      "meta" : {
+        "definition" : {
+          "val" : "x in distal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the distal portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000125"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_distal_side_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in distal side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "x in proximal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the proximal portion.",
+          "xrefs" : [ "BSPO:PATO_mtg_2009" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000124"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_proximal_side_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in proximal side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000127",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region peripherally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peripheral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000006",
+      "meta" : {
+        "definition" : {
+          "val" : "Fiat anatomical region extending a short distance from the boundary of an object inwards.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "margin",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "edge",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical margin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000005",
+      "meta" : {
+        "definition" : {
+          "val" : "A 2D surface of an anatomical continuant.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:24137"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "surface",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "to be merged into CARO"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/bspo#human",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+          "val" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "synonym typically used in the context of human anatomy"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000126",
+      "meta" : {
+        "definition" : {
+          "val" : "X in lateral side of Y <=> if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure",
+          "xrefs" : [ "UBERON:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000126"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "in_lateral_side_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "in lateral side of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000129",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peripheral side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000007",
+      "meta" : {
+        "definition" : {
+          "val" : "The side of an organism that is right of the sagittal plane.",
+          "xrefs" : [ "BSPO:cjm", "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "right",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "right side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000128",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "axial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the dorsal and lateral regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005845"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsolateral region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorso-lateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000082",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region laterally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005844"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000081",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005850"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ipsilateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000084",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region ventrally located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005843"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000083",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region medially located on the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005847"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000086",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FMA:9647"
+        }, {
+          "val" : "FBql:00005873"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "to be merged into CARO"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical compartment"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the ventral and lateral regions of a body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005846"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ventrolateral region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "This is an example of a composition of two axis positions."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventro-lateral region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000055",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical region that is the entire part of an anatomical structure anterior to a transverse plane and bounded on one side by the same transverse plane.",
+          "xrefs" : [ "BSPO:RW" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005848"
+        }, {
+          "val" : "FBcv:0000053"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "rostral",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "anterior",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anterior side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000054",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical region bounded by a plane perpendicular to an axis through the middle.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005841"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anatomical side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000057",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical side that is located on the apical end of an organism or structure.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBcv:0000054"
+        }, {
+          "val" : "FBql:00005854"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "apical",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apical side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000056",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical region that is the entire part of an anatomical structure posterior to a transverse plane and bounded on one side by the same transverse plane.",
+          "xrefs" : [ "BSPO:RW", "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBcv:0000065"
+        }, {
+          "val" : "FBql:00005849"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posterior",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "caudal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000059",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical side that is centrally located on an organism or structure.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBcv:0000056"
+        }, {
+          "val" : "FBql:00015851"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "central",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "central is not an axis direction"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "central side"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000058",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical side that is located on the basal end of an organism or structure.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005855"
+        }, {
+          "val" : "FBcv:0000055"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "basal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The part of the organism attached to a substrate. Axis of symmetry."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basal side"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the anterior and medial regions of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anteromedial region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:55:32Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antero-medial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000066",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBcv:0000063"
+        }, {
+          "val" : "FBql:00005844"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lateral side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000065",
+      "meta" : {
+        "definition" : {
+          "val" : "On the same side",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005850"
+        }, {
+          "val" : "FBcv:0000062"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ipsilateral",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ipsilateral side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000101",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BSPO:0000101"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005861"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "true"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "RO:0002221"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000048"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "obsolete_surrounds"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "obsolete surrounds"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000068",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical region that is the entire part of an anatomical structure ventral to a horizontal plane and bounded on one side by the same horizontal plane.",
+          "xrefs" : [ "BSPO:RW", "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005843"
+        }, {
+          "val" : "FBcv:0000070"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ventral",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ventral side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000100",
+      "meta" : {
+        "definition" : {
+          "val" : "x proximal to y iff x is closer to the point of attachment with the body than y.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000100"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000047"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The elbow is proximal to the hand, but distal to the shoulder."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "proximal_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005868"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "proximal to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000067",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005847"
+        }, {
+          "val" : "FBcv:0000064"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "medial",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "a point in the centre of the organism (where the left-right axis intersects the midsagittal plane)"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "medial side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000102",
+      "meta" : {
+        "definition" : {
+          "val" : "x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000102"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBcv_0000049"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "ventral_to"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005866"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "ventral to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the dorsal and medial regions of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsomedial region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:57:22Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorso-medial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000105",
+      "meta" : {
+        "definition" : {
+          "val" : "On the same side as. For example, the left arm is ipsilateral to the left leg.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000105"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "ipsilateral_to"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/FBql_00005850"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "ipsilateral to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000104",
+      "meta" : {
+        "definition" : {
+          "val" : "Crosses at an angle that is 90 degrees, or close to 90 degrees. In any non-linear organism, the main axes are rarely perpendicular when taken through the organism as a whole.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000104"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "approximately_perpendicular_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "approximately perpendicular to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002220",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002220"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "adjacent_to"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "adjacent to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000107",
+      "meta" : {
+        "definition" : {
+          "val" : "Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000107"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "deep_to"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "deep to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000108",
+      "meta" : {
+        "definition" : {
+          "val" : "Near the outer surface of the organism. Thus, skin is superficial to the muscle layer.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "BSPO:0000108"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "superficial_to"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "superficial to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000060",
+      "meta" : {
+        "definition" : {
+          "val" : "On the opposite side.",
+          "xrefs" : [ "BSPO:cjm" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBcv:0000057"
+        }, {
+          "val" : "FBql:00005851"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "contralateral",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "inherited from flybase cv. not clear how this would be used. Suggest we obsolete, and use the corresponding relation."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "contralateral side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000062",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical side that is distally located on an organism or structure.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBcv:0000058"
+        }, {
+          "val" : "FBql:00005853"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "distal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "distal side"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+      "type" : "PROPERTY",
+      "lbl" : "has_scope"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000061",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "FBql:00005852"
+        }, {
+          "val" : "FBcv:0000066"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "proximal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "proximal side"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical region that overlaps the posterior and medial regions of the body or body part.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "posteromedial region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-10T08:56:39Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "Melissa  Haendel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "postero-medial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BSPO_0000063",
+      "meta" : {
+        "definition" : {
+          "val" : "An anatomical region that is the entire part of an anatomical structure dorsal to a horizontal plane and bounded on one side by the same transverse plane.",
+          "xrefs" : [ "BSPO:wd" ]
+        },
+        "xrefs" : [ {
+          "val" : "FBql:00005842"
+        }, {
+          "val" : "FBcv:0000059"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dorsal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "spatial"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "dorsal side"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000683"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000682"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000123",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000098",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000679",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000377",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000072",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000096",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000097",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000373",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000683"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000001",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000062",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000125",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000672"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000128",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000671",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000682",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000063",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000678",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015006",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000673",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000073"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000068",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000683",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000079",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000373",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000671",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000384",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000077",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000099",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000677",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000077"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000376",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000107",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000108"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000683"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000127",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000382",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0015014",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000108"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000674",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000672"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000677",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000379",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000417",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000400"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000684"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0001106",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000124"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000377",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000080"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000058",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000682",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000679",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000672",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000684",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000027"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000058",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000069"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000673",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000064"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000016",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000075",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000684",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000120",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000126"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000073",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000383",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000672"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000400"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000371",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000083",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000379",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000071",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000381",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000128",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000130"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000081",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000088",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000067",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000679",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000376",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000073",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000684"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000087",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000374",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000199",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000122",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000682"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000384",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000678",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000084",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000683",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000374",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000071",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000034",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000096",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000677",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000124",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000672"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000682"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000372",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000684",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000097",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000383",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000672",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000035"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000126",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000682",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000084"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000105",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000126"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000078",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000076",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000060",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000381",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000000",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000110",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000074"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000684"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000417"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000120",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000121"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000378",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000063",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000079"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000671",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0001001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000196"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000683",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000098",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000673",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000678",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000031",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0001107",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0015014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000684"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000400",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000121",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000126"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000074",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000672",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000113",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000372",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CARO_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000075",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000112"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000000",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000072",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000382",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000671"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000068",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000683"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0001107",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000107"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000082",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000110",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000111"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000682"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000057",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000400"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000104",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CARO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BSPO_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "obj" : "http://purl.obolibrary.org/obo/BSPO_0000012"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/zp/releases/2019-02-27/imports/bspo_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000686",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000381",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000065"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000075",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000059"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000689",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000034",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000004"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000674",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000688",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000035",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000672",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000684",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000064",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000379",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000682",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000377",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000076",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000060"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000049",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000078",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000016",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000019"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000047",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000046",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000013",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000018"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000045",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000017",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000417"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000048",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000678",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000680",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000027",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000687",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000373",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000072",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000028",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000029",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000082",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000371",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000074",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000383",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000084",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000031",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000001"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000112",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000080",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000685",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000683",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000069",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000673",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000671",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000030",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000378",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000062"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000127",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000129"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000376",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000060"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000077",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000050",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000079",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000085",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000679",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000417",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000400" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000017"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/bspo#parallel_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000013"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/bspo#parallel_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000016"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000026",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000063"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000677",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000061"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000042",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000006" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000081",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000065"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000128",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000130"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000384",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000068"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000083",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000067"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000374",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000058"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000071",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000055"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000382",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000066"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000372",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000056"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/BSPO_0000073",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002131",
+        "fillerId" : "http://purl.obolibrary.org/obo/BSPO_0000057"
+      } ]
+    } ],
+    "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0015006",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0015005",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000400" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0015008",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000005" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0015007",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000054" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0000104",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BSPO_0015001",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000054" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BSPO_0000010" ]
+    } ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
