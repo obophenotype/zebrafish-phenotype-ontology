@@ -31,18 +31,27 @@ DOSDPT=                      dosdp-tools
 PATTERN_RELEASE_FILES=       $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.owl
 
 
+
+FORMATS = $(sort  owl obo owl)
+FORMATS_INCL_TSV = $(sort $(FORMAT) tsv)
+RELEASE_ARTEFACTS = $(sort  full base base full)
+ 
 # ----------------------------------------
 # Top-level targets
 # ----------------------------------------
 
+.PHONY: .FORCE
 all: all_imports patterns all_main all_subsets sparql_test all_reports all_assets
+test: sparql_test all_reports
+	$(ROBOT) reason --input $(SRC) --reasoner ELK --output test.owl && rm test.owl && echo "Success"
 
 ## -- main targets --
 ##
 ## By default this is the cross-product of {ont, ont-base} x FORMATS
 
-MAIN_PRODUCTS = $(ONT) $(ONT)-base
-MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(n).owl $(n).obo $(n).json)
+MAIN_PRODUCTS = $(sort $(foreach r,$(RELEASE_ARTEFACTS), $(ONT)-$(r)) $(ONT))
+MAIN_GZIPPED = 
+MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(foreach f,$(FORMATS), $(n).$(f))) $(MAIN_GZIPPED)
 
 all_main: $(MAIN_FILES)
 
@@ -54,11 +63,13 @@ all_main: $(MAIN_FILES)
 IMPORTS =  zfa go uberon ro chebi bspo pato mpath bfo
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
-IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl $(n).obo $(n).json)
+IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
 
 all_imports: $(IMPORT_FILES)
+ 
 all_imports_owl: $(foreach n,$(IMPORT_ROOTS), $(n).owl)
+ 
 all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 
 
@@ -71,7 +82,7 @@ all_imports_obo: $(foreach n,$(IMPORT_ROOTS), $(n).obo)
 SUBSETS = 
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
-SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(n).tsv $(n).owl $(n).obo $(n).json)
+SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
 
 all_subsets: $(SUBSET_FILES)
 
@@ -89,7 +100,7 @@ all_patterns: $(PATTERN_FILES)
 ## -- dosdp pattern targets --
 ##
 
-OBO_REPORT = $(ONT)-obo-report
+OBO_REPORT = $(ONT)-edit-obo-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 
@@ -114,6 +125,9 @@ show_assets:
 # Release Management
 # ----------------------------------------
 
+KEEPRELATIONS=keeprelations.txt
+ONTOLOGYTERMS=ontologyterms.txt
+
 # This should be executed by the release manager whenever time comes to make a release.
 # It will ensure that all assets/files are fresh, and will copy to release folder
 prepare_release: $(ASSETS) $(PATTERN_RELEASE_FILES)
@@ -126,19 +140,24 @@ prepare_initial_release: prepare_release
 	cd $(RELEASEDIR) && git add $(ASSETS)
 
 # ----------------------------------------
-# Generic Conversion
+# Export formats
 # ----------------------------------------
-# we assume OWL as source
-%.obo: %.owl
-	$(ROBOT) convert --check false -i $< -f obo $(OBO_FORMAT_OPTIONS) -o $*.tmp.obo && grep -v ^owl-axioms $*.tmp.obo > $@
-%.ttl: %.owl
-	$(ROBOT) convert -i $< -f ttl -o $*.tmp.ttl && mv $*.tmp.ttl $@
-%.json: %.owl
-	$(ROBOT) convert -i $< -f json -o $*.tmp.json && mv $*.tmp.json $@
 
-%.gz: %
-	gzip -c $< > $@.tmp && mv $@.tmp $@
 
+$(ONT)-full.obo: $(ONT)-full.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+$(ONT)-base.obo: $(ONT)-base.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
+		convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+# Main release artefacts
+$(ONT).owl: $(ONT)-full.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
+		convert -o $@.tmp.owl && mv $@.tmp.owl $@
+
+$(ONT).obo: $(ONT)-full.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
+		convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
 # ----------------------------------------
 # Initiating Step: Reason over source
 # ----------------------------------------
@@ -150,21 +169,31 @@ ANNOTATE_VERSION_IRI = annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$@.owl
 
 OTHER_SRC = $(PATTERNDIR)/definitions.owl
 
-$(ONT).owl: $(SRC) #$(OTHER_SRC)
-	$(ROBOT) reason --input $< --reasoner ELK \
-		 relax \
-		 reduce -r ELK \
-		 remove --select imports \
-	         merge  $(patsubst %, -i %, $(IMPORT_OWL_FILES))  \
-					 merge  $(patsubst %, -i %, $(OTHER_SRC))  \
-	         annotate --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
 
-# requires robot 1.2. For some reason, the pipe between remove | merge does not work. 
-$(ONT)-base.owl: $(SRC) $(PATTERNDIR)/definitions.owl
-	$(ROBOT) remove --trim false --input $< --select imports --output $@.tmp.owl && mv $@.tmp.owl $@ &&\
-$(ROBOT) merge -i $@ -i $(PATTERNDIR)/definitions.owl --output $@.tmp.owl && mv $@.tmp.owl $@ &&\
-$(ROBOT) annotate -i $@ --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@ &&\
-	echo "$(ONT)-base.owl successfully created."
+$(ONTOLOGYTERMS): $(SRC) all_imports
+	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/zp_terms.sparql $@
+
+ 
+
+ 
+
+
+
+
+
+# base: OTHER sources of interest, such as definitions owl
+$(ONT)-base.owl: $(SRC) $(OTHER_SRC)
+	$(ROBOT) remove --input $< --select imports \
+		merge $(patsubst %, -i %, $(OTHER_SRC)) \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+
+# Full: The full artefacts with imports merged, reasoned
+$(ONT)-full.owl: $(SRC) $(OTHER_SRC)
+	$(ROBOT) merge --input $< \
+		reason --reasoner ELK \
+		relax \
+		reduce -r ELK \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
 # ----------------------------------------
 # Import modules
@@ -176,35 +205,37 @@ $(ROBOT) annotate -i $@ --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/re
 
 
 seed.txt: $(SRC) prepare_patterns $(PATTERNDIR)/all_pattern_terms.txt
-	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
-	cat $@.tmp $(PATTERNDIR)/all_pattern_terms.txt | sort | uniq >  $@
+	@if [ $(IMP) = true ]; then $(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
+	cat $@.tmp $(PATTERNDIR)/all_pattern_terms.txt | sort | uniq >  $@; fi
 
 
 # Generate terms.txt for each import.  (Assume OBO-style Possibly hacky step?)
 # Should be able to drop this if robot can just take a big messy list of terms as input.
 
 imports/%_terms_combined.txt: seed.txt imports/%_terms.txt
-	cat $^ | grep -v ^# | sort | uniq >  $@
+	@if [ $(IMP) = true ]; then cat $^ | grep -v ^# | sort | uniq >  $@; fi
 
 # -- Generate Import Modules --
 #
 # This pattern uses ROBOT to generate an import module
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
-		 annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
 
 # convert imports to obo.
 # this can be useful for spot-checks and diffs.
 # we set strict mode to false by default. For discussion see https://github.com/owlcs/owlapi/issues/752
 imports/%_import.obo: imports/%_import.owl
-	$(ROBOT) convert --check false -i $< -f obo -o $@.tmp && mv $@.tmp $@
-
-
+	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f obo -o $@.tmp.obo && mv $@.tmp.obo $@; fi
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
 #
+
+IMP=true # Global parameter to bypass import generation
+MIR=true # Global parameter to bypass mirror generation
+
 
 
 ## ONTOLOGY: zfa
@@ -212,7 +243,7 @@ imports/%_import.obo: imports/%_import.owl
 mirror/zfa.trigger: $(SRC)
 
 mirror/zfa.owl: mirror/zfa.trigger
-	$(ROBOT) convert -I $(URIBASE)/zfa.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/zfa.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -222,7 +253,7 @@ mirror/zfa.owl: mirror/zfa.trigger
 mirror/go.trigger: $(SRC)
 
 mirror/go.owl: mirror/go.trigger
-	$(ROBOT) convert -I $(URIBASE)/go.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/go.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -232,7 +263,7 @@ mirror/go.owl: mirror/go.trigger
 mirror/uberon.trigger: $(SRC)
 
 mirror/uberon.owl: mirror/uberon.trigger
-	$(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -242,7 +273,7 @@ mirror/uberon.owl: mirror/uberon.trigger
 mirror/ro.trigger: $(SRC)
 
 mirror/ro.owl: mirror/ro.trigger
-	$(ROBOT) convert -I $(URIBASE)/ro.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -252,7 +283,7 @@ mirror/ro.owl: mirror/ro.trigger
 mirror/chebi.trigger: $(SRC)
 
 mirror/chebi.owl: mirror/chebi.trigger
-	$(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/chebi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -262,7 +293,7 @@ mirror/chebi.owl: mirror/chebi.trigger
 mirror/bspo.trigger: $(SRC)
 
 mirror/bspo.owl: mirror/bspo.trigger
-	$(ROBOT) convert -I $(URIBASE)/bspo.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bspo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -272,7 +303,7 @@ mirror/bspo.owl: mirror/bspo.trigger
 mirror/pato.trigger: $(SRC)
 
 mirror/pato.owl: mirror/pato.trigger
-	$(ROBOT) convert -I $(URIBASE)/pato.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/pato.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -282,7 +313,7 @@ mirror/pato.owl: mirror/pato.trigger
 mirror/mpath.trigger: $(SRC)
 
 mirror/mpath.owl: mirror/mpath.trigger
-	$(ROBOT) convert -I $(URIBASE)/mpath.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/mpath.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -292,7 +323,7 @@ mirror/mpath.owl: mirror/mpath.trigger
 mirror/bfo.trigger: $(SRC)
 
 mirror/bfo.owl: mirror/bfo.trigger
-	$(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 
@@ -358,8 +389,6 @@ build-docker:
 
 # Test patterns for schema compliance:
 
-.PHONY: .FORCE
-
 .PHONY: patterns
 patterns: all_imports $(PATTERNDIR)/pattern.owl $(PATTERNDIR)/definitions.owl
 
@@ -372,8 +401,8 @@ pattern_schema_checks: $(PATTERNDIR)/dosdp-patterns
 
 #This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 $(PATTERNDIR)/dosdp-patterns: .FORCE
-	< $(PATTERNDIR)/dosdp-patterns/external.txt tr '\n' '\0' | sed 's!.*/!!' | xargs -0 -I{} rm -f $(PATTERNDIR)/dosdp-patterns/{} &&\
-	< $(PATTERNDIR)/dosdp-patterns/external.txt tr '\n' '\0' | xargs -0 -I{} wget -q {} -P $(PATTERNDIR)/dosdp-patterns
+	cat $(PATTERNDIR)/dosdp-patterns/external.txt | sed 's!.*/!!' | sed 's! !!g' |  xargs -I{} rm -f $(PATTERNDIR)/dosdp-patterns/{}
+	cat $(PATTERNDIR)/dosdp-patterns/external.txt | sed 's! !!g' | xargs -I{} wget -q {} -P $(PATTERNDIR)/dosdp-patterns
 
 $(PATTERNDIR)/pattern.owl: pattern_schema_checks $(PATTERNDIR)/dosdp-patterns
 	$(DOSDPT) prototype --obo-prefixes --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@
@@ -392,14 +421,15 @@ pattern_term_lists_anatomy := $(patsubst %.tsv, $(PATTERNDIR)/data/anatomy/%.txt
 individual_patterns_zfin := $(patsubst %.tsv, $(PATTERNDIR)/data/zfin/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/zfin/*.tsv)))
 pattern_term_lists_zfin := $(patsubst %.tsv, $(PATTERNDIR)/data/zfin/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/zfin/*.tsv)))
 
+individual_patterns_process := $(patsubst %.tsv, $(PATTERNDIR)/data/process/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/process/*.tsv)))
+pattern_term_lists_process := $(patsubst %.tsv, $(PATTERNDIR)/data/process/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/process/*.tsv)))
+
 
 
 # Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin)
-	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
-	mv definitions.ofn $@ &&\
-  echo 'OCCURS IN HACK' &&\
-	java -jar ../scripts/zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@ 
+$(PATTERNDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
+	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
+	mv definitions.ofn $@
 
 $(PATTERNDIR)/data/default/%.ofn: $(PATTERNDIR)/data/default/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
 	dosdp-tools generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@
@@ -415,22 +445,25 @@ $(PATTERNDIR)/data/anatomy/%.ofn: $(PATTERNDIR)/data/anatomy/%.tsv $(PATTERNDIR)
 $(PATTERNDIR)/data/zfin/%.ofn: $(PATTERNDIR)/data/zfin/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
 	dosdp-tools generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@
 
+$(PATTERNDIR)/data/process/%.ofn: $(PATTERNDIR)/data/process/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
+	dosdp-tools generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@
+
 
 
 # Generating the seed file from all the TSVs
-$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(PATTERNDIR)/pattern_owl_seed.txt
+$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_process) $(PATTERNDIR)/pattern_owl_seed.txt
 	cat $^ | sort | uniq > $@
 	
 $(PATTERNDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
-	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@
+	@if [ $(IMP) = true ]; then $(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/terms.sparql $@; fi
 
 $(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/default/%.tsv .FORCE
 	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
 .PHONY: prepare_patterns
 prepare_patterns:	
-	touch $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) &&\
-  touch $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin)
+	touch $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_process) &&\
+  touch $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
 
 
 $(PATTERNDIR)/data/manual/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/manual/%.tsv .FORCE
@@ -440,6 +473,9 @@ $(PATTERNDIR)/data/anatomy/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERND
 	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
 $(PATTERNDIR)/data/zfin/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/zfin/%.tsv .FORCE
+	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
+
+$(PATTERNDIR)/data/process/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/process/%.tsv .FORCE
 	dosdp-tools terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
 

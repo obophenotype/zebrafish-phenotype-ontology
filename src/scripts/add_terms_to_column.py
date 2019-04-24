@@ -7,15 +7,22 @@ import os
 # Samples, Phenotypes and Ontologies Team, EMBL-EBI
 
 tsv = sys.argv[1]
-anatomy_terms = sys.argv[2]
-reserved_ids = sys.argv[3]
-accession = int(sys.argv[4])
-prefix = sys.argv[5]
+term_file = sys.argv[2]
+column_name = sys.argv[3]
+reserved_ids = sys.argv[4]
+zfin_map = sys.argv[5]
+accession = int(sys.argv[6])
+prefix = sys.argv[7]
 
-# tsv = "/ws/xenopus-phenotype-ontology/src/patterns/data/auto/abnormal.tsv"
-# reserved_ids = "/ws/xenopus-phenotype-ontology/src/patterns/reserved_iris.txt"
-# accession = int("9898")
-# prefix = "http://purl.obolibrary.org/obo/XPO_"
+tsv = "/ws/xenopus-phenotype-ontology/src/patterns/data/anatomy/abnormalAnatomicalEntity.tsv"
+term_file = "../curation/tmp/zfa_seed.txt"
+column_name = "anatomical_entity"
+reserved_ids = "/ws/xenopus-phenotype-ontology/src/patterns/reserved_iris.txt"
+zfin_map = "/ws/xenopus-phenotype-ontology/src/curation/id_map_zfin.tsv"
+accession = int("9898")
+prefix = "http://purl.obolibrary.org/obo/XPO_"
+
+raise Exception("interrupted")
 
 maxid = 9999999
 pattern = os.path.basename(tsv)
