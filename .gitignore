@@ -24,3 +24,4 @@ src/curation/id_map_terms.txt
 src/patterns/data/auto/*_terms.txt
 src/patterns/data/manual/*_terms.txt
 catalog-v001.xml
+zp.owl
