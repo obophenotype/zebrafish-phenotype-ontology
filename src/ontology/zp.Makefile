@@ -76,7 +76,7 @@ anatomy_pipeline: clean prepare_patterns anatomy_tsv
 	
 go_pipeline: clean prepare_patterns go_tsv
 	
-zfin_pipeline: clean prepare_patterns reserved_iris.txt
+zfin_pipeline: clean prepare_patterns reserved_iris.txt zp_labels.csv
 	sh zp_pipeline.sh
 	
 manual_pipeline: clean prepare_patterns reserved_iris.txt
