@@ -15,7 +15,9 @@ import os
 
 current_id_map = sys.argv[1]
 pattern_data = sys.argv[2]
-pattern_assignments = sys.argv[3]
+deprecated_id_map = sys.argv[3]
+pattern_assignments = sys.argv[4]
+zp_labels = sys.argv[5]
 
 prefix = "ZP:"
 pbase="https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/patterns/dosdp-patterns/"
@@ -82,6 +84,20 @@ def determine_base_pattern(i):
 id_map = pd.read_csv(current_id_map, sep='\t')
 id_map = split_eq(id_map)
 id_map.columns = ['iri','id','affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
+
+# Load Depreacted ID MAP
+df_deprecated_id_map = pd.read_csv(deprecated_id_map, sep='\t')
+df_deprecated_id_map['obsolete'] = 'obsolete'
+
+# Load ZP labels (and replace IRIs by curies)
+df_zp_labels = pd.read_csv(zp_labels)
+df_zp_labels.drop_duplicates(subset=['term'],inplace=True)
+df_zp_labels = df_zp_labels.replace("http://purl.obolibrary.org/obo/", "")
+df_zp_labels = df_zp_labels.replace("_", ":") 
+
+# Merge labels into depreacted ID map so we can generate some pretty labels
+df_deprecated_id_map = pd.merge(df_deprecated_id_map, df_zp_labels, on_left=['iri'], on_right=['term'], how='left')
+print(str(df_deprecated_id_map.head()))
 
 #colsp = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super','pattern']
 
