@@ -5,7 +5,7 @@ cd ../curation
 
 python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../ontology/reserved_iris.txt 100000 || exit 1
 
-python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin ../curation/pattern_assignments.txt || exit 1
+python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin deprecated_id_map.tsv ../curation/pattern_assignments.txt ../ontology/zp_labels.csv || exit 1
 
 for i in ../patterns/data/zfin/*.tsv; do
     python3 ../scripts/zp_extract_upheno.py "$i" || exit 1
