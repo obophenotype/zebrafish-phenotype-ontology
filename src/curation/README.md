@@ -34,7 +34,8 @@ The pipeline can be executed by:
     * `# python3 ../scripts/zp_annotation_to_id_map.py id_map.tsv` <----- THIS IS TO INITIALISE ZP FROM SCRATCH. DO NOT UNCOMMENT UNLESS YOU WANT TO BREAK CURRENT ZP (this part of the pipeline is commented in the python script in detail)
     * make reserved_iris.txt
     * `python3 ../scripts/zp_update_id_map.py id_map.tsv deprecated_id_map.tsv reserved_iris.txt 100000`: Updating the ZFIN-EQ to ZP mapping. This downloads the phenotype_fish.tsv from ZFIN and maps all annotations used in it to ZP identifiers.
-    * `python3 ../scripts/zp_dosdp.py id_map.tsv ../patterns/data/auto pattern_assignments.txt`: This part of the pipeline maps ZFIN-EQ (with their ZP ids determined by the previous step) to DOSDP patterns. This is also where the upheno pattern alignment takes place. 
+    * `python3 ../scripts/zp_dosdp.py id_map.tsv ../patterns/data/auto pattern_assignments.txt`: This part of the pipeline maps ZFIN-EQ (with their ZP ids determined by the previous step) to DOSDP patterns. 
+		* `for i in ../patterns/data/zfin/*.tsv; do python3 ../scripts/zp_extract_upheno.py "$i" || exit 1 done`: This is where the upheno pattern alignment takes place. 
     * `python3 ../scripts/zp_kb.py id_map.tsv zp_annotations_to_iri.tsv kb_zp.ttl`: Dumping an RDF version of the ZFIN phenotype annotations which allows browsing the actual annotations in Protege. This is particularly interesting for semantic search (show me all annotations to phenotypes affecting the morphology of a part of the head).
 
 
