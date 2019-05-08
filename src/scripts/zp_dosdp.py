@@ -96,7 +96,7 @@ df_zp_labels = df_zp_labels.replace("http://purl.obolibrary.org/obo/", "")
 df_zp_labels = df_zp_labels.replace("_", ":") 
 
 # Merge labels into depreacted ID map so we can generate some pretty labels
-df_deprecated_id_map = pd.merge(df_deprecated_id_map, df_zp_labels, on_left=['iri'], on_right=['term'], how='left')
+df_deprecated_id_map = pd.merge(df_deprecated_id_map, df_zp_labels, left_on=['iri'], right_on=['term'], how='left')
 print(str(df_deprecated_id_map.head()))
 
 #colsp = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super','pattern']
