@@ -14,71 +14,41 @@ zfin_map = sys.argv[5]
 accession = int(sys.argv[6])
 prefix = sys.argv[7]
 
-tsv = "/ws/xenopus-phenotype-ontology/src/patterns/data/anatomy/abnormalAnatomicalEntity.tsv"
-term_file = "../curation/tmp/zfa_seed.txt"
+tsv = "/ws/zebrafish-phenotype-ontology/src/patterns/data/anatomy/abnormalAnatomicalEntity.tsv"
+term_file = "/ws/zebrafish-phenotype-ontology/src/curation/tmp/zfa_seed.txt"
 column_name = "anatomical_entity"
-reserved_ids = "/ws/xenopus-phenotype-ontology/src/patterns/reserved_iris.txt"
-zfin_map = "/ws/xenopus-phenotype-ontology/src/curation/id_map_zfin.tsv"
-accession = int("9898")
-prefix = "http://purl.obolibrary.org/obo/XPO_"
-
-raise Exception("interrupted")
+zfin_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map_zfin.tsv"
+prefix = "http://purl.obolibrary.org/obo/ZP_"
 
 maxid = 9999999
 pattern = os.path.basename(tsv)
 
-def get_highest_id(ids):
-    global prefix
-    x = [i.replace(prefix, "").lstrip("0") for i in ids]
-    x = [s for s in x if s!='']
-    if len(x)==0:
-        x=[0,]
-    x = [int(i) for i in x]
-    return max(x)
+# 1. Load TSV file, if not there, create it.
+if os.path.isfile(tsv):
+    df_tsv = pd.read_csv(tsv, sep='\t')
+    if 'defined_class' not in df_tsv:
+        df_tsv['defined_class'] = ""
+else:
+    df_tsv = pd.DataFrame(columns=['defined_class', column_name])
 
+# 3. Load terms in the term file (the new seeds)
+with open(term_file) as f:
+    terms = f.readlines()
 
-def generate_id(i):
-    global startid, maxid
-    if(isinstance(i,str)):
-        if(i.startswith(prefix)):
-            return i
-    startid = startid + 1
-    if startid>maxid:
-        raise ValueError('The ID space has been exhausted (maximum 10 million). Order a new one!')
-    id = prefix+str(startid).zfill(7)
-    return id
+terms = [x.strip() for x in terms]
+terms = [s for s in terms if s.startswith('http://purl.obolibrary.org/obo/')]
 
-# Load data
-df = pd.read_csv(tsv, sep='\t')
-
-with open(reserved_ids) as f:
-    ids = f.readlines()
-
-ids = [x.strip() for x in ids]
-ids = [s for s in ids if s.startswith(prefix)]
-
-with open(anatomy_terms) as f:
-    anatomy = f.readlines()
-
-anatomy = [x.strip() for x in anatomy]
-anatomy = [s for s in anatomy if s.startswith('http://purl.obolibrary.org/obo/')]
-
-for a in anatomy:
-    if a in df['anatomical_entity']:
-        pass
-
-# compute next assignable id
+# 4. compute next assignable id
 startid = get_highest_id(ids)
 if startid<accession:
     startid=accession
 
-if 'defined_class' not in df:
-    df['defined_class'] = ""
+# 5. Filter out new terms that have already been covered elsewhere
 
-df['defined_class'].replace(r'^\s*$', "", regex=True)
-df['defined_class'] = [generate_id(s) for s in df['defined_class']]
 
-df.to_csv(tsv, sep = '\t', index=False)
-with open(reserved_ids, 'w') as f:
-    for item in df['defined_class']:
-        f.write("%s\n" % item)
+# 6. Generate new ZP ids
+df_tsv['defined_class'].replace(r'^\s*$', "", regex=True)
+df_tsv['defined_class'] = [generate_id(s) for s in df_tsv['defined_class']]
+
+# 7. Export the TSV file
+df_tsv.to_csv(tsv, sep = '\t', index=False)
