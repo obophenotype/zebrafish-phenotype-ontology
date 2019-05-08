@@ -103,16 +103,16 @@ if startid<accession:
 
 # Computing new ZP identifiers where necessary
 d = copy.deepcopy(x)
-print(str(len(d)))
-print(d[['iri','id']].head(3))
+print("Length before assigning ids: "+str(len(d)))
+#print(d[['iri','id']].head(3))
 d = compute_missing_zp_ids(d)
-print(str(len(d)))
-print(d[['iri','id']].head(3))
+print("Length after assigning ids: "+str(len(d)))
+#print(d[['iri','id']].head(3))
 
 # Update ZFIN EQ id - ZP mapping
 # d contains currently all annotations in the ZFIN dump
 x = copy.deepcopy(d[['iri','id']])
-print(str(len(x)))
+print("Length after subsetting: "+str(len(x)))
 
 # we combine them with the previous version of the id map to see whether anything got lost
 id_map = pd.concat([id_map,x])
@@ -125,7 +125,7 @@ y = copy.deepcopy(d[['iri','id']])
 y['current'] = 'current'
 # Merge the complete id_map (containing old and new mappings) with the labelled old results
 z = pd.merge(id_map, y, on=['id','iri'], how='left')
-# deprecated results are those that contain at least one NULL value (which can only be in the current label columns)
+# deprecated results are those that contain at least one NULL value (which can only be in the 'current' columns)
 
 df_deprecated_id_map = z[pd.isnull(z).any(axis=1)]
 
