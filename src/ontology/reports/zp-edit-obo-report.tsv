@@ -1,0 +1,7 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	missing_ontology_description	zp.owl	dc11:description		
+ERROR	missing_ontology_license	zp.owl	dc:license		
+ERROR	missing_ontology_title	zp.owl	dc11:title		
+WARN	missing_definition	ZP:00000000	IAO:0000115		
+WARN	missing_definition	ZP:00000000	IAO:0000600		
+INFO	missing_superclass	ZP:00000000	rdfs:subClassOf		

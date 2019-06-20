@@ -5097,7 +5097,6 @@ http://purl.obolibrary.org/obo/ZFA_0001144
 http://purl.obolibrary.org/obo/ZFA_0000714
 http://purl.obolibrary.org/obo/ZP_0128407
 http://purl.obolibrary.org/obo/ZP_0128701
-http://purl.obolibrary.org/obo/RO_0000052
 http://purl.obolibrary.org/obo/ZFA_0005086
 http://purl.obolibrary.org/obo/ZP_0127675
 http://purl.obolibrary.org/obo/ZP_0128130
@@ -5654,6 +5653,7 @@ http://purl.obolibrary.org/obo/ZFA_0001588
 http://purl.obolibrary.org/obo/ZP_0128221
 http://purl.obolibrary.org/obo/ZFA_0005785
 http://purl.obolibrary.org/obo/ZP_0128507
+http://purl.obolibrary.org/obo/RO_0002314
 http://purl.obolibrary.org/obo/ZFA_0005483
 http://purl.obolibrary.org/obo/ZFA_0009350
 http://purl.obolibrary.org/obo/ZP_0129416
