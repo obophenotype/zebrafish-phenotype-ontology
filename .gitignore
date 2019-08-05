@@ -26,3 +26,4 @@ src/patterns/data/manual/*_terms.txt
 catalog-v001.xml
 /zp.*
 /zp-*
+src/ontology/zp-*
