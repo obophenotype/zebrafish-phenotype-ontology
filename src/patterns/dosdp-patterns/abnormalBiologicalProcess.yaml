@@ -11,7 +11,7 @@ contributors:
 - https://orcid.org/0000-0003-4148-4606
 - https://orcid.org/0000-0001-7941-2961
 classes:
-  process quality: PATO:0000001
+  process quality: PATO:0001236
   abnormal: PATO:0000460
   biological_process: GO:0008150
 

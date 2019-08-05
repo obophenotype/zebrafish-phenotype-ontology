@@ -44,7 +44,9 @@ if startid<accession:
     startid=accession
 
 # 5. Filter out new terms that have already been covered elsewhere
-
+pattern_name = os.path.basename(tsv)
+if pattern_name=="abnormalAnatomicalEntity.tsv":
+  df_tsv['id']="-".join(df_tsv['anatomical_entity'])
 
 # 6. Generate new ZP ids
 df_tsv['defined_class'].replace(r'^\s*$', "", regex=True)
