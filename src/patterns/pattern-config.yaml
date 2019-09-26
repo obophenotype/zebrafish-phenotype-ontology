@@ -9,4 +9,6 @@ anatomy_config:
   patterns:
     - pattern: abnormalAnatomicalEntity
       blacklist:
+        - http://purl.obolibrary.org/obo/ZFA_0001093
       blacklist_branch:
+        - http://purl.obolibrary.org/obo/ZFS_0100000

@@ -29,28 +29,6 @@ $(PATTERNDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)  
 	java -jar ../scripts/zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@
 
 #############################################
-### WHOLE PIPELINE (main job)      ##########
-#############################################
-
-.PHONY: .FORCE
-
-$(ID_MAP): update_id_map
-
-update_id_map: $(ID_MAP_ZFIN)
-	python3 ../scripts/merge_table_into.py $(ID_MAP) $< id,iri $(ID_MAP)
-
-clean:
-	rm -rf $(TMPDIR)/*
-	
-zp_labels.csv:
-	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql $@
-	
-zfin_pipeline: clean prepare_patterns reserved_iris.txt zp_labels.csv
-	sh zp_pipeline.sh
-	
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
-
-#############################################
 ### Computing all reserved iris in ZP ######
 #############################################
 RESERVED_IRI=$(TMPDIR)/reserved_iris.txt
@@ -100,7 +78,8 @@ $(TMPDIR)/idmap_removed_incomplete_terms.txt: $(TMPDIR)/idmap_removed_incomplete
 	cat $^ | sort | uniq > $@
 
 $(RESERVED_IRI): $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt
-	
+	cat $^ | sort | uniq > $@
+
 reserved_iris: $(RESERVED_IRI)
 
 
@@ -121,8 +100,8 @@ missing_iris: $(MANUALPATTERNIDS)
 
 ZFA_IRI = $(OBOPURL)zfa.owl
 ZFA = $(TMPDIR)/zfa.owl
-PATTERN_CONFIG=pattern-config.yaml
-PIPELINE_DATA_PATH=data/anatomy/
+PATTERN_CONFIG=../patterns/pattern-config.yaml
+PIPELINE_DATA_PATH=../patterns/data/anatomy/
 SPARQLDIR=../sparql
 
 download_patterns: .FORCE
@@ -134,7 +113,7 @@ $(ZFA):
 
 anatomy_pipeline: download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
 	echo "Using $(ZFA_IRI) for running anatomy pipeline, make sure this is correct!"
-	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) dosdp-patterns $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG)
+	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) $(PATTERNDIR) $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG)
 
 #########################################
 ### Generating all ROBOT templates ######
@@ -150,3 +129,27 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 
 templates: $(TEMPLATES)
 	echo $(TEMPLATES)
+	
+	
+#############################################
+### WHOLE PIPELINE (main job)      ##########
+#############################################
+
+.PHONY: .FORCE
+
+$(ID_MAP): update_id_map
+
+update_id_map: $(ID_MAP_ZFIN)
+	python3 ../scripts/merge_table_into.py $(ID_MAP) $< id,iri $(ID_MAP)
+
+clean:
+	rm -rf $(TMPDIR)/*
+	
+zp_labels.csv:
+	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql $@
+	
+zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
+	sh zp_pipeline.sh
+	
+zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
+

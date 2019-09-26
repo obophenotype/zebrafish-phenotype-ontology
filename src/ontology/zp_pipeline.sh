@@ -6,7 +6,7 @@ set -e
 
 cd ../curation 
 
-python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../patterns/tmp/reserved_iris.txt 100000 || exit 1
+python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 || exit 1
 
 python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin deprecated_id_map.tsv pattern_assignments.txt ../ontology/zp_labels.csv || exit 1
 
