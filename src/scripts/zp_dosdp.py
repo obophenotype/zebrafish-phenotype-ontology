@@ -113,7 +113,7 @@ id_map['pattern'] = id_map[cols].apply(determine_base_pattern,axis=1)
 
 # Exporting the files again
 id_map.sort_values(by ='iri',inplace=True)
-id_map=id_map.reindex(sorted(df.columns), axis=1)
+id_map=id_map.reindex(sorted(id_map.columns), axis=1)
 
 id_map.to_csv(pattern_assignments, sep = '\t', index=False)
 
