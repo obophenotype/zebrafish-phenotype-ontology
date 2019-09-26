@@ -1,0 +1,699 @@
+Ontology ID	Label	Obsolete	ZFIN Annotation
+ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	AI rdfs:comment
+http://purl.obolibrary.org/obo/ZP_0020023	obsolete motor neuron increased distribution, abnormal	true	0-0-ZFA:0009052-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012972	obsolete somite present, abnormal	true	0-0-ZFA:0000155-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002924	obsolete http://purl.obolibrary.org/obo/GO_0042384 process quality, abnormal	true	0-0-GO:0042384-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012894	obsolete http://purl.obolibrary.org/obo/GO_0042384 growth quality of occurrent, abnormal	true	0-0-GO:0042384-PATO:0001433-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020620	obsolete anatomical structure amount, abnormal	true	0-0-ZFA:0000037-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022310	obsolete oligodendrocyte spinal cord structure, abnormal	true	ZFA:0009076-BFO:0000050-ZFA:0000075-PATO:0000141-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022311	obsolete myelinating Schwann cell posterior lateral line amount, abnormal	true	ZFA:0009135-BFO:0000050-ZFA:0000944-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009266	obsolete heart abnormal, abnormal	true	0-0-ZFA:0000114-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017135	obsolete heart rudiment position, abnormal	true	0-0-ZFA:0000115-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017199	obsolete http://purl.obolibrary.org/obo/GO_0097369 decreased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022987	obsolete cardiac muscle cell action potential involved in contraction duration, abnormal	true	0-0-GO:0086002-PATO:0001309-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022256	obsolete intermediate cell mass of mesoderm amount, abnormal	true	0-0-ZFA:0000033-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022978	obsolete hematopoietic multipotent progenitor cell occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0009354-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022971	obsolete microglial cell hindbrain amount, abnormal	true	ZFA:0009077-BFO:0000050-ZFA:0000029-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022945	obsolete macrophage migration occurrence, abnormal	true	0-0-GO:1905517-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022942	obsolete neutrophil migration occurrence, abnormal	true	0-0-GO:1990266-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022927	obsolete dorsal region intersegmental vein branchiness, abnormal	true	BSPO:0000079-BFO:0000050-ZFA:0001057-PATO:0002009-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022926	obsolete vascular sprouts intersegmental vessel amount, abnormal	true	ZFA:0005559-BFO:0000050-ZFA:0001285-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022925	obsolete dorsal region intersegmental vessel branchiness, abnormal	true	BSPO:0000079-BFO:0000050-ZFA:0001285-PATO:0002009-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022912	obsolete hindbrain has number of Mauthner neuron, abnormal	true	0-0-ZFA:0000029-PATO:0001555-0-0-ZFA:0009149
+http://purl.obolibrary.org/obo/ZP_0009171	obsolete http://purl.obolibrary.org/obo/ZFA_0000283 disorganized, abnormal	true	0-0-ZFA:0000283-PATO:0000937-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009170	obsolete http://purl.obolibrary.org/obo/ZFA_0000283 decreased size, abnormal	true	0-0-ZFA:0000283-PATO:0000587-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022903	obsolete hematopoietic multipotent progenitor cell post-vent region amount, abnormal	true	ZFA:0009354-BFO:0000050-ZFA:0001117-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022902	obsolete erythroid progenitor cell post-vent region amount, abnormal	true	ZFA:0009015-BFO:0000050-ZFA:0001117-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009161	obsolete sarcomerogenesis decreased process quality, abnormal	true	0-0-GO:0048769-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0007925	obsolete heart contraction abnormal, abnormal	true	0-0-GO:0060047-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0007907	obsolete neuromuscular process controlling balance abnormal, abnormal	true	0-0-GO:0050885-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022886	obsolete ceratobranchial cartilage size, abnormal	true	0-0-ZFA:0001516-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022885	obsolete cranium process quality apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000737-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022878	obsolete neuroblastoma interrenal gland amount, abnormal	true	MPATH:376-BFO:0000050-ZFA:0001345-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022875	obsolete lipid liver amount, abnormal	true	CHEBI:18059-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022874	obsolete common bile duct branchiness, abnormal	true	0-0-ZFA:0005165-PATO:0002009-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022862	obsolete myofibril slow muscle cell structure, abnormal	true	GO:0030016-BFO:0000050-ZFA:0009116-PATO:0000141-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022832	obsolete oocyte growth occurrence, abnormal	true	0-0-GO:0001555-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022827	obsolete myelinating Schwann cell position, abnormal	true	0-0-ZFA:0009135-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022825	obsolete trunk vasculature has number of dorsal region vascular sprouts, abnormal	true	BSPO:0000079-BFO:0000050-ZFA:0005024-PATO:0001555-0-0-ZFA:0005559
+http://purl.obolibrary.org/obo/ZP_0022824	obsolete trunk vasculature has number of dorsal region blood vessel, abnormal	true	BSPO:0000079-BFO:0000050-ZFA:0005024-PATO:0001555-0-0-ZFA:0005314
+http://purl.obolibrary.org/obo/ZP_0022806	obsolete basement membrane epidermis wholeness, abnormal	true	GO:0005604-BFO:0000050-ZFA:0000105-PATO:0001442-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022805	obsolete axon optic tectum amount, abnormal	true	GO:0030424-BFO:0000050-ZFA:0000445-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009019	obsolete telomere maintenance via telomerase abnormal, abnormal	true	0-0-GO:0007004-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012581	obsolete catechol oxidase activity melanocyte disrupted, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012579	obsolete catechol oxidase activity eye disrupted, abnormal	true	GO:0004097-BFO:0000050-ZFA:0000107-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012509	obsolete hindbrain has fewer parts of type http://purl.obolibrary.org/obo/ZFA_0005182, abnormal	true	0-0-ZFA:0000029-PATO:0002001-0-0-ZFA:0005182
+http://purl.obolibrary.org/obo/ZP_0022797	obsolete epidermis process quality cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0000105-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022791	obsolete epidermal superficial stratum amount, abnormal	true	0-0-ZFA:0001179-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022790	obsolete epidermis amount, abnormal	true	0-0-ZFA:0000105-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022780	obsolete hematopoietic stem cell dorsal aorta amount, abnormal	true	ZFA:0009014-BFO:0000050-ZFA:0000014-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022775	obsolete epithelial cell pronephric tubule amount, abnormal	true	ZFA:0009034-BFO:0000050-ZFA:0001558-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022774	obsolete renal capsular space morphology, abnormal	true	0-0-ZFA:0005283-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020950	obsolete Z disc ventricular myocardium amount, abnormal	true	GO:0030018-BFO:0000050-ZFA:0005061-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022753	obsolete response to endoplasmic reticulum stress process quality, abnormal	true	0-0-GO:0034976-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022751	obsolete oligodendrocyte brain amount, abnormal	true	ZFA:0009076-BFO:0000050-ZFA:0000008-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022744	obsolete neuron diencephalon amount, abnormal	true	ZFA:0009248-BFO:0000050-ZFA:0000101-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022721	obsolete hepatocyte process quality apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0009111-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022716	obsolete radial glial cell occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0009292-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022712	obsolete melanocyte caudal fin degree of pigmentation, abnormal	true	ZFA:0009091-BFO:0000050-ZFA:0001058-PATO:0002247-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022711	obsolete melanophore stripe degree of pigmentation, abnormal	true	0-0-ZFA:0001463-PATO:0002247-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022705	obsolete neoplasm integument amount, abnormal	true	MPATH:218-BFO:0000050-ZFA:0000368-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022704	obsolete neoplasm brain occurrence, abnormal	true	MPATH:218-BFO:0000050-ZFA:0000008-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022701	obsolete ventral wall of dorsal aorta amount, abnormal	true	0-0-ZFA:0005028-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022316	obsolete node of Ranvier posterior lateral line nerve amount, abnormal	true	GO:0033268-BFO:0000050-ZFA:0000175-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022665	obsolete muscle contraction occurrence, abnormal	true	0-0-GO:0006936-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022608	obsolete chondrocyte Meckel's cartilage amount, abnormal	true	ZFA:0009084-BFO:0000050-ZFA:0001205-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022607	obsolete cranial cartilage amount, abnormal	true	0-0-ZFA:0001458-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022606	obsolete dermatocranium amount, abnormal	true	0-0-ZFA:0000863-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017531	obsolete peroxidase activity neutrophil decreased process quality, abnormal	true	GO:0004601-BFO:0000050-ZFA:0009327-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010852	obsolete thoracic duct abnormal, abnormal	true	0-0-ZFA:0005110-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022250	obsolete heart amount, abnormal	true	0-0-ZFA:0000114-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022594	obsolete artery cranial vasculature amount, abnormal	true	ZFA:0000005-BFO:0000050-ZFA:0001267-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022593	obsolete internal carotid artery amount, abnormal	true	0-0-ZFA:0005081-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022592	obsolete optic artery amount, abnormal	true	0-0-ZFA:0005044-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022591	obsolete aortic arch 1 amount, abnormal	true	0-0-ZFA:0005005-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022590	obsolete lateral dorsal aorta amount, abnormal	true	0-0-ZFA:0001054-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022589	obsolete caudal division of the internal carotid artery amount, abnormal	true	0-0-ZFA:0001051-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022585	obsolete posterior region hematopoietic system amount, abnormal	true	BSPO:0000072-BFO:0000050-ZFA:0005023-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022574	obsolete blastema occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0001270-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022570	obsolete precursor T-cell lymphoblastic lymphoma/leukaemia whole organism onset quality, abnormal	true	MPATH:537-BFO:0000050-ZFA:0001094-PATO:0002325-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022569	obsolete whole organism has fewer parts of type precursor T-cell lymphoblastic lymphoma/leukaemia cell, abnormal	true	MPATH:537-BFO:0000050-ZFA:0001094-PATO:0002001-0-0-ZFA:0009000
+http://purl.obolibrary.org/obo/ZP_0022568	obsolete T cell occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0009046-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022567	obsolete T cell delayed cell cycle, abnormal	true	GO:0007049-BFO:0000066-ZFA:0009046-PATO:0000502-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022566	obsolete thymus amount, abnormal	true	0-0-ZFA:0001078-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022565	obsolete nucleus somite amount, abnormal	true	GO:0005634-BFO:0000050-ZFA:0000155-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022564	obsolete dorsal longitudinal anastomotic vessel occurrence blood vessel development, abnormal	true	GO:0001568-BFO:0000066-ZFA:0005025-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022560	obsolete respiratory gaseous exchange frequency, abnormal	true	0-0-GO:0007585-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022547	obsolete calcium channel activity neuromast hair cell increased occurrence, abnormal	true	GO:0005262-BFO:0000050-ZFA:0009367-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022527	obsolete cardiac muscle tissue regeneration occurrence, abnormal	true	0-0-GO:0061026-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009945	obsolete http://purl.obolibrary.org/obo/GO_0016337 increased occurrence, abnormal	true	0-0-GO:0016337-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000771	obsolete embryonic cleavage abnormal, abnormal	true	0-0-GO:0040016-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022485	obsolete CaP motoneuron occurrence inhibitory postsynaptic potential, abnormal	true	GO:0060080-BFO:0000066-ZFA:0009243-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022481	obsolete cell cycle G1/S phase transition process quality, abnormal	true	0-0-GO:0044843-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022467	obsolete whole organism process quality manganese ion homeostasis, abnormal	true	GO:0055071-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022449	obsolete trunk vasculature occurrence angiogenesis, abnormal	true	GO:0001525-BFO:0000066-ZFA:0005024-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022448	obsolete hindbrain has number of ependymal cell motile cilium ependymal cell, abnormal	true	ZFA:0009033-BFO:0000050-ZFA:0000029-PATO:0001555-GO:0031514-BFO:0000050-ZFA:0009033
+http://purl.obolibrary.org/obo/ZP_0022447	obsolete ventricular system brain volume, abnormal	true	ZFA:0001261-BFO:0000050-ZFA:0000008-PATO:0000918-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022446	obsolete ventricular system brain composition, abnormal	true	ZFA:0001261-BFO:0000050-ZFA:0000008-PATO:0000025-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022428	obsolete circadian sleep/wake cycle, sleep occurrence, abnormal	true	0-0-GO:0050802-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022417	obsolete migratory slow muscle precursor cell amount, abnormal	true	0-0-ZFA:0001373-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022406	obsolete nucleate erythrocyte heart amount, abnormal	true	ZFA:0009256-BFO:0000050-ZFA:0000114-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022404	obsolete common myeloid progenitor amount, abnormal	true	0-0-ZFA:0009021-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022405	obsolete angioblastic mesenchymal cell amount, abnormal	true	0-0-ZFA:0009258-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022435	obsolete optic cup amount, abnormal	true	0-0-ZFA:0001202-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022450	obsolete angiogenic sprout trunk vasculature amount, abnormal	true	ZFA:0005604-BFO:0000050-ZFA:0005024-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000773	obsolete regulation of nodal signaling pathway abnormal, abnormal	true	0-0-GO:1900107-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012239	obsolete kidney lacks parts or has fewer parts of type hematopoietic stem cell, abnormal	true	0-0-ZFA:0000529-PATO:0001999-0-0-ZFA:0009014
+http://purl.obolibrary.org/obo/ZP_0022445	obsolete ependymal cell occurrence motile cilium assembly, abnormal	true	GO:0044458-BFO:0000066-ZFA:0009033-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022396	obsolete pigmentation amount, abnormal	true	0-0-GO:0043473-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022472	obsolete iridophore position, abnormal	true	0-0-ZFA:0009199-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022317	obsolete myelin sheath posterior lateral line nerve amount, abnormal	true	GO:0043209-BFO:0000050-ZFA:0000175-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022309	obsolete oligodendrocyte spinal cord amount, abnormal	true	ZFA:0009076-BFO:0000050-ZFA:0000075-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022444	obsolete fourth ventricle process quality cerebrospinal fluid circulation, abnormal	true	GO:0090660-BFO:0000066-ZFA:0000110-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017619	obsolete chitin synthase activity intestine lumen decreased occurrence, abnormal	true	GO:0004100-BFO:0000050-ZFA:0005807-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022535	obsolete insulin secreting cell spatial pattern, abnormal	true	0-0-ZFA:0009101-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012094	obsolete http://purl.obolibrary.org/obo/GO_0097369 increased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000964	obsolete anterior commissure morphogenesis abnormal, abnormal	true	0-0-GO:0021960-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019064	obsolete skeletal muscle cell alignment skeletal muscle cell, abnormal	true	0-0-ZFA:0009115-PATO:0001652-0-0-ZFA:0009115
+http://purl.obolibrary.org/obo/ZP_0022298	obsolete posterior lateral line primordium occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0001157-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010889	obsolete angioblast cell migration abnormal, abnormal	true	0-0-GO:0035476-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022268	obsolete posterior side somite spatial pattern, abnormal	true	BSPO:0000056-BFO:0000050-ZFA:0000155-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022257	obsolete posterior lateral plate mesoderm amount, abnormal	true	0-0-ZFA:0005042-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022247	obsolete epibranchial field spatial pattern, abnormal	true	0-0-ZFA:0007061-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010844	obsolete cranial cartilage abnormal, abnormal	true	0-0-ZFA:0001458-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022622	obsolete glutamate-ammonia ligase activity liver occurrence, abnormal	true	GO:0004356-BFO:0000050-ZFA:0000123-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022623	obsolete glutamate-ammonia ligase activity liver increased occurrence, abnormal	true	GO:0004356-BFO:0000050-ZFA:0000123-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022644	obsolete caudal vein plexus composition, abnormal	true	0-0-ZFA:0001286-PATO:0000025-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004583	obsolete lateral line abnormal, abnormal	true	0-0-ZFA:0001469-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019139	obsolete embryo development ending in birth or egg hatching decreased process quality, abnormal	true	0-0-GO:0009792-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022138	obsolete neutrophil liver amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022119	obsolete cortisol liver amount, abnormal	true	CHEBI:17650-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022108	obsolete retinal ganglion cell layer increased distribution, abnormal	true	0-0-ZFA:0000024-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005961	obsolete embryo development ending in birth or egg hatching disrupted, abnormal	true	0-0-GO:0009792-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022820	obsolete vascular sprouts intersegmental vein amount, abnormal	true	ZFA:0005559-BFO:0000050-ZFA:0001057-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022828	obsolete myelinating Schwann cell process quality myelination, abnormal	true	GO:0042552-BFO:0000066-ZFA:0009135-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022833	obsolete ovary occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000403-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012644	obsolete NMDA glutamate receptor activity Mauthner neuron decreased duration, abnormal	true	GO:0004972-BFO:0000050-ZFA:0009149-PATO:0000499-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012645	obsolete NMDA glutamate receptor activity Mauthner neuron decreased process quality, abnormal	true	GO:0004972-BFO:0000050-ZFA:0009149-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022909	obsolete axon CaP motoneuron length, abnormal	true	GO:0030424-BFO:0000050-ZFA:0009243-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022918	obsolete ionocyte amount, abnormal	true	0-0-ZFA:0005323-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000281	obsolete oligodendrocyte differentiation abnormal, abnormal	true	0-0-GO:0048709-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000278	obsolete obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal	true	0-0-GO:0021865-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019489	obsolete cytochrome-c oxidase activity brain decreased process quality, abnormal	true	GO:0004129-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019494	obsolete chitinase activity brain increased process quality, abnormal	true	GO:0004568-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019497	obsolete hexosaminidase activity brain increased process quality, abnormal	true	GO:0015929-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010480	obsolete obsolete tissue death increased occurrence, abnormal	true	0-0-GO:0016271-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010456	obsolete vasculature abnormal, abnormal	true	0-0-ZFA:0005249-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005795	obsolete http://purl.obolibrary.org/obo/GO_0015992 disrupted, abnormal	true	0-0-GO:0015992-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005762	obsolete larval locomotory behavior abnormal, abnormal	true	0-0-GO:0008345-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005761	obsolete neuromuscular junction development abnormal, abnormal	true	0-0-GO:0007528-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005724	obsolete http://purl.obolibrary.org/obo/GO_0008105 disrupted, abnormal	true	0-0-GO:0008105-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019544	obsolete embryonic viscerocranium morphogenesis occurrence, abnormal	true	0-0-GO:0048703-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019565	obsolete cranial skeletal system development occurrence, abnormal	true	0-0-GO:1904888-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019591	obsolete embryo development ending in birth or egg hatching arrested, abnormal	true	0-0-GO:0009792-PATO:0000297-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005643	obsolete fin fold actinotrichium malformed, abnormal	true	0-0-ZFA:0000089-PATO:0000646-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014080	obsolete alkaline phosphatase activity gut epithelium disrupted, abnormal	true	GO:0004035-BFO:0000050-ZFA:0005123-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000001	obsolete zebrafish anatomical entity quality, abnormal	true	0-0-ZFA:0100000-PATO:0000001-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010242	obsolete subintestinal vein abnormal, abnormal	true	0-0-ZFA:0005035-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009447	obsolete http://purl.obolibrary.org/obo/GO_0007067 disrupted, abnormal	true	0-0-GO:0007067-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009464	obsolete http://purl.obolibrary.org/obo/GO_0042516 disrupted, abnormal	true	0-0-GO:0042516-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010155	obsolete choroid plexus fourth ventricle morphology, abnormal	true	0-0-ZFA:0001446-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022132	obsolete macrophage male organism amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0000242-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020260	obsolete intestine increased distribution, abnormal	true	0-0-ZFA:0001338-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019926	obsolete interneuron spatial pattern, abnormal	true	0-0-ZFA:0009051-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020169	obsolete musculature system decreased distribution, abnormal	true	0-0-ZFA:0000548-PATO:0001672-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020156	obsolete intestine lumenized, abnormal	true	0-0-ZFA:0001338-PATO:0001897-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020405	obsolete voltage-gated sodium channel activity Rohon-Beard neuron decreased process quality, abnormal	true	GO:0005248-BFO:0000050-ZFA:0009150-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021349	obsolete hypothalamus occurrence mitotic cell cycle process, abnormal	true	GO:1903047-BFO:0000066-ZFA:0000032-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0020086	obsolete telencephalon increased distribution, abnormal	true	0-0-ZFA:0000079-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0015364	obsolete corpuscles of Stannius present, abnormal	true	0-0-ZFA:0001200-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0015312	obsolete nitric-oxide synthase activity leukocyte increased process quality, abnormal	true	GO:0004517-BFO:0000050-ZFA:0009309-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021500	obsolete retinal ganglion cell amount, abnormal	true	0-0-ZFA:0009310-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021242	obsolete pronephric proximal convoluted tubule diameter, abnormal	true	0-0-ZFA:0001620-PATO:0001334-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021245	obsolete cytoplasmic vesicle pronephric proximal straight tubule amount, abnormal	true	GO:0031410-BFO:0000050-ZFA:0001621-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021246	obsolete ciliated epithelial cell pronephric proximal convoluted tubule organization quality, abnormal	true	ZFA:0009035-BFO:0000050-ZFA:0001620-PATO:0002264-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005759	obsolete neuromuscular synaptic transmission abnormal, abnormal	true	0-0-GO:0007274-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017133	obsolete diencephalon position, abnormal	true	0-0-ZFA:0000101-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013930	obsolete cellular_component quality, abnormal	true	0-0-GO:0005575-PATO:0000001-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013929	obsolete molecular_function quality, abnormal	true	0-0-GO:0003674-PATO:0000001-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013928	obsolete biological_process quality, abnormal	true	0-0-GO:0008150-PATO:0000001-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021297	obsolete neural crest amount, abnormal	true	0-0-ZFA:0000045-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003681	obsolete angiogenic sprout abnormal, abnormal	true	0-0-ZFA:0005604-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003653	obsolete cell adhesion abnormal, abnormal	true	0-0-GO:0007155-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003633	obsolete http://purl.obolibrary.org/obo/GO_0007067 arrested, abnormal	true	0-0-GO:0007067-PATO:0000297-0-0-0
+http://purl.obolibrary.org/obo/ZP_0015017	obsolete somite border amount, abnormal	true	0-0-ZFA:0001462-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006588	obsolete http://purl.obolibrary.org/obo/GO_0007067 decreased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022193	obsolete basal regeneration epithelium position, abnormal	true	0-0-ZFA:0005150-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003590	obsolete http://purl.obolibrary.org/obo/GO_0000046 arrested, abnormal	true	0-0-GO:0000046-PATO:0000297-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011353	obsolete cysteine-type endopeptidase activity retinal ganglion cell decreased occurrence, abnormal	true	GO:0004197-BFO:0000050-ZFA:0009310-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021375	obsolete pancreas primordium spatial pattern, abnormal	true	0-0-ZFA:0000254-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013740	obsolete roof plate rhombomere region thickness, abnormal	true	0-0-ZFA:0001311-PATO:0000915-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021501	obsolete retinal neural layer occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000046-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003464	obsolete protein serine/threonine kinase activity intestine increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0001338-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003456	obsolete protein serine/threonine kinase activity liver increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000123-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003455	obsolete protein serine/threonine kinase activity eye increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000107-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003453	obsolete protein serine/threonine kinase activity spinal cord increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000075-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003452	obsolete protein serine/threonine kinase activity brain increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000008-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0016275	obsolete catechol oxidase activity melanocyte decreased process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013686	obsolete neurotransmitter secretion frequency, abnormal	true	0-0-GO:0007269-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013587	obsolete http://purl.obolibrary.org/obo/GO_0007067 occurrence, abnormal	true	0-0-GO:0007067-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022006	obsolete Meckel's cartilage amount, abnormal	true	0-0-ZFA:0001205-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010636	obsolete pharyngeal arch cartilage abnormal, abnormal	true	0-0-ZFA:0001460-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013539	obsolete AMPA glutamate receptor activity Mauthner neuron process quality, abnormal	true	GO:0004971-BFO:0000050-ZFA:0009149-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021498	obsolete regenerating tissue lateral rectus amount, abnormal	true	ZFA:0005147-BFO:0000050-ZFA:0000383-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022032	obsolete commissure of the tract of the commissure of the caudal tuberculum has number of axon commissure of the tract of the commissure of the caudal tuberculum, abnormal	true	0-0-ZFA:0005877-PATO:0001555-GO:0030424-BFO:0000050-ZFA:0005877
+http://purl.obolibrary.org/obo/ZP_0022065	obsolete digestive system size, abnormal	true	0-0-ZFA:0000339-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003201	obsolete http://purl.obolibrary.org/obo/GO_0007067 increased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013468	obsolete heart contraction rhythmic, abnormal	true	0-0-GO:0060047-PATO:0000505-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013462	obsolete catechol oxidase activity melanocyte process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013461	obsolete catechol oxidase activity eye process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0000107-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008731	obsolete laminin binding whole organism decreased occurrence, abnormal	true	GO:0043236-BFO:0000050-ZFA:0001094-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021504	obsolete cranium occurrence osteoblast differentiation, abnormal	true	GO:0001649-BFO:0000066-ZFA:0000737-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021543	obsolete spinal cord process quality reactive oxygen species biosynthetic process, abnormal	true	GO:1903409-BFO:0000066-ZFA:0000075-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021545	obsolete heart process quality reactive oxygen species biosynthetic process, abnormal	true	GO:1903409-BFO:0000066-ZFA:0000114-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021231	obsolete exocrine pancreas amount, abnormal	true	0-0-ZFA:0001249-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021243	obsolete pronephric proximal straight tubule diameter, abnormal	true	0-0-ZFA:0001621-PATO:0001334-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021244	obsolete cytoplasmic vesicle pronephric proximal convoluted tubule amount, abnormal	true	GO:0031410-BFO:0000050-ZFA:0001620-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022114	obsolete ciliary marginal zone increased distribution, abnormal	true	0-0-ZFA:0001289-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022125	obsolete hepatocellular carcinoma female organism increased amount, abnormal	true	MPATH:357-BFO:0000050-ZFA:0000303-PATO:0000470-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022126	obsolete hepatocyte male organism amount, abnormal	true	ZFA:0009111-BFO:0000050-ZFA:0000242-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022133	obsolete neutrophil male organism amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0000242-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021691	obsolete pronephric glomerulus functionality, abnormal	true	0-0-ZFA:0001557-PATO:0001509-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008616	obsolete http://purl.obolibrary.org/obo/GO_0040023 disrupted, abnormal	true	0-0-GO:0040023-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0018878	obsolete lipase activity gall bladder absent, abnormal	true	GO:0016298-BFO:0000050-ZFA:0000208-PATO:0000462-0-0-0
+http://purl.obolibrary.org/obo/ZP_0018875	obsolete lipase activity intestine decreased occurrence, abnormal	true	GO:0016298-BFO:0000050-ZFA:0001338-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021351	obsolete amacrine cell differentiation process quality, abnormal	true	0-0-GO:0035881-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021352	obsolete retinal cone cell differentiation process quality, abnormal	true	0-0-GO:0042670-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021353	obsolete cell retina amount, abnormal	true	GO:0005623-BFO:0000050-ZFA:0000152-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013238	obsolete http://purl.obolibrary.org/obo/ZFA_0005182 amount, abnormal	true	0-0-ZFA:0005182-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021785	obsolete exocrine pancreas length, abnormal	true	0-0-ZFA:0001249-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021729	obsolete caudal fin amount, abnormal	true	0-0-ZFA:0001058-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021603	obsolete NADH dehydrogenase (ubiquinone) activity occurrence, abnormal	true	0-0-GO:0008137-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021605	obsolete nervous system occurrence inflammatory response, abnormal	true	GO:0006954-BFO:0000066-ZFA:0000396-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021610	obsolete olfactory bulb has normal numbers of parts of type dopaminergic neuron, abnormal	true	0-0-ZFA:0000402-PATO:0001905-0-0-ZFA:0009301
+http://purl.obolibrary.org/obo/ZP_0021432	obsolete anterior region pronephric duct amount, abnormal	true	BSPO:0000071-BFO:0000050-ZFA:0000150-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021444	obsolete liver amount, abnormal	true	0-0-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021454	obsolete trunk degree of pigmentation, abnormal	true	0-0-ZFA:0001115-PATO:0002247-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001752	obsolete http://purl.obolibrary.org/obo/GO_0007067 process quality, abnormal	true	0-0-GO:0007067-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022243	obsolete extension decreased area, abnormal	true	0-0-ZFA:0000106-PATO:0002058-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022244	obsolete epidermal cell caudal fin amount, abnormal	true	ZFA:0009183-BFO:0000050-ZFA:0001058-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022245	obsolete olfactory placode spatial pattern, abnormal	true	0-0-ZFA:0000048-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022246	obsolete solid lens vesicle spatial pattern, abnormal	true	0-0-ZFA:0001679-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022254	obsolete intermediate cell mass of mesoderm position, abnormal	true	0-0-ZFA:0000033-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022255	obsolete blood island position, abnormal	true	0-0-ZFA:0000094-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006795	obsolete tonic skeletal muscle contraction abnormal, abnormal	true	0-0-GO:0014720-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012000	obsolete phosphodiesterase I activity whole organism decreased occurrence, abnormal	true	GO:0004528-BFO:0000050-ZFA:0001094-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021534	obsolete gut amount, abnormal	true	0-0-ZFA:0000112-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021541	obsolete brain process quality reactive oxygen species biosynthetic process, abnormal	true	GO:1903409-BFO:0000066-ZFA:0000008-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013049	obsolete convergent extension occurrence, abnormal	true	0-0-GO:0060026-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021612	obsolete diencephalon occurrence inflammatory response, abnormal	true	GO:0006954-BFO:0000066-ZFA:0000101-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021614	obsolete olfactory bulb occurrence inflammatory response, abnormal	true	GO:0006954-BFO:0000066-ZFA:0000402-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021630	obsolete cranium occurrence bone mineralization, abnormal	true	GO:0030282-BFO:0000066-ZFA:0000737-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021631	obsolete digestive system amount, abnormal	true	0-0-ZFA:0000339-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021633	obsolete dopaminergic neuron spatial pattern, abnormal	true	0-0-ZFA:0009301-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021643	obsolete dopaminergic neuron midbrain amount, abnormal	true	ZFA:0009301-BFO:0000050-ZFA:0000128-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021650	obsolete glucose blood plasma amount, abnormal	true	CHEBI:17234-BFO:0000050-ZFA:0005654-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008276	obsolete head abnormal, abnormal	true	0-0-ZFA:0001114-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008271	obsolete eye abnormal, abnormal	true	0-0-ZFA:0000107-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022312	obsolete myelinating Schwann cell posterior lateral line structure, abnormal	true	ZFA:0009135-BFO:0000050-ZFA:0000944-PATO:0000141-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022354	obsolete myotome size, abnormal	true	0-0-ZFA:0001056-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022355	obsolete paraxial mesoderm amount, abnormal	true	0-0-ZFA:0000255-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011774	obsolete pronephric tubule in contact with pronephric tubule, abnormal	true	0-0-ZFA:0001558-PATO:0001961-0-0-ZFA:0001558
+http://purl.obolibrary.org/obo/ZP_0011773	obsolete pronephric tubule undulate, abnormal	true	0-0-ZFA:0001558-PATO:0000967-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011772	obsolete pronephric tubule branched, abnormal	true	0-0-ZFA:0001558-PATO:0000402-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011765	obsolete collateral sprouting in absence of injury disrupted, abnormal	true	0-0-GO:0048669-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021989	obsolete ventral aorta diameter, abnormal	true	0-0-ZFA:0000604-PATO:0001334-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022928	obsolete motor neuron occurrence bleb assembly, abnormal	true	GO:0032060-BFO:0000066-ZFA:0009052-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021965	obsolete proximal region intestine circumference, abnormal	true	BSPO:0000077-BFO:0000050-ZFA:0001338-PATO:0001648-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021960	obsolete intestinal villus perimeter, abnormal	true	0-0-ZFA:0005125-PATO:0001711-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006813	obsolete developmental growth abnormal, abnormal	true	0-0-GO:0048589-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021946	obsolete cerebellum decreased distribution, abnormal	true	0-0-ZFA:0000100-PATO:0001672-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021945	obsolete cerebellum increased distribution, abnormal	true	0-0-ZFA:0000100-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021938	obsolete triglyceride whole organism amount, abnormal	true	CHEBI:17855-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021936	obsolete digestive system occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000339-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021935	obsolete glial cell spinal cord amount, abnormal	true	ZFA:0009073-BFO:0000050-ZFA:0000075-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021933	obsolete spinal cord process quality inflammatory response, abnormal	true	GO:0006954-BFO:0000066-ZFA:0000075-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021926	obsolete notochord occurrence nitric oxide biosynthetic process, abnormal	true	GO:0006809-BFO:0000066-ZFA:0000135-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008101	obsolete heart looping abnormal, abnormal	true	0-0-GO:0001947-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021801	obsolete reactive oxygen species biosynthetic process process quality, abnormal	true	0-0-GO:1903409-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011654	obsolete choroidal fissure closure incomplete, abnormal	true	0-0-ZFA:0001075-PATO:0000609-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023029	obsolete 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate pronephric duct position, abnormal	true	CHEBI:16618-BFO:0000050-ZFA:0000150-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023027	obsolete pronephric duct process quality inositol phosphate-mediated signaling, abnormal	true	GO:0048016-BFO:0000066-ZFA:0000150-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005476	obsolete http://purl.obolibrary.org/obo/GO_0090002 disrupted, abnormal	true	0-0-GO:0090002-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021899	obsolete ovary amount, abnormal	true	0-0-ZFA:0000403-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021897	obsolete pancreas amount, abnormal	true	0-0-ZFA:0000140-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021890	obsolete eye present, abnormal	true	0-0-ZFA:0000107-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021883	obsolete cell whole organism amount, abnormal	true	ZFA:0009000-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021879	obsolete photoreceptor cell retinal outer nuclear layer amount, abnormal	true	ZFA:0009127-BFO:0000050-ZFA:0001464-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021866	obsolete aggressive behavior decreased process quality, abnormal	true	0-0-GO:0002118-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021864	obsolete intestine amount, abnormal	true	0-0-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021842	obsolete head amount, abnormal	true	0-0-ZFA:0001114-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021868	obsolete social behavior decreased process quality, abnormal	true	0-0-GO:0035176-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021814	obsolete gill amount, abnormal	true	0-0-ZFA:0000354-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021803	obsolete triglyceride-rich plasma lipoprotein particle blood amount, abnormal	true	GO:0034385-BFO:0000050-ZFA:0000007-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023018	obsolete beta-galactosidase activity spinal cord increased process quality, abnormal	true	GO:0004565-BFO:0000050-ZFA:0000075-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022442	obsolete brain amount, abnormal	true	0-0-ZFA:0000008-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022443	obsolete cell surface DEL position, abnormal	true	GO:0009986-BFO:0000050-ZFA:0000711-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006886	obsolete retina abnormal, abnormal	true	0-0-ZFA:0000152-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023020	obsolete pronephros rate renal filtration, abnormal	true	GO:0097205-BFO:0000066-ZFA:0000151-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023021	obsolete pronephric duct has number of motile cilium pronephric duct, abnormal	true	0-0-ZFA:0000150-PATO:0001555-GO:0031514-BFO:0000050-ZFA:0000150
+http://purl.obolibrary.org/obo/ZP_0023022	obsolete pronephric duct occurrence cilium assembly, abnormal	true	GO:0060271-BFO:0000066-ZFA:0000150-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001467	obsolete thigmotaxis abnormal, abnormal	true	0-0-GO:0001966-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001468	obsolete mechanosensory behavior abnormal, abnormal	true	0-0-GO:0007638-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023030	obsolete apical plasma membrane pronephric duct position, abnormal	true	GO:0016324-BFO:0000050-ZFA:0000150-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023034	obsolete hematopoietic stem cell spatial pattern, abnormal	true	0-0-ZFA:0009014-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023035	obsolete posterior region hematopoietic system spatial pattern, abnormal	true	BSPO:0000072-BFO:0000050-ZFA:0005023-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006812	obsolete spindle pole body duplication decreased occurrence, abnormal	true	0-0-GO:0030474-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006810	obsolete http://purl.obolibrary.org/obo/GO_0007067 increased duration, abnormal	true	0-0-GO:0007067-PATO:0000498-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023040	obsolete macrophage liver amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021796	obsolete axon commissure of the tract of the commissure of the caudal tuberculum amount, abnormal	true	GO:0030424-BFO:0000050-ZFA:0005877-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021931	obsolete scale occurrence bone resorption, abnormal	true	GO:0045453-BFO:0000066-ZFA:0000277-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021755	obsolete neuromast damage, abnormal	true	0-0-ZFA:0000243-PATO:0001020-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021962	obsolete proximal region intestine amount, abnormal	true	BSPO:0000077-BFO:0000050-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021970	obsolete intestinal epithelium perimeter, abnormal	true	0-0-ZFA:0005124-PATO:0001711-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001271	obsolete retinal inner nuclear layer abnormal, abnormal	true	0-0-ZFA:0000119-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021738	obsolete plasma lipoprotein particle blood amount, abnormal	true	GO:0034358-BFO:0000050-ZFA:0000007-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021732	obsolete epicardium amount, abnormal	true	0-0-ZFA:0005057-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021980	obsolete vascular endothelium optic artery thickness, abnormal	true	ZFA:0001639-BFO:0000050-ZFA:0005044-PATO:0000915-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021724	obsolete lipase activity intestine decreased process quality, abnormal	true	GO:0016298-BFO:0000050-ZFA:0001338-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023023	obsolete 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate pronephric duct position, abnormal	true	CHEBI:18348-BFO:0000050-ZFA:0000150-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021718	obsolete nucleus retina amount, abnormal	true	GO:0005634-BFO:0000050-ZFA:0000152-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021717	obsolete nucleus brain amount, abnormal	true	GO:0005634-BFO:0000050-ZFA:0000008-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023056	obsolete ventral fin fold degeneration, abnormal	true	0-0-ZFA:0001069-PATO:0002037-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023024	obsolete apical plasma membrane pronephric duct amount, abnormal	true	GO:0016324-BFO:0000050-ZFA:0000150-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011459	obsolete http://purl.obolibrary.org/obo/GO_0000046 process quality, abnormal	true	0-0-GO:0000046-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006793	obsolete startle response abnormal, abnormal	true	0-0-GO:0001964-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023014	obsolete ectomesenchyme amount, abnormal	true	0-0-ZFA:0005771-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023015	obsolete migratory neural crest amount, abnormal	true	0-0-ZFA:0007085-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021693	obsolete podocyte foot podocyte amount, abnormal	true	GO:0098846-BFO:0000050-ZFA:0009285-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021668	obsolete myeloid leukocyte head kidney amount, abnormal	true	ZFA:0009326-BFO:0000050-ZFA:0000669-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021665	obsolete lymphocyte head kidney amount, abnormal	true	ZFA:0009250-BFO:0000050-ZFA:0000669-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021662	obsolete head kidney amount, abnormal	true	0-0-ZFA:0000669-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021638	obsolete neuromast hair cell damage, abnormal	true	0-0-ZFA:0009367-PATO:0001020-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023075	obsolete neuron process quality cellular response to stress, abnormal	true	GO:0033554-BFO:0000066-ZFA:0009248-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021608	obsolete olfactory bulb amount, abnormal	true	0-0-ZFA:0000402-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021607	obsolete diencephalon amount, abnormal	true	0-0-ZFA:0000101-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0016922	obsolete olfactory receptor activity olfactory bulb decreased process quality, abnormal	true	GO:0004984-BFO:0000050-ZFA:0000402-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0016921	obsolete olfactory receptor activity microvillous olfactory receptor neuron decreased process quality, abnormal	true	GO:0004984-BFO:0000050-ZFA:0009359-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022530	obsolete pronephros occurrence multi-ciliated epithelial cell differentiation, abnormal	true	GO:1903251-BFO:0000066-ZFA:0000151-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022555	obsolete lens eye transparent, abnormal	true	ZFA:0000035-BFO:0000050-ZFA:0000107-PATO:0000964-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021590	obsolete alkaline phosphatase activity osteoblast increased process quality, abnormal	true	GO:0004035-BFO:0000050-ZFA:0009031-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021583	obsolete retina amount, abnormal	true	0-0-ZFA:0000152-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021547	obsolete liver process quality reactive oxygen species biosynthetic process, abnormal	true	GO:1903409-BFO:0000066-ZFA:0000123-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0016882	obsolete GTPase activator activity integument increased process quality, abnormal	true	GO:0005096-BFO:0000050-ZFA:0000368-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021507	obsolete osteoblast cranium amount, abnormal	true	ZFA:0009031-BFO:0000050-ZFA:0000737-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023026	obsolete pronephric duct process quality establishment of epithelial cell apical/basal polarity, abnormal	true	GO:0045198-BFO:0000066-ZFA:0000150-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011298	obsolete vH ionocyte decreased rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000911-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011273	obsolete vH ionocyte rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021497	obsolete regenerating tissue occurrence autophagy, abnormal	true	GO:0006914-BFO:0000066-ZFA:0005147-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021473	obsolete neutrophil gill amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0000354-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021468	obsolete lymphangiogenic sprout intestinal lymphatic network amount, abnormal	true	ZFA:0005603-BFO:0000050-ZFA:0005840-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021466	obsolete intestinal lymphatic network process quality lymphangiogenesis, abnormal	true	GO:0001946-BFO:0000066-ZFA:0005840-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021464	obsolete epithelium neuromast position, abnormal	true	ZFA:0001486-BFO:0000050-ZFA:0000243-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021463	obsolete epidermis head position, abnormal	true	ZFA:0000105-BFO:0000050-ZFA:0001114-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021462	obsolete epithelial cell position, abnormal	true	0-0-ZFA:0009034-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021461	obsolete olfactory epithelium position, abnormal	true	0-0-ZFA:0000554-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021460	obsolete vasculature amount, abnormal	true	0-0-ZFA:0005249-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021459	obsolete midbrain amount, abnormal	true	0-0-ZFA:0000128-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021458	obsolete hindbrain amount, abnormal	true	0-0-ZFA:0000029-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021457	obsolete blood amount, abnormal	true	0-0-ZFA:0000007-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021439	obsolete pronephric duct occurrence outer dynein arm assembly, abnormal	true	GO:0036158-BFO:0000066-ZFA:0000150-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021438	obsolete pronephric duct has normal numbers of parts of type motile cilium outer dynein arm pronephric duct, abnormal	true	GO:0031514-BFO:0000050-ZFA:0000150-PATO:0001905-GO:0036157-BFO:0000050-ZFA:0000150
+http://purl.obolibrary.org/obo/ZP_0020021	obsolete midbrain hindbrain boundary increased distribution, abnormal	true	0-0-ZFA:0000042-PATO:0001671-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021409	obsolete macrophage intestine amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022514	obsolete lymph vessel development occurrence, abnormal	true	0-0-GO:0001945-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001844	obsolete http://purl.obolibrary.org/obo/GO_0042384 increased occurrence, abnormal	true	0-0-GO:0042384-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011111	obsolete fourth ventricle development abnormal, abnormal	true	0-0-GO:0021592-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008578	obsolete http://purl.obolibrary.org/obo/GO_0016337 decreased process quality, abnormal	true	0-0-GO:0016337-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021940	obsolete lipid whole organism amount, abnormal	true	CHEBI:18059-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021388	obsolete ventral region spinal cord spatial pattern, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0000075-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021376	obsolete pancreas primordium size, abnormal	true	0-0-ZFA:0000254-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021373	obsolete posterior region whole organism amount, abnormal	true	BSPO:0000072-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021372	obsolete Kupffer's vesicle amount, abnormal	true	0-0-ZFA:0000001-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021366	obsolete hematopoietic progenitor cell differentiation occurrence, abnormal	true	0-0-GO:0002244-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021348	obsolete hypothalamus amount, abnormal	true	0-0-ZFA:0000032-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0023110	obsolete spinal cord occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000075-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021928	obsolete cleithrum occurrence nitric oxide biosynthetic process, abnormal	true	GO:0006809-BFO:0000066-ZFA:0000184-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011094	obsolete rhombomere boundary formation abnormal, abnormal	true	0-0-GO:0021654-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011082	obsolete anterior commissure abnormal, abnormal	true	0-0-ZFA:0001108-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011080	obsolete supraoptic commissure abnormal, abnormal	true	0-0-ZFA:0000690-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011076	obsolete optic stalk abnormal, abnormal	true	0-0-ZFA:0000137-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011060	obsolete fourth ventricle abnormal, abnormal	true	0-0-ZFA:0000110-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021287	obsolete myotome process quality skeletal myofibril assembly, abnormal	true	GO:0014866-BFO:0000066-ZFA:0001056-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021267	obsolete cranial cartilage decreased process quality cartilage development, abnormal	true	GO:0051216-BFO:0000066-ZFA:0001458-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021262	obsolete macrophage midbrain amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0000128-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021261	obsolete macrophage hindbrain amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0000029-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021260	obsolete trunk amount, abnormal	true	0-0-ZFA:0001115-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021259	obsolete atrium amount, abnormal	true	0-0-ZFA:0000471-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021258	obsolete cardiac ventricle amount, abnormal	true	0-0-ZFA:0000009-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021257	obsolete whole organism amount, abnormal	true	0-0-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021247	obsolete ciliated epithelial cell pronephric proximal straight tubule organization quality, abnormal	true	ZFA:0009035-BFO:0000050-ZFA:0001621-PATO:0002264-0-0-0
+http://purl.obolibrary.org/obo/ZP_0016566	obsolete cell cycle lacking processual parts http://purl.obolibrary.org/obo/GO_0007067, abnormal	true	0-0-GO:0007049-PATO:0001558-0-0-GO:0007067
+http://purl.obolibrary.org/obo/ZP_0022559	obsolete heme oxygenase (decyclizing) activity whole organism decreased process quality, abnormal	true	GO:0004392-BFO:0000050-ZFA:0001094-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022831	obsolete mesoderm amount, abnormal	true	0-0-ZFA:0000041-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022858	obsolete keratinocyte amount, abnormal	true	0-0-ZFA:0009158-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022624	obsolete liver occurrence nucleotide biosynthetic process, abnormal	true	GO:0009165-BFO:0000066-ZFA:0000123-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003461	obsolete protein serine/threonine kinase activity kidney increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000529-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022910	obsolete CaP motoneuron process quality axon extension involved in axon guidance, abnormal	true	GO:0048846-BFO:0000066-ZFA:0009243-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0019481	obsolete ubiquinol-cytochrome-c reductase activity brain decreased process quality, abnormal	true	GO:0008121-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003672	obsolete angiogenesis abnormal, abnormal	true	0-0-GO:0001525-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0015044	obsolete obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal	true	0-0-GO:0021867-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013302	obsolete http://purl.obolibrary.org/obo/GO_0015992 process quality, abnormal	true	0-0-GO:0015992-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022529	obsolete pronephric proximal straight tubule has number of multi-ciliated epithelial cell pronephric proximal straight tubule, abnormal	true	0-0-ZFA:0001621-PATO:0001555-ZFA:0005242-BFO:0000050-ZFA:0001621
+http://purl.obolibrary.org/obo/ZP_0014871	obsolete http://purl.obolibrary.org/obo/GO_0000046 disrupted, abnormal	true	0-0-GO:0000046-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014821	obsolete retinal ganglion cell proliferative, abnormal	true	0-0-ZFA:0009310-PATO:0002102-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014750	obsolete acetylcholinesterase activity gut decreased process quality, abnormal	true	GO:0003990-BFO:0000050-ZFA:0000112-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022144	obsolete macrophage blood amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0000007-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004489	obsolete intersegmental vessel abnormal, abnormal	true	0-0-ZFA:0001285-PATO:0000460-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004479	obsolete http://purl.obolibrary.org/obo/GO_0043206 decreased process quality, abnormal	true	0-0-GO:0043206-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022799	obsolete keratinocyte epidermal basal stratum amount, abnormal	true	ZFA:0009158-BFO:0000050-ZFA:0001180-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014683	obsolete vH ionocyte increased rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000912-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014675	obsolete cysteine-type endopeptidase activity retinal ganglion cell occurrence, abnormal	true	GO:0004197-BFO:0000050-ZFA:0009310-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009937	obsolete alkaline phosphatase activity dorsal aorta decreased occurrence, abnormal	true	GO:0004035-BFO:0000050-ZFA:0000014-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009900	obsolete choroidal fissure open, abnormal	true	0-0-ZFA:0001075-PATO:0000610-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004391	obsolete http://purl.obolibrary.org/obo/GO_0016337 disrupted, abnormal	true	0-0-GO:0016337-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014578	obsolete http://purl.obolibrary.org/obo/GO_0000046 decreased process quality, abnormal	true	0-0-GO:0000046-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022002	obsolete pharyngeal arch 1 spatial pattern, abnormal	true	0-0-ZFA:0001612-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014494	obsolete http://purl.obolibrary.org/obo/GO_0097369 increased process quality, abnormal	true	0-0-GO:0097369-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014493	obsolete http://purl.obolibrary.org/obo/GO_0071436 increased process quality, abnormal	true	0-0-GO:0071436-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009792	obsolete roof plate rhombomere region decreased width, abnormal	true	0-0-ZFA:0001311-PATO:0000599-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002983	obsolete http://purl.obolibrary.org/obo/GO_0042384 decreased process quality, abnormal	true	0-0-GO:0042384-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004080	obsolete http://purl.obolibrary.org/obo/GO_0042384 disrupted, abnormal	true	0-0-GO:0042384-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002892	obsolete http://purl.obolibrary.org/obo/GO_0043206 disrupted, abnormal	true	0-0-GO:0043206-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0021315	obsolete myocardium amount, abnormal	true	0-0-ZFA:0001319-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022231	obsolete energy coupled proton transmembrane transport, against electrochemical gradient process quality, abnormal	true	0-0-GO:0015988-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0022100	obsolete midbrain hindbrain boundary present, abnormal	true	0-0-ZFA:0000042-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014250	obsolete http://purl.obolibrary.org/obo/GO_0007067 decreased rate, abnormal	true	0-0-GO:0007067-PATO:0000911-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100016	obsolete pronephric duct occurrence autophagy, abnormal	true	GO:0006914-BFO:0000066-ZFA:0000150-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100018	obsolete pronephric duct spatial pattern, abnormal	true	0-0-ZFA:0000150-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100019	obsolete pronephric duct amount, abnormal	true	0-0-ZFA:0000150-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100020	obsolete vent morphology, abnormal	true	0-0-ZFA:0000298-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100050	obsolete proximal pars anterior has number of thyroid stimulating hormone secreting cell, abnormal	true	0-0-ZFA:0005581-PATO:0001555-0-0-ZFA:0009218
+http://purl.obolibrary.org/obo/ZP_0100091	obsolete whole organism increased frequency apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0001094-PATO:0000380-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100093	obsolete ventral region pharyngeal arch cartilage amount, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0001460-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100094	obsolete ventral region pharyngeal arch 2 size, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0001611-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100125	obsolete actin-based cell projection peridermal cell length, abnormal	true	GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100150	obsolete nucleus erythroblast size, abnormal	true	GO:0005634-BFO:0000050-ZFA:0005237-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100153	obsolete nucleate erythrocyte occurrence hemoglobin biosynthetic process, abnormal	true	GO:0042541-BFO:0000066-ZFA:0009256-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100155	obsolete hemoglobin biosynthetic process occurrence, abnormal	true	0-0-GO:0042541-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100156	obsolete erythrocyte maturation occurrence, abnormal	true	0-0-GO:0043249-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100180	obsolete skeletal muscle attachment quality myofibril muscle tendon junction skeletal muscle, abnormal	true	GO:0030016-BFO:0000050-ZFA:0005277-PATO:0001435-GO:0005927-BFO:0000050-ZFA:0005277
+http://purl.obolibrary.org/obo/ZP_0100182	obsolete mitochondrial crista muscle morphology, abnormal	true	GO:0030061-BFO:0000050-ZFA:0005145-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100206	obsolete retinal outer nuclear layer occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0001464-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100207	obsolete retinal inner nuclear layer amount, abnormal	true	0-0-ZFA:0000119-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100208	obsolete retinal outer nuclear layer amount, abnormal	true	0-0-ZFA:0001464-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100214	obsolete retinal cone cell regenerating tissue amount, abnormal	true	ZFA:0009262-BFO:0000050-ZFA:0005147-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100216	obsolete retinal rod cell regenerating tissue amount, abnormal	true	ZFA:0009275-BFO:0000050-ZFA:0005147-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100274	obsolete nucleate erythrocyte heart present, abnormal	true	ZFA:0009256-BFO:0000050-ZFA:0000114-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100311	obsolete acetylcholinesterase activity brain increased process quality, abnormal	true	GO:0003990-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100344	obsolete central nervous system damage, abnormal	true	0-0-ZFA:0000012-PATO:0001020-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100351	obsolete pronephric tubule has number of proximal region cell, abnormal	true	BSPO:0000077-BFO:0000050-ZFA:0001558-PATO:0001555-0-0-ZFA:0009000
+http://purl.obolibrary.org/obo/ZP_0100353	obsolete pronephros amount, abnormal	true	0-0-ZFA:0000151-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100355	obsolete pronephric tubule amount, abnormal	true	0-0-ZFA:0001558-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100400	obsolete primary motor neuron process efficacy axonogenesis, abnormal	true	GO:0007409-BFO:0000066-ZFA:0009244-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100427	obsolete caudal hematopoietic tissue amount, abnormal	true	0-0-ZFA:0005898-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100453	obsolete hematopoietic multipotent progenitor cell ventral wall of dorsal aorta amount, abnormal	true	ZFA:0009354-BFO:0000050-ZFA:0005028-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100455	obsolete stereocilium neuromast morphology, abnormal	true	GO:0032420-BFO:0000050-ZFA:0000243-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100457	obsolete kinocilium neuromast morphology, abnormal	true	GO:0060091-BFO:0000050-ZFA:0000243-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100458	obsolete neuromast hair cell process quality apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0009367-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100483	obsolete leukocyte amount, abnormal	true	0-0-ZFA:0009309-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100579	obsolete lipoprotein lipase activity female organism decreased process quality, abnormal	true	GO:0004465-BFO:0000050-ZFA:0000303-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100587	obsolete atrioventricular ring amount, abnormal	true	0-0-ZFA:0005073-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100588	obsolete atrioventricular ring position, abnormal	true	0-0-ZFA:0005073-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100624	obsolete vertebral column amount, abnormal	true	0-0-ZFA:0001559-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100629	obsolete cell intestine amount, abnormal	true	ZFA:0009000-BFO:0000050-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100703	obsolete endoplasmic reticulum lumen osteoblast size, abnormal	true	GO:0005788-BFO:0000050-ZFA:0009031-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100737	obsolete Z disc cardiac muscle cell amount, abnormal	true	GO:0030018-BFO:0000050-ZFA:0009316-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100757	obsolete dopaminergic neuron diencephalon amount, abnormal	true	ZFA:0009301-BFO:0000050-ZFA:0000101-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100758	obsolete integument process quality proton export across plasma membrane, abnormal	true	GO:0120029-BFO:0000066-ZFA:0000368-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100761	obsolete vH ionocyte process quality proton export across plasma membrane, abnormal	true	GO:0120029-BFO:0000066-ZFA:0005327-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100795	obsolete visceral fat amount, abnormal	true	0-0-ZFA:0005759-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100801	obsolete protein kinase activity cardiac ventricle increased occurrence, abnormal	true	GO:0004672-BFO:0000050-ZFA:0000009-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100813	obsolete AMP-activated protein kinase activity muscle increased occurrence, abnormal	true	GO:0004679-BFO:0000050-ZFA:0005145-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100818	obsolete muscle male organism amount, abnormal	true	ZFA:0005145-BFO:0000050-ZFA:0000242-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100839	obsolete dopaminergic neuron hypothalamus amount, abnormal	true	ZFA:0009301-BFO:0000050-ZFA:0000032-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100840	obsolete hypothalamus has normal numbers of parts of type dopaminergic neuron, abnormal	true	0-0-ZFA:0000032-PATO:0001905-0-0-ZFA:0009301
+http://purl.obolibrary.org/obo/ZP_0100844	obsolete nucleate erythrocyte caudal vein amount, abnormal	true	ZFA:0009256-BFO:0000050-ZFA:0000180-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100846	obsolete nucleate erythrocyte accumulation caudal vein, abnormal	true	0-0-ZFA:0009256-PATO:0002269-0-0-ZFA:0000180
+http://purl.obolibrary.org/obo/ZP_0100853	obsolete mitochondrial inner membrane whole organism functionality, abnormal	true	GO:0005743-BFO:0000050-ZFA:0001094-PATO:0001509-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100855	obsolete aerobic respiration rate, abnormal	true	0-0-GO:0009060-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100858	obsolete glutathione-disulfide reductase activity process efficacy, abnormal	true	0-0-GO:0004362-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100860	obsolete glutathione peroxidase activity process efficacy, abnormal	true	0-0-GO:0004602-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100862	obsolete superoxide dismutase activity process efficacy, abnormal	true	0-0-GO:0004784-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100864	obsolete oocyte stage IV increased occurrence meiosis II nuclear envelope disassembly, abnormal	true	GO:0051080-BFO:0000066-ZFA:0001568-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100871	obsolete reactive oxygen species whole organism amount, abnormal	true	CHEBI:26523-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100873	obsolete malonaldehyde whole organism amount, abnormal	true	CHEBI:566274-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100875	obsolete catalase activity process quality, abnormal	true	0-0-GO:0004096-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100877	obsolete superoxide dismutase activity process quality, abnormal	true	0-0-GO:0004784-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100888	obsolete cholesterol gall bladder amount, abnormal	true	CHEBI:16113-BFO:0000050-ZFA:0000208-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100890	obsolete cholesterol intestine amount, abnormal	true	CHEBI:16113-BFO:0000050-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100892	obsolete osteosarcoma whole organism amount, abnormal	true	MPATH:397-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100906	obsolete cranium process quality bone mineralization, abnormal	true	GO:0030282-BFO:0000066-ZFA:0000737-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100922	obsolete granulocyte amount, abnormal	true	0-0-ZFA:0009048-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100975	obsolete swimming frequency, abnormal	true	0-0-GO:0036268-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100976	obsolete locomotion frequency, abnormal	true	0-0-GO:0040011-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100998	obsolete skeletal muscle myofibril skeletal muscle shape, abnormal	true	GO:0098723-BFO:0000050-ZFA:0005277-PATO:0000052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0100999	obsolete skeletal muscle myofibril skeletal muscle amount, abnormal	true	GO:0098723-BFO:0000050-ZFA:0005277-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101037	obsolete adenosine deaminase activity brain decreased occurrence, abnormal	true	GO:0004000-BFO:0000050-ZFA:0000008-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101042	obsolete catalase activity brain increased process quality, abnormal	true	GO:0004096-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101043	obsolete glutathione transferase activity brain increased process quality, abnormal	true	GO:0004364-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101044	obsolete glutathione peroxidase activity brain increased process quality, abnormal	true	GO:0004602-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101047	obsolete antioxidant activity brain increased process quality, abnormal	true	GO:0016209-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101055	obsolete oligodendrocyte hindbrain amount, abnormal	true	ZFA:0009076-BFO:0000050-ZFA:0000029-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101061	obsolete ito cell liver normal amount, abnormal	true	ZFA:0009279-BFO:0000050-ZFA:0000123-PATO:0002050-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101069	obsolete intestinal villus occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0005125-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101084	obsolete myelin sheath spinal cord amount, abnormal	true	GO:0043209-BFO:0000050-ZFA:0000075-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101087	obsolete taxis occurrence, abnormal	true	0-0-GO:0042330-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101096	obsolete liver male organism amount, abnormal	true	ZFA:0000123-BFO:0000050-ZFA:0000242-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101101	obsolete midbrain hindbrain boundary angle midbrain hindbrain boundary, abnormal	true	0-0-ZFA:0000042-PATO:0002326-0-0-ZFA:0000042
+http://purl.obolibrary.org/obo/ZP_0101110	obsolete dopaminergic neuron diencephalon present, abnormal	true	ZFA:0009301-BFO:0000050-ZFA:0000101-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101152	obsolete hatching occurrence, abnormal	true	0-0-GO:0035188-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101153	obsolete axial region whole organism morphology, abnormal	true	BSPO:0000128-BFO:0000050-ZFA:0001094-PATO:0000051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101155	obsolete axon Mauthner neuron diameter, abnormal	true	GO:0030424-BFO:0000050-ZFA:0009149-PATO:0001334-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101157	obsolete cell body Mauthner neuron diameter, abnormal	true	GO:0044297-BFO:0000050-ZFA:0009149-PATO:0001334-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101159	obsolete Mauthner neuron frequency spontaneous synaptic transmission, abnormal	true	GO:0098814-BFO:0000066-ZFA:0009149-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101162	obsolete catalase activity brain decreased process quality, abnormal	true	GO:0004096-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101163	obsolete glutathione transferase activity brain decreased process quality, abnormal	true	GO:0004364-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101164	obsolete peroxidase activity brain increased occurrence, abnormal	true	GO:0004601-BFO:0000050-ZFA:0000008-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101165	obsolete superoxide dismutase activity brain decreased process quality, abnormal	true	GO:0004784-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101172	obsolete neoplasm brain size, abnormal	true	MPATH:218-BFO:0000050-ZFA:0000008-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101186	obsolete visual learning process quality, abnormal	true	0-0-GO:0008542-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101211	obsolete dendritic spine neuron thickness, abnormal	true	GO:0043197-BFO:0000050-ZFA:0009248-PATO:0000915-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101218	obsolete neutrophil accumulation post-vent region, abnormal	true	0-0-ZFA:0009327-PATO:0002269-0-0-ZFA:0001117
+http://purl.obolibrary.org/obo/ZP_0101222	obsolete hexokinase activity muscle process quality, abnormal	true	GO:0004396-BFO:0000050-ZFA:0005145-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101223	obsolete phosphoenolpyruvate carboxykinase activity liver process quality, abnormal	true	GO:0004611-BFO:0000050-ZFA:0000123-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101224	obsolete pyruvate kinase activity muscle process quality, abnormal	true	GO:0004743-BFO:0000050-ZFA:0005145-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101245	obsolete acetylcholinesterase activity brain process quality, abnormal	true	GO:0003990-BFO:0000050-ZFA:0000008-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101246	obsolete acetylcholinesterase activity brain increased occurrence, abnormal	true	GO:0003990-BFO:0000050-ZFA:0000008-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101283	obsolete melanoma whole organism amount, abnormal	true	MPATH:359-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101313	obsolete NADH dehydrogenase (ubiquinone) activity whole organism decreased occurrence, abnormal	true	GO:0008137-BFO:0000050-ZFA:0001094-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101316	obsolete oligodendrocyte occurrence TOR signaling, abnormal	true	GO:0031929-BFO:0000066-ZFA:0009076-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101353	obsolete regenerating fin caudal fin amount, abnormal	true	ZFA:0001269-BFO:0000050-ZFA:0001058-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101375	obsolete neoplasm yolk syncytial layer size, abnormal	true	MPATH:218-BFO:0000050-ZFA:0000088-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101377	obsolete glycolytic process rate, abnormal	true	0-0-GO:0006096-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101379	obsolete oxidative phosphorylation rate, abnormal	true	0-0-GO:0006119-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101385	obsolete atrium rhythm quality heart contraction, abnormal	true	GO:0060047-BFO:0000066-ZFA:0000471-PATO:0000078-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101429	obsolete pronephric duct has number of anatomical region leukocyte, abnormal	true	BSPO:0000070-BFO:0000050-ZFA:0000150-PATO:0001555-0-0-ZFA:0009309
+http://purl.obolibrary.org/obo/ZP_0101431	obsolete cAMP-dependent protein kinase activity whole organism increased occurrence, abnormal	true	GO:0004691-BFO:0000050-ZFA:0001094-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101432	obsolete pronephric duct occurrence epithelial cell proliferation, abnormal	true	GO:0050673-BFO:0000066-ZFA:0000150-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101443	obsolete pyruvate whole organism amount, abnormal	true	CHEBI:15361-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101445	obsolete lactate whole organism amount, abnormal	true	CHEBI:24996-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101467	obsolete melanoma whole organism size, abnormal	true	MPATH:359-BFO:0000050-ZFA:0001094-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101509	obsolete liver occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0000123-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101541	obsolete anatomical region intestinal bulb position, abnormal	true	BSPO:0000070-BFO:0000050-ZFA:0001076-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101548	obsolete cell intersegmental vessel amount, abnormal	true	ZFA:0009000-BFO:0000050-ZFA:0001285-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101549	obsolete posterior lateral line primordium has number of cell posterior lateral line primordium, abnormal	true	0-0-ZFA:0001157-PATO:0001555-ZFA:0009000-BFO:0000050-ZFA:0001157
+http://purl.obolibrary.org/obo/ZP_0101559	obsolete erythroid progenitor cell amount, abnormal	true	0-0-ZFA:0009015-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101561	obsolete spinal cord has number of oligodendrocyte, abnormal	true	0-0-ZFA:0000075-PATO:0001555-0-0-ZFA:0009076
+http://purl.obolibrary.org/obo/ZP_0101576	obsolete parapineal organ has number of neuron parapineal organ, abnormal	true	0-0-ZFA:0001360-PATO:0001555-ZFA:0009248-BFO:0000050-ZFA:0001360
+http://purl.obolibrary.org/obo/ZP_0101603	obsolete cell eye amount, abnormal	true	ZFA:0009000-BFO:0000050-ZFA:0000107-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101614	obsolete pronephric proximal convoluted tubule occurrence blood vessel morphogenesis, abnormal	true	GO:0048514-BFO:0000066-ZFA:0001620-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101616	obsolete pronephric proximal straight tubule occurrence blood vessel morphogenesis, abnormal	true	GO:0048514-BFO:0000066-ZFA:0001621-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101618	obsolete pronephric proximal convoluted tubule occurrence renal system vasculature morphogenesis, abnormal	true	GO:0061438-BFO:0000066-ZFA:0001620-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101620	obsolete pronephric proximal straight tubule occurrence renal system vasculature morphogenesis, abnormal	true	GO:0061438-BFO:0000066-ZFA:0001621-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101627	obsolete hematopoietic multipotent progenitor cell intermediate cell mass of mesoderm amount, abnormal	true	ZFA:0009354-BFO:0000050-ZFA:0000033-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101629	obsolete cardiac ventricle has number of cardiac muscle cell, abnormal	true	0-0-ZFA:0000009-PATO:0001555-0-0-ZFA:0009316
+http://purl.obolibrary.org/obo/ZP_0101660	obsolete ventral region pharyngeal arch amount, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0001306-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101675	obsolete liver functionality, abnormal	true	0-0-ZFA:0000123-PATO:0001509-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101676	obsolete liver has number of intrahepatic bile duct, abnormal	true	0-0-ZFA:0000123-PATO:0001555-0-0-ZFA:0005169
+http://purl.obolibrary.org/obo/ZP_0101680	obsolete L-type voltage-gated calcium channel complex muscle cell amount, abnormal	true	GO:1990454-BFO:0000050-ZFA:0009114-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101681	obsolete muscle cell process quality release of sequestered calcium ion into cytosol by sarcoplasmic reticulum, abnormal	true	GO:0014808-BFO:0000066-ZFA:0009114-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101700	obsolete vascular associated smooth muscle cell dorsal aorta amount, abnormal	true	ZFA:0009181-BFO:0000050-ZFA:0000014-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101718	obsolete dorsal aorta amount, abnormal	true	0-0-ZFA:0000014-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101839	obsolete spinal cord interneuron frequency membrane depolarization, abnormal	true	GO:0051899-BFO:0000066-ZFA:0000778-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101841	obsolete motor neuron frequency membrane depolarization, abnormal	true	GO:0051899-BFO:0000066-ZFA:0009052-PATO:0000044-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101857	obsolete pronephric proximal convoluted tubule size, abnormal	true	0-0-ZFA:0001620-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101904	obsolete facial nerve motor nucleus occurrence motor neuron migration, abnormal	true	GO:0097475-BFO:0000066-ZFA:0000206-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101905	obsolete neuron projection facial nerve motor nucleus amount, abnormal	true	GO:0043005-BFO:0000050-ZFA:0000206-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101906	obsolete neuron projection facial nerve motor nucleus length, abnormal	true	GO:0043005-BFO:0000050-ZFA:0000206-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101907	obsolete motor neuron facial nerve motor nucleus shape, abnormal	true	ZFA:0009052-BFO:0000050-ZFA:0000206-PATO:0000052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101908	obsolete motor neuron facial nerve motor nucleus volume, abnormal	true	ZFA:0009052-BFO:0000050-ZFA:0000206-PATO:0000918-0-0-0
+http://purl.obolibrary.org/obo/ZP_0101921	obsolete central region retina amount, abnormal	true	BSPO:0000075-BFO:0000050-ZFA:0000152-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102033	obsolete cranial cartilage structure, abnormal	true	0-0-ZFA:0001458-PATO:0000141-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102047	obsolete hindbrain process quality oligodendrocyte development, abnormal	true	GO:0014003-BFO:0000066-ZFA:0000029-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102096	obsolete thyroid follicle amount, abnormal	true	0-0-ZFA:0001072-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102100	obsolete skeletal muscle myofibril slow muscle cell organization quality, abnormal	true	GO:0098723-BFO:0000050-ZFA:0009116-PATO:0002264-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102101	obsolete myotome width, abnormal	true	0-0-ZFA:0001056-PATO:0000921-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102102	obsolete striated muscle cell length, abnormal	true	0-0-ZFA:0005784-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102103	obsolete striated muscle cell width, abnormal	true	0-0-ZFA:0005784-PATO:0000921-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102151	obsolete notochord damage, abnormal	true	0-0-ZFA:0000135-PATO:0001020-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102165	obsolete neuroblastoma interrenal gland volume, abnormal	true	MPATH:376-BFO:0000050-ZFA:0001345-PATO:0000918-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102207	obsolete liver process quality intrahepatic bile duct development, abnormal	true	GO:0035622-BFO:0000066-ZFA:0000123-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102208	obsolete bile ductule process quality morphogenesis of a branching epithelium, abnormal	true	GO:0061138-BFO:0000066-ZFA:0005164-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102209	obsolete liver and biliary system functionality, abnormal	true	0-0-ZFA:0000036-PATO:0001509-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102214	obsolete intersegmental vessel occurrence sprouting angiogenesis, abnormal	true	GO:0002040-BFO:0000066-ZFA:0001285-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102217	obsolete trunk vasculature amount, abnormal	true	0-0-ZFA:0005024-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102248	obsolete hematopoietic system has number of posterior region hematopoietic multipotent progenitor cell, abnormal	true	BSPO:0000072-BFO:0000050-ZFA:0005023-PATO:0001555-0-0-ZFA:0009354
+http://purl.obolibrary.org/obo/ZP_0102249	obsolete vasculature hematopoietic system amount, abnormal	true	ZFA:0005249-BFO:0000050-ZFA:0005023-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102288	obsolete hematopoietic system occurrence cell death, abnormal	true	GO:0008219-BFO:0000066-ZFA:0005023-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102310	obsolete interrenal gland occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0001345-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102311	obsolete interrenal gland occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0001345-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102312	obsolete cell interrenal gland amount, abnormal	true	ZFA:0009000-BFO:0000050-ZFA:0001345-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102313	obsolete nucleolus interrenal gland spatial pattern, abnormal	true	GO:0005730-BFO:0000050-ZFA:0001345-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102314	obsolete nucleolus interrenal gland area, abnormal	true	GO:0005730-BFO:0000050-ZFA:0001345-PATO:0001323-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102315	obsolete neuroblastoma interrenal gland size, abnormal	true	MPATH:376-BFO:0000050-ZFA:0001345-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102420	obsolete glycolytic process process quality, abnormal	true	0-0-GO:0006096-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102425	obsolete slow muscle cell attachment quality slow muscle cell, abnormal	true	0-0-ZFA:0009116-PATO:0001435-0-0-ZFA:0009116
+http://purl.obolibrary.org/obo/ZP_0102426	obsolete slow muscle cell degeneration, abnormal	true	0-0-ZFA:0009116-PATO:0002037-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102427	obsolete muscle tendon junction myotome amount, abnormal	true	GO:0005927-BFO:0000050-ZFA:0001056-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102444	obsolete erythroblast occurrence mitophagy, abnormal	true	GO:0000423-BFO:0000066-ZFA:0005237-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102445	obsolete mitochondrion erythroblast amount, abnormal	true	GO:0005739-BFO:0000050-ZFA:0005237-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102460	obsolete liver occurrence Wnt signaling pathway, abnormal	true	GO:0016055-BFO:0000066-ZFA:0000123-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102470	obsolete triglyceride blood plasma amount, abnormal	true	CHEBI:17855-BFO:0000050-ZFA:0005654-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102483	obsolete NADH dehydrogenase (ubiquinone) activity whole organism occurrence, abnormal	true	GO:0008137-BFO:0000050-ZFA:0001094-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102484	obsolete atrioventricular canal amount, abnormal	true	0-0-ZFA:0001315-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102488	obsolete calcium channel activity neuromast hair cell increased process quality, abnormal	true	GO:0005262-BFO:0000050-ZFA:0009367-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102532	obsolete endothelial to hematopoietic transition occurrence, abnormal	true	0-0-GO:0098508-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102533	obsolete cortisol anatomical structure amount, abnormal	true	CHEBI:17650-BFO:0000050-ZFA:0000037-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102556	obsolete lateral line ganglion spatial pattern, abnormal	true	0-0-ZFA:0000120-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102559	obsolete eye spatial pattern, abnormal	true	0-0-ZFA:0000107-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102560	obsolete cysteine-type endopeptidase activity involved in apoptotic process occurrence, abnormal	true	0-0-GO:0097153-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102621	obsolete cholesterol blood plasma amount, abnormal	true	CHEBI:16113-BFO:0000050-ZFA:0005654-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102691	obsolete cell projection myelin accumulating cell amount, abnormal	true	GO:0042995-BFO:0000050-ZFA:0009163-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102701	obsolete gamma-aminobutyric acid whole organism normal amount, abnormal	true	CHEBI:16865-BFO:0000050-ZFA:0001094-PATO:0002050-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102724	obsolete integument amount, abnormal	true	0-0-ZFA:0000368-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102725	obsolete posterior cardinal vein amount, abnormal	true	0-0-ZFA:0000477-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102726	obsolete central artery amount, abnormal	true	0-0-ZFA:0005020-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102727	obsolete dorsal longitudinal anastomotic vessel amount, abnormal	true	0-0-ZFA:0005025-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102732	obsolete vasculature intestine amount, abnormal	true	ZFA:0005249-BFO:0000050-ZFA:0001338-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102759	obsolete hematopoietic stem cell blood island amount, abnormal	true	ZFA:0009014-BFO:0000050-ZFA:0000094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102760	obsolete head kidney rate hematopoietic stem cell proliferation, abnormal	true	GO:0071425-BFO:0000066-ZFA:0000669-PATO:0000161-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102761	obsolete hematopoietic stem cell head kidney amount, abnormal	true	ZFA:0009014-BFO:0000050-ZFA:0000669-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102764	obsolete myocardial precursor occurrence cardioblast migration to the midline involved in heart field formation, abnormal	true	GO:0060975-BFO:0000066-ZFA:0005490-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102765	obsolete myocardium fused with myocardium, abnormal	true	0-0-ZFA:0001319-PATO:0000642-0-0-ZFA:0001319
+http://purl.obolibrary.org/obo/ZP_0102823	obsolete neutrophil otic vesicle amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0000051-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102824	obsolete neutrophil post-vent region amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0001117-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102834	obsolete hematopoietic stem cell caudal hematopoietic tissue amount, abnormal	true	ZFA:0009014-BFO:0000050-ZFA:0005898-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102873	obsolete notochord length, abnormal	true	0-0-ZFA:0000135-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102874	obsolete hindbrain neural keel width, abnormal	true	0-0-ZFA:0007029-PATO:0000921-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102879	obsolete lipid vasculature amount, abnormal	true	CHEBI:18059-BFO:0000050-ZFA:0005249-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102880	obsolete lipid blood plasma amount, abnormal	true	CHEBI:18059-BFO:0000050-ZFA:0005654-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102917	obsolete peroxidase activity whole organism increased occurrence, abnormal	true	GO:0004601-BFO:0000050-ZFA:0001094-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102928	obsolete swim bladder structure, cavities, abnormal	true	0-0-ZFA:0000076-PATO:0002014-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102930	obsolete ciliary marginal zone occurrence apoptotic chromosome condensation, abnormal	true	GO:0030263-BFO:0000066-ZFA:0001289-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102955	obsolete anatomical region eye neoplastic, abnormal	true	BSPO:0000070-BFO:0000050-ZFA:0000107-PATO:0002011-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102973	obsolete pharyngeal arch 3-7 amount, abnormal	true	0-0-ZFA:0001613-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102985	obsolete chloride whole organism amount, abnormal	true	CHEBI:17996-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102989	obsolete potassium(1+) whole organism amount, abnormal	true	CHEBI:29103-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0102990	obsolete bone development occurrence, abnormal	true	0-0-GO:0060348-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103031	obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity brain decreased occurrence, abnormal	true	GO:0016422-BFO:0000050-ZFA:0000008-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103032	obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity liver decreased occurrence, abnormal	true	GO:0016422-BFO:0000050-ZFA:0000123-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103033	obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity ovary decreased occurrence, abnormal	true	GO:0016422-BFO:0000050-ZFA:0000403-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103034	obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity testis decreased occurrence, abnormal	true	GO:0016422-BFO:0000050-ZFA:0000598-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103035	obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity muscle decreased occurrence, abnormal	true	GO:0016422-BFO:0000050-ZFA:0005145-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103085	obsolete male organism present, abnormal	true	0-0-ZFA:0000242-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103198	obsolete hair cell posterior lateral line neuromast amount, abnormal	true	ZFA:0009366-BFO:0000050-ZFA:0000940-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103290	obsolete pronephric distal early tubule size, abnormal	true	0-0-ZFA:0001622-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103291	obsolete pronephric distal late tubule size, abnormal	true	0-0-ZFA:0001624-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103366	obsolete pronephros functionality, abnormal	true	0-0-ZFA:0000151-PATO:0001509-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103369	obsolete pronephric glomerulus size, abnormal	true	0-0-ZFA:0001557-PATO:0000117-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103500	obsolete macrophage head amount, abnormal	true	ZFA:0009141-BFO:0000050-ZFA:0001114-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103509	obsolete lipoprotein lipase activity female organism increased process quality, abnormal	true	GO:0004465-BFO:0000050-ZFA:0000303-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103510	obsolete lipoprotein lipase activity blood plasma increased process quality, abnormal	true	GO:0004465-BFO:0000050-ZFA:0005654-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103623	obsolete cholangiocyte liver amount, abnormal	true	ZFA:0009397-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103640	obsolete whole organism has number of dorsal region melanocyte, abnormal	true	BSPO:0000079-BFO:0000050-ZFA:0001094-PATO:0001555-0-0-ZFA:0009091
+http://purl.obolibrary.org/obo/ZP_0103649	obsolete lipid droplet liver amount, abnormal	true	GO:0005811-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103670	obsolete presumptive endoderm amount, abnormal	true	0-0-ZFA:0000416-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103673	obsolete presumptive mesoderm amount, abnormal	true	0-0-ZFA:0001377-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103714	obsolete closure of optic fissure process quality, abnormal	true	0-0-GO:0061386-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103737	obsolete photoreceptor outer segment retinal rod cell amount, abnormal	true	GO:0001750-BFO:0000050-ZFA:0009275-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103738	obsolete cilium macula present, abnormal	true	GO:0005929-BFO:0000050-ZFA:0000386-PATO:0000467-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103739	obsolete photoreceptor connecting cilium photoreceptor cell amount, abnormal	true	GO:0032391-BFO:0000050-ZFA:0009127-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103743	obsolete endoderm amount, abnormal	true	0-0-ZFA:0000017-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103744	obsolete axis amount, abnormal	true	0-0-ZFA:0000092-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103761	obsolete cholinergic synapse myotome amount, abnormal	true	GO:0098981-BFO:0000050-ZFA:0001056-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103875	obsolete glutathione transferase activity whole organism decreased process quality, abnormal	true	GO:0004364-BFO:0000050-ZFA:0001094-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103876	obsolete glutathione transferase activity whole organism process quality, abnormal	true	GO:0004364-BFO:0000050-ZFA:0001094-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103963	obsolete apical plasma membrane hepatocyte spatial pattern, abnormal	true	GO:0016324-BFO:0000050-ZFA:0009111-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103964	obsolete bile canaliculus position, abnormal	true	0-0-ZFA:0005163-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103974	obsolete caudal fin lepidotrichium process efficacy fin regeneration, abnormal	true	GO:0031101-BFO:0000066-ZFA:0001550-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103975	obsolete caudal fin lepidotrichium regenerating fin length, abnormal	true	ZFA:0001550-BFO:0000050-ZFA:0001269-PATO:0000122-0-0-0
+http://purl.obolibrary.org/obo/ZP_0103976	obsolete fin regeneration process efficacy, abnormal	true	0-0-GO:0031101-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104062	obsolete telencephalon amount, abnormal	true	0-0-ZFA:0000079-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104082	obsolete cartilage tissue amount, abnormal	true	0-0-ZFA:0005622-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104087	obsolete T cell occurrence apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0009046-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104108	obsolete neutrophil gut amount, abnormal	true	ZFA:0009327-BFO:0000050-ZFA:0000112-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104164	obsolete mitochondrion whole organism amount, abnormal	true	GO:0005739-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104180	obsolete iron(3+) brain amount, abnormal	true	CHEBI:29034-BFO:0000050-ZFA:0000008-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104182	obsolete iron(3+) gut amount, abnormal	true	CHEBI:29034-BFO:0000050-ZFA:0000112-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104185	obsolete iron(3+) whole organism amount, abnormal	true	CHEBI:29034-BFO:0000050-ZFA:0001094-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104186	obsolete iron(3+) muscle amount, abnormal	true	CHEBI:29034-BFO:0000050-ZFA:0005145-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104204	obsolete neutrophil chemotaxis process efficacy, abnormal	true	0-0-GO:0030593-PATO:0015002-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104207	obsolete caudal fin process quality I-kappaB kinase/NF-kappaB signaling, abnormal	true	GO:0007249-BFO:0000066-ZFA:0001058-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104419	obsolete interrenal primordium spatial pattern, abnormal	true	0-0-ZFA:0001346-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104488	obsolete monoamine oxidase activity brain decreased occurrence, abnormal	true	GO:0097621-BFO:0000050-ZFA:0000008-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104492	obsolete notochord process quality bone mineralization, abnormal	true	GO:0030282-BFO:0000066-ZFA:0000135-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104503	obsolete liver female organism amount, abnormal	true	ZFA:0000123-BFO:0000050-ZFA:0000303-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104504	obsolete visceral fat female organism amount, abnormal	true	ZFA:0005759-BFO:0000050-ZFA:0000303-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104525	obsolete whole organism occurrence blood vessel development, abnormal	true	GO:0001568-BFO:0000066-ZFA:0001094-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104713	obsolete anterior region lens spatial pattern, abnormal	true	BSPO:0000071-BFO:0000050-ZFA:0000035-PATO:0000060-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104714	obsolete anterior region lens position, abnormal	true	BSPO:0000071-BFO:0000050-ZFA:0000035-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104717	obsolete lens epithelium amount, abnormal	true	0-0-ZFA:0001326-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104718	obsolete lens epithelium position, abnormal	true	0-0-ZFA:0001326-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104720	obsolete lens epithelium thickness, abnormal	true	0-0-ZFA:0001326-PATO:0000915-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104733	obsolete heart decreased process quality heart jogging, abnormal	true	GO:0003146-BFO:0000066-ZFA:0000114-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104737	obsolete lens epithelium normal thickness, abnormal	true	0-0-ZFA:0001326-PATO:0045059-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104741	obsolete cilium Kupffer's vesicle position, abnormal	true	GO:0005929-BFO:0000050-ZFA:0000001-PATO:0000140-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104746	obsolete http://purl.obolibrary.org/obo/GO_0033142 ovary process quality, abnormal	true	GO:0033142-BFO:0000050-ZFA:0000403-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104775	obsolete aggressive behavior occurrence, abnormal	true	0-0-GO:0002118-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104778	obsolete radial glial cell occurrence stem cell proliferation, abnormal	true	GO:0072089-BFO:0000066-ZFA:0009292-PATO:0000057-0-0-0

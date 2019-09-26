@@ -11,5 +11,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/components/obsolete.owl" uri="../templates/obsolete.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

@@ -1,1 +1,0 @@
-http://purl.obolibrary.org/obo/ZFS_0100000

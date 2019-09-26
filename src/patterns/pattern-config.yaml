@@ -1,0 +1,12 @@
+anatomy_config:
+  iri_accession: 99999
+  iri_prefix: http://purl.obolibrary.org/obo/ZP_
+  global:
+    blacklist:
+      - http://purl.obolibrary.org/obo/ZFA_0001093
+    blacklist_branch:
+      - http://purl.obolibrary.org/obo/ZFS_0100000
+  patterns:
+    - pattern: abnormalAnatomicalEntity
+      blacklist:
+      blacklist_branch:
