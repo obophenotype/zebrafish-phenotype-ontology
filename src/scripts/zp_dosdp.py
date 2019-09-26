@@ -87,18 +87,21 @@ id_map.columns = ['iri','id','affected_entity_1_sub','affected_entity_1_rel','af
 
 # Load Depreacted ID MAP
 df_deprecated_id_map = pd.read_csv(deprecated_id_map, sep='\t')
-df_deprecated_id_map['obsolete'] = 'obsolete'
+obsolete_classes = list(set(df_deprecated_id_map['iri']))
+id_map = id_map[~id_map['iri'].isin(obsolete_classes)]
+
+#df_deprecated_id_map['obsolete'] = 'obsolete'
 
 # Load ZP labels (and replace IRIs by curies)
-df_zp_labels = pd.read_csv(zp_labels)
-df_zp_labels.drop_duplicates(subset=['term'],inplace=True)
-df_zp_labels = df_zp_labels.replace("http://purl.obolibrary.org/obo/", "")
-df_zp_labels = df_zp_labels.replace("_", ":") 
+#df_zp_labels = pd.read_csv(zp_labels)
+#df_zp_labels.drop_duplicates(subset=['term'],inplace=True)
+#df_zp_labels = df_zp_labels.replace("http://purl.obolibrary.org/obo/", "")
+#df_zp_labels = df_zp_labels.replace("_", ":") 
 
 # Merge labels into depreacted ID map so we can generate some pretty labels
-df_deprecated_id_map = pd.merge(df_deprecated_id_map, df_zp_labels, left_on=['iri'], right_on=['term'], how='left')
-print(str(df_deprecated_id_map.head()))
-df_deprecated_id_map.to_csv(deprecated_id_map+"_dep.tsv", sep = '\t', index=False)
+#df_deprecated_id_map = pd.merge(df_deprecated_id_map, df_zp_labels, left_on=['iri'], right_on=['term'], how='left')
+#print(str(df_deprecated_id_map.head()))
+#df_deprecated_id_map.to_csv(deprecated_id_map+"_dep.tsv", sep = '\t', index=False)
 #colsp = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super','pattern']
 
 # determine pattern for each EQ definition
