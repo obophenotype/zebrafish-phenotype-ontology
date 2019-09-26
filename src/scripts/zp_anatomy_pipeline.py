@@ -68,6 +68,7 @@ def file_to_list(file_path):
         return f.read().splitlines()
 
 #upheno_config_file = os.path.join("/ws/upheno-dev/src/curation/upheno-config.yaml")
+print("Configfile:"+configf)
 config = zpconfig(configf)
 accession = config.get_iri_accession()
 prefix = config.get_iri_prefix()
@@ -254,9 +255,13 @@ for pattern in config.get_patterns():
     else:
         print("ID map consistent.")
     
+    df.sort_values(by ='defined_class',inplace=True)
     df.drop_duplicates().to_csv(pattern_tsv, sep = '\t', index=False)
 
+df_ids.sort_values(by ='iri',inplace=True)
+df_ids=df_ids.reindex(['iri','id'], axis=1)
 df_ids.to_csv(id_map, sep = '\t', index=False)
+
 with open(reserved_ids, 'w') as f:
     for item in ids:
         f.write("%s\n" % item)
