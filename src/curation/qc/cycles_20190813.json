@@ -1,0 +1,1813 @@
+[
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) mislocalised (of) anatomical structure of right side.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) mislocalised (of) anatomical structure of right side.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "right side anatomical structure mislocalised, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0020624",
+      "label": "right side anatomical structure mislocalised, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) mislocalised (of) anatomical structure of central side.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) mislocalised (of) anatomical structure of central side.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "central side anatomical structure mislocalised, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0020622",
+      "label": "central side anatomical structure mislocalised, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) amount (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) amount (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure amount, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0020620",
+      "label": "anatomical structure amount, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) apoptotic (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) apoptotic (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure apoptotic, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0020804",
+      "label": "anatomical structure apoptotic, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased amount (of) liver of cholesterol storage.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased amount (of) liver of cholesterol storage.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "liver increased amount cholesterol storage, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0021585",
+      "label": "liver increased amount cholesterol storage, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased velocity (of) atrium of cardiac conduction.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased velocity (of) atrium of cardiac conduction.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "atrium decreased velocity cardiac conduction, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0022140",
+      "label": "atrium decreased velocity cardiac conduction, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased velocity (of) cardiac ventricle of cardiac conduction.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased velocity (of) cardiac ventricle of cardiac conduction.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cardiac ventricle decreased velocity cardiac conduction, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0022139",
+      "label": "cardiac ventricle decreased velocity cardiac conduction, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) magnitude (of) Mauthner neuron of AMPA selective glutamate receptor signaling pathway.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) magnitude (of) Mauthner neuron of AMPA selective glutamate receptor signaling pathway.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Mauthner neuron magnitude AMPA selective glutamate receptor signaling pathway, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0022414",
+      "label": "Mauthner neuron magnitude AMPA selective glutamate receptor signaling pathway, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) positive regulation of ERK1 and ERK2 cascade.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) positive regulation of ERK1 and ERK2 cascade.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "positive regulation of ERK1 and ERK2 cascade decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010302",
+      "label": "positive regulation of ERK1 and ERK2 cascade decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) cristae formation.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) cristae formation.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cristae formation absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010875",
+      "label": "cristae formation absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) efflux transmembrane transporter activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) efflux transmembrane transporter activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "efflux transmembrane transporter activity decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010900",
+      "label": "efflux transmembrane transporter activity decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disorganized (of) anatomical structure of dorso-medial region.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disorganized (of) anatomical structure of dorso-medial region.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "dorso-medial region anatomical structure disorganized, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010915",
+      "label": "dorso-medial region anatomical structure disorganized, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disrupted (of) mRNA binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disrupted (of) mRNA binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "mRNA binding disrupted, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010506",
+      "label": "mRNA binding disrupted, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased distance (of) swimming (swimming behavior).",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased distance (of) swimming (swimming behavior).",
+      "http://www.w3.org/2000/01/rdf-schema#label": "swimming decreased distance swimming behavior, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010659",
+      "label": "swimming decreased distance swimming behavior, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) thigmotropism.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) thigmotropism.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotropism absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010748",
+      "label": "thigmotropism absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "iri": "http://purl.obolibrary.org/obo/ZP_0010738"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased strength (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased strength (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis decreased strength, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0011618",
+      "label": "thigmotaxis decreased strength, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) abnormal (of) epiboly.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) abnormal (of) epiboly.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "epiboly abnormal, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0011037",
+      "label": "epiboly abnormal, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of trigeminal-facial chamber.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of trigeminal-facial chamber.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of trigeminal-facial chamber",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal trigeminal-facial chamber",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0130154",
+      "label": "abnormal trigeminal-facial chamber",
+      "synonym": "abnormality of trigeminal-facial chamber"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0012052",
+      "label": "thigmotaxis increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of anatomical conduit.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of anatomical conduit.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of anatomical conduit",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal anatomical conduit",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0130280",
+      "label": "abnormal anatomical conduit",
+      "synonym": "abnormality of anatomical conduit"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) cellular_component.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) cellular_component.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cellular_component quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0013930",
+      "label": "cellular_component quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) biological_process.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) biological_process.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "biological_process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0013928",
+      "label": "biological_process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) molecular_function.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) molecular_function.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "molecular_function quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0013929",
+      "label": "molecular_function quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) present (of) nuclear division.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) present (of) nuclear division.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "nuclear division present, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0013180",
+      "label": "nuclear division present, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) morphology (of) intestinal rod.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) morphology (of) intestinal rod.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "intestinal rod morphology, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0013479",
+      "label": "intestinal rod morphology, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased occurrence (of) hormone activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased occurrence (of) hormone activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hormone activity decreased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0000690",
+      "label": "hormone activity decreased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) sensory perception of touch.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) sensory perception of touch.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sensory perception of touch decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0000835",
+      "label": "sensory perception of touch decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased occurrence (of) obsolete symmetric radial glial cell division in forebrain.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased occurrence (of) obsolete symmetric radial glial cell division in forebrain.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0000278",
+      "label": "obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) regulation of circadian rhythm.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) regulation of circadian rhythm.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "regulation of circadian rhythm quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014997",
+      "label": "regulation of circadian rhythm quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) immune response.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) immune response.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "immune response quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014963",
+      "label": "immune response quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) response to drug.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) response to drug.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to drug quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014959",
+      "label": "response to drug quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased process quality (of) obsolete ATP catabolic process.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased process quality (of) obsolete ATP catabolic process.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete ATP catabolic process increased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014429",
+      "label": "obsolete ATP catabolic process increased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) locomotion.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) locomotion.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "locomotion decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014349",
+      "label": "locomotion decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased behavioural activity (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased behavioural activity (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis decreased behavioural activity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014533",
+      "label": "thigmotaxis decreased behavioural activity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) zebrafish anatomical entity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) zebrafish anatomical entity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "zebrafish anatomical entity quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0000001",
+      "label": "zebrafish anatomical entity quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased intensity (of) response to drug.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased intensity (of) response to drug.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to drug decreased intensity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014041",
+      "label": "response to drug decreased intensity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased intensity (of) response to drug.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased intensity (of) response to drug.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to drug increased intensity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014042",
+      "label": "response to drug increased intensity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disorganized (of) intestinal rod.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disorganized (of) intestinal rod.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "intestinal rod disorganized, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014060",
+      "label": "intestinal rod disorganized, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) response to oxidative stress.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) response to oxidative stress.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to oxidative stress increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014167",
+      "label": "response to oxidative stress increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) lipid storage.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) lipid storage.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "lipid storage decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014173",
+      "label": "lipid storage decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) lipid storage.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) lipid storage.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "lipid storage increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0014172",
+      "label": "lipid storage increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) occurrence (of) obsolete neuron-producing asymmetric radial glial cell division in forebrain.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) occurrence (of) obsolete neuron-producing asymmetric radial glial cell division in forebrain.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015044",
+      "label": "obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) viral entry into host cell.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) viral entry into host cell.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "viral entry into host cell quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015023",
+      "label": "viral entry into host cell quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) response to xenobiotic stimulus.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) response to xenobiotic stimulus.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to xenobiotic stimulus increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015156",
+      "label": "response to xenobiotic stimulus increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased intensity (of) response to xenobiotic stimulus.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased intensity (of) response to xenobiotic stimulus.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to xenobiotic stimulus increased intensity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015158",
+      "label": "response to xenobiotic stimulus increased intensity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) response to mechanical stimulus.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) response to mechanical stimulus.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to mechanical stimulus quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015100",
+      "label": "response to mechanical stimulus quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) process quality (of) gap junction hemi-channel activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) process quality (of) gap junction hemi-channel activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "gap junction hemi-channel activity process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0001581",
+      "label": "gap junction hemi-channel activity process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased efficiency (of) mating.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased efficiency (of) mating.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "mating decreased efficiency, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015724",
+      "label": "mating decreased efficiency, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) response to external stimulus.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) response to external stimulus.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to external stimulus quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0001198",
+      "label": "response to external stimulus quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased velocity (of) swimming.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased velocity (of) swimming.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "swimming increased velocity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015400",
+      "label": "swimming increased velocity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) velocity (of) swimming.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) velocity (of) swimming.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "swimming velocity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015398",
+      "label": "swimming velocity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased length (of) swimming.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased length (of) swimming.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "swimming increased length, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015399",
+      "label": "swimming increased length, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased length (of) swimming.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased length (of) swimming.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "swimming decreased length, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015397",
+      "label": "swimming decreased length, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "anatomical entity",
+        "cell",
+        "cellular component",
+        "cliqueLeader"
+      ],
+      "category": [
+        "anatomical entity",
+        "cell",
+        "cellular component"
+      ],
+      "definition": "A neuron that uses acetylcholine as a vesicular neurotransmitter.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "A neuron that uses acetylcholine as a vesicular neurotransmitter.",
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+        "WBbt:0006840",
+        "FMA:84796",
+        "BTO:0004902"
+      ],
+      "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace": "cell",
+      "http://www.geneontology.org/formats/oboInOwl#id": "CL:0000108",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cholinergic neuron",
+      "iri": "http://purl.obolibrary.org/obo/CL_0000108",
+      "label": "cholinergic neuron"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased occurrence (of) antibiotic transmembrane transporter activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased occurrence (of) antibiotic transmembrane transporter activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "antibiotic transmembrane transporter activity decreased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0015457",
+      "label": "antibiotic transmembrane transporter activity decreased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased occurrence (of) obsolete death.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased occurrence (of) obsolete death.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete death increased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0002483",
+      "label": "obsolete death increased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) cell division.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) cell division.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cell division absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0016569",
+      "label": "cell division absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased occurrence (of) G protein-coupled adenosine receptor activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased occurrence (of) G protein-coupled adenosine receptor activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "G protein-coupled adenosine receptor activity increased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0016676",
+      "label": "G protein-coupled adenosine receptor activity increased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) olfactory bulb of olfactory receptor activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) olfactory bulb of olfactory receptor activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "olfactory receptor activity olfactory bulb decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0016922",
+      "label": "olfactory receptor activity olfactory bulb decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) microvillous olfactory receptor neuron of olfactory receptor activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) microvillous olfactory receptor neuron of olfactory receptor activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "olfactory receptor activity microvillous olfactory receptor neuron decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0016921",
+      "label": "olfactory receptor activity microvillous olfactory receptor neuron decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased process quality (of) integument of GTPase activator activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased process quality (of) integument of GTPase activator activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "GTPase activator activity integument increased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0016882",
+      "label": "GTPase activator activity integument increased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) chemoattractant activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) chemoattractant activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "chemoattractant activity decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0017442",
+      "label": "chemoattractant activity decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) arrested (of) actin binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) arrested (of) actin binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "actin binding arrested, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0003160",
+      "label": "actin binding arrested, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) response to osmotic stress.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) response to osmotic stress.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to osmotic stress increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0003116",
+      "label": "response to osmotic stress increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased intensity (of) response to cadmium ion.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased intensity (of) response to cadmium ion.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to cadmium ion increased intensity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0017143",
+      "label": "response to cadmium ion increased intensity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) membrane depolarization during cardiac muscle cell action potential.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) membrane depolarization during cardiac muscle cell action potential.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "membrane depolarization during cardiac muscle cell action potential increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0017114",
+      "label": "membrane depolarization during cardiac muscle cell action potential increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased process quality (of) potassium:chloride symporter activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased process quality (of) potassium:chloride symporter activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "potassium:chloride symporter activity increased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0003445",
+      "label": "potassium:chloride symporter activity increased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) hemorrhagic (of) anatomical space.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) hemorrhagic (of) anatomical space.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical space hemorrhagic, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0017996",
+      "label": "anatomical space hemorrhagic, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) Mauthner neuron of AMPA selective glutamate receptor signaling pathway.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) Mauthner neuron of AMPA selective glutamate receptor signaling pathway.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Mauthner neuron decreased magnitude AMPA selective glutamate receptor signaling pathway, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018727",
+      "label": "Mauthner neuron decreased magnitude AMPA selective glutamate receptor signaling pathway, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased amount (of) epidermal cell of cell aggregation.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased amount (of) epidermal cell of cell aggregation.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "epidermal cell decreased amount cell aggregation, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018383",
+      "label": "epidermal cell decreased amount cell aggregation, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018541",
+      "label": "anatomical structure absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased amount (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased amount (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure decreased amount, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018666",
+      "label": "anatomical structure decreased amount, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased amount (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased amount (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure increased amount, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018612",
+      "label": "anatomical structure increased amount, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased efficiency (of) hepatocyte of regeneration.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased efficiency (of) hepatocyte of regeneration.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hepatocyte decreased efficiency regeneration, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0018008",
+      "label": "hepatocyte decreased efficiency regeneration, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) vestibular reflex.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) vestibular reflex.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "vestibular reflex decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0004563",
+      "label": "vestibular reflex decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) quality (of) regulation of cell migration.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) quality (of) regulation of cell migration.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "regulation of cell migration quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0004768",
+      "label": "regulation of cell migration quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased distribution (of) intestinal rod of anterior region.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased distribution (of) intestinal rod of anterior region.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anterior region intestinal rod decreased distribution, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019672",
+      "label": "anterior region intestinal rod decreased distribution, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) spatial pattern (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) spatial pattern (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure spatial pattern, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019778",
+      "label": "anatomical structure spatial pattern, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) response to glucose.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) response to glucose.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to glucose decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019907",
+      "label": "response to glucose decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) cortical actin cytoskeleton organization.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) cortical actin cytoskeleton organization.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "cortical actin cytoskeleton organization absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0005273",
+      "label": "cortical actin cytoskeleton organization absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased distribution (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased distribution (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure decreased distribution, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019384",
+      "label": "anatomical structure decreased distribution, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased distribution (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased distribution (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure increased distribution, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019325",
+      "label": "anatomical structure increased distribution, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased speed (of) developmental process.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased speed (of) developmental process.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "developmental process decreased speed, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019573",
+      "label": "developmental process decreased speed, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) female sex differentiation.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) female sex differentiation.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "female sex differentiation absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0019112",
+      "label": "female sex differentiation absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) vestibular reflex.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) vestibular reflex.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "vestibular reflex absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0006494",
+      "label": "vestibular reflex absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) epiphysis of circadian regulation of gene expression.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) epiphysis of circadian regulation of gene expression.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "epiphysis decreased magnitude circadian regulation of gene expression, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0006018",
+      "label": "epiphysis decreased magnitude circadian regulation of gene expression, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": "Zebrafish Phenotype",
+      "iri": "http://purl.obolibrary.org/obo/ZP_00000000",
+      "label": "Zebrafish Phenotype"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) premature (of) obsolete death.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) premature (of) obsolete death.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete death premature, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0007778",
+      "label": "obsolete death premature, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased functionality (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased functionality (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis decreased functionality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0007924",
+      "label": "thigmotaxis decreased functionality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) excretion.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) excretion.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "excretion decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0007252",
+      "label": "excretion decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) absent (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) absent (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis absent, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0007122",
+      "label": "thigmotaxis absent, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disrupted (of) hemoglobin binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disrupted (of) hemoglobin binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hemoglobin binding disrupted, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0008020",
+      "label": "hemoglobin binding disrupted, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disrupted (of) chromatin binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disrupted (of) chromatin binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "chromatin binding disrupted, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0008760",
+      "label": "chromatin binding disrupted, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased occurrence (of) whole organism of laminin binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased occurrence (of) whole organism of laminin binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "laminin binding whole organism decreased occurrence, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0008731",
+      "label": "laminin binding whole organism decreased occurrence, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) aplastic (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) aplastic (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure aplastic, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0008889",
+      "label": "anatomical structure aplastic, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased rate (of) obsolete death.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased rate (of) obsolete death.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "obsolete death increased rate, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0008109",
+      "label": "obsolete death increased rate, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disrupted (of) protein kinase regulator activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disrupted (of) protein kinase regulator activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "protein kinase regulator activity disrupted, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0009212",
+      "label": "protein kinase regulator activity disrupted, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased intensity (of) sensory perception of touch.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased intensity (of) sensory perception of touch.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "sensory perception of touch decreased intensity, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0009381",
+      "label": "sensory perception of touch decreased intensity, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) dynein light intermediate chain binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) dynein light intermediate chain binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "dynein light intermediate chain binding decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0009320",
+      "label": "dynein light intermediate chain binding decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of acellular anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of acellular anatomical structure.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of acellular anatomical structure",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal acellular anatomical structure",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0127985",
+      "label": "abnormal acellular anatomical structure",
+      "synonym": "abnormality of acellular anatomical structure"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of extraembryonic structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of extraembryonic structure.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of extraembryonic structure",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal extraembryonic structure",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0127660",
+      "label": "abnormal extraembryonic structure",
+      "synonym": "abnormality of extraembryonic structure"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of anatomical structure.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of anatomical structure",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal anatomical structure",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0127675",
+      "label": "abnormal anatomical structure",
+      "synonym": "abnormality of anatomical structure"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased process quality (of) monocarboxylic acid transmembrane transporter activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased process quality (of) monocarboxylic acid transmembrane transporter activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "monocarboxylic acid transmembrane transporter activity decreased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0009476",
+      "label": "monocarboxylic acid transmembrane transporter activity decreased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) arrested (of) voltage-gated channel activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) arrested (of) voltage-gated channel activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "voltage-gated channel activity arrested, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0009522",
+      "label": "voltage-gated channel activity arrested, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) response to auditory stimulus.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) response to auditory stimulus.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "response to auditory stimulus decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0100334",
+      "label": "response to auditory stimulus decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of anatomical space.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of anatomical space.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of anatomical space",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal anatomical space",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129184",
+      "label": "abnormal anatomical space",
+      "synonym": "abnormality of anatomical space"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of multi-tissue structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of multi-tissue structure.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of multi-tissue structure",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal multi-tissue structure",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129038",
+      "label": "abnormal multi-tissue structure",
+      "synonym": "abnormality of multi-tissue structure"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) amount (of) anatomical structure of carbohydrate.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) amount (of) anatomical structure of carbohydrate.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "carbohydrate anatomical structure amount, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101139",
+      "label": "carbohydrate anatomical structure amount, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) composition (of) anatomical structure of carbohydrate.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) composition (of) anatomical structure of carbohydrate.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "carbohydrate anatomical structure composition, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101138",
+      "label": "carbohydrate anatomical structure composition, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) disrupted (of) antioxidant activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) disrupted (of) antioxidant activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "antioxidant activity disrupted, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101166",
+      "label": "antioxidant activity disrupted, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) composition (of) anatomical structure of protein.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) composition (of) anatomical structure of protein.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "protein anatomical structure composition, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101146",
+      "label": "protein anatomical structure composition, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) composition (of) anatomical structure of lipid.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) composition (of) anatomical structure of lipid.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "lipid anatomical structure composition, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101140",
+      "label": "lipid anatomical structure composition, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) composition (of) anatomical structure of nucleic acid.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) composition (of) anatomical structure of nucleic acid.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "nucleic acid anatomical structure composition, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101144",
+      "label": "nucleic acid anatomical structure composition, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) composition (of) anatomical structure of glycogen.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) composition (of) anatomical structure of glycogen.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "glycogen anatomical structure composition, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101142",
+      "label": "glycogen anatomical structure composition, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased process quality (of) brain of antioxidant activity.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased process quality (of) brain of antioxidant activity.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "antioxidant activity brain increased process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101047",
+      "label": "antioxidant activity brain increased process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of prootic bulla.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of prootic bulla.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of prootic bulla",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal prootic bulla",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129759",
+      "label": "abnormal prootic bulla",
+      "synonym": "abnormality of prootic bulla"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of pore.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of pore.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of pore",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal pore",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129709",
+      "label": "abnormal pore",
+      "synonym": "abnormality of pore"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of intestinal rod.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of intestinal rod.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of intestinal rod",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal intestinal rod",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129996",
+      "label": "abnormal intestinal rod",
+      "synonym": "abnormality of intestinal rod"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of anatomical surface.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of anatomical surface.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of anatomical surface",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal anatomical surface",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129853",
+      "label": "abnormal anatomical surface",
+      "synonym": "abnormality of anatomical surface"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormality of anatomical line.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormality of anatomical line.",
+      "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "abnormality of anatomical line",
+      "http://www.w3.org/2000/01/rdf-schema#label": "abnormal anatomical line",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0129228",
+      "label": "abnormal anatomical line",
+      "synonym": "abnormality of anatomical line"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) decreased magnitude (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) decreased magnitude (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis decreased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101853",
+      "label": "thigmotaxis decreased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) magnitude (of) thigmotaxis.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) magnitude (of) thigmotaxis.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "thigmotaxis magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0101838",
+      "label": "thigmotaxis magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) mislocalised (of) anatomical structure.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) mislocalised (of) anatomical structure.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "anatomical structure mislocalised, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0102130",
+      "label": "anatomical structure mislocalised, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) process quality (of) ovary of progesterone receptor binding.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) process quality (of) ovary of progesterone receptor binding.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "progesterone receptor binding ovary process quality, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0104746",
+      "label": "progesterone receptor binding ovary process quality, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) increased magnitude (of) startle response.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) increased magnitude (of) startle response.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "startle response increased magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0104698",
+      "label": "startle response increased magnitude, abnormal"
+    }
+  },
+  {
+    "n": {
+      "Neo4jLabel": [
+        "Class",
+        "Node",
+        "cliqueLeader"
+      ],
+      "definition": "Abnormal(ly) magnitude (of) startle response.",
+      "http://purl.obolibrary.org/obo/IAO_0000115": "Abnormal(ly) magnitude (of) startle response.",
+      "http://www.w3.org/2000/01/rdf-schema#label": "startle response magnitude, abnormal",
+      "iri": "http://purl.obolibrary.org/obo/ZP_0104506",
+      "label": "startle response magnitude, abnormal"
+    }
+  }
+]
