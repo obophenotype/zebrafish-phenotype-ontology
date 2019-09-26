@@ -4,7 +4,8 @@ import pandas as pd
 
 deprecated_id_map_file = sys.argv[1]
 obsolete_template_file = sys.argv[2]
-labels_file = sys.argv[3]
+obsolete_template_candiate_file = sys.argv[3]
+labels_file = sys.argv[4]
 
 #deprecated_id_map_file = "/ws/zebrafish-phenotype-ontology/src/curation/deprecated_id_map.tsv"
 #obsolete_template_file = "/ws/zebrafish-phenotype-ontology/src/templates/obsolete.tsv"
@@ -26,6 +27,7 @@ df_deprecated_id_map.columns = columns
 df_deprecated_id_map['Obsolete'] = 'true'
 df_deprecated_id_map['Label'] = 'obsolete ' + df_deprecated_id_map['Label'].astype(str)
 
-df_obsolete = df_deprecated_id_map
-df_obsolete.sort_values(by ='Ontology ID',inplace=True)
-df_obsolete.to_csv(obsolete_template_file, sep = '\t', index=False)
+obsolete_classes=list(set(df_obsolete['Ontology ID']))
+df_obsolete_candidates = df_deprecated_id_map[~df_deprecated_id_map['Ontology ID'].isin(obsolete_classes)]
+df_obsolete_candidates.sort_values(by ='Ontology ID',inplace=True)
+df_obsolete_candidates.to_csv(obsolete_template_candiate_file, sep = '\t', index=False)
