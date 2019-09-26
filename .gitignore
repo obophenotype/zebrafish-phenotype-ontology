@@ -24,6 +24,7 @@ src/curation/id_map_terms.txt
 src/patterns/data/auto/*_terms.txt
 src/patterns/data/manual/*_terms.txt
 src/patterns/data/zfin/*.txt
+src/ontology/tmp/
 catalog-v001.xml
 /zp.*
 /zp-*
