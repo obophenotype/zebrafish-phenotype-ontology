@@ -130,7 +130,10 @@ z = pd.merge(id_map, y, on=['id','iri'], how='left')
 df_deprecated_id_map = z[pd.isnull(z).any(axis=1)]
 
 # Exporting the files again
+df_deprecated_id_map=df_deprecated_id_map.sort_values(by ='iri',inplace=True).reindex(['iri', 'id','current'], axis=1)
 df_deprecated_id_map.to_csv(deprecated_id_map, sep = '\t', index=False)
+
+id_map=id_map.sort_values(by ='iri',inplace=True).reindex(['iri', 'id'], axis=1)
 id_map.to_csv(current_id_map, sep = '\t', index=False)
 
 # not strictly speaking necessary, but why not just amend reserved_ids so they contain the newly minted ones as well?

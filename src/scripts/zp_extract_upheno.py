@@ -51,6 +51,7 @@ for p in set(df['pattern']):
     if pattern=="abnormalBiologicalProcess.tsv":
         dx = dx.rename(columns={'affected_entity_1_super': 'biological_process', 'pato_id': 'quality'})
     dx = dx.loc[:, dx.columns != 'pattern']
+    dx.sort_values(by ='defined_class',inplace=True)
     dx.to_csv(os.path.join(dir,pattern), sep='\t', index=False)
 
 

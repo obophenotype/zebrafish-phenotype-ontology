@@ -111,6 +111,8 @@ id_map['pattern'] = id_map[cols].apply(determine_base_pattern,axis=1)
 #id_map['eq_pattern'] = id_map[colsp].apply(determine_eq_pattern,axis=1)
 
 # Exporting the files again
+id_map=id_map.sort_values(by ='iri',inplace=True).reindex(sorted(df.columns), axis=1)
+
 id_map.to_csv(pattern_assignments, sep = '\t', index=False)
 
 # Export DOSDP TSV Files
@@ -122,6 +124,7 @@ for p in set(id_map['pattern']):
     dx = dx[cols]
     dx.columns = ['defined_class','affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super']
     dx = dx.dropna(axis=1, how='all')
+    dx.sort_values(by ='defined_class',inplace=True)
     dx.to_csv(os.path.join(pattern_data, pattern), sep='\t', index=False)
     dx.to_csv(os.path.join(pattern_data, pattern.replace(".tsv", "_label.tsv")), sep='\t', index=False)
 

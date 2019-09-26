@@ -26,9 +26,6 @@ df_deprecated_id_map.columns = columns
 df_deprecated_id_map['Obsolete'] = 'true'
 df_deprecated_id_map['Label'] = 'obsolete ' + df_deprecated_id_map['Label'].astype(str)
 
-df_obsolete = pd.merge(df_obsolete, df_deprecated_id_map,  how='outer', left_on=columns, right_on = columns)
-
-print(df_deprecated_id_map.head())
-print(df_obsolete.head())
-
+df_obsolete = df_deprecated_id_map
+df_obsolete.sort_values(by ='Ontology ID',inplace=True)
 df_obsolete.to_csv(obsolete_template_file, sep = '\t', index=False)
