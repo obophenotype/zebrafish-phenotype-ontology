@@ -1,6 +1,6 @@
 anatomy_config:
   iri_accession: 99999
-  iri_prefix: http://purl.obolibrary.org/obo/ZP_
+  iri_prefix: "ZP:"
   global:
     blacklist:
       - http://purl.obolibrary.org/obo/ZFA_0001093
