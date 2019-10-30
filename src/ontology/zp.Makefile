@@ -149,7 +149,7 @@ zp_labels.csv:
 	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql $@
 	
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
-	sh zp_pipeline.sh
+	sh zfin_pipeline.sh
 	
 zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
 
