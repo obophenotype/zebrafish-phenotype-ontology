@@ -88,8 +88,15 @@ id_map.columns = ['iri','id','affected_entity_1_sub','affected_entity_1_rel','af
 # Load Depreacted ID MAP
 df_deprecated_id_map = pd.read_csv(deprecated_id_map, sep='\t')
 obsolete_classes = list(set(df_deprecated_id_map['Ontology ID']))
+obsolete_classes = [w.replace("http://purl.obolibrary.org/obo/", "") for w in obsolete_classes]
+obsolete_classes = [w.replace("_", ":") for w in obsolete_classes]
 
-id_map = id_map[~id_map['iri'].isin(obsolete_classes)]
+#print("obsolete")
+#print(obsolete_classes)
+#print(len(obsolete_classes))
+#print(id_map.shape)
+#id_map = id_map[~id_map['iri'].isin(obsolete_classes)]
+#print(id_map.shape)
 
 #df_deprecated_id_map['obsolete'] = 'obsolete'
 

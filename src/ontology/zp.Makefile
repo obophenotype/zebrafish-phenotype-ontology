@@ -25,8 +25,8 @@ ID_MAP=../curation/id_map.tsv
 $(PDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
 	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
 	mv definitions.ofn $@ &&\
-	echo 'OCCURS IN HACK!' &&\
-	java -jar ../scripts/zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@
+	echo 'OCCURS IN HACK SKIPPED!'
+	#java -jar ../scripts/zp_occurs_in_hack.jar $@ ../curation/unsat.txt $@
 
 #############################################
 ### Computing all reserved iris in ZP ######
