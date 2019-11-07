@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-02-27/imports/bspo_import.owl
+data-version: zp/releases/2019-11-07/imports/bspo_import.owl
 ontology: zp/imports/bspo_import
 
 [Term]
@@ -56,6 +56,19 @@ def: "The side of an organism that is right of the sagittal plane." [BSPO:cjm, B
 synonym: "right" EXACT []
 is_a: BSPO:0000054 ! anatomical side
 relationship: finishes_axis BSPO:0000017 ! left-right axis
+
+[Term]
+id: BSPO:0000009
+name: midsagittal plane
+namespace: spatial
+def: "Sagittal plane that divides bilateral body into equal left and right parts." [BSPO:mah]
+comment: only in bilaterally symmetrical organisms
+synonym: "median plane" RELATED []
+synonym: "median sagittal plane" EXACT [FMA:74563]
+synonym: "midline plane" EXACT []
+synonym: "midsagittal section" EXACT []
+xref: FMA:74563
+is_a: BSPO:0000417 ! sagittal plane
 
 [Term]
 id: BSPO:0000010
@@ -338,7 +351,7 @@ creation_date: 2009-06-16T08:51:07Z
 id: BSPO:0000042
 name: antero-medial margin
 namespace: spatial
-def: "Anatomical margin that is located on the antero-medial region of the body or body part." [BSPO:wd<new dbxref>]
+def: "Anatomical margin that is located on the antero-medial region of the body or body part." [BSPO:wd]
 synonym: "anteromedial margin" EXACT []
 is_a: BSPO:0000050 ! antero-medial region
 is_a: BSPO:0000671 ! anterior margin

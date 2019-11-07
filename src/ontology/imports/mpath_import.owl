@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2019-02-27/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2019-11-07/imports/mpath_import.owl"/>
     </owl:Ontology>
     
 
@@ -28,7 +28,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -60,7 +60,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -68,7 +68,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+        <rdfs:label>has_broad_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -76,7 +76,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+        <rdfs:label>database_cross_reference</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -84,7 +84,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -92,7 +92,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+        <rdfs:label>has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -100,7 +100,7 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+        <rdfs:label>has_related_synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -138,9 +138,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/mpath#part_of">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>part_of</oboInOwl:id>
+        <rdfs:label>part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -159,15 +159,41 @@
     <!-- http://purl.obolibrary.org/obo/MPATH_0 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological structure or process</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:0</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological entity</rdfs:label>
+        <obo:IAO_0000115>Pathological structure or process</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:0</oboInOwl:id>
+        <rdfs:label>pathological entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_0"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological structure or process</owl:annotatedTarget>
+        <owl:annotatedTarget>Pathological structure or process</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
+        <obo:IAO_0000115>Non-invasive changes characterized by alteration in the size, shape and organization of the cellular components of an epithelial tissue. Do not confuse with developmental dysplasia MPATH:64.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>intra-epithelial lesion</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:128</oboInOwl:id>
+        <rdfs:comment>This term has been previously used as a synonym for pre-malignant dysplasia or carcinoma in situ and is now to be preferred.</rdfs:comment>
+        <rdfs:label>intra-epithelial neoplasia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Non-invasive changes characterized by alteration in the size, shape and organization of the cellular components of an epithelial tissue. Do not confuse with developmental dysplasia MPATH:64.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal: Ward; J.M. ( 2002) J Toxicol. Pathol. 15; 123-128</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_128"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>intra-epithelial lesion</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -177,16 +203,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:218</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neoplasm</rdfs:label>
+        <obo:IAO_0000115>A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant.</obo:IAO_0000115>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:218</oboInOwl:id>
+        <rdfs:label>neoplasm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant.</owl:annotatedTarget>
+        <owl:annotatedTarget>A tumor resulting from abnormal and uncontrolled autonomous new cell growth (proliferation)that may be benign or malignant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -196,16 +222,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:219</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adnexal and skin appendage tumor</rdfs:label>
+        <obo:IAO_0000115>Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures.</obo:IAO_0000115>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:219</oboInOwl:id>
+        <rdfs:label>adnexal and skin appendage tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors of the skin, its constituent structures and glands including the mammary gland, apocrine and eccrine glands, hair follicles and associated structures.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -215,15 +241,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor of venous or arterial vessels or capillaries.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:235</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel tumor</rdfs:label>
+        <obo:IAO_0000115>Tumor of venous or arterial vessels or capillaries.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:235</oboInOwl:id>
+        <rdfs:label>blood vessel tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_235"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor of venous or arterial vessels or capillaries.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumor of venous or arterial vessels or capillaries.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -234,36 +260,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_235"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemangioma malignant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemangioendothelioma malignant, angiosarcoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemangioendothelioma malignant.</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:242</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemangiosarcoma</rdfs:label>
+        <obo:IAO_0000115>Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Hemangioma malignant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hemangioendothelioma malignant, angiosarcoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hemangioendothelioma malignant.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:242</oboInOwl:id>
+        <rdfs:label>hemangiosarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>hemangioendothelioma malignant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8569146</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemangioma malignant</owl:annotatedTarget>
+        <owl:annotatedTarget>Hemangioma malignant</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemangioendothelioma malignant.</owl:annotatedTarget>
+        <owl:annotatedTarget>hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -273,15 +299,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm of the neurones, glia or meninges of the CNS.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:243</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasm of the neurones, glia or meninges of the CNS.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:243</oboInOwl:id>
+        <rdfs:label>central nervous system tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_243"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm of the neurones, glia or meninges of the CNS.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasm of the neurones, glia or meninges of the CNS.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -291,30 +317,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_249"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glioma derived from astrocytes, both benign and malignant forms (M-9400/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrocytic glioma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astroglioma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:244</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also see comments in Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astrocytoma</rdfs:label>
+        <obo:IAO_0000115>Glioma derived from astrocytes, both benign and malignant forms (M-9400/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Astrocytic glioma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>astroglioma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:244</oboInOwl:id>
+        <rdfs:comment>Also see comments in Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
+        <rdfs:label>astrocytoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_244"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glioma derived from astrocytes, both benign and malignant forms (M-9400/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Glioma derived from astrocytes, both benign and malignant forms (M-9400/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_244"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrocytic glioma</owl:annotatedTarget>
+        <owl:annotatedTarget>Astrocytic glioma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_244"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astroglioma</owl:annotatedTarget>
+        <owl:annotatedTarget>astroglioma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -324,16 +350,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_565"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:249</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also see comments in: Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioma</rdfs:label>
+        <obo:IAO_0000115>Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:249</oboInOwl:id>
+        <rdfs:comment>Also see comments in: Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
+        <rdfs:label>glioma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_249"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasm derived from astrocytes and oligodendrocytes. (M-9380/3, M-9440/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -343,16 +369,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_250">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_373"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:250</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulloblastoma</rdfs:label>
+        <obo:IAO_0000115>Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:250</oboInOwl:id>
+        <rdfs:comment>Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
+        <rdfs:label>medulloblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_250"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasm derived from the primitive neurectodermal cells of the cerebellum. (M-9470/3). May be considered by some authorities a synonym of PNET in the CNS.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -362,15 +388,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors showing mutiple histological componants/differentiation.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:254</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex tumor</rdfs:label>
+        <obo:IAO_0000115>Tumors showing mutiple histological componants/differentiation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:254</oboInOwl:id>
+        <rdfs:label>complex tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_254"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors showing mutiple histological componants/differentiation.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors showing mutiple histological componants/differentiation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -380,22 +406,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_254"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephroma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:261</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephroblastoma</rdfs:label>
+        <obo:IAO_0000115>Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>nephroma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:261</oboInOwl:id>
+        <rdfs:label>nephroblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_261"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Embryonal tumor thought to be derived from metanephric blastema. Mono, bi or triphasic, sometimes with heterotypic differentiation. (M-8960/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_261"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nephroma</owl:annotatedTarget>
+        <owl:annotatedTarget>nephroma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -405,15 +431,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:264</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroepithelial tumor</rdfs:label>
+        <obo:IAO_0000115>Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:264</oboInOwl:id>
+        <rdfs:label>fibroepithelial tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_264"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030).</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors with epithelial invaginations/linings and a fibrillary and fibrocytic stroma. (M-9000 - M-9030).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -423,15 +449,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from glandular epithelial cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:267</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from glandular epithelial cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:267</oboInOwl:id>
+        <rdfs:label>glandular tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_267"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from glandular epithelial cells.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from glandular epithelial cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -442,15 +468,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:268</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenocarcinoma</rdfs:label>
+        <obo:IAO_0000115>Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:268</oboInOwl:id>
+        <rdfs:label>adenocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_268"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant neoplasm of epithelial cells in glandular or glandlike pattern. (M-8140/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -461,15 +487,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:270</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenoma</rdfs:label>
+        <obo:IAO_0000115>A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:270</oboInOwl:id>
+        <rdfs:label>adenoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_270"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy.</owl:annotatedTarget>
+        <owl:annotatedTarget>A benign epithelial neoplasm in which the tumor cells may form glands or glandlike structures. In different instances this may remain a benign tumor or progress to malignancy.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -480,15 +506,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:271</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenomatous polyposis coli</rdfs:label>
+        <obo:IAO_0000115>Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:271</oboInOwl:id>
+        <rdfs:label>adenomatous polyposis coli</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_271"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -498,15 +524,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germ cell and non-germ cell tumors of the testis and ovary.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:309</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gonadal tumor</rdfs:label>
+        <obo:IAO_0000115>Germ cell and non-germ cell tumors of the testis and ovary.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:309</oboInOwl:id>
+        <rdfs:label>gonadal tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_309"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germ cell and non-germ cell tumors of the testis and ovary.</owl:annotatedTarget>
+        <owl:annotatedTarget>Germ cell and non-germ cell tumors of the testis and ovary.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -516,15 +542,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_309"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:310</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germ cell tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:310</oboInOwl:id>
+        <rdfs:label>germ cell tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_310"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from germ cells. May be gonadal or extragonadal and are derived from primordial germ cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -534,43 +560,43 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_310"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germinoma, malignant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dysgerminoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatoblastoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatocytoma, malignant.</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:317</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seminoma</rdfs:label>
+        <obo:IAO_0000115>Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Germinoma, malignant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dysgerminoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>spermatoblastoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>spermatocytoma, malignant.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:317</oboInOwl:id>
+        <rdfs:label>seminoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_317"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumor derived from spermatogenic cells resembling spermatogenia or spermatocytes. NOS ( M9061/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_317"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germinoma, malignant</owl:annotatedTarget>
+        <owl:annotatedTarget>Germinoma, malignant</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_317"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dysgerminoma</owl:annotatedTarget>
+        <owl:annotatedTarget>dysgerminoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_317"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatoblastoma</owl:annotatedTarget>
+        <owl:annotatedTarget>spermatoblastoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_317"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spermatocytoma, malignant.</owl:annotatedTarget>
+        <owl:annotatedTarget>spermatocytoma, malignant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -580,15 +606,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:335</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoietic/lymphoid malignancies/disorder</rdfs:label>
+        <obo:IAO_0000115>Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:335</oboInOwl:id>
+        <rdfs:label>hematopoietic/lymphoid malignancies/disorder</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_335"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages.</owl:annotatedTarget>
+        <owl:annotatedTarget>Proliferative disorders and malignancies of the lymphoid and non lymphoid haematopoietic lineages.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -598,23 +624,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_496"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukaemias of the myeloid lineage.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocytic leukaemia</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:342</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myeloid leukaemia</rdfs:label>
+        <obo:IAO_0000115>Leukaemias of the myeloid lineage.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>granulocytic leukaemia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:342</oboInOwl:id>
+        <rdfs:label>myeloid leukaemia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_342"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukaemias of the myeloid lineage.</owl:annotatedTarget>
+        <owl:annotatedTarget>Leukaemias of the myeloid lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070033</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_342"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocytic leukaemia</owl:annotatedTarget>
+        <owl:annotatedTarget>granulocytic leukaemia</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -624,15 +650,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the liver and biliary apparatus.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:352</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic tumor</rdfs:label>
+        <obo:IAO_0000115>Tumors of the liver and biliary apparatus.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:352</oboInOwl:id>
+        <rdfs:label>hepatic tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the liver and biliary apparatus.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors of the liver and biliary apparatus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -643,36 +669,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_270"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplasm derived from hepatocytes. (M- 8170/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic adenoma, benign, liver cell tumor, benign</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoma, benign</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodule type A</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:353</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular adenoma</rdfs:label>
+        <obo:IAO_0000115>Benign neoplasm derived from hepatocytes. (M- 8170/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>hepatic adenoma, benign, liver cell tumor, benign</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hepatoma, benign</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nodule type A</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:353</oboInOwl:id>
+        <rdfs:label>hepatocellular adenoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplasm derived from hepatocytes. (M- 8170/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>Benign neoplasm derived from hepatocytes. (M- 8170/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_353"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic adenoma, benign, liver cell tumor, benign</owl:annotatedTarget>
+        <owl:annotatedTarget>hepatic adenoma, benign, liver cell tumor, benign</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_353"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoma, benign</owl:annotatedTarget>
+        <owl:annotatedTarget>hepatoma, benign</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_353"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodule type A</owl:annotatedTarget>
+        <owl:annotatedTarget>nodule type A</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -683,15 +709,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor derived from the bile duct epithelium. (M8160/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:354</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholangiocarcinoma</rdfs:label>
+        <obo:IAO_0000115>Malignant tumor derived from the bile duct epithelium. (M8160/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:354</oboInOwl:id>
+        <rdfs:label>cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_354"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor derived from the bile duct epithelium. (M8160/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant tumor derived from the bile duct epithelium. (M8160/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -701,29 +727,29 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonal hepatoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor, mixed, poorly differentiated</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:356</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoblastoma</rdfs:label>
+        <obo:IAO_0000115>Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>embryonal hepatoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tumor, mixed, poorly differentiated</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:356</oboInOwl:id>
+        <rdfs:label>hepatoblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_356"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant neoplasm of the liver of unknown origin . Liver blastemal cells, neoplastic hepatocytes, oval cells and biliary epithelial cells have been proposed. (M- 8970/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_356"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonal hepatoma</owl:annotatedTarget>
+        <owl:annotatedTarget>embryonal hepatoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_356"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor, mixed, poorly differentiated</owl:annotatedTarget>
+        <owl:annotatedTarget>tumor, mixed, poorly differentiated</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -734,43 +760,43 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor derived from hepatocytes. (M- 8170/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma, trabecular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma, trabecular (liver)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoma, malignant</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodule type B</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:357</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular carcinoma</rdfs:label>
+        <obo:IAO_0000115>Malignant tumor derived from hepatocytes. (M- 8170/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>carcinoma, trabecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carcinoma, trabecular (liver)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hepatoma, malignant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nodule type B</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:357</oboInOwl:id>
+        <rdfs:label>hepatocellular carcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_357"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor derived from hepatocytes. (M- 8170/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant tumor derived from hepatocytes. (M- 8170/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book: Bannasche; P and Zerban; H. Preneoplastic and neoplastic lesions of the rat iver. In; Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 18-63</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma, trabecular</owl:annotatedTarget>
+        <owl:annotatedTarget>carcinoma, trabecular</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma, trabecular (liver)</owl:annotatedTarget>
+        <owl:annotatedTarget>carcinoma, trabecular (liver)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoma, malignant</owl:annotatedTarget>
+        <owl:annotatedTarget>hepatoma, malignant</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_357"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodule type B</owl:annotatedTarget>
+        <owl:annotatedTarget>nodule type B</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -780,15 +806,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_219"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors derived from melanocytes.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:358</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanocytic tumor</rdfs:label>
+        <obo:IAO_0000115>Tumors derived from melanocytes.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:358</oboInOwl:id>
+        <rdfs:label>melanocytic tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_358"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors derived from melanocytes.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors derived from melanocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -798,30 +824,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_358"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanosarcoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanosarcoma, malignant melanoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:359</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma</rdfs:label>
+        <obo:IAO_0000115>Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>melanosarcoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>melanosarcoma, malignant melanoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:359</oboInOwl:id>
+        <rdfs:label>melanoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_359"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumor of neurectodermal origin, usually melanocytes, showing dense deposition of melanin granules, although amelanotic melanomas have been reported. (M-8720/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book: Klein-Szanto; A.J.; Neoplastic and preneoplastic lesions of the mouse skin; in Pathology of neoplasia and preneoplasia in rodents; P. Bannasch and W. Goessner; Editors. 1997. Schattauer; Stuttgart. p. 1-18</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_359"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanosarcoma</owl:annotatedTarget>
+        <owl:annotatedTarget>melanosarcoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_359"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanosarcoma, malignant melanoma</owl:annotatedTarget>
+        <owl:annotatedTarget>melanosarcoma, malignant melanoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -832,22 +858,22 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_358"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level I melanoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:360</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanoma in situ</rdfs:label>
+        <obo:IAO_0000115>A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>level I melanoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:360</oboInOwl:id>
+        <rdfs:label>melanoma in situ</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_360"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2).</owl:annotatedTarget>
+        <owl:annotatedTarget>A potentially malignant lesion, melanoma in situ is the first phase of growth of melanoma, in which it is still confined to the epithelial domain (epidermis and adnexa) and has not passed through the basement membrane. (M-8720/2).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_360"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level I melanoma</owl:annotatedTarget>
+        <owl:annotatedTarget>level I melanoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -857,22 +883,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_358"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole (sensu melanocytic nevus)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:361</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">naevus</rdfs:label>
+        <obo:IAO_0000115>Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>mole (sensu melanocytic nevus)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:361</oboInOwl:id>
+        <rdfs:label>naevus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_361"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>Local lesion of the skin, often colored by hyperpigmentation or increased vascularity. May be predominantly epidermal, adnexal, melanocytic, vascular, or mesodermal, or a compound overgrowth of these tissues. Not necessarily pre-malignant. (M-8720/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_361"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole (sensu melanocytic nevus)</owl:annotatedTarget>
+        <owl:annotatedTarget>mole (sensu melanocytic nevus)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -882,15 +908,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from the neuroendocrine system.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:366</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroendocrine tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from the neuroendocrine system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:366</oboInOwl:id>
+        <rdfs:label>neuroendocrine tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_366"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from the neuroendocrine system.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from the neuroendocrine system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -901,22 +927,22 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_373"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_570"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNET</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:370</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive neurectodermal tumor</rdfs:label>
+        <obo:IAO_0000115>Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>PNET</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:370</oboInOwl:id>
+        <rdfs:label>primitive neurectodermal tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_370"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Primitive neuroectodermal tumors (PNET) are neoplasms derived from primitive neural stem cells either in the CNS or the periphery . These are small-cell, malignant embryonal tumors showing divergent differentiation of variable degree along neuronal, glial, or rarely mesenchymal lines. (M-9473/3, M-9364/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_370"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNET</owl:annotatedTarget>
+        <owl:annotatedTarget>PNET</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -927,24 +953,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_366"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL: http://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oat cell carcinoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:371</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see: Meuwissen, R., Linn, S.C., Linnoila, R.I. et al. (2003) Induction of small cell lung cancer by somatic inactivation of both Trp53 and Rb1 in a conditional mouse model. Cancer cell, 4: 181-189. AND Calbo, J., Meuwissen, R., van Montfort, E. et al. (2005) Genotype-phenotype relationships in a mouse model for human small-cell lung cancer. Cold Spring Harbor symposia on quantitative biology, 70: 225-232. AND Meuwissen, R. and Berns, A. (2005) Mouse models for human lung cancer. Genes &amp; development, 19: 643-664.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small cell carcinoma</rdfs:label>
+        <obo:IAO_0000115>Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL: http://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>oat cell carcinoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:371</oboInOwl:id>
+        <rdfs:comment>see: Meuwissen, R., Linn, S.C., Linnoila, R.I. et al. (2003) Induction of small cell lung cancer by somatic inactivation of both Trp53 and Rb1 in a conditional mouse model. Cancer cell, 4: 181-189. AND Calbo, J., Meuwissen, R., van Montfort, E. et al. (2005) Genotype-phenotype relationships in a mouse model for human small-cell lung cancer. Cold Spring Harbor symposia on quantitative biology, 70: 225-232. AND Meuwissen, R. and Berns, A. (2005) Mouse models for human lung cancer. Genes &amp; development, 19: 643-664.</rdfs:comment>
+        <rdfs:label>small cell carcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_371"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neuroendocrine cell derived anaplastic carcinoma composed of small cells, usually of the lung producing a variety of peptide hormones. (M-8041/3). 1.2.3.4 of MMHCC classification.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15059877</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_371"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oat cell carcinoma</owl:annotatedTarget>
+        <owl:annotatedTarget>oat cell carcinoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -954,16 +980,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_373">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_565"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from neuroepithelial precursors.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:373</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renamed from neuroepitheliomatous tumor, to reflect primitive origins of this class of tumor.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS progenitor tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from neuroepithelial precursors.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:373</oboInOwl:id>
+        <rdfs:comment>Renamed from neuroepitheliomatous tumor, to reflect primitive origins of this class of tumor.</rdfs:comment>
+        <rdfs:label>CNS progenitor tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_373"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from neuroepithelial precursors.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from neuroepithelial precursors.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -973,15 +999,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_373"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:376</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroblastoma</rdfs:label>
+        <obo:IAO_0000115>A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:376</oboInOwl:id>
+        <rdfs:label>neuroblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_376"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>A malignant neoplasm characterized by immature, poorly differentiated nerve cells of embryonic type. (M-9500/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -991,15 +1017,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_373"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:378</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinoblastoma</rdfs:label>
+        <obo:IAO_0000115>Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:378</oboInOwl:id>
+        <rdfs:label>retinoblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_378"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant juvenile neoplasm of the eye derived from primitive retinal precursor cells. (M- 9510/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1009,15 +1035,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of bone and cartilage.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:388</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osseous and chondromatous tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of bone and cartilage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:388</oboInOwl:id>
+        <rdfs:label>osseous and chondromatous tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_388"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of bone and cartilage.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of bone and cartilage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1027,22 +1053,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_397">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_388"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteogenic sarcoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:397</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteosarcoma</rdfs:label>
+        <obo:IAO_0000115>Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>osteogenic sarcoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:397</oboInOwl:id>
+        <rdfs:label>osteosarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_397"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant neoplasm derived form mesenchymal stem cells, osteoblasts or osteocytes. Highly invasive and destructive tumor rising in the skeleton with osteoid and immature woven bone. (M-9180/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_397"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">osteogenic sarcoma</owl:annotatedTarget>
+        <owl:annotatedTarget>osteogenic sarcoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1052,15 +1078,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_404">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the soft and connective tissues.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:404</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soft tissue tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of the soft and connective tissues.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:404</oboInOwl:id>
+        <rdfs:label>soft tissue tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_404"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the soft and connective tissues.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of the soft and connective tissues.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1070,15 +1096,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_405">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_404"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:405</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chordoma</rdfs:label>
+        <obo:IAO_0000115>Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:405</oboInOwl:id>
+        <rdfs:label>chordoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_405"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Believed to arise from primitive notochord remnants . Usually occurs along the axial skeleton and is characterised by the presence of bubble cells containing large unstained cytoplasmic vacuoles with central or eccentricc nuclei. Benign but locally invasive. (M-9370/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1089,16 +1115,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_407">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_404"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:407</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Soft tissue&quot; qualifier removed by Pathology Panel to increase scope of term.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroma</rdfs:label>
+        <obo:IAO_0000115>Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:407</oboInOwl:id>
+        <rdfs:comment>&quot;Soft tissue&quot; qualifier removed by Pathology Panel to increase scope of term.</rdfs:comment>
+        <rdfs:label>fibroma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_407"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>Benign neoplasm of fibroblasts/fibrocytes with poor/moderate cellularity. (M-8810/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1108,15 +1134,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_423">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_404"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:423</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myomatous tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:423</oboInOwl:id>
+        <rdfs:label>myomatous tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_423"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from myogenic lineages or predominantly composed of cells showing myomatous differentiation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1127,15 +1153,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_423"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:428</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhabdomyosarcoma</rdfs:label>
+        <obo:IAO_0000115>Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:428</oboInOwl:id>
+        <rdfs:label>rhabdomyosarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_428"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant tumor of striated muscle or pluripotential mesenchymal stem cells. (M-8900/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1146,15 +1172,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_433">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_404"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_570"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the nerve sheath.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:433</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nerve sheath tumor</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of the nerve sheath.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:433</oboInOwl:id>
+        <rdfs:label>nerve sheath tumor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_433"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the nerve sheath.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of the nerve sheath.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1164,15 +1190,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_435">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_433"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:435</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurofibroma</rdfs:label>
+        <obo:IAO_0000115>Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:435</oboInOwl:id>
+        <rdfs:label>neurofibroma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>Peripheral nerve tumor consisting of chaotic arrays of wavy schwann cell bundles and fibroblasts interspersed within a matrix rich in collagen and mucopolysaccharide. (M9540/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1183,22 +1209,22 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_437">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_433"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived from Schwann cells. (M-9540/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant peripheral nerve sheath tumor</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:437</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurofibrosarcoma</rdfs:label>
+        <obo:IAO_0000115>Malignant neoplasm derived from Schwann cells. (M-9540/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>malignant peripheral nerve sheath tumor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:437</oboInOwl:id>
+        <rdfs:label>neurofibrosarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_437"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant neoplasm derived from Schwann cells. (M-9540/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant neoplasm derived from Schwann cells. (M-9540/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_437"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malignant peripheral nerve sheath tumor</owl:annotatedTarget>
+        <owl:annotatedTarget>malignant peripheral nerve sheath tumor</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1209,15 +1235,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_445">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_264"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:445</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papilloma</rdfs:label>
+        <obo:IAO_0000115>A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:445</oboInOwl:id>
+        <rdfs:label>papilloma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_445"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).</owl:annotatedTarget>
+        <owl:annotatedTarget>A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1233,22 +1259,22 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_271"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplastic growth containing areas of adenomatous structure (progression).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypoid adenoma, cellular polyp.</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:490</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenomatous polyp</rdfs:label>
+        <obo:IAO_0000115>Benign neoplastic growth containing areas of adenomatous structure (progression).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>polypoid adenoma, cellular polyp.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:490</oboInOwl:id>
+        <rdfs:label>adenomatous polyp</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_490"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign neoplastic growth containing areas of adenomatous structure (progression).</owl:annotatedTarget>
+        <owl:annotatedTarget>Benign neoplastic growth containing areas of adenomatous structure (progression).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_490"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypoid adenoma, cellular polyp.</owl:annotatedTarget>
+        <owl:annotatedTarget>polypoid adenoma, cellular polyp.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1258,16 +1284,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_515"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:496</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Lymphoid leukaemias</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:496</oboInOwl:id>
+        <rdfs:label>Non-Lymphoid leukaemias</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_496"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of non-lymphoid haematopoietic lineage. Must have at least 20% blast cells to meet this definition.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070033</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1277,15 +1303,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_513">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_335"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the B or T cell lineage.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:513</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphoid neoplasms</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of the B or T cell lineage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:513</oboInOwl:id>
+        <rdfs:label>Lymphoid neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_513"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of the B or T cell lineage.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of the B or T cell lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070034</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1295,16 +1321,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_515">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_335"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hematological neoplasias of non-lymphoid origin.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:515</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Lymphoid neoplasias</rdfs:label>
+        <obo:IAO_0000115>Hematological neoplasias of non-lymphoid origin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:515</oboInOwl:id>
+        <rdfs:label>Non-Lymphoid neoplasias</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hematological neoplasias of non-lymphoid origin.</owl:annotatedTarget>
+        <owl:annotatedTarget>Hematological neoplasias of non-lymphoid origin.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070033</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1314,15 +1340,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_516">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_513"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm of the B cell lymphoid lineage.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:516</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell neoplasms</rdfs:label>
+        <obo:IAO_0000115>Neoplasm of the B cell lymphoid lineage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:516</oboInOwl:id>
+        <rdfs:label>B-cell neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_516"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasm of the B cell lymphoid lineage.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasm of the B cell lymphoid lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1332,23 +1358,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_530">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_516"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myeloma ( human )</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:530</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasma cell neoplasms</rdfs:label>
+        <obo:IAO_0000115>Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Myeloma ( human )</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:530</oboInOwl:id>
+        <rdfs:label>Plasma cell neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_530"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Diffuse proliferation of mature plasma cells. Clonal by definition. Includes the equivalent of human myeloma (ICD-O 9732/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070034</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_530"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myeloma ( human )</owl:annotatedTarget>
+        <owl:annotatedTarget>Myeloma ( human )</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1358,15 +1384,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_535">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_513"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from cells of the T lymphocyte lineage.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:535</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell neoplasms</rdfs:label>
+        <obo:IAO_0000115>Neoplasms derived from cells of the T lymphocyte lineage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:535</oboInOwl:id>
+        <rdfs:label>T-cell neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_535"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms derived from cells of the T lymphocyte lineage.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms derived from cells of the T lymphocyte lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070034</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1376,15 +1402,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_536">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_535"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of precursor T cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:536</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precursor T-cell neoplasms</rdfs:label>
+        <obo:IAO_0000115>Neoplasms of precursor T cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:536</oboInOwl:id>
+        <rdfs:label>precursor T-cell neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_536"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoplasms of precursor T cells.</owl:annotatedTarget>
+        <owl:annotatedTarget>Neoplasms of precursor T cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070034</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1394,22 +1420,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_537">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_536"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precursor T cell derived neoplasia. Most commonly found in the thymus.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic lymphoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:537</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precursor T-cell lymphoblastic lymphoma/leukaemia</rdfs:label>
+        <obo:IAO_0000115>Precursor T cell derived neoplasia. Most commonly found in the thymus.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>thymic lymphoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:537</oboInOwl:id>
+        <rdfs:label>precursor T-cell lymphoblastic lymphoma/leukaemia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_537"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precursor T cell derived neoplasia. Most commonly found in the thymus.</owl:annotatedTarget>
+        <owl:annotatedTarget>Precursor T cell derived neoplasia. Most commonly found in the thymus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12070034</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_537"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymic lymphoma</owl:annotatedTarget>
+        <owl:annotatedTarget>thymic lymphoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1421,15 +1447,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_254"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_352"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor of unknown origin showing features of hepatocelluar carcinoma and cholangiocarcinoma. (M-8180/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:545</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocholangiocellular carcinoma</rdfs:label>
+        <obo:IAO_0000115>Malignant tumor of unknown origin showing features of hepatocelluar carcinoma and cholangiocarcinoma. (M-8180/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:545</oboInOwl:id>
+        <rdfs:label>hepatocholangiocellular carcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_545"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant tumor of unknown origin showing features of hepatocelluar carcinoma and cholangiocarcinoma. (M-8180/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant tumor of unknown origin showing features of hepatocelluar carcinoma and cholangiocarcinoma. (M-8180/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1439,15 +1465,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_549">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:549</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma</rdfs:label>
+        <obo:IAO_0000115>Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:549</oboInOwl:id>
+        <rdfs:label>carcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma).</owl:annotatedTarget>
+        <owl:annotatedTarget>Any of various types of malignant neoplasm derived from epithelial cells, chiefly glandular (adenocarcinoma) or squamous (squamous cell carcinoma).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1457,15 +1483,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:551</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sarcoma</rdfs:label>
+        <obo:IAO_0000115>A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:551</oboInOwl:id>
+        <rdfs:label>sarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells.</owl:annotatedTarget>
+        <owl:annotatedTarget>A connective tissue neoplasm, usually highly malignant, formed by proliferation of mesodermal cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1475,15 +1501,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesions which in some cases have the potential to become progressively growing malignant tumors.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:556</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potentially cancerous lesions</rdfs:label>
+        <obo:IAO_0000115>Lesions which in some cases have the potential to become progressively growing malignant tumors.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:556</oboInOwl:id>
+        <rdfs:label>potentially cancerous lesions</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesions which in some cases have the potential to become progressively growing malignant tumors.</owl:annotatedTarget>
+        <owl:annotatedTarget>Lesions which in some cases have the potential to become progressively growing malignant tumors.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1493,15 +1519,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_268"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor composed of small glandular clusters with small lumens.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:559</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acinar adenocarcinoma</rdfs:label>
+        <obo:IAO_0000115>Tumor composed of small glandular clusters with small lumens.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:559</oboInOwl:id>
+        <rdfs:label>Acinar adenocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_559"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumor composed of small glandular clusters with small lumens.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumor composed of small glandular clusters with small lumens.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10713680</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1511,30 +1537,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_249"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3).</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioblastoma multiforme</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monstrocytoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:564</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioblastoma</rdfs:label>
+        <obo:IAO_0000115>Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>glioblastoma multiforme</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>monstrocytoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:564</oboInOwl:id>
+        <rdfs:comment>Also see Weiss, W.W, Israel, M. Cobbs, C., et al. (2002) Oncogene 21, 7453-7463.</rdfs:comment>
+        <rdfs:label>glioblastoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_564"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3).</owl:annotatedTarget>
+        <owl:annotatedTarget>Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures. (M-9440/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-13:9783794515530</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_564"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glioblastoma multiforme</owl:annotatedTarget>
+        <owl:annotatedTarget>glioblastoma multiforme</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_564"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monstrocytoma</owl:annotatedTarget>
+        <owl:annotatedTarget>monstrocytoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1544,15 +1570,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_565">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_243"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:565</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumors of neurepithelial tissue</rdfs:label>
+        <obo:IAO_0000115>Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:565</oboInOwl:id>
+        <rdfs:label>tumors of neurepithelial tissue</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_565"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors of neuronal and non-neuronal cells derived from embryonic neurepithelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1562,15 +1588,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_570">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the peripheral nervous system.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:570</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system tumors</rdfs:label>
+        <obo:IAO_0000115>Tumors of the peripheral nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:570</oboInOwl:id>
+        <rdfs:label>peripheral nervous system tumors</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_570"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumors of the peripheral nervous system.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors of the peripheral nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1580,15 +1606,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_0"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomically located instance of pathological response or entity.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:603</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Anatomically located instance of pathological response or entity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:603</oboInOwl:id>
+        <rdfs:label>pathological anatomical entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomically located instance of pathological response or entity.</owl:annotatedTarget>
+        <owl:annotatedTarget>Anatomically located instance of pathological response or entity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1598,11 +1624,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_551"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-19T05:12:17Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:695</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spindle cell sarcoma</rdfs:label>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-02-19T05:12:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:695</oboInOwl:id>
+        <rdfs:label>spindle cell sarcoma</rdfs:label>
     </owl:Class>
     
 
@@ -1611,23 +1637,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_710">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_428"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-06T03:31:11Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myosarcoma </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Rhabdopoietic Sarcoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sarcoma Botryoides [Soft Tissues]</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embryonal Sarcoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant Rhabdomyoma</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:710</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes spindle cell, botryoid, anaplastic.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonal rhabdomyosarcoma</rdfs:label>
+        <obo:IAO_0000115>Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle.</obo:IAO_0000115>
+        <oboInOwl:created_by>Paul</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-06T03:31:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>Myosarcoma </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym> Rhabdopoietic Sarcoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym> Sarcoma Botryoides [Soft Tissues]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Embryonal Sarcoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Malignant Rhabdomyoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:710</oboInOwl:id>
+        <rdfs:comment>Includes spindle cell, botryoid, anaplastic.</rdfs:comment>
+        <rdfs:label>embryonal rhabdomyosarcoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_710"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle.</owl:annotatedTarget>
+        <owl:annotatedTarget>Malignant mesenchymal tumor that morphologically and phenotypically resembles embryonal skeletal muscle.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD-O:8910/3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICDO-:8912/3</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1638,18 +1664,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_722">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_423"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign stromal tumors of the soft tissue with skeletal muscle differentiation.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-06T03:59:49Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:722</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult and fetal types.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhabdomyoma</rdfs:label>
+        <obo:IAO_0000115>Benign stromal tumors of the soft tissue with skeletal muscle differentiation.</obo:IAO_0000115>
+        <oboInOwl:created_by>Paul</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-06-06T03:59:49Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:722</oboInOwl:id>
+        <rdfs:comment>Adult and fetal types.</rdfs:comment>
+        <rdfs:label>rhabdomyoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_722"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benign stromal tumors of the soft tissue with skeletal muscle differentiation.</owl:annotatedTarget>
+        <owl:annotatedTarget>Benign stromal tumors of the soft tissue with skeletal muscle differentiation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD-O:M-8900/0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3525381</oboInOwl:hasDbXref>
     </owl:Axiom>

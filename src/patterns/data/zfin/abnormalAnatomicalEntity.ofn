@@ -203,389 +203,678 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100010>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000001> (<http://purl.obolibrary.org/obo/ZP_0000001>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000001> (abnormal zebrafish anatomical entity)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000001> "Abnormality of zebrafish anatomical entity."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000001> "abnormality of zebrafish anatomical entity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000001> "abnormal zebrafish anatomical entity"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0100000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000011> (<http://purl.obolibrary.org/obo/ZP_0000011>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000011> (abnormal somite)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000011> "Abnormality of somite."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000011> "abnormality of somite"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000011> "abnormal somite"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000155>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000018> (<http://purl.obolibrary.org/obo/ZP_0000018>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000018> (abnormal post-vent region)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000018> "Abnormality of post-vent region."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000018> "abnormality of post-vent region"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000018> "abnormal post-vent region"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001117>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000032> (<http://purl.obolibrary.org/obo/ZP_0000032>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000032> (abnormal brain)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000032> "Abnormality of brain."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000032> "abnormality of brain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000032> "abnormal brain"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000034> (<http://purl.obolibrary.org/obo/ZP_0000034>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000034> (abnormal hindbrain)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000034> "Abnormality of hindbrain."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000034> "abnormality of hindbrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000034> "abnormal hindbrain"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000029>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000036> (<http://purl.obolibrary.org/obo/ZP_0000036>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000036> (abnormal neural crest)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000036> "Abnormality of neural crest."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000036> "abnormality of neural crest"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000036> "abnormal neural crest"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000045>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000040> (<http://purl.obolibrary.org/obo/ZP_0000040>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000040> (abnormal yolk)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000040> "Abnormality of yolk."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000040> "abnormality of yolk"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000040> "abnormal yolk"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000084>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000041> (<http://purl.obolibrary.org/obo/ZP_0000041>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000041> (abnormal pharyngeal arch 3-7 skeleton)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000041> "Abnormality of pharyngeal arch 3-7 skeleton."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000041> "abnormality of pharyngeal arch 3-7 skeleton"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000041> "abnormal pharyngeal arch 3-7 skeleton"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000095>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000044> (<http://purl.obolibrary.org/obo/ZP_0000044>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000044> (abnormal heart)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000044> "Abnormality of heart."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000044> "abnormality of heart"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000044> "abnormal heart"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000114>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000049> (<http://purl.obolibrary.org/obo/ZP_0000049>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000049> (abnormal surface structure)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000049> "Abnormality of surface structure."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000049> "abnormality of surface structure"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000049> "abnormal surface structure"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000292>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000055> (<http://purl.obolibrary.org/obo/ZP_0000055>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000055> (abnormal pectoral fin)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000055> "Abnormality of pectoral fin."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000055> "abnormality of pectoral fin"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000055> "abnormal pectoral fin"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001161>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000094> (<http://purl.obolibrary.org/obo/ZP_0000094>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000094> (abnormal blood)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000094> "Abnormality of blood."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000094> "abnormality of blood"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000094> "abnormal blood"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000007>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000115> (<http://purl.obolibrary.org/obo/ZP_0000115>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000115> (abnormal nervous system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000115> "Abnormality of nervous system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000115> "abnormality of nervous system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000115> "abnormal nervous system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000115> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000396>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000147> (<http://purl.obolibrary.org/obo/ZP_0000147>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000147> (abnormal notochord)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000147> "Abnormality of notochord."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000147> "abnormality of notochord"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000147> "abnormal notochord"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000135>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000347> (<http://purl.obolibrary.org/obo/ZP_0000347>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000347> (abnormal floor plate)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000347> "Abnormality of floor plate."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000347> "abnormality of floor plate"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000347> "abnormal floor plate"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000347> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000022>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000355> (<http://purl.obolibrary.org/obo/ZP_0000355>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000355> (abnormal eye)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000355> "Abnormality of eye."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000355> "abnormality of eye"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000355> "abnormal eye"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000355> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000107>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000358> (<http://purl.obolibrary.org/obo/ZP_0000358>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000358> (abnormal forebrain)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000358> "Abnormality of forebrain."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000358> "abnormality of forebrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000358> "abnormal forebrain"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000109>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000400> (<http://purl.obolibrary.org/obo/ZP_0000400>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000400> (abnormal lens)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000400> "Abnormality of lens."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000400> "abnormality of lens"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000400> "abnormal lens"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000035>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000406> (<http://purl.obolibrary.org/obo/ZP_0000406>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000406> (abnormal sensory system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000406> "Abnormality of sensory system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000406> "abnormality of sensory system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000406> "abnormal sensory system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000282>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000428> (<http://purl.obolibrary.org/obo/ZP_0000428>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000428> (abnormal midbrain)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000428> "Abnormality of midbrain."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000428> "abnormality of midbrain"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000428> "abnormal midbrain"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000428> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000489> (<http://purl.obolibrary.org/obo/ZP_0000489>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000489> (abnormal fin)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000489> "Abnormality of fin."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000489> "abnormality of fin"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000489> "abnormal fin"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000489> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000108>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000570> (<http://purl.obolibrary.org/obo/ZP_0000570>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000570> (abnormal gut)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000570> "Abnormality of gut."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000570> "abnormality of gut"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000570> "abnormal gut"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000570> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000112>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000571> (<http://purl.obolibrary.org/obo/ZP_0000571>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000571> (abnormal liver)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000571> "Abnormality of liver."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000571> "abnormality of liver"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000571> "abnormal liver"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000571> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000123>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000596> (<http://purl.obolibrary.org/obo/ZP_0000596>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000596> (abnormal retinal pigmented epithelium)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000596> "Abnormality of retinal pigmented epithelium."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000596> "abnormality of retinal pigmented epithelium"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000596> "abnormal retinal pigmented epithelium"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000596> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000144>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000598> (<http://purl.obolibrary.org/obo/ZP_0000598>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000598> (abnormal head)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000598> "Abnormality of head."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000598> "abnormality of head"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000598> "abnormal head"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000598> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001114>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000640> (<http://purl.obolibrary.org/obo/ZP_0000640>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000640> (abnormal neural tube)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000640> "Abnormality of neural tube."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000640> "abnormality of neural tube"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000640> "abnormal neural tube"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000640> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001135>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000895> (<http://purl.obolibrary.org/obo/ZP_0000895>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000895> (abnormal mouth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000895> "Abnormality of mouth."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000895> "abnormality of mouth"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000895> "abnormal mouth"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000547>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000910> (<http://purl.obolibrary.org/obo/ZP_0000910>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000910> (abnormal splanchnocranium)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000910> "Abnormality of splanchnocranium."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000910> "abnormality of splanchnocranium"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000910> "abnormal splanchnocranium"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000910> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001216>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0000945> (<http://purl.obolibrary.org/obo/ZP_0000945>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000945> (abnormal pigment cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000945> "Abnormality of pigment cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000945> "abnormality of pigment cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000945> "abnormal pigment cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000945> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009090>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001054> (<http://purl.obolibrary.org/obo/ZP_0001054>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001054> (abnormal palatoquadrate arch)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001054> "Abnormality of palatoquadrate arch."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001054> "abnormality of palatoquadrate arch"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001054> "abnormal palatoquadrate arch"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001272>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001179> (<http://purl.obolibrary.org/obo/ZP_0001179>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001179> (abnormal melanocyte)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001179> "Abnormality of melanocyte."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001179> "abnormality of melanocyte"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001179> "abnormal melanocyte"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001179> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009091>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001181> (<http://purl.obolibrary.org/obo/ZP_0001181>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001181> (abnormal xanthophore)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001181> "Abnormality of xanthophore."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001181> "abnormality of xanthophore"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001181> "abnormal xanthophore"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001181> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009198>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001193> (<http://purl.obolibrary.org/obo/ZP_0001193>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001193> (abnormal inner ear)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001193> "Abnormality of inner ear."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001193> "abnormality of inner ear"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001193> "abnormal inner ear"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001193> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000217>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001196> (<http://purl.obolibrary.org/obo/ZP_0001196>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001196> (abnormal motor neuron)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001196> "Abnormality of motor neuron."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001196> "abnormality of motor neuron"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001196> "abnormal motor neuron"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009052>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001272> (<http://purl.obolibrary.org/obo/ZP_0001272>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001272> (abnormal retinal photoreceptor layer)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001272> "Abnormality of retinal photoreceptor layer."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001272> "abnormality of retinal photoreceptor layer"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001272> "abnormal retinal photoreceptor layer"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001272> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000143>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001495> (<http://purl.obolibrary.org/obo/ZP_0001495>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001495> (abnormal trunk musculature)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001495> "Abnormality of trunk musculature."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001495> "abnormality of trunk musculature"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001495> "abnormal trunk musculature"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001495> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000473>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001575> (<http://purl.obolibrary.org/obo/ZP_0001575>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001575> (abnormal primordial germ cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001575> "Abnormality of primordial germ cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001575> "abnormality of primordial germ cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001575> "abnormal primordial germ cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009288>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001696> (<http://purl.obolibrary.org/obo/ZP_0001696>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001696> (abnormal swim bladder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001696> "Abnormality of swim bladder."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001696> "abnormality of swim bladder"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001696> "abnormal swim bladder"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000076>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001771> (<http://purl.obolibrary.org/obo/ZP_0001771>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001771> (abnormal pronephros)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001771> "Abnormality of pronephros."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001771> "abnormality of pronephros"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001771> "abnormal pronephros"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001771> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000151>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001772> (<http://purl.obolibrary.org/obo/ZP_0001772>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001772> (abnormal retina)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001772> "Abnormality of retina."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001772> "abnormality of retina"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001772> "abnormal retina"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001897> (<http://purl.obolibrary.org/obo/ZP_0001897>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001897> (abnormal neuromast)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001897> "Abnormality of neuromast."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001897> "abnormality of neuromast"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001897> "abnormal neuromast"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001897> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000243>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001910> (<http://purl.obolibrary.org/obo/ZP_0001910>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001910> (abnormal posterior lateral line neuromast)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001910> "Abnormality of posterior lateral line neuromast."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001910> "abnormality of posterior lateral line neuromast"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001910> "abnormal posterior lateral line neuromast"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001910> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000940>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001919> (<http://purl.obolibrary.org/obo/ZP_0001919>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001919> (abnormal lateral line)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001919> "Abnormality of lateral line."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001919> "abnormality of lateral line"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001919> "abnormal lateral line"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001919> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001469>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0001920> (<http://purl.obolibrary.org/obo/ZP_0001920>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0001920> (abnormal otolith)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0001920> "Abnormality of otolith."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0001920> "abnormality of otolith"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001920> "abnormal otolith"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0001920> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001617>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002047> (<http://purl.obolibrary.org/obo/ZP_0002047>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002047> (abnormal endocrine pancreas)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002047> "Abnormality of endocrine pancreas."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002047> "abnormality of endocrine pancreas"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002047> "abnormal endocrine pancreas"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001260>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002365> (<http://purl.obolibrary.org/obo/ZP_0002365>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002365> (abnormal iridophore)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002365> "Abnormality of iridophore."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002365> "abnormality of iridophore"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002365> "abnormal iridophore"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002365> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009199>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002733> (<http://purl.obolibrary.org/obo/ZP_0002733>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002733> (abnormal blood vasculature)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002733> "Abnormality of blood vasculature."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002733> "abnormality of blood vasculature"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002733> "abnormal blood vasculature"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002733> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001079>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002826> (<http://purl.obolibrary.org/obo/ZP_0002826>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002826> (abnormal skeletal system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002826> "Abnormality of skeletal system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002826> "abnormality of skeletal system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002826> "abnormal skeletal system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002826> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000434>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002889> (<http://purl.obolibrary.org/obo/ZP_0002889>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002889> (abnormal blastema)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002889> "Abnormality of blastema."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002889> "abnormality of blastema"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002889> "abnormal blastema"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002889> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001270>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0002917> (<http://purl.obolibrary.org/obo/ZP_0002917>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0002917> (abnormal musculature system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0002917> "Abnormality of musculature system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0002917> "abnormality of musculature system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002917> "abnormal musculature system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0002917> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000548>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003032> (<http://purl.obolibrary.org/obo/ZP_0003032>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003032> (abnormal extension)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003032> "Abnormality of extension."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003032> "abnormality of extension"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003032> "abnormal extension"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000106>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003067> (<http://purl.obolibrary.org/obo/ZP_0003067>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003067> (abnormal skeletal muscle)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003067> "Abnormality of skeletal muscle."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003067> "abnormality of skeletal muscle"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003067> "abnormal skeletal muscle"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0005277>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003233> (<http://purl.obolibrary.org/obo/ZP_0003233>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003233> (abnormal midbrain hindbrain boundary)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003233> "Abnormality of midbrain hindbrain boundary."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003233> "abnormality of midbrain hindbrain boundary"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003233> "abnormal midbrain hindbrain boundary"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003233> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000042>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003289> (<http://purl.obolibrary.org/obo/ZP_0003289>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003289> (abnormal myoseptum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003289> "Abnormality of myoseptum."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003289> "abnormality of myoseptum"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003289> "abnormal myoseptum"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003289> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001089>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003502> (<http://purl.obolibrary.org/obo/ZP_0003502>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003502> (abnormal exocrine pancreas)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003502> "Abnormality of exocrine pancreas."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003502> "abnormality of exocrine pancreas"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003502> "abnormal exocrine pancreas"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001249>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003901> (<http://purl.obolibrary.org/obo/ZP_0003901>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003901> (abnormal otic vesicle)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003901> "Abnormality of otic vesicle."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003901> "abnormality of otic vesicle"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003901> "abnormal otic vesicle"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003901> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000051>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003903> (<http://purl.obolibrary.org/obo/ZP_0003903>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003903> (abnormal optic tectum)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003903> "Abnormality of optic tectum."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003903> "abnormality of optic tectum"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003903> "abnormal optic tectum"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003903> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000445>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0003916> (<http://purl.obolibrary.org/obo/ZP_0003916>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0003916> (abnormal pupil)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0003916> "Abnormality of pupil."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0003916> "abnormality of pupil"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003916> "abnormal pupil"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0003916> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001283>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004039> (<http://purl.obolibrary.org/obo/ZP_0004039>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004039> (abnormal endocardial cushion)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004039> "Abnormality of endocardial cushion."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004039> "abnormality of endocardial cushion"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004039> "abnormal endocardial cushion"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001317>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004258> (<http://purl.obolibrary.org/obo/ZP_0004258>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004258> (abnormal peripheral neuron)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004258> "Abnormality of peripheral neuron."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004258> "abnormality of peripheral neuron"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004258> "abnormal peripheral neuron"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009063>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004307> (<http://purl.obolibrary.org/obo/ZP_0004307>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004307> (abnormal hatching gland)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004307> "Abnormality of hatching gland."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004307> "abnormality of hatching gland"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004307> "abnormal hatching gland"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000026>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004718> (<http://purl.obolibrary.org/obo/ZP_0004718>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004718> (abnormal epidermis)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004718> "Abnormality of epidermis."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004718> "abnormality of epidermis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004718> "abnormal epidermis"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004718> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000105>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004719> (<http://purl.obolibrary.org/obo/ZP_0004719>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004719> (abnormal integument)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004719> "Abnormality of integument."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004719> "abnormality of integument"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004719> "abnormal integument"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004719> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000368>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004806> (<http://purl.obolibrary.org/obo/ZP_0004806>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004806> (abnormal central canal)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004806> "Abnormality of central canal."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004806> "abnormality of central canal"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004806> "abnormal central canal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000938>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004819> (<http://purl.obolibrary.org/obo/ZP_0004819>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004819> (abnormal ventral mandibular arch)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004819> "Abnormality of ventral mandibular arch."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004819> "abnormality of ventral mandibular arch"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004819> "abnormal ventral mandibular arch"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004819> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001273>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0004952> (<http://purl.obolibrary.org/obo/ZP_0004952>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0004952> (abnormal pharyngeal arch 2 skeleton)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0004952> "Abnormality of pharyngeal arch 2 skeleton."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0004952> "abnormality of pharyngeal arch 2 skeleton"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004952> "abnormal pharyngeal arch 2 skeleton"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0004952> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001276>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0005010> (<http://purl.obolibrary.org/obo/ZP_0005010>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0005010> (abnormal hair cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0005010> "Abnormality of hair cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0005010> "abnormality of hair cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005010> "abnormal hair cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0005010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009366>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0005568> (<http://purl.obolibrary.org/obo/ZP_0005568>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0005568> (abnormal symplectic)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0005568> "Abnormality of symplectic."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0005568> "abnormality of symplectic"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005568> "abnormal symplectic"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0005568> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000692>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0005629> (<http://purl.obolibrary.org/obo/ZP_0005629>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0005629> (abnormal pancreas)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0005629> "Abnormality of pancreas."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0005629> "abnormality of pancreas"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005629> "abnormal pancreas"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0005629> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000140>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0006391> (<http://purl.obolibrary.org/obo/ZP_0006391>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0006391> (abnormal cranium)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0006391> "Abnormality of cranium."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0006391> "abnormality of cranium"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006391> "abnormal cranium"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0006391> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000737>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0006529> (<http://purl.obolibrary.org/obo/ZP_0006529>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0006529> (abnormal gall bladder)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0006529> "Abnormality of gall bladder."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0006529> "abnormality of gall bladder"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006529> "abnormal gall bladder"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0006529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000208>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0006611> (<http://purl.obolibrary.org/obo/ZP_0006611>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0006611> (abnormal hypophysis)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0006611> "Abnormality of hypophysis."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0006611> "abnormality of hypophysis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006611> "abnormal hypophysis"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0006611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000118>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0007016> (<http://purl.obolibrary.org/obo/ZP_0007016>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0007016> (abnormal slow muscle cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0007016> "Abnormality of slow muscle cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0007016> "abnormality of slow muscle cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007016> "abnormal slow muscle cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0007016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009116>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0007873> (<http://purl.obolibrary.org/obo/ZP_0007873>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0007873> (abnormal cardiac ventricle)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0007873> "Abnormality of cardiac ventricle."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0007873> "abnormality of cardiac ventricle"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007873> "abnormal cardiac ventricle"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0007873> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0008314> (<http://purl.obolibrary.org/obo/ZP_0008314>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0008314> (abnormal semicircular canal)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0008314> "Abnormality of semicircular canal."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0008314> "abnormality of semicircular canal"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008314> "abnormal semicircular canal"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0008314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000431>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0008319> (<http://purl.obolibrary.org/obo/ZP_0008319>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0008319> (abnormal palatoquadrate cartilage)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0008319> "Abnormality of palatoquadrate cartilage."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0008319> "abnormality of palatoquadrate cartilage"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008319> "abnormal palatoquadrate cartilage"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0008319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001399>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0008320> (<http://purl.obolibrary.org/obo/ZP_0008320>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0008320> (abnormal ceratohyal cartilage)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0008320> "Abnormality of ceratohyal cartilage."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0008320> "abnormality of ceratohyal cartilage"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008320> "abnormal ceratohyal cartilage"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0008320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001400>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0009812> (<http://purl.obolibrary.org/obo/ZP_0009812>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0009812> (abnormal ventrolateral optic tract)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0009812> "Abnormality of ventrolateral optic tract."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0009812> "abnormality of ventrolateral optic tract"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0009812> "abnormal ventrolateral optic tract"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0009812> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000708>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0010240> (<http://purl.obolibrary.org/obo/ZP_0010240>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0010240> (abnormal retinal neural layer)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0010240> "Abnormality of retinal neural layer."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0010240> "abnormality of retinal neural layer"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010240> "abnormal retinal neural layer"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0010240> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000046>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0010254> (<http://purl.obolibrary.org/obo/ZP_0010254>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0010254> (abnormal prechordal plate)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0010254> "Abnormality of prechordal plate."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0010254> "abnormality of prechordal plate"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010254> "abnormal prechordal plate"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0010254> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000060>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0010546> (<http://purl.obolibrary.org/obo/ZP_0010546>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0010546> (abnormal neurohypophysis)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0010546> "Abnormality of neurohypophysis."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0010546> "abnormality of neurohypophysis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010546> "abnormal neurohypophysis"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0010546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001271>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0011051> (<http://purl.obolibrary.org/obo/ZP_0011051>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0011051> (abnormal retinal cone cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0011051> "Abnormality of retinal cone cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0011051> "abnormality of retinal cone cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0011051> "abnormal retinal cone cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0011051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009262>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0013938> (<http://purl.obolibrary.org/obo/ZP_0013938>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0013938> (abnormal dorsal root ganglion)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0013938> "Abnormality of dorsal root ganglion."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0013938> "abnormality of dorsal root ganglion"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013938> "abnormal dorsal root ganglion"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0013938> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000200>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0013948> (<http://purl.obolibrary.org/obo/ZP_0013948>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0013948> (abnormal mucus secreting cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0013948> "Abnormality of mucus secreting cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0013948> "abnormality of mucus secreting cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013948> "abnormal mucus secreting cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0013948> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009159>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014043> (<http://purl.obolibrary.org/obo/ZP_0014043>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014043> (abnormal eye photoreceptor cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014043> "Abnormality of eye photoreceptor cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014043> "abnormality of eye photoreceptor cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014043> "abnormal eye photoreceptor cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014853> (<http://purl.obolibrary.org/obo/ZP_0014853>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014853> (abnormal ventral fin fold)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014853> "Abnormality of ventral fin fold."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014853> "abnormality of ventral fin fold"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014853> "abnormal ventral fin fold"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014853> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001069>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014878> (<http://purl.obolibrary.org/obo/ZP_0014878>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014878> (abnormal retinal ganglion cell layer)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014878> "Abnormality of retinal ganglion cell layer."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014878> "abnormality of retinal ganglion cell layer"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014878> "abnormal retinal ganglion cell layer"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014878> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000024>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014892> (<http://purl.obolibrary.org/obo/ZP_0014892>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014892> (abnormal fast muscle cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014892> "Abnormality of fast muscle cell."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014892> "abnormality of fast muscle cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014892> "abnormal fast muscle cell"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014892> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009117>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014896> (<http://purl.obolibrary.org/obo/ZP_0014896>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014896> (abnormal hepatocyte)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014896> "Abnormality of hepatocyte."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014896> "abnormality of hepatocyte"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014896> "abnormal hepatocyte"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014896> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0009111>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014925> (<http://purl.obolibrary.org/obo/ZP_0014925>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014925> (abnormal olfactory system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014925> "Abnormality of olfactory system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014925> "abnormality of olfactory system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014925> "abnormal olfactory system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014925> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0014927> (<http://purl.obolibrary.org/obo/ZP_0014927>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0014927> (abnormal mandibular arch skeleton)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0014927> "Abnormality of mandibular arch skeleton."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0014927> "abnormality of mandibular arch skeleton"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014927> "abnormal mandibular arch skeleton"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0014927> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001227>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0015094> (<http://purl.obolibrary.org/obo/ZP_0015094>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0015094> (abnormal testis)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0015094> "Abnormality of testis."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0015094> "abnormality of testis"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0015094> "abnormal testis"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0015094> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0000598>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0017312> (<http://purl.obolibrary.org/obo/ZP_0017312>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0017312> (abnormal intestine)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0017312> "Abnormality of intestine."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0017312> "abnormality of intestine"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0017312> "abnormal intestine"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0017312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001338>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0100009> (<http://purl.obolibrary.org/obo/ZP_0100009>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0100009> (abnormal whole organism)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0100009> "Abnormality of whole organism."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0100009> "abnormality of whole organism"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0100009> "abnormal whole organism"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0100009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001094>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0100010> (<http://purl.obolibrary.org/obo/ZP_0100010>)
+# Class: <http://purl.obolibrary.org/obo/ZP_0100010> (abnormal anatomical system)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0100010> "Abnormality of anatomical system."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0100010> "abnormality of anatomical system"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0100010> "abnormal anatomical system"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0100010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0001439>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
