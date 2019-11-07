@@ -4,7 +4,7 @@ PURL=$(OBOPURL)ZP_
 
 ROBOT=robot -vv
 
-PATTERNDIR=../patterns/dosdp-patterns
+PDIR=../patterns/dosdp-patterns
 TEMPLATEDIR=../templates
 AUTOPATTERNDIR=../patterns/data/anatomy
 MANUALPATTERNDIR=../patterns/data/manual
@@ -15,14 +15,14 @@ TMPDIR=../curation/tmp
 ID_MAP_ZFIN=../curation/id_map_zfin.tsv
 ID_MAP=../curation/id_map.tsv
 
-#$(PATTERNDIR)/data/zfin/%.ofn: $(PATTERNDIR)/data/zfin/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
+#$(PDIR)/data/zfin/%.ofn: $(PDIR)/data/zfin/%.tsv $(PDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
 #	@$(if $(findstring _label.ofn,$@),dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@,dosdp-tools generate --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true  --restrict-axioms-to=logical --outfile=$@)
 
 #### 
 # Defiinitions.owl overwrite (occurs in hack!)
 ####
 
-$(PATTERNDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
+$(PDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
 	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
 	mv definitions.ofn $@ &&\
 	echo 'OCCURS IN HACK!' &&\
@@ -90,7 +90,7 @@ reserved_iris: $(RESERVED_IRI)
 MANUALPATTERNIDS=$(patsubst %.tsv, $(MANUALPATTERNDIR)/%_ids, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
 
 $(MANUALPATTERNDIR)/%_ids: $(RESERVED_IRI) $(ID_MAP)
-	python3 ../scripts/assign_unique_ids.py $(MANUALPATTERNDIR)/$*.tsv $(ID_MAP) $(RESERVED_IRI) $(AUTOPATTERNACCESSION) $(PURL) $(PATTERNDIR)
+	python3 ../scripts/assign_unique_ids.py $(MANUALPATTERNDIR)/$*.tsv $(ID_MAP) $(RESERVED_IRI) $(AUTOPATTERNACCESSION) $(PURL) $(PDIR)
 
 missing_iris: $(MANUALPATTERNIDS)
 
@@ -105,15 +105,15 @@ PIPELINE_DATA_PATH=../patterns/data/anatomy/
 SPARQLDIR=../sparql
 
 download_patterns: .FORCE
-	cat $(PATTERNDIR)/external.txt | sed 's!.*/!!' | sed 's! !!g' |  xargs -I{} rm -f $(PATTERNDIR)/{}
-	cat $(PATTERNDIR)/external.txt | sed 's! !!g' | xargs -I{} wget -q {} -P $(PATTERNDIR)/
+	cat $(PDIR)/external.txt | sed 's!.*/!!' | sed 's! !!g' |  xargs -I{} rm -f $(PDIR)/{}
+	cat $(PDIR)/external.txt | sed 's! !!g' | xargs -I{} wget -q {} -P $(PDIR)/
 
 $(ZFA):
 	$(ROBOT) reason --reasoner ELK -I $(ZFA_IRI) --output $@
 
 anatomy_pipeline: download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
 	echo "Using $(ZFA_IRI) for running anatomy pipeline, make sure this is correct!"
-	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) $(PATTERNDIR) $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG) || exit 1
+	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) $(PDIR) $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG) || exit 1
 
 #########################################
 ### Generating all ROBOT templates ######
@@ -151,5 +151,6 @@ zp_labels.csv:
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh zfin_pipeline.sh
 	
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
+zp_pipeline:  anatomy_pipeline missing_iris templates prepare_release
 
+#zfin_pipeline

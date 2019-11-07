@@ -415,7 +415,7 @@ pattern_schema_checks: update_patterns
 #This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 update_patterns: .FORCE
 	wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(PATTERNDIR)/dosdp-patterns
-	rm $(PATTERNDIR)/dosdp-patterns/*.yaml.1
+	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true
 
 $(PATTERNDIR)/pattern.owl: pattern_schema_checks update_patterns
 	@if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
