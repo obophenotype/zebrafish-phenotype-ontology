@@ -9095,9 +9095,21 @@ def: "An orientation quality inhering in a bearer by virtue of the bearer having
 subset: value_slim
 synonym: "distally directed" EXACT []
 is_a: PATO:0000133 ! orientation
-relationship: is_opposite_of PATO:0002495
+relationship: is_opposite_of PATO:0002495 ! dorsal orientation
 created_by: gkoutos
 creation_date: 2013-10-10T05:14:37Z
+
+[Term]
+id: PATO:0002495
+name: dorsal orientation
+namespace: quality
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsally." [PATOC:WD]
+subset: value_slim
+synonym: "dorsally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+relationship: is_opposite_of PATO:0002494 ! distal orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:15:24Z
 
 [Term]
 id: PATO:0002497

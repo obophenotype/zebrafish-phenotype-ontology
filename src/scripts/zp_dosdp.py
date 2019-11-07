@@ -95,7 +95,7 @@ obsolete_classes = [w.replace("_", ":") for w in obsolete_classes]
 #print(obsolete_classes)
 #print(len(obsolete_classes))
 #print(id_map.shape)
-#id_map = id_map[~id_map['iri'].isin(obsolete_classes)]
+id_map = id_map[~id_map['iri'].isin(obsolete_classes)]
 #print(id_map.shape)
 
 #df_deprecated_id_map['obsolete'] = 'obsolete'

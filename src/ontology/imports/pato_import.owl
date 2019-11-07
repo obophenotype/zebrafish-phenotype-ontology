@@ -167,7 +167,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
+        <rdfs:label>subset_property</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -10198,7 +10200,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001606"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A coating which is oily and slippery.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.answers.com:.answers.com</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>.answers.com:.answers.com</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10238,7 +10240,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001609"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A spatial pattern inhering in a bearer by virtue of the bearer&apos;s being scattered; spread irregularly, and at a distance from each other.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>biology.lsu:biology.lsu</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology.lsu:biology.lsu</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10594,7 +10596,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001645"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering into a bearer by virtue of the bearer&apos;s extending out above or beyond its surface or boundary into the surface or boundary of another entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:nc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:nc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10617,7 +10619,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001646"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering into a bearer by virtue of the bearer&apos;s extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:nc</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:nc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12391,7 +12393,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001786"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being divided or broken up into parts or divisions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">die.net:die.net</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>die.net:die.net</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17484,7 +17486,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002186"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A molecular quality that inheres in a molecular entity by virtue of whether or not the molecular entity has a separation of electric charge which leads to the molecule having an electric dipole.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:JH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:JH</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17645,7 +17647,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering in a bearer that is shaped in the form of a fan.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>thefreedictionary:http://www.thefreedictionary.com/fan-shaped</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thefreedictionary:http://www.thefreedictionary.com/fan-shaped</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19610,7 +19612,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Bounded structure filled with fluid.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:MPATH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:MPATH</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19948,7 +19950,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002471"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s increased rate of change of the position.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:NV</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:NV</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19982,7 +19984,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002472"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s decreased rate of change of the position.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:NV</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:NV</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20004,7 +20006,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002473"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disposition inhering in a tumour by virtue of the bearer&apos;s disposition to spontaneously arise.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:NV</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:NV</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20157,6 +20159,29 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002494"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed distally.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:WD</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000133"/>
+        <obo:IAO_0000115>An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsally.</obo:IAO_0000115>
+        <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002494"/>
+        <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-10-10T05:15:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>dorsally directed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002495</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label>dorsal orientation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002495"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsally.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:WD</oboInOwl:hasDbXref>
     </owl:Axiom>
     

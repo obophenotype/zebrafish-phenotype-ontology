@@ -151,6 +151,6 @@ zp_labels.csv:
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh zfin_pipeline.sh
 	
-zp_pipeline:  anatomy_pipeline missing_iris templates prepare_release
+zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
 
 #zfin_pipeline
