@@ -1,6 +1,6 @@
 AUTOPATTERNACCESSION = 99999
 OBOPURL=http://purl.obolibrary.org/obo/
-PURL=$(OBOPURL)"ZP_"
+PURL=$(OBOPURL)ZP_
 
 ROBOT=robot -vv
 
