@@ -19,7 +19,6 @@ relations:
 vars:
   affected_entity_1_super: "'affected_entity_1_super'"
   pato_id: "'pato_id'"
-  affected_entity_1_sub: "'affected_entity_1_sub'"
   affected_entity_2_super: "'affected_entity_2_super'"
   affected_entity_2_sub: "'affected_entity_2_sub'"
 
