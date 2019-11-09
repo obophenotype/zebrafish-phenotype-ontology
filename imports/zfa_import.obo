@@ -1,5 +1,6 @@
 format-version: 1.2
-data-version: zp/releases/2019-02-27/imports/zfa_import.owl
+data-version: zp/releases/2019-11-07/imports/zfa_import.owl
+subsetdef: cell_slim "cell_slim"
 ontology: zp/imports/zfa_import
 
 [Term]
@@ -1868,8 +1869,9 @@ synonym: "lateral cristae" EXACT PLURAL []
 synonym: "lateral semicircular canal sensory patch" EXACT []
 synonym: "lateral semicircular canal sensory patches" EXACT PLURAL []
 synonym: "lc" EXACT []
+synonym: "medial crista" RELATED [ZFIN:ZDB-PUB-051116-3]
 xref: TAO:0000166
-is_a: ZFA:0001488 ! multi-tissue structure
+is_a: ZFA:0007068 ! otic epithelium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000220 ! lateral semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -1974,6 +1976,7 @@ def: "Peripheral nucleus of the ventral telencephalon that has migrated to the p
 synonym: "area ventralis telencephali, nucleus lateralis" EXACT []
 xref: TAO:0002204
 is_a: ZFA:0001667 ! peripheral nucleus of ventral telencephalon
+relationship: develops_from ZFA:0005911 ! presumptive lateral nucleus of ventral telencephalon
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -2060,6 +2063,7 @@ namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is the central part of the pretectum." [GOC:mh, ORCiD:0000-0001-9114-8737]
 xref: TAO:0000183
 is_a: ZFA:0001488 ! multi-tissue structure
+relationship: develops_from ZFA:0005908 ! presumptive pretectum proliferative zone
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000418 ! pretectum
 relationship: start ZFS:0000000 ! Unknown
@@ -2584,7 +2588,7 @@ id: ZFA:0000231
 name: lateral recess
 namespace: zebrafish_anatomy
 alt_id: ZFA:0005493
-def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals that forms the lateral protrusion of the third ventricle.See also Di Dario (2004)." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
+def: "Intracranial space formed by confluence of supraorbital, infraorbital, preopercular and temporal sensory canals that forms the lateral protrusion of the third ventricle. See also Di Dario (2004)." [GOC:cvs, GOC:mh, ORCiD:0000-0001-9114-8737, ORCiD:0000-0002-2244-7917]
 synonym: "lateral recess of diencephalic ventricle" EXACT [ZFIN:ZDB-PUB-091221-27]
 synonym: "lateral recesses" EXACT PLURAL []
 synonym: "recessus lateralis" EXACT [ZFIN:ZDB-PUB-961014-1280]
@@ -3389,6 +3393,7 @@ synonym: "nucleus entopeduncularis, pars ventralis" EXACT []
 synonym: "ventral entopeduncular nucleus V" EXACT []
 xref: TAO:0000299
 is_a: ZFA:0001667 ! peripheral nucleus of ventral telencephalon
+relationship: develops_from ZFA:0005910 ! presumptive ventral entopeduncular nucleus
 relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 
@@ -3761,7 +3766,7 @@ relationship: start ZFS:0000001 ! Zygote:1-cell
 id: ZFA:0000330
 name: cloacal chamber
 namespace: zebrafish_anatomy
-def: "Space proximal to the urogenital pore where the pronephric duct, intestine and the ovaduct or sperm duct  empties." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Space proximal to the urogenital pore where the pronephric duct, intestine and the oviduct or sperm duct  empties." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "cloaca lumen" EXACT []
 xref: TAO:0000330
 is_a: ZFA:0001643 ! anatomical space
@@ -4760,7 +4765,7 @@ relationship: develops_from ZFA:0005904 ! retroarticular  process
 relationship: end ZFS:0000044 ! Adult
 relationship: overlaps ZFA:0005618 ! anguloarticular-retroarticular joint
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
-relationship: start ZFS:0000039 ! Larval:Days 7-13
+relationship: start ZFS:0000037 ! Larval:Day 5
 
 [Term]
 id: ZFA:0000423
@@ -5645,11 +5650,12 @@ relationship: start ZFS:0000000 ! Unknown
 
 [Term]
 id: ZFA:0000498
-name: dilator operculi
+name: dilatator operculi
 namespace: zebrafish_anatomy
 def: "Mandibular muscle that inserts along the dorsolateral faces of the opercles.  Responsible for opercular abduction." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-020703-2, ZFIN:ZDB-PUB-080306-33]
-synonym: "dilator opercula" EXACT []
-synonym: "dilators operculi" EXACT PLURAL []
+synonym: " dilatator opercula" EXACT []
+synonym: "dilator opercula" RELATED []
+synonym: "dilators operculi" RELATED PLURAL []
 xref: TAO:0000498
 is_a: ZFA:0000236 ! mandibular muscle
 relationship: develops_from ZFA:0007050 ! constrictor dorsalis
@@ -5856,14 +5862,23 @@ relationship: start ZFS:0000041 ! Larval:Days 21-29
 id: ZFA:0000516
 name: periventricular grey zone
 namespace: zebrafish_anatomy
+alt_id: ZFA:0001352
+def: "Tissue located on the ventral side of the optic tectum,  that  contains the cell bodies of most tectal neurons. It is adjacent to the tectal ventricle and opposite the eminentia granularis of the cerebellum.  It also contains a neurogenic niche and has hypothalamic inputs.  The dendrites of neurons from the periventricular grey zones  project their apical dendrites to the stratum opticum and stratum fibrosum et griseum superficale and synapse with retinal axons that project to these layers." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-140919-7, ZFIN:ZDB-PUB-180207-5]
 synonym: "periventricular gray zone" EXACT []
 synonym: "periventricular grey zones" EXACT PLURAL []
+synonym: "periventricular layer" EXACT [ZFIN:ZDB-PUB-180207-5]
 synonym: "PGZ" EXACT [ZFIN:ZDB-PUB-140919-7]
+synonym: "strata periventriculare" EXACT []
+synonym: "stratum griseum periventricular" EXACT [ZFIN:ZDB-PUB-180207-5]
+synonym: "stratum periventriculare" EXACT []
+synonym: "SVP" RELATED []
 xref: TAO:0000516
+xref: TAO:0001352
+is_a: ZFA:0001477 ! portion of tissue
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000445 ! optic tectum
-relationship: start ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
 
 [Term]
 id: ZFA:0000517
@@ -6472,7 +6487,7 @@ synonym: "posterior cristae" EXACT PLURAL []
 synonym: "posterior semicircular canal sensory patch" EXACT []
 synonym: "posterior semicircular canal sensory patches" EXACT PLURAL []
 xref: TAO:0000566
-is_a: ZFA:0001486 ! epithelium
+is_a: ZFA:0007068 ! otic epithelium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000262 ! posterior semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -6602,7 +6617,7 @@ relationship: start ZFS:0000040 ! Larval:Days 14-20
 id: ZFA:0000577
 name: renal portal vein
 namespace: zebrafish_anatomy
-def: "Afferent veins that supply the kidneys.  The renal portal veins connect" []
+def: "Afferent vein that supplies the kidney." [GOC:cvs, ISBN:9781118222942, ORCiD:0000-0002-2244-7917]
 synonym: "renal portal veins" EXACT PLURAL []
 xref: TAO:0000577
 is_a: ZFA:0000082 ! vein
@@ -7096,7 +7111,7 @@ synonym: "anterior semicircular canal sensory patch" EXACT []
 synonym: "anterior semicircular canal sensory patches" EXACT PLURAL []
 synonym: "rostral crista" EXACT []
 xref: TAO:0000619
-is_a: ZFA:0001486 ! epithelium
+is_a: ZFA:0007068 ! otic epithelium
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000314 ! anterior semicircular canal
 relationship: start ZFS:0000035 ! Larval:Protruding-mouth
@@ -7257,6 +7272,7 @@ synonym: "posterior tuberculum" EXACT []
 xref: TAO:0000633
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000044 ! Adult
+relationship: has_developmental_contribution_from ZFA:0005909 ! presumptive preglomerular region
 relationship: part_of ZFA:0000101 ! diencephalon
 relationship: start ZFS:0000000 ! Unknown
 
@@ -7886,6 +7902,7 @@ namespace: zebrafish_anatomy
 def: "Multi-tissue structure that is the superficial part of the pretectum and is embedded in the optic tract." [GOC:mh, ORCiD:0000-0001-9114-8737]
 xref: TAO:0000687
 is_a: ZFA:0001488 ! multi-tissue structure
+relationship: develops_from ZFA:0005908 ! presumptive pretectum proliferative zone
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000418 ! pretectum
 relationship: start ZFS:0000000 ! Unknown
@@ -8954,7 +8971,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0000779
 name: lateral forebrain bundle telencephalon
 namespace: zebrafish_anatomy
-def: "Portion of the lateral forebrain bundle that lies in the telencephalon.." [GOC:cvs, ORCiD:0000-0002-2244-7917]
+def: "Portion of the lateral forebrain bundle that lies in the telencephalon." [GOC:cvs, ORCiD:0000-0002-2244-7917]
 synonym: "lateral forebrain bundles telencephalon" EXACT PLURAL []
 xref: TAO:0000779
 is_a: ZFA:0000597 ! telencephalic white matter
@@ -13769,6 +13786,7 @@ synonym: "ventral mandibular cartilage" EXACT []
 xref: TAO:0001205
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0007117 ! Meckel's cartilage-palatoquadrate cartilage joint
 relationship: part_of ZFA:0001273 ! ventral mandibular arch
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
@@ -14555,7 +14573,7 @@ relationship: start ZFS:0000033 ! Hatching:Long-pec
 id: ZFA:0001274
 name: coronomeckelian
 namespace: zebrafish_anatomy
-def: "The coronomeckelian is a membrane bone that ossifies on Meckel's cartilage where the tendon from the adductor mandibulae A3 inserts (6.1mm). In the adult, the coronomeckelian is a small, irregularly shaped bone that is fused to the dorsomedial surface of the anguloarticular, just dorsal to Meckel's cartilage." [GOC:ymb, ORCiD:0000-0002-9900-7880]
+def: "The coronomeckelian is a membrane bone that ossifies on Meckel's cartilage where the tendon from the adductor mandibulae A3 inserts (6.1mm).  In the adult, the coronomeckelian is a small, irregularly shaped bone that is fused to the dorsomedial surface of the anguloarticular, just dorsal to Meckel's cartilage." [GOC:ymb, ORCiD:0000-0002-9900-7880]
 synonym: "coronoid" RELATED []
 synonym: "sesamoid articular" EXACT []
 xref: TAO:0001274
@@ -15402,22 +15420,26 @@ relationship: start ZFS:0000027 ! Segmentation:20-25 somites
 id: ZFA:0001347
 name: stratum fibrosum et griseum superficiale
 namespace: zebrafish_anatomy
+def: "Layer of the optic tectum that is ventral to the stratum opticum and dorsal to the stratum griseum centrale, contains three sublaminae.  Has hypothalamic and retinal  inputs." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-081218-37, ZFIN:ZDB-PUB-101011-44, ZFIN:ZDB-PUB-180207-5]
+synonym: "SFGS" RELATED []
 synonym: "strata fibrosum et griseum superficiales" EXACT PLURAL []
 xref: TAO:0001347
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
+relationship: part_of ZFA:0005907 ! tectal neuropile
 relationship: start ZFS:0000038 ! Larval:Day 6
 
 [Term]
 id: ZFA:0001348
 name: stratum marginale
 namespace: zebrafish_anatomy
+def: "Dorsalmost layer of the tectal neuropile that  does not receive direct retinal inputs, receives axonal projections from the torus longitudinalis." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180207-5]
 synonym: "strata marginale" EXACT PLURAL []
+synonym: "stratum fibrosum marginale" EXACT [ZFIN:ZDB-PUB-180207-5]
 xref: TAO:0001348
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
+relationship: part_of ZFA:0005907 ! tectal neuropile
 relationship: start ZFS:0000038 ! Larval:Day 6
 
 [Term]
@@ -15429,7 +15451,7 @@ synonym: "strata opticum" EXACT PLURAL []
 xref: TAO:0001349
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
+relationship: part_of ZFA:0005907 ! tectal neuropile
 relationship: start ZFS:0000038 ! Larval:Day 6
 
 [Term]
@@ -15439,31 +15461,19 @@ namespace: zebrafish_anatomy
 xref: TAO:0001350
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
+relationship: part_of ZFA:0005907 ! tectal neuropile
 relationship: start ZFS:0000038 ! Larval:Day 6
 
 [Term]
 id: ZFA:0001351
 name: stratum album centrale
 namespace: zebrafish_anatomy
+def: "Has hypothalamic inputs." [ZFIN:ZDB-PUB-180207-5]
 synonym: "strata album centrales" EXACT PLURAL []
 xref: TAO:0001351
 is_a: ZFA:0001477 ! portion of tissue
 relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
-relationship: start ZFS:0000038 ! Larval:Day 6
-
-[Term]
-id: ZFA:0001352
-name: stratum periventriculare
-namespace: zebrafish_anatomy
-def: "Portion of the optic tectum which contains the cell bodies of most tectal neurons." [ZFIN:ZDB-PUB-101101-16]
-synonym: "strata periventriculare" EXACT PLURAL []
-synonym: "SVP" RELATED []
-xref: TAO:0001352
-is_a: ZFA:0001477 ! portion of tissue
-relationship: end ZFS:0000044 ! Adult
-relationship: part_of ZFA:0000445 ! optic tectum
+relationship: part_of ZFA:0005907 ! tectal neuropile
 relationship: start ZFS:0000038 ! Larval:Day 6
 
 [Term]
@@ -15984,6 +15994,7 @@ synonym: "quadrate cartilage" EXACT []
 xref: TAO:0001399
 is_a: ZFA:0001460 ! pharyngeal arch cartilage
 relationship: end ZFS:0000044 ! Adult
+relationship: overlaps ZFA:0007117 ! Meckel's cartilage-palatoquadrate cartilage joint
 relationship: part_of ZFA:0001272 ! palatoquadrate arch
 relationship: start ZFS:0000033 ! Hatching:Long-pec
 
@@ -17215,6 +17226,7 @@ name: taenia marginalis anterior
 namespace: zebrafish_anatomy
 def: "Cartilage bar (bilaterally paired) that grows anteroventrally from the epiphyseal bar to join the anteriolateral edge of the ethmoid plate." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "orbital cartilage" RELATED []
+synonym: "taeniae marginales anterior" EXACT PLURAL []
 xref: TAO:0001505
 is_a: ZFA:0001461 ! chondrocranium cartilage
 relationship: end ZFS:0000044 ! Adult
@@ -17339,6 +17351,7 @@ name: taenia marginalis posterior
 namespace: zebrafish_anatomy
 def: "Cartilage bar (bilaterally paired) that is first visible as an anterior extension of the auditory capsule. It grows anteriorly toward the middle of the orbit where it is connected to its mate on the other side by the epiphyseal bar." [GOC:mh, ORCiD:0000-0001-9114-8737]
 synonym: "orbital cartilage" RELATED []
+synonym: "taeniae  marginales posterior" EXACT PLURAL []
 xref: TAO:0001515
 is_a: ZFA:0001461 ! chondrocranium cartilage
 relationship: end ZFS:0000044 ! Adult
@@ -17732,7 +17745,9 @@ id: ZFA:0001557
 name: pronephric glomerulus
 namespace: zebrafish_anatomy
 def: "Paired highly vascularized structures of the pronephros which are fused at the midline.  Responsible for blood filtration and begins to function between 40 and 48hpf." [ZFIN:ZDB-PUB-000606-4]
+synonym: "pronephric glomera" EXACT []
 synonym: "pronephric glomeruli" EXACT PLURAL []
+synonym: "pronephric glomus " EXACT []
 xref: TAO:0001557
 is_a: ZFA:0001488 ! multi-tissue structure
 relationship: end ZFS:0000039 ! Larval:Days 7-13
@@ -19517,7 +19532,7 @@ creation_date: 2009-08-05T03:35:05Z
 id: ZFA:0001705
 name: endolymphatic duct
 namespace: zebrafish_anatomy
-def: "Duct that is part of the inner ear and connects to the semicircular canals ending in a pouch." [http://en.wikipedia.org/wiki/Endolymphatic_duct, ZFIN:ZDB-PUB-090112-20]
+def: "Duct that is part of the inner ear and connects to the semicircular canals ending in the endolymphatic sac." [http://en.wikipedia.org/wiki/Endolymphatic_duct, ZFIN:ZDB-PUB-090112-20]
 xref: TAO:0002194
 is_a: ZFA:0005171 ! duct
 relationship: end ZFS:0000044 ! Adult
@@ -19982,7 +19997,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0005014
 name: recurrent branch afferent branchial artery
 namespace: zebrafish_anatomy
-def: "The anterioventral proceeding branch of the afferent branchial artery." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
+def: "The anteroventral proceeding branch of the afferent branchial artery." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "RCB" EXACT []
 synonym: "recurrent branch afferent branchial arteries" EXACT PLURAL []
 xref: TAO:0005014
@@ -20266,7 +20281,7 @@ relationship: start ZFS:0000034 ! Hatching:Pec-fin
 id: ZFA:0005036
 name: supraintestinal artery
 namespace: zebrafish_anatomy
-def: "A continuation of the anterior mesenteric artery, which branches out from the dorsal aorta  just caudal to the pronephric glomus." [ZFIN:ZDB-PUB-010205-5]
+def: "A continuation of the anterior mesenteric artery, which branches out from the dorsal aorta  just caudal to the pronephric glomus." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-010205-5]
 synonym: "SIA" EXACT []
 xref: TAO:0005036
 is_a: ZFA:0000005 ! artery
@@ -30084,7 +30099,7 @@ creation_date: 2014-06-24T10:08:34Z
 
 [Term]
 id: ZFA:0005805
-name: rhombencephalic octavola-teral efferent neuron
+name: rhombencephalic octavolateral efferent neuron
 namespace: zebrafish_anatomy
 def: "Efferent neuron located in the hindbrain.  The axon of ROLE cells travels rostrally near the ipsilateral medial longitudinal fascicle to the level of the Mauthner cell where it turns laterally to exit with the eighth nerve.  Outside the brain the  axon continues ventrally  to the base of the saccular macula in the ear then turns caudally to ender the ganglion of the posterior lateral line.   A branch of the axon  turns ventrally before the main axon enters the LLG.  The branch goes ventrally along the wall of the otic capsule." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-961014-768]
 subset: cell_slim
@@ -31359,7 +31374,7 @@ name: retroarticular  process
 namespace: zebrafish_anatomy
 def: "A protrusion of cartilage at the posteroventral tip of  Meckel's cartilage that gives rise to the retroarticular." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-161203-3]
 is_a: ZFA:0005903 ! cartilaginous projection
-relationship: end ZFS:0000038 ! Larval:Day 6
+relationship: end ZFS:0000037 ! Larval:Day 5
 relationship: part_of ZFA:0001205 ! Meckel's cartilage
 relationship: start ZFS:0000000 ! Unknown
 created_by: Ceri
@@ -31389,6 +31404,132 @@ relationship: part_of ZFA:0000938 ! central canal
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 created_by: ceriv
 creation_date: 2018-11-29T11:06:47Z
+
+[Term]
+id: ZFA:0005907
+name: tectal neuropile
+namespace: zebrafish_anatomy
+def: "Neuronal tissue that is the arborization field for the majority of the ganglion cell axons,  it also holds other incoming axons, for example, from the pretectum and the contralateral tectum, as well as the dendrites and axons of tectal interneurons and projection neurons." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-081218-37]
+synonym: "synaptic neuropil " RELATED [ZFIN:ZDB-PUB-101101-16]
+synonym: "tectial lamina" RELATED [ZFIN:ZDB-PUB-081218-37]
+is_a: ZFA:0001488 ! multi-tissue structure
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000445 ! optic tectum
+relationship: start ZFS:0000029 ! Pharyngula:Prim-5
+created_by: Ceri
+creation_date: 2019-01-28T17:08:19Z
+
+[Term]
+id: ZFA:0005908
+name: presumptive pretectum proliferative zone
+namespace: zebrafish_anatomy
+def: "Region the larval brain that is a forerunner of  the adult central and superficial pretectal regions.  This region is non ventricular neural proliferation zone." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-030115-8, ZFIN:ZDB-PUB-990406-3]
+synonym: "M1" EXACT [ZFIN:ZDB-PUB-070711-1]
+is_a: ZFA:0001105 ! embryonic structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000031 ! Pharyngula:Prim-25
+created_by: Ceri
+creation_date: 2019-01-29T16:22:51Z
+
+[Term]
+id: ZFA:0005909
+name: presumptive preglomerular region
+namespace: zebrafish_anatomy
+def: "Region that gives rise to various caudal tubercular structures in the preglomerular region This region is non ventricular neural proliferation zone and doesn't express GABA." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-020912-2, ZFIN:ZDB-PUB-030115-8]
+synonym: "early migrated posterior tubercular region" RELATED [ZFIN:ZDB-PUB-070711-1]
+synonym: "M2" RELATED [ZFIN:ZDB-PUB-070711-1]
+synonym: "preglomerular anlagen " RELATED [ZFIN:ZDB-PUB-020912-2]
+is_a: ZFA:0001105 ! embryonic structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+created_by: Ceri
+creation_date: 2019-01-29T16:37:24Z
+
+[Term]
+id: ZFA:0005910
+name: presumptive ventral entopeduncular nucleus
+namespace: zebrafish_anatomy
+def: "Portion of tissue that is presumed to give rise to the  entopenduncular nucleus." [ZFIN:ZDB-PUB-040304-8, ZFIN:ZDB-PUB-090914-27]
+synonym: "M3" NARROW []
+is_a: ZFA:0001105 ! embryonic structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000031 ! Pharyngula:Prim-25
+created_by: Ceri
+creation_date: 2019-01-30T13:02:59Z
+
+[Term]
+id: ZFA:0005911
+name: presumptive lateral nucleus of ventral telencephalon
+namespace: zebrafish_anatomy
+def: "Portion of tissue that gives rise to the lateral nucleus of the ventral telencephalon.  The area sometimes called M4 does not express GABA or dlx2a." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-090814-14, ZFIN:ZDB-PUB-090914-27]
+synonym: "lateral nucleus of area ventralis telencepha" RELATED [ZFIN:ZDB-PUB-090814-14]
+synonym: "M4" RELATED [ZFIN:ZDB-PUB-090814-14]
+is_a: ZFA:0001105 ! embryonic structure
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000030 ! Pharyngula:Prim-15
+created_by: Ceri
+creation_date: 2019-01-30T13:42:52Z
+
+[Term]
+id: ZFA:0005912
+name: endolymphatic sac
+namespace: zebrafish_anatomy
+def: "Pouch at the end of the endolymphatic duct that helps regulates pressure on the inner ear. The endolymphatic sac is separated from the endolymphatic duct by a dynamic lamellar barrier.  The lamellar barrier is composed of long, thin lamellar sheets that form tongue-and-groove structure or interwoven broadly overlapping structures. In adults, the endolymphatic duct and sac are partially encased within the temporal bone such that the distal end of the endolymphatic sac protrudes out of the temporal bone into the cranial cavity ." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180622-24]
+xref: TAO:0002194
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000217 ! inner ear
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2019-04-16T14:25:54Z
+
+[Term]
+id: ZFA:0005913
+name: urine
+namespace: zebrafish_anatomy
+def: "Organism substance that is the output of the nephron." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-050818-17]
+is_a: ZFA:0001487 ! portion of organism substance
+relationship: end ZFS:0000044 ! Adult
+relationship: start ZFS:0000000 ! Unknown
+creation_date: 2019-05-02T16:21:42Z
+
+[Term]
+id: ZFA:0005914
+name: argentum
+namespace: zebrafish_anatomy
+def: "Iridophore layer of iris composed of a outer layer of regularly tiled  iridophores and an inner layer of randomly arranged iridophores.  The outer regularly tiled iridophores reflect blue green light.  The light reflecting crystals in the iris iridophores are composed of anhydrous Beta-guanine." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+synonym: "argenta " EXACT PLURAL []
+synonym: "iridophore layer iris" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001238 ! iris
+relationship: start ZFS:0000032 ! Pharyngula:High-pec
+created_by: Ceri
+creation_date: 2019-05-29T15:43:36Z
+
+[Term]
+id: ZFA:0005915
+name: iris melanophore layer
+namespace: zebrafish_anatomy
+def: "Layer of melanophores that are positioned behind the argenta.  The melanophore layer absorbs unfocused light preventing it from reaching the retina." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001238 ! iris
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2019-05-29T15:55:27Z
+
+[Term]
+id: ZFA:0005916
+name: tapetum lucidum
+namespace: zebrafish_anatomy
+def: "Iridophore layer that forms along the dorsal region of the poster segment of the eye. The tapetum is formed by a single layer of Iridophores and is proximal to  the  photoreceptors  and is located  in the choroid.   The  tapetum  reflects photons back to the photoreceptors if  they were not initially absorbed by the photoreceptors." [GOC:cvs, ORCiD:0000-0002-2244-7917, ZFIN:ZDB-PUB-180822-3]
+synonym: "tapetum cellulosum" RELATED []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0005229 ! optic choroid
+relationship: start ZFS:0000000 ! Unknown
+created_by: Ceri
+creation_date: 2019-05-29T16:15:09Z
 
 [Term]
 id: ZFA:0006000
@@ -31551,7 +31692,7 @@ relationship: start ZFS:0000000 ! Unknown
 id: ZFA:0007012
 name: lateral forebrain bundle
 namespace: zebrafish_anatomy
-def: "In the adult bilaterally paired compact tract located lateral to the medial forebrain bundle that extends to the diencephalon.  Formed from several fascicles that  originate in the precommissural telencephalon and converge rostrocaudally.  In the seven day old fish bilaterally paired bundle that runs caudally from the anterior commissure to the forebrain. In the caudal  diencephalon the bundle divides  into  two  parts.   The thinner part runs more laterally and ventrally, and the thicker part was located more medially and dorsally. Both bundles run in the caudal direction  toward  the  cranial  wall  of  the  lateral  recess  of  the diencephalic   ventricle,   where   they   apparently exchange some fibers. Then, they continue in the caudal  direction,  surrounding  the lateral  recess from  the  ventral  and dorsal side, and meet close to the caudal wall of lateral  recess at the level  of  the  commissure  of  the  posterior  tuberculum." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-051207-17, ZFIN:ZDB-PUB-961014-1280]
+def: "In the adult bilaterally paired compact tract located lateral to the medial forebrain bundle that extends to the diencephalon. Formed from several fascicles that  originate in the precommissural telencephalon and converge rostrocaudally.  In the seven day old fish bilaterally paired bundle that runs caudally from the anterior commissure to the forebrain. In the caudal diencephalon the bundle divides into two parts. The thinner part runs more laterally and ventrally, and the thicker part was located more medially and dorsally. Both bundles run in the caudal direction toward the cranial wall of the lateral recess of  the diencephalic ventricle, where they apparently exchange some fibers. Then, they continue in the caudal  direction, surrounding the lateral recess from the ventral and dorsal side, and meet close to the caudal wall of lateral recess at the level of the commissure of the posterior tuberculum." [GOC:cvs, GOC:ymb, ORCiD:0000-0002-2244-7917, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-051207-17, ZFIN:ZDB-PUB-961014-1280]
 synonym: "fasciculus lateralis telencephali" EXACT [ZFIN:ZDB-PUB-961014-1280]
 synonym: "lateral forebrain bundles" EXACT PLURAL []
 xref: TAO:0007012
@@ -32010,7 +32151,7 @@ relationship: start ZFS:0000032 ! Pharyngula:High-pec
 id: ZFA:0007050
 name: constrictor dorsalis
 namespace: zebrafish_anatomy
-def: "Dorsal subdivision of the putative mandibular muscle plate. Splits into the dilator operculi and the levator arcus palatini." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-970819-13]
+def: "Dorsal subdivision of the putative mandibular muscle plate. Splits into the dilatator operculi and the levator arcus palatini." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-970819-13]
 synonym: "constrictors dorsalis" EXACT PLURAL []
 xref: TAO:0007050
 is_a: ZFA:0000236 ! mandibular muscle
@@ -32817,6 +32958,44 @@ relationship: end ZFS:0000044 ! Adult
 relationship: start ZFS:0000000 ! Unknown
 created_by: Yvonne
 creation_date: 2018-03-26T14:19:43Z
+
+[Term]
+id: ZFA:0007117
+name: Meckel's cartilage-palatoquadrate cartilage joint
+namespace: zebrafish_anatomy
+def: "Joint between Meckel's cartilage and palatoquadrate cartilage." [GOC:ymb, ORCid:0000-0002-9900-7880, ZFIN:ZDB-PUB-151122-6]
+synonym: "jaw joint" EXACT []
+is_a: ZFA:0001596 ! joint
+relationship: end ZFS:0000000 ! Unknown
+relationship: start ZFS:0000033 ! Hatching:Long-pec
+created_by: Yvonne
+creation_date: 2019-04-05T15:06:57Z
+
+[Term]
+id: ZFA:0007118
+name: vertebral body end plate
+namespace: zebrafish_anatomy
+def: "The vertebral body end plate is part of the autocentrum. The anterior and posterior surfaces of the autocentrum constitute the funnel shaped vertebral body end plates. The outer rim of the end plate is the vertebral body growth zone. The anterior and posterior end plates are connected by bony plates that are horizontally attached to the ourter contour of the autocentrum." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180228-2]
+synonym: "vertebral body endplate" EXACT []
+is_a: ZFA:0001477 ! portion of tissue
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0000126 ! centrum
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Yvonne
+creation_date: 2019-04-08T12:21:06Z
+
+[Term]
+id: ZFA:0007119
+name: intervertebral ligament
+namespace: zebrafish_anatomy
+def: "Ligament that connects adjacent vertebra. The intervertebral ligament (IVL) connects the posterior vertebral end plate to  the anterior vertebral end plate of adjacent vertebra. For example the IVL connects the posterior end plate of vertebra 14 to the anterior end plate of vertebra 15.  It is typically composed of three distinct layers: the notochord sheet which is mainly type II collagen; the outer elastin layer; and a layer of type I collagen fiber bundles." [GOC:ymb, ORCiD:0000-0002-9900-7880, ZFIN:ZDB-PUB-180808-7]
+synonym: "IVL" EXACT []
+is_a: ZFA:0001675 ! ligament
+relationship: end ZFS:0000044 ! Adult
+relationship: part_of ZFA:0001559 ! vertebral column
+relationship: start ZFS:0000035 ! Larval:Protruding-mouth
+created_by: Yvonne
+creation_date: 2019-04-08T13:27:22Z
 
 [Term]
 id: ZFA:0009000
@@ -34105,6 +34284,7 @@ is_a: ZFA:0009090 ! pigment cell
 relationship: develops_from ZFA:0009249 ! melanoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
+relationship: part_of ZFA:0005915 ! iris melanophore layer
 relationship: start ZFS:0000029 ! Pharyngula:Prim-5
 
 [Term]
@@ -34427,7 +34607,7 @@ id: ZFA:0009116
 name: slow muscle cell
 namespace: zebrafish_anatomy
 alt_id: ZFA:0001087
-def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content." []
+def: "A muscle cell that is small, darkly colored, with high lipid and mitochondrial content." [CL:curator]
 subset: cell_slim
 synonym: "red muscle cell" EXACT []
 synonym: "slow muscle fiber" EXACT [ISBN:0815316208]
@@ -35475,6 +35655,8 @@ is_a: ZFA:0009090 ! pigment cell
 relationship: develops_from ZFA:0005328 ! iridoblast
 relationship: end ZFS:0000044 ! Adult
 relationship: part_of ZFA:0000368 ! integument
+relationship: part_of ZFA:0005914 ! argentum
+relationship: part_of ZFA:0005916 ! tapetum lucidum
 relationship: start ZFS:0000032 ! Pharyngula:High-pec
 
 [Term]

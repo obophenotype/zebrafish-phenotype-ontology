@@ -104,8 +104,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZFA_0009199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZFA_0009262>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZFA_0009288>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZFA_0009366>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZFA_0100000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000032>))
@@ -211,13 +209,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0000001> (abnormal zebrafish anatomical entity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0000001> "Abnormality of zebrafish anatomical entity."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ZP_0000001> "abnormality of zebrafish anatomical entity"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000001> "abnormal zebrafish anatomical entity"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/ZFA_0100000>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0000011> (abnormal somite)
 

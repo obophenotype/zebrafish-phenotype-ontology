@@ -1,5 +1,15 @@
 format-version: 1.2
-data-version: zp/releases/2019-02-27/imports/pato_import.owl
+data-version: zp/releases/2019-11-07/imports/pato_import.owl
+subsetdef: abnormal_slim "Abnormal/normal slim"
+subsetdef: absent_slim "Absent/present slim"
+subsetdef: attribute_slim "Attribute slim"
+subsetdef: cell_quality "cell_quality"
+subsetdef: disposition_slim "Disposition slim"
+subsetdef: hpo_slim "Human phenotype slim"
+subsetdef: mpath_slim "Pathology slim"
+subsetdef: relational_slim "Relational slim: types of quality that require an additional entity in order to exist"
+subsetdef: scalar_slim "Scalar slim"
+subsetdef: value_slim "Value slim"
 ontology: zp/imports/pato_import
 
 [Term]
@@ -1379,6 +1389,15 @@ is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 relationship: is_opposite_of PATO:0000586 ! increased size
+
+[Term]
+id: PATO:0000588
+name: vestigial
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's being a remnant structure from earlier development or evolution." [PATOC:MAH]
+comment: May be part of an animal (such as an organ or bone) that is no longer used by the species and has therefore become smaller or less developed.
+subset: value_slim
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0000591
@@ -8349,6 +8368,17 @@ created_by: george
 creation_date: 2011-03-09T09:16:47Z
 
 [Term]
+id: PATO:0002284
+name: tension
+namespace: quality
+def: "A physical quality that pertains by virtue of a pulling force that is directed away from the bearer and attempts to stretch or elongate the bearer." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+created_by: george
+creation_date: 2011-03-10T08:41:21Z
+
+[Term]
 id: PATO:0002285
 name: increased branchiness
 namespace: quality
@@ -8904,6 +8934,16 @@ created_by: gkoutos
 creation_date: 2013-04-08T08:43:31Z
 
 [Term]
+id: PATO:0002453
+name: eroding
+namespace: quality
+def: "A structural quality inhering in a bearer by virtue of the bearer bring gradually worn away." [PATOC:JL]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2013-04-08T08:45:08Z
+
+[Term]
 id: PATO:0002462
 name: collagenous
 namespace: quality
@@ -9046,6 +9086,30 @@ synonym: "anterolaterally directed" EXACT []
 is_a: PATO:0000133 ! orientation
 created_by: gkoutos
 creation_date: 2013-10-10T05:13:17Z
+
+[Term]
+id: PATO:0002494
+name: distal orientation
+namespace: quality
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed distally." [PATOC:WD]
+subset: value_slim
+synonym: "distally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+relationship: is_opposite_of PATO:0002495 ! dorsal orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:14:37Z
+
+[Term]
+id: PATO:0002495
+name: dorsal orientation
+namespace: quality
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsally." [PATOC:WD]
+subset: value_slim
+synonym: "dorsally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+relationship: is_opposite_of PATO:0002494 ! distal orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:15:24Z
 
 [Term]
 id: PATO:0002497
@@ -9321,6 +9385,15 @@ namespace: quality
 def: "A malformed quality inhering in a bearer by virtue of the bearer's gross morphology containing what are normally ventral structures and missing some or all of what are normally dorsal structures." [PATOC:EJS]
 is_a: PATO:0000646 ! malformed
 created_by: segerdel
+
+[Term]
+id: PATO:0040000
+name: heterotaxic
+namespace: quality
+def: "An oriented quality inhering in a bearer by virtue of the bearer's being abnormally placed or arranged." [http://medical-dictionary.thefreedictionary.com/heterotaxic]
+is_a: PATO:0000625 ! inverted
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
+property_value: http://purl.org/dc/elements/1.1/date 2018-05-21T22:44:38Z xsd:dateTime
 
 [Term]
 id: PATO:0045000

@@ -432,7 +432,6 @@ http://purl.obolibrary.org/obo/ZP_0100050	obsolete proximal pars anterior has nu
 http://purl.obolibrary.org/obo/ZP_0100091	obsolete whole organism increased frequency apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0001094-PATO:0000380-0-0-0
 http://purl.obolibrary.org/obo/ZP_0100093	obsolete ventral region pharyngeal arch cartilage amount, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0001460-PATO:0000070-0-0-0
 http://purl.obolibrary.org/obo/ZP_0100094	obsolete ventral region pharyngeal arch 2 size, abnormal	true	BSPO:0000084-BFO:0000050-ZFA:0001611-PATO:0000117-0-0-0
-http://purl.obolibrary.org/obo/ZP_0100125	obsolete actin-based cell projection peridermal cell length, abnormal	true	GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0
 http://purl.obolibrary.org/obo/ZP_0100150	obsolete nucleus erythroblast size, abnormal	true	GO:0005634-BFO:0000050-ZFA:0005237-PATO:0000117-0-0-0
 http://purl.obolibrary.org/obo/ZP_0100153	obsolete nucleate erythrocyte occurrence hemoglobin biosynthetic process, abnormal	true	GO:0042541-BFO:0000066-ZFA:0009256-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0100155	obsolete hemoglobin biosynthetic process occurrence, abnormal	true	0-0-GO:0042541-PATO:0000057-0-0-0

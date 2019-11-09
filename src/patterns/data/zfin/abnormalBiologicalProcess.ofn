@@ -10,8 +10,6 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001702>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006954>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006955>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007389>))
@@ -22,7 +20,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008015>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008283>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009416>))
@@ -66,9 +63,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004768>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005465>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008343>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013928>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013929>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013930>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014956>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014959>))
@@ -200,24 +194,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0007634> ObjectSomeValuesFr
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0008343> "Abnormal skeletal system development."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008343> "abnormal skeletal system development"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0008343> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0001501>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0013928> (abnormal biological_process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0013928> "Abnormal biological_process."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013928> "abnormal biological_process"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0013928> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008150>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0013929> (abnormal molecular_function)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0013929> "Abnormal molecular_function."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013929> "abnormal molecular_function"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0013929> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0003674>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0013930> (abnormal cellular_component)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0013930> "Abnormal cellular_component."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013930> "abnormal cellular_component"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0013930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005575>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0014037> (abnormal pattern specification process)
 

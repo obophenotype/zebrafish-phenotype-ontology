@@ -20,5 +20,6 @@ python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv ||
 
 python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl || exit 1
 
+python3 ../scripts/create_id_map.py ../patterns id_map.tsv || exit 1
 
 cd ../ontology

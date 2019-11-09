@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-02-27/imports/mpath_import.owl
+data-version: zp/releases/2019-11-07/imports/mpath_import.owl
 ontology: zp/imports/mpath_import
 
 [Term]
@@ -7,6 +7,15 @@ id: MPATH:0
 name: pathological entity
 namespace: mouse_pathology.ontology
 def: "Pathological structure or process" [Pathbase: Curation]
+
+[Term]
+id: MPATH:128
+name: intra-epithelial neoplasia
+namespace: mouse_pathology.ontology
+def: "Non-invasive changes characterized by alteration in the size, shape and organization of the cellular components of an epithelial tissue. Do not confuse with developmental dysplasia MPATH:64." [Journal: Ward; J.M. ( 2002) J Toxicol. Pathol. 15; 123-128]
+comment: This term has been previously used as a synonym for pre-malignant dysplasia or carcinoma in situ and is now to be preferred.
+synonym: "intra-epithelial lesion" RELATED [Pathbase: Curation]
+is_a: MPATH:556 ! potentially cancerous lesions
 
 [Term]
 id: MPATH:218
