@@ -1,2 +1,2 @@
 #!/bin/sh
-./run.sh make prepare_release
+sh run.sh make zp_pipeline
