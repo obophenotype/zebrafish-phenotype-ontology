@@ -52,8 +52,6 @@ def cdir(path):
 def rm(path):
     if os.path.isfile(path):
         os.remove(path)
-    else:  ## Show an error ##
-        print("Error: %s file not found" % path)
         
 def robot_query(ontology_path,seedfile,sparql_terms, TIMEOUT="3600", robot_opts="-v"):
     print("Query "+ontology_path+" with "+sparql_terms)
