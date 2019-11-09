@@ -122,9 +122,7 @@ def add_id_column(df,idcolumns,pattern):
         print("Warning: There was a colum labelled iritemp001, which is reserved vocabulary and will be overwritten")
 
     df['pattern'] = pattern
-    cols = df.columns
-    if "defined_class" in idcolumns: idcolumns.remove("defined_class")
-
+    
     df_copy = df.copy()
 
     idcolumns_incl_patterns = idcolumns.copy()
@@ -166,6 +164,7 @@ def get_id_columns(pattern_file):
         except yaml.YAMLError as exc:
             print(exc)
     idcolumns = list(pattern_json['vars'].keys())
+    idcolumns.sort()
     return idcolumns
 
 # Get Anatomy seed

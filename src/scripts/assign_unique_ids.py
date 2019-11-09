@@ -61,8 +61,6 @@ def add_id_column(df,idcolumns):
         print("Warning: There was a colum labelled iritemp001, which is reserved vocabulary and will be overwritten")
 
     df['pattern'] = pattern
-    cols = df.columns
-    if "defined_class" in idcolumns: idcolumns.remove("defined_class")
 
     df_copy = df.copy()
 
@@ -99,13 +97,14 @@ def add_id_column(df,idcolumns):
     return df
 
 def get_id_columns(pattern_file):
-	with open(pattern_file, 'r') as stream:
-	    try:
-	        pattern_json = yaml.safe_load(stream)
-	    except yaml.YAMLError as exc:
-	        print(exc)
-	idcolumns = list(pattern_json['vars'].keys())
-	return idcolumns
+    with open(pattern_file, 'r') as stream:
+        try:
+            pattern_json = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+    idcolumns = list(pattern_json['vars'].keys())
+    idcolumns.sort()
+    return idcolumns
 
 # Load data
 df = pd.read_csv(tsv, sep='\t')
