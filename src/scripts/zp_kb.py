@@ -54,6 +54,7 @@ kb = kb.assign(ANID=df_zfin['id'])
 any_na_values = kb[pd.isnull(kb).any(axis=1)]
 if len(any_na_values)>0:
     print("Warning: some columns do not have valid ZP ids yet!")
+    print(any_na_values.head())
 
 # CREATE TURTLE data
 preamble = """@prefix : <http://zfin.org/zp/annotations#> .
