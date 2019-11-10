@@ -112,15 +112,12 @@ def add_id_column(df,idcolumns,pattern):
     if 'defined_class' not in df.columns:
         df['defined_class'] = ''
 
-    df_ids['iritemp001'] = df_ids['iri'] #we change the iri column name here temporarily to make merging and amending easier. Is changed back to normal at the end of the function
-    df_ids = df_ids.drop("iri", axis=1)
-
     if 'iritemp001' in df.columns:
         df = df.drop(['iritemp001'], axis=1)
         print("Warning: There was a colum labelled iritemp001, which is reserved vocabulary and will be overwritten")
 
-    df['pattern'] = pattern
-    
+    df['pattern'] = pattern.replace(".tsv","").replace(".yaml","")
+
     df_copy = df.copy()
 
     idcolumns_incl_patterns = idcolumns.copy()
@@ -140,7 +137,9 @@ def add_id_column(df,idcolumns,pattern):
     df = df.replace(pd.np.nan, '', regex=True)
     #df.loc[(df['defined_class'] != '') & (df['iritemp001'] == ''), 'iritemp001'] = df['']
     broken = pd.np.where((df['defined_class'] != '') & (df['iritemp001'] != '' )& (df['iritemp001'] != df['defined_class']), df[['defined_class','iritemp001']].apply('-'.join, axis=1),"OK")
-    print(broken)
+    if len(broken)>0:
+        print("WARNING: Broken records")
+        print(broken)
 
     df['iritemp001'] = pd.np.where(df['defined_class'] != '', df['defined_class'], df['iritemp001'])
 
@@ -150,8 +149,6 @@ def add_id_column(df,idcolumns,pattern):
     df_ids = pd.concat([df_ids,x],sort=True)
     df_ids = df_ids.drop_duplicates()
     df = df.drop(['pattern', 'id','iritemp001'], axis=1)
-    df_ids['iri'] = df_ids['iritemp001']
-    df_ids = df_ids.drop("iritemp001", axis=1)
     #print(df.head(4))
     return df
 
@@ -169,6 +166,13 @@ def get_id_columns(pattern_file):
 robot_query(zfa,zfa_terms_file,zfa_terms_sparql)
 zfa_terms = file_to_list(zfa_terms_file)
 if 'term' in zfa_terms: zfa_terms.remove('term')
+zfa_terms = [str(i).replace(obo_prefix,"") for i in zfa_terms]
+zfa_terms = [str(i).replace("_", ":") for i in zfa_terms]
+
+
+## COMPUTE GLOBAL BLACKLIST. THIS HAS TWO COMPONENTS: (1) Loading the IRIS from the the 
+## Respective section in the config and querying the blacklisted branches
+## Using a dynamic SPARQL approach
 
 zfa_global_blacklist = []
 if config.get_global_blacklist() is not None:
@@ -188,10 +192,13 @@ with open(global_sparql, "w") as f:
     f.write(query)
 robot_query(zfa,global_blacklist_file,global_sparql)
 zfa_global_blacklist = zfa_global_blacklist + file_to_list(global_blacklist_file)
+zfa_global_blacklist = [str(i).replace(obo_prefix,"") for i in zfa_global_blacklist]
+zfa_global_blacklist = [str(i).replace("_", ":") for i in zfa_global_blacklist]
 
 # Load data
 df_ids = pd.read_csv(id_map, sep='\t')
-df_ids = df_ids.drop_duplicates()
+#we change the iri column name here temporarily to make merging and amending easier. Is changed back to normal at the end of the function
+df_ids = df_ids.rename(columns={'iri': 'iritemp001'})
 
 with open(reserved_ids) as f:
     ids = f.readlines()
@@ -235,28 +242,31 @@ for pattern in config.get_patterns():
     idcolumns = get_id_columns(pattern_yaml) # Parses the var fillers from the pattern
     df = add_id_column(df, idcolumns,pattern+".tsv")
 
-    ids=list(set(ids+df_ids['iri'].tolist()))
-    # wherever there is NULL assign new id starting with start id, make sure that value is then appended to df_ids and ids
+    ids=list(set(ids+df_ids['iritemp001'].tolist()))
+    
     defclass = df['defined_class']
     df.drop(labels=['defined_class'], axis=1,inplace = True)
     df.insert(0, 'defined_class', defclass)
     df = df.sort_values('defined_class')
-    df_ids = df_ids.sort_values('iri')
-    df_ids = df_ids.drop_duplicates()
-    
-
-    idstest = df_ids['iri']
-    if len(idstest) != len(set(idstest)):
-        duplicates = [item for item, count in collections.Counter(idstest).items() if count > 1]
-        raise ValueError('An id was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['iri'].isin(duplicates)].head()))
-    else:
-        print("ID map consistent.")
-    
     df.sort_values(by ='defined_class',inplace=True)
     df.drop_duplicates().to_csv(pattern_tsv, sep = '\t', index=False)
 
+df_ids = df_ids.rename(columns={'iritemp001': 'iri'})
 df_ids.sort_values(by ='iri',inplace=True)
-df_ids=df_ids.reindex(['iri','id'], axis=1)
+df_ids=df_ids[['iri','id']].drop_duplicates()
+#df_ids=df_ids.reindex(['iri','id'], axis=1)
+iristest = df_ids['iri']
+idstest = df_ids['iri']
+
+if len(iristest) != len(set(iristest)):
+    duplicates = [item for item, count in collections.Counter(iristest).items() if count > 1]
+    raise ValueError('An iri was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['iri'].isin(duplicates)].head()))
+
+if len(idstest) != len(set(idstest)):
+    duplicates = [item for item, count in collections.Counter(idstest).items() if count > 1]
+    raise ValueError('An id was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['id'].isin(duplicates)].head()))
+
+    
 df_ids.to_csv(id_map, sep = '\t', index=False)
 
 with open(reserved_ids, 'w') as f:

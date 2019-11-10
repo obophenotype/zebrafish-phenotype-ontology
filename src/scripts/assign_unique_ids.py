@@ -60,7 +60,7 @@ def add_id_column(df,idcolumns):
         df = df.drop(['iritemp001'], axis=1)
         print("Warning: There was a colum labelled iritemp001, which is reserved vocabulary and will be overwritten")
 
-    df['pattern'] = pattern
+    df['pattern'] = pattern.replace(".tsv","").replace(".yaml","")
 
     df_copy = df.copy()
 
