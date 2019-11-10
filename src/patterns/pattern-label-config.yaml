@@ -1,0 +1,12 @@
+label_config:
+  patterns:
+    - pattern: abnormalAnatomicalEntity
+      label_pattern: abnormalQualityOfThing_label
+      column_matches:
+        - anatomical_entity|affected_entity_1_super
+        - PATO:0000001|pato_id
+    - pattern: abnormalBiologicalProcess
+      label_pattern: abnormalQualityOfThing_label
+      column_matches:
+        - biological_process|affected_entity_1_super
+        - PATO:0001236|pato_id
