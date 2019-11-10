@@ -14,11 +14,6 @@ deprecated_id_map = sys.argv[2] #The file that contains all currently deprecated
 reserved_ids = sys.argv[3] # This file contains a list of ALL ZP identifiers currently in use anywhere (deprecated or not). This is important to not assign a new EQ to a previously used ZP identifier
 accession=int(sys.argv[4]) # The number from which we should start counting (if set to 1, ZP assignment resumes from the highest ZP identifier currently assigned
 
-#current_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv"
-#deprecated_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/deprecated_id_map.tsv"
-#reserved_ids = "/ws/zebrafish-phenotype-ontology/src/curation/reserved_iris.txt"
-#accession=100000
-
 # Fixed parameters
 startid = 0 # will be changed but needs to be declared
 maxid = 9999999 # THE maximum integer the current OBO IRI space allows (ZP_9999999).

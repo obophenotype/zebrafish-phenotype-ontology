@@ -14,10 +14,6 @@ id_map = sys.argv[1] # The current ZP-ZFIN EQ id map
 gene_annotation_mappings = sys.argv[2] # The desired location for the resulting gene annotation to ZP mappings
 annotation_ttl = sys.argv[3] # The desired output location of the KB
 
-#id_map = '/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv'
-#gene_annotation_mappings = "/ws/zebrafish-phenotype-ontology/src/curation/zp_annotations_to_iri.tsv"
-#annotation_ttl = "/ws/zebrafish-phenotype-ontology/src/curation/kb_zp.ttl"
-
 tsv = 'https://zfin.org/downloads/phenoGeneCleanData_fish.txt'
 
 # LOAD ZFIN GENE ANNOTATION DATA

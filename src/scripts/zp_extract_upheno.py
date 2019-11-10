@@ -11,7 +11,6 @@ import sys
 
 # It is expected that this file will be developed and extended for a while to come
 
-#tsv = "/ws/zebrafish-phenotype-ontology/src/patterns/data/auto/abnormalQualityOfThing.tsv"
 tsv = sys.argv[1]
 
 pbase="https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/patterns/dosdp-patterns/"

@@ -9,18 +9,9 @@ import sys
 
 # This script takes in a set of Curies or IRIs and a column name and outputs subsets of the ZFIN data tables
 
-#ids = sys.argv[2]
-#column_id = sys.argv[3]
-#out_dir = sys.argv[4] # The desired location for the resulting file
-
 fids = os.path.abspath(sys.argv[1])
 data = os.path.abspath(sys.argv[2])
 column_id = sys.argv[3]
-
-
-#fids = os.path.abspath('/ws/zebrafish-phenotype-ontology/src/curation/unsat.txt')
-#column_id = "all"
-#data = os.path.abspath('/ws/zebrafish-phenotype-ontology/src/curation/zp_zfin_phenotype_fish.tsv')
 
 outdata = os.path.join(os.path.dirname(data),os.path.basename(fids)+"_"+os.path.basename(data))
 

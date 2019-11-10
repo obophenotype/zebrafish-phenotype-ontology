@@ -13,13 +13,6 @@ sparql_dir = os.path.join(sys.argv[5])
 out_dir = os.path.join(sys.argv[6])
 configf = os.path.join(sys.argv[7])
 
-#tsv = "../patterns/data/manual/obsoleteTerm.tsv"
-#id_map = "../patterns/id_map.tsv"
-#reserved_ids = "../patterns/reserved_iris.txt"
-#accession = int("9898")
-#prefix = "http://purl.obolibrary.org/obo/XPO_"
-#pattern_dir = "../patterns/dosdp-patterns"
-
 class zpconfig:
     def __init__(self, config_file):
         self.config = yaml.load(open(config_file, 'r'))

@@ -7,10 +7,6 @@ obsolete_template_file = sys.argv[2]
 obsolete_template_candiate_file = sys.argv[3]
 labels_file = sys.argv[4]
 
-#deprecated_id_map_file = "/ws/zebrafish-phenotype-ontology/src/curation/deprecated_id_map.tsv"
-#obsolete_template_file = "/ws/zebrafish-phenotype-ontology/src/templates/obsolete.tsv"
-#labels_file = "/ws/zebrafish-phenotype-ontology/src/ontology/zp_labels.csv"
-
 df_deprecated_id_map = pd.read_csv(deprecated_id_map_file, sep='\t')
 df_obsolete = pd.read_csv(obsolete_template_file, sep='\t')
 df_labels = pd.read_csv(labels_file, sep=',')

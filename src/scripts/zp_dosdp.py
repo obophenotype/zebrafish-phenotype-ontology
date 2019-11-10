@@ -8,11 +8,6 @@ import os
 
 # This scripts takes the current id map and assigns ZP ids to one of the ZFIN default patterns
 
-# The current stable mapping between ZFIN post-composed EQ annotations and ZP identifiers
-#current_id_map = "/ws/zebrafish-phenotype-ontology/src/curation/id_map.tsv"
-#pattern_data = "/ws/zebrafish-phenotype-ontology/src/patterns/data/auto/"
-#pattern_assignments = "/ws/zebrafish-phenotype-ontology/src/curation/pattern_assignments.tsv"
-
 current_id_map = sys.argv[1]
 pattern_data = sys.argv[2]
 deprecated_id_map = sys.argv[3]

@@ -11,13 +11,6 @@ accession = int(sys.argv[4])
 prefix = sys.argv[5]
 pattern_dir = sys.argv[6]
 
-#tsv = "../patterns/data/manual/obsoleteTerm.tsv"
-#id_map = "../patterns/id_map.tsv"
-#reserved_ids = "../patterns/reserved_iris.txt"
-#accession = int("9898")
-#prefix = "http://purl.obolibrary.org/obo/XPO_"
-#pattern_dir = "../patterns/dosdp-patterns"
-
 obo_prefix = "http://purl.obolibrary.org/obo/"
 maxid = 9999999
 pattern = os.path.basename(tsv)

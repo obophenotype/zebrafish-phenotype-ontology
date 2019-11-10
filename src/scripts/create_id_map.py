@@ -90,4 +90,4 @@ print(len(df_id_map_dup_iri))
 #        df.to_csv(tsv, sep = '\t', index=False)
 #        #sys.exit(0)
 
-df_id_map[['iri','id']].to_csv(idmap_out, sep = '\t', index=False)
+df_id_map[['iri','id']].drop_duplicates().to_csv(idmap_out, sep = '\t', index=False)
