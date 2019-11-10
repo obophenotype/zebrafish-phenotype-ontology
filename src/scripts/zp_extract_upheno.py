@@ -35,6 +35,9 @@ def determine_eq_pattern(i):
                     id = 'abnormalBiologicalProcess.tsv'
                 if entity.startswith('ZFA'):
                     id = 'abnormalAnatomicalEntity.tsv'
+            if pato=='PATO:0001236':
+                if entity.startswith('GO'):
+                    id = 'abnormalBiologicalProcess.tsv'
     return id
 
 # Determining the correct pattern
