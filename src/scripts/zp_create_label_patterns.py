@@ -76,7 +76,7 @@ for pattern_dir in pattern_data_dirs:
             if os.path.exists(yaml_label_f):
                 label_pattern_name = filename.replace(".tsv","_label.tsv")
             else:
-                label_pattern_name = config.get_label_pattern(pattern)
+                label_pattern_name = config.get_label_pattern(pattern)+".tsv"
                 for mapping in config.get_variable_mappings(pattern):
                     if '|' in mapping:
                         upheno_var = mapping.split('|')[0]
