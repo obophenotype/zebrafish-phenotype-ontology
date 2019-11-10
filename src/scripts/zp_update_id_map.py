@@ -69,7 +69,7 @@ id_map = pd.read_csv(current_id_map, sep='\t')
 with open(reserved_ids) as f:
     ids = f.readlines()
 ids = [x.strip() for x in ids]
-ids = [s for s in ids if s.startswith(prefix)]
+ids = [s for s in ids if s.startswith("ZP:")]
 
 # Load the ZFIN EQ data
 df = pd.read_csv(zfin, sep='\t', header=None)
