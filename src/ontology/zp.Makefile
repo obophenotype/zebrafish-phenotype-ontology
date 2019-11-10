@@ -107,7 +107,6 @@ $(RESERVED_IRI): $(RESERVED_IRI)_iri.txt $(RESERVED_IRI)_curie.txt
 
 reserved_iris: $(RESERVED_IRI)
 
-
 #####################################################
 ### Filling in missing IRIs in manual patterns ######
 #####################################################
@@ -136,7 +135,7 @@ download_patterns: .FORCE
 $(ZFA):
 	$(ROBOT) reason --reasoner ELK -I $(ZFA_IRI) --output $@
 
-anatomy_pipeline: download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
+anatomy_pipeline: #download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
 	echo "Using $(ZFA_IRI) for running anatomy pipeline, make sure this is correct!"
 	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) $(PDIR) $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG) || exit 1
 

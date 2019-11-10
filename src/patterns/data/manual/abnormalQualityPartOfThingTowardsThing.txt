@@ -1,16 +1,6 @@
-http://purl.obolibrary.org/obo/ZP_0100276
-http://purl.obolibrary.org/obo/ZFA_0001269
-http://purl.obolibrary.org/obo/ZFA_0009036
-http://purl.obolibrary.org/obo/ZFA_0005145
 http://purl.obolibrary.org/obo/BFO_0000050
-http://purl.obolibrary.org/obo/ZP_0100277
 http://purl.obolibrary.org/obo/RO_0002503
-http://purl.obolibrary.org/obo/PATO_0002002
 http://purl.obolibrary.org/obo/RO_0002573
-http://purl.obolibrary.org/obo/ZFA_0000114
-http://purl.obolibrary.org/obo/BSPO_0000101
 http://purl.obolibrary.org/obo/PATO_0000460
-http://purl.obolibrary.org/obo/ZFA_0001058
 http://purl.obolibrary.org/obo/RO_0000052
-http://purl.obolibrary.org/obo/PATO_0001905
 http://purl.obolibrary.org/obo/BFO_0000051
