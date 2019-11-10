@@ -113,7 +113,7 @@ reserved_iris: $(RESERVED_IRI)
 
 MANUALPATTERNIDS=$(patsubst %.tsv, $(MANUALPATTERNDIR)/%_ids, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
 
-$(MANUALPATTERNDIR)/%_ids: #$(RESERVED_IRI) $(ID_MAP)
+$(MANUALPATTERNDIR)/%_ids: $(RESERVED_IRI) $(ID_MAP)
 	python3 ../scripts/assign_unique_ids.py $(MANUALPATTERNDIR)/$*.tsv $(ID_MAP) $(RESERVED_IRI) $(AUTOPATTERNACCESSION) $(ZPCURIEPREFIX) $(PDIR)
 
 missing_iris: $(MANUALPATTERNIDS)
