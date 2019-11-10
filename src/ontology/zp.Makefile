@@ -8,6 +8,7 @@ PDIR=../patterns/dosdp-patterns
 TEMPLATEDIR=../templates
 AUTOPATTERNDIR=../patterns/data/anatomy
 MANUALPATTERNDIR=../patterns/data/manual
+LABELPATTERNDIR=../patterns/data/labels
 ZFINPATTERNDIR=../patterns/data/zfin
 TODOPATTERNDIR=../patterns/data/todo
 TMPDIR=../curation/tmp
@@ -51,11 +52,11 @@ $(ZP_SRC_SEED): $(SRC)
 	robot query -f csv -i $< --use-graphs true --query ../sparql/zp_terms.sparql $@
 
 
-$(TMPDIR)/id_map_terms.txt.tmp: ../curation/id_map_zfin.tsv
-	grep -Eo '(ZP)[^[:space:]"]+' $< | sort | uniq > $@
+$(TMPDIR)/id_map_terms.txt.tmp:
+	grep -Eo '(ZP)[^[:space:]"]+' ../curation/id_map_zfin.tsv | sort | uniq > $@
 
-$(TMPDIR)/id_map_terms.txt.zp.tmp: ../curation/id_map.tsv
-	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
+$(TMPDIR)/id_map_terms.txt.zp.tmp:
+	grep -Eo '(ZP)[:][^[:space:]"]+' ../curation/id_map.tsv | sort | uniq > $@	
 	
 $(TMPDIR)/id_map_terms.txt: $(TMPDIR)/id_map_terms.txt.tmp $(TMPDIR)/id_map_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
@@ -168,14 +169,19 @@ update_id_map: $(ID_MAP_ZFIN)
 
 clean:
 	rm -rf $(TMPDIR)/*
-	
+
+pattern_labels:
+	rm -rf $(LABELPATTERNDIR)/*
+	python3 ../scripts/zp_create_label_patterns.py ../patterns
+
 zp_labels.csv:
-	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql $@
+	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
+	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh zfin_pipeline.sh
 	
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
+zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates prepare_release
 
 #zfin_pipeline
 
