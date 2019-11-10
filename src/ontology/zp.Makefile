@@ -1,7 +1,7 @@
 AUTOPATTERNACCESSION = 99999
 OBOPURL=http://purl.obolibrary.org/obo/
 PURL=$(OBOPURL)ZP_
-
+ZPCURIEPREFIX=ZP:
 ROBOT=robot -vv
 
 PDIR=../patterns/dosdp-patterns
@@ -81,7 +81,17 @@ $(TMPDIR)/idmap_removed_incomplete_terms.txt: $(TMPDIR)/idmap_removed_incomplete
 	cat $^ | sort | uniq > $@
 
 
-$(RESERVED_IRI)_tmp.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt
+$(TMPDIR)/obsoleted.txt.tmp: ../templates/obsolete.tsv
+	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
+
+$(TMPDIR)/obsoleted.txt.zp.tmp: ../curation/obsolete.tsv
+	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
+	
+$(TMPDIR)/obsoleted.txt: $(TMPDIR)/obsoleted.txt.tmp $(TMPDIR)/obsoleted.txt.zp.tmp
+	cat $^ | sort | uniq > $@
+
+
+$(RESERVED_IRI)_tmp.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt $(TMPDIR)/obsoleted.txt
 	cat $^ | sort | uniq > $@
 
 $(RESERVED_IRI)_iri.txt: $(RESERVED_IRI)_tmp.txt
@@ -105,7 +115,7 @@ reserved_iris: $(RESERVED_IRI)
 MANUALPATTERNIDS=$(patsubst %.tsv, $(MANUALPATTERNDIR)/%_ids, $(notdir $(wildcard ../patterns/data/manual/*.tsv)))
 
 $(MANUALPATTERNDIR)/%_ids: $(RESERVED_IRI) $(ID_MAP)
-	python3 ../scripts/assign_unique_ids.py $(MANUALPATTERNDIR)/$*.tsv $(ID_MAP) $(RESERVED_IRI) $(AUTOPATTERNACCESSION) $(PURL) $(PDIR)
+	python3 ../scripts/assign_unique_ids.py $(MANUALPATTERNDIR)/$*.tsv $(ID_MAP) $(RESERVED_IRI) $(AUTOPATTERNACCESSION) $(ZPCURIEPREFIX) $(PDIR)
 
 missing_iris: $(MANUALPATTERNIDS)
 
