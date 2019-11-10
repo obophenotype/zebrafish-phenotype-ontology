@@ -53,9 +53,6 @@ def add_id_column(df,idcolumns):
     if 'defined_class' not in df.columns:
         df['defined_class'] = ''
 
-    df_ids['iritemp001'] = df_ids['iri'] #we change the iri column name here temporarily to make merging and amending easier. Is changed back to normal at the end of the function
-    df_ids = df_ids.drop("iri", axis=1)
-
     if 'iritemp001' in df.columns:
         df = df.drop(['iritemp001'], axis=1)
         print("Warning: There was a colum labelled iritemp001, which is reserved vocabulary and will be overwritten")
@@ -81,7 +78,9 @@ def add_id_column(df,idcolumns):
     df = df.replace(pd.np.nan, '', regex=True)
     #df.loc[(df['defined_class'] != '') & (df['iritemp001'] == ''), 'iritemp001'] = df['']
     broken = pd.np.where((df['defined_class'] != '') & (df['iritemp001'] != '' )& (df['iritemp001'] != df['defined_class']), df[['defined_class','iritemp001']].apply('-'.join, axis=1),"OK")
-    print(broken)
+    if len(broken)>0:
+        print("WARNING: Broken records")
+        print(broken)
 
     df['iritemp001'] = pd.np.where(df['defined_class'] != '', df['defined_class'], df['iritemp001'])
 
@@ -91,8 +90,6 @@ def add_id_column(df,idcolumns):
     df_ids = pd.concat([df_ids,x],sort=True)
     df_ids = df_ids.drop_duplicates()
     df = df.drop(['pattern', 'id','iritemp001'], axis=1)
-    df_ids['iri'] = df_ids['iritemp001']
-    df_ids = df_ids.drop("iritemp001", axis=1)
     #print(df.head(4))
     return df
 
@@ -109,7 +106,8 @@ def get_id_columns(pattern_file):
 # Load data
 df = pd.read_csv(tsv, sep='\t')
 df_ids = pd.read_csv(id_map, sep='\t')
-df_ids = df_ids.drop_duplicates()
+#we change the iri column name here temporarily to make merging and amending easier. Is changed back to normal at the end of the function
+df_ids = df_ids.rename(columns={'iri': 'iritemp001'})
 
 with open(reserved_ids) as f:
     ids = f.readlines()
@@ -127,23 +125,32 @@ if startid<accession:
 idcolumns = get_id_columns(pattern_file) # Parses the var fillers from the pattern
 df = add_id_column(df, idcolumns)
 
-ids=list(set(ids+df_ids['iri'].tolist()))
+ids=list(set(ids+df_ids['iritemp001'].tolist()))
 # wherever there is NULL assign new id starting with start id, make sure that value is then appended to df_ids and ids
 defclass = df['defined_class']
 df.drop(labels=['defined_class'], axis=1,inplace = True)
 df.insert(0, 'defined_class', defclass)
 df = df.sort_values('defined_class')
-df_ids = df_ids.sort_values('iri')
-df_ids = df_ids.drop_duplicates()
 df.drop_duplicates().to_csv(tsv, sep = '\t', index=False)
 
-idstest = df_ids['iri']
+df_ids = df_ids.rename(columns={'iritemp001': 'iri'})
+df_ids.sort_values(by ='iri',inplace=True)
+df_ids=df_ids[['iri','id']].drop_duplicates()
+#df_ids=df_ids.reindex(['iri','id'], axis=1)
+iristest = df_ids['iri']
+idstest = df_ids['id']
+
+if len(iristest) != len(set(iristest)):
+    duplicates = [item for item, count in collections.Counter(iristest).items() if count > 1]
+    raise ValueError('An iri was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['iri'].isin(duplicates)].head()))
+
 if len(idstest) != len(set(idstest)):
     duplicates = [item for item, count in collections.Counter(idstest).items() if count > 1]
-    raise ValueError('An id was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['iri'].isin(duplicates)].head()))
-else:
-    print("ID map consistent.")
+    raise ValueError('An id was assigned more than once, aborting.. ('+str(duplicates)+')'+str(df_ids[df_ids['id'].isin(duplicates)].head()))
+
+    
 df_ids.to_csv(id_map, sep = '\t', index=False)
+
 with open(reserved_ids, 'w') as f:
     for item in ids:
         f.write("%s\n" % item)

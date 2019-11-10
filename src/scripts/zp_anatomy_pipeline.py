@@ -256,7 +256,7 @@ df_ids.sort_values(by ='iri',inplace=True)
 df_ids=df_ids[['iri','id']].drop_duplicates()
 #df_ids=df_ids.reindex(['iri','id'], axis=1)
 iristest = df_ids['iri']
-idstest = df_ids['iri']
+idstest = df_ids['id']
 
 if len(iristest) != len(set(iristest)):
     duplicates = [item for item, count in collections.Counter(iristest).items() if count > 1]
