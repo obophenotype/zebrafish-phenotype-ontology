@@ -10,8 +10,8 @@ http://purl.obolibrary.org/obo/ZP_0010923,"dorsal aorta process quality sproutin
 http://purl.obolibrary.org/obo/ZP_0103614,"neuroblast spinal cord decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019079,"thyroxine 5'-deiodinase activity disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007586,"sympathetic ganglion development disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0012401,"retinal bipolar neuron poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0110258,abnormal ventrolateral thalamic nucleus
+http://purl.obolibrary.org/obo/ZP_0012401,"retinal bipolar neuron poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100192,"5-oxo-ETE brain increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009064,"chromosome, telomeric region gut epithelium decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019896,"anterior margin optic cup increased amount, abnormal"
@@ -125,8 +125,8 @@ http://purl.obolibrary.org/obo/ZP_0004675,"dorsal aorta hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016219,"liver grey, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006153,"keratinocyte disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016985,"axon cranial ganglion defasciculated, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109676,abnormal nevus
 http://purl.obolibrary.org/obo/ZP_0004726,"myofibril skeletal muscle cell structure, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109676,abnormal nevus
 http://purl.obolibrary.org/obo/ZP_0021800,"swimming increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012458,"enteric nervous system has fewer parts of type enteric neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018463,"intracellular cholesterol transport disrupted, abnormal"
@@ -438,8 +438,8 @@ http://purl.obolibrary.org/obo/ZP_0006614,"swimming decreased rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014346,"myocardial precursor normal amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107037,"T cell head kidney increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012919,"mesoderm position, abnormal"
-http://purl.obolibrary.org/obo/ZP_0003192,"liver fatty, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018924,"T-tubule muscle increased size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0003192,"liver fatty, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001765,"heart disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109281,abnormal vertebra 15
 http://purl.obolibrary.org/obo/ZP_0102188,"prostaglandin E2 whole organism decreased amount, abnormal"
@@ -490,8 +490,8 @@ http://purl.obolibrary.org/obo/ZP_0013837,"retina rate cell death, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106528,"trunk vasculature decreased process quality blood circulation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009010,"notochord curved, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019842,"retinal ganglion cell layer decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0015315,"tumor necrosis factor-mediated signaling pathway disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002683,"chondrocranium cartilage malformed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0015315,"tumor necrosis factor-mediated signaling pathway disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108006,abnormal CoSA
 http://purl.obolibrary.org/obo/ZP_0108772,abnormal tooth pulp
 http://purl.obolibrary.org/obo/ZP_0101679,"L-type voltage-gated calcium channel complex muscle cell structure, abnormal"
@@ -520,13 +520,13 @@ http://purl.obolibrary.org/obo/ZP_0004677,"larval melanophore stripe low saturat
 http://purl.obolibrary.org/obo/ZP_0021751,"metencephalic artery decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006155,"neutrophil increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016987,"glial cell vagal ganglion absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109678,abnormal primitive mesencephalic artery
 http://purl.obolibrary.org/obo/ZP_0004728,"macrophage mislocalised, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109678,abnormal primitive mesencephalic artery
 http://purl.obolibrary.org/obo/ZP_0021802,"mitochondrion neuromast decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018465,"spinal cord decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006206,"eye colorless, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109729,abnormal periventricular nucleus of caudal tuberculum
 http://purl.obolibrary.org/obo/ZP_0006972,"cilium pronephric duct malformed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109729,abnormal periventricular nucleus of caudal tuberculum
 http://purl.obolibrary.org/obo/ZP_0107395,abnormal pectoral fin lepidotrichium
 http://purl.obolibrary.org/obo/ZP_0105968,"cholesterol transport process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018516,"caudal division of the internal carotid artery increased occurrence blood vessel endothelial cell migration, abnormal"
@@ -596,10 +596,10 @@ http://purl.obolibrary.org/obo/ZP_0010109,"olfactory receptor cell attached to a
 http://purl.obolibrary.org/obo/ZP_0010875,"cristae formation absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103566,"peripheral region retina increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016114,"ethmoid cartilage mislocalised, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109571,abnormal tooth 3V
 http://purl.obolibrary.org/obo/ZP_0016880,"neuron projection cranial nerve absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022419,"aortic arch 3 absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004621,"adenohypophysis disorganized, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109571,abnormal tooth 3V
 http://purl.obolibrary.org/obo/ZP_0012353,"neuron projection CaP motoneuron displaced, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010926,"somite 3 morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103617,"homocysteine brain increased amount, abnormal"
@@ -897,8 +897,8 @@ http://purl.obolibrary.org/obo/ZP_0004980,"ball size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010519,"axon MiP motor neuron decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016524,"retina hyperplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014190,"EVL disorganized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0022829,"common cardinal vein width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109981,abnormal trabecula communis
+http://purl.obolibrary.org/obo/ZP_0022829,"common cardinal vein width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012763,"trunk vasculature process quality blood vessel morphogenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018002,"hepatocyte decreased process quality regeneration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014241,"lateral crista aplastic, abnormal"
@@ -1225,8 +1225,8 @@ http://purl.obolibrary.org/obo/ZP_0014299,"actinotrichium median fin fold normal
 http://purl.obolibrary.org/obo/ZP_0008045,"lens increased distance iridophore, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018877,"S-adenosyl-L-methionine liver decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006618,"cardiac conduction decreased rate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018928,"nucleolus muscle cell increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003196,"glycogen granule hepatocyte decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018928,"nucleolus muscle cell increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020270,"ribosomal small subunit biogenesis decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008862,"pharyngeal arch 3-7 agenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001769,"retinal pigmented epithelium patchy, abnormal"
@@ -1251,8 +1251,8 @@ http://purl.obolibrary.org/obo/ZP_0013325,"ciliated cell floor plate cellular mo
 http://purl.obolibrary.org/obo/ZP_0106016,"myelinating Schwann cell peripheral nervous system decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106782,"atrioventricular valve decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019330,"mitochondrion skeletal muscle morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002171,"heart contraction irregular rhythm, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017903,"embryonic organ development process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002171,"heart contraction irregular rhythm, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000744,"central artery decreased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0101167,"whole organism decreased distance whole organism, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106833,"floor plate increased amount, abnormal"
@@ -1415,8 +1415,8 @@ http://purl.obolibrary.org/obo/ZP_0104023,"glutathione disulfide whole organism 
 http://purl.obolibrary.org/obo/ZP_0006568,"detection of mechanical stimulus involved in sensory perception of touch arrested, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008046,"eye degree of pigmentation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006619,"nucleate erythrocyte blood increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018929,"compartment boundary myotome morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003197,"locomotion disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018929,"compartment boundary myotome morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020271,"choroid plexus fourth ventricle shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008863,"midbrain hindbrain boundary increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109286,abnormal supracleithrum-vertebral ligament
@@ -1633,8 +1633,8 @@ http://purl.obolibrary.org/obo/ZP_0013327,"inner ear size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106018,"neural crest cell trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106784,"dorsal region trunk decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019332,"mitotic cell cycle lacking processual parts cytokinesis, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017905,"mRNA transcription occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002173,"cardiac conduction rhythm quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017905,"mRNA transcription occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000746,"trabecular layer aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015571,"neural precursor cell proliferation increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108262,abnormal peripheral nucleus of ventral telencephalon
@@ -1772,9 +1772,9 @@ http://purl.obolibrary.org/obo/ZP_0021701,"conditioned place preference increase
 http://purl.obolibrary.org/obo/ZP_0012359,"spinal cord disrupted regulation of oligodendrocyte progenitor proliferation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018364,"muscle cell detached from mitochondrial outer membrane mitochondrial inner membrane muscle cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006105,"renal glomerulus kidney cystic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109628,abnormal muscle pioneer somite 9
 http://purl.obolibrary.org/obo/ZP_0016937,"optic vesicle physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006871,"spindle ciliary marginal zone apical-basal polarity, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109628,abnormal muscle pioneer somite 9
 http://purl.obolibrary.org/obo/ZP_0107294,abnormal rhombomere
 http://purl.obolibrary.org/obo/ZP_0105867,"olfactory bulb has fewer parts of type dopaminergic neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018415,"pharyngeal arch 3 increased diameter, abnormal"
@@ -1822,8 +1822,8 @@ http://purl.obolibrary.org/obo/ZP_0013328,"cell inner ear structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106019,"dorsal region trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106785,"dorsal region trunk decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019333,"cell polyploid, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002174,"cardiac ventricle non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017906,"lymphocyte morphology, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002174,"cardiac ventricle non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007840,"basement membrane posterior intestine epithelium morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000747,"sarcomere ventricular myocardium disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015572,"hypothalamus has fewer parts of type radial glial cell, abnormal"
@@ -1962,8 +1962,8 @@ http://purl.obolibrary.org/obo/ZP_0004577,"somite tight, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021651,"glucose blood plasma increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006055,"cell cycle process temporally extended, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016887,"glossopharyngeal ganglion process quality neurogenesis, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004628,"striated muscle thin filament cardiac muscle decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109578,abnormal dorsal motor root of V
+http://purl.obolibrary.org/obo/ZP_0004628,"striated muscle thin filament cardiac muscle decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021702,"central canal increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102900,"eye decreased functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018365,"mitochondrial matrix muscle cell morphology, abnormal"
@@ -2073,8 +2073,8 @@ http://purl.obolibrary.org/obo/ZP_0012769,"glutamatergic neuron increased amount
 http://purl.obolibrary.org/obo/ZP_0018008,"hepatocyte decreased efficiency regeneration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018774,"stereocilium bundle hair cell splayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014247,"pillar of the lateral semicircular canal aplastic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018825,"vagal neural crest decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003093,"ceratobranchial cartilage decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018825,"vagal neural crest decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001666,"acetylcholinesterase activity disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109182,abnormal glomerular capillary
 http://purl.obolibrary.org/obo/ZP_0102089,"swim bladder inflation process quality, abnormal"
@@ -2160,8 +2160,8 @@ http://purl.obolibrary.org/obo/ZP_0021652,"pancreatic D cell amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102850,"phosphorus(1+) blood plasma amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006056,"neuron maturation delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016888,"vagal ganglion process quality neurogenesis, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004629,"adherens junction cardiac muscle decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109579,abnormal MeM1
+http://purl.obolibrary.org/obo/ZP_0004629,"adherens junction cardiac muscle decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021703,"spinal cord has normal numbers of parts of type regenerating tissue neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102901,"trigeminal ganglion process quality apoptotic process, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018366,"vacuole muscle cell present, abnormal"
@@ -2215,8 +2215,8 @@ http://purl.obolibrary.org/obo/ZP_0007791,"muscle mid intestine degenerate, abno
 http://purl.obolibrary.org/obo/ZP_0000698,"nucleate erythrocyte development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106787,"ventral region trunk decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019335,"oligodendrocyte spinal cord increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017908,"myeloblast increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002176,"heart contractility, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017908,"myeloblast increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007842,"regulation of myeloid leukocyte differentiation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000749,"blood vessel collapsed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015574,"Wnt signaling pathway increased process quality, abnormal"
@@ -2410,8 +2410,8 @@ http://purl.obolibrary.org/obo/ZP_0000699,"artery morphogenesis delayed, abnorma
 http://purl.obolibrary.org/obo/ZP_0106788,"melanocyte ball decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019336,"oligodendrocyte increased occurrence TOR signaling, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009270,"myocardium decreased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002177,"chondrocyte Meckel's cartilage decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017909,"leukocyte increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002177,"chondrocyte Meckel's cartilage decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007843,"blood vasculature morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015575,"protein kinase B signaling increased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108266,abnormal ovarian follicle stage II
@@ -2682,8 +2682,8 @@ http://purl.obolibrary.org/obo/ZP_0013225,"whole organism has normal numbers of 
 http://purl.obolibrary.org/obo/ZP_0013991,"phagocytosis process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106682,"plasma membrane bounded cell projection endodermal cell increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019230,"pancreas decreased occurrence determination of pancreatic left/right asymmetry, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017803,"cardiac muscle cell decreased velocity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002071,"lens fiber cell differentiation disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017803,"cardiac muscle cell decreased velocity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000644,"parachordal cartilage fused with parachordal cartilage, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108160,abnormal dorsal fin pterygiophore 6
 http://purl.obolibrary.org/obo/ZP_0101067,"thermotaxis increased process quality, abnormal"
@@ -2877,8 +2877,8 @@ http://purl.obolibrary.org/obo/ZP_0013226,"cell EVL apical-basal polarity, abnor
 http://purl.obolibrary.org/obo/ZP_0013992,"dorsal longitudinal anastomotic vessel decreased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106683,"cranium 3-D shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019231,"Kupffer's vesicle loose, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002072,"retina decreased thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017804,"cardiac muscle cell decreased process quality cell migration involved in heart formation, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002072,"retina decreased thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000645,"chondrocranium morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015470,"primordial hindbrain channel arrested blood vessel development, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108161,abnormal hypobranchial 1 cartilage
@@ -2928,8 +2928,8 @@ http://purl.obolibrary.org/obo/ZP_0103879,"membrane raft retina decreased amount
 http://purl.obolibrary.org/obo/ZP_0016427,"neurogenesis occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006361,"dopaminergic neuron diencephalon spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014093,"blastema regenerating fin decreased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109884,abnormal dorsolateral motor nucleus of vagal nerve
 http://purl.obolibrary.org/obo/ZP_0004934,"ventricular zone forebrain apoptotic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109884,abnormal dorsolateral motor nucleus of vagal nerve
 http://purl.obolibrary.org/obo/ZP_0012666,"myelin maintenance decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018671,"cranium increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006412,"neural tube closure disrupted, abnormal"
@@ -2975,8 +2975,8 @@ http://purl.obolibrary.org/obo/ZP_0106275,"chorion attached to fertilized egg, a
 http://purl.obolibrary.org/obo/ZP_0007330,"otolith organ decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000237,"striated muscle cell development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015062,"intersegmental vessel increased process quality cell population proliferation, abnormal"
-http://purl.obolibrary.org/obo/ZP_0005903,"aortic arch 1 obstructed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0110002,abnormal floor plate rhombomere 4
+http://purl.obolibrary.org/obo/ZP_0005903,"aortic arch 1 obstructed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013635,"melanocyte pigmented, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106326,"retina functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019640,"neuron hypothalamus decreased distribution, abnormal"
@@ -3020,8 +3020,8 @@ http://purl.obolibrary.org/obo/ZP_0012258,"trunk neural crest cell elongated, ab
 http://purl.obolibrary.org/obo/ZP_0018263,"vasculature liver dilated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006004,"retinal rod cell degenerate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016836,"ventral region presumptive ectoderm physical object quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109527,abnormal sclerotome somite 24
 http://purl.obolibrary.org/obo/ZP_0006770,"chondrocyte development premature, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109527,abnormal sclerotome somite 24
 http://purl.obolibrary.org/obo/ZP_0012309,"intersegmental vessel trunk morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107193,"myeloid cell kidney decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105766,"anatomical region pharyngeal arch decreased amount, abnormal"
@@ -3911,8 +3911,8 @@ http://purl.obolibrary.org/obo/ZP_0011130,"ventral intermandibularis anterior ph
 http://purl.obolibrary.org/obo/ZP_0004888,"whole organism has extra parts of type anterior-posterior axis primary motor neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006366,"nuclear division disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014098,"fast muscle myoblast mononucleate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109889,abnormal tooth 4V
 http://purl.obolibrary.org/obo/ZP_0004939,"apoptotic process decreased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109889,abnormal tooth 4V
 http://purl.obolibrary.org/obo/ZP_0018676,"mitotic cell cycle increased duration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006417,"pancreatic bud morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014149,"cellular response to DNA damage stimulus process quality, abnormal"
@@ -4064,8 +4064,8 @@ http://purl.obolibrary.org/obo/ZP_0002129,"mesodermal cell migration process qua
 http://purl.obolibrary.org/obo/ZP_0002895,"cell migration involved in heart development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015527,"oocyte anterior/posterior axis specification disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108218,abnormal mononuclear osteoclast
-http://purl.obolibrary.org/obo/ZP_0108984,abnormal pectoral fin lepidotrichium 3
 http://purl.obolibrary.org/obo/ZP_0100401,"axon terminus primary motor neuron swollen, abnormal"
+http://purl.obolibrary.org/obo/ZP_0108984,abnormal pectoral fin lepidotrichium 3
 http://purl.obolibrary.org/obo/ZP_0004373,"caudal vein plexus decreased branchiness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002946,"intersegmental vessel somite absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010678,"telencephalon protruding, abnormal"
@@ -4258,8 +4258,8 @@ http://purl.obolibrary.org/obo/ZP_0009223,"axon motor neuron absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002896,"Kupffer's vesicle development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015528,"intracellular mRNA localization disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108219,abnormal dental mesenchyme
-http://purl.obolibrary.org/obo/ZP_0108985,abnormal interhyal-epihyal joint
 http://purl.obolibrary.org/obo/ZP_0100402,"spinal cord lacks parts or has fewer parts of type postero-ventral region axon reticulospinal neuron, abnormal"
+http://purl.obolibrary.org/obo/ZP_0108985,abnormal interhyal-epihyal joint
 http://purl.obolibrary.org/obo/ZP_0004374,"sensory perception of touch process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002947,"intersegmental vessel somite disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010679,"head agenesis, abnormal"
@@ -4378,8 +4378,8 @@ http://purl.obolibrary.org/obo/ZP_0004783,"retinal pigmented epithelium irregula
 http://purl.obolibrary.org/obo/ZP_0103779,"medulla oblongata decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016327,"retinal cone cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006261,"retinal photoreceptor layer lacks parts or has fewer parts of type retinal cone cell, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109784,abnormal epaxial region somite 4
 http://purl.obolibrary.org/obo/ZP_0004834,"spinal cord development disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109784,abnormal epaxial region somite 4
 http://purl.obolibrary.org/obo/ZP_0012566,"UV sensitive photoreceptor cell deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018571,"musculoskeletal movement, spinal reflex action decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006312,"endoplasmic reticulum lumen intestinal epithelial cell vacuolated, abnormal"
@@ -4524,9 +4524,9 @@ http://purl.obolibrary.org/obo/ZP_0003917,"pupil size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011649,"spinal cord decreased process quality smoothened signaling pathway, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019081,"retinal photoreceptor layer has fewer parts of type green sensitive photoreceptor cell retinal photoreceptor layer, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017654,"lipid storage increased process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0110260,abnormal ventral transverse
 http://purl.obolibrary.org/obo/ZP_0000495,"pectoral fin bud decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013127,"sarcomere adductor mandibulae size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0110260,abnormal ventral transverse
 http://purl.obolibrary.org/obo/ZP_0013893,"apical region intestinal epithelium physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106584,"opercular lateral line neuromast decreased occurrence detection of mechanical stimulus involved in sensory perception of sound, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019132,"caudal artery increased size, abnormal"
@@ -4669,8 +4669,8 @@ http://purl.obolibrary.org/obo/ZP_0107094,"Rohon-Beard neuron arrested central n
 http://purl.obolibrary.org/obo/ZP_0012976,"digestive system development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105667,"determination of left/right asymmetry in lateral mesoderm occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018215,"cranial nerve II dysplastic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018981,"retinal pigmented epithelium absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001056,"palatoquadrate cartilage aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018981,"retinal pigmented epithelium absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006722,"mandibular arch skeleton physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014454,"response to hypoxia decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107145,"medial rectus morphology, abnormal"
@@ -5040,9 +5040,9 @@ http://purl.obolibrary.org/obo/ZP_0010218,"axon oligodendrocyte misrouted, abnor
 http://purl.obolibrary.org/obo/ZP_0010984,"ribbon synapse photoreceptor cell malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103675,"medial facial lymph vessel decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016223,"esophagus aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109680,abnormal sclerotome somite 17
 http://purl.obolibrary.org/obo/ZP_0022528,"plasma membrane whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004730,"basement membrane assembly disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109680,abnormal sclerotome somite 17
 http://purl.obolibrary.org/obo/ZP_0012462,"enteroendocrine cell intestinal epithelium undifferentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103726,"zinc-65 atom liver amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007698,"nucleus retina variability of shape, abnormal"
@@ -5077,8 +5077,8 @@ http://purl.obolibrary.org/obo/ZP_0014456,"whole organism increased sensitivity 
 http://purl.obolibrary.org/obo/ZP_0107147,"dorsal rectus decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008202,"testis neoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001109,"melanocyte increased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0014507,"postoptic commissure process quality commissural neuron axon guidance, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001875,"oligodendrocyte differentiation arrested, abnormal"
+http://purl.obolibrary.org/obo/ZP_0014507,"postoptic commissure process quality commissural neuron axon guidance, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109391,abnormal torus lateralis
 http://purl.obolibrary.org/obo/ZP_0102298,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107964,abnormal somite 21
@@ -5376,8 +5376,8 @@ http://purl.obolibrary.org/obo/ZP_0011030,"pronephric podocyte lacks parts or ha
 http://purl.obolibrary.org/obo/ZP_0004788,"retinal outer nuclear layer has fewer parts of type photoreceptor cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021862,"ciliated olfactory receptor neuron olfactory epithelium increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006266,"eye photoreceptor cell retinal photoreceptor layer immature, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109789,abnormal dorsolateral septum
 http://purl.obolibrary.org/obo/ZP_0004839,"endothelial cell artery morphology, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109789,abnormal dorsolateral septum
 http://purl.obolibrary.org/obo/ZP_0021913,"synapse ventricular system decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018576,"whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006317,"brush border intestinal epithelial cell atrophied, abnormal"
@@ -5735,8 +5735,8 @@ http://purl.obolibrary.org/obo/ZP_0110317,abnormal posterior lateral mesoderm
 http://purl.obolibrary.org/obo/ZP_0100251,"myofibril slow muscle cell decreased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009123,"iridophore reflectivity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019955,"midbrain increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0015428,"whole organism lacks all parts of type endothelial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002796,"neural crest cell lacks parts or has fewer parts of type filopodium neural crest cell, abnormal"
+http://purl.obolibrary.org/obo/ZP_0015428,"whole organism lacks all parts of type endothelial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108119,abnormal perichondral bone
 http://purl.obolibrary.org/obo/ZP_0100302,"neuroectoderm decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108885,abnormal supraintestinal artery
@@ -5758,8 +5758,8 @@ http://purl.obolibrary.org/obo/ZP_0006620,"cardiac ventricle action potential, a
 http://purl.obolibrary.org/obo/ZP_0014352,"neuron projection regeneration decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107043,"reticulospinal neuron decreased occurrence axon extension, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012925,"establishment of blood-brain barrier process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001005,"hair cell macula utricle irregular spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018930,"muscle cell vacuolated, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001005,"hair cell macula utricle irregular spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009588,"somite border somite 3 amorphous, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001771,"pronephros quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001771,abnormal pronephros
@@ -6247,8 +6247,8 @@ http://purl.obolibrary.org/obo/ZP_0021810,"fat cell subcutaneous fat increased s
 http://purl.obolibrary.org/obo/ZP_0012468,"hypobranchial artery morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018473,"axon peripheral neuron branchiness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006214,"cardiac ventricle collapsed, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109737,abnormal slow muscle cell somite 16
 http://purl.obolibrary.org/obo/ZP_0006980,"erythrocyte maturation disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109737,abnormal slow muscle cell somite 16
 http://purl.obolibrary.org/obo/ZP_0012519,"pharyngeal pouch decreased occurrence apical protein localization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105976,"blood vessel endothelium pharyngeal arch 6 absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018524,"melanophore stripe broken, abnormal"
@@ -6291,8 +6291,8 @@ http://purl.obolibrary.org/obo/ZP_0106077,"muscle decreased occurrence mRNA (2'-
 http://purl.obolibrary.org/obo/ZP_0011959,"negative regulation of neurogenesis increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019391,"lymphangiogenic sprout lateral facial lymph vessel absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007132,"brain infiltrative, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017964,"atrium decreased process quality heart contraction, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000039,"swim bladder physical object quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017964,"atrium decreased process quality heart contraction, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005705,"endothelial cell proliferation decreased rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013437,"mediodorsal tooth row has normal numbers of parts of type ceratobranchial 5 tooth, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106128,"fusion of sperm to egg plasma membrane involved in single fertilization disrupted, abnormal"
@@ -6404,8 +6404,8 @@ http://purl.obolibrary.org/obo/ZP_0015324,"pillar of the lateral semicircular ca
 http://purl.obolibrary.org/obo/ZP_0108015,abnormal medial caudal lobe
 http://purl.obolibrary.org/obo/ZP_0108781,abnormal mesenchyme derived from head neural crest
 http://purl.obolibrary.org/obo/ZP_0101688,"caudal hypothalamic zone decreased distribution, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019902,"somite detached from muscle cell somite, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004170,"bile acid secretion disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019902,"somite detached from muscle cell somite, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002743,"basilar artery increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010475,"mandibular arch skeleton deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103166,"ethmoid cartilage circular, abnormal"
@@ -6605,8 +6605,8 @@ http://purl.obolibrary.org/obo/ZP_0015325,"otolith size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108016,abnormal medial floor plate
 http://purl.obolibrary.org/obo/ZP_0108782,abnormal facial lobe
 http://purl.obolibrary.org/obo/ZP_0101689,"preoptic area increased distribution, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004171,"glucose homeostasis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019903,"motile cilium Kupffer's vesicle decreased functionality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004171,"glucose homeostasis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002744,"basilar artery attached to primordial hindbrain channel, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010476,"axial hypoblast decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103167,"axon spinal cord swollen, abnormal"
@@ -6638,8 +6638,8 @@ http://purl.obolibrary.org/obo/ZP_0109688,abnormal anterior cardinal vein
 http://purl.obolibrary.org/obo/ZP_0021812,"reflex decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018475,"myelinating Schwann cell posterior lateral line nerve decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006216,"bulbus arteriosus collapsed, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109739,abnormal ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0006982,"blood heart absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109739,abnormal ventral wall of dorsal aorta
 http://purl.obolibrary.org/obo/ZP_0105978,"nucleate erythrocyte pharyngeal arch 4 absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018526,"anterior region spinal cord decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008460,"embryonic organ development disrupted, abnormal"
@@ -6708,9 +6708,9 @@ http://purl.obolibrary.org/obo/ZP_0010885,"auditory epithelial support cell abse
 http://purl.obolibrary.org/obo/ZP_0103576,"caudal fin increased process quality muscle contraction, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016124,"neural arch curved, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016890,"whole organism lacks all parts of type otic placode, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109581,abnormal anal inclinator
 http://purl.obolibrary.org/obo/ZP_0022429,"aortic arch present, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004631,"sarcomere cardiac muscle morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109581,abnormal anal inclinator
 http://purl.obolibrary.org/obo/ZP_0012363,"dorsal-ventral axis myotome increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010936,"interrenal primordium centered, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103627,"Melanin melanocyte amount, abnormal"
@@ -6803,8 +6803,8 @@ http://purl.obolibrary.org/obo/ZP_0015326,"inner ear symmetrical, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108017,abnormal maxillary barbel blood sinus
 http://purl.obolibrary.org/obo/ZP_0100200,"skeletal muscle cell detached from skeletal muscle cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108783,abnormal periventricular grey zone
-http://purl.obolibrary.org/obo/ZP_0019904,"microglia development decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004172,"liver and biliary system malformed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019904,"microglia development decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002745,"central artery atretic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010477,"axial hypoblast increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103168,"axon posterior lateral line swollen, abnormal"
@@ -6834,8 +6834,8 @@ http://purl.obolibrary.org/obo/ZP_0021762,"caudal fin increased process quality 
 http://purl.obolibrary.org/obo/ZP_0102960,"medulloblastoma brain increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006166,"integument tail bud aggregated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016998,"integument decreased thickness, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004739,"retinal outer nuclear layer decreased thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109689,abnormal basal layer breeding tubercle
+http://purl.obolibrary.org/obo/ZP_0004739,"retinal outer nuclear layer decreased thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021813,"gill lamella fused with gill lamella, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018476,"axon peripheral neuron shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006217,"melanocyte head decreased amount, abnormal"
@@ -7003,8 +7003,8 @@ http://purl.obolibrary.org/obo/ZP_0015327,"posterior macula deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108018,abnormal myotome somite 29
 http://purl.obolibrary.org/obo/ZP_0100201,"chromosome, telomeric region cell decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108784,abnormal ventral actinotrichium
-http://purl.obolibrary.org/obo/ZP_0004173,"trunk female organism increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019905,"ciliary marginal zone increased process quality cell population proliferation, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004173,"trunk female organism increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002746,"cranial blood vessel dilated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010478,"regulation of heart contraction increased duration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103169,"carcinoma trunk increased amount, abnormal"
@@ -7156,8 +7156,8 @@ http://purl.obolibrary.org/obo/ZP_0104496,"skeletal muscle myotome malformed, ab
 http://purl.obolibrary.org/obo/ZP_0017044,"dorsal longitudinal anastomotic vessel has fewer parts of type endothelial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005551,"cell proliferation involved in kidney development increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013283,"lateral rectus present, abnormal"
-http://purl.obolibrary.org/obo/ZP_0011856,"spinal cord far from oligodendrocyte dorsal longitudinal fasciculus, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104547,"eye increased process quality DNA methylation, abnormal"
+http://purl.obolibrary.org/obo/ZP_0011856,"spinal cord far from oligodendrocyte dorsal longitudinal fasciculus, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017861,"melanosome retinal pigmented epithelium decreased pigmentation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005602,"retina lacks parts or has fewer parts of type retinal ganglion cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013334,"epithelial cell pillar of the lateral semicircular canal normal amount, abnormal"
@@ -7363,8 +7363,8 @@ http://purl.obolibrary.org/obo/ZP_0106026,"brain increased process quality chiti
 http://purl.obolibrary.org/obo/ZP_0011908,"blood circulation decreased speed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106792,"Fibrin regenerating tissue increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019340,"myelin sheath spinal cord increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002181,"ventricular myocardium non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017913,"trochlear motor nucleus decreased size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002181,"ventricular myocardium non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000754,"cardiac muscle cell decreased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108270,abnormal pterotic fossa
 http://purl.obolibrary.org/obo/ZP_0101177,"chondrocyte increased amount, abnormal"
@@ -7400,8 +7400,8 @@ http://purl.obolibrary.org/obo/ZP_0002697,"retinal rod cell decreased amount, ab
 http://purl.obolibrary.org/obo/ZP_0015329,"anterior macula deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100203,"macrophage dead, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108786,abnormal epural
-http://purl.obolibrary.org/obo/ZP_0004175,"intestine fatty, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019907,"response to glucose decreased magnitude, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004175,"intestine fatty, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009841,"hyomandibula bifurcated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002748,"thymus development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108837,abnormal anterior mesencephalic central artery
@@ -7421,8 +7421,8 @@ http://purl.obolibrary.org/obo/ZP_0006521,"pharyngeal vasculature hemorrhagic, a
 http://purl.obolibrary.org/obo/ZP_0014253,"posterior lateral line nerve length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018831,"neural plate border decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009489,"ceratobranchial bone deformed, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001672,"associative learning increased rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014304,"actinotrichium aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001672,"associative learning increased rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102095,"cell thyroid follicle disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107761,abnormal mid intestine epithelium
 http://purl.obolibrary.org/obo/ZP_0100668,"hematopoietic multipotent progenitor cell increased accumulation ventral wall of dorsal aorta, abnormal"
@@ -7501,8 +7501,8 @@ http://purl.obolibrary.org/obo/ZP_0004584,"lateral larval melanophore stripe abs
 http://purl.obolibrary.org/obo/ZP_0016128,"gut increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006062,"presumptive atrium heart tube increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016894,"sarcoma whole organism increased object quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004635,"DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109585,abnormal olfactory epithelium
+http://purl.obolibrary.org/obo/ZP_0004635,"DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012367,"melanophore stripe lacks parts or has fewer parts of type melanocyte, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018372,"skeletal muscle myofibril muscle cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006113,"intrahepatic bile duct sparse, abnormal"
@@ -7560,8 +7560,8 @@ http://purl.obolibrary.org/obo/ZP_0106027,"brain decreased process quality ubiqu
 http://purl.obolibrary.org/obo/ZP_0011909,"heart disrupted calcium-mediated signaling, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106793,"axon regenerating tissue disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019341,"whole organism increased occurrence cholesterol biosynthetic process, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017914,"oculomotor nucleus decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002182,"sprouting angiogenesis decreased process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017914,"oculomotor nucleus decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000755,"sarcomere cardiac muscle cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015580,"macrophage delayed phagocytosis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108271,abnormal fossa
@@ -7597,8 +7597,8 @@ http://purl.obolibrary.org/obo/ZP_0002698,"retinal bipolar neuron absent, abnorm
 http://purl.obolibrary.org/obo/ZP_0100204,"neuromast amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108787,abnormal premaxilla
 http://purl.obolibrary.org/obo/ZP_0100970,"intestinal bulb increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004176,"hepatocyte decreased functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019908,"glucose whole organism increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004176,"hepatocyte decreased functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021250,"basement membrane dorsal aorta decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009842,"hyomandibula cylindrical, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002749,"brain vasculature fragile, abnormal"
@@ -7650,8 +7650,8 @@ http://purl.obolibrary.org/obo/ZP_0005145,"mesodermal cell migration decreased o
 http://purl.obolibrary.org/obo/ZP_0003718,"actin cytoskeleton yolk syncytial layer disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017455,"thrombocyte cellular adhesivity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000296,"neuron posterior lateral line ganglion increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0005962,"synapsis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0110061,abnormal Bergmann glial cell
+http://purl.obolibrary.org/obo/ZP_0005962,"synapsis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013694,"slow muscle cell well differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106385,"auditory behavior decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017506,"locomotion involved in locomotory behavior increased process quality, abnormal"
@@ -7761,11 +7761,11 @@ http://purl.obolibrary.org/obo/ZP_0108272,abnormal head mesenchyme
 http://purl.obolibrary.org/obo/ZP_0101179,"lipid intestinal epithelium increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106845,"central region lens refractivity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002234,"cell division increased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0108323,abnormal cleithrum-vertebral ligament
 http://purl.obolibrary.org/obo/ZP_0007900,"basihyal cartilage deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020798,"whole organism arched, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000807,"neural tube malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015632,"myelination of posterior lateral line nerve axons decreased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108323,abnormal cleithrum-vertebral ligament
 http://purl.obolibrary.org/obo/ZP_0101996,"fast muscle cell disrupted myoblast fusion, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022276,"heart vasculature morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010017,"chondrocyte pharyngeal arch cartilage decreased size, abnormal"
@@ -7900,8 +7900,8 @@ http://purl.obolibrary.org/obo/ZP_0012369,"esophageal epithelium disorganized, a
 http://purl.obolibrary.org/obo/ZP_0018374,"heart tube present, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006115,"intrahepatic bile duct increased accumulation vesicle intrahepatic bile duct, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016947,"optic tectum asymmetrical, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006881,"whole organism color, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109638,abnormal primordial midbrain channel
+http://purl.obolibrary.org/obo/ZP_0006881,"whole organism color, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105877,"muscle process quality hexokinase activity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018425,"retinal pigmented epithelium detached from retina, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001266,"regulation of resting membrane potential disrupted, abnormal"
@@ -8097,8 +8097,8 @@ http://purl.obolibrary.org/obo/ZP_0102910,"gonad decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018375,"heart tube linear, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006116,"cytoplasm intrahepatic bile duct composition, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016948,"optic chiasm hyperplastic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006882,"whole organism curled, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109639,abnormal epaxial region somite 20
+http://purl.obolibrary.org/obo/ZP_0006882,"whole organism curled, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105878,"liver process quality phosphoenolpyruvate carboxykinase activity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018426,"neuron retina mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008360,"lepidotrichium undulate, abnormal"
@@ -8452,8 +8452,8 @@ http://purl.obolibrary.org/obo/ZP_0015227,"response to amphetamine disrupted, ab
 http://purl.obolibrary.org/obo/ZP_0015993,"autophagosome intestinal epithelium increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100101,"ventricular zone hindbrain increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108684,abnormal metapterygoid
-http://purl.obolibrary.org/obo/ZP_0004073,"neural crest formation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019805,"tegmentum decreased thickness, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004073,"neural crest formation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002646,"posterior caudal vein malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010378,"ventral mandibular arch bilateral symmetry, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103069,"germ line cell testis absent, abnormal"
@@ -9002,8 +9002,8 @@ http://purl.obolibrary.org/obo/ZP_0013236,"neuron hindbrain organized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011809,"anal fin has fewer parts of type melanocyte, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106693,"myocardium decreased process quality sarcomere organization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019241,"afferent neuron defasciculated, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017814,"statoacoustic (VIII) ganglion decreased occurrence neuron differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002082,"midbrain hindbrain boundary neural plate mislocalised posteriorly, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017814,"statoacoustic (VIII) ganglion decreased occurrence neuron differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000655,"retina disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015480,"actin filament yolk syncytial layer spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108171,abnormal preplacodal ectoderm
@@ -9042,8 +9042,8 @@ http://purl.obolibrary.org/obo/ZP_0015996,"cell retinal ganglion cell layer amou
 http://purl.obolibrary.org/obo/ZP_0100104,"neuronal stem cell increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108687,abnormal granular layer valvula cerebelli
 http://purl.obolibrary.org/obo/ZP_0100870,"anatomical space Kupffer's vesicle increased volume, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004076,"hindbrain bulbous, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019808,"hypothalamus decreased thickness, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004076,"hindbrain bulbous, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021150,"retinal photoreceptor layer has fewer parts of type eye photoreceptor cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009742,"inner ear auditory receptor cell differentiation delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002649,"post-vent region curvature, abnormal"
@@ -9056,8 +9056,8 @@ http://purl.obolibrary.org/obo/ZP_0004893,"posterior lateral line placode has ex
 http://purl.obolibrary.org/obo/ZP_0103889,"iris hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016437,"retina low brightness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006371,"yolk syncytial layer increased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004944,"whole organism lacks all parts of type Kupffer's vesicle, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109894,abnormal zonule
+http://purl.obolibrary.org/obo/ZP_0004944,"whole organism lacks all parts of type Kupffer's vesicle, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012676,"macrophage head absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018681,"cilium olfactory pit decreased mobility, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006422,"ceratohyal bone shape, abnormal"
@@ -9228,10 +9228,10 @@ http://purl.obolibrary.org/obo/ZP_0019758,"joint pharyngeal arch 2 skeleton incr
 http://purl.obolibrary.org/obo/ZP_0009692,"cardiac muscle cell heart rudiment disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002599,"proliferative region eye mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015997,"pectoral fin lepidotrichium morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100105,"actin-based cell projection peridermal cell increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108688,abnormal circulus
-http://purl.obolibrary.org/obo/ZP_0019809,"nucleus forebrain elongated, abnormal"
+http://purl.obolibrary.org/obo/ZP_0100105,"actin-based cell projection peridermal cell increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004077,"mitotic cell cycle process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019809,"nucleus forebrain elongated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021151,"hair cell inner ear decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009743,"otic placode formation delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108739,abnormal immature B cell
@@ -9526,8 +9526,8 @@ http://purl.obolibrary.org/obo/ZP_0102810,"neuroblast neurogenic placode increas
 http://purl.obolibrary.org/obo/ZP_0018275,"myofibril post-vent region disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006016,"epidermis atrophied, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016848,"optic vesicle occurrence apoptotic process, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006782,"cleithrum nodular, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109539,abnormal hypural 4
+http://purl.obolibrary.org/obo/ZP_0006782,"cleithrum nodular, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105778,"angioblastic mesenchymal cell pharyngeal arch increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018326,"lymphocyte blood amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008260,"blood increased accumulation post-vent region, abnormal"
@@ -9958,8 +9958,8 @@ http://purl.obolibrary.org/obo/ZP_0005509,"DNA hypomethylation chronic, abnormal
 http://purl.obolibrary.org/obo/ZP_0106698,"male organism decreased process quality heart contraction, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019246,"mitochondrion retinal cone cell decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009180,"fast muscle cell misaligned with myofibril myofibril fast muscle cell, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017819,"pharyngeal arch cartilage lacks all parts of type ceratobranchial 5 cartilage, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002087,"selective angioblast sprouting disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017819,"pharyngeal arch cartilage lacks all parts of type ceratobranchial 5 cartilage, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007753,"intermandibularis disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015485,"microtubule yolk syncytial layer disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108176,abnormal mesenchyme derived from trunk neural crest
@@ -10094,8 +10094,8 @@ http://purl.obolibrary.org/obo/ZP_0109843,abnormal blue sensitive photoreceptor 
 http://purl.obolibrary.org/obo/ZP_0012625,"dorsal habenular nucleus poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018630,"retinal outer plexiform layer decreased occurrence synapse assembly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009288,"cell projection hypoblast decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0014103,"endocrine pancreas dispersed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001471,"cellular response to mechanical stimulus disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0014103,"endocrine pancreas dispersed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107560,abnormal primordial ligament
 http://purl.obolibrary.org/obo/ZP_0100467,"endodermal cell process quality apoptotic process, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009339,"pectoral fin morphogenesis process quality, abnormal"
@@ -10435,8 +10435,8 @@ http://purl.obolibrary.org/obo/ZP_0019141,"mitotic spindle cell elongated, abnor
 http://purl.obolibrary.org/obo/ZP_0017714,"phosphatidylinositol 3-kinase signaling process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000555,"neutrophil ventral wall of dorsal aorta decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015380,"cranial vasculature misrouted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108071,abnormal microvillous olfactory receptor neuron
 http://purl.obolibrary.org/obo/ZP_0110320,abnormal ventral mesenchyme
+http://purl.obolibrary.org/obo/ZP_0108071,abnormal microvillous olfactory receptor neuron
 http://purl.obolibrary.org/obo/ZP_0013953,"granuloma formation accelerated growth, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106644,"ectomesenchyme pharyngeal arch increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002033,"otic vesicle circular, abnormal"
@@ -10881,8 +10881,8 @@ http://purl.obolibrary.org/obo/ZP_0004795,"cation transport decreased occurrence
 http://purl.obolibrary.org/obo/ZP_0102301,"superior cervical ganglion hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016339,"neutrophil circular, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006273,"trunk swollen, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004846,"radial glial cell hindbrain increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109796,abnormal hypural 1
+http://purl.obolibrary.org/obo/ZP_0004846,"radial glial cell hindbrain increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021920,"ionocyte integument decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012578,"eye red, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018583,"posterior lateral line primordium increased distribution, abnormal"
@@ -11034,12 +11034,12 @@ http://purl.obolibrary.org/obo/ZP_0017717,"head cellularity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007651,"brain decreased occurrence branching morphogenesis of a nerve, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000558,"erythroid progenitor cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015383,"endothelial cell aortic arch normal amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108074,abnormal epibranchial 3 cartilage
 http://purl.obolibrary.org/obo/ZP_0110323,abnormal facial nerve motor nucleus
+http://purl.obolibrary.org/obo/ZP_0108074,abnormal epibranchial 3 cartilage
 http://purl.obolibrary.org/obo/ZP_0013956,"pattern specification process disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106647,"microglial cell optic tectum increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002036,"swim bladder agenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019961,"mRNA processing decreased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002036,"swim bladder agenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007702,"cell migration delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000609,"convergent extension disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015434,"somite straight angle to somite, abnormal"
@@ -11167,8 +11167,8 @@ http://purl.obolibrary.org/obo/ZP_0007759,"mesenchyme pharyngeal arch morphology
 http://purl.obolibrary.org/obo/ZP_0100365,"saccule has normal numbers of parts of type sagitta, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009237,"diencephalon bilateral symmetry, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001420,"hyaloid vessel morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100416,"cranial nerve VIII process quality axon guidance, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108999,abnormal lateral ethmoid
+http://purl.obolibrary.org/obo/ZP_0100416,"cranial nerve VIII process quality axon guidance, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004388,"pancreas morphogenesis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102660,"quadrate absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016698,"pancreatic B cell proliferative, abnormal"
@@ -11384,8 +11384,8 @@ http://purl.obolibrary.org/obo/ZP_0006684,"adrenergic neuron caudal tuberculum d
 http://purl.obolibrary.org/obo/ZP_0012989,"joint pharyngeal arch 2 physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018228,"endothelial to hematopoietic transition decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008162,"dorsal longitudinal anastomotic vessel immature, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001069,"pharyngeal arch 3-7 decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018994,"vertebra 9 decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001069,"pharyngeal arch 3-7 decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006735,"node of Ranvier posterior lateral line nerve morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014467,"dopaminergic neuron retina normal amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107158,"neural keel spatial pattern, abnormal"
@@ -11755,8 +11755,8 @@ http://purl.obolibrary.org/obo/ZP_0010997,"ceratobranchial cartilage aplastic/hy
 http://purl.obolibrary.org/obo/ZP_0103688,"pleuroperitoneal cavity female organism increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016236,"Meckel's cartilage kinked, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006170,"detection of visible light disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004743,"chromosome whole organism disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109693,abnormal lateral wall rhombomere 5
+http://purl.obolibrary.org/obo/ZP_0004743,"chromosome whole organism disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012475,"aortic arch absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018480,"neuronal cell body motor neuron mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006221,"melanoblast trunk decreased amount, abnormal"
@@ -11964,8 +11964,8 @@ http://purl.obolibrary.org/obo/ZP_0010998,"optokinetic behavior decreased proces
 http://purl.obolibrary.org/obo/ZP_0103689,"developmental process involved in reproduction process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016237,"ventral mandibular arch increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006171,"photoreceptor outer segment photoreceptor outer segment layer absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004744,"chromosome whole organism condensed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109694,abnormal intermediate nucleus
+http://purl.obolibrary.org/obo/ZP_0004744,"chromosome whole organism condensed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012476,"parachordal vessel incomplete structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018481,"neuromuscular junction of skeletal muscle fiber myotome area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006222,"oligodendrocyte morphology, abnormal"
@@ -12294,8 +12294,8 @@ http://purl.obolibrary.org/obo/ZP_0109350,abnormal forebrain midbrain boundary
 http://purl.obolibrary.org/obo/ZP_0102257,"skeletal tissue decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107923,abnormal posterior kidney
 http://purl.obolibrary.org/obo/ZP_0003312,"melanocyte degenerate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0011044,"ventral fin fold abnormal, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021876,"hatching increased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0011044,"ventral fin fold abnormal, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109401,abnormal medial protoglomerulus 1
 http://purl.obolibrary.org/obo/ZP_0102308,"cell interrenal gland increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021927,"notochord increased occurrence nitric oxide biosynthetic process, abnormal"
@@ -12377,8 +12377,8 @@ http://purl.obolibrary.org/obo/ZP_0021820,"pronephric proximal straight tubule l
 http://purl.obolibrary.org/obo/ZP_0012478,"glial cell projection trunk truncated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018483,"acetylcholine-gated channel complex myotome increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006224,"establishment of endothelial barrier disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006990,"tail bud increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109747,abnormal vpG1
+http://purl.obolibrary.org/obo/ZP_0006990,"tail bud increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012529,"sclerotome absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105986,"optic tectum has fewer parts of type dorso-lateral region microglial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018534,"spinal cord decreased occurrence oligodendrocyte development, abnormal"
@@ -12420,9 +12420,9 @@ http://purl.obolibrary.org/obo/ZP_0106087,"oocyte stage III ovary amount, abnorm
 http://purl.obolibrary.org/obo/ZP_0011969,"muscle hypaxial myotome region malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017208,"retinal rod cell retinal outer nuclear layer apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007142,"nucleate erythrocyte common cardinal vein decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017974,"caudal vein blistered, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000049,"surface structure quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000049,abnormal surface structure
-http://purl.obolibrary.org/obo/ZP_0017974,"caudal vein blistered, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005715,"vascular lymphangioblast decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013447,"whole organism speed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106138,"posterior lateral line primordium has fewer parts of type cell, abnormal"
@@ -12540,8 +12540,8 @@ http://purl.obolibrary.org/obo/ZP_0108025,abnormal microcirculatory vessel
 http://purl.obolibrary.org/obo/ZP_0013907,"antero-medial region endoderm decreased object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108791,abnormal atrioventricular node
 http://purl.obolibrary.org/obo/ZP_0101698,"vascular associated smooth muscle cell dorsal aorta absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004180,"cloacal chamber non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019912,"postovulatory follicle absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004180,"cloacal chamber non-functional, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002753,"mandibular arch skeleton duplicated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010485,"cloacal chamber cellular quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103176,"intersegmental vessel has fewer parts of type endothelial tip cell filopodium endothelial tip cell, abnormal"
@@ -12683,8 +12683,8 @@ http://purl.obolibrary.org/obo/ZP_0014366,"hyaluronan biosynthetic process incre
 http://purl.obolibrary.org/obo/ZP_0107057,"anatomical margin pectoral fin irregularly shaped, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012939,"ciliated cell Kupffer's vesicle cellular motility, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008112,"ventral wall of dorsal aorta morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001019,"type B pancreatic cell differentiation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018944,"lens eye decreased size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001019,"type B pancreatic cell differentiation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001785,"nucleus neuroblast position, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014417,"mitochondrion brain structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107108,"transmembrane transporter activity decreased occurrence, abnormal"
@@ -12742,8 +12742,8 @@ http://purl.obolibrary.org/obo/ZP_0108026,abnormal renal glomerulus
 http://purl.obolibrary.org/obo/ZP_0013908,"anterior region endoderm apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108792,abnormal roof plate rhombomere 2
 http://purl.obolibrary.org/obo/ZP_0101699,"vascular associated smooth muscle cell dorsal aorta decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019913,"ovary increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004181,"endodermal cell whole organism decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019913,"ovary increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002754,"pharyngeal arch 2 skeleton aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010486,"rhombomere 5 increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103177,"dorsal longitudinal anastomotic vessel decreased occurrence blood vessel morphogenesis, abnormal"
@@ -12771,13 +12771,13 @@ http://purl.obolibrary.org/obo/ZP_0004697,"pectoral fin has fewer parts of type 
 http://purl.obolibrary.org/obo/ZP_0021771,"neuron projection superior raphe nucleus decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102203,"cell-cell junction DEL decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006175,"skeletal muscle cell proliferation increased rate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004748,"gut poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109698,abnormal fast muscle cell somite 29
+http://purl.obolibrary.org/obo/ZP_0004748,"gut poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021822,"17beta-estradiol blood plasma increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018485,"pronephric distal late tubule spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006226,"ventricular system lumenized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006992,"anterior-posterior axis somite condensed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109749,abnormal superior cervical ganglion
+http://purl.obolibrary.org/obo/ZP_0006992,"anterior-posterior axis somite condensed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105988,"microvillous olfactory receptor neuron decreased process quality olfactory receptor activity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018536,"spinal cord decreased occurrence axon ensheathment in central nervous system, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008470,"sarcolemma muscle collapsed, abnormal"
@@ -13036,8 +13036,8 @@ http://purl.obolibrary.org/obo/ZP_0004591,"blood vasculature whole organism hemo
 http://purl.obolibrary.org/obo/ZP_0010896,"cell projection pronephric podocyte irregular spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103587,"motile cilium olfactory bulb morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016135,"trunk musculature decreased contractility, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109592,abnormal epaxial region somite 7
 http://purl.obolibrary.org/obo/ZP_0004642,"optic vesicle apoptotic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109592,abnormal epaxial region somite 7
 http://purl.obolibrary.org/obo/ZP_0012374,"optic stalk shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010947,"paraxial mesoderm development decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103638,"neuron projection intestine disorganized, abnormal"
@@ -13130,8 +13130,8 @@ http://purl.obolibrary.org/obo/ZP_0015337,"parapineal organ right side of epiphy
 http://purl.obolibrary.org/obo/ZP_0108028,abnormal UCoD
 http://purl.obolibrary.org/obo/ZP_0100211,"retinal rod cell decreased occurrence regeneration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108794,abnormal dorsal fin lepidotrichium 3
-http://purl.obolibrary.org/obo/ZP_0004183,"nucleate erythrocyte increased accumulation intermediate cell mass of mesoderm, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019915,"ovarian follicle stage IV increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004183,"nucleate erythrocyte increased accumulation intermediate cell mass of mesoderm, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002756,"pharyngeal arch 2 physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010488,"ventral fin fold flattened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103179,"photoreceptor outer segment photoreceptor outer segment layer disoriented, abnormal"
@@ -13232,8 +13232,8 @@ http://purl.obolibrary.org/obo/ZP_0010897,"cell projection pronephric podocyte i
 http://purl.obolibrary.org/obo/ZP_0103588,"stereocilium otic vesicle morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016136,"trunk decreased angle to anterior-posterior axis whole organism, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006070,"ocular blood vessel increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004643,"ceratobranchial cartilage morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109593,abnormal presumptive rhombomere 1
+http://purl.obolibrary.org/obo/ZP_0004643,"ceratobranchial cartilage morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012375,"optic stalk decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010948,"somite 1 fused with somite 2, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103639,"neuron projection intestine shortened, abnormal"
@@ -13328,8 +13328,8 @@ http://purl.obolibrary.org/obo/ZP_0015338,"parapineal organ mislocalised anterio
 http://purl.obolibrary.org/obo/ZP_0108029,abnormal anterior semicircular canal
 http://purl.obolibrary.org/obo/ZP_0100212,"retinal inner nuclear layer regenerating tissue increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108795,abnormal bulbo-spinal tract
-http://purl.obolibrary.org/obo/ZP_0004184,"nucleate erythrocyte increased accumulation anatomical surface yolk, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019916,"postovulatory follicle increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004184,"nucleate erythrocyte increased accumulation anatomical surface yolk, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009850,"endocrine pancreas physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002757,"myeloid cell decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010489,"ventral fin fold edge shape, abnormal"
@@ -13527,10 +13527,10 @@ http://purl.obolibrary.org/obo/ZP_0009034,"male organism has fewer parts of type
 http://purl.obolibrary.org/obo/ZP_0019866,"microtubule unfertilized egg disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007607,"dorsal thalamus fused with pretectum, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015339,"pigment cell eye mosaicism, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100213,"retinal outer nuclear layer regenerating tissue increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108796,abnormal caudal artery
-http://purl.obolibrary.org/obo/ZP_0019917,"double-strand break repair via alternative nonhomologous end joining decreased process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0100213,"retinal outer nuclear layer regenerating tissue increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004185,"ovarian follicle development premature, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019917,"double-strand break repair via alternative nonhomologous end joining decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009851,"bicellular tight junction glial cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002758,"multicellular organism development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108847,abnormal trunk ganglion
@@ -13633,8 +13633,8 @@ http://purl.obolibrary.org/obo/ZP_0004594,"endocrine pancreas increased size, ab
 http://purl.obolibrary.org/obo/ZP_0010899,"fin bud hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016138,"cell communication by electrical coupling arrested, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006072,"myelination in peripheral nervous system decreased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004645,"optic stalk decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109595,abnormal ciliated cell
+http://purl.obolibrary.org/obo/ZP_0004645,"optic stalk decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012377,"adenohypophysis formation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018382,"sperm testis absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006123,"lens capsule absent, abnormal"
@@ -13779,8 +13779,8 @@ http://purl.obolibrary.org/obo/ZP_0110071,abnormal stratified squamous epithelia
 http://purl.obolibrary.org/obo/ZP_0106395,"ceratobranchial 4 cartilage decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017516,"epidermal basal stratum decreased height, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007450,"aqueous humor anterior segment eye increased pressure, abnormal"
-http://purl.obolibrary.org/obo/ZP_0015182,"Muller cell decreased occurrence cell dedifferentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000357,"eye aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0015182,"Muller cell decreased occurrence cell dedifferentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0110122,abnormal fast muscle cell somite 19
 http://purl.obolibrary.org/obo/ZP_0013755,"melanocyte present, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106446,"docosahexaenoic acid whole organism decreased amount, abnormal"
@@ -13831,8 +13831,8 @@ http://purl.obolibrary.org/obo/ZP_0012378,"hypothalamus has fewer parts of type 
 http://purl.obolibrary.org/obo/ZP_0018383,"epidermal cell decreased amount cell aggregation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006124,"yolk accumulation blood, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016956,"cardiac muscle cell rate apoptotic process, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006890,"epithelial cilium movement involved in extracellular fluid movement decreased frequency, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109647,abnormal posterior communicating artery
+http://purl.obolibrary.org/obo/ZP_0006890,"epithelial cilium movement involved in extracellular fluid movement decreased frequency, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012429,"habenula process quality neurogenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105886,"fatty acid gall bladder decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018434,"hemangioblast cell differentiation process quality, abnormal"
@@ -13910,8 +13910,8 @@ http://purl.obolibrary.org/obo/ZP_0105830,"hatching gland increased amount, abno
 http://purl.obolibrary.org/obo/ZP_0009036,"gut male organism apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019868,"regulation of protein processing process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007609,"CNS neuron (sensu Vertebrata) dorsal thalamus poorly differentiated, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100215,"retinal cone cell regenerating tissue decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108798,abnormal ventral lateral mesoderm
+http://purl.obolibrary.org/obo/ZP_0100215,"retinal cone cell regenerating tissue decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100981,"fatty acid whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004187,"oocyte maturity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019919,"hindbrain absent, abnormal"
@@ -14202,15 +14202,15 @@ http://purl.obolibrary.org/obo/ZP_0100625,"vertebral column increased amount, ab
 http://purl.obolibrary.org/obo/ZP_0004597,"metapterygoid morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021671,"myeloblast blood increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006075,"neuromast trunk increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109598,abnormal orbitosphenoid-prootic joint
 http://purl.obolibrary.org/obo/ZP_0004648,"bleb assembly increased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109598,abnormal orbitosphenoid-prootic joint
 http://purl.obolibrary.org/obo/ZP_0021722,"fin regeneration rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102920,"whole organism disrupted neutrophil migration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018385,"lateral plate mesoderm process quality determination of left/right asymmetry in lateral mesoderm, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006126,"atrial ventricular junction remodeling disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016958,"intersegmental vein increased branchiness, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109649,abnormal primitive prosencephalic artery
 http://purl.obolibrary.org/obo/ZP_0006892,"cilium movement involved in cell motility disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109649,abnormal primitive prosencephalic artery
 http://purl.obolibrary.org/obo/ZP_0105888,"growth of symbiont in host decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018436,"retinal inner nuclear layer apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008370,"gall bladder absent, abnormal"
@@ -14257,8 +14257,8 @@ http://purl.obolibrary.org/obo/ZP_0017876,"neuron locus coeruleus absent, abnorm
 http://purl.obolibrary.org/obo/ZP_0005617,"cilium posterior neural tube disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013349,"trunk separated from iridophore melanocyte trunk, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019354,"endocrine pancreas increased occurrence pancreas induction, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002195,"microtubule cytoskeleton Mauthner neuron decreased mass density, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017927,"diencephalon has fewer parts of type neuron, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002195,"microtubule cytoskeleton Mauthner neuron decreased mass density, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007861,"photoreceptor outer segment layer displaced to photoreceptor outer segment membrane vacuolar lumen photoreceptor outer segment layer, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000768,"translational initiation premature, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015593,"intersegmental artery branchiness, abnormal"
@@ -14364,8 +14364,8 @@ http://purl.obolibrary.org/obo/ZP_0015236,"trunk musculature cellular quality, a
 http://purl.obolibrary.org/obo/ZP_0013809,"somite 10 size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100110,"trunk mesenchyme decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108693,abnormal anal fin lepidotrichium 1
-http://purl.obolibrary.org/obo/ZP_0004082,"hindbrain has fewer parts of type branchiomotor neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019814,"sensory neuron increased rate axon extension, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004082,"hindbrain has fewer parts of type branchiomotor neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002655,"gut epithelium increased distance plasma membrane plasma membrane gut epithelium, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010387,"mesenchymal cell migration decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103078,"estradiol blood absent, abnormal"
@@ -14553,8 +14553,8 @@ http://purl.obolibrary.org/obo/ZP_0007505,"determination of heart left/right asy
 http://purl.obolibrary.org/obo/ZP_0015237,"head kidney increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100111,"sclerotome increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108694,abnormal perichordal bone
-http://purl.obolibrary.org/obo/ZP_0019815,"motor neuron increased rate axon extension, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004083,"cilium otic vesicle decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019815,"motor neuron increased rate axon extension, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002656,"podocyte morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010388,"median fin fold decreased height, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103079,"immature gonad absent, abnormal"
@@ -14713,8 +14713,8 @@ http://purl.obolibrary.org/obo/ZP_0005512,"endodermal digestive tract morphogene
 http://purl.obolibrary.org/obo/ZP_0013244,"heterotrimeric G-protein complex red sensitive photoreceptor cell localized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011817,"myotome deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104508,"anterior region lens increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002090,"embryonic retina morphogenesis in camera-type eye disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017822,"dorsal aorta in contact with lateral region common cardinal vein, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002090,"embryonic retina morphogenesis in camera-type eye disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000663,"cephalic musculature decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0101086,"spinal cord increased efficacy axon extension involved in regeneration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106752,"caudal commissure has fewer parts of type axon caudal commissure, abnormal"
@@ -14942,8 +14942,8 @@ http://purl.obolibrary.org/obo/ZP_0007507,"gut symmetry, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015239,"immature B cell infiltrative, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100113,"post-vent vasculature increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108696,abnormal presumptive hindbrain
-http://purl.obolibrary.org/obo/ZP_0004085,"eye photoreceptor cell retinal photoreceptor layer apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019817,"neuron decreased branchiness, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004085,"eye photoreceptor cell retinal photoreceptor layer apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009751,"ventricular system swollen, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002658,"atrioventricular valve formation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108747,abnormal epaxial region somite 1
@@ -15248,8 +15248,8 @@ http://purl.obolibrary.org/obo/ZP_0109547,abnormal notochord inner cell
 http://purl.obolibrary.org/obo/ZP_0012329,"cerebellum vasculature development disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105786,"cardiac muscle cell orientation heart tube, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018334,"neutrophil liver increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016907,"visual behavior decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001175,"melanocyte hypodermis decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016907,"visual behavior decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006841,"calcium ion homeostasis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014573,"mastication process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107264,"dorsal aorta normal occurrence Notch signaling pathway, abnormal"
@@ -15321,11 +15321,11 @@ http://purl.obolibrary.org/obo/ZP_0100064,"hematopoietic multipotent progenitor 
 http://purl.obolibrary.org/obo/ZP_0105730,"opercle increased occurrence ossification, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019768,"neuroectoderm decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007509,"post-vent vasculature increased branchiness, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100115,"paired fin morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108698,abnormal central zone protoglomerulus 3
+http://purl.obolibrary.org/obo/ZP_0100115,"paired fin morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100881,"nephron decreased functionality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004087,"photoreceptor outer segment retina absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019819,"photoreceptor connecting cilium photoreceptor cell absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004087,"photoreceptor outer segment retina absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021161,"atrioventricular valve development decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009753,"atrial myocardium increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108749,abnormal sinoatrial ring
@@ -15607,8 +15607,8 @@ http://purl.obolibrary.org/obo/ZP_0103794,"5-methyltetrahydrofolate whole organi
 http://purl.obolibrary.org/obo/ZP_0016342,"symplectic fused with ceratohyal cartilage, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022647,"trunk vasculature process quality blood vessel development, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103845,"cardiac ventricle area, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004900,"optic cup has fewer parts of type radial glial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109850,abnormal presumptive dorsal mesoderm
+http://purl.obolibrary.org/obo/ZP_0004900,"optic cup has fewer parts of type radial glial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012632,"spermatogenesis delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009295,"diencephalic white matter lacks parts or has fewer parts of type postoptic commissure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014110,"preoptic area has normal numbers of parts of type dopaminergic neuron, abnormal"
@@ -15628,8 +15628,8 @@ http://purl.obolibrary.org/obo/ZP_0018285,"ventricular system brain edematous, a
 http://purl.obolibrary.org/obo/ZP_0006026,"optic tectum aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0023100,"hepatocellular carcinoma liver increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016858,"whole organism inflammatory, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109549,abnormal bulbus arteriosus middle layer
 http://purl.obolibrary.org/obo/ZP_0006792,"startle response sporadic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109549,abnormal bulbus arteriosus middle layer
 http://purl.obolibrary.org/obo/ZP_0105788,"neutrophil increased duration inflammatory response to wounding, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018336,"glossopharyngeal ganglion decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008270,"renal filtration decreased process quality, abnormal"
@@ -15701,8 +15701,8 @@ http://purl.obolibrary.org/obo/ZP_0016751,"blood accumulation cranial blood vess
 http://purl.obolibrary.org/obo/ZP_0012224,"mitochondrial respiratory chain complex I whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012990,"muscle organ development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105681,"enteric nervous system development decreased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016802,"liver dysplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001070,"type B pancreatic cell differentiation decreased process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016802,"liver dysplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100066,"axon retinal neural layer decreased branchiness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105732,"ceratobranchial 5 tooth increased occurrence ossification, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001121,"embryonic pattern specification disrupted, abnormal"
@@ -15889,8 +15889,8 @@ http://purl.obolibrary.org/obo/ZP_0012225,"caudal vein plexus increased process 
 http://purl.obolibrary.org/obo/ZP_0012991,"muscle pioneer morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105682,"hypophysis male organism increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018230,"Kupffer's vesicle decreased occurrence detection of nodal flow, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001071,"Notch signaling pathway disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016803,"portion of connective tissue accumulation liver, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001071,"Notch signaling pathway disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107160,"optic primordium decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100067,"heparan sulfate 6-O-sulfotransferase activity process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105733,"opercle absent, abnormal"
@@ -16149,8 +16149,8 @@ http://purl.obolibrary.org/obo/ZP_0022134,"neutrophil male organism increased am
 http://purl.obolibrary.org/obo/ZP_0020707,"oligodendrocyte brain decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010641,"fin regeneration hypotrophic growth, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103332,"olfactory bulb disrupted neural crest cell fate specification, abnormal"
-http://purl.obolibrary.org/obo/ZP_0022951,"myotome process quality neuromuscular junction development, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005877,"retinal photoreceptor layer aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0022951,"myotome process quality neuromuscular junction development, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007355,"hemoglobin complex nucleate erythrocyte normal amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015087,"endocardial cushion formation arrested, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005928,"whole organism lacks all parts of type cranial nerve II, abnormal"
@@ -16385,8 +16385,8 @@ http://purl.obolibrary.org/obo/ZP_0109854,abnormal pharyngeal pouch 1
 http://purl.obolibrary.org/obo/ZP_0012636,"ovary decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018641,"cardiac ventricle increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009299,"whole organism lacks parts or has fewer parts of type cranial nerve X, abnormal"
-http://purl.obolibrary.org/obo/ZP_0014114,"margin morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001482,"thrombocyte distributed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0014114,"margin morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109905,abnormal interrenal vessel
 http://purl.obolibrary.org/obo/ZP_0014880,"T cell apoptotic process increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107571,abnormal alar plate midbrain region
@@ -16560,8 +16560,8 @@ http://purl.obolibrary.org/obo/ZP_0015089,"mature neutrophil increased amount, a
 http://purl.obolibrary.org/obo/ZP_0110029,abnormal pectoral fin sensory nerve
 http://purl.obolibrary.org/obo/ZP_0019667,"presumptive rhombomere 5 decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007408,"lepidotrichium morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0100014,"chondrocyte pharyngeal arch cartilage stacked, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108597,abnormal pectoral fin plate fat
+http://purl.obolibrary.org/obo/ZP_0100014,"chondrocyte pharyngeal arch cartilage stacked, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100780,"male organism increased weight, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019718,"pronephric duct decreased process quality establishment of epithelial cell apical/basal polarity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021060,"facial lymphatic vessel decreased occurrence lymphangiogenesis, abnormal"
@@ -16728,8 +16728,8 @@ http://purl.obolibrary.org/obo/ZP_0019152,"photoreceptor disc membrane eye photo
 http://purl.obolibrary.org/obo/ZP_0017725,"pronephric distal early tubule mislocalised anteriorly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000566,"calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015391,"fertilization decreased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0110331,abnormal infracarinalis
 http://purl.obolibrary.org/obo/ZP_0108082,abnormal presumptive lateral nucleus of ventral telencephalon
+http://purl.obolibrary.org/obo/ZP_0110331,abnormal infracarinalis
 http://purl.obolibrary.org/obo/ZP_0013964,"forerunner cell group poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106655,"forebrain midbrain boundary increased occurrence apoptotic process, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019203,"neuroblast (sensu Vertebrata) spinal cord deformed, abnormal"
@@ -17640,8 +17640,8 @@ http://purl.obolibrary.org/obo/ZP_0012535,"pronephric glomerular capillary attac
 http://purl.obolibrary.org/obo/ZP_0105992,"medial region trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018540,"swim bladder development decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009198,"ventral fin fold apoptotic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0014013,"vascular cord development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001381,"motor neuron spinal cord increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0014013,"vascular cord development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109804,abnormal sclerotome somite 10
 http://purl.obolibrary.org/obo/ZP_0107470,abnormal joint
 http://purl.obolibrary.org/obo/ZP_0100377,"granulocyte spleen increased amount, abnormal"
@@ -18041,8 +18041,8 @@ http://purl.obolibrary.org/obo/ZP_0004754,"otic vesicle malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012486,"prechordal plate aplastic/hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018491,"artery increased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006232,"axon eye decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004805,"abducens motor nucleus absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109755,abnormal Descemet's membrane
+http://purl.obolibrary.org/obo/ZP_0004805,"abducens motor nucleus absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012537,"glomerular endothelium fenestra pronephric glomerular capillary closed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105994,"retinal outer plexiform layer increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018542,"interneuron absent, abnormal"
@@ -18542,8 +18542,8 @@ http://purl.obolibrary.org/obo/ZP_0107066,"dorsal longitudinal vein attached to 
 http://purl.obolibrary.org/obo/ZP_0012948,"mesodermal cell position, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105639,"retinal ganglion cell occurrence cysteine-type endopeptidase activity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008121,"skeletal muscle cell has extra parts of type membrane skeletal muscle cell, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001028,"pancreatic B cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018953,"retinal inner plexiform layer decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001028,"pancreatic B cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001794,"intestine decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107117,"thymus neoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107883,abnormal pharyngeal arch 5 skeleton
@@ -18600,8 +18600,8 @@ http://purl.obolibrary.org/obo/ZP_0015344,"head neoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108035,abnormal arrector muscle
 http://purl.obolibrary.org/obo/ZP_0013917,"voltage-gated potassium channel activity process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106608,"mitochondrial cloud oocyte morphology, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019922,"atrioventricular valve functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004190,"retina development in camera-type eye delayed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019922,"atrioventricular valve functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002763,"neuron hindbrain decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010495,"ceratohyal cartilage fused with ceratobranchial 1 cartilage, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103186,"filamentous actin epidermal cell increased distribution, abnormal"
@@ -18615,8 +18615,8 @@ http://purl.obolibrary.org/obo/ZP_0010546,abnormal neurohypophysis
 http://purl.obolibrary.org/obo/ZP_0103237,"motile cilium peripheral olfactory organ immobile, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108903,abnormal posterior macula
 http://purl.obolibrary.org/obo/ZP_0016551,"melanocyte lateral larval melanophore stripe spatial pattern, abnormal"
-http://purl.obolibrary.org/obo/ZP_0012024,"whole organism lacks all parts of type ventral fin fold, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022856,"myosin filament somite 6 decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0012024,"whole organism lacks all parts of type ventral fin fold, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012790,"myocardium morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016602,"preoptic area has normal numbers of parts of type neurosecretory neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022907,"neuromuscular junction fast muscle cell width, abnormal"
@@ -18637,8 +18637,8 @@ http://purl.obolibrary.org/obo/ZP_0021831,"female organism process quality femal
 http://purl.obolibrary.org/obo/ZP_0012489,"anterior region notochord absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018494,"intracellular part myoseptum aggregated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006235,"third ventricle decreased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109758,abnormal presumptive ventral fin fold
 http://purl.obolibrary.org/obo/ZP_0004808,"adenohypophyseal placode decreased size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109758,abnormal presumptive ventral fin fold
 http://purl.obolibrary.org/obo/ZP_0105997,"hindbrain decreased occurrence blood vessel morphogenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018545,"skeletal muscle myofibril skeletal muscle morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001386,"neural crest cell displaced to lateral margin spinal cord, abnormal"
@@ -18833,8 +18833,8 @@ http://purl.obolibrary.org/obo/ZP_0004758,"post-vent vasculature morphology, abn
 http://purl.obolibrary.org/obo/ZP_0021832,"male organism decreased process quality growth, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018495,"mitochondrion skeletal muscle increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006236,"telencephalic ventricle decreased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004809,"lateral floor plate composition, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109759,abnormal choroid plexus fourth ventricle
+http://purl.obolibrary.org/obo/ZP_0004809,"lateral floor plate composition, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105998,"midbrain occurrence blood vessel morphogenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018546,"whole organism increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008480,"neuromast immature, abnormal"
@@ -18959,8 +18959,8 @@ http://purl.obolibrary.org/obo/ZP_0013352,"primary motor neuron normal amount, a
 http://purl.obolibrary.org/obo/ZP_0106043,"vascular endothelium increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011925,"cleavage in ITS2 between 5.8S rRNA and LSU-rRNA of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104616,"axoneme sperm absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017930,"neutrophil displaced to dorsal region trunk, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000005,"ectoderm development disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017930,"neutrophil displaced to dorsal region trunk, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008588,"brain atrophied, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013403,"compact myelin nerve absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0101194,"kinocilium auditory receptor cell damaged, abnormal"
@@ -19783,8 +19783,8 @@ http://purl.obolibrary.org/obo/ZP_0019877,"Meckel's cartilage orientation anteri
 http://purl.obolibrary.org/obo/ZP_0007618,"cell post-vent region apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100224,"microtubule oocyte stage I structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100990,"skeletal muscle myofibril skeletal muscle degenerate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019928,"anterior pancreatic bud decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004196,"retinal outer nuclear layer immature, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019928,"anterior pancreatic bud decreased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021270,"otic vesicle increased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009862,"cell notochord mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002769,"somite flattened, abnormal"
@@ -19889,14 +19889,14 @@ http://purl.obolibrary.org/obo/ZP_0018393,"regenerating fin lacks parts or has f
 http://purl.obolibrary.org/obo/ZP_0006134,"cell retinal inner nuclear layer decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005992,"cell retinal inner nuclear layer decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016966,"vagal ganglion degenerate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109657,abnormal tunica albuginea testis
 http://purl.obolibrary.org/obo/ZP_0004707,"axon Rohon-Beard neuron truncated, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109657,abnormal tunica albuginea testis
 http://purl.obolibrary.org/obo/ZP_0012439,"cell-cell junction endocardium mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105896,"erythrocyte aggregation increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018444,"ventricular cardiac muscle tissue morphogenesis process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001285,"forerunner cell group split, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109708,abnormal lateral ethmoid-supraethmoid
 http://purl.obolibrary.org/obo/ZP_0006951,"ceratohyal cartilage fused with hyosymplectic cartilage, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109708,abnormal lateral ethmoid-supraethmoid
 http://purl.obolibrary.org/obo/ZP_0107374,abnormal epibranchial bone
 http://purl.obolibrary.org/obo/ZP_0105947,"response to heat decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001336,"whole organism truncated, abnormal"
@@ -19977,8 +19977,8 @@ http://purl.obolibrary.org/obo/ZP_0019878,"Meckel's cartilage truncated, abnorma
 http://purl.obolibrary.org/obo/ZP_0007619,"cardiac muscle cell heart disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100225,"mitochondrial cloud oocyte stage I position, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100991,"skeletal muscle myofibril skeletal muscle decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004197,"translation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019929,"exocrine pancreas decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004197,"translation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021271,"sagitta increased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009863,"paraxial mesoderm increased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108859,abnormal migratory cranial neural crest cell
@@ -20082,8 +20082,8 @@ http://purl.obolibrary.org/obo/ZP_0012389,"camera-type eye photoreceptor cell di
 http://purl.obolibrary.org/obo/ZP_0018394,"regenerating fin process quality blood vessel endothelial cell migration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006135,"cell retinal inner plexiform layer decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016967,"nucleus cranial ganglion hypotrophic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004708,"atrioventricular valve constricted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109658,abnormal hypaxial region somite 19
+http://purl.obolibrary.org/obo/ZP_0004708,"atrioventricular valve constricted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105897,"joint increased occurrence bone mineralization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018445,"post-vent region coiling, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001286,"yolk elongated, abnormal"
@@ -20341,8 +20341,8 @@ http://purl.obolibrary.org/obo/ZP_0012283,"cranial lymph vessel decreased proces
 http://purl.obolibrary.org/obo/ZP_0010856,"floor plate spinal cord region patchy, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103547,"estrogen female organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016861,"neutrophil adjacent to macrophage, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004602,"vH ionocyte flux, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109552,abnormal vmGy
+http://purl.obolibrary.org/obo/ZP_0004602,"vH ionocyte flux, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012334,"Rohon-Beard neuron decreased process quality collateral sprouting, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010907,"macula utricle has extra parts of type hair cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105791,"photoreceptor cell accumulation vesicle apical region photoreceptor cell, abnormal"
@@ -20364,8 +20364,8 @@ http://purl.obolibrary.org/obo/ZP_0021324,"non-motile cilium olfactory pit lengt
 http://purl.obolibrary.org/obo/ZP_0009916,"melanocyte accumulation posterior_toposterior to otic vesicle, abnormal"
 http://purl.obolibrary.org/obo/ZP_0102522,"centrosome hindbrain size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006494,"vestibular reflex absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0012799,"whole organism length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104000,"retinal cell apoptotic process increased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0012799,"whole organism length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018038,"circadian sleep/wake cycle decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006545,"corpuscles of Stannius cellular quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014277,"wound healing decreased process quality, abnormal"
@@ -20428,8 +20428,8 @@ http://purl.obolibrary.org/obo/ZP_0007514,"oligodendrocyte cell fate specificati
 http://purl.obolibrary.org/obo/ZP_0015246,"optic vesicle fused with optic vesicle, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013819,"blood vessel organization quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100120,"thyroid follicle decreased diameter, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019824,"cilium posterior crista decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004092,"cilium posterior neural tube decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019824,"cilium posterior crista decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002665,"lateral mesoderm mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010397,"integument post-vent region blistered, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103088,"bulbus arteriosus decreased amount, abnormal"
@@ -20532,9 +20532,9 @@ http://purl.obolibrary.org/obo/ZP_0012284,"phototaxis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010857,"muscle displaced to axis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103548,"3,3',5-triiodo-L-thyronine whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006030,"nucleate erythrocyte apoptotic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109553,abnormal slow muscle cell somite 9
 http://purl.obolibrary.org/obo/ZP_0016862,"fast muscle cell process quality skeletal myofibril assembly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004603,"keratinocyte flux, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109553,abnormal slow muscle cell somite 9
 http://purl.obolibrary.org/obo/ZP_0012335,"startle response delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010908,"otic vesicle lacks parts or has fewer parts of type auditory epithelial support cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105792,"photoreceptor outer segment eye photoreceptor cell mislocalised, abnormal"
@@ -20623,8 +20623,8 @@ http://purl.obolibrary.org/obo/ZP_0019774,"cilium assembly increased occurrence,
 http://purl.obolibrary.org/obo/ZP_0007515,"peripheral nervous system myelin formation decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015247,"whole organism lacks all parts of type floor plate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100121,"thyroid primordium increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004093,"photoreceptor outer segment eye photoreceptor cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019825,"cilium lateral line absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004093,"photoreceptor outer segment eye photoreceptor cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002666,"epithelium neural tube duplicated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010398,"dermis separated from epidermis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103089,"cleithrum decreased process quality bone mineralization, abnormal"
@@ -20817,8 +20817,8 @@ http://purl.obolibrary.org/obo/ZP_0019775,"pronephric tubule has extra parts of 
 http://purl.obolibrary.org/obo/ZP_0007516,"Schwann cell migration decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015248,"primary motor neuron spinal cord mislocalised medially, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100122,"protein localization to plasma membrane disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0019826,"cilium anterior crista decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004094,"nucleus eye photoreceptor cell decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0019826,"cilium anterior crista decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009760,"blood vessel endothelial cell intersegmental artery decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002667,"endocardium atrioventricular canal decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010399,"fibrillar collagen trimer dermis disorganized, abnormal"
@@ -21011,8 +21011,8 @@ http://purl.obolibrary.org/obo/ZP_0019776,"engulfment of apoptotic cell disrupte
 http://purl.obolibrary.org/obo/ZP_0007517,"lateral line nerve glial cell migration decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015249,"secondary motor neuron fused with anatomical region anatomical region secondary motor neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100123,"apical side peridermal cell increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004095,"cilium eye photoreceptor cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019827,"retinal rod cell structure, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004095,"cilium eye photoreceptor cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009761,"foregut morphogenesis disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002668,"endocardial cushion poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108757,abnormal ON-bipolar cell
@@ -21125,8 +21125,8 @@ http://purl.obolibrary.org/obo/ZP_0105795,"tectal neuropile decreased amount, ab
 http://purl.obolibrary.org/obo/ZP_0018343,"vagal ganglion decreased process quality fasciculation of sensory neuron axon, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001184,"myofibril muscle pioneer decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016916,"visual behavior occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109607,abnormal sclerotome somite 1
 http://purl.obolibrary.org/obo/ZP_0006850,"endothelial tube lumen extension involved in blood vessel lumen ensheathment disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109607,abnormal sclerotome somite 1
 http://purl.obolibrary.org/obo/ZP_0014582,"regenerating tissue decreased process quality bone mineralization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107273,"pronephric glomerulus structure, cavities, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105846,"caudal fin decreased rate fin regeneration, abnormal"
@@ -21233,8 +21233,8 @@ http://purl.obolibrary.org/obo/ZP_0014225,"cell DEL disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014991,"testis increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107682,abnormal skeletal element
 http://purl.obolibrary.org/obo/ZP_0100589,"nucleus intestinal epithelial cell pleomorphic, abnormal"
-http://purl.obolibrary.org/obo/ZP_0003071,"A band skeletal muscle cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018803,"embryonic heart tube left/right pattern formation decreased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0003071,"A band skeletal muscle cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001644,"melanosome melanocyte absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109160,abnormal anal fin lepidotrichium 7
 http://purl.obolibrary.org/obo/ZP_0102067,"axon hindbrain commissure decreased amount, abnormal"
@@ -21393,8 +21393,8 @@ http://purl.obolibrary.org/obo/ZP_0019778,"anatomical structure spatial pattern,
 http://purl.obolibrary.org/obo/ZP_0007519,"eurydendroid cell cerebellum decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100125,"actin-based cell projection peridermal cell length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100891,"cholesterol intestine increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004097,"photoreceptor inner segment membrane eye photoreceptor cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019829,"cilium photoreceptor cell absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0004097,"photoreceptor inner segment membrane eye photoreceptor cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021171,"single ciliated epithelial cell pronephric duct decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009763,"liver mislocalised posteriorly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108759,abnormal trans-choroid plexus branch
@@ -21474,8 +21474,8 @@ http://purl.obolibrary.org/obo/ZP_0108652,abnormal optic fissure
 http://purl.obolibrary.org/obo/ZP_0004041,"whole organism malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002614,"axonal defasciculation process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010346,"ventral fin fold multiple, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108703,abnormal epicardium
 http://purl.obolibrary.org/obo/ZP_0103037,"oocyte stage IV disrupted meiosis II nuclear envelope disassembly, abnormal"
+http://purl.obolibrary.org/obo/ZP_0108703,abnormal epicardium
 http://purl.obolibrary.org/obo/ZP_0016351,"endocardial cell differentiation process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022656,"blood gut increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012590,"anterior segment eye morphology, abnormal"
@@ -21503,8 +21503,8 @@ http://purl.obolibrary.org/obo/ZP_0105797,"neoplasm coelom increased amount, abn
 http://purl.obolibrary.org/obo/ZP_0018345,"midbrain increased process quality cell death, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001186,"slow muscle cell malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016918,"branchiomotor neuron arrested neuron migration, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006852,"common cardinal vein decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109609,abnormal lateral wall spinal cord
+http://purl.obolibrary.org/obo/ZP_0006852,"common cardinal vein decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014584,"regenerating tissue scale decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107275,"progesterone blood plasma increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105848,"intestine decreased process quality lipase activity, abnormal"
@@ -21695,8 +21695,8 @@ http://purl.obolibrary.org/obo/ZP_0109559,abnormal hypobranchial 2 cartilage
 http://purl.obolibrary.org/obo/ZP_0105798,"sarcoma eye increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018346,"hindbrain decreased process quality mitotic cell cycle, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008280,"anatomical axis whole organism decreased length, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016919,"branchiomotor neuron decreased occurrence neuron migration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001187,"myofibril slow muscle cell decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016919,"branchiomotor neuron decreased occurrence neuron migration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006853,"common cardinal vein disrupted blood vessel endothelial cell migration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014585,"scale fused with regenerating tissue scale, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107276,"estradiol blood plasma decreased amount, abnormal"
@@ -21796,8 +21796,8 @@ http://purl.obolibrary.org/obo/ZP_0001596,"cell migration disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014228,"response to salt stress disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014994,"axial fin skeleton shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107685,abnormal vertebra 24
-http://purl.obolibrary.org/obo/ZP_0003074,"cardiac muscle cell decreased contractility, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018806,"cell secondary islet decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0003074,"cardiac muscle cell decreased contractility, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008740,"melanocyte apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001647,"central nervous system hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109163,abnormal MiV1
@@ -22254,8 +22254,8 @@ http://purl.obolibrary.org/obo/ZP_0004913,"Mauthner neuron increased amount, abn
 http://purl.obolibrary.org/obo/ZP_0109863,abnormal claustrum bone
 http://purl.obolibrary.org/obo/ZP_0103909,"corneal stroma irregular thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018650,"epidermal cell epidermis absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001491,"myofibril somite necrotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014123,"vagal lobe position, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001491,"myofibril somite necrotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109914,abnormal pain receptor cell
 http://purl.obolibrary.org/obo/ZP_0107580,abnormal otic lateral line neuromast
 http://purl.obolibrary.org/obo/ZP_0100487,"carbon dioxide transport decreased process quality, abnormal"
@@ -22536,8 +22536,8 @@ http://purl.obolibrary.org/obo/ZP_0004506,"hepatocyte decreased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012238,"intermediate cell mass of mesoderm lacks parts or has fewer parts of type hematopoietic stem cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105695,"neural plate decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018243,"sympathetic neuron absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016816,"red sensitive photoreceptor cell decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001084,"dorsal root ganglion irregular spatial pattern, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016816,"red sensitive photoreceptor cell decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006750,"adherens junction blood vessel endothelium decreased object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014482,"anterior-posterior axis whole organism morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107173,"mRNA splicing, via spliceosome process efficacy, abnormal"
@@ -22830,9 +22830,9 @@ http://purl.obolibrary.org/obo/ZP_0006292,"exocytic vesicle goblet cell morpholo
 http://purl.obolibrary.org/obo/ZP_0004865,"sensory neuron trigeminal ganglion apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012597,"compact layer of ventricle decreased process quality ventricular cardiac myofibril assembly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016409,"locomotion regular sleep pattern, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109866,abnormal hypocretin-secreting neuron
 http://purl.obolibrary.org/obo/ZP_0006343,"endoplasmic reticulum intestinal epithelium dilated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014075,"hindgut contraction rate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109866,abnormal hypocretin-secreting neuron
 http://purl.obolibrary.org/obo/ZP_0012648,"axon spinal cord increased branchiness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018653,"epidermis increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001494,"somite detached from myofibril somite, abnormal"
@@ -22920,8 +22920,8 @@ http://purl.obolibrary.org/obo/ZP_0018194,"brain has normal numbers of parts of 
 http://purl.obolibrary.org/obo/ZP_0004508,"telencephalon hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105697,"spinal cord decreased occurrence glial cell proliferation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018245,"hepatic stellate cell activation increased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016818,"red sensitive photoreceptor cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001086,"gall bladder decreased size, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016818,"red sensitive photoreceptor cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006752,"blood vessel permeable, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014484,"innate immune response decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107175,"cornea edematous, abnormal"
@@ -22972,8 +22972,8 @@ http://purl.obolibrary.org/obo/ZP_0017736,"otic vesicle occurrence hair cell dif
 http://purl.obolibrary.org/obo/ZP_0007670,"axonemal dynein complex Kupffer's vesicle decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000577,"central nervous system morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013209,"liver present, abnormal"
-http://purl.obolibrary.org/obo/ZP_0110342,"pronephric tubule normal occurrence multi-ciliated epithelial cell differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108093,abnormal oocyte stage II
+http://purl.obolibrary.org/obo/ZP_0110342,"pronephric tubule normal occurrence multi-ciliated epithelial cell differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013975,"ocular blood vessel decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106666,"anatomical line increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019214,"pronephric proximal straight tubule decreased distribution, abnormal"
@@ -23119,8 +23119,8 @@ http://purl.obolibrary.org/obo/ZP_0004509,"fin decreased thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105698,"corpuscles of Stannius arrested embryonic organ development, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018246,"ito cell increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008180,"pronephric duct increased thickness, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016819,"red sensitive photoreceptor cell deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001087,"maxilla aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016819,"red sensitive photoreceptor cell deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006753,"lymph vasculature trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014485,"glucose import increased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107176,"vertical myoseptum disrupted synapse assembly, abnormal"
@@ -23291,9 +23291,9 @@ http://purl.obolibrary.org/obo/ZP_0004760,"exocrine pancreas morphology, abnorma
 http://purl.obolibrary.org/obo/ZP_0012492,"prechordal plate formation process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103756,"epiboly increased duration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016304,"axon motor neuron increased length, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109761,abnormal pterosphenoid
 http://purl.obolibrary.org/obo/ZP_0022609,"photoreceptor outer segment photoreceptor cell present, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004811,"ethmoid cartilage decreased width, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109761,abnormal pterosphenoid
 http://purl.obolibrary.org/obo/ZP_0012543,"pharyngeal arch 7 absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103807,"actin filament yolk syncytial layer structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014021,"chondroblast ceratohyal cartilage disorganized, abnormal"
@@ -23769,8 +23769,8 @@ http://purl.obolibrary.org/obo/ZP_0110295,abnormal secondary gustatory nucleus m
 http://purl.obolibrary.org/obo/ZP_0103702,"testis vacuolated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019167,"ventral region pharyngeal arch cartilage morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007674,"swimming process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108097,abnormal osteoblast
 http://purl.obolibrary.org/obo/ZP_0110346,"pronephric tubule has normal numbers of parts of type multi-ciliated epithelial cell pronephric tubule, abnormal"
+http://purl.obolibrary.org/obo/ZP_0108097,abnormal osteoblast
 http://purl.obolibrary.org/obo/ZP_0013979,"photoreceptor outer segment retinal cone cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100280,"filopodium Rohon-Beard neuron collapsed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0019218,"macula utricle decreased process quality vestibular receptor cell stereocilium organization, abnormal"
@@ -23897,8 +23897,8 @@ http://purl.obolibrary.org/obo/ZP_0012495,"thymus has fewer parts of type T cell
 http://purl.obolibrary.org/obo/ZP_0103759,"scale fin decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016307,"motor neuron spinal cord increased branchiness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006241,"sarcoplasmic reticulum muscle disorganized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004814,"adrenocorticotropic hormone secreting cell decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109764,abnormal epaxial region somite 22
+http://purl.obolibrary.org/obo/ZP_0004814,"adrenocorticotropic hormone secreting cell decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012546,"DNA methylation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018551,"posterior pronephric duct lacks all parts of type motile cilium posterior pronephric duct, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001392,"somite border U-shaped, abnormal"
@@ -23940,8 +23940,8 @@ http://purl.obolibrary.org/obo/ZP_0005681,"heart contraction delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011986,"phosphate ion homeostasis process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104677,"cephalic mesoderm absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017225,"apical ectodermal ridge pectoral fin bud decreased process quality embryonic pectoral fin morphogenesis, abnormal"
-http://purl.obolibrary.org/obo/ZP_0000066,"ceratobranchial cartilage absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0017991,"nucleus of the caudal commissure position, abnormal"
+http://purl.obolibrary.org/obo/ZP_0000066,"ceratobranchial cartilage absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0005732,"head mislocalised posteriorly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013464,"atrium differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0106155,"germ cell proliferation decreased occurrence, abnormal"
@@ -24065,8 +24065,8 @@ http://purl.obolibrary.org/obo/ZP_0013924,"spinal cord has fewer parts of type m
 http://purl.obolibrary.org/obo/ZP_0106615,"germ plasm blastomere distributed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002004,"blood vessel endothelial cell migration process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020568,"ciliary marginal zone absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0002770,"tegmentum morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015402,"basal lamina retina morphology, abnormal"
+http://purl.obolibrary.org/obo/ZP_0002770,"tegmentum morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103193,"neuron projection terminus afferent neuron broken, abnormal"
 http://purl.obolibrary.org/obo/ZP_0101766,"posterior lateral line nerve decreased process quality anterograde axonal transport, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022046,"median fin fold process quality cell population proliferation, abnormal"
@@ -24101,8 +24101,8 @@ http://purl.obolibrary.org/obo/ZP_0004764,"scapulocoracoid increased size, abnor
 http://purl.obolibrary.org/obo/ZP_0012496,"thymus has extra parts of type fat cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016308,"liver senescent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006242,"myofibril muscle disorganized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109765,abnormal optic furrow
 http://purl.obolibrary.org/obo/ZP_0004815,"axon primary motor neuron misrouted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109765,abnormal optic furrow
 http://purl.obolibrary.org/obo/ZP_0012547,"habenula process quality determination of left/right symmetry, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018552,"pronephric duct decreased occurrence cilium assembly, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001393,"posterior lateral line neuromast increased amount, abnormal"
@@ -24206,8 +24206,8 @@ http://purl.obolibrary.org/obo/ZP_0014383,"pronephric capsular space increased s
 http://purl.obolibrary.org/obo/ZP_0107074,"meiotic sister chromatid cohesion process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012956,"cellular response to electrical stimulus process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105647,"ependymal cell decreased occurrence epithelial cilium movement involved in extracellular fluid movement, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018961,"cell EVL elongated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001036,"whole organism increased speed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018961,"cell EVL elongated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006702,"ciliary marginal zone damaged, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014434,"caudal fin actinotrichium attached to basement membrane caudal fin, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107125,"response to hypoxia process quality, abnormal"
@@ -24307,8 +24307,8 @@ http://purl.obolibrary.org/obo/ZP_0004765,"ventral mandibular arch shortened, ab
 http://purl.obolibrary.org/obo/ZP_0012497,"thymic epithelium has fewer parts of type epithelial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016309,"liver decreased process quality DNA methylation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006243,"myofibril muscle undulate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109766,abnormal sclerotome somite 20
 http://purl.obolibrary.org/obo/ZP_0004816,"retinal ganglion cell displaced to axon diencephalon, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109766,abnormal sclerotome somite 20
 http://purl.obolibrary.org/obo/ZP_0012548,"pineal complex molecular quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018553,"retinal cone cell has fewer parts of type photoreceptor outer segment retinal cone cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001394,"afferent neuron truncated, abnormal"
@@ -24709,8 +24709,8 @@ http://purl.obolibrary.org/obo/ZP_0004767,"negative regulation of heart rate dis
 http://purl.obolibrary.org/obo/ZP_0021841,"optic tectum decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012499,"cellular response to light stimulus disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006245,"long-chain fatty acid metabolic process disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004818,"optic tectum physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109768,abnormal sclerotome somite 14
+http://purl.obolibrary.org/obo/ZP_0004818,"optic tectum physical object quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018555,"retinal outer nuclear layer mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001396,"lens development in camera-type eye delayed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014028,"subintestinal vein process quality blood vessel development, abnormal"
@@ -24780,9 +24780,9 @@ http://purl.obolibrary.org/obo/ZP_0010965,"stereocilium bundle anterior macula b
 http://purl.obolibrary.org/obo/ZP_0103656,"slow muscle cell decreased process quality skeletal muscle cell differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016204,"dorsal region hindbrain degenerate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016970,"axon cranial ganglion damaged, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109661,abnormal renal artery
 http://purl.obolibrary.org/obo/ZP_0022509,"retinal ganglion cell has normal numbers of parts of type axon terminus presynapse retinal ganglion cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004711,"myofibril skeletal muscle disorganized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109661,abnormal renal artery
 http://purl.obolibrary.org/obo/ZP_0012443,"endothelial cell endocardium obtuse, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103707,"axis increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007679,"glycosylation decreased occurrence, abnormal"
@@ -24908,9 +24908,9 @@ http://purl.obolibrary.org/obo/ZP_0011010,"enteric musculature intestine morphol
 http://purl.obolibrary.org/obo/ZP_0004768,"regulation of cell migration quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004768,abnormal regulation of cell migration
 http://purl.obolibrary.org/obo/ZP_0006246,"hepaticobiliary system process disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109769,abnormal intestine lumen
 http://purl.obolibrary.org/obo/ZP_0004819,"ventral mandibular arch quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004819,abnormal ventral mandibular arch
+http://purl.obolibrary.org/obo/ZP_0109769,abnormal intestine lumen
 http://purl.obolibrary.org/obo/ZP_0018556,"photoreceptor connecting cilium eye photoreceptor cell decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008490,"anterior region cranial vault flattened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001397,"retina layer formation delayed, abnormal"
@@ -24967,8 +24967,8 @@ http://purl.obolibrary.org/obo/ZP_0106977,"forebrain decreased occurrence axonal
 http://purl.obolibrary.org/obo/ZP_0019525,"posterior lateral line nerve lacks parts or has fewer parts of type axon myelin sheath neuron, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002366,"spindle pole proliferative region increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010098,"pharyngeal arch 2 disoriented, abnormal"
-http://purl.obolibrary.org/obo/ZP_0015764,"melanocytic tumor post-vent region black, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000939,"swimming behavior disrupted, abnormal"
+http://purl.obolibrary.org/obo/ZP_0015764,"melanocytic tumor post-vent region black, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108455,abnormal tooth 5V
 http://purl.obolibrary.org/obo/ZP_0009510,"hypophysis has fewer parts of type vasculature blood vessel endothelial cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0002417,"swim bladder collapsed, abnormal"
@@ -24983,8 +24983,8 @@ http://purl.obolibrary.org/obo/ZP_0010966,"stereocilium bundle anterior macula s
 http://purl.obolibrary.org/obo/ZP_0103657,"skeletal muscle myofibril slow muscle cell decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016205,"tegmentum degenerate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016971,"axon trigeminal ganglion degenerate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109662,abnormal entopterygoid-metapterygoid joint
 http://purl.obolibrary.org/obo/ZP_0004712,"sarcomere skeletal muscle absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109662,abnormal entopterygoid-metapterygoid joint
 http://purl.obolibrary.org/obo/ZP_0012444,"ventricular endocardium aggregated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103708,"anatomical margin blastodisc increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001290,"extension distended, abnormal"
@@ -25034,8 +25034,8 @@ http://purl.obolibrary.org/obo/ZP_0013362,"neural crest cell whole organism norm
 http://purl.obolibrary.org/obo/ZP_0106053,"hepatoblast decreased occurrence cell population proliferation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0011935,"nuclear pore intestine malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0104626,"eye decreased volume, abnormal"
-http://purl.obolibrary.org/obo/ZP_0017940,"ocular blood vessel retina decreased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000015,"somite border somite 8 amorphous, abnormal"
+http://purl.obolibrary.org/obo/ZP_0017940,"ocular blood vessel retina decreased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008598,"plasma membrane neuron structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0000781,"neural crest cell differentiation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013413,"spinal cord motor neuron cell fate specification process quality, abnormal"
@@ -25563,8 +25563,8 @@ http://purl.obolibrary.org/obo/ZP_0010453,"striated muscle myosin thick filament
 http://purl.obolibrary.org/obo/ZP_0103144,"retinal rod cell decreased process quality photoreceptor cell outer segment organization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0108810,abnormal hypobranchial 4 bone
 http://purl.obolibrary.org/obo/ZP_0101717,"somatic cell decreased occurrence cell population proliferation, abnormal"
-http://purl.obolibrary.org/obo/ZP_0005689,"fast muscle cell has fewer parts of type nucleus fast muscle cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0022763,"otic vesicle increased occurrence epithelial to mesenchymal transition, abnormal"
+http://purl.obolibrary.org/obo/ZP_0005689,"fast muscle cell has fewer parts of type nucleus fast muscle cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010504,"dopamine biosynthetic process from tyrosine decreased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103961,"intracellular canaliculus hepatocyte absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007167,"taxis decreased process quality, abnormal"
@@ -25796,8 +25796,8 @@ http://purl.obolibrary.org/obo/ZP_0109666,abnormal sperm duct
 http://purl.obolibrary.org/obo/ZP_0012448,"presumptive pronephric mesoderm malformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018453,"distal region pronephros disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001294,"mesodermal cell migration decreased rate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006960,"heart tube shortened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109717,abnormal commissura cerebelli
+http://purl.obolibrary.org/obo/ZP_0006960,"heart tube shortened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014692,"mesoderm decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107383,abnormal pelvic radial 2
 http://purl.obolibrary.org/obo/ZP_0105956,"muscle process quality wound healing, abnormal"
@@ -26055,9 +26055,9 @@ http://purl.obolibrary.org/obo/ZP_0012291,"mitochondrion neuron mobility, abnorm
 http://purl.obolibrary.org/obo/ZP_0010864,"palatoquadrate cartilage shortened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103555,"dorsal fin size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016103,"oncogene-induced cell senescence increased occurrence, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109560,abnormal MCoD
 http://purl.obolibrary.org/obo/ZP_0022408,"mitochondrion retinal rod cell increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004610,"H zone skeletal muscle cell absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109560,abnormal MCoD
 http://purl.obolibrary.org/obo/ZP_0012342,"neuromuscular junction skeletal muscle decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0110199,abnormal central vein
 http://purl.obolibrary.org/obo/ZP_0010915,"dorso-medial region anatomical structure disorganized, abnormal"
@@ -26255,9 +26255,9 @@ http://purl.obolibrary.org/obo/ZP_0010865,"sternohyoid displaced, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103556,"paired fin size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016104,"epithelial cell intrahepatic bile duct disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016870,"neutrophil decreased velocity, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109561,abnormal presumptive cardiac ventricle heart tube
 http://purl.obolibrary.org/obo/ZP_0022409,"retinal rod cell increased occurrence ATP biosynthetic process, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004611,"I band skeletal muscle cell absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109561,abnormal presumptive cardiac ventricle heart tube
 http://purl.obolibrary.org/obo/ZP_0012343,"neuromuscular junction skeletal muscle broken, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010916,"spinal cord bifurcated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103607,"iridophore lacks all parts of type iridosome iridophore, abnormal"
@@ -26377,9 +26377,9 @@ http://purl.obolibrary.org/obo/ZP_0021742,"5'-nucleotidase activity increased pr
 http://purl.obolibrary.org/obo/ZP_0102940,"anatomical region Kupffer's vesicle spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006146,"median fin fold degenerate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016978,"microtubule cranial ganglion sparse, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109669,abnormal anterior myodome
 http://purl.obolibrary.org/obo/ZP_0004719,"integument quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004719,abnormal integument
-http://purl.obolibrary.org/obo/ZP_0109669,abnormal anterior myodome
 http://purl.obolibrary.org/obo/ZP_0018456,"cell cloaca disconnected, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008390,"cell retinal neural layer aggregated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001297,"mesodermal cell hypoblast decreased speed, abnormal"
@@ -26646,14 +26646,14 @@ http://purl.obolibrary.org/obo/ZP_0103558,"cranial nerve II thickness, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016106,"head bent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006040,"endocrine pancreas disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016872,"neutrophil decreased rate uropod retraction, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004613,"H zone cardiac muscle cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109563,abnormal ventral larval melanophore stripe
+http://purl.obolibrary.org/obo/ZP_0004613,"H zone cardiac muscle cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012345,"skeletal muscle cell decreased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010918,"dorsal aorta broken, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103609,"integument decreased occurrence iridophore differentiation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018350,"ball increased diameter, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016923,"notochord neoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001191,"myofibril fast muscle cell decreased length, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016923,"notochord neoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109614,abnormal CoB
 http://purl.obolibrary.org/obo/ZP_0107280,"animal-vegetal axis oocyte polarity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100187,"arachidonic acid brain decreased amount, abnormal"
@@ -26845,14 +26845,14 @@ http://purl.obolibrary.org/obo/ZP_0010868,"whole organism increased process qual
 http://purl.obolibrary.org/obo/ZP_0103559,"cilium spinal cord morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016107,"wound healing occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006041,"heart looping decreased process quality, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109564,abnormal auditory receptor cell
 http://purl.obolibrary.org/obo/ZP_0016873,"neutrophil decreased process quality pseudopodium organization, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004614,"I band cardiac muscle cell absent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109564,abnormal auditory receptor cell
 http://purl.obolibrary.org/obo/ZP_0012346,"skeletal muscle cell atrophied, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010919,"vein broken, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018351,"pancreas growth quality of occurrent growth, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001192,"heart edematous, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016924,"chordoma notochord increased occurrence, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001192,"heart edematous, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109615,abnormal Purkinje cell
 http://purl.obolibrary.org/obo/ZP_0014590,"retina decreased occurrence sensory epithelium regeneration, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107281,"chorion micropyle formation decreased occurrence, abnormal"
@@ -27040,8 +27040,8 @@ http://purl.obolibrary.org/obo/ZP_0012296,"sternohyoid disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010869,"slow muscle cell shortened, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016108,"epidermal basal stratum regenerating fin absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006042,"cardioblast cell fate specification decreased process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109565,abnormal smooth muscle myoblast
 http://purl.obolibrary.org/obo/ZP_0016874,"myofibril skeletal muscle cell spatial pattern, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109565,abnormal smooth muscle myoblast
 http://purl.obolibrary.org/obo/ZP_0004615,"calmodulin-dependent protein kinase activity decreased rate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012347,"skeletal muscle myofibril skeletal muscle cell disoriented, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018352,"pancreas increased process quality growth, abnormal"
@@ -27072,8 +27072,8 @@ http://purl.obolibrary.org/obo/ZP_0008036,"slow muscle cell decreased diameter, 
 http://purl.obolibrary.org/obo/ZP_0018868,"retina lacks parts or has fewer parts of type central region retinal cone cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006609,"sarcomere cardiac muscle cell increased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107798,abnormal ventral mesoderm
-http://purl.obolibrary.org/obo/ZP_0003187,"neuron spinal cord disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018919,"epidermal cell hindbrain decreased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0003187,"neuron spinal cord disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020261,"hematopoietic multipotent progenitor cell post-vent region decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008853,"fast muscle cell myotome decreased functionality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109276,abnormal apical epidermal cap
@@ -27243,8 +27243,8 @@ http://purl.obolibrary.org/obo/ZP_0012348,"iridophore ridged, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018353,"subintestinal vein delayed angiogenesis, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001194,"heart tube poorly differentiated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016926,"desmosome notochord prominent, abnormal"
-http://purl.obolibrary.org/obo/ZP_0006860,"angioblast cell migration from lateral mesoderm to midline disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109617,abnormal visual pigment cell (sensu Vertebrata)
+http://purl.obolibrary.org/obo/ZP_0006860,"angioblast cell migration from lateral mesoderm to midline disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014592,"response to wounding process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107283,"micropylar cell absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105856,"dorsal side dorsal aorta decreased amount, abnormal"
@@ -27720,8 +27720,8 @@ http://purl.obolibrary.org/obo/ZP_0109977,abnormal adductor arcus palatini
 http://purl.obolibrary.org/obo/ZP_0012759,"bony projection scapulocoracoid absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018764,"anterior region neuroectoderm increased distribution, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014237,"pharyngeal endoderm wholly posterioralized, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018815,"neural crest increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003083,"extension edematous, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018815,"neural crest increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001656,"rhombomere 3 increased area, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109172,abnormal sclerotic cartilage
 http://purl.obolibrary.org/obo/ZP_0102079,"dopaminergic neuron differentiation disrupted, abnormal"
@@ -27883,8 +27883,8 @@ http://purl.obolibrary.org/obo/ZP_0004512,"forebrain pointed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012244,"post-vent region decreased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010817,"mRNA splicing, via spliceosome decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103508,"fatty acid liver decreased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016822,"hair cell optic vesicle displaced, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001090,"whole organism decreased thickness, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016822,"hair cell optic vesicle displaced, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100086,"pronephric podocyte increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105752,"hematopoietic stem cell dorsal aorta absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018300,"vascular lymphangioblast posterior cardinal vein decreased amount, abnormal"
@@ -27907,8 +27907,8 @@ http://purl.obolibrary.org/obo/ZP_0109978,abnormal basibranchial 2
 http://purl.obolibrary.org/obo/ZP_0018765,"pronephros decreased process quality cilium movement, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006506,"motile cilium floor plate decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014238,"otolith formation process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018816,"glial cell (sensu Vertebrata) lateral line increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003084,"neuromast absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018816,"glial cell (sensu Vertebrata) lateral line increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008750,"muscle cell apoptotic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001657,"rhombomere 3 fused with rhombomere 5, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109173,abnormal otic vesicle ventral protrusion
@@ -28075,8 +28075,8 @@ http://purl.obolibrary.org/obo/ZP_0004513,"anterior-posterior axis whole organis
 http://purl.obolibrary.org/obo/ZP_0012245,"skeletal muscle cell elongated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010818,"inner ear receptor cell stereocilium organization disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018250,"protein oxidation decreased process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016823,"optic vesicle has extra parts of type hair cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001091,"post-vent region increased curvature, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016823,"optic vesicle has extra parts of type hair cell, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107180,"metallopeptidase activity increased occurrence, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100087,"pronephric capsular space increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105753,"vascular cord decreased amount, abnormal"
@@ -28273,8 +28273,8 @@ http://purl.obolibrary.org/obo/ZP_0004514,"blastoderm increased thickness, abnor
 http://purl.obolibrary.org/obo/ZP_0012246,"striated muscle myosin thick filament skeletal muscle cell disorganized, abnormal"
 http://purl.obolibrary.org/obo/ZP_0010819,"stereocilium bundle auditory receptor cell shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018251,"mitochondrial ATP synthesis coupled proton transport decreased process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0016824,"heart lacks parts or has fewer parts of type mitochondrion heart, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001092,"ceratobranchial 5 bone aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0016824,"heart lacks parts or has fewer parts of type mitochondrion heart, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014490,"blastema decreased process quality cell population proliferation, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107181,"retina decreased occurrence apoptotic process, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100088,"capillary loop nephron increased amount, abnormal"
@@ -28301,8 +28301,8 @@ http://purl.obolibrary.org/obo/ZP_0014189,"epithelium development process qualit
 http://purl.obolibrary.org/obo/ZP_0018767,"ventral aorta increased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006508,"motile cilium otic vesicle absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107697,abnormal astrocyte
-http://purl.obolibrary.org/obo/ZP_0003086,"caudal fin hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018818,"glial cell (sensu Vertebrata) cranium absent, abnormal"
+http://purl.obolibrary.org/obo/ZP_0003086,"caudal fin hypoplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020160,"blood circulation decreased volume, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008752,"mitochondrion skeletal muscle cell increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001659,"heart morphogenesis process quality, abnormal"
@@ -28491,8 +28491,8 @@ http://purl.obolibrary.org/obo/ZP_0104730,"heart valve trabecular, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018768,"thymus absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006509,"somite hemorrhagic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107698,abnormal dermomyotome
-http://purl.obolibrary.org/obo/ZP_0018819,"iridophore trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0003087,"whole organism apoptotic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018819,"iridophore trunk absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0020161,"invadopodium intestinal epithelium increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008753,"mitochondrion skeletal muscle cell swollen, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109176,abnormal anterior ventromedial process of autopalatine
@@ -28657,8 +28657,8 @@ http://purl.obolibrary.org/obo/ZP_0016775,"hematopoietic stem cell mesenchyme in
 http://purl.obolibrary.org/obo/ZP_0004516,"tegmentum opaque, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012248,"Z disc skeletal muscle cell structure, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018253,"mitochondrial chromosome whole organism increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001094,"endocrine pancreas lacks all parts of type secondary islet, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016826,"mitochondrial crista heart deformed, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001094,"endocrine pancreas lacks all parts of type secondary islet, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006760,"cloacal chamber cystic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014492,"anterior region neuroectoderm absent, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107183,"pronephric distal early tubule increased volume, abnormal"
@@ -29144,8 +29144,8 @@ http://purl.obolibrary.org/obo/ZP_0004876,"angiogenic sprout intersegmental arte
 http://purl.obolibrary.org/obo/ZP_0021950,"autophagosome hepatocyte increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006354,"endoplasmic reticulum hepatocyte vacuolated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014086,"response to heat disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004927,"artery aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109877,abnormal central zone protoglomerulus 1
+http://purl.obolibrary.org/obo/ZP_0004927,"artery aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012659,"dorsal aorta development process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018664,"right side mesoderm mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006405,"cranial ganglion decreased size, abnormal"
@@ -29216,9 +29216,9 @@ http://purl.obolibrary.org/obo/ZP_0004003,"nucleus diencephalon aggregated, abno
 http://purl.obolibrary.org/obo/ZP_0010308,"splanchnocranium decreased length, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103765,"endoplasmic reticulum lumen liver increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016313,"blood vessel increased amount, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109770,abnormal ventral interfilamental caudal muscle
 http://purl.obolibrary.org/obo/ZP_0022618,"caudal fin elongated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004820,"developmental pigmentation delayed, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109770,abnormal ventral interfilamental caudal muscle
 http://purl.obolibrary.org/obo/ZP_0012552,"chondrocranium decreased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103816,"nucleus liver increased mass density, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014030,"dorsal longitudinal anastomotic vessel detached from endothelial cell endothelial cell dorsal longitudinal anastomotic vessel, abnormal"
@@ -29238,8 +29238,8 @@ http://purl.obolibrary.org/obo/ZP_0016778,"nucleus hepatocyte deformed, abnormal
 http://purl.obolibrary.org/obo/ZP_0004519,"forebrain increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018256,"retina decreased diameter, abnormal"
 http://purl.obolibrary.org/obo/ZP_0008190,"cilium or flagellum-dependent cell motility increased rate, abnormal"
-http://purl.obolibrary.org/obo/ZP_0001097,"pancreatic duct dilated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016829,"posterior cardinal vein has extra parts of type endothelial cell, abnormal"
+http://purl.obolibrary.org/obo/ZP_0001097,"pancreatic duct dilated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006763,"caudal fin lower lobe rough, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014495,"whole organism increased permeability, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107186,"male organism process quality swimming behavior, abnormal"
@@ -30013,15 +30013,15 @@ http://purl.obolibrary.org/obo/ZP_0004773,"myotome cellular quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0103769,"low-density lipoprotein particle whole organism decreased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016317,"neurocranium deformed, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006251,"rough endoplasmic reticulum hepatocyte increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109774,abnormal red sensitive photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0004824,"taxis arrested, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109774,abnormal red sensitive photoreceptor cell
 http://purl.obolibrary.org/obo/ZP_0012556,"dendrite motor neuron morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018561,"hematopoietic progenitor cell differentiation decreased process quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006302,"intestinal epithelial cell shape, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014034,"endothelial cell intersegmental vessel decreased adhesivity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109825,abnormal basilar artery
-http://purl.obolibrary.org/obo/ZP_0107491,abnormal pectoral fin field
 http://purl.obolibrary.org/obo/ZP_0012607,"atrium hypertrophic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0107491,abnormal pectoral fin field
 http://purl.obolibrary.org/obo/ZP_0100398,"otolith normal amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018612,"anatomical structure increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001453,"extension decreased size, abnormal"
@@ -30315,8 +30315,8 @@ http://purl.obolibrary.org/obo/ZP_0107084,"hindbrain decreased magnitude axonoge
 http://purl.obolibrary.org/obo/ZP_0012966,"skeletal muscle cell post-vent region position, abnormal"
 http://purl.obolibrary.org/obo/ZP_0105657,"retinal ganglion cell decreased occurrence cysteine-type endopeptidase activity, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018205,"muscle decreased mass, abnormal"
-http://purl.obolibrary.org/obo/ZP_0018971,"whole organism mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0001046,"ceratohyal bone aplastic, abnormal"
+http://purl.obolibrary.org/obo/ZP_0018971,"whole organism mislocalised, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006712,"floor plate morphology, abnormal"
 http://purl.obolibrary.org/obo/ZP_0014444,"regenerating fin has fewer parts of type neutrophil, abnormal"
 http://purl.obolibrary.org/obo/ZP_0107135,"cell neural keel mislocalised, abnormal"
@@ -30408,8 +30408,8 @@ http://purl.obolibrary.org/obo/ZP_0004009,"head size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0004775,"hypaxial myotome region aplastic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0016319,"neurocranium lacks all parts of type trabecula cranii, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006253,"response to bacterium increased process quality, abnormal"
-http://purl.obolibrary.org/obo/ZP_0109776,abnormal hypophyseal fenestra
 http://purl.obolibrary.org/obo/ZP_0004826,"myotome disorganized, abnormal"
+http://purl.obolibrary.org/obo/ZP_0109776,abnormal hypophyseal fenestra
 http://purl.obolibrary.org/obo/ZP_0021900,"ovarian follicle stage III increased amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012558,"node of Ranvier motor neuron increased width, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018563,"hematopoietic stem cell differentiation decreased process quality, abnormal"
@@ -30609,8 +30609,8 @@ http://purl.obolibrary.org/obo/ZP_0016269,"yolk larval melanophore stripe has fe
 http://purl.obolibrary.org/obo/ZP_0004776,"protein prenylation disrupted, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021850,"epidermal cell spatial pattern, abnormal"
 http://purl.obolibrary.org/obo/ZP_0006254,"photoreceptor cell development disrupted, abnormal"
-http://purl.obolibrary.org/obo/ZP_0004827,"myotome vacuolated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0109777,abnormal lateral wall rhombomere 8
+http://purl.obolibrary.org/obo/ZP_0004827,"myotome vacuolated, abnormal"
 http://purl.obolibrary.org/obo/ZP_0021901,"respiratory gaseous exchange by respiratory system decreased frequency, abnormal"
 http://purl.obolibrary.org/obo/ZP_0012559,"myelin sheath motor neuron loose, abnormal"
 http://purl.obolibrary.org/obo/ZP_0018564,"blood island increased process quality apoptotic process, abnormal"
@@ -30970,8 +30970,8 @@ http://purl.obolibrary.org/obo/ZP_0009060,"whole organism decreased male fertili
 http://purl.obolibrary.org/obo/ZP_0019892,"lens ovate, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007633,"glandular epithelial cell development heterochronic, abnormal"
 http://purl.obolibrary.org/obo/ZP_0015365,"corpuscles of Stannius increased amount, abnormal"
-http://purl.obolibrary.org/obo/ZP_0110305,abnormal pancreatic B cell
 http://purl.obolibrary.org/obo/ZP_0108056,abnormal endorphin secreting cell
+http://purl.obolibrary.org/obo/ZP_0110305,abnormal pancreatic B cell
 http://purl.obolibrary.org/obo/ZP_0013938,"dorsal root ganglion quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0013938,abnormal dorsal root ganglion
 http://purl.obolibrary.org/obo/ZP_0106629,"macrophage tegmentum normal amount, abnormal"
@@ -31172,8 +31172,8 @@ http://purl.obolibrary.org/obo/ZP_0019893,"cell presumptive neural retina decrea
 http://purl.obolibrary.org/obo/ZP_0007634,"feeding behavior quality, abnormal"
 http://purl.obolibrary.org/obo/ZP_0007634,abnormal feeding behavior
 http://purl.obolibrary.org/obo/ZP_0015366,"corpuscles of Stannius increased size, abnormal"
-http://purl.obolibrary.org/obo/ZP_0108057,abnormal MeLm
 http://purl.obolibrary.org/obo/ZP_0110306,abnormal mesenchyme derived from head mesoderm
+http://purl.obolibrary.org/obo/ZP_0108057,abnormal MeLm
 http://purl.obolibrary.org/obo/ZP_0013939,"optic recess increased size, abnormal"
 http://purl.obolibrary.org/obo/ZP_0100240,"melanoblast normal amount, abnormal"
 http://purl.obolibrary.org/obo/ZP_0009112,"melanosome integument decreased amount, abnormal"
