@@ -735,4 +735,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0107231> "cardiac ventricle has normal numbers of parts of type cardiac muscle cell cardiac ventricle, abnormal"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0107289> "Abnormal(ly) has fewer parts of type (of) pronephric tubule (pronephric tubule of multi-ciliated epithelial cell)."^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0107289> "pronephric tubule has fewer parts of type multi-ciliated epithelial cell pronephric tubule, abnormal"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ZP_0110346> "Abnormal(ly) has normal numbers of parts of type (of) pronephric tubule (pronephric tubule of multi-ciliated epithelial cell)."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0110346> "pronephric tubule has normal numbers of parts of type multi-ciliated epithelial cell pronephric tubule, abnormal"^^xsd:string)
 )

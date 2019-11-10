@@ -1,0 +1,597 @@
+ERROR	deprecated_class_reference	15bb9fc4-7f80-4a04-8f13-c901ee4cf7d1	owl:someValuesFrom	GO:0006200	
+ERROR	deprecated_class_reference	1b7e801e-233c-4e09-a074-6d7e7894ef9d	owl:someValuesFrom	GO:0007067	
+ERROR	deprecated_class_reference	299f7710-f8c6-448b-88db-47bd6adce543	owl:someValuesFrom	GO:0042891	
+ERROR	deprecated_class_reference	5a4d8917-bcd7-4143-8ccc-56cdc140e774	owl:someValuesFrom	GO:0042384	
+ERROR	deprecated_class_reference	5bfb73db-6ef3-4f2a-90c7-db6516efe3fb	owl:someValuesFrom	GO:0006200	
+ERROR	deprecated_class_reference	66a4f0be-2074-482c-aaa6-6e198949c63f	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	73f2466a-c92f-4f40-aea0-eeef20570e9b	owl:someValuesFrom	GO:0016337	
+ERROR	deprecated_class_reference	82a41bc4-c4ab-440b-85f7-8c556ef6d66e	owl:someValuesFrom	GO:0042891	
+ERROR	deprecated_class_reference	846e8ca3-a029-4a7f-a923-5db6863b47e5	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	9193908b-fc66-4c56-a0f1-438447ce746f	owl:someValuesFrom	GO:0007067	
+ERROR	deprecated_class_reference	9a671c32-5305-4d1a-9657-e9dba668ad36	owl:someValuesFrom	GO:0016337	
+ERROR	deprecated_class_reference	9d98df71-ca6f-41d6-93d9-1f3f443551a2	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	aee9fc07-84bd-424f-91a4-0b24903b0262	owl:someValuesFrom	GO:0007067	
+ERROR	deprecated_class_reference	b210fcec-1b39-42d6-acf7-5605e12079fe	owl:someValuesFrom	GO:0042895	
+ERROR	deprecated_class_reference	c024c474-1df8-424e-b468-747a32b5c577	owl:someValuesFrom	GO:0042384	
+ERROR	deprecated_class_reference	c036214f-da32-49ea-aa0d-9cba38a2a854	owl:someValuesFrom	GO:0007067	
+ERROR	deprecated_class_reference	cd0930e3-c13d-4d24-b56c-25d381c87a10	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	ed221704-e0ce-4d09-8def-c55f2b232f4a	owl:someValuesFrom	GO:0042895	
+ERROR	deprecated_class_reference	eef07dac-f732-4750-b38e-1fba944eae1e	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	f20553af-13cb-4393-a366-bed41ef3a038	owl:someValuesFrom	GO:0016265	
+ERROR	deprecated_class_reference	ZP:0011273	rdfs:subClassOf	ZP:0011298	
+ERROR	deprecated_class_reference	ZP:0011273	rdfs:subClassOf	ZP:0014683	
+ERROR	deprecated_class_reference	ZP:0100050	rdfs:subClassOf	ZP:0100182	
+ERROR	deprecated_class_reference	ZP:0100274	rdfs:subClassOf	ZP:0000436	
+ERROR	duplicate_definition	ZP:0002061	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
+ERROR	duplicate_definition	ZP:0005992	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
+ERROR	duplicate_definition	ZP:0006134	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
+ERROR	duplicate_definition	ZP:0006256	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
+ERROR	duplicate_definition	ZP:0006721	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
+ERROR	duplicate_definition	ZP:0007542	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
+ERROR	duplicate_definition	ZP:0008256	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
+ERROR	duplicate_definition	ZP:0010624	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
+ERROR	duplicate_definition	ZP:0011625	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
+ERROR	duplicate_definition	ZP:0011825	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
+ERROR	duplicate_definition	ZP:0012563	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
+ERROR	duplicate_definition	ZP:0103459	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
+ERROR	duplicate_label	ZP:0000998	rdfs:label	hair cell anterior macula decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0002061	rdfs:label	cell retina decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0005992	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0006134	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0006256	rdfs:label	cell lens disorganized, abnormal	
+ERROR	duplicate_label	ZP:0006721	rdfs:label	cell retina decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0007542	rdfs:label	cell head apoptotic, abnormal	
+ERROR	duplicate_label	ZP:0008256	rdfs:label	cell EVL morphology, abnormal	
+ERROR	duplicate_label	ZP:0008499	rdfs:label	hair cell anterior macula decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0010624	rdfs:label	cell parapineal organ mislocalised, abnormal	
+ERROR	duplicate_label	ZP:0011625	rdfs:label	cell head apoptotic, abnormal	
+ERROR	duplicate_label	ZP:0011825	rdfs:label	cell EVL morphology, abnormal	
+ERROR	duplicate_label	ZP:0012563	rdfs:label	cell parapineal organ mislocalised, abnormal	
+ERROR	duplicate_label	ZP:0103459	rdfs:label	cell lens disorganized, abnormal	
+ERROR	missing_label	ZP:0000976	rdfs:label		
+ERROR	missing_label	ZP:0000979	rdfs:label		
+ERROR	missing_label	ZP:0006440	rdfs:label		
+ERROR	missing_label	ZP:0010106	rdfs:label		
+ERROR	missing_label	ZP:0010738	rdfs:label		
+ERROR	missing_label	ZP:0010977	rdfs:label		
+ERROR	missing_label	ZP:0010979	rdfs:label		
+ERROR	missing_label	ZP:0011052	rdfs:label		
+ERROR	missing_label	ZP:0011062	rdfs:label		
+ERROR	missing_label	ZP:0011064	rdfs:label		
+ERROR	missing_label	ZP:0011097	rdfs:label		
+ERROR	missing_label	ZP:0011099	rdfs:label		
+ERROR	missing_label	ZP:0011112	rdfs:label		
+ERROR	missing_label	ZP:0011113	rdfs:label		
+ERROR	missing_label	ZP:0011114	rdfs:label		
+ERROR	missing_label	ZP:0011252	rdfs:label		
+ERROR	missing_label	ZP:0011771	rdfs:label		
+ERROR	missing_label	ZP:0012226	rdfs:label		
+ERROR	missing_label	ZP:0100000	rdfs:label		
+ERROR	misused_obsolete_label	ZP:0002483	rdfs:label	obsolete death increased occurrence, abnormal	
+ERROR	misused_obsolete_label	ZP:0004731	rdfs:label	obsolete lamina lucida epidermis morphology, abnormal	
+ERROR	misused_obsolete_label	ZP:0004732	rdfs:label	obsolete lamina lucida epidermis absent, abnormal	
+ERROR	misused_obsolete_label	ZP:0007778	rdfs:label	obsolete death premature, abnormal	
+ERROR	misused_obsolete_label	ZP:0008109	rdfs:label	obsolete death increased rate, abnormal	
+ERROR	misused_obsolete_label	ZP:0014429	rdfs:label	obsolete ATP catabolic process increased process quality, abnormal	
+ERROR	misused_obsolete_label	ZP:0015456	rdfs:label	obsolete antibiotic transport disrupted, abnormal	
+ERROR	misused_obsolete_label	ZP:0015457	rdfs:label	obsolete antibiotic transmembrane transporter activity decreased occurrence, abnormal	
+ERROR	multiple_definitions	ZP:0000011	IAO:0000115	Abnormal(ly) quality (of) somite.	
+ERROR	multiple_definitions	ZP:0000011	IAO:0000115	Abnormality of somite.	
+ERROR	multiple_definitions	ZP:0000018	IAO:0000115	Abnormal(ly) quality (of) post-vent region.	
+ERROR	multiple_definitions	ZP:0000018	IAO:0000115	Abnormality of post-vent region.	
+ERROR	multiple_definitions	ZP:0000032	IAO:0000115	Abnormal(ly) quality (of) brain.	
+ERROR	multiple_definitions	ZP:0000032	IAO:0000115	Abnormality of brain.	
+ERROR	multiple_definitions	ZP:0000034	IAO:0000115	Abnormal(ly) quality (of) hindbrain.	
+ERROR	multiple_definitions	ZP:0000034	IAO:0000115	Abnormality of hindbrain.	
+ERROR	multiple_definitions	ZP:0000036	IAO:0000115	Abnormal(ly) quality (of) neural crest.	
+ERROR	multiple_definitions	ZP:0000036	IAO:0000115	Abnormality of neural crest.	
+ERROR	multiple_definitions	ZP:0000040	IAO:0000115	Abnormal(ly) quality (of) yolk.	
+ERROR	multiple_definitions	ZP:0000040	IAO:0000115	Abnormality of yolk.	
+ERROR	multiple_definitions	ZP:0000041	IAO:0000115	Abnormal(ly) quality (of) pharyngeal arch 3-7 skeleton.	
+ERROR	multiple_definitions	ZP:0000041	IAO:0000115	Abnormality of pharyngeal arch 3-7 skeleton.	
+ERROR	multiple_definitions	ZP:0000044	IAO:0000115	Abnormal(ly) quality (of) heart.	
+ERROR	multiple_definitions	ZP:0000044	IAO:0000115	Abnormality of heart.	
+ERROR	multiple_definitions	ZP:0000049	IAO:0000115	Abnormal(ly) quality (of) surface structure.	
+ERROR	multiple_definitions	ZP:0000049	IAO:0000115	Abnormality of surface structure.	
+ERROR	multiple_definitions	ZP:0000055	IAO:0000115	Abnormal(ly) quality (of) pectoral fin.	
+ERROR	multiple_definitions	ZP:0000055	IAO:0000115	Abnormality of pectoral fin.	
+ERROR	multiple_definitions	ZP:0000094	IAO:0000115	Abnormal(ly) quality (of) blood.	
+ERROR	multiple_definitions	ZP:0000094	IAO:0000115	Abnormality of blood.	
+ERROR	multiple_definitions	ZP:0000115	IAO:0000115	Abnormal(ly) quality (of) nervous system.	
+ERROR	multiple_definitions	ZP:0000115	IAO:0000115	Abnormality of nervous system.	
+ERROR	multiple_definitions	ZP:0000139	IAO:0000115	Abnormal gastrulation with mouth forming second.	
+ERROR	multiple_definitions	ZP:0000139	IAO:0000115	Abnormal(ly) quality (of) gastrulation with mouth forming second.	
+ERROR	multiple_definitions	ZP:0000147	IAO:0000115	Abnormal(ly) quality (of) notochord.	
+ERROR	multiple_definitions	ZP:0000147	IAO:0000115	Abnormality of notochord.	
+ERROR	multiple_definitions	ZP:0000206	IAO:0000115	Abnormal musculoskeletal movement.	
+ERROR	multiple_definitions	ZP:0000206	IAO:0000115	Abnormal(ly) quality (of) musculoskeletal movement.	
+ERROR	multiple_definitions	ZP:0000207	IAO:0000115	Abnormal neuromuscular process controlling balance.	
+ERROR	multiple_definitions	ZP:0000207	IAO:0000115	Abnormal(ly) quality (of) neuromuscular process controlling balance.	
+ERROR	multiple_definitions	ZP:0000347	IAO:0000115	Abnormal(ly) quality (of) floor plate.	
+ERROR	multiple_definitions	ZP:0000347	IAO:0000115	Abnormality of floor plate.	
+ERROR	multiple_definitions	ZP:0000355	IAO:0000115	Abnormal(ly) quality (of) eye.	
+ERROR	multiple_definitions	ZP:0000355	IAO:0000115	Abnormality of eye.	
+ERROR	multiple_definitions	ZP:0000358	IAO:0000115	Abnormal(ly) quality (of) forebrain.	
+ERROR	multiple_definitions	ZP:0000358	IAO:0000115	Abnormality of forebrain.	
+ERROR	multiple_definitions	ZP:0000400	IAO:0000115	Abnormal(ly) quality (of) lens.	
+ERROR	multiple_definitions	ZP:0000400	IAO:0000115	Abnormality of lens.	
+ERROR	multiple_definitions	ZP:0000406	IAO:0000115	Abnormal(ly) quality (of) sensory system.	
+ERROR	multiple_definitions	ZP:0000406	IAO:0000115	Abnormality of sensory system.	
+ERROR	multiple_definitions	ZP:0000428	IAO:0000115	Abnormal(ly) quality (of) midbrain.	
+ERROR	multiple_definitions	ZP:0000428	IAO:0000115	Abnormality of midbrain.	
+ERROR	multiple_definitions	ZP:0000489	IAO:0000115	Abnormal(ly) quality (of) fin.	
+ERROR	multiple_definitions	ZP:0000489	IAO:0000115	Abnormality of fin.	
+ERROR	multiple_definitions	ZP:0000570	IAO:0000115	Abnormal(ly) quality (of) gut.	
+ERROR	multiple_definitions	ZP:0000570	IAO:0000115	Abnormality of gut.	
+ERROR	multiple_definitions	ZP:0000571	IAO:0000115	Abnormal(ly) quality (of) liver.	
+ERROR	multiple_definitions	ZP:0000571	IAO:0000115	Abnormality of liver.	
+ERROR	multiple_definitions	ZP:0000596	IAO:0000115	Abnormal(ly) quality (of) retinal pigmented epithelium.	
+ERROR	multiple_definitions	ZP:0000596	IAO:0000115	Abnormality of retinal pigmented epithelium.	
+ERROR	multiple_definitions	ZP:0000598	IAO:0000115	Abnormal(ly) quality (of) head.	
+ERROR	multiple_definitions	ZP:0000598	IAO:0000115	Abnormality of head.	
+ERROR	multiple_definitions	ZP:0000640	IAO:0000115	Abnormal(ly) quality (of) neural tube.	
+ERROR	multiple_definitions	ZP:0000640	IAO:0000115	Abnormality of neural tube.	
+ERROR	multiple_definitions	ZP:0000895	IAO:0000115	Abnormal(ly) quality (of) mouth.	
+ERROR	multiple_definitions	ZP:0000895	IAO:0000115	Abnormality of mouth.	
+ERROR	multiple_definitions	ZP:0000910	IAO:0000115	Abnormal(ly) quality (of) splanchnocranium.	
+ERROR	multiple_definitions	ZP:0000910	IAO:0000115	Abnormality of splanchnocranium.	
+ERROR	multiple_definitions	ZP:0000945	IAO:0000115	Abnormal(ly) quality (of) pigment cell.	
+ERROR	multiple_definitions	ZP:0000945	IAO:0000115	Abnormality of pigment cell.	
+ERROR	multiple_definitions	ZP:0000965	IAO:0000115	Abnormal retinal ganglion cell axon guidance.	
+ERROR	multiple_definitions	ZP:0000965	IAO:0000115	Abnormal(ly) quality (of) retinal ganglion cell axon guidance.	
+ERROR	multiple_definitions	ZP:0001054	IAO:0000115	Abnormal(ly) quality (of) palatoquadrate arch.	
+ERROR	multiple_definitions	ZP:0001054	IAO:0000115	Abnormality of palatoquadrate arch.	
+ERROR	multiple_definitions	ZP:0001179	IAO:0000115	Abnormal(ly) quality (of) melanocyte.	
+ERROR	multiple_definitions	ZP:0001179	IAO:0000115	Abnormality of melanocyte.	
+ERROR	multiple_definitions	ZP:0001181	IAO:0000115	Abnormal(ly) quality (of) xanthophore.	
+ERROR	multiple_definitions	ZP:0001181	IAO:0000115	Abnormality of xanthophore.	
+ERROR	multiple_definitions	ZP:0001193	IAO:0000115	Abnormal(ly) quality (of) inner ear.	
+ERROR	multiple_definitions	ZP:0001193	IAO:0000115	Abnormality of inner ear.	
+ERROR	multiple_definitions	ZP:0001196	IAO:0000115	Abnormal(ly) quality (of) motor neuron.	
+ERROR	multiple_definitions	ZP:0001196	IAO:0000115	Abnormality of motor neuron.	
+ERROR	multiple_definitions	ZP:0001198	IAO:0000115	Abnormal response to external stimulus.	
+ERROR	multiple_definitions	ZP:0001198	IAO:0000115	Abnormal(ly) quality (of) response to external stimulus.	
+ERROR	multiple_definitions	ZP:0001201	IAO:0000115	Abnormal dopamine metabolic process.	
+ERROR	multiple_definitions	ZP:0001201	IAO:0000115	Abnormal(ly) quality (of) dopamine metabolic process.	
+ERROR	multiple_definitions	ZP:0001225	IAO:0000115	Abnormal blood circulation.	
+ERROR	multiple_definitions	ZP:0001225	IAO:0000115	Abnormal(ly) quality (of) blood circulation.	
+ERROR	multiple_definitions	ZP:0001272	IAO:0000115	Abnormal(ly) quality (of) retinal photoreceptor layer.	
+ERROR	multiple_definitions	ZP:0001272	IAO:0000115	Abnormality of retinal photoreceptor layer.	
+ERROR	multiple_definitions	ZP:0001495	IAO:0000115	Abnormal(ly) quality (of) trunk musculature.	
+ERROR	multiple_definitions	ZP:0001495	IAO:0000115	Abnormality of trunk musculature.	
+ERROR	multiple_definitions	ZP:0001575	IAO:0000115	Abnormal(ly) quality (of) primordial germ cell.	
+ERROR	multiple_definitions	ZP:0001575	IAO:0000115	Abnormality of primordial germ cell.	
+ERROR	multiple_definitions	ZP:0001629	IAO:0000115	Abnormal notochord development.	
+ERROR	multiple_definitions	ZP:0001629	IAO:0000115	Abnormal(ly) quality (of) notochord development.	
+ERROR	multiple_definitions	ZP:0001669	IAO:0000115	Abnormal behavior.	
+ERROR	multiple_definitions	ZP:0001669	IAO:0000115	Abnormal(ly) quality (of) behavior.	
+ERROR	multiple_definitions	ZP:0001696	IAO:0000115	Abnormal(ly) quality (of) swim bladder.	
+ERROR	multiple_definitions	ZP:0001696	IAO:0000115	Abnormality of swim bladder.	
+ERROR	multiple_definitions	ZP:0001771	IAO:0000115	Abnormal(ly) quality (of) pronephros.	
+ERROR	multiple_definitions	ZP:0001771	IAO:0000115	Abnormality of pronephros.	
+ERROR	multiple_definitions	ZP:0001772	IAO:0000115	Abnormal(ly) quality (of) retina.	
+ERROR	multiple_definitions	ZP:0001772	IAO:0000115	Abnormality of retina.	
+ERROR	multiple_definitions	ZP:0001840	IAO:0000115	Abnormal visual perception.	
+ERROR	multiple_definitions	ZP:0001840	IAO:0000115	Abnormal(ly) quality (of) visual perception.	
+ERROR	multiple_definitions	ZP:0001841	IAO:0000115	Abnormal visual behavior.	
+ERROR	multiple_definitions	ZP:0001841	IAO:0000115	Abnormal(ly) quality (of) visual behavior.	
+ERROR	multiple_definitions	ZP:0001897	IAO:0000115	Abnormal(ly) quality (of) neuromast.	
+ERROR	multiple_definitions	ZP:0001897	IAO:0000115	Abnormality of neuromast.	
+ERROR	multiple_definitions	ZP:0001910	IAO:0000115	Abnormal(ly) quality (of) posterior lateral line neuromast.	
+ERROR	multiple_definitions	ZP:0001910	IAO:0000115	Abnormality of posterior lateral line neuromast.	
+ERROR	multiple_definitions	ZP:0001919	IAO:0000115	Abnormal(ly) quality (of) lateral line.	
+ERROR	multiple_definitions	ZP:0001919	IAO:0000115	Abnormality of lateral line.	
+ERROR	multiple_definitions	ZP:0001920	IAO:0000115	Abnormal(ly) quality (of) otolith.	
+ERROR	multiple_definitions	ZP:0001920	IAO:0000115	Abnormality of otolith.	
+ERROR	multiple_definitions	ZP:0002047	IAO:0000115	Abnormal(ly) quality (of) endocrine pancreas.	
+ERROR	multiple_definitions	ZP:0002047	IAO:0000115	Abnormality of endocrine pancreas.	
+ERROR	multiple_definitions	ZP:0002365	IAO:0000115	Abnormal(ly) quality (of) iridophore.	
+ERROR	multiple_definitions	ZP:0002365	IAO:0000115	Abnormality of iridophore.	
+ERROR	multiple_definitions	ZP:0002733	IAO:0000115	Abnormal(ly) quality (of) blood vasculature.	
+ERROR	multiple_definitions	ZP:0002733	IAO:0000115	Abnormality of blood vasculature.	
+ERROR	multiple_definitions	ZP:0002826	IAO:0000115	Abnormal(ly) quality (of) skeletal system.	
+ERROR	multiple_definitions	ZP:0002826	IAO:0000115	Abnormality of skeletal system.	
+ERROR	multiple_definitions	ZP:0002889	IAO:0000115	Abnormal(ly) quality (of) blastema.	
+ERROR	multiple_definitions	ZP:0002889	IAO:0000115	Abnormality of blastema.	
+ERROR	multiple_definitions	ZP:0002917	IAO:0000115	Abnormal(ly) quality (of) musculature system.	
+ERROR	multiple_definitions	ZP:0002917	IAO:0000115	Abnormality of musculature system.	
+ERROR	multiple_definitions	ZP:0003032	IAO:0000115	Abnormal(ly) quality (of) extension.	
+ERROR	multiple_definitions	ZP:0003032	IAO:0000115	Abnormality of extension.	
+ERROR	multiple_definitions	ZP:0003067	IAO:0000115	Abnormal(ly) quality (of) skeletal muscle.	
+ERROR	multiple_definitions	ZP:0003067	IAO:0000115	Abnormality of skeletal muscle.	
+ERROR	multiple_definitions	ZP:0003233	IAO:0000115	Abnormal(ly) quality (of) midbrain hindbrain boundary.	
+ERROR	multiple_definitions	ZP:0003233	IAO:0000115	Abnormality of midbrain hindbrain boundary.	
+ERROR	multiple_definitions	ZP:0003289	IAO:0000115	Abnormal(ly) quality (of) myoseptum.	
+ERROR	multiple_definitions	ZP:0003289	IAO:0000115	Abnormality of myoseptum.	
+ERROR	multiple_definitions	ZP:0003502	IAO:0000115	Abnormal(ly) quality (of) exocrine pancreas.	
+ERROR	multiple_definitions	ZP:0003502	IAO:0000115	Abnormality of exocrine pancreas.	
+ERROR	multiple_definitions	ZP:0003639	IAO:0000115	Abnormal heart development.	
+ERROR	multiple_definitions	ZP:0003639	IAO:0000115	Abnormal(ly) quality (of) heart development.	
+ERROR	multiple_definitions	ZP:0003896	IAO:0000115	Abnormal cell population proliferation.	
+ERROR	multiple_definitions	ZP:0003896	IAO:0000115	Abnormal(ly) quality (of) cell population proliferation.	
+ERROR	multiple_definitions	ZP:0003901	IAO:0000115	Abnormal(ly) quality (of) otic vesicle.	
+ERROR	multiple_definitions	ZP:0003901	IAO:0000115	Abnormality of otic vesicle.	
+ERROR	multiple_definitions	ZP:0003903	IAO:0000115	Abnormal(ly) quality (of) optic tectum.	
+ERROR	multiple_definitions	ZP:0003903	IAO:0000115	Abnormality of optic tectum.	
+ERROR	multiple_definitions	ZP:0003916	IAO:0000115	Abnormal(ly) quality (of) pupil.	
+ERROR	multiple_definitions	ZP:0003916	IAO:0000115	Abnormality of pupil.	
+ERROR	multiple_definitions	ZP:0004039	IAO:0000115	Abnormal(ly) quality (of) endocardial cushion.	
+ERROR	multiple_definitions	ZP:0004039	IAO:0000115	Abnormality of endocardial cushion.	
+ERROR	multiple_definitions	ZP:0004258	IAO:0000115	Abnormal(ly) quality (of) peripheral neuron.	
+ERROR	multiple_definitions	ZP:0004258	IAO:0000115	Abnormality of peripheral neuron.	
+ERROR	multiple_definitions	ZP:0004307	IAO:0000115	Abnormal(ly) quality (of) hatching gland.	
+ERROR	multiple_definitions	ZP:0004307	IAO:0000115	Abnormality of hatching gland.	
+ERROR	multiple_definitions	ZP:0004718	IAO:0000115	Abnormal(ly) quality (of) epidermis.	
+ERROR	multiple_definitions	ZP:0004718	IAO:0000115	Abnormality of epidermis.	
+ERROR	multiple_definitions	ZP:0004719	IAO:0000115	Abnormal(ly) quality (of) integument.	
+ERROR	multiple_definitions	ZP:0004719	IAO:0000115	Abnormality of integument.	
+ERROR	multiple_definitions	ZP:0004768	IAO:0000115	Abnormal regulation of cell migration.	
+ERROR	multiple_definitions	ZP:0004768	IAO:0000115	Abnormal(ly) quality (of) regulation of cell migration.	
+ERROR	multiple_definitions	ZP:0004806	IAO:0000115	Abnormal(ly) quality (of) central canal.	
+ERROR	multiple_definitions	ZP:0004806	IAO:0000115	Abnormality of central canal.	
+ERROR	multiple_definitions	ZP:0004819	IAO:0000115	Abnormal(ly) quality (of) ventral mandibular arch.	
+ERROR	multiple_definitions	ZP:0004819	IAO:0000115	Abnormality of ventral mandibular arch.	
+ERROR	multiple_definitions	ZP:0004952	IAO:0000115	Abnormal(ly) quality (of) pharyngeal arch 2 skeleton.	
+ERROR	multiple_definitions	ZP:0004952	IAO:0000115	Abnormality of pharyngeal arch 2 skeleton.	
+ERROR	multiple_definitions	ZP:0005010	IAO:0000115	Abnormal(ly) quality (of) hair cell.	
+ERROR	multiple_definitions	ZP:0005010	IAO:0000115	Abnormality of hair cell.	
+ERROR	multiple_definitions	ZP:0005465	IAO:0000115	Abnormal response to light stimulus.	
+ERROR	multiple_definitions	ZP:0005465	IAO:0000115	Abnormal(ly) quality (of) response to light stimulus.	
+ERROR	multiple_definitions	ZP:0005568	IAO:0000115	Abnormal(ly) quality (of) symplectic.	
+ERROR	multiple_definitions	ZP:0005568	IAO:0000115	Abnormality of symplectic.	
+ERROR	multiple_definitions	ZP:0005629	IAO:0000115	Abnormal(ly) quality (of) pancreas.	
+ERROR	multiple_definitions	ZP:0005629	IAO:0000115	Abnormality of pancreas.	
+ERROR	multiple_definitions	ZP:0006391	IAO:0000115	Abnormal(ly) quality (of) cranium.	
+ERROR	multiple_definitions	ZP:0006391	IAO:0000115	Abnormality of cranium.	
+ERROR	multiple_definitions	ZP:0006529	IAO:0000115	Abnormal(ly) quality (of) gall bladder.	
+ERROR	multiple_definitions	ZP:0006529	IAO:0000115	Abnormality of gall bladder.	
+ERROR	multiple_definitions	ZP:0006611	IAO:0000115	Abnormal(ly) quality (of) hypophysis.	
+ERROR	multiple_definitions	ZP:0006611	IAO:0000115	Abnormality of hypophysis.	
+ERROR	multiple_definitions	ZP:0007016	IAO:0000115	Abnormal(ly) quality (of) slow muscle cell.	
+ERROR	multiple_definitions	ZP:0007016	IAO:0000115	Abnormality of slow muscle cell.	
+ERROR	multiple_definitions	ZP:0007634	IAO:0000115	Abnormal feeding behavior.	
+ERROR	multiple_definitions	ZP:0007634	IAO:0000115	Abnormal(ly) quality (of) feeding behavior.	
+ERROR	multiple_definitions	ZP:0007873	IAO:0000115	Abnormal(ly) quality (of) cardiac ventricle.	
+ERROR	multiple_definitions	ZP:0007873	IAO:0000115	Abnormality of cardiac ventricle.	
+ERROR	multiple_definitions	ZP:0008314	IAO:0000115	Abnormal(ly) quality (of) semicircular canal.	
+ERROR	multiple_definitions	ZP:0008314	IAO:0000115	Abnormality of semicircular canal.	
+ERROR	multiple_definitions	ZP:0008319	IAO:0000115	Abnormal(ly) quality (of) palatoquadrate cartilage.	
+ERROR	multiple_definitions	ZP:0008319	IAO:0000115	Abnormality of palatoquadrate cartilage.	
+ERROR	multiple_definitions	ZP:0008320	IAO:0000115	Abnormal(ly) quality (of) ceratohyal cartilage.	
+ERROR	multiple_definitions	ZP:0008320	IAO:0000115	Abnormality of ceratohyal cartilage.	
+ERROR	multiple_definitions	ZP:0008343	IAO:0000115	Abnormal skeletal system development.	
+ERROR	multiple_definitions	ZP:0008343	IAO:0000115	Abnormal(ly) quality (of) skeletal system development.	
+ERROR	multiple_definitions	ZP:0009812	IAO:0000115	Abnormal(ly) quality (of) ventrolateral optic tract.	
+ERROR	multiple_definitions	ZP:0009812	IAO:0000115	Abnormality of ventrolateral optic tract.	
+ERROR	multiple_definitions	ZP:0010240	IAO:0000115	Abnormal(ly) quality (of) retinal neural layer.	
+ERROR	multiple_definitions	ZP:0010240	IAO:0000115	Abnormality of retinal neural layer.	
+ERROR	multiple_definitions	ZP:0010254	IAO:0000115	Abnormal(ly) quality (of) prechordal plate.	
+ERROR	multiple_definitions	ZP:0010254	IAO:0000115	Abnormality of prechordal plate.	
+ERROR	multiple_definitions	ZP:0010546	IAO:0000115	Abnormal(ly) quality (of) neurohypophysis.	
+ERROR	multiple_definitions	ZP:0010546	IAO:0000115	Abnormality of neurohypophysis.	
+ERROR	multiple_definitions	ZP:0011051	IAO:0000115	Abnormal(ly) quality (of) retinal cone cell.	
+ERROR	multiple_definitions	ZP:0011051	IAO:0000115	Abnormality of retinal cone cell.	
+ERROR	multiple_definitions	ZP:0013938	IAO:0000115	Abnormal(ly) quality (of) dorsal root ganglion.	
+ERROR	multiple_definitions	ZP:0013938	IAO:0000115	Abnormality of dorsal root ganglion.	
+ERROR	multiple_definitions	ZP:0013948	IAO:0000115	Abnormal(ly) quality (of) mucus secreting cell.	
+ERROR	multiple_definitions	ZP:0013948	IAO:0000115	Abnormality of mucus secreting cell.	
+ERROR	multiple_definitions	ZP:0014037	IAO:0000115	Abnormal pattern specification process.	
+ERROR	multiple_definitions	ZP:0014037	IAO:0000115	Abnormal(ly) quality (of) pattern specification process.	
+ERROR	multiple_definitions	ZP:0014043	IAO:0000115	Abnormal(ly) quality (of) eye photoreceptor cell.	
+ERROR	multiple_definitions	ZP:0014043	IAO:0000115	Abnormality of eye photoreceptor cell.	
+ERROR	multiple_definitions	ZP:0014853	IAO:0000115	Abnormal(ly) quality (of) ventral fin fold.	
+ERROR	multiple_definitions	ZP:0014853	IAO:0000115	Abnormality of ventral fin fold.	
+ERROR	multiple_definitions	ZP:0014878	IAO:0000115	Abnormal(ly) quality (of) retinal ganglion cell layer.	
+ERROR	multiple_definitions	ZP:0014878	IAO:0000115	Abnormality of retinal ganglion cell layer.	
+ERROR	multiple_definitions	ZP:0014892	IAO:0000115	Abnormal(ly) quality (of) fast muscle cell.	
+ERROR	multiple_definitions	ZP:0014892	IAO:0000115	Abnormality of fast muscle cell.	
+ERROR	multiple_definitions	ZP:0014896	IAO:0000115	Abnormal(ly) quality (of) hepatocyte.	
+ERROR	multiple_definitions	ZP:0014896	IAO:0000115	Abnormality of hepatocyte.	
+ERROR	multiple_definitions	ZP:0014925	IAO:0000115	Abnormal(ly) quality (of) olfactory system.	
+ERROR	multiple_definitions	ZP:0014925	IAO:0000115	Abnormality of olfactory system.	
+ERROR	multiple_definitions	ZP:0014927	IAO:0000115	Abnormal(ly) quality (of) mandibular arch skeleton.	
+ERROR	multiple_definitions	ZP:0014927	IAO:0000115	Abnormality of mandibular arch skeleton.	
+ERROR	multiple_definitions	ZP:0014956	IAO:0000115	Abnormal hemopoiesis.	
+ERROR	multiple_definitions	ZP:0014956	IAO:0000115	Abnormal(ly) quality (of) hemopoiesis.	
+ERROR	multiple_definitions	ZP:0014959	IAO:0000115	Abnormal response to drug.	
+ERROR	multiple_definitions	ZP:0014959	IAO:0000115	Abnormal(ly) quality (of) response to drug.	
+ERROR	multiple_definitions	ZP:0014960	IAO:0000115	Abnormal wound healing.	
+ERROR	multiple_definitions	ZP:0014960	IAO:0000115	Abnormal(ly) quality (of) wound healing.	
+ERROR	multiple_definitions	ZP:0014963	IAO:0000115	Abnormal immune response.	
+ERROR	multiple_definitions	ZP:0014963	IAO:0000115	Abnormal(ly) quality (of) immune response.	
+ERROR	multiple_definitions	ZP:0014969	IAO:0000115	Abnormal cell migration.	
+ERROR	multiple_definitions	ZP:0014969	IAO:0000115	Abnormal(ly) quality (of) cell migration.	
+ERROR	multiple_definitions	ZP:0014972	IAO:0000115	Abnormal brain development.	
+ERROR	multiple_definitions	ZP:0014972	IAO:0000115	Abnormal(ly) quality (of) brain development.	
+ERROR	multiple_definitions	ZP:0014975	IAO:0000115	Abnormal growth.	
+ERROR	multiple_definitions	ZP:0014975	IAO:0000115	Abnormal(ly) quality (of) growth.	
+ERROR	multiple_definitions	ZP:0014977	IAO:0000115	Abnormal insulin processing.	
+ERROR	multiple_definitions	ZP:0014977	IAO:0000115	Abnormal(ly) quality (of) insulin processing.	
+ERROR	multiple_definitions	ZP:0014980	IAO:0000115	Abnormal muscle cell differentiation.	
+ERROR	multiple_definitions	ZP:0014980	IAO:0000115	Abnormal(ly) quality (of) muscle cell differentiation.	
+ERROR	multiple_definitions	ZP:0014982	IAO:0000115	Abnormal astrocyte activation.	
+ERROR	multiple_definitions	ZP:0014982	IAO:0000115	Abnormal(ly) quality (of) astrocyte activation.	
+ERROR	multiple_definitions	ZP:0014997	IAO:0000115	Abnormal regulation of circadian rhythm.	
+ERROR	multiple_definitions	ZP:0014997	IAO:0000115	Abnormal(ly) quality (of) regulation of circadian rhythm.	
+ERROR	multiple_definitions	ZP:0015022	IAO:0000115	Abnormal oogenesis.	
+ERROR	multiple_definitions	ZP:0015022	IAO:0000115	Abnormal(ly) quality (of) oogenesis.	
+ERROR	multiple_definitions	ZP:0015023	IAO:0000115	Abnormal viral entry into host cell.	
+ERROR	multiple_definitions	ZP:0015023	IAO:0000115	Abnormal(ly) quality (of) viral entry into host cell.	
+ERROR	multiple_definitions	ZP:0015088	IAO:0000115	Abnormal inflammatory response.	
+ERROR	multiple_definitions	ZP:0015088	IAO:0000115	Abnormal(ly) quality (of) inflammatory response.	
+ERROR	multiple_definitions	ZP:0015090	IAO:0000115	Abnormal epidermal cell differentiation.	
+ERROR	multiple_definitions	ZP:0015090	IAO:0000115	Abnormal(ly) quality (of) epidermal cell differentiation.	
+ERROR	multiple_definitions	ZP:0015093	IAO:0000115	Abnormal gonad development.	
+ERROR	multiple_definitions	ZP:0015093	IAO:0000115	Abnormal(ly) quality (of) gonad development.	
+ERROR	multiple_definitions	ZP:0015094	IAO:0000115	Abnormal(ly) quality (of) testis.	
+ERROR	multiple_definitions	ZP:0015094	IAO:0000115	Abnormality of testis.	
+ERROR	multiple_definitions	ZP:0015100	IAO:0000115	Abnormal response to mechanical stimulus.	
+ERROR	multiple_definitions	ZP:0015100	IAO:0000115	Abnormal(ly) quality (of) response to mechanical stimulus.	
+ERROR	multiple_definitions	ZP:0015121	IAO:0000115	Abnormal pigmentation.	
+ERROR	multiple_definitions	ZP:0015121	IAO:0000115	Abnormal(ly) quality (of) pigmentation.	
+ERROR	multiple_definitions	ZP:0017312	IAO:0000115	Abnormal(ly) quality (of) intestine.	
+ERROR	multiple_definitions	ZP:0017312	IAO:0000115	Abnormality of intestine.	
+ERROR	multiple_definitions	ZP:0100009	IAO:0000115	Abnormal(ly) quality (of) whole organism.	
+ERROR	multiple_definitions	ZP:0100009	IAO:0000115	Abnormality of whole organism.	
+ERROR	multiple_definitions	ZP:0100010	IAO:0000115	Abnormal(ly) quality (of) anatomical system.	
+ERROR	multiple_definitions	ZP:0100010	IAO:0000115	Abnormality of anatomical system.	
+ERROR	multiple_labels	ZP:0000011	rdfs:label	abnormal somite	
+ERROR	multiple_labels	ZP:0000011	rdfs:label	somite quality, abnormal	
+ERROR	multiple_labels	ZP:0000018	rdfs:label	abnormal post-vent region	
+ERROR	multiple_labels	ZP:0000018	rdfs:label	post-vent region quality, abnormal	
+ERROR	multiple_labels	ZP:0000032	rdfs:label	abnormal brain	
+ERROR	multiple_labels	ZP:0000032	rdfs:label	brain quality, abnormal	
+ERROR	multiple_labels	ZP:0000034	rdfs:label	abnormal hindbrain	
+ERROR	multiple_labels	ZP:0000034	rdfs:label	hindbrain quality, abnormal	
+ERROR	multiple_labels	ZP:0000036	rdfs:label	abnormal neural crest	
+ERROR	multiple_labels	ZP:0000036	rdfs:label	neural crest quality, abnormal	
+ERROR	multiple_labels	ZP:0000040	rdfs:label	abnormal yolk	
+ERROR	multiple_labels	ZP:0000040	rdfs:label	yolk quality, abnormal	
+ERROR	multiple_labels	ZP:0000041	rdfs:label	abnormal pharyngeal arch 3-7 skeleton	
+ERROR	multiple_labels	ZP:0000041	rdfs:label	pharyngeal arch 3-7 skeleton quality, abnormal	
+ERROR	multiple_labels	ZP:0000044	rdfs:label	abnormal heart	
+ERROR	multiple_labels	ZP:0000044	rdfs:label	heart quality, abnormal	
+ERROR	multiple_labels	ZP:0000049	rdfs:label	abnormal surface structure	
+ERROR	multiple_labels	ZP:0000049	rdfs:label	surface structure quality, abnormal	
+ERROR	multiple_labels	ZP:0000055	rdfs:label	abnormal pectoral fin	
+ERROR	multiple_labels	ZP:0000055	rdfs:label	pectoral fin quality, abnormal	
+ERROR	multiple_labels	ZP:0000094	rdfs:label	abnormal blood	
+ERROR	multiple_labels	ZP:0000094	rdfs:label	blood quality, abnormal	
+ERROR	multiple_labels	ZP:0000115	rdfs:label	abnormal nervous system	
+ERROR	multiple_labels	ZP:0000115	rdfs:label	nervous system quality, abnormal	
+ERROR	multiple_labels	ZP:0000139	rdfs:label	abnormal gastrulation with mouth forming second	
+ERROR	multiple_labels	ZP:0000139	rdfs:label	gastrulation with mouth forming second quality, abnormal	
+ERROR	multiple_labels	ZP:0000147	rdfs:label	abnormal notochord	
+ERROR	multiple_labels	ZP:0000147	rdfs:label	notochord quality, abnormal	
+ERROR	multiple_labels	ZP:0000206	rdfs:label	abnormal musculoskeletal movement	
+ERROR	multiple_labels	ZP:0000206	rdfs:label	musculoskeletal movement quality, abnormal	
+ERROR	multiple_labels	ZP:0000207	rdfs:label	abnormal neuromuscular process controlling balance	
+ERROR	multiple_labels	ZP:0000207	rdfs:label	neuromuscular process controlling balance quality, abnormal	
+ERROR	multiple_labels	ZP:0000347	rdfs:label	abnormal floor plate	
+ERROR	multiple_labels	ZP:0000347	rdfs:label	floor plate quality, abnormal	
+ERROR	multiple_labels	ZP:0000355	rdfs:label	abnormal eye	
+ERROR	multiple_labels	ZP:0000355	rdfs:label	eye quality, abnormal	
+ERROR	multiple_labels	ZP:0000358	rdfs:label	abnormal forebrain	
+ERROR	multiple_labels	ZP:0000358	rdfs:label	forebrain quality, abnormal	
+ERROR	multiple_labels	ZP:0000400	rdfs:label	abnormal lens	
+ERROR	multiple_labels	ZP:0000400	rdfs:label	lens quality, abnormal	
+ERROR	multiple_labels	ZP:0000406	rdfs:label	abnormal sensory system	
+ERROR	multiple_labels	ZP:0000406	rdfs:label	sensory system quality, abnormal	
+ERROR	multiple_labels	ZP:0000428	rdfs:label	abnormal midbrain	
+ERROR	multiple_labels	ZP:0000428	rdfs:label	midbrain quality, abnormal	
+ERROR	multiple_labels	ZP:0000489	rdfs:label	abnormal fin	
+ERROR	multiple_labels	ZP:0000489	rdfs:label	fin quality, abnormal	
+ERROR	multiple_labels	ZP:0000570	rdfs:label	abnormal gut	
+ERROR	multiple_labels	ZP:0000570	rdfs:label	gut quality, abnormal	
+ERROR	multiple_labels	ZP:0000571	rdfs:label	abnormal liver	
+ERROR	multiple_labels	ZP:0000571	rdfs:label	liver quality, abnormal	
+ERROR	multiple_labels	ZP:0000596	rdfs:label	abnormal retinal pigmented epithelium	
+ERROR	multiple_labels	ZP:0000596	rdfs:label	retinal pigmented epithelium quality, abnormal	
+ERROR	multiple_labels	ZP:0000598	rdfs:label	abnormal head	
+ERROR	multiple_labels	ZP:0000598	rdfs:label	head quality, abnormal	
+ERROR	multiple_labels	ZP:0000640	rdfs:label	abnormal neural tube	
+ERROR	multiple_labels	ZP:0000640	rdfs:label	neural tube quality, abnormal	
+ERROR	multiple_labels	ZP:0000895	rdfs:label	abnormal mouth	
+ERROR	multiple_labels	ZP:0000895	rdfs:label	mouth quality, abnormal	
+ERROR	multiple_labels	ZP:0000910	rdfs:label	abnormal splanchnocranium	
+ERROR	multiple_labels	ZP:0000910	rdfs:label	splanchnocranium quality, abnormal	
+ERROR	multiple_labels	ZP:0000945	rdfs:label	abnormal pigment cell	
+ERROR	multiple_labels	ZP:0000945	rdfs:label	pigment cell quality, abnormal	
+ERROR	multiple_labels	ZP:0000965	rdfs:label	abnormal retinal ganglion cell axon guidance	
+ERROR	multiple_labels	ZP:0000965	rdfs:label	retinal ganglion cell axon guidance quality, abnormal	
+ERROR	multiple_labels	ZP:0001054	rdfs:label	abnormal palatoquadrate arch	
+ERROR	multiple_labels	ZP:0001054	rdfs:label	palatoquadrate arch quality, abnormal	
+ERROR	multiple_labels	ZP:0001179	rdfs:label	abnormal melanocyte	
+ERROR	multiple_labels	ZP:0001179	rdfs:label	melanocyte quality, abnormal	
+ERROR	multiple_labels	ZP:0001181	rdfs:label	abnormal xanthophore	
+ERROR	multiple_labels	ZP:0001181	rdfs:label	xanthophore quality, abnormal	
+ERROR	multiple_labels	ZP:0001193	rdfs:label	abnormal inner ear	
+ERROR	multiple_labels	ZP:0001193	rdfs:label	inner ear quality, abnormal	
+ERROR	multiple_labels	ZP:0001196	rdfs:label	abnormal motor neuron	
+ERROR	multiple_labels	ZP:0001196	rdfs:label	motor neuron quality, abnormal	
+ERROR	multiple_labels	ZP:0001198	rdfs:label	abnormal response to external stimulus	
+ERROR	multiple_labels	ZP:0001198	rdfs:label	response to external stimulus quality, abnormal	
+ERROR	multiple_labels	ZP:0001201	rdfs:label	abnormal dopamine metabolic process	
+ERROR	multiple_labels	ZP:0001201	rdfs:label	dopamine metabolic process quality, abnormal	
+ERROR	multiple_labels	ZP:0001225	rdfs:label	abnormal blood circulation	
+ERROR	multiple_labels	ZP:0001225	rdfs:label	blood circulation quality, abnormal	
+ERROR	multiple_labels	ZP:0001272	rdfs:label	abnormal retinal photoreceptor layer	
+ERROR	multiple_labels	ZP:0001272	rdfs:label	retinal photoreceptor layer quality, abnormal	
+ERROR	multiple_labels	ZP:0001495	rdfs:label	abnormal trunk musculature	
+ERROR	multiple_labels	ZP:0001495	rdfs:label	trunk musculature quality, abnormal	
+ERROR	multiple_labels	ZP:0001575	rdfs:label	abnormal primordial germ cell	
+ERROR	multiple_labels	ZP:0001575	rdfs:label	primordial germ cell quality, abnormal	
+ERROR	multiple_labels	ZP:0001629	rdfs:label	abnormal notochord development	
+ERROR	multiple_labels	ZP:0001629	rdfs:label	notochord development quality, abnormal	
+ERROR	multiple_labels	ZP:0001669	rdfs:label	abnormal behavior	
+ERROR	multiple_labels	ZP:0001669	rdfs:label	behavior quality, abnormal	
+ERROR	multiple_labels	ZP:0001696	rdfs:label	abnormal swim bladder	
+ERROR	multiple_labels	ZP:0001696	rdfs:label	swim bladder quality, abnormal	
+ERROR	multiple_labels	ZP:0001771	rdfs:label	abnormal pronephros	
+ERROR	multiple_labels	ZP:0001771	rdfs:label	pronephros quality, abnormal	
+ERROR	multiple_labels	ZP:0001772	rdfs:label	abnormal retina	
+ERROR	multiple_labels	ZP:0001772	rdfs:label	retina quality, abnormal	
+ERROR	multiple_labels	ZP:0001840	rdfs:label	abnormal visual perception	
+ERROR	multiple_labels	ZP:0001840	rdfs:label	visual perception quality, abnormal	
+ERROR	multiple_labels	ZP:0001841	rdfs:label	abnormal visual behavior	
+ERROR	multiple_labels	ZP:0001841	rdfs:label	visual behavior quality, abnormal	
+ERROR	multiple_labels	ZP:0001897	rdfs:label	abnormal neuromast	
+ERROR	multiple_labels	ZP:0001897	rdfs:label	neuromast quality, abnormal	
+ERROR	multiple_labels	ZP:0001910	rdfs:label	abnormal posterior lateral line neuromast	
+ERROR	multiple_labels	ZP:0001910	rdfs:label	posterior lateral line neuromast quality, abnormal	
+ERROR	multiple_labels	ZP:0001919	rdfs:label	abnormal lateral line	
+ERROR	multiple_labels	ZP:0001919	rdfs:label	lateral line quality, abnormal	
+ERROR	multiple_labels	ZP:0001920	rdfs:label	abnormal otolith	
+ERROR	multiple_labels	ZP:0001920	rdfs:label	otolith quality, abnormal	
+ERROR	multiple_labels	ZP:0002047	rdfs:label	abnormal endocrine pancreas	
+ERROR	multiple_labels	ZP:0002047	rdfs:label	endocrine pancreas quality, abnormal	
+ERROR	multiple_labels	ZP:0002365	rdfs:label	abnormal iridophore	
+ERROR	multiple_labels	ZP:0002365	rdfs:label	iridophore quality, abnormal	
+ERROR	multiple_labels	ZP:0002733	rdfs:label	abnormal blood vasculature	
+ERROR	multiple_labels	ZP:0002733	rdfs:label	blood vasculature quality, abnormal	
+ERROR	multiple_labels	ZP:0002826	rdfs:label	abnormal skeletal system	
+ERROR	multiple_labels	ZP:0002826	rdfs:label	skeletal system quality, abnormal	
+ERROR	multiple_labels	ZP:0002889	rdfs:label	abnormal blastema	
+ERROR	multiple_labels	ZP:0002889	rdfs:label	blastema quality, abnormal	
+ERROR	multiple_labels	ZP:0002917	rdfs:label	abnormal musculature system	
+ERROR	multiple_labels	ZP:0002917	rdfs:label	musculature system quality, abnormal	
+ERROR	multiple_labels	ZP:0003032	rdfs:label	abnormal extension	
+ERROR	multiple_labels	ZP:0003032	rdfs:label	extension quality, abnormal	
+ERROR	multiple_labels	ZP:0003067	rdfs:label	abnormal skeletal muscle	
+ERROR	multiple_labels	ZP:0003067	rdfs:label	skeletal muscle quality, abnormal	
+ERROR	multiple_labels	ZP:0003233	rdfs:label	abnormal midbrain hindbrain boundary	
+ERROR	multiple_labels	ZP:0003233	rdfs:label	midbrain hindbrain boundary quality, abnormal	
+ERROR	multiple_labels	ZP:0003289	rdfs:label	abnormal myoseptum	
+ERROR	multiple_labels	ZP:0003289	rdfs:label	myoseptum quality, abnormal	
+ERROR	multiple_labels	ZP:0003502	rdfs:label	abnormal exocrine pancreas	
+ERROR	multiple_labels	ZP:0003502	rdfs:label	exocrine pancreas quality, abnormal	
+ERROR	multiple_labels	ZP:0003639	rdfs:label	abnormal heart development	
+ERROR	multiple_labels	ZP:0003639	rdfs:label	heart development quality, abnormal	
+ERROR	multiple_labels	ZP:0003896	rdfs:label	abnormal cell population proliferation	
+ERROR	multiple_labels	ZP:0003896	rdfs:label	cell population proliferation quality, abnormal	
+ERROR	multiple_labels	ZP:0003901	rdfs:label	abnormal otic vesicle	
+ERROR	multiple_labels	ZP:0003901	rdfs:label	otic vesicle quality, abnormal	
+ERROR	multiple_labels	ZP:0003903	rdfs:label	abnormal optic tectum	
+ERROR	multiple_labels	ZP:0003903	rdfs:label	optic tectum quality, abnormal	
+ERROR	multiple_labels	ZP:0003916	rdfs:label	abnormal pupil	
+ERROR	multiple_labels	ZP:0003916	rdfs:label	pupil quality, abnormal	
+ERROR	multiple_labels	ZP:0004039	rdfs:label	abnormal endocardial cushion	
+ERROR	multiple_labels	ZP:0004039	rdfs:label	endocardial cushion quality, abnormal	
+ERROR	multiple_labels	ZP:0004258	rdfs:label	abnormal peripheral neuron	
+ERROR	multiple_labels	ZP:0004258	rdfs:label	peripheral neuron quality, abnormal	
+ERROR	multiple_labels	ZP:0004307	rdfs:label	abnormal hatching gland	
+ERROR	multiple_labels	ZP:0004307	rdfs:label	hatching gland quality, abnormal	
+ERROR	multiple_labels	ZP:0004718	rdfs:label	abnormal epidermis	
+ERROR	multiple_labels	ZP:0004718	rdfs:label	epidermis quality, abnormal	
+ERROR	multiple_labels	ZP:0004719	rdfs:label	abnormal integument	
+ERROR	multiple_labels	ZP:0004719	rdfs:label	integument quality, abnormal	
+ERROR	multiple_labels	ZP:0004768	rdfs:label	abnormal regulation of cell migration	
+ERROR	multiple_labels	ZP:0004768	rdfs:label	regulation of cell migration quality, abnormal	
+ERROR	multiple_labels	ZP:0004806	rdfs:label	abnormal central canal	
+ERROR	multiple_labels	ZP:0004806	rdfs:label	central canal quality, abnormal	
+ERROR	multiple_labels	ZP:0004819	rdfs:label	abnormal ventral mandibular arch	
+ERROR	multiple_labels	ZP:0004819	rdfs:label	ventral mandibular arch quality, abnormal	
+ERROR	multiple_labels	ZP:0004952	rdfs:label	abnormal pharyngeal arch 2 skeleton	
+ERROR	multiple_labels	ZP:0004952	rdfs:label	pharyngeal arch 2 skeleton quality, abnormal	
+ERROR	multiple_labels	ZP:0005010	rdfs:label	abnormal hair cell	
+ERROR	multiple_labels	ZP:0005010	rdfs:label	hair cell quality, abnormal	
+ERROR	multiple_labels	ZP:0005465	rdfs:label	abnormal response to light stimulus	
+ERROR	multiple_labels	ZP:0005465	rdfs:label	response to light stimulus quality, abnormal	
+ERROR	multiple_labels	ZP:0005568	rdfs:label	abnormal symplectic	
+ERROR	multiple_labels	ZP:0005568	rdfs:label	symplectic quality, abnormal	
+ERROR	multiple_labels	ZP:0005629	rdfs:label	abnormal pancreas	
+ERROR	multiple_labels	ZP:0005629	rdfs:label	pancreas quality, abnormal	
+ERROR	multiple_labels	ZP:0006391	rdfs:label	abnormal cranium	
+ERROR	multiple_labels	ZP:0006391	rdfs:label	cranium quality, abnormal	
+ERROR	multiple_labels	ZP:0006529	rdfs:label	abnormal gall bladder	
+ERROR	multiple_labels	ZP:0006529	rdfs:label	gall bladder quality, abnormal	
+ERROR	multiple_labels	ZP:0006611	rdfs:label	abnormal hypophysis	
+ERROR	multiple_labels	ZP:0006611	rdfs:label	hypophysis quality, abnormal	
+ERROR	multiple_labels	ZP:0007016	rdfs:label	abnormal slow muscle cell	
+ERROR	multiple_labels	ZP:0007016	rdfs:label	slow muscle cell quality, abnormal	
+ERROR	multiple_labels	ZP:0007634	rdfs:label	abnormal feeding behavior	
+ERROR	multiple_labels	ZP:0007634	rdfs:label	feeding behavior quality, abnormal	
+ERROR	multiple_labels	ZP:0007873	rdfs:label	abnormal cardiac ventricle	
+ERROR	multiple_labels	ZP:0007873	rdfs:label	cardiac ventricle quality, abnormal	
+ERROR	multiple_labels	ZP:0008314	rdfs:label	abnormal semicircular canal	
+ERROR	multiple_labels	ZP:0008314	rdfs:label	semicircular canal quality, abnormal	
+ERROR	multiple_labels	ZP:0008319	rdfs:label	abnormal palatoquadrate cartilage	
+ERROR	multiple_labels	ZP:0008319	rdfs:label	palatoquadrate cartilage quality, abnormal	
+ERROR	multiple_labels	ZP:0008320	rdfs:label	abnormal ceratohyal cartilage	
+ERROR	multiple_labels	ZP:0008320	rdfs:label	ceratohyal cartilage quality, abnormal	
+ERROR	multiple_labels	ZP:0008343	rdfs:label	abnormal skeletal system development	
+ERROR	multiple_labels	ZP:0008343	rdfs:label	skeletal system development quality, abnormal	
+ERROR	multiple_labels	ZP:0009812	rdfs:label	abnormal ventrolateral optic tract	
+ERROR	multiple_labels	ZP:0009812	rdfs:label	ventrolateral optic tract quality, abnormal	
+ERROR	multiple_labels	ZP:0010240	rdfs:label	abnormal retinal neural layer	
+ERROR	multiple_labels	ZP:0010240	rdfs:label	retinal neural layer quality, abnormal	
+ERROR	multiple_labels	ZP:0010254	rdfs:label	abnormal prechordal plate	
+ERROR	multiple_labels	ZP:0010254	rdfs:label	prechordal plate quality, abnormal	
+ERROR	multiple_labels	ZP:0010546	rdfs:label	abnormal neurohypophysis	
+ERROR	multiple_labels	ZP:0010546	rdfs:label	neurohypophysis quality, abnormal	
+ERROR	multiple_labels	ZP:0011051	rdfs:label	abnormal retinal cone cell	
+ERROR	multiple_labels	ZP:0011051	rdfs:label	retinal cone cell quality, abnormal	
+ERROR	multiple_labels	ZP:0013938	rdfs:label	abnormal dorsal root ganglion	
+ERROR	multiple_labels	ZP:0013938	rdfs:label	dorsal root ganglion quality, abnormal	
+ERROR	multiple_labels	ZP:0013948	rdfs:label	abnormal mucus secreting cell	
+ERROR	multiple_labels	ZP:0013948	rdfs:label	mucus secreting cell quality, abnormal	
+ERROR	multiple_labels	ZP:0014037	rdfs:label	abnormal pattern specification process	
+ERROR	multiple_labels	ZP:0014037	rdfs:label	pattern specification process quality, abnormal	
+ERROR	multiple_labels	ZP:0014043	rdfs:label	abnormal eye photoreceptor cell	
+ERROR	multiple_labels	ZP:0014043	rdfs:label	eye photoreceptor cell quality, abnormal	
+ERROR	multiple_labels	ZP:0014853	rdfs:label	abnormal ventral fin fold	
+ERROR	multiple_labels	ZP:0014853	rdfs:label	ventral fin fold quality, abnormal	
+ERROR	multiple_labels	ZP:0014878	rdfs:label	abnormal retinal ganglion cell layer	
+ERROR	multiple_labels	ZP:0014878	rdfs:label	retinal ganglion cell layer quality, abnormal	
+ERROR	multiple_labels	ZP:0014892	rdfs:label	abnormal fast muscle cell	
+ERROR	multiple_labels	ZP:0014892	rdfs:label	fast muscle cell quality, abnormal	
+ERROR	multiple_labels	ZP:0014896	rdfs:label	abnormal hepatocyte	
+ERROR	multiple_labels	ZP:0014896	rdfs:label	hepatocyte quality, abnormal	
+ERROR	multiple_labels	ZP:0014925	rdfs:label	abnormal olfactory system	
+ERROR	multiple_labels	ZP:0014925	rdfs:label	olfactory system quality, abnormal	
+ERROR	multiple_labels	ZP:0014927	rdfs:label	abnormal mandibular arch skeleton	
+ERROR	multiple_labels	ZP:0014927	rdfs:label	mandibular arch skeleton quality, abnormal	
+ERROR	multiple_labels	ZP:0014956	rdfs:label	abnormal hemopoiesis	
+ERROR	multiple_labels	ZP:0014956	rdfs:label	hemopoiesis quality, abnormal	
+ERROR	multiple_labels	ZP:0014959	rdfs:label	abnormal response to drug	
+ERROR	multiple_labels	ZP:0014959	rdfs:label	response to drug quality, abnormal	
+ERROR	multiple_labels	ZP:0014960	rdfs:label	abnormal wound healing	
+ERROR	multiple_labels	ZP:0014960	rdfs:label	wound healing quality, abnormal	
+ERROR	multiple_labels	ZP:0014963	rdfs:label	abnormal immune response	
+ERROR	multiple_labels	ZP:0014963	rdfs:label	immune response quality, abnormal	
+ERROR	multiple_labels	ZP:0014969	rdfs:label	abnormal cell migration	
+ERROR	multiple_labels	ZP:0014969	rdfs:label	cell migration quality, abnormal	
+ERROR	multiple_labels	ZP:0014972	rdfs:label	abnormal brain development	
+ERROR	multiple_labels	ZP:0014972	rdfs:label	brain development quality, abnormal	
+ERROR	multiple_labels	ZP:0014975	rdfs:label	abnormal growth	
+ERROR	multiple_labels	ZP:0014975	rdfs:label	growth quality, abnormal	
+ERROR	multiple_labels	ZP:0014977	rdfs:label	abnormal insulin processing	
+ERROR	multiple_labels	ZP:0014977	rdfs:label	insulin processing quality, abnormal	
+ERROR	multiple_labels	ZP:0014980	rdfs:label	abnormal muscle cell differentiation	
+ERROR	multiple_labels	ZP:0014980	rdfs:label	muscle cell differentiation quality, abnormal	
+ERROR	multiple_labels	ZP:0014982	rdfs:label	abnormal astrocyte activation	
+ERROR	multiple_labels	ZP:0014982	rdfs:label	astrocyte activation quality, abnormal	
+ERROR	multiple_labels	ZP:0014997	rdfs:label	abnormal regulation of circadian rhythm	
+ERROR	multiple_labels	ZP:0014997	rdfs:label	regulation of circadian rhythm quality, abnormal	
+ERROR	multiple_labels	ZP:0015022	rdfs:label	abnormal oogenesis	
+ERROR	multiple_labels	ZP:0015022	rdfs:label	oogenesis quality, abnormal	
+ERROR	multiple_labels	ZP:0015023	rdfs:label	abnormal viral entry into host cell	
+ERROR	multiple_labels	ZP:0015023	rdfs:label	viral entry into host cell quality, abnormal	
+ERROR	multiple_labels	ZP:0015088	rdfs:label	abnormal inflammatory response	
+ERROR	multiple_labels	ZP:0015088	rdfs:label	inflammatory response quality, abnormal	
+ERROR	multiple_labels	ZP:0015090	rdfs:label	abnormal epidermal cell differentiation	
+ERROR	multiple_labels	ZP:0015090	rdfs:label	epidermal cell differentiation quality, abnormal	
+ERROR	multiple_labels	ZP:0015093	rdfs:label	abnormal gonad development	
+ERROR	multiple_labels	ZP:0015093	rdfs:label	gonad development quality, abnormal	
+ERROR	multiple_labels	ZP:0015094	rdfs:label	abnormal testis	
+ERROR	multiple_labels	ZP:0015094	rdfs:label	testis quality, abnormal	
+ERROR	multiple_labels	ZP:0015100	rdfs:label	abnormal response to mechanical stimulus	
+ERROR	multiple_labels	ZP:0015100	rdfs:label	response to mechanical stimulus quality, abnormal	
+ERROR	multiple_labels	ZP:0015121	rdfs:label	abnormal pigmentation	
+ERROR	multiple_labels	ZP:0015121	rdfs:label	pigmentation quality, abnormal	
+ERROR	multiple_labels	ZP:0017312	rdfs:label	abnormal intestine	
+ERROR	multiple_labels	ZP:0017312	rdfs:label	intestine quality, abnormal	
+ERROR	multiple_labels	ZP:0100009	rdfs:label	abnormal whole organism	
+ERROR	multiple_labels	ZP:0100009	rdfs:label	whole organism quality, abnormal	
+ERROR	multiple_labels	ZP:0100010	rdfs:label	abnormal anatomical system	
+ERROR	multiple_labels	ZP:0100010	rdfs:label	anatomical system quality, abnormal	

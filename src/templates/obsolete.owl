@@ -4341,16 +4341,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ZP_0100125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100125">
-        <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/GO_0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete actin-based cell projection peridermal cell length, abnormal</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ZP_0100150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100150">

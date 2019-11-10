@@ -8,9 +8,9 @@ http://purl.obolibrary.org/obo/ZP_0008109	0-0-GO:0016265-PATO:0000912-0-0-0	true
 http://purl.obolibrary.org/obo/ZP_0010972	GO:0044430-BFO:0000050-ZFA:0005124-PATO:0000628-0-0-0	true	obsolete cytoskeletal part intestinal epithelium mislocalised, abnormal
 http://purl.obolibrary.org/obo/ZP_0014084	GO:0044420-BFO:0000050-ZFA:0001269-PATO:0000470-0-0-0	true	obsolete extracellular matrix component regenerating fin increased amount, abnormal
 http://purl.obolibrary.org/obo/ZP_0014429	0-0-GO:0006200-PATO:0002304-0-0-0	true	obsolete obsolete ATP catabolic process increased process quality, abnormal
-http://purl.obolibrary.org/obo/ZP_0015456	0-0-GO:0042891-PATO:0001507-0-0-0	true	obsolete antibiotic transport disrupted, abnormal
-http://purl.obolibrary.org/obo/ZP_0015457	0-0-GO:0042895-PATO:0002052-0-0-0	true	obsolete antibiotic transmembrane transporter activity decreased occurrence, abnormal
+http://purl.obolibrary.org/obo/ZP_0015456	0-0-GO:0042891-PATO:0001507-0-0-0	true	obsolete obsolete antibiotic transport disrupted, abnormal
+http://purl.obolibrary.org/obo/ZP_0015457	0-0-GO:0042895-PATO:0002052-0-0-0	true	obsolete obsolete antibiotic transmembrane transporter activity decreased occurrence, abnormal
 http://purl.obolibrary.org/obo/ZP_0018493	GO:0044424-BFO:0000050-ZFA:0005277-PATO:0001629-0-0-0	true	obsolete intracellular part skeletal muscle aggregated, abnormal
 http://purl.obolibrary.org/obo/ZP_0018494	GO:0044424-BFO:0000050-ZFA:0001089-PATO:0001629-0-0-0	true	obsolete intracellular part myoseptum aggregated, abnormal
-http://purl.obolibrary.org/obo/ZP_0100125	GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0	true	obsolete actin-based cell projection peridermal cell length, abnormal
-http://purl.obolibrary.org/obo/ZP_0106711	GO:0044463-BFO:0000050-ZFA:0009091-PATO:0000470-0-0-0	true	obsolete nan
+http://purl.obolibrary.org/obo/ZP_0100125	GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0	true	obsolete nan
+http://purl.obolibrary.org/obo/ZP_0106711	GO:0044463-BFO:0000050-ZFA:0009091-PATO:0000470-0-0-0	true	obsolete cell projection part melanocyte increased amount, abnormal

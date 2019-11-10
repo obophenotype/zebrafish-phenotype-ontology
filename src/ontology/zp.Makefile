@@ -178,3 +178,12 @@ zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris templates prepare_release
 
 #zfin_pipeline
+
+#############################################
+### TEST PIPELINE                 ##########
+#############################################
+
+
+qc:
+	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
+	$(ROBOT) reason --input ../../zp.owl --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"

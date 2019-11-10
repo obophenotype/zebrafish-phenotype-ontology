@@ -8,6 +8,10 @@ anatomy_config:
       - http://purl.obolibrary.org/obo/ZFS_0100000
   patterns:
     - pattern: abnormalAnatomicalEntity
+      label_pattern: abnormalAnatomicalEntity_label
+      column_matches:
+        - anatomical_entity|affected_entity_1_super
+        - PATO:0000001|pato_id
       blacklist:
         - http://purl.obolibrary.org/obo/ZFA_0001093
       blacklist_branch:
