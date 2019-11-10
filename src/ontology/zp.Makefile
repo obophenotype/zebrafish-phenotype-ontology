@@ -39,25 +39,27 @@ pattern_term_lists_zfin := $(patsubst %.tsv, $(ZFINPATTERNDIR)/%.txt, $(notdir $
 
 
 $(MANUALPATTERNDIR)/%.txt: $(MANUALPATTERNDIR)/%.tsv
-	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
+	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@
 
 $(AUTOPATTERNDIR)/%.txt: $(AUTOPATTERNDIR)/%.tsv
-	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
+	grep -Eo '(ZP)[^[:space:]"]+' $< | sort | uniq > $@
 	
 $(ZFINPATTERNDIR)/%.txt: $(ZFINPATTERNDIR)/%.tsv
-	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
+	grep -Eo '(ZP)[^[:space:]"]+' $< | sort | uniq > $@
 
 $(ZP_SRC_SEED): $(SRC)
 	robot query -f csv -i $< --use-graphs true --query ../sparql/zp_terms.sparql $@
 
-$(TMPDIR)/id_map_terms.txt.tmp: ../curation/id_map_zfin.tsv
-	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR)/id_map_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR)/id_map_terms.txt.tmp: ../curation/id_map_zfin.tsv
+	grep -Eo '(ZP)[^[:space:]"]+' $< | sort | uniq > $@
+
+$(TMPDIR)/id_map_terms.txt.zp.tmp: ../curation/id_map.tsv
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
 $(TMPDIR)/id_map_terms.txt: $(TMPDIR)/id_map_terms.txt.tmp $(TMPDIR)/id_map_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
+
 
 $(TMPDIR)/idmap_removed_ambiguous_terms.txt.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
@@ -68,6 +70,7 @@ $(TMPDIR)/idmap_removed_ambiguous_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
 $(TMPDIR)/idmap_removed_ambiguous_terms.txt: $(TMPDIR)/idmap_removed_ambiguous_terms.txt.tmp $(TMPDIR)/idmap_removed_ambiguous_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
+
 $(TMPDIR)/idmap_removed_incomplete_terms.txt.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
@@ -77,7 +80,19 @@ $(TMPDIR)/idmap_removed_incomplete_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
 $(TMPDIR)/idmap_removed_incomplete_terms.txt: $(TMPDIR)/idmap_removed_incomplete_terms.txt.tmp $(TMPDIR)/idmap_removed_incomplete_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
-$(RESERVED_IRI): $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt
+
+$(RESERVED_IRI)_tmp.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt
+	cat $^ | sort | uniq > $@
+
+$(RESERVED_IRI)_iri.txt: $(RESERVED_IRI)_tmp.txt
+	cp $< $@
+	sed -i 's!ZP[:]!$(PURL)!g' $@
+	
+$(RESERVED_IRI)_curie.txt: $(RESERVED_IRI)_tmp.txt
+	cp $< $@
+	sed -i 's!http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]ZP[_]!ZP:!g' $@
+
+$(RESERVED_IRI): $(RESERVED_IRI)_iri.txt $(RESERVED_IRI)_curie.txt
 	cat $^ | sort | uniq > $@
 
 reserved_iris: $(RESERVED_IRI)
@@ -140,7 +155,7 @@ templates: $(TEMPLATES)
 $(ID_MAP): update_id_map
 
 update_id_map: $(ID_MAP_ZFIN)
-	python3 ../scripts/merge_table_into.py $(ID_MAP) $< id,iri $(ID_MAP)
+	python3 ../scripts/create_id_map.py ../patterns $(ID_MAP)
 
 clean:
 	rm -rf $(TMPDIR)/*
