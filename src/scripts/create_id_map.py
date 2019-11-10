@@ -70,12 +70,23 @@ df_id_map.sort_values(by ='iri',inplace=True)
 
 df_id_map_dup_id = get_rows_with_duplicates(df_id_map,'id')
 df_id_map_dup_id.sort_values(by ='id',inplace=True)
-print(df_id_map_dup_id.head())
-print(len(df_id_map_dup_id))
+if len(df_id_map_dup_id)>0:
+    print(len(df_id_map_dup_id))
+    print(df_id_map_dup_id.head(10))
+    df_id_map_dup_id.drop_duplicates().to_csv("df_id_map_dup_id.tsv", sep = '\t', index=False)
+    raise ValueError('An id was assigned more than once, aborting..')
+
 
 df_id_map_dup_iri = get_rows_with_duplicates(df_id_map,'iri')
-print(df_id_map_dup_iri.head())
-print(len(df_id_map_dup_iri))
+df_id_map_dup_iri.sort_values(by ='iri',inplace=True)
+
+if len(df_id_map_dup_id)>0:
+    print(len(df_id_map_dup_iri))
+    print(df_id_map_dup_iri.head(10))
+    df_id_map_dup_iri.drop_duplicates().to_csv("df_id_map_dup_iri.tsv", sep = '\t', index=False)
+    raise ValueError('An iri was assigned more than once, aborting..')
+
+
 
 #for id in df_id_map_dup_id['id'].unique():
 #    x = df_id_map_dup_id[df_id_map_dup_id['id']==id]
