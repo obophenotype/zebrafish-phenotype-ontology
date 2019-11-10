@@ -26,9 +26,11 @@ src/patterns/data/manual/*_terms.txt
 src/patterns/data/zfin/*.txt
 src/patterns/data/labels/*.txt
 src/patterns/data/anatomy/*.txt
+src/patterns/data/manual/*.txt
 src/patterns/data/zfin/*.ofn
 src/patterns/data/labels/*.ofn
 src/patterns/data/anatomy/*.ofn
+src/patterns/data/manual/*.ofn
 src/ontology/tmp/
 catalog-v001.xml
 /zp.*

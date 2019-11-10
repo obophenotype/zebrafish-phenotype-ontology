@@ -200,7 +200,7 @@ $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 # Full: The full artefacts with imports merged, reasoned
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) merge --input $< \
-		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
@@ -411,11 +411,12 @@ pattern_clean:
 pattern_schema_checks: update_patterns
 	@if [ $(PAT) = true ]; then $(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/; fi
 
-
 #This command is a workaround for the absence of -N and -i in wget of alpine (the one ODK depend on now). It downloads all patterns specified in external.txt
 update_patterns: .FORCE
+	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1
 	wget -i $(PATTERNDIR)/dosdp-patterns/external.txt --backups=1 -P $(PATTERNDIR)/dosdp-patterns
-	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1 || true
+	rm -f $(PATTERNDIR)/dosdp-patterns/*.yaml.1
+
 
 $(PATTERNDIR)/pattern.owl: pattern_schema_checks update_patterns
 	@if [ $(PAT) = true ]; then $(DOSDPT) prototype --obo-prefixes --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@; fi
@@ -434,14 +435,14 @@ pattern_term_lists_anatomy := $(patsubst %.tsv, $(PATTERNDIR)/data/anatomy/%.txt
 individual_patterns_zfin := $(patsubst %.tsv, $(PATTERNDIR)/data/zfin/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/zfin/*.tsv)))
 pattern_term_lists_zfin := $(patsubst %.tsv, $(PATTERNDIR)/data/zfin/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/zfin/*.tsv)))
 
-individual_patterns_process := $(patsubst %.tsv, $(PATTERNDIR)/data/process/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/process/*.tsv)))
-pattern_term_lists_process := $(patsubst %.tsv, $(PATTERNDIR)/data/process/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/process/*.tsv)))
+individual_patterns_labels := $(patsubst %.tsv, $(PATTERNDIR)/data/labels/%.ofn, $(notdir $(wildcard $(PATTERNDIR)/data/labels/*.tsv)))
+pattern_term_lists_labels := $(patsubst %.tsv, $(PATTERNDIR)/data/labels/%.txt, $(notdir $(wildcard $(PATTERNDIR)/data/labels/*.tsv)))
 
 
 
 # Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: prepare_patterns update_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
-	@if [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn && mv definitions.ofn $@; fi
+$(PATTERNDIR)/definitions.owl: prepare_patterns update_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_labels)
+	@if [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_labels)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn && mv definitions.ofn $@; fi
 
 $(PATTERNDIR)/data/default/%.ofn: $(PATTERNDIR)/data/default/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
 	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@; fi
@@ -449,21 +450,21 @@ $(PATTERNDIR)/data/default/%.ofn: $(PATTERNDIR)/data/default/%.tsv $(PATTERNDIR)
 
 
 $(PATTERNDIR)/data/manual/%.ofn: $(PATTERNDIR)/data/manual/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
-	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@; fi
+	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --restrict-axioms-to=logical --outfile=$@; fi
 
 $(PATTERNDIR)/data/anatomy/%.ofn: $(PATTERNDIR)/data/anatomy/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
-	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@; fi
+	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --restrict-axioms-to=logical --outfile=$@; fi
 
 $(PATTERNDIR)/data/zfin/%.ofn: $(PATTERNDIR)/data/zfin/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
-	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@; fi
+	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --restrict-axioms-to=logical --outfile=$@; fi
 
-$(PATTERNDIR)/data/process/%.ofn: $(PATTERNDIR)/data/process/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
+$(PATTERNDIR)/data/labels/%.ofn: $(PATTERNDIR)/data/labels/%.tsv $(PATTERNDIR)/dosdp-patterns/%.yaml $(SRC) all_imports .FORCE
 	@if [ $(PAT) = true ]; then $(DOSDPT) generate --catalog=catalog-v001.xml --infile=$< --template=$(word 2, $^) --ontology=$(word 3, $^) --obo-prefixes=true --outfile=$@; fi
 
 
 
 # Generating the seed file from all the TSVs. If Pattern generation is deactivated, we still extract a seed from definitions.owl
-$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_process) $(PATTERNDIR)/pattern_owl_seed.txt
+$(PATTERNDIR)/all_pattern_terms.txt: $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_labels) $(PATTERNDIR)/pattern_owl_seed.txt
 	@if [ $(PAT) = true ]; then cat $^ | sort | uniq > $@; else $(ROBOT) query --use-graphs true -f csv -i ../patterns/definitions.owl --query ../sparql/terms.sparql $@; fi
 
 $(PATTERNDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
@@ -474,8 +475,8 @@ $(PATTERNDIR)/data/default/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERND
 
 .PHONY: prepare_patterns
 prepare_patterns:
-	touch $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_process) &&\
-  touch $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
+	touch $(pattern_term_lists_default)   $(pattern_term_lists_manual) $(pattern_term_lists_anatomy) $(pattern_term_lists_zfin) $(pattern_term_lists_labels) &&\
+  touch $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_labels)
 
 
 $(PATTERNDIR)/data/manual/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/manual/%.tsv .FORCE
@@ -487,7 +488,7 @@ $(PATTERNDIR)/data/anatomy/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERND
 $(PATTERNDIR)/data/zfin/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/zfin/%.tsv .FORCE
 	@if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
 
-$(PATTERNDIR)/data/process/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/process/%.tsv .FORCE
+$(PATTERNDIR)/data/labels/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/labels/%.tsv .FORCE
 	@if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@; fi
 
 
@@ -497,5 +498,8 @@ $(PATTERNDIR)/data/process/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERND
 
 
 
+
+update_repo:
+	sh ../scripts/update_repo.sh
 
 include zp.Makefile
