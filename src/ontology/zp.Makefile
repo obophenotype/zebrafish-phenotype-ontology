@@ -84,7 +84,7 @@ $(TMPDIR)/idmap_removed_incomplete_terms.txt: $(TMPDIR)/idmap_removed_incomplete
 $(TMPDIR)/obsoleted.txt.tmp: ../templates/obsolete.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR)/obsoleted.txt.zp.tmp: ../curation/obsolete.tsv
+$(TMPDIR)/obsoleted.txt.zp.tmp: ../templates/obsolete.tsv
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
 $(TMPDIR)/obsoleted.txt: $(TMPDIR)/obsoleted.txt.tmp $(TMPDIR)/obsoleted.txt.zp.tmp
