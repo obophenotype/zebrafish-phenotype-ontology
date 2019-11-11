@@ -31,8 +31,8 @@ def determine_eq_pattern(i):
         entity=i['affected_entity_1_super']
         if fn=='abnormalQualityOfThing.tsv':
             if pato=='PATO:0000001':
-                if entity.startswith('GO'):
-                    id = 'abnormalBiologicalProcess.tsv'
+                #if entity.startswith('GO'):
+                    #id = 'abnormalBiologicalProcess.tsv'
                 if entity.startswith('ZFA'):
                     id = 'abnormalAnatomicalEntity.tsv'
             if pato=='PATO:0001236':
