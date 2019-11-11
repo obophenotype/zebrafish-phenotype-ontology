@@ -23,6 +23,11 @@ ID_MAP=../curation/id_map.tsv
 # Defiinitions.owl overwrite (occurs in hack!)
 ####
 
+
+mirror/zfa.owl: mirror/zfa.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) merge -I $(URIBASE)/zfa.owl remove --term BFO:0000050 convert -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+
 $(PDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
 	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
 	mv definitions.ofn $@ &&\
@@ -181,9 +186,10 @@ zp_labels.csv:
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh zfin_pipeline.sh
 	
+#zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates prepare_release
 
-#zfin_pipeline
+
 
 #############################################
 ### TEST PIPELINE                 ##########
