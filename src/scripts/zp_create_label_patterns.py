@@ -93,7 +93,7 @@ for pattern_dir in pattern_data_dirs:
                 df_label_pattern = pd.concat([df_label_pattern,df_labels],sort=True)
                 df_label_pattern = df_label_pattern.drop_duplicates()
                 df_labels = df_label_pattern    
-            
+            df_labels = df_labels.reindex(sorted(df_labels.columns), axis=1)
             df_labels.to_csv(label_pattern_tsv, sep = '\t', index=False)
         else:
             continue
