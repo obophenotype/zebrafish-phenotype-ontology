@@ -67,8 +67,8 @@ df_id_map = pd.concat(joined, axis=0, ignore_index=True)
 df_id_map.sort_values(by ='iri',inplace=True)
 
 #print(df_out)
-
-df_id_map_dup_id = get_rows_with_duplicates(df_id_map,'id')
+df_check = df_id_map[['iri','id']].drop_duplicates()
+df_id_map_dup_id = get_rows_with_duplicates(df_check,'id')
 df_id_map_dup_id.sort_values(by ='id',inplace=True)
 if len(df_id_map_dup_id)>0:
     print(len(df_id_map_dup_id))
@@ -77,7 +77,7 @@ if len(df_id_map_dup_id)>0:
     raise ValueError('An id was assigned more than once, aborting..')
 
 
-df_id_map_dup_iri = get_rows_with_duplicates(df_id_map,'iri')
+df_id_map_dup_iri = get_rows_with_duplicates(df_check,'iri')
 df_id_map_dup_iri.sort_values(by ='iri',inplace=True)
 
 if len(df_id_map_dup_id)>0:
