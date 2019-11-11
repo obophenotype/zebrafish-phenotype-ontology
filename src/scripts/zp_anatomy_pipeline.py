@@ -240,9 +240,9 @@ for pattern in config.get_patterns():
     defclass = df['defined_class']
     df.drop(labels=['defined_class'], axis=1,inplace = True)
     df.insert(0, 'defined_class', defclass)
+    df = df.drop_duplicates()
     df = df.sort_values('defined_class')
-    df.sort_values(by ='defined_class',inplace=True)
-    df.drop_duplicates().to_csv(pattern_tsv, sep = '\t', index=False)
+    df.to_csv(pattern_tsv, sep = '\t', index=False)
 
 df_ids = df_ids.rename(columns={'iritemp001': 'iri'})
 df_ids.sort_values(by ='iri',inplace=True)
