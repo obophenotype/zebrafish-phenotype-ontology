@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2019-11-07/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2019-11-11/imports/mpath_import.owl"/>
     </owl:Ontology>
     
 
@@ -388,7 +388,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
-        <obo:IAO_0000115>Tumors showing mutiple histological componants/differentiation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Tumors showing multiple histological componants/differentiation.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MPATH:254</oboInOwl:id>
         <rdfs:label>complex tumor</rdfs:label>
@@ -396,7 +396,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_254"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Tumors showing mutiple histological componants/differentiation.</owl:annotatedTarget>
+        <owl:annotatedTarget>Tumors showing multiple histological componants/differentiation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     

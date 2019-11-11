@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-11-07/imports/mpath_import.owl
+data-version: zp/releases/2019-11-11/imports/mpath_import.owl
 ontology: zp/imports/mpath_import
 
 [Term]
@@ -88,7 +88,7 @@ is_a: MPATH:373 ! CNS progenitor tumor
 id: MPATH:254
 name: complex tumor
 namespace: mouse_pathology.ontology
-def: "Tumors showing mutiple histological componants/differentiation." [Pathbase: Pathology Committee]
+def: "Tumors showing multiple histological componants/differentiation." [Pathbase: Pathology Committee]
 is_a: MPATH:218 ! neoplasm
 
 [Term]

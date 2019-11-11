@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-11-07/imports/chebi_import.owl
+data-version: zp/releases/2019-11-11/imports/chebi_import.owl
 subsetdef: 1_STAR "Preliminary entries"
 subsetdef: 2_STAR "Annotated by 3rd party"
 subsetdef: 3_STAR "Manually annotated by ChEBI Team"
@@ -779,19 +779,37 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@H]1(N2C3=C(C(=N
 
 [Term]
 id: CHEBI:143813
-name: phosphatidyl-1D-myo-inositol(1-)
+name: 1-radyl,2-acyl-sn-glycero-3-phospho-(1D-myo-2-acyl-inositol)(1-)
 namespace: chebi_ontology
-def: "A phosphatidylinositol where R1 can be an alkyl or an acyl chain." []
+def: "A phosphatidylinositol where R1 can be an alkyl or an acyl chain and 2R2 is an acyl chain." []
 subset: 2_STAR
-synonym: "phosphatidyl-1D-myo-inositol" RELATED [UniProt]
-synonym: "PI(1-)" RELATED [SUBMITTER]
+synonym: "1-radyl,2-acyl-sn-glycero-3-phospho-(1D-myo-2-acyl-inositol)" RELATED [UniProt]
 xref: PMID:9463366 "SUBMITTER"
 is_a: CHEBI:50860 ! organic molecular entity
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H16O12PR2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "359.201" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "359.03794" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@H]1([C@@H]([C@H]([C@@H]([C@H]([C@H]1O)OP(OC[C@H](CO*)OC(*)=O)(=O)[O-])O)O)O)O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C@@H]1([C@@H]([C@@H]([C@@H]([C@H]([C@@H]1O)O)O)O)OP(OC[C@H](CO*)OC(=O)*)(=O)[O-])O" xsd:string
+
+[Term]
+id: CHEBI:144897
+name: 1-piperideinium
+namespace: chebi_ontology
+def: "An iminium ion obtained by protonation of the imino group of 1-piperideine; major microspecies at pH 7.3." []
+subset: 3_STAR
+synonym: "1-piperideine" RELATED [UniProt]
+synonym: "2,3,4,5-tetrahydropyridin-1-ium" RELATED [IUPAC]
+synonym: "2,3,4,5-tetrahydropyridinium" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:35286 ! iminium ion
+relationship: is_conjugate_acid_of CHEBI:47858 ! 1-piperideine
+property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H10N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C5H9N/c1-2-4-6-5-3-1/h4H,1-3,5H2/p+1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "DWKUKQRKVCMOLP-UHFFFAOYSA-O" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "84.141" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "84.08078" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1CC=[NH+]CC1" xsd:string
 
 [Term]
 id: CHEBI:15036
@@ -9327,7 +9345,7 @@ is_a: CHEBI:26079 ! phosphoric acid derivative
 id: CHEBI:26078
 name: phosphoric acid
 namespace: chebi_ontology
-def: "A phosphorus oxoacid that consits of one oxo and three hydroxy groups joined covalently to a central phosphorus atom." []
+def: "A phosphorus oxoacid that consists of one oxo and three hydroxy groups joined covalently to a central phosphorus atom." []
 subset: 3_STAR
 synonym: "[PO(OH)3]" RELATED [IUPAC]
 synonym: "acide phosphorique" RELATED [ChEBI]
@@ -9447,7 +9465,7 @@ id: CHEBI:26167
 name: polar amino acid
 namespace: chebi_ontology
 alt_id: CHEBI:8283
-def: "Any amino acid whose side chain is capable of forming one or more hydrogen bonds as proton donors or acceptors." []
+def: "Any amino acid whose side chain is capable of forming one or more hydrogen bonds." []
 subset: 3_STAR
 synonym: "polar amino acid" EXACT [ChEBI]
 synonym: "polar amino acids" RELATED [ChEBI]
@@ -11435,7 +11453,7 @@ subset: 3_STAR
 synonym: "[NH4](+)" RELATED [MolBase]
 synonym: "ammonium" EXACT IUPAC_NAME [IUPAC]
 synonym: "ammonium" EXACT [ChEBI]
-synonym: "AMMONIUM ION" RELATED [PDBeChem]
+synonym: "ammonium ion" RELATED [PDBeChem]
 synonym: "Ammonium(1+)" RELATED [ChemIDplus]
 synonym: "azanium" EXACT IUPAC_NAME [IUPAC]
 synonym: "NH4(+)" RELATED [UniProt]
@@ -11468,7 +11486,6 @@ xref: PMID:22631217 "Europe PMC"
 xref: Reaxys:16093784 "Reaxys"
 xref: Wikipedia:Ammonium
 is_a: CHEBI:35106 ! nitrogen hydride
-is_a: CHEBI:35274 ! ammonium ion
 is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
 relationship: has_role CHEBI:23357 ! cofactor
@@ -13864,7 +13881,6 @@ xref: KEGG:C00893
 xref: KEGG:C02580
 is_a: CHEBI:32952 ! amine
 is_a: CHEBI:50994 ! primary amino compound
-relationship: is_conjugate_base_of CHEBI:65296 ! primary ammonium ion
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "H2NR" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "16.02260" xsd:string
@@ -16113,7 +16129,7 @@ subset: 3_STAR
 synonym: "2-(5-hydroxy-1H-indol-3-yl)ethanaminium" EXACT IUPAC_NAME [IUPAC]
 synonym: "serotonin" RELATED [UniProt]
 synonym: "serotonin cation" RELATED [ChEBI]
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_acid_of CHEBI:28790 ! serotonin
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
@@ -16452,7 +16468,7 @@ synonym: "quaternary ammonium ion" EXACT IUPAC_NAME [IUPAC]
 synonym: "quaternary ammonium ions" RELATED [ChEBI]
 xref: KEGG:C06703
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_parent_hydride CHEBI:28938 ! ammonium
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "NR4" xsd:string
@@ -16462,14 +16478,18 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*][N+]([*])([*])[*
 
 [Term]
 id: CHEBI:35274
-name: ammonium ion
+name: ammonium ion derivative
 namespace: chebi_ontology
-def: "Ammonium, NH4(+), and derivatives formed by substitution by univalent groups." []
+def: "A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc)." []
 subset: 3_STAR
+synonym: "ammonium ion derivatives" RELATED [ChEBI]
 synonym: "ammonium ions" RELATED [ChEBI]
+synonym: "azanium ion derivative" RELATED [ChEBI]
+synonym: "azanium ion derivatives" RELATED [ChEBI]
 synonym: "azanium ions" RELATED [ChEBI]
 is_a: CHEBI:33702 ! polyatomic cation
 is_a: CHEBI:51143 ! nitrogen molecular entity
+relationship: has_parent_hydride CHEBI:28938 ! ammonium
 
 [Term]
 id: CHEBI:35281
@@ -16490,6 +16510,17 @@ subset: 3_STAR
 synonym: "sulfonium betaines" RELATED [ChEBI]
 is_a: CHEBI:26830 ! sulfonium compound
 is_a: CHEBI:35281 ! onium betaine
+
+[Term]
+id: CHEBI:35286
+name: iminium ion
+namespace: chebi_ontology
+def: "Cations of structure R2C=N(+)R2." []
+subset: 3_STAR
+synonym: "iminium cations" RELATED [ChEBI]
+synonym: "iminium ion" EXACT [ChEBI]
+synonym: "iminium ions" RELATED [ChEBI]
+is_a: CHEBI:25697 ! organic cation
 
 [Term]
 id: CHEBI:35287
@@ -17218,10 +17249,9 @@ xref: KEGG:C01612
 is_a: CHEBI:30879 ! alcohol
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CH2OR2" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "30.02600" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "58.07910" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "30.026" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "30.01056" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC([*])[*]" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "*C(*)O" xsd:string
 
 [Term]
 id: CHEBI:35692
@@ -20661,6 +20691,7 @@ xref: CAS:505-18-0 "NIST Chemistry WebBook"
 xref: Gmelin:485913 "Gmelin"
 xref: KEGG:C06181
 is_a: CHEBI:26145 ! piperideine
+relationship: is_conjugate_base_of CHEBI:144897 ! 1-piperideinium
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C5H9N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C5H9N/c1-2-4-6-5-3-1/h4H,1-3,5H2" xsd:string
@@ -20776,6 +20807,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C6H8N3O4R3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "186.146" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "186.05148" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=O)(NC(C(NC(C(=O)O)*)=O)*)C(N)*" xsd:string
 
 [Term]
 id: CHEBI:48154
@@ -21719,6 +21751,7 @@ def: "A compound formally derived from ammonia by replacing one hydrogen atom by
 subset: 3_STAR
 synonym: "primary amino compounds" RELATED [ChEBI]
 is_a: CHEBI:50047 ! organic amino compound
+relationship: is_conjugate_base_of CHEBI:65296 ! primary ammonium ion
 
 [Term]
 id: CHEBI:51060
@@ -22508,7 +22541,7 @@ synonym: "[3-hydroxy-5-(hydroxymethyl)-2-methylpyridin-4-yl]methanaminium" EXACT
 synonym: "pyridoxamine" RELATED [UniProt]
 synonym: "pyridoxaminium cation" RELATED [ChEBI]
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -22609,7 +22642,7 @@ synonym: "1-phosphatidyl-1D-myo-inositol anion" RELATED [ChEBI]
 synonym: "1-phosphatidyl-1D-myo-inositol anions" RELATED [ChEBI]
 synonym: "2,3-bis(alkanoyloxy)propyl (1S,2R,3R,4S,5S,6R)-2,3,4,5,6-pentahydroxycyclohexyl phosphate" EXACT IUPAC_NAME [IUPAC]
 synonym: "a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)" RELATED [UniProt]
-is_a: CHEBI:143813 ! phosphatidyl-1D-myo-inositol(1-)
+is_a: CHEBI:143813 ! 1-radyl,2-acyl-sn-glycero-3-phospho-(1D-myo-2-acyl-inositol)(1-)
 is_a: CHEBI:62643 ! anionic phospholipid
 is_a: CHEBI:78231 ! 1,2-diacylglycero-3-phospho-1-inositol(1-)
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -22631,7 +22664,7 @@ synonym: "tryptamine" RELATED [UniProt]
 synonym: "tryptaminium cation" RELATED [ChEBI]
 synonym: "tryptaminium(1+)" RELATED [ChEBI]
 xref: Gmelin:533978 "Gmelin"
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -23106,7 +23139,7 @@ subset: 3_STAR
 synonym: "2-(1H-imidazol-4-yl)ethanaminium" EXACT IUPAC_NAME [IUPAC]
 synonym: "histamine" RELATED [UniProt]
 synonym: "histaminium cation" RELATED [ChEBI]
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_acid_of CHEBI:18295 ! histamine
@@ -23648,7 +23681,7 @@ synonym: "2-(3,4-dihydroxyphenyl)ethanaminium" EXACT IUPAC_NAME [IUPAC]
 synonym: "dopamine" RELATED [UniProt]
 synonym: "dopaminium cation" RELATED [ChEBI]
 xref: Gmelin:328863 "Gmelin"
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_acid_of CHEBI:18243 ! dopamine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
@@ -25002,13 +25035,13 @@ is_a: CHEBI:52210 ! pharmacological role
 id: CHEBI:65296
 name: primary ammonium ion
 namespace: chebi_ontology
-def: "An ammonium ion resulting from the protonation of the nitrogen atom of a primary amine. Major species at pH 7.3." []
+def: "An ammonium ion derivative resulting from the protonation of the nitrogen atom of a primary amino compound. Major species at pH 7.3." []
 subset: 3_STAR
 synonym: "a primary amine" RELATED [UniProt]
 synonym: "substituted ammonium" RELATED [ChEBI]
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
-relationship: is_conjugate_acid_of CHEBI:32877 ! primary amine
+is_a: CHEBI:35274 ! ammonium ion derivative
+relationship: is_conjugate_acid_of CHEBI:50994 ! primary amino compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "H3NR" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.031" xsd:string
@@ -25228,7 +25261,7 @@ synonym: "L-epinephrine cation" RELATED [ChEBI]
 synonym: "L-epinephrine(1+)" RELATED [ChEBI]
 xref: MetaCyc:L-EPINEPHRINE
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_acid_of CHEBI:28918 ! (R)-adrenaline
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
@@ -26944,7 +26977,7 @@ synonym: "cationic sphingoids" RELATED [ChEBI]
 synonym: "sphingoid cation" RELATED [ChEBI]
 synonym: "sphingoid cations" RELATED [ChEBI]
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: is_conjugate_acid_of CHEBI:35785 ! sphingoid
 
 [Term]
