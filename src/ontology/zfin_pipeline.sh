@@ -10,6 +10,8 @@ python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../
 
 python3 ../scripts/zfin_obsoletion.py deprecated_id_map.tsv ../templates/obsolete.tsv ../templates/df_obsolete_candidates.txt ../ontology/zp_labels.csv || exit 1
 
+rm -r ../patterns/data/zfin/*
+
 python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin ../templates/obsolete.tsv pattern_assignments.txt ../ontology/zp_labels.csv || exit 1
 
 for i in ../patterns/data/zfin/*.tsv; do

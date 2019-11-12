@@ -3161,6 +3161,7 @@ http://purl.obolibrary.org/obo/PATO_0001200
 http://purl.obolibrary.org/obo/PATO_0001201
 http://purl.obolibrary.org/obo/PATO_0001233
 http://purl.obolibrary.org/obo/PATO_0001236
+http://purl.obolibrary.org/obo/PATO_0001236
 http://purl.obolibrary.org/obo/PATO_0001241
 http://purl.obolibrary.org/obo/PATO_0001251
 http://purl.obolibrary.org/obo/PATO_0001266
@@ -38387,12 +38388,12 @@ http://purl.obolibrary.org/obo/ZP_0110350
 http://purl.obolibrary.org/obo/ZP_0110351
 http://purl.obolibrary.org/obo/ZP_0110352
 http://purl.obolibrary.org/obo/ZP_0110353
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThingTowardsPartOfThing
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsPartOfThing
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityPartOfThingTowardsThing
-http://purl.obolibrary.org/obo/zp/patterns/abnormalBiologicalProcess.yaml
 http://purl.org/dc/terms/title
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
