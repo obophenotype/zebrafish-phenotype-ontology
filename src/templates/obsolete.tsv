@@ -1,7 +1,7 @@
 Ontology ID	Label	Obsolete	ZFIN Annotation
-ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	AI rdfs:comment
+ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	AT rdfs:comment^^xsd:string
 http://purl.obolibrary.org/obo/ZP_0000001	obsolete zebrafish anatomical entity quality, abnormal	true	0-0-ZFA:0100000-PATO:0000001-0-0-0
-http://purl.obolibrary.org/obo/ZP_0000278	obsolete obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal	true	0-0-GO:0021865-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0000278	obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal	true	0-0-GO:0021865-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0000281	obsolete oligodendrocyte differentiation abnormal, abnormal	true	0-0-GO:0048709-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0000771	obsolete embryonic cleavage abnormal, abnormal	true	0-0-GO:0040016-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0000773	obsolete regulation of nodal signaling pathway abnormal, abnormal	true	0-0-GO:1900107-PATO:0000460-0-0-0
@@ -9,73 +9,73 @@ http://purl.obolibrary.org/obo/ZP_0000964	obsolete anterior commissure morphogen
 http://purl.obolibrary.org/obo/ZP_0001271	obsolete retinal inner nuclear layer abnormal, abnormal	true	0-0-ZFA:0000119-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0001467	obsolete thigmotaxis abnormal, abnormal	true	0-0-GO:0001966-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0001468	obsolete mechanosensory behavior abnormal, abnormal	true	0-0-GO:0007638-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0001752	obsolete http://purl.obolibrary.org/obo/GO_0007067 process quality, abnormal	true	0-0-GO:0007067-PATO:0001236-0-0-0
-http://purl.obolibrary.org/obo/ZP_0001844	obsolete http://purl.obolibrary.org/obo/GO_0042384 increased occurrence, abnormal	true	0-0-GO:0042384-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001752	obsolete GO:0007067 process quality, abnormal	true	0-0-GO:0007067-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0001844	obsolete GO:0042384 increased occurrence, abnormal	true	0-0-GO:0042384-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0002375	obsolete extracellular matrix component cranial cartilage spatial pattern, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0002483	obsolete obsolete death increased occurrence, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0002892	obsolete http://purl.obolibrary.org/obo/GO_0043206 disrupted, abnormal	true	0-0-GO:0043206-PATO:0001507-0-0-0
-http://purl.obolibrary.org/obo/ZP_0002924	obsolete http://purl.obolibrary.org/obo/GO_0042384 process quality, abnormal	true	0-0-GO:0042384-PATO:0001236-0-0-0
-http://purl.obolibrary.org/obo/ZP_0002983	obsolete http://purl.obolibrary.org/obo/GO_0042384 decreased process quality, abnormal	true	0-0-GO:0042384-PATO:0002302-0-0-0
-http://purl.obolibrary.org/obo/ZP_0003201	obsolete http://purl.obolibrary.org/obo/GO_0007067 increased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002483	obsolete death increased occurrence, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0002892	obsolete GO:0043206 disrupted, abnormal	true	0-0-GO:0043206-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002924	obsolete GO:0042384 process quality, abnormal	true	0-0-GO:0042384-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0002983	obsolete GO:0042384 decreased process quality, abnormal	true	0-0-GO:0042384-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003201	obsolete GO:0007067 increased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003452	obsolete protein serine/threonine kinase activity brain increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000008-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003453	obsolete protein serine/threonine kinase activity spinal cord increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000075-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003455	obsolete protein serine/threonine kinase activity eye increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000107-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003456	obsolete protein serine/threonine kinase activity liver increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000123-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003461	obsolete protein serine/threonine kinase activity kidney increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0000529-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003464	obsolete protein serine/threonine kinase activity intestine increased occurrence, abnormal	true	GO:0004674-BFO:0000050-ZFA:0001338-PATO:0002051-0-0-0
-http://purl.obolibrary.org/obo/ZP_0003590	obsolete http://purl.obolibrary.org/obo/GO_0000046 arrested, abnormal	true	0-0-GO:0000046-PATO:0000297-0-0-0
-http://purl.obolibrary.org/obo/ZP_0003633	obsolete http://purl.obolibrary.org/obo/GO_0007067 arrested, abnormal	true	0-0-GO:0007067-PATO:0000297-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003590	obsolete GO:0000046 arrested, abnormal	true	0-0-GO:0000046-PATO:0000297-0-0-0
+http://purl.obolibrary.org/obo/ZP_0003633	obsolete GO:0007067 arrested, abnormal	true	0-0-GO:0007067-PATO:0000297-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003653	obsolete cell adhesion abnormal, abnormal	true	0-0-GO:0007155-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003672	obsolete angiogenesis abnormal, abnormal	true	0-0-GO:0001525-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003681	obsolete angiogenic sprout abnormal, abnormal	true	0-0-ZFA:0005604-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0003698	obsolete cytoplasmic part oocyte stage II mislocalised, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0004080	obsolete http://purl.obolibrary.org/obo/GO_0042384 disrupted, abnormal	true	0-0-GO:0042384-PATO:0001507-0-0-0
-http://purl.obolibrary.org/obo/ZP_0004391	obsolete http://purl.obolibrary.org/obo/GO_0016337 disrupted, abnormal	true	0-0-GO:0016337-PATO:0001507-0-0-0
-http://purl.obolibrary.org/obo/ZP_0004479	obsolete http://purl.obolibrary.org/obo/GO_0043206 decreased process quality, abnormal	true	0-0-GO:0043206-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004080	obsolete GO:0042384 disrupted, abnormal	true	0-0-GO:0042384-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004391	obsolete GO:0016337 disrupted, abnormal	true	0-0-GO:0016337-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004479	obsolete GO:0043206 decreased process quality, abnormal	true	0-0-GO:0043206-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0004489	obsolete intersegmental vessel abnormal, abnormal	true	0-0-ZFA:0001285-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0004583	obsolete lateral line abnormal, abnormal	true	0-0-ZFA:0001469-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0004731	obsolete obsolete lamina lucida epidermis morphology, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0004732	obsolete obsolete lamina lucida epidermis absent, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0005476	obsolete http://purl.obolibrary.org/obo/GO_0090002 disrupted, abnormal	true	0-0-GO:0090002-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0004731	obsolete lamina lucida epidermis morphology, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0004732	obsolete lamina lucida epidermis absent, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0005476	obsolete GO:0090002 disrupted, abnormal	true	0-0-GO:0090002-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0005643	obsolete fin fold actinotrichium malformed, abnormal	true	0-0-ZFA:0000089-PATO:0000646-0-0-0
-http://purl.obolibrary.org/obo/ZP_0005724	obsolete http://purl.obolibrary.org/obo/GO_0008105 disrupted, abnormal	true	0-0-GO:0008105-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005724	obsolete GO:0008105 disrupted, abnormal	true	0-0-GO:0008105-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0005759	obsolete neuromuscular synaptic transmission abnormal, abnormal	true	0-0-GO:0007274-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0005761	obsolete neuromuscular junction development abnormal, abnormal	true	0-0-GO:0007528-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0005762	obsolete larval locomotory behavior abnormal, abnormal	true	0-0-GO:0008345-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0005795	obsolete http://purl.obolibrary.org/obo/GO_0015992 disrupted, abnormal	true	0-0-GO:0015992-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0005795	obsolete GO:0015992 disrupted, abnormal	true	0-0-GO:0015992-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0005961	obsolete embryo development ending in birth or egg hatching disrupted, abnormal	true	0-0-GO:0009792-PATO:0001507-0-0-0
-http://purl.obolibrary.org/obo/ZP_0006588	obsolete http://purl.obolibrary.org/obo/GO_0007067 decreased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006588	obsolete GO:0007067 decreased occurrence, abnormal	true	0-0-GO:0007067-PATO:0002052-0-0-0
 http://purl.obolibrary.org/obo/ZP_0006793	obsolete startle response abnormal, abnormal	true	0-0-GO:0001964-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0006795	obsolete tonic skeletal muscle contraction abnormal, abnormal	true	0-0-GO:0014720-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0006810	obsolete http://purl.obolibrary.org/obo/GO_0007067 increased duration, abnormal	true	0-0-GO:0007067-PATO:0000498-0-0-0
+http://purl.obolibrary.org/obo/ZP_0006810	obsolete GO:0007067 increased duration, abnormal	true	0-0-GO:0007067-PATO:0000498-0-0-0
 http://purl.obolibrary.org/obo/ZP_0006812	obsolete spindle pole body duplication decreased occurrence, abnormal	true	0-0-GO:0030474-PATO:0002052-0-0-0
 http://purl.obolibrary.org/obo/ZP_0006813	obsolete developmental growth abnormal, abnormal	true	0-0-GO:0048589-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0006886	obsolete retina abnormal, abnormal	true	0-0-ZFA:0000152-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0007778	obsolete obsolete death premature, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0007778	obsolete death premature, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0007907	obsolete neuromuscular process controlling balance abnormal, abnormal	true	0-0-GO:0050885-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0007925	obsolete heart contraction abnormal, abnormal	true	0-0-GO:0060047-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0008101	obsolete heart looping abnormal, abnormal	true	0-0-GO:0001947-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0008109	obsolete obsolete death increased rate, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0008109	obsolete death increased rate, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0008271	obsolete eye abnormal, abnormal	true	0-0-ZFA:0000107-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0008276	obsolete head abnormal, abnormal	true	0-0-ZFA:0001114-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0008578	obsolete http://purl.obolibrary.org/obo/GO_0016337 decreased process quality, abnormal	true	0-0-GO:0016337-PATO:0002302-0-0-0
-http://purl.obolibrary.org/obo/ZP_0008616	obsolete http://purl.obolibrary.org/obo/GO_0040023 disrupted, abnormal	true	0-0-GO:0040023-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008578	obsolete GO:0016337 decreased process quality, abnormal	true	0-0-GO:0016337-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0008616	obsolete GO:0040023 disrupted, abnormal	true	0-0-GO:0040023-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0008731	obsolete laminin binding whole organism decreased occurrence, abnormal	true	GO:0043236-BFO:0000050-ZFA:0001094-PATO:0002052-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009019	obsolete telomere maintenance via telomerase abnormal, abnormal	true	0-0-GO:0007004-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009161	obsolete sarcomerogenesis decreased process quality, abnormal	true	0-0-GO:0048769-PATO:0002302-0-0-0
-http://purl.obolibrary.org/obo/ZP_0009170	obsolete http://purl.obolibrary.org/obo/ZFA_0000283 decreased size, abnormal	true	0-0-ZFA:0000283-PATO:0000587-0-0-0
-http://purl.obolibrary.org/obo/ZP_0009171	obsolete http://purl.obolibrary.org/obo/ZFA_0000283 disorganized, abnormal	true	0-0-ZFA:0000283-PATO:0000937-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009170	obsolete ZFA:0000283 decreased size, abnormal	true	0-0-ZFA:0000283-PATO:0000587-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009171	obsolete ZFA:0000283 disorganized, abnormal	true	0-0-ZFA:0000283-PATO:0000937-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009266	obsolete heart abnormal, abnormal	true	0-0-ZFA:0000114-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0009447	obsolete http://purl.obolibrary.org/obo/GO_0007067 disrupted, abnormal	true	0-0-GO:0007067-PATO:0001507-0-0-0
-http://purl.obolibrary.org/obo/ZP_0009464	obsolete http://purl.obolibrary.org/obo/GO_0042516 disrupted, abnormal	true	0-0-GO:0042516-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009447	obsolete GO:0007067 disrupted, abnormal	true	0-0-GO:0007067-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009464	obsolete GO:0042516 disrupted, abnormal	true	0-0-GO:0042516-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009792	obsolete roof plate rhombomere region decreased width, abnormal	true	0-0-ZFA:0001311-PATO:0000599-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009900	obsolete choroidal fissure open, abnormal	true	0-0-ZFA:0001075-PATO:0000610-0-0-0
 http://purl.obolibrary.org/obo/ZP_0009937	obsolete alkaline phosphatase activity dorsal aorta decreased occurrence, abnormal	true	GO:0004035-BFO:0000050-ZFA:0000014-PATO:0002052-0-0-0
-http://purl.obolibrary.org/obo/ZP_0009945	obsolete http://purl.obolibrary.org/obo/GO_0016337 increased occurrence, abnormal	true	0-0-GO:0016337-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0009945	obsolete GO:0016337 increased occurrence, abnormal	true	0-0-GO:0016337-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010155	obsolete choroid plexus fourth ventricle morphology, abnormal	true	0-0-ZFA:0001446-PATO:0000051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010242	obsolete subintestinal vein abnormal, abnormal	true	0-0-ZFA:0005035-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010456	obsolete vasculature abnormal, abnormal	true	0-0-ZFA:0005249-PATO:0000460-0-0-0
-http://purl.obolibrary.org/obo/ZP_0010480	obsolete obsolete tissue death increased occurrence, abnormal	true	0-0-GO:0016271-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0010480	obsolete tissue death increased occurrence, abnormal	true	0-0-GO:0016271-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010636	obsolete pharyngeal arch cartilage abnormal, abnormal	true	0-0-ZFA:0001460-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010844	obsolete cranial cartilage abnormal, abnormal	true	0-0-ZFA:0001458-PATO:0000460-0-0-0
 http://purl.obolibrary.org/obo/ZP_0010852	obsolete thoracic duct abnormal, abnormal	true	0-0-ZFA:0005110-PATO:0000460-0-0-0
@@ -90,30 +90,30 @@ http://purl.obolibrary.org/obo/ZP_0011111	obsolete fourth ventricle development 
 http://purl.obolibrary.org/obo/ZP_0011273	obsolete vH ionocyte rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000161-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011298	obsolete vH ionocyte decreased rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000911-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011353	obsolete cysteine-type endopeptidase activity retinal ganglion cell decreased occurrence, abnormal	true	GO:0004197-BFO:0000050-ZFA:0009310-PATO:0002052-0-0-0
-http://purl.obolibrary.org/obo/ZP_0011459	obsolete http://purl.obolibrary.org/obo/GO_0000046 process quality, abnormal	true	0-0-GO:0000046-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0011459	obsolete GO:0000046 process quality, abnormal	true	0-0-GO:0000046-PATO:0001236-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011654	obsolete choroidal fissure closure incomplete, abnormal	true	0-0-ZFA:0001075-PATO:0000609-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011765	obsolete collateral sprouting in absence of injury disrupted, abnormal	true	0-0-GO:0048669-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011772	obsolete pronephric tubule branched, abnormal	true	0-0-ZFA:0001558-PATO:0000402-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011773	obsolete pronephric tubule undulate, abnormal	true	0-0-ZFA:0001558-PATO:0000967-0-0-0
 http://purl.obolibrary.org/obo/ZP_0011774	obsolete pronephric tubule in contact with pronephric tubule, abnormal	true	0-0-ZFA:0001558-PATO:0001961-0-0-ZFA:0001558
 http://purl.obolibrary.org/obo/ZP_0012000	obsolete phosphodiesterase I activity whole organism decreased occurrence, abnormal	true	GO:0004528-BFO:0000050-ZFA:0001094-PATO:0002052-0-0-0
-http://purl.obolibrary.org/obo/ZP_0012094	obsolete http://purl.obolibrary.org/obo/GO_0097369 increased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002051-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012094	obsolete GO:0097369 increased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002051-0-0-0
 http://purl.obolibrary.org/obo/ZP_0012239	obsolete kidney lacks parts or has fewer parts of type hematopoietic stem cell, abnormal	true	0-0-ZFA:0000529-PATO:0001999-0-0-ZFA:0009014
-http://purl.obolibrary.org/obo/ZP_0012509	obsolete hindbrain has fewer parts of type http://purl.obolibrary.org/obo/ZFA_0005182, abnormal	true	0-0-ZFA:0000029-PATO:0002001-0-0-ZFA:0005182
+http://purl.obolibrary.org/obo/ZP_0012509	obsolete hindbrain has fewer parts of type ZFA:0005182, abnormal	true	0-0-ZFA:0000029-PATO:0002001-0-0-ZFA:0005182
 http://purl.obolibrary.org/obo/ZP_0012579	obsolete catechol oxidase activity eye disrupted, abnormal	true	GO:0004097-BFO:0000050-ZFA:0000107-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0012581	obsolete catechol oxidase activity melanocyte disrupted, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0012644	obsolete NMDA glutamate receptor activity Mauthner neuron decreased duration, abnormal	true	GO:0004972-BFO:0000050-ZFA:0009149-PATO:0000499-0-0-0
 http://purl.obolibrary.org/obo/ZP_0012645	obsolete NMDA glutamate receptor activity Mauthner neuron decreased process quality, abnormal	true	GO:0004972-BFO:0000050-ZFA:0009149-PATO:0002302-0-0-0
-http://purl.obolibrary.org/obo/ZP_0012894	obsolete http://purl.obolibrary.org/obo/GO_0042384 growth quality of occurrent, abnormal	true	0-0-GO:0042384-PATO:0001433-0-0-0
+http://purl.obolibrary.org/obo/ZP_0012894	obsolete GO:0042384 growth quality of occurrent, abnormal	true	0-0-GO:0042384-PATO:0001433-0-0-0
 http://purl.obolibrary.org/obo/ZP_0012972	obsolete somite present, abnormal	true	0-0-ZFA:0000155-PATO:0000467-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013049	obsolete convergent extension occurrence, abnormal	true	0-0-GO:0060026-PATO:0000057-0-0-0
-http://purl.obolibrary.org/obo/ZP_0013238	obsolete http://purl.obolibrary.org/obo/ZFA_0005182 amount, abnormal	true	0-0-ZFA:0005182-PATO:0000070-0-0-0
-http://purl.obolibrary.org/obo/ZP_0013302	obsolete http://purl.obolibrary.org/obo/GO_0015992 process quality, abnormal	true	0-0-GO:0015992-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013238	obsolete ZFA:0005182 amount, abnormal	true	0-0-ZFA:0005182-PATO:0000070-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013302	obsolete GO:0015992 process quality, abnormal	true	0-0-GO:0015992-PATO:0001236-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013461	obsolete catechol oxidase activity eye process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0000107-PATO:0001236-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013462	obsolete catechol oxidase activity melanocyte process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0001236-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013468	obsolete heart contraction rhythmic, abnormal	true	0-0-GO:0060047-PATO:0000505-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013539	obsolete AMPA glutamate receptor activity Mauthner neuron process quality, abnormal	true	GO:0004971-BFO:0000050-ZFA:0009149-PATO:0001236-0-0-0
-http://purl.obolibrary.org/obo/ZP_0013587	obsolete http://purl.obolibrary.org/obo/GO_0007067 occurrence, abnormal	true	0-0-GO:0007067-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0013587	obsolete GO:0007067 occurrence, abnormal	true	0-0-GO:0007067-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013686	obsolete neurotransmitter secretion frequency, abnormal	true	0-0-GO:0007269-PATO:0000044-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013740	obsolete roof plate rhombomere region thickness, abnormal	true	0-0-ZFA:0001311-PATO:0000915-0-0-0
 http://purl.obolibrary.org/obo/ZP_0013928	obsolete biological_process quality, abnormal	true	0-0-GO:0008150-PATO:0000001-0-0-0
@@ -121,30 +121,30 @@ http://purl.obolibrary.org/obo/ZP_0013929	obsolete molecular_function quality, a
 http://purl.obolibrary.org/obo/ZP_0013930	obsolete cellular_component quality, abnormal	true	0-0-GO:0005575-PATO:0000001-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014080	obsolete alkaline phosphatase activity gut epithelium disrupted, abnormal	true	GO:0004035-BFO:0000050-ZFA:0005123-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014084	obsolete extracellular matrix component regenerating fin increased amount, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0014250	obsolete http://purl.obolibrary.org/obo/GO_0007067 decreased rate, abnormal	true	0-0-GO:0007067-PATO:0000911-0-0-0
-http://purl.obolibrary.org/obo/ZP_0014429	obsolete obsolete ATP catabolic process increased process quality, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
-http://purl.obolibrary.org/obo/ZP_0014493	obsolete http://purl.obolibrary.org/obo/GO_0071436 increased process quality, abnormal	true	0-0-GO:0071436-PATO:0002304-0-0-0
-http://purl.obolibrary.org/obo/ZP_0014494	obsolete http://purl.obolibrary.org/obo/GO_0097369 increased process quality, abnormal	true	0-0-GO:0097369-PATO:0002304-0-0-0
-http://purl.obolibrary.org/obo/ZP_0014578	obsolete http://purl.obolibrary.org/obo/GO_0000046 decreased process quality, abnormal	true	0-0-GO:0000046-PATO:0002302-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014250	obsolete GO:0007067 decreased rate, abnormal	true	0-0-GO:0007067-PATO:0000911-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014429	obsolete ATP catabolic process increased process quality, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0014493	obsolete GO:0071436 increased process quality, abnormal	true	0-0-GO:0071436-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014494	obsolete GO:0097369 increased process quality, abnormal	true	0-0-GO:0097369-PATO:0002304-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014578	obsolete GO:0000046 decreased process quality, abnormal	true	0-0-GO:0000046-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014675	obsolete cysteine-type endopeptidase activity retinal ganglion cell occurrence, abnormal	true	GO:0004197-BFO:0000050-ZFA:0009310-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014683	obsolete vH ionocyte increased rate ATP hydrolysis coupled proton transport, abnormal	true	GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000912-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014750	obsolete acetylcholinesterase activity gut decreased process quality, abnormal	true	GO:0003990-BFO:0000050-ZFA:0000112-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0014821	obsolete retinal ganglion cell proliferative, abnormal	true	0-0-ZFA:0009310-PATO:0002102-0-0-0
-http://purl.obolibrary.org/obo/ZP_0014871	obsolete http://purl.obolibrary.org/obo/GO_0000046 disrupted, abnormal	true	0-0-GO:0000046-PATO:0001507-0-0-0
+http://purl.obolibrary.org/obo/ZP_0014871	obsolete GO:0000046 disrupted, abnormal	true	0-0-GO:0000046-PATO:0001507-0-0-0
 http://purl.obolibrary.org/obo/ZP_0015017	obsolete somite border amount, abnormal	true	0-0-ZFA:0001462-PATO:0000070-0-0-0
-http://purl.obolibrary.org/obo/ZP_0015044	obsolete obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal	true	0-0-GO:0021867-PATO:0000057-0-0-0
+http://purl.obolibrary.org/obo/ZP_0015044	obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal	true	0-0-GO:0021867-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0015312	obsolete nitric-oxide synthase activity leukocyte increased process quality, abnormal	true	GO:0004517-BFO:0000050-ZFA:0009309-PATO:0002304-0-0-0
 http://purl.obolibrary.org/obo/ZP_0015364	obsolete corpuscles of Stannius present, abnormal	true	0-0-ZFA:0001200-PATO:0000467-0-0-0
 http://purl.obolibrary.org/obo/ZP_0015456	obsolete antibiotic transport disrupted, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0015457	obsolete antibiotic transmembrane transporter activity decreased occurrence, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0016275	obsolete catechol oxidase activity melanocyte decreased process quality, abnormal	true	GO:0004097-BFO:0000050-ZFA:0009091-PATO:0002302-0-0-0
-http://purl.obolibrary.org/obo/ZP_0016566	obsolete cell cycle lacking processual parts http://purl.obolibrary.org/obo/GO_0007067, abnormal	true	0-0-GO:0007049-PATO:0001558-0-0-GO:0007067
+http://purl.obolibrary.org/obo/ZP_0016566	obsolete cell cycle lacking processual parts GO:0007067, abnormal	true	0-0-GO:0007049-PATO:0001558-0-0-GO:0007067
 http://purl.obolibrary.org/obo/ZP_0016882	obsolete GTPase activator activity integument increased process quality, abnormal	true	GO:0005096-BFO:0000050-ZFA:0000368-PATO:0002304-0-0-0
 http://purl.obolibrary.org/obo/ZP_0016921	obsolete olfactory receptor activity microvillous olfactory receptor neuron decreased process quality, abnormal	true	GO:0004984-BFO:0000050-ZFA:0009359-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0016922	obsolete olfactory receptor activity olfactory bulb decreased process quality, abnormal	true	GO:0004984-BFO:0000050-ZFA:0000402-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0017133	obsolete diencephalon position, abnormal	true	0-0-ZFA:0000101-PATO:0000140-0-0-0
 http://purl.obolibrary.org/obo/ZP_0017135	obsolete heart rudiment position, abnormal	true	0-0-ZFA:0000115-PATO:0000140-0-0-0
-http://purl.obolibrary.org/obo/ZP_0017199	obsolete http://purl.obolibrary.org/obo/GO_0097369 decreased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002052-0-0-0
+http://purl.obolibrary.org/obo/ZP_0017199	obsolete GO:0097369 decreased occurrence, abnormal	true	0-0-GO:0097369-PATO:0002052-0-0-0
 http://purl.obolibrary.org/obo/ZP_0017531	obsolete peroxidase activity neutrophil decreased process quality, abnormal	true	GO:0004601-BFO:0000050-ZFA:0009327-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0017619	obsolete chitin synthase activity intestine lumen decreased occurrence, abnormal	true	GO:0004100-BFO:0000050-ZFA:0005807-PATO:0002052-0-0-0
 http://purl.obolibrary.org/obo/ZP_0018493	obsolete intracellular part skeletal muscle aggregated, abnormal	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
@@ -708,7 +708,7 @@ http://purl.obolibrary.org/obo/ZP_0104720	obsolete lens epithelium thickness, ab
 http://purl.obolibrary.org/obo/ZP_0104733	obsolete heart decreased process quality heart jogging, abnormal	true	GO:0003146-BFO:0000066-ZFA:0000114-PATO:0002302-0-0-0
 http://purl.obolibrary.org/obo/ZP_0104737	obsolete lens epithelium normal thickness, abnormal	true	0-0-ZFA:0001326-PATO:0045059-0-0-0
 http://purl.obolibrary.org/obo/ZP_0104741	obsolete cilium Kupffer's vesicle position, abnormal	true	GO:0005929-BFO:0000050-ZFA:0000001-PATO:0000140-0-0-0
-http://purl.obolibrary.org/obo/ZP_0104746	obsolete http://purl.obolibrary.org/obo/GO_0033142 ovary process quality, abnormal	true	GO:0033142-BFO:0000050-ZFA:0000403-PATO:0001236-0-0-0
+http://purl.obolibrary.org/obo/ZP_0104746	obsolete GO:0033142 ovary process quality, abnormal	true	GO:0033142-BFO:0000050-ZFA:0000403-PATO:0001236-0-0-0
 http://purl.obolibrary.org/obo/ZP_0104775	obsolete aggressive behavior occurrence, abnormal	true	0-0-GO:0002118-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0104778	obsolete radial glial cell occurrence stem cell proliferation, abnormal	true	GO:0072089-BFO:0000066-ZFA:0009292-PATO:0000057-0-0-0
 http://purl.obolibrary.org/obo/ZP_0127643	obsolete abnormal Kupffer's vesicle	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
