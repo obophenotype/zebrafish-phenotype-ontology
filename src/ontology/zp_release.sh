@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
-sh run.sh make zp_pipeline
-sh run.sh make SRC=zp-edit-release.owl prepare_release
+sh run.sh make zp_pipeline -B
+sh run.sh make SRC=zp-edit-release.owl prepare_release -B
