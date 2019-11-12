@@ -277,8 +277,6 @@ ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitive
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
 ERROR	deprecated_property_reference	RO:0002609	rdfs:subPropertyOf	RO:0002410	
 ERROR	missing_label	oboInOwl:Subset	rdfs:label		
-ERROR	misused_obsolete_label	ZP:0110354	rdfs:label	obsolete extracellular matrix component cranial cartilage spatial pattern, abnormal	
-ERROR	misused_obsolete_label	ZP:0110355	rdfs:label	obsolete intracellular part retina decreased amount, abnormal	
 ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0042734	
 ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0045211	
 ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0005634	
@@ -999,7 +997,7 @@ ERROR	multiple_labels	RO:0003000	rdfs:label	produces
 ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
-WARN	annotation_whitespace	753dd56914d96382befff76e4d6c2b8b	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	5da3e85f03c751a898dcb8da699f1371	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	

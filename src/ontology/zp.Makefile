@@ -192,8 +192,14 @@ preprocess:
 	remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false -o zp-edit-release.ofn
 	mv zp-edit-release.ofn zp-edit-release.owl
 
+# BASE product needs to be overwritten because SRC is, during run of prepare release, a merged artefact (see zp_release.sh)
+$(ONT)-base.owl: $(SRC) $(OTHER_SRC)
+	$(ROBOT) remove --input zp-edit.owl --select imports --trim false \
+		merge $(patsubst %, -i %, $(OTHER_SRC)) \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
+
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates preprocess
+zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates patterns preprocess
 
 
 
@@ -201,7 +207,15 @@ zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels template
 ### TEST PIPELINE                 ##########
 #############################################
 
+$(TMPDIR)/new_labels.txt:
+	robot query -f csv -i ../../zp.owl --query ../sparql/zp_label_terms.sparql $@
+
+$(TMPDIR)/old_labels.txt:
+	robot query -f csv -I $(OBOPURL)zp.owl --query ../sparql/zp_label_terms.sparql $@
+
+mass_obsolete: $(TMPDIR)/old_labels.txt $(TMPDIR)/new_labels.txt
+	python3 ../scripts/mass_obsolete.py $(TMPDIR)/old_labels.txt $(TMPDIR)/new_labels.txt ../templates/obsolete.tsv
 
 qc:
-	#$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
-	$(ROBOT) merge --input zp_zfa.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
+	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
+	$(ROBOT) merge --input ../../zp.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
