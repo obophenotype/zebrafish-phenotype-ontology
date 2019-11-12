@@ -96,11 +96,10 @@ d['id'] = d['id_raw'].apply(lambda x: correct_id(x))
 # Merge the fresh set of annotations with the current set of ZP identifiers
 zfin_id_map_merged = pd.merge(d, id_map, on='id', how='left')
 zfin_id_map_merged = zfin_id_map_merged.drop_duplicates()
-check_broken = zfin_id_map_merged[['iri','id']].drop_duplicates()
 # Make sure there are no duplicate ids.
-broken = get_rows_with_duplicates(check_broken,'iri')
+broken = get_rows_with_duplicates(zfin_id_map_merged,'id')
 if len(broken)>0:
-    e = str(broken[['id_raw','iri']])
+    e = str(broken)
     #broken.to_csv("broken_idmap.tsv", sep = '\t', index=False)
     raise ValueError('There are postcomposed EQ annotations with more than 1 IRI: '+e)
 

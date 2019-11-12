@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-11-11/imports/uberon_import.owl
+data-version: zp/releases/2019-11-12/imports/uberon_import.owl
 subsetdef: cumbo "CUMBO"
 subsetdef: developmental_classification "developmental_classification"
 subsetdef: early_development "A class that represents an early developmental structure, like a blastocyst. This part of the ontology is undergoing review to remove inappropriate grouping classes."

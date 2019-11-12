@@ -703,7 +703,6 @@ http://purl.obolibrary.org/obo/GO_0006120
 http://purl.obolibrary.org/obo/GO_0006122
 http://purl.obolibrary.org/obo/GO_0006171
 http://purl.obolibrary.org/obo/GO_0006183
-http://purl.obolibrary.org/obo/GO_0006200
 http://purl.obolibrary.org/obo/GO_0006260
 http://purl.obolibrary.org/obo/GO_0006264
 http://purl.obolibrary.org/obo/GO_0006284
@@ -810,7 +809,6 @@ http://purl.obolibrary.org/obo/GO_0007052
 http://purl.obolibrary.org/obo/GO_0007059
 http://purl.obolibrary.org/obo/GO_0007062
 http://purl.obolibrary.org/obo/GO_0007064
-http://purl.obolibrary.org/obo/GO_0007067
 http://purl.obolibrary.org/obo/GO_0007076
 http://purl.obolibrary.org/obo/GO_0007079
 http://purl.obolibrary.org/obo/GO_0007080
@@ -917,7 +915,6 @@ http://purl.obolibrary.org/obo/GO_0007632
 http://purl.obolibrary.org/obo/GO_0007634
 http://purl.obolibrary.org/obo/GO_0007635
 http://purl.obolibrary.org/obo/GO_0007638
-http://purl.obolibrary.org/obo/GO_0008002
 http://purl.obolibrary.org/obo/GO_0008003
 http://purl.obolibrary.org/obo/GO_0008015
 http://purl.obolibrary.org/obo/GO_0008016
@@ -1125,7 +1122,6 @@ http://purl.obolibrary.org/obo/GO_0015926
 http://purl.obolibrary.org/obo/GO_0015929
 http://purl.obolibrary.org/obo/GO_0015934
 http://purl.obolibrary.org/obo/GO_0015988
-http://purl.obolibrary.org/obo/GO_0015991
 http://purl.obolibrary.org/obo/GO_0016011
 http://purl.obolibrary.org/obo/GO_0016020
 http://purl.obolibrary.org/obo/GO_0016042
@@ -1143,7 +1139,6 @@ http://purl.obolibrary.org/obo/GO_0016209
 http://purl.obolibrary.org/obo/GO_0016234
 http://purl.obolibrary.org/obo/GO_0016236
 http://purl.obolibrary.org/obo/GO_0016264
-http://purl.obolibrary.org/obo/GO_0016265
 http://purl.obolibrary.org/obo/GO_0016298
 http://purl.obolibrary.org/obo/GO_0016308
 http://purl.obolibrary.org/obo/GO_0016322
@@ -1152,7 +1147,6 @@ http://purl.obolibrary.org/obo/GO_0016324
 http://purl.obolibrary.org/obo/GO_0016325
 http://purl.obolibrary.org/obo/GO_0016327
 http://purl.obolibrary.org/obo/GO_0016331
-http://purl.obolibrary.org/obo/GO_0016337
 http://purl.obolibrary.org/obo/GO_0016338
 http://purl.obolibrary.org/obo/GO_0016339
 http://purl.obolibrary.org/obo/GO_0016342
@@ -1783,7 +1777,6 @@ http://purl.obolibrary.org/obo/GO_0042330
 http://purl.obolibrary.org/obo/GO_0042331
 http://purl.obolibrary.org/obo/GO_0042353
 http://purl.obolibrary.org/obo/GO_0042383
-http://purl.obolibrary.org/obo/GO_0042384
 http://purl.obolibrary.org/obo/GO_0042391
 http://purl.obolibrary.org/obo/GO_0042407
 http://purl.obolibrary.org/obo/GO_0042414
@@ -1839,8 +1832,6 @@ http://purl.obolibrary.org/obo/GO_0042776
 http://purl.obolibrary.org/obo/GO_0042789
 http://purl.obolibrary.org/obo/GO_0042791
 http://purl.obolibrary.org/obo/GO_0042799
-http://purl.obolibrary.org/obo/GO_0042891
-http://purl.obolibrary.org/obo/GO_0042895
 http://purl.obolibrary.org/obo/GO_0042981
 http://purl.obolibrary.org/obo/GO_0042982
 http://purl.obolibrary.org/obo/GO_0042995
@@ -1941,10 +1932,7 @@ http://purl.obolibrary.org/obo/GO_0044342
 http://purl.obolibrary.org/obo/GO_0044381
 http://purl.obolibrary.org/obo/GO_0044420
 http://purl.obolibrary.org/obo/GO_0044424
-http://purl.obolibrary.org/obo/GO_0044430
-http://purl.obolibrary.org/obo/GO_0044444
 http://purl.obolibrary.org/obo/GO_0044458
-http://purl.obolibrary.org/obo/GO_0044463
 http://purl.obolibrary.org/obo/GO_0044537
 http://purl.obolibrary.org/obo/GO_0044703
 http://purl.obolibrary.org/obo/GO_0044754
@@ -9116,7 +9104,6 @@ http://purl.obolibrary.org/obo/ZP_0002371
 http://purl.obolibrary.org/obo/ZP_0002372
 http://purl.obolibrary.org/obo/ZP_0002373
 http://purl.obolibrary.org/obo/ZP_0002374
-http://purl.obolibrary.org/obo/ZP_0002375
 http://purl.obolibrary.org/obo/ZP_0002376
 http://purl.obolibrary.org/obo/ZP_0002377
 http://purl.obolibrary.org/obo/ZP_0002378
@@ -9220,7 +9207,6 @@ http://purl.obolibrary.org/obo/ZP_0002479
 http://purl.obolibrary.org/obo/ZP_0002480
 http://purl.obolibrary.org/obo/ZP_0002481
 http://purl.obolibrary.org/obo/ZP_0002482
-http://purl.obolibrary.org/obo/ZP_0002483
 http://purl.obolibrary.org/obo/ZP_0002484
 http://purl.obolibrary.org/obo/ZP_0002485
 http://purl.obolibrary.org/obo/ZP_0002486
@@ -10414,7 +10400,6 @@ http://purl.obolibrary.org/obo/ZP_0003694
 http://purl.obolibrary.org/obo/ZP_0003695
 http://purl.obolibrary.org/obo/ZP_0003696
 http://purl.obolibrary.org/obo/ZP_0003697
-http://purl.obolibrary.org/obo/ZP_0003698
 http://purl.obolibrary.org/obo/ZP_0003699
 http://purl.obolibrary.org/obo/ZP_0003700
 http://purl.obolibrary.org/obo/ZP_0003701
@@ -11438,8 +11423,6 @@ http://purl.obolibrary.org/obo/ZP_0004727
 http://purl.obolibrary.org/obo/ZP_0004728
 http://purl.obolibrary.org/obo/ZP_0004729
 http://purl.obolibrary.org/obo/ZP_0004730
-http://purl.obolibrary.org/obo/ZP_0004731
-http://purl.obolibrary.org/obo/ZP_0004732
 http://purl.obolibrary.org/obo/ZP_0004735
 http://purl.obolibrary.org/obo/ZP_0004736
 http://purl.obolibrary.org/obo/ZP_0004737
@@ -14451,7 +14434,6 @@ http://purl.obolibrary.org/obo/ZP_0007774
 http://purl.obolibrary.org/obo/ZP_0007775
 http://purl.obolibrary.org/obo/ZP_0007776
 http://purl.obolibrary.org/obo/ZP_0007777
-http://purl.obolibrary.org/obo/ZP_0007778
 http://purl.obolibrary.org/obo/ZP_0007779
 http://purl.obolibrary.org/obo/ZP_0007780
 http://purl.obolibrary.org/obo/ZP_0007781
@@ -14779,7 +14761,6 @@ http://purl.obolibrary.org/obo/ZP_0008105
 http://purl.obolibrary.org/obo/ZP_0008106
 http://purl.obolibrary.org/obo/ZP_0008107
 http://purl.obolibrary.org/obo/ZP_0008108
-http://purl.obolibrary.org/obo/ZP_0008109
 http://purl.obolibrary.org/obo/ZP_0008110
 http://purl.obolibrary.org/obo/ZP_0008111
 http://purl.obolibrary.org/obo/ZP_0008112
@@ -17600,7 +17581,6 @@ http://purl.obolibrary.org/obo/ZP_0010966
 http://purl.obolibrary.org/obo/ZP_0010968
 http://purl.obolibrary.org/obo/ZP_0010969
 http://purl.obolibrary.org/obo/ZP_0010971
-http://purl.obolibrary.org/obo/ZP_0010972
 http://purl.obolibrary.org/obo/ZP_0010973
 http://purl.obolibrary.org/obo/ZP_0010974
 http://purl.obolibrary.org/obo/ZP_0010975
@@ -17894,7 +17874,6 @@ http://purl.obolibrary.org/obo/ZP_0011269
 http://purl.obolibrary.org/obo/ZP_0011270
 http://purl.obolibrary.org/obo/ZP_0011271
 http://purl.obolibrary.org/obo/ZP_0011272
-http://purl.obolibrary.org/obo/ZP_0011273
 http://purl.obolibrary.org/obo/ZP_0011274
 http://purl.obolibrary.org/obo/ZP_0011275
 http://purl.obolibrary.org/obo/ZP_0011276
@@ -17919,7 +17898,6 @@ http://purl.obolibrary.org/obo/ZP_0011294
 http://purl.obolibrary.org/obo/ZP_0011295
 http://purl.obolibrary.org/obo/ZP_0011296
 http://purl.obolibrary.org/obo/ZP_0011297
-http://purl.obolibrary.org/obo/ZP_0011298
 http://purl.obolibrary.org/obo/ZP_0011299
 http://purl.obolibrary.org/obo/ZP_0011300
 http://purl.obolibrary.org/obo/ZP_0011301
@@ -20607,7 +20585,6 @@ http://purl.obolibrary.org/obo/ZP_0014079
 http://purl.obolibrary.org/obo/ZP_0014081
 http://purl.obolibrary.org/obo/ZP_0014082
 http://purl.obolibrary.org/obo/ZP_0014083
-http://purl.obolibrary.org/obo/ZP_0014084
 http://purl.obolibrary.org/obo/ZP_0014085
 http://purl.obolibrary.org/obo/ZP_0014086
 http://purl.obolibrary.org/obo/ZP_0014087
@@ -20947,7 +20924,6 @@ http://purl.obolibrary.org/obo/ZP_0014424
 http://purl.obolibrary.org/obo/ZP_0014425
 http://purl.obolibrary.org/obo/ZP_0014427
 http://purl.obolibrary.org/obo/ZP_0014428
-http://purl.obolibrary.org/obo/ZP_0014429
 http://purl.obolibrary.org/obo/ZP_0014430
 http://purl.obolibrary.org/obo/ZP_0014431
 http://purl.obolibrary.org/obo/ZP_0014432
@@ -21194,7 +21170,6 @@ http://purl.obolibrary.org/obo/ZP_0014679
 http://purl.obolibrary.org/obo/ZP_0014680
 http://purl.obolibrary.org/obo/ZP_0014681
 http://purl.obolibrary.org/obo/ZP_0014682
-http://purl.obolibrary.org/obo/ZP_0014683
 http://purl.obolibrary.org/obo/ZP_0014684
 http://purl.obolibrary.org/obo/ZP_0014685
 http://purl.obolibrary.org/obo/ZP_0014686
@@ -21955,8 +21930,6 @@ http://purl.obolibrary.org/obo/ZP_0015452
 http://purl.obolibrary.org/obo/ZP_0015453
 http://purl.obolibrary.org/obo/ZP_0015454
 http://purl.obolibrary.org/obo/ZP_0015455
-http://purl.obolibrary.org/obo/ZP_0015456
-http://purl.obolibrary.org/obo/ZP_0015457
 http://purl.obolibrary.org/obo/ZP_0015458
 http://purl.obolibrary.org/obo/ZP_0015459
 http://purl.obolibrary.org/obo/ZP_0015460
@@ -24957,8 +24930,6 @@ http://purl.obolibrary.org/obo/ZP_0018489
 http://purl.obolibrary.org/obo/ZP_0018490
 http://purl.obolibrary.org/obo/ZP_0018491
 http://purl.obolibrary.org/obo/ZP_0018492
-http://purl.obolibrary.org/obo/ZP_0018493
-http://purl.obolibrary.org/obo/ZP_0018494
 http://purl.obolibrary.org/obo/ZP_0018495
 http://purl.obolibrary.org/obo/ZP_0018496
 http://purl.obolibrary.org/obo/ZP_0018497
@@ -29311,7 +29282,6 @@ http://purl.obolibrary.org/obo/ZP_0100046
 http://purl.obolibrary.org/obo/ZP_0100047
 http://purl.obolibrary.org/obo/ZP_0100048
 http://purl.obolibrary.org/obo/ZP_0100049
-http://purl.obolibrary.org/obo/ZP_0100050
 http://purl.obolibrary.org/obo/ZP_0100051
 http://purl.obolibrary.org/obo/ZP_0100052
 http://purl.obolibrary.org/obo/ZP_0100053
@@ -29352,10 +29322,7 @@ http://purl.obolibrary.org/obo/ZP_0100087
 http://purl.obolibrary.org/obo/ZP_0100088
 http://purl.obolibrary.org/obo/ZP_0100089
 http://purl.obolibrary.org/obo/ZP_0100090
-http://purl.obolibrary.org/obo/ZP_0100091
 http://purl.obolibrary.org/obo/ZP_0100092
-http://purl.obolibrary.org/obo/ZP_0100093
-http://purl.obolibrary.org/obo/ZP_0100094
 http://purl.obolibrary.org/obo/ZP_0100095
 http://purl.obolibrary.org/obo/ZP_0100096
 http://purl.obolibrary.org/obo/ZP_0100097
@@ -29442,7 +29409,6 @@ http://purl.obolibrary.org/obo/ZP_0100177
 http://purl.obolibrary.org/obo/ZP_0100178
 http://purl.obolibrary.org/obo/ZP_0100179
 http://purl.obolibrary.org/obo/ZP_0100181
-http://purl.obolibrary.org/obo/ZP_0100182
 http://purl.obolibrary.org/obo/ZP_0100183
 http://purl.obolibrary.org/obo/ZP_0100184
 http://purl.obolibrary.org/obo/ZP_0100185
@@ -29475,7 +29441,6 @@ http://purl.obolibrary.org/obo/ZP_0100211
 http://purl.obolibrary.org/obo/ZP_0100212
 http://purl.obolibrary.org/obo/ZP_0100213
 http://purl.obolibrary.org/obo/ZP_0100215
-http://purl.obolibrary.org/obo/ZP_0100216
 http://purl.obolibrary.org/obo/ZP_0100217
 http://purl.obolibrary.org/obo/ZP_0100218
 http://purl.obolibrary.org/obo/ZP_0100219
@@ -29533,7 +29498,6 @@ http://purl.obolibrary.org/obo/ZP_0100270
 http://purl.obolibrary.org/obo/ZP_0100271
 http://purl.obolibrary.org/obo/ZP_0100272
 http://purl.obolibrary.org/obo/ZP_0100273
-http://purl.obolibrary.org/obo/ZP_0100274
 http://purl.obolibrary.org/obo/ZP_0100275
 http://purl.obolibrary.org/obo/ZP_0100276
 http://purl.obolibrary.org/obo/ZP_0100277
@@ -32918,7 +32882,6 @@ http://purl.obolibrary.org/obo/ZP_0103872
 http://purl.obolibrary.org/obo/ZP_0103873
 http://purl.obolibrary.org/obo/ZP_0103874
 http://purl.obolibrary.org/obo/ZP_0103877
-http://purl.obolibrary.org/obo/ZP_0103878
 http://purl.obolibrary.org/obo/ZP_0103879
 http://purl.obolibrary.org/obo/ZP_0103880
 http://purl.obolibrary.org/obo/ZP_0103881
@@ -34879,7 +34842,6 @@ http://purl.obolibrary.org/obo/ZP_0106707
 http://purl.obolibrary.org/obo/ZP_0106708
 http://purl.obolibrary.org/obo/ZP_0106709
 http://purl.obolibrary.org/obo/ZP_0106710
-http://purl.obolibrary.org/obo/ZP_0106711
 http://purl.obolibrary.org/obo/ZP_0106712
 http://purl.obolibrary.org/obo/ZP_0106713
 http://purl.obolibrary.org/obo/ZP_0106714
@@ -38428,6 +38390,8 @@ http://purl.obolibrary.org/obo/ZP_0110350
 http://purl.obolibrary.org/obo/ZP_0110351
 http://purl.obolibrary.org/obo/ZP_0110352
 http://purl.obolibrary.org/obo/ZP_0110353
+http://purl.obolibrary.org/obo/ZP_0110354
+http://purl.obolibrary.org/obo/ZP_0110355
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing
