@@ -185,9 +185,15 @@ zp_labels.csv:
 	
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh zfin_pipeline.sh
-	
+
+preprocess:
+	$(ROBOT) merge -i zp-edit.owl \
+	reason --reasoner ELK  --exclude-tautologies structural \
+	remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false -o zp-edit-release.ofn
+	mv zp-edit-release.ofn zp-edit-release.owl
+
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates prepare_release
+zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates preprocess
 
 
 
@@ -197,5 +203,5 @@ zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels template
 
 
 qc:
-	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
-	$(ROBOT) reason --input ../../zp.owl --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
+	#$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
+	$(ROBOT) merge --input zp_zfa.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
