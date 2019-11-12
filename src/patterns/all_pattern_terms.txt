@@ -9104,6 +9104,7 @@ http://purl.obolibrary.org/obo/ZP_0002371
 http://purl.obolibrary.org/obo/ZP_0002372
 http://purl.obolibrary.org/obo/ZP_0002373
 http://purl.obolibrary.org/obo/ZP_0002374
+http://purl.obolibrary.org/obo/ZP_0002375
 http://purl.obolibrary.org/obo/ZP_0002376
 http://purl.obolibrary.org/obo/ZP_0002377
 http://purl.obolibrary.org/obo/ZP_0002378
@@ -32882,6 +32883,7 @@ http://purl.obolibrary.org/obo/ZP_0103872
 http://purl.obolibrary.org/obo/ZP_0103873
 http://purl.obolibrary.org/obo/ZP_0103874
 http://purl.obolibrary.org/obo/ZP_0103877
+http://purl.obolibrary.org/obo/ZP_0103878
 http://purl.obolibrary.org/obo/ZP_0103879
 http://purl.obolibrary.org/obo/ZP_0103880
 http://purl.obolibrary.org/obo/ZP_0103881
@@ -38390,8 +38392,6 @@ http://purl.obolibrary.org/obo/ZP_0110350
 http://purl.obolibrary.org/obo/ZP_0110351
 http://purl.obolibrary.org/obo/ZP_0110352
 http://purl.obolibrary.org/obo/ZP_0110353
-http://purl.obolibrary.org/obo/ZP_0110354
-http://purl.obolibrary.org/obo/ZP_0110355
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns/abnormalQualityOccursInThing
