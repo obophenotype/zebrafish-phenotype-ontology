@@ -116,7 +116,7 @@ pipeline {
 							sh 'ls'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							sh 'sh zp_release.sh'
+							sh 'sh zp_release_jenkins.sh'
 						}
 					}
 
