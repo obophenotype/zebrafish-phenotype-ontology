@@ -103,7 +103,7 @@ pipeline {
 				sh 'ls -AlF'
 				sh 'ls -AlF /'
 				sh 'mkdir -p zpo'
-				dir('./zpo') {
+				dir('.') {
 					git branch: TARGET_ONTOLOGY_BRANCH,
 						url: TARGET_ONTOLOGY_URL
 
