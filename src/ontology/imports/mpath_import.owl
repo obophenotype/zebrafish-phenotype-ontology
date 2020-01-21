@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2019-11-12/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-01-21/imports/mpath_import.owl"/>
     </owl:Ontology>
     
 
@@ -515,6 +515,45 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_271"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_268"/>
+        <obo:IAO_0000115>Derived from the mammary ductal epithelium and penetrating the stroma (M-8500/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Infiltrating ductal adenocarcinoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>duct adenocarcinoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ductal carcinoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:282</oboInOwl:id>
+        <rdfs:label>infiltrating duct carcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_282"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Derived from the mammary ductal epithelium and penetrating the stroma (M-8500/3).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_282"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Infiltrating ductal adenocarcinoma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_282"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>duct adenocarcinoma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_282"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ductal carcinoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     

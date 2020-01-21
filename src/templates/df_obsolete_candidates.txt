@@ -1,2 +1,22 @@
 Ontology ID	ZFIN Annotation	Obsolete	Label
+http://purl.obolibrary.org/obo/ZP_0002061	GO:0005623-BFO:0000050-ZFA:0000152-PATO:0001997-0-0-0	true	obsolete cell retina decreased amount, abnormal
+http://purl.obolibrary.org/obo/ZP_0004217	0-0-ZFA:0001288-PATO:0001478-0-0-0	true	obsolete renal glomerulus collapsed, abnormal
+http://purl.obolibrary.org/obo/ZP_0004219	GO:0005604-BFO:0000050-ZFA:0001288-PATO:0000937-0-0-0	true	obsolete basement membrane renal glomerulus disorganized, abnormal
+http://purl.obolibrary.org/obo/ZP_0004688	GO:0005913-BFO:0000050-ZFA:0000040-PATO:0000025-0-0-0	true	obsolete cell-cell adherens junction median fin fold composition, abnormal
+http://purl.obolibrary.org/obo/ZP_0005458	GO:0005913-BFO:0000050-ZFA:0000086-PATO:0000141-0-0-0	true	obsolete cell-cell adherens junction EVL structure, abnormal
+http://purl.obolibrary.org/obo/ZP_0005992	GO:0005623-BFO:0000050-ZFA:0000119-PATO:0001997-0-0-0	true	obsolete cell retinal inner nuclear layer decreased amount, abnormal
+http://purl.obolibrary.org/obo/ZP_0007542	GO:0005623-BFO:0000050-ZFA:0001114-PATO:0000638-0-0-0	true	obsolete cell head apoptotic, abnormal
+http://purl.obolibrary.org/obo/ZP_0008256	GO:0005623-BFO:0000050-ZFA:0000086-PATO:0000051-0-0-0	true	obsolete cell EVL morphology, abnormal
+http://purl.obolibrary.org/obo/ZP_0008631	GO:0005913-BFO:0000050-ZFA:0001205-PATO:0000470-0-0-0	true	obsolete cell-cell adherens junction Meckel's cartilage increased amount, abnormal
+http://purl.obolibrary.org/obo/ZP_0008642	GO:0005913-BFO:0000050-ZFA:0009084-PATO:0000470-0-0-0	true	obsolete cell-cell adherens junction chondrocyte increased amount, abnormal
+http://purl.obolibrary.org/obo/ZP_0008777	GO:0005623-BFO:0000050-ZFA:0005124-PATO:0001453-0-0-ZFA:0005124	true	obsolete intestinal epithelium detached from cell intestinal epithelium, abnormal
+http://purl.obolibrary.org/obo/ZP_0010624	GO:0005623-BFO:0000050-ZFA:0001360-PATO:0000628-0-0-0	true	obsolete cell parapineal organ mislocalised, abnormal
+http://purl.obolibrary.org/obo/ZP_0014564	0-0-ZFA:0001315-PATO:0002001-GO:0005623-BFO:0000050-ZFA:0001320	true	obsolete atrioventricular canal has fewer parts of type cell endocardium, abnormal
+http://purl.obolibrary.org/obo/ZP_0015083	GO:0005913-BFO:0000050-ZFA:0001157-PATO:0002303-0-0-0	true	obsolete cell-cell adherens junction posterior lateral line primordium decreased object quality, abnormal
+http://purl.obolibrary.org/obo/ZP_0018128	GO:0005623-BFO:0000050-ZFA:0000144-PATO:0000051-0-0-0	true	obsolete cell retinal pigmented epithelium morphology, abnormal
+http://purl.obolibrary.org/obo/ZP_0018659	GO:0005623-BFO:0000050-ZFA:0000023-PATO:0001997-0-0-0	true	obsolete cell forerunner cell group decreased amount, abnormal
+http://purl.obolibrary.org/obo/ZP_0022274	GO:0005623-BFO:0000050-ZFA:0005057-PATO:0000060-0-0-0	true	obsolete cell epicardium spatial pattern, abnormal
 http://purl.obolibrary.org/obo/ZP_0100125	GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0	true	obsolete actin-based cell projection peridermal cell length, abnormal
+http://purl.obolibrary.org/obo/ZP_0103459	GO:0005623-BFO:0000050-ZFA:0000035-PATO:0000937-0-0-0	true	obsolete cell lens disorganized, abnormal
+http://purl.obolibrary.org/obo/ZP_0104120	GO:0005623-BFO:0000050-ZFA:0000135-PATO:0001872-0-0-0	true	obsolete cell notochord cuboid, abnormal
+http://purl.obolibrary.org/obo/ZP_0105661	GO:0005913-BFO:0000050-ZFA:0001135-PATO:0000051-0-0-0	true	obsolete cell-cell adherens junction neural tube morphology, abnormal

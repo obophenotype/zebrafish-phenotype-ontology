@@ -3740,3 +3740,15 @@ http://purl.obolibrary.org/obo/ZP_0130668	obsolete abnormal intestinal epithelia
 http://purl.obolibrary.org/obo/ZP_0130669	obsolete abnormal epithelial cell of esophagus	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0130670	obsolete abnormal lens fiber cell	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
 http://purl.obolibrary.org/obo/ZP_0130671	obsolete abnormal zebrafish anatomical entity	true	Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.
+http://purl.obolibrary.org/obo/ZP_0009916	0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051	true	obsolete melanocyte accumulation posterior_toposterior to otic vesicle, abnormal
+http://purl.obolibrary.org/obo/ZP_0013943	0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107	true	obsolete retina extends to posterior_toposterior to eye, abnormal
+http://purl.obolibrary.org/obo/ZP_0019233	BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0	true	obsolete in left side ofin_left_side_of lateral plate mesoderm absent, abnormal
+http://purl.obolibrary.org/obo/ZP_0019234	BSPO:0000121-BFO:0000050-ZFA:0000121-PATO:0000628-0-0-0	true	obsolete in right side ofin_right_side_of lateral plate mesoderm mislocalised, abnormal
+http://purl.obolibrary.org/obo/ZP_0019964	0-0-ZFA:0009199-PATO:0002168-BSPO:0000098-BFO:0000050-ZFA:0001559	true	obsolete iridophore displaced to dorsal todorsal_to vertebral column, abnormal
+http://purl.obolibrary.org/obo/ZP_0019970	0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076	true	obsolete iridophore displaced to posterior_toposterior to swim bladder, abnormal
+http://purl.obolibrary.org/obo/ZP_0020051	BSPO:0000121-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0	true	obsolete in right side ofin_right_side_of intestinal bulb mislocalised, abnormal
+http://purl.obolibrary.org/obo/ZP_0020056	BSPO:0000120-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0	true	obsolete in left side ofin_left_side_of intestinal bulb mislocalised, abnormal
+http://purl.obolibrary.org/obo/ZP_0020057	BSPO:0000121-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0	true	obsolete in right side ofin_right_side_of mid intestine absent, abnormal
+http://purl.obolibrary.org/obo/ZP_0020058	BSPO:0000120-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0	true	obsolete in left side ofin_left_side_of mid intestine absent, abnormal
+http://purl.obolibrary.org/obo/ZP_0022105	0-0-ZFA:0009077-PATO:0002269-BSPO:0000096-BFO:0000050-ZFA:0000445	true	obsolete microglial cell accumulation anterior toanterior_to optic tectum, abnormal
+http://purl.obolibrary.org/obo/ZP_0103211	BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0	true	obsolete in left side ofin_left_side_of diencephalon absent, abnormal

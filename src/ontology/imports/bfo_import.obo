@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-11-12/imports/bfo_import.owl
+data-version: zp/releases/2020-01-21/imports/bfo_import.owl
 ontology: zp/imports/bfo_import
 
 [Term]
