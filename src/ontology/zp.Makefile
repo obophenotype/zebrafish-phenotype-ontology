@@ -184,7 +184,7 @@ zp_labels.csv:
 	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
-	sh zfin_pipeline.sh
+	sh ../scripts/zfin_pipeline.sh
 
 preprocess:
 	$(ROBOT) merge -i zp-edit.owl \
@@ -201,7 +201,8 @@ $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates patterns preprocess
 
-
+z:
+	sh ../scripts/zfin_pipeline_test.sh
 
 #############################################
 ### TEST PIPELINE                 ##########
