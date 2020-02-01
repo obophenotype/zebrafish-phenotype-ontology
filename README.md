@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/obophenotype/zebrafish-phenotype-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/zebrafish-phenotype-ontology)
-[![DOI](https://zenodo.org/badge/13996/obophenotype/zebrafish-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/zebrafish-phenotype-ontology)
+<!--[![DOI](https://zenodo.org/badge/13996/obophenotype/zebrafish-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/zebrafish-phenotype-ontology) -->
 
 # zebrafish-phenotype-ontology
 
@@ -26,3 +26,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/obophenot
 ## Acknowledgements
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+Initial construction from ZFIN data has been performed using https://github.com/obophenotype/zebrafish-phenotype-ontology-build.
