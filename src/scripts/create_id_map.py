@@ -46,7 +46,8 @@ for dir in pattern_data_dirs:
             yids_incl_def.append("defined_class")
             yids_incl_pattern = yids.copy()
             yids_incl_pattern.append("pattern")
-            df = pd.read_csv(tsv, sep='\t')            
+            df = pd.read_csv(tsv, sep='\t')
+            df = df.dropna()
             for col in yids_incl_def:
                 df[col] = [str(i).replace(obo_prefix,"") for i in df[col]]
                 df[col] = [str(i).replace("_", ":") for i in df[col]]
@@ -57,6 +58,7 @@ for dir in pattern_data_dirs:
             df['pipeline'] = os.path.basename(dir)
             df['id'] = df[yids_incl_pattern].apply('-'.join, axis=1) #generate a unique id string
             df = df.rename(columns={'defined_class': 'iri'})
+            df = df[~df['iri'].isnull()]
             #print(df.head())
             joined.append(df[['iri','id','pipeline','pattern_file']])
             continue
@@ -69,7 +71,7 @@ df_id_map.sort_values(by ='iri',inplace=True)
 #print(df_out)
 df_check = df_id_map[['iri','id']].drop_duplicates()
 df_id_map_dup_id = get_rows_with_duplicates(df_check,'id')
-df_id_map_dup_id.sort_values(by ='id',inplace=True)
+df_id_map_dup_id = df_id_map_dup_id.sort_values(by ='id')
 if len(df_id_map_dup_id)>0:
     print(len(df_id_map_dup_id))
     print(df_id_map_dup_id.head(10))
@@ -78,7 +80,7 @@ if len(df_id_map_dup_id)>0:
 
 
 df_id_map_dup_iri = get_rows_with_duplicates(df_check,'iri')
-df_id_map_dup_iri.sort_values(by ='iri',inplace=True)
+df_id_map_dup_iri = df_id_map_dup_iri.sort_values(by ='iri')
 
 if len(df_id_map_dup_id)>0:
     print(len(df_id_map_dup_iri))

@@ -721,6 +721,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0009916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0009916">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete melanocyte accumulation posterior_toposterior to otic vesicle, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0009937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0009937">
@@ -1211,6 +1221,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0013943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013943">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retina extends to posterior_toposterior to eye, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0014080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014080">
@@ -1551,6 +1571,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0019233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019233">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of lateral plate mesoderm absent, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0019234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019234">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of lateral plate mesoderm mislocalised, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0000121-PATO:0000628-0-0-0</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0019481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019481">
@@ -1631,6 +1671,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0019964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019964">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to dorsal todorsal_to vertebral column, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000098-BFO:0000050-ZFA:0001559</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0019970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019970">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to posterior_toposterior to swim bladder, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0020021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020021">
@@ -1646,6 +1706,46 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020023">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009052-PATO:0001671-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete motor neuron increased distribution, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020051">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of intestinal bulb mislocalised, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020056">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of intestinal bulb mislocalised, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020057">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of mid intestine absent, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020058">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of mid intestine absent, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2896,6 +2996,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022100">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000042-PATO:0000467-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete midbrain hindbrain boundary present, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0022105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022105">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete microglial cell accumulation anterior toanterior_to optic tectum, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009077-PATO:0002269-BSPO:0000096-BFO:0000050-ZFA:0000445</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -6576,6 +6686,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103198">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009366-BFO:0000050-ZFA:0000940-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete hair cell posterior lateral line neuromast amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0103211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103211">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of diencephalon absent, abnormal</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
