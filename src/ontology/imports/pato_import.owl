@@ -18,7 +18,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-01-21/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-02-04/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -3558,7 +3558,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A specialized eukaryotic organelle that consists of a filiform extrusion of the cell surface and of some cytoplasmic parts. Each cilium is largely bounded by an extrusion of the cytoplasmic (plasma) membrane, and contains a regular longitudinal array of microtubules, anchored to a basal body.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:cilia</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:curators</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:kmv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:vw</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
@@ -5972,7 +5972,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048518"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates or increases the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6014,7 +6014,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048519"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops, prevents, or reduces the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6057,7 +6057,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048522"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates or increases the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6099,7 +6099,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048523"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops, prevents, or reduces the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6136,7 +6136,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048583"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that modulates the frequency, rate or extent of a response to a stimulus. Response to stimulus is a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6179,7 +6179,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048584"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that activates, maintains or increases the rate of a response to a stimulus. Response to stimulus is a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -6221,7 +6221,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048585"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process that stops, prevents, or reduces the frequency, rate or extent of a response to a stimulus. Response to stimulus is a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jid</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:jid</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11579,7 +11579,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000639"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structural quality inhering in a bearer whose structure deteriorates or is lost over time due to an active pathological process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:mb</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12616,7 +12616,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000953"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A color hue with high-medium wavelength that of that portion of the visible spectrum lying between red and yellow, evoked in the human observer by radiant energy with wavelengths of approximately 585 to 620 nanometers.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Orange</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Orange</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12793,7 +12793,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000969"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A size quality inhering in a bearer by virtue of the bearer&apos;s being abnormally small.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Answers.com:Answers.com</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Answers.com:Answers.com</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12814,7 +12814,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000970"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structural quality inhering in a bearer by virtue of the bearer&apos;s disposition to being permeated or pervaded by a gas or liquid (as by osmosis or diffusion).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12858,7 +12858,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000982"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A permeability quality inhering in a bearer by virtue of the bearer&apos;s being capable to be permeated or pervaded by a gas or liquid (as by osmosis or diffusion).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -12879,7 +12879,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000983"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A permeability quality inhering in a bearer by virtue of the bearer&apos;s being incapable of being permeated or pervaded by a gas or liquid (as by osmosis or diffusion).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14146,7 +14146,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>pennate</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-2908-3327</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2908-3327</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14174,7 +14174,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>centric</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-2908-3327</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-2908-3327</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14722,7 +14722,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001405"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A nucleate quality inhering in a bearer by virtue of the bearer&apos;s having no nucleus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14743,7 +14743,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001406"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A nucleate quality inhering in a bearer by virtue of the bearer&apos;s having two nuclei.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14764,7 +14764,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001407"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A nucleate quality inhering in a bearer by virtue of the bearer&apos;s having one nucleus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14805,7 +14805,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s resembling a long tapered rod.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14826,7 +14826,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape quality inhering in a bearer by virtue of the bearer&apos;s being marked by narrow lines or grooves, usually parallel.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biology-online:Biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Biology-online:Biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15044,7 +15044,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001423"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A reflectivity quality inhering in the bearer by virtue of the bearer&apos;s ability to refract light.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology-online:biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>biology-online:biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15300,7 +15300,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001448"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A composition quality inhering in an bearer by virtue of the bearer&apos;s being hardened by the deposition of calcium into bone.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAMMALOGY:MAMMALOGY</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAMMALOGY:MAMMALOGY</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15814,7 +15814,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Absence of an organ, tissue or cell due to failure to develop from a primordium or precursor cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16289,7 +16289,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001518"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An optical quality inhering in a bearer by virtue of the bearer&apos;s lacking focus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PATOC:NC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:NC</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -16389,7 +16389,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001535"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A color pattern inhering in a bearer by virtue of bearer&apos;s being marked with small spots, patches, or specks of hue or degree of saturation differing from that of the background.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>merriam-webster.:merriam-webster.</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">merriam-webster.:merriam-webster.</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -20651,7 +20651,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A concentration quality inhering in a bearer by virtue of the bearer&apos;s containing acid (hydrogen ions).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biology-online:biology-online</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>biology-online:biology-online</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -21689,7 +21689,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001907"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A surface feature shape quality inhering in a bearer by virtue of the bearer&apos;s being like the surface of a compact mass of grapes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:cvs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:cvs</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22341,7 +22341,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001961"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structural quality inhering in a bearer by virtue of the bearer&apos;s touching another entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:wdahdul</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:wdahdul</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -22379,7 +22379,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001970"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A branched quality inhering in a bearer by virtue of the bearer&apos;s having secondary branches joined together in a series of prominent arches.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hickey:1988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Hickey:1988</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24953,7 +24953,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002186"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A molecular quality that inheres in a molecular entity by virtue of whether or not the molecular entity has a separation of electric charge which leads to the molecule having an electric dipole.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:JH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:JH</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25556,7 +25556,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002254"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A quality inhering in a bearer by virtue of the bearer&apos;s surface becoming more extended in a plane.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CVS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25756,7 +25756,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002266"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A shape that inheres in a 3 dimensional entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:OREGON</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:OREGON</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25790,7 +25790,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002268"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A positional quality inhering in a bearer by virtue of the bearer&apos;s being located in a position equidistant from edges.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:OREGON</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:OREGON</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26057,7 +26057,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002285"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Branchiness quality inhering in a bearer by virtue of increasing the degree to which there are subdivisions or offshoots in a bearer entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CVS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26079,7 +26079,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002286"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Branchiness quality inhering in a bearer by virtue of decreasing the degree to which there are subdivisions or offshoots in a bearer entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CVS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26992,7 +26992,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002376"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structure quality inhering in a bearer by virtue of the bearer&apos;s being filled with air.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CVS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -27014,7 +27014,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0002377"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A structure quality inhering in a bearer by virtue of the bearer&apos;s being not filed with air.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:CVS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -27921,6 +27921,27 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0010005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0010005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
+        <obo:IAO_0000115>A physical quality of a process that is its spatial distribution.  For example, bone mineralization follows stereotypical spatial distribution patterns during development, which may be altered in some phenotypes.</obo:IAO_0000115>
+        <oboInOwl:created_by>dos</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-07-18T18:49:08Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0010005</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <rdfs:label>spatial distribution of a process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0010005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A physical quality of a process that is its spatial distribution.  For example, bone mineralization follows stereotypical spatial distribution patterns during development, which may be altered in some phenotypes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>orcid:0000-0002-7073-9172</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0015001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0015001">
@@ -27946,7 +27967,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Absence due to a degenerative process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -27966,7 +27987,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The ability of a process to produce its output.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -27999,7 +28020,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A decrease in the ability of a process to produce its output.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -28032,7 +28053,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A increase in the ability of a process to produce its output.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PATOC:PortlandMeetingFeb2015</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -28082,7 +28103,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An increase in porosity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/pato-ontology/pato/issues/110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/pato-ontology/pato/issues/110</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -28114,7 +28135,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0015025"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An decrease in porosity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/pato-ontology/pato/issues/110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://github.com/pato-ontology/pato/issues/110</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -30081,7 +30102,7 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0050000"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9943-9018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9943-9018</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -30099,7 +30120,71 @@ Note: kinked PATO:0001798(synonym twisted) is similar to &apos;torsioned&apos;, 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0050001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The rate of output of a continuous process. Example include: growth rate, cell migration rate, enzyme reaction rate.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-9943-9018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9943-9018</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0055001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0055001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0010005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002302"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0010005"/>
+        <obo:IAO_0000115>A spatial distribution of a process in which the process occupies a smaller length, area, or volume than the reference process. For example, heterochromatin may form over a shorter length of a chromosome in a mutant than in wild type.</obo:IAO_0000115>
+        <oboInOwl:created_by>midori</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-07-29T14:22:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0055001</oboInOwl:id>
+        <rdfs:label>decreased spatial extent of a process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0055001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A spatial distribution of a process in which the process occupies a smaller length, area, or volume than the reference process. For example, heterochromatin may form over a shorter length of a chromosome in a mutant than in wild type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>orcid:0000-0003-4148-4606</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0055002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0055002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0010005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002304"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0010005"/>
+        <obo:IAO_0000115>A spatial distribution of a process in which the process occupies a greater length, area, or volume than the reference process. For example, heterochromatin may form over a shorter length of a chromosome in a mutant than in wild type.</obo:IAO_0000115>
+        <oboInOwl:created_by>midori</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-07-29T14:23:31Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0055002</oboInOwl:id>
+        <rdfs:label>increased spatial extent of a process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0055002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A spatial distribution of a process in which the process occupies a greater length, area, or volume than the reference process. For example, heterochromatin may form over a shorter length of a chromosome in a mutant than in wild type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-4148-4606</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

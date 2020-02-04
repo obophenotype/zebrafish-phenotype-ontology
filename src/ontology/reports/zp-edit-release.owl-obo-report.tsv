@@ -254,16 +254,28 @@ ERROR	duplicate_definition	UBERON:0000477	IAO:0000115	Anatomical group that has 
 ERROR	duplicate_definition	ZFA:0001478	IAO:0000115	Anatomical group that has its parts adjacent to one another.	
 ERROR	duplicate_definition	UBERON:0007135	IAO:0000115	An intermediate stage (between the neural plate and neural rod) during the early segmentation period in the morphogenesis of the central nervous system primordium; the keel is roughly triangular shaped in cross section.	
 ERROR	duplicate_definition	ZFA:0000131	IAO:0000115	An intermediate stage (between the neural plate and neural rod) during the early segmentation period in the morphogenesis of the central nervous system primordium; the keel is roughly triangular shaped in cross section.	
+ERROR	duplicate_definition	ZP:0022274	IAO:0000115	Abnormal(ly) spatial pattern (of) epicardium of cell.	
+ERROR	duplicate_definition	ZP:0130811	IAO:0000115	Abnormal(ly) spatial pattern (of) epicardium of cell.	
+ERROR	duplicate_definition	ZP:0018128	IAO:0000115	Abnormal(ly) morphology (of) retinal pigmented epithelium of cell.	
+ERROR	duplicate_definition	ZP:0130805	IAO:0000115	Abnormal(ly) morphology (of) retinal pigmented epithelium of cell.	
 ERROR	duplicate_definition	ZP:0008256	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
 ERROR	duplicate_definition	ZP:0011825	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
 ERROR	duplicate_definition	ZP:0010624	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
 ERROR	duplicate_definition	ZP:0012563	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
+ERROR	duplicate_definition	ZP:0014564	IAO:0000115	Abnormal(ly) has fewer parts of type (of) atrioventricular canal (endocardium of cell).	
+ERROR	duplicate_definition	ZP:0130766	IAO:0000115	Abnormal(ly) has fewer parts of type (of) atrioventricular canal (endocardium of cell).	
 ERROR	duplicate_definition	ZP:0006256	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
 ERROR	duplicate_definition	ZP:0103459	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
+ERROR	duplicate_definition	ZP:0008777	IAO:0000115	Abnormal(ly) detached from (of) intestinal epithelium of cell (intestinal epithelium).	
+ERROR	duplicate_definition	ZP:0130708	IAO:0000115	Abnormal(ly) detached from (of) intestinal epithelium of cell (intestinal epithelium).	
 ERROR	duplicate_definition	ZP:0005992	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
 ERROR	duplicate_definition	ZP:0006134	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
 ERROR	duplicate_definition	ZP:0002061	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
 ERROR	duplicate_definition	ZP:0006721	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
+ERROR	duplicate_definition	ZP:0018659	IAO:0000115	Abnormal(ly) decreased amount (of) forerunner cell group of cell.	
+ERROR	duplicate_definition	ZP:0130767	IAO:0000115	Abnormal(ly) decreased amount (of) forerunner cell group of cell.	
+ERROR	duplicate_definition	ZP:0104120	IAO:0000115	Abnormal(ly) cuboid (of) notochord of cell.	
+ERROR	duplicate_definition	ZP:0130836	IAO:0000115	Abnormal(ly) cuboid (of) notochord of cell.	
 ERROR	duplicate_definition	ZP:0007542	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
 ERROR	duplicate_definition	ZP:0011625	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
 ERROR	duplicate_definition	ZFA:0005199	IAO:0000115	A RoL2 interneuron that is part of rhombomere 2.	
@@ -274,13 +286,15 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	014099d4527b61f3f5c971c28345843c	
+ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	c60295c0e9182b0abff6381eac85e3b5	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	1dbb70846f80039cd7c60f11490ccc3a	
+ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	d37bacf1d1e45adc2519d386fac52d44	
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
-ERROR	deprecated_property_reference	RO:0002609	rdfs:subPropertyOf	RO:0002410	
-ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	misused_obsolete_label	ZP:0103262	rdfs:label	obsolete plasma membrane part of cell junction compact layer of ventricle oblique orientation, abnormal	
 ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0042734	
 ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0045211	
 ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0005634	
-ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0016020	
 ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0042995	
 ERROR	missing_ontology_description	zp.owl	dc11:description		
 ERROR	duplicate_label	GO:0060417	rdfs:label	yolk	
@@ -493,6 +507,8 @@ ERROR	duplicate_label	UBERON:0001769	rdfs:label	iris
 ERROR	duplicate_label	ZFA:0001238	rdfs:label	iris	
 ERROR	duplicate_label	BSPO:0000105	rdfs:label	ipsilateral to	
 ERROR	duplicate_label	PATO:0002035	rdfs:label	ipsilateral to	
+ERROR	duplicate_label	ZP:0008777	rdfs:label	intestinal epithelium detached from cell intestinal epithelium, abnormal	
+ERROR	duplicate_label	ZP:0130708	rdfs:label	intestinal epithelium detached from cell intestinal epithelium, abnormal	
 ERROR	duplicate_label	UBERON:0002199	rdfs:label	integument	
 ERROR	duplicate_label	ZFA:0000368	rdfs:label	integument	
 ERROR	duplicate_label	UBERON:0010312	rdfs:label	immature eye	
@@ -575,6 +591,8 @@ ERROR	duplicate_label	GO:0042600	rdfs:label	chorion
 ERROR	duplicate_label	ZFA:0000329	rdfs:label	chorion	
 ERROR	duplicate_label	UBERON:0001017	rdfs:label	central nervous system	
 ERROR	duplicate_label	ZFA:0000012	rdfs:label	central nervous system	
+ERROR	duplicate_label	ZP:0018128	rdfs:label	cell retinal pigmented epithelium morphology, abnormal	
+ERROR	duplicate_label	ZP:0130805	rdfs:label	cell retinal pigmented epithelium morphology, abnormal	
 ERROR	duplicate_label	ZP:0005992	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
 ERROR	duplicate_label	ZP:0006134	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
 ERROR	duplicate_label	ZP:0002061	rdfs:label	cell retina decreased amount, abnormal	
@@ -583,12 +601,18 @@ ERROR	duplicate_label	CARO:0000014	rdfs:label	cell part@en
 ERROR	duplicate_label	GO:0044464	rdfs:label	cell part@en	
 ERROR	duplicate_label	ZP:0010624	rdfs:label	cell parapineal organ mislocalised, abnormal	
 ERROR	duplicate_label	ZP:0012563	rdfs:label	cell parapineal organ mislocalised, abnormal	
+ERROR	duplicate_label	ZP:0104120	rdfs:label	cell notochord cuboid, abnormal	
+ERROR	duplicate_label	ZP:0130836	rdfs:label	cell notochord cuboid, abnormal	
 ERROR	duplicate_label	ZP:0006256	rdfs:label	cell lens disorganized, abnormal	
 ERROR	duplicate_label	ZP:0103459	rdfs:label	cell lens disorganized, abnormal	
 ERROR	duplicate_label	ZP:0007542	rdfs:label	cell head apoptotic, abnormal	
 ERROR	duplicate_label	ZP:0011625	rdfs:label	cell head apoptotic, abnormal	
+ERROR	duplicate_label	ZP:0018659	rdfs:label	cell forerunner cell group decreased amount, abnormal	
+ERROR	duplicate_label	ZP:0130767	rdfs:label	cell forerunner cell group decreased amount, abnormal	
 ERROR	duplicate_label	ZP:0008256	rdfs:label	cell EVL morphology, abnormal	
 ERROR	duplicate_label	ZP:0011825	rdfs:label	cell EVL morphology, abnormal	
+ERROR	duplicate_label	ZP:0022274	rdfs:label	cell epicardium spatial pattern, abnormal	
+ERROR	duplicate_label	ZP:0130811	rdfs:label	cell epicardium spatial pattern, abnormal	
 ERROR	duplicate_label	GO:0005623	rdfs:label	cell	
 ERROR	duplicate_label	ZFA:0009000	rdfs:label	cell	
 ERROR	duplicate_label	UBERON:0000489	rdfs:label	cavitated compound organ	
@@ -617,6 +641,8 @@ ERROR	duplicate_label	UBERON:0003068	rdfs:label	axial mesoderm
 ERROR	duplicate_label	ZFA:0001204	rdfs:label	axial mesoderm	
 ERROR	duplicate_label	UBERON:0000488	rdfs:label	atypical epithelium	
 ERROR	duplicate_label	ZFA:0001493	rdfs:label	atypical epithelium	
+ERROR	duplicate_label	ZP:0014564	rdfs:label	atrioventricular canal has fewer parts of type cell endocardium, abnormal	
+ERROR	duplicate_label	ZP:0130766	rdfs:label	atrioventricular canal has fewer parts of type cell endocardium, abnormal	
 ERROR	duplicate_label	UBERON:0001637	rdfs:label	artery	
 ERROR	duplicate_label	ZFA:0000005	rdfs:label	artery	
 ERROR	duplicate_label	UBERON:0001980	rdfs:label	arteriole	
@@ -656,7 +682,6 @@ ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuan
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en	
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
 ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en	
 ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
@@ -694,10 +719,6 @@ ERROR	multiple_definitions	BSPO:0001106	IAO:0000115	X proximalmost part of Y <=>
 ERROR	multiple_definitions	BSPO:0001106	IAO:0000115	X proximalmost_part_of Y <=> X is part_of Y and X is adjacent_to the proximal boundary of Y	
 ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	This relation holds when both the deep_to and ajdacent_to relationship similarly hold.	
 ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	x immediately deep to y iff x deep_to y and x is contiguous with y.	
-ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.	
-ERROR	multiple_definitions	GO:0008150	IAO:0000115	Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.	
-ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Add as annotation triples in the granting ontology@en	
-ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Use on obsolete terms, relating the term to another term that can be used as a substitute@en	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	A overlaps B if they share some part in common.	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.	
@@ -717,34 +738,16 @@ ERROR	multiple_definitions	RO:0002223	IAO:0000115	Relation between occurrents, s
 ERROR	multiple_definitions	RO:0002223	IAO:0000115	inverse of starts with	
 ERROR	multiple_definitions	RO:0002229	IAO:0000115	Relation between occurrents, shares an end boundary with.	
 ERROR	multiple_definitions	RO:0002229	IAO:0000115	inverse of ends with	
-ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
-ERROR	multiple_definitions	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
 ERROR	multiple_definitions	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
 ERROR	multiple_definitions	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y.	
 ERROR	multiple_definitions	RO:0002256	IAO:0000115	t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.	
 ERROR	multiple_definitions	RO:0002256	IAO:0000115	t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T	
-ERROR	multiple_definitions	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
-ERROR	multiple_definitions	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
-ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
-ERROR	multiple_definitions	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
 ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
 ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
 ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
 ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
 ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
 ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
-ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
-ERROR	multiple_definitions	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
-ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
-ERROR	multiple_definitions	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
-ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected.	
-ERROR	multiple_definitions	RO:0002436	IAO:0000115	An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.	
-ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.	
-ERROR	multiple_definitions	RO:0002448	IAO:0000115	Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b	
-ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.	
-ERROR	multiple_definitions	RO:0002449	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly diminishes a process executed by b.	
-ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.	
-ERROR	multiple_definitions	RO:0002450	IAO:0000115	Holds between molecules a and b if and only if a executes a process that directly activates a process executed by b.	
 ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
 ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y iff: more than half of the mass of x is made from parts of y	
 ERROR	multiple_definitions	RO:0002488	IAO:0000115	Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s.	
@@ -761,12 +764,6 @@ ERROR	multiple_definitions	RO:0002497	IAO:0000115	c existence ends during s iff 
 ERROR	multiple_definitions	RO:0002497	IAO:0000115	x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends.	
 ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision.	
 ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision.	
-ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in process'	
-ERROR	multiple_definitions	RO:0002608	IAO:0000115	Inverse of 'causal agent in'	
-ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
-ERROR	multiple_definitions	RO:0002629	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2.	
-ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
-ERROR	multiple_definitions	RO:0002630	IAO:0000115	Process(P1) directly regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2.	
 ERROR	missing_ontology_license	zp.owl	dc:license		
 ERROR	missing_ontology_title	zp.owl	dc11:title		
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of	
@@ -822,7 +819,6 @@ ERROR	multiple_labels	BSPO:0015014	rdfs:label	immediately_superficial_to
 ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity	
 ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure	
-ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	connected anatomical structure@en	
 ERROR	multiple_labels	CARO:0000006	rdfs:label	material anatomical entity	
 ERROR	multiple_labels	CARO:0000006	rdfs:label	material anatomical entity@en	
@@ -858,8 +854,6 @@ ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en
 ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to@en	
-ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by	
-ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en	
 ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of	
 ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of@en	
 ERROR	multiple_labels	RO:0000087	rdfs:label	has role	
@@ -973,31 +967,17 @@ ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into
 ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into@en	
 ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into	
 ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into@en	
-ERROR	multiple_labels	RO:0002432	rdfs:label	enables activity in	
-ERROR	multiple_labels	RO:0002432	rdfs:label	is active in	
-ERROR	multiple_labels	RO:0002448	rdfs:label	activity directly regulates activity of	
-ERROR	multiple_labels	RO:0002448	rdfs:label	molecularly controls	
-ERROR	multiple_labels	RO:0002449	rdfs:label	activity directly negatively regulates activity of	
-ERROR	multiple_labels	RO:0002449	rdfs:label	molecularly decreases activity of	
-ERROR	multiple_labels	RO:0002450	rdfs:label	activity directly positively regulates activity of	
-ERROR	multiple_labels	RO:0002450	rdfs:label	molecularly increases activity of	
-ERROR	multiple_labels	RO:0002464	rdfs:label	helper property	
-ERROR	multiple_labels	RO:0002464	rdfs:label	helper property (not for use in curation)	
 ERROR	multiple_labels	RO:0002496	rdfs:label	existence starts during or after	
 ERROR	multiple_labels	RO:0002496	rdfs:label	start stage	
 ERROR	multiple_labels	RO:0002497	rdfs:label	end stage	
 ERROR	multiple_labels	RO:0002497	rdfs:label	existence ends during or before	
-ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in	
-ERROR	multiple_labels	RO:0002500	rdfs:label	causal agent in process	
 ERROR	multiple_labels	RO:0002604	rdfs:label	is opposite of	
 ERROR	multiple_labels	RO:0002604	rdfs:label	is_opposite_of	
-ERROR	multiple_labels	RO:0002608	rdfs:label	has causal agent	
-ERROR	multiple_labels	RO:0002608	rdfs:label	process has causal agent	
 ERROR	multiple_labels	RO:0003000	rdfs:label	produces	
 ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
-WARN	annotation_whitespace	5da3e85f03c751a898dcb8da699f1371	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	fcd9ce5e5d03e8f3c37a1c03295e9bbe	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
@@ -1023,7 +1003,6 @@ WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity 
 WARN	annotation_whitespace	BSPO:0000026	oboInOwl:hasExactSynonym	anterodorsal region 	
 WARN	annotation_whitespace	BSPO:0000027	oboInOwl:hasExactSynonym	anteroventral region 	
 WARN	annotation_whitespace	BSPO:0001001	oboInOwl:hasRelatedSynonym	proximal-distal axis 	
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	2012-04-05:     Barry Smith        The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.        Can you fix to something like:        A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.        Alan Ruttenberg        Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.         On the specifics of the proposed definition:        We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.         Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.         We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasExactSynonym	Myosarcoma 	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasRelatedSynonym	 Rhabdopoietic Sarcoma	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasRelatedSynonym	 Sarcoma Botryoides [Soft Tissues]	
@@ -1340,6 +1319,7 @@ WARN	missing_definition	CHEBI:23341	IAO:0000115
 WARN	missing_definition	CHEBI:23377	IAO:0000115		
 WARN	missing_definition	CHEBI:23390	IAO:0000115		
 WARN	missing_definition	CHEBI:23447	IAO:0000115		
+WARN	missing_definition	CHEBI:23449	IAO:0000115		
 WARN	missing_definition	CHEBI:23521	IAO:0000115		
 WARN	missing_definition	CHEBI:23523	IAO:0000115		
 WARN	missing_definition	CHEBI:23524	IAO:0000115		
@@ -1348,6 +1328,9 @@ WARN	missing_definition	CHEBI:23905	IAO:0000115
 WARN	missing_definition	CHEBI:23906	IAO:0000115		
 WARN	missing_definition	CHEBI:23966	IAO:0000115		
 WARN	missing_definition	CHEBI:24099	IAO:0000115		
+WARN	missing_definition	CHEBI:24265	IAO:0000115		
+WARN	missing_definition	CHEBI:24266	IAO:0000115		
+WARN	missing_definition	CHEBI:24278	IAO:0000115		
 WARN	missing_definition	CHEBI:24384	IAO:0000115		
 WARN	missing_definition	CHEBI:24455	IAO:0000115		
 WARN	missing_definition	CHEBI:24458	IAO:0000115		
@@ -1431,14 +1414,15 @@ WARN	missing_definition	CHEBI:27594	IAO:0000115
 WARN	missing_definition	CHEBI:28626	IAO:0000115		
 WARN	missing_definition	CHEBI:28659	IAO:0000115		
 WARN	missing_definition	CHEBI:28694	IAO:0000115		
-WARN	missing_definition	CHEBI:28697	IAO:0000115		
 WARN	missing_definition	CHEBI:28976	IAO:0000115		
 WARN	missing_definition	CHEBI:29034	IAO:0000115		
 WARN	missing_definition	CHEBI:29075	IAO:0000115		
 WARN	missing_definition	CHEBI:29108	IAO:0000115		
+WARN	missing_definition	CHEBI:29192	IAO:0000115		
 WARN	missing_definition	CHEBI:29214	IAO:0000115		
 WARN	missing_definition	CHEBI:29222	IAO:0000115		
 WARN	missing_definition	CHEBI:29337	IAO:0000115		
+WARN	missing_definition	CHEBI:29369	IAO:0000115		
 WARN	missing_definition	CHEBI:29917	IAO:0000115		
 WARN	missing_definition	CHEBI:29919	IAO:0000115		
 WARN	missing_definition	CHEBI:29922	IAO:0000115		
@@ -1503,6 +1487,7 @@ WARN	missing_definition	CHEBI:33661	IAO:0000115
 WARN	missing_definition	CHEBI:33663	IAO:0000115		
 WARN	missing_definition	CHEBI:33664	IAO:0000115		
 WARN	missing_definition	CHEBI:33670	IAO:0000115		
+WARN	missing_definition	CHEBI:33693	IAO:0000115		
 WARN	missing_definition	CHEBI:33695	IAO:0000115		
 WARN	missing_definition	CHEBI:33700	IAO:0000115		
 WARN	missing_definition	CHEBI:33703	IAO:0000115		
@@ -1513,9 +1498,11 @@ WARN	missing_definition	CHEBI:33721	IAO:0000115
 WARN	missing_definition	CHEBI:33743	IAO:0000115		
 WARN	missing_definition	CHEBI:33744	IAO:0000115		
 WARN	missing_definition	CHEBI:33745	IAO:0000115		
+WARN	missing_definition	CHEBI:33760	IAO:0000115		
 WARN	missing_definition	CHEBI:33767	IAO:0000115		
 WARN	missing_definition	CHEBI:33791	IAO:0000115		
 WARN	missing_definition	CHEBI:33793	IAO:0000115		
+WARN	missing_definition	CHEBI:33804	IAO:0000115		
 WARN	missing_definition	CHEBI:33836	IAO:0000115		
 WARN	missing_definition	CHEBI:33842	IAO:0000115		
 WARN	missing_definition	CHEBI:33861	IAO:0000115		
@@ -1536,11 +1523,13 @@ WARN	missing_definition	CHEBI:35143	IAO:0000115
 WARN	missing_definition	CHEBI:35155	IAO:0000115		
 WARN	missing_definition	CHEBI:35156	IAO:0000115		
 WARN	missing_definition	CHEBI:35158	IAO:0000115		
+WARN	missing_definition	CHEBI:35184	IAO:0000115		
 WARN	missing_definition	CHEBI:35196	IAO:0000115		
 WARN	missing_definition	CHEBI:35219	IAO:0000115		
 WARN	missing_definition	CHEBI:35235	IAO:0000115		
 WARN	missing_definition	CHEBI:35236	IAO:0000115		
 WARN	missing_definition	CHEBI:35237	IAO:0000115		
+WARN	missing_definition	CHEBI:35313	IAO:0000115		
 WARN	missing_definition	CHEBI:35344	IAO:0000115		
 WARN	missing_definition	CHEBI:35350	IAO:0000115		
 WARN	missing_definition	CHEBI:35371	IAO:0000115		
@@ -1555,6 +1544,7 @@ WARN	missing_definition	CHEBI:35571	IAO:0000115
 WARN	missing_definition	CHEBI:35573	IAO:0000115		
 WARN	missing_definition	CHEBI:35605	IAO:0000115		
 WARN	missing_definition	CHEBI:35693	IAO:0000115		
+WARN	missing_definition	CHEBI:35740	IAO:0000115		
 WARN	missing_definition	CHEBI:35786	IAO:0000115		
 WARN	missing_definition	CHEBI:35788	IAO:0000115		
 WARN	missing_definition	CHEBI:35789	IAO:0000115		
@@ -1638,6 +1628,7 @@ WARN	missing_definition	CHEBI:46721	IAO:0000115
 WARN	missing_definition	CHEBI:46723	IAO:0000115		
 WARN	missing_definition	CHEBI:46867	IAO:0000115		
 WARN	missing_definition	CHEBI:46883	IAO:0000115		
+WARN	missing_definition	CHEBI:46966	IAO:0000115		
 WARN	missing_definition	CHEBI:47004	IAO:0000115		
 WARN	missing_definition	CHEBI:47017	IAO:0000115		
 WARN	missing_definition	CHEBI:47019	IAO:0000115		
@@ -1687,11 +1678,23 @@ WARN	missing_definition	CHEBI:8386	IAO:0000115
 WARN	missing_definition	CHEBI:89634	IAO:0000115		
 WARN	missing_definition	CL:0000000	IAO:0000115		
 WARN	missing_definition	CL:0000540	IAO:0000115		
-WARN	missing_definition	IAO:0000027	IAO:0000115		
-WARN	missing_definition	IAO:0000030	IAO:0000115		
+WARN	missing_definition	IAO:0000111	IAO:0000115		
+WARN	missing_definition	IAO:0000112	IAO:0000115		
 WARN	missing_definition	IAO:0000114	IAO:0000115		
+WARN	missing_definition	IAO:0000115	IAO:0000115		
+WARN	missing_definition	IAO:0000116	IAO:0000115		
+WARN	missing_definition	IAO:0000117	IAO:0000115		
+WARN	missing_definition	IAO:0000118	IAO:0000115		
+WARN	missing_definition	IAO:0000119	IAO:0000115		
+WARN	missing_definition	IAO:0000232	IAO:0000115		
+WARN	missing_definition	IAO:0000412	IAO:0000115		
+WARN	missing_definition	IAO:0000424	IAO:0000115		
+WARN	missing_definition	IAO:0000589	IAO:0000115		
+WARN	missing_definition	IAO:0000600	IAO:0000115		
 WARN	missing_definition	IAO:0000601	IAO:0000115		
 WARN	missing_definition	IAO:0000602	IAO:0000115		
+WARN	missing_definition	IAO:0010000	IAO:0000115		
+WARN	missing_definition	IAO:0100001	IAO:0000115		
 WARN	missing_definition	MPATH:695	IAO:0000115		
 WARN	missing_definition	PATO:0000068	IAO:0000115		
 WARN	missing_definition	PATO:0001492	IAO:0000115		
@@ -2240,7 +2243,6 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/zfa#PLURAL	IAO:0000115
 WARN	missing_definition	dc11:contributor	IAO:0000115		
 WARN	missing_definition	dc11:creator	IAO:0000115		
 WARN	missing_definition	dc11:source	IAO:0000115		
-WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
 WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115		
 WARN	missing_definition	oboInOwl:consider	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
@@ -2254,7 +2256,6 @@ WARN	missing_definition	oboInOwl:hasScope	IAO:0000115
 WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115		
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000115		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
-WARN	missing_definition	foaf:depicted_by	IAO:0000115		
 WARN	missing_definition	foaf:page	IAO:0000115		
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate	
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate	
@@ -2296,6 +2297,8 @@ WARN	duplicate_scoped_synonym	CHEBI:23042	oboInOwl:hasExactSynonym	carotenes
 WARN	duplicate_scoped_synonym	CHEBI:23042	oboInOwl:hasRelatedSynonym	carotenes	
 WARN	duplicate_scoped_synonym	CHEBI:23116	oboInOwl:hasExactSynonym	chlorine	
 WARN	duplicate_scoped_synonym	CHEBI:23116	oboInOwl:hasRelatedSynonym	chlorine	
+WARN	duplicate_scoped_synonym	CHEBI:24400	oboInOwl:hasExactSynonym	glycosides	
+WARN	duplicate_scoped_synonym	CHEBI:24400	oboInOwl:hasRelatedSynonym	glycosides	
 WARN	duplicate_scoped_synonym	CHEBI:24848	oboInOwl:hasExactSynonym	inositols	
 WARN	duplicate_scoped_synonym	CHEBI:24848	oboInOwl:hasRelatedSynonym	inositols	
 WARN	duplicate_scoped_synonym	CHEBI:24859	oboInOwl:hasExactSynonym	iodine	
@@ -2417,11 +2420,19 @@ WARN	duplicate_scoped_synonym	UBERON:0010427	oboInOwl:hasRelatedSynonym	processu
 WARN	invalid_xref	MPATH:359	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table	
 WARN	invalid_xref	MPATH:371	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass	
 WARN	invalid_xref	MPATH:530	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class	
-WARN	missing_obsolete_label	GO:0004872	rdfs:label	receptor activity	
 WARN	missing_obsolete_label	GO:0044456	rdfs:label	synapse part@en	
 WARN	missing_obsolete_label	GO:0044464	rdfs:label	cell part@en	
-WARN	missing_obsolete_label	RO:0002218	rdfs:label	has active participant@en	
-WARN	missing_obsolete_label	RO:0002609	rdfs:label	related via dependence to	
+WARN	missing_obsolete_label	ZP:0009916	rdfs:label	0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051	
+WARN	missing_obsolete_label	ZP:0013943	rdfs:label	0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107	
+WARN	missing_obsolete_label	ZP:0019233	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0	
+WARN	missing_obsolete_label	ZP:0019234	rdfs:label	BSPO:0000121-BFO:0000050-ZFA:0000121-PATO:0000628-0-0-0	
+WARN	missing_obsolete_label	ZP:0019964	rdfs:label	0-0-ZFA:0009199-PATO:0002168-BSPO:0000098-BFO:0000050-ZFA:0001559	
+WARN	missing_obsolete_label	ZP:0019970	rdfs:label	0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076	
+WARN	missing_obsolete_label	ZP:0020051	rdfs:label	BSPO:0000121-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0	
+WARN	missing_obsolete_label	ZP:0020056	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0	
+WARN	missing_obsolete_label	ZP:0020057	rdfs:label	BSPO:0000121-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0	
+WARN	missing_obsolete_label	ZP:0020058	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0	
+WARN	missing_obsolete_label	ZP:0022105	rdfs:label	0-0-ZFA:0009077-PATO:0002269-BSPO:0000096-BFO:0000050-ZFA:0000445	
 WARN	missing_obsolete_label	ZP:0100016	rdfs:label	intersegmental vessel abnormal, abnormal	
 WARN	missing_obsolete_label	ZP:0100018	rdfs:label	lateral line abnormal, abnormal	
 WARN	missing_obsolete_label	ZP:0100019	rdfs:label	mechanosensory behavior abnormal, abnormal	
@@ -2433,10 +2444,10 @@ WARN	missing_obsolete_label	ZP:0100156	rdfs:label	http://purl.obolibrary.org/obo
 WARN	missing_obsolete_label	ZP:0100206	rdfs:label	http://purl.obolibrary.org/obo/GO_0031512 Kupffer's vesicle increased length, abnormal	
 WARN	missing_obsolete_label	ZP:0100207	rdfs:label	Z disc cardiac muscle cell increased length, abnormal	
 WARN	missing_obsolete_label	ZP:0100208	rdfs:label	http://purl.obolibrary.org/obo/GO_0072372 somite increased length, abnormal	
+WARN	missing_obsolete_label	ZP:0103211	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
 INFO	lowercase_definition	BFO:0000019	IAO:0000600	a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])@en	
-INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en	
 INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
 INFO	lowercase_definition	BFO:0000023	IAO:0000600	b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])@en	
 INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
@@ -2465,9 +2476,6 @@ INFO	lowercase_definition	BSPO:0015005	IAO:0000115	crossing at right angles
 INFO	lowercase_definition	BSPO:0015014	IAO:0000115	x immediately superficial to y iff x superficial to y and x is contiguous with y.	
 INFO	lowercase_definition	CHEBI:18059	IAO:0000115	'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.	
 INFO	lowercase_definition	CHEBI:33567	IAO:0000115	4-(2-Aminoethyl)pyrocatechol [4-(2-aminoethyl)benzene-1,2-diol] and derivatives formed by substitution.	
-INFO	lowercase_definition	IAO:0000102	IAO:0000115	data about an ontology part is a data item about a part of an ontology, for example a term@en	
-INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en	
-INFO	lowercase_definition	IAO:0000121	IAO:0000115	term created to ease viewing/sort terms for development purpose, and will not be included in a release@en	
 INFO	lowercase_definition	PATO:0015026	IAO:0000115	quality, state, or degree of being stable.	
 INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en	
 INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en	
@@ -2509,7 +2517,6 @@ INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with
 INFO	lowercase_definition	RO:0002230	IAO:0000115	x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
 INFO	lowercase_definition	RO:0002231	IAO:0000115	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y	
 INFO	lowercase_definition	RO:0002232	IAO:0000115	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y	
-INFO	lowercase_definition	RO:0002233	IAO:0000115	p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
 INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
 INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
 INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y.	
@@ -2517,8 +2524,6 @@ INFO	lowercase_definition	RO:0002255	IAO:0000115	inverse of has developmental co
 INFO	lowercase_definition	RO:0002256	IAO:0000115	t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.	
 INFO	lowercase_definition	RO:0002256	IAO:0000115	t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T	
 INFO	lowercase_definition	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
-INFO	lowercase_definition	RO:0002263	IAO:0000115	c involved in regulation of p if c enables  'p' and p' causally upstream of p	
-INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables 'p' and p' causally upstream of or within p	
 INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
 INFO	lowercase_definition	RO:0002285	IAO:0000115	x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else	
 INFO	lowercase_definition	RO:0002314	IAO:0000115	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.	
@@ -2548,12 +2553,10 @@ INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if 
 INFO	lowercase_definition	RO:0002412	IAO:0000115	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.	
 INFO	lowercase_definition	RO:0002418	IAO:0000115	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.	
 INFO	lowercase_definition	RO:0002427	IAO:0000115	inverse of causally upstream of or within	
-INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some 'p' and p' regulates some p	
 INFO	lowercase_definition	RO:0002428	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' regulates some p	
 INFO	lowercase_definition	RO:0002429	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' positively regulates some p	
 INFO	lowercase_definition	RO:0002430	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p	
 INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p	
-INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d	
 INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
 INFO	lowercase_definition	RO:0002433	IAO:0000115	p contributes to morphology of w if and only if a change in the morphology of p entails a change in the morphology of w. Examples: every skull contributes to morphology of the head which it is a part of. Counter-example: nuclei do not generally contribute to the morphology of the cell they are part of, as they are buffered by cytoplasm.	
 INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
@@ -2623,17 +2626,13 @@ INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#indirectly_
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to	IAO:0000115	x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
-INFO	missing_superclass	BSPO:0000096	rdfs:subClassOf		
-INFO	missing_superclass	BSPO:0000098	rdfs:subClassOf		
-INFO	missing_superclass	BSPO:0000099	rdfs:subClassOf		
-INFO	missing_superclass	BSPO:0000120	rdfs:subClassOf		
-INFO	missing_superclass	BSPO:0000121	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:24431	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:36342	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:50906	rdfs:subClassOf		
 INFO	missing_superclass	GO:0005575	rdfs:subClassOf		
 INFO	missing_superclass	MPATH:0	rdfs:subClassOf		
 INFO	missing_superclass	UBERON:0000000	rdfs:subClassOf		
+INFO	missing_superclass	UBERON:0001062	rdfs:subClassOf		
 INFO	missing_superclass	ZFA:0100000	rdfs:subClassOf		
 INFO	missing_superclass	ZFS:0100000	rdfs:subClassOf		
 INFO	missing_superclass	ZP:00000000	rdfs:subClassOf		

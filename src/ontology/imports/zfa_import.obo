@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2020-01-21/imports/zfa_import.owl
+data-version: zp/releases/2020-02-04/imports/zfa_import.owl
 subsetdef: cell_slim "cell_slim"
 ontology: zp/imports/zfa_import
 

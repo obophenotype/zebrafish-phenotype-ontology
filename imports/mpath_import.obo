@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2019-11-12/imports/mpath_import.owl
+data-version: zp/releases/2020-02-04/imports/mpath_import.owl
 ontology: zp/imports/mpath_import
 
 [Term]
@@ -136,6 +136,16 @@ namespace: mouse_pathology.ontology
 def: "Spontaneous intestinal adenoma formation. Polyps increase in number, causing symptoms of chronic colitis and potentially transform into adenocarcinoma. (M-8220/0)." [Pathbase: Curation]
 is_a: MPATH:267 ! glandular tumor
 is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:282
+name: infiltrating duct carcinoma
+namespace: mouse_pathology.ontology
+def: "Derived from the mammary ductal epithelium and penetrating the stroma (M-8500/3)." [Pathbase: Pathology Committee]
+synonym: "duct adenocarcinoma" RELATED [Pathbase: Curation]
+synonym: "ductal carcinoma" RELATED [Pathbase: Curation]
+synonym: "Infiltrating ductal adenocarcinoma" RELATED [Pathbase: Curation]
+is_a: MPATH:268 ! adenocarcinoma
 
 [Term]
 id: MPATH:309

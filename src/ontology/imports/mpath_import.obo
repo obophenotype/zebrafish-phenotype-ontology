@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: zp/releases/2020-01-21/imports/mpath_import.owl
+data-version: zp/releases/2020-02-04/imports/mpath_import.owl
 ontology: zp/imports/mpath_import
 
 [Term]
