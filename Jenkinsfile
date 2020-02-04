@@ -32,7 +32,7 @@ pipeline {
 
 		// What is the file "namespace" of the ontology--used for
 		// finding artifacts.
-		ONTOLOGY_FILE_HINT = 'upheno'
+		ONTOLOGY_FILE_HINT = 'zp'
 		// Ontology repo information.
 		TARGET_ONTOLOGY_BRANCH = 'master'
 		TARGET_ONTOLOGY_URL = 'https://github.com/obophenotype/zebrafish-phenotype-ontology.git'

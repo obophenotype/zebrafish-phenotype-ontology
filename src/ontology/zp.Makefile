@@ -199,7 +199,10 @@ $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
-zp_pipeline: zfin_pipeline anatomy_pipeline missing_iris pattern_labels templates patterns preprocess
+# This should only ever be run on a local machin
+zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_labels 
+	
+zp_pipeline_prepare_ontology: templates patterns preprocess
 
 z:
 	sh ../scripts/zfin_pipeline_test.sh
