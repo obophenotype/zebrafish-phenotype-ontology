@@ -223,3 +223,9 @@ mass_obsolete: $(TMPDIR)/old_labels.txt $(TMPDIR)/new_labels.txt
 qc:
 	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
 	$(ROBOT) merge --input ../../zp.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
+
+
+pheno_q_bp.csv:
+	$(ROBOT) query -f csv -i zp.owl --use-graphs true --query ../sparql/zp_phenotype_q_bp.sparql $@
+
+
