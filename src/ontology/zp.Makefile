@@ -173,6 +173,7 @@ update_id_map: $(ID_MAP_ZFIN)
 	python3 ../scripts/create_id_map.py ../patterns $(ID_MAP)
 
 clean:
+	mkdir -p $(TMPDIR)
 	rm -rf $(TMPDIR)/*
 
 pattern_labels:
@@ -186,7 +187,7 @@ zp_labels.csv:
 zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
 	sh ../scripts/zfin_pipeline.sh
 
-preprocess:
+preprocess: all_imports
 	$(ROBOT) merge -i zp-edit.owl \
 	reason --reasoner ELK  --exclude-tautologies structural \
 	remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false -o zp-edit-release.ofn
@@ -200,9 +201,9 @@ $(ONT)-base.owl: $(SRC) $(OTHER_SRC)
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 # This should only ever be run on a local machin
-zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_labels 
+zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_labels
 	
-zp_pipeline_prepare_ontology: templates patterns preprocess
+#zp_pipeline_prepare_ontology: templates patterns preprocess
 
 z:
 	sh ../scripts/zfin_pipeline_test.sh

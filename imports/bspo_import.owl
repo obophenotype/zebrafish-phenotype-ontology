@@ -6,11 +6,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bspo="http://purl.obolibrary.org/obo/bspo#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-02-04/imports/bspo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-08-02/imports/bspo_import.owl"/>
     </owl:Ontology>
     
 
@@ -34,32 +33,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <rdfs:label>term replaced by</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bspo#human -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bspo#human">
-        <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <rdfs:label>synonym typically used in the context of human anatomy</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bspo#vertebrate -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bspo#vertebrate">
-        <oboInOwl:hasScope rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <rdfs:label>synonym typically used in the context of vertebrate anatomy</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -74,9 +47,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -90,41 +61,25 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label>has_narrow_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label>has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasScope -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasScope">
-        <rdfs:label>has_scope</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
-        <rdfs:label>has_synonym_type</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
     
 
 
@@ -134,29 +89,9 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
-        <rdfs:label>shorthand</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
     
 
 
@@ -320,22 +255,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000101 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000101">
-        <obo:IAO_0100001>RO:0002221</obo:IAO_0100001>
-        <oboInOwl:hasDbXref>BSPO:0000101</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>obsolete_surrounds</oboInOwl:id>
-        <oboInOwl:shorthand>obsolete_surrounds</oboInOwl:shorthand>
-        <rdfs:label>obsolete surrounds</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000048"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005861"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BSPO_0000102 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000102">
@@ -374,69 +293,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000104"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Crosses at an angle that is 90 degrees, or close to 90 degrees. In any non-linear organism, the main axes are rarely perpendicular when taken through the organism as a whole.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000105 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000105">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <obo:IAO_0000115>On the same side as. For example, the left arm is ipsilateral to the left leg.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000105</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>ipsilateral_to</oboInOwl:id>
-        <oboInOwl:shorthand>ipsilateral_to</oboInOwl:shorthand>
-        <rdfs:label>ipsilateral to</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/FBql_00005850"/>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000105"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>On the same side as. For example, the left arm is ipsilateral to the left leg.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000107 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000107">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000108"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115>Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000107</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>deep_to</oboInOwl:id>
-        <oboInOwl:shorthand>deep_to</oboInOwl:shorthand>
-        <rdfs:label>deep to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000107"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Further away from the surface of the organism. Thus, the muscular layer is deep to the skin, but superficial to the intestines.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000108 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000108">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000115>Near the outer surface of the organism. Thus, skin is superficial to the muscle layer.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000108</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>superficial_to</oboInOwl:id>
-        <oboInOwl:shorthand>superficial_to</oboInOwl:shorthand>
-        <rdfs:label>superficial to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000108"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Near the outer surface of the organism. Thus, skin is superficial to the muscle layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -486,7 +342,6 @@
     <!-- http://purl.obolibrary.org/obo/BSPO_0000113 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000113">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000105"/>
         <obo:IAO_0000115>Direcly opposite to. i.e. on the opposite side through the axis.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>BSPO:0000113</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
@@ -499,191 +354,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Direcly opposite to. i.e. on the opposite side through the axis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000120 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000120">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000121"/>
-        <obo:IAO_0000115>X in left side of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part of the left portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000120</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_left_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_left_side_of</oboInOwl:shorthand>
-        <rdfs:label>in left side of</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000120"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X in left side of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part of the left portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000121 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000121">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <obo:IAO_0000115>X in right side of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part of the right portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000121</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_right_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_right_side_of</oboInOwl:shorthand>
-        <rdfs:label>in right side of</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000121"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X in right side of Y &lt;=&gt; if Y is subdivided into two left and right portions, X is part of the right portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000122 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000122">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>X posterior side of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part of the posterior portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000122</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_posterior_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_posterior_side_of</oboInOwl:shorthand>
-        <rdfs:label>in posterior side of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000122"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X posterior side of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part of the posterior portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000123 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000123">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>X anterior side of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part of the anterior portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000123</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_anterior_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_anterior_side_of</oboInOwl:shorthand>
-        <rdfs:label>in anterior side of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000123"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X anterior side of Y &lt;=&gt; if Y is subdivided into two anterior and posterior portions, X is part of the anterior portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000124 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000124">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>x in proximal side of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part of the proximal portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000124</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_proximal_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_proximal_side_of</oboInOwl:shorthand>
-        <rdfs:label>in proximal side of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000124"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>x in proximal side of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part of the proximal portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000125 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000125">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>x in distal side of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part of the distal portion.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000125</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_distal_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_distal_side_of</oboInOwl:shorthand>
-        <rdfs:label>in distal side of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000125"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>x in distal side of y &lt;=&gt; if y is subdivided into two proximal and distal portions, y is part of the distal portion.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:PATO_mtg_2009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0000126 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000126">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <obo:IAO_0000115>X in lateral side of Y &lt;=&gt; if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0000126</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>in_lateral_side_of</oboInOwl:id>
-        <oboInOwl:shorthand>in_lateral_side_of</oboInOwl:shorthand>
-        <rdfs:label>in lateral side of</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000126"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X in lateral side of Y &lt;=&gt; if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001106 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001106">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000124"/>
-        <obo:IAO_0000115>X proximalmost part of Y &lt;=&gt; X is in proximal side of Y and X is adjacent to the proximal boundary of Y</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0001106</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>proximalmost_part_of</oboInOwl:id>
-        <oboInOwl:shorthand>proximalmost_part_of</oboInOwl:shorthand>
-        <rdfs:label>proximalmost part of</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001106"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>X proximalmost part of Y &lt;=&gt; X is in proximal side of Y and X is adjacent to the proximal boundary of Y</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-6601-2165</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BSPO_0001107 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001107">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000107"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015014"/>
-        <obo:IAO_0000115>x immediately deep to y iff x deep_to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0001107</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>immediately_deep_to</oboInOwl:id>
-        <oboInOwl:shorthand>immediately_deep_to</oboInOwl:shorthand>
-        <rdfs:label>immediately deep to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0001107"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>x immediately deep to y iff x deep_to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -773,26 +443,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BSPO_0015014 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015014">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000108"/>
-        <obo:IAO_0000115>x immediately superficial to y iff x superficial to y and x is contiguous with y.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BSPO:0015014</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>immediately_superficial_to</oboInOwl:id>
-        <oboInOwl:shorthand>immediately_superficial_to</oboInOwl:shorthand>
-        <rdfs:label>immediately superficial to</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015014"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>x immediately superficial to y iff x superficial to y and x is contiguous with y.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:curators</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002131 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002131">
@@ -810,19 +460,6 @@
         <owl:annotatedTarget>x overlaps y iff they have some part in common.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <oboInOwl:hasDbXref>RO:0002220</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>adjacent_to</oboInOwl:id>
-        <oboInOwl:shorthand>adjacent_to</oboInOwl:shorthand>
-        <rdfs:label>adjacent to</rdfs:label>
-    </owl:ObjectProperty>
     
 
 
@@ -3369,6 +3006,28 @@
         <oboInOwl:id>BSPO:0000130</oboInOwl:id>
         <rdfs:label>axial side</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
+        <obo:IAO_0000115>An anatomical axis that extends from the side of the anatomical entity that is closer to an axis (adaxial) to the side that is further from the same axis (abaxial).</obo:IAO_0000115>
+        <oboInOwl:created_by>wasila.dahdul</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-07-02T11:20:29Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>AA axis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>dorsal-ventral axis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>BSPO:0000195</oboInOwl:id>
+        <rdfs:label>adaxial-abaxial axis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000195"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An anatomical axis that extends from the side of the anatomical entity that is closer to an axis (adaxial) to the side that is further from the same axis (abaxial).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:RW</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

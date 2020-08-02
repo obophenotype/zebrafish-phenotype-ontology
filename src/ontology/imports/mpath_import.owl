@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-02-04/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-08-02/imports/mpath_import.owl"/>
     </owl:Ontology>
     
 
@@ -33,18 +33,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -57,27 +45,9 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label>has_broad_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -91,35 +61,19 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label>has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     
 
 
@@ -159,6 +113,7 @@
     <!-- http://purl.obolibrary.org/obo/MPATH_0 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_1000"/>
         <obo:IAO_0000115>Pathological structure or process</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MPATH:0</oboInOwl:id>
@@ -169,6 +124,24 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Pathological structure or process</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_1000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_1000">
+        <obo:IAO_0000115>Phenotypic observation of the presence or absence of a pathological entity.</obo:IAO_0000115>
+        <oboInOwl:created_by>Luke Slater</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:1000</oboInOwl:id>
+        <rdfs:label>pathological phenotype observation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_1000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Phenotypic observation of the presence or absence of a pathological entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UOB:LTS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -271,6 +244,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>hemangioendothelioma malignant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -284,12 +263,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Hemangioma malignant</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -524,6 +497,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_268"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
         <obo:IAO_0000115>Derived from the mammary ductal epithelium and penetrating the stroma (M-8500/3).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Infiltrating ductal adenocarcinoma</oboInOwl:hasRelatedSynonym>
@@ -1269,6 +1243,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_218"/>
+        <obo:IAO_0000115>Neoplasms of stratified squamous epithelial cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:442</oboInOwl:id>
+        <rdfs:label>squamous cell tumor</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_442"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neoplasms of stratified squamous epithelial cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_445">
@@ -1284,6 +1276,33 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A benign tumor consisting of villous or arborescent outgrowths of fibrovascular stroma covered by neoplastic epithelial cells (M-8050/0).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_442"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_549"/>
+        <obo:IAO_0000115>Malignant tumor derived from stratified squamous cells. (M-8070/3).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>carcinoma, epidermoid ( sensu epidermal derived tumors)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:446</oboInOwl:id>
+        <rdfs:label>squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_446"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Malignant tumor derived from stratified squamous cells. (M-8070/3).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_446"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>carcinoma, epidermoid ( sensu epidermal derived tumors)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1345,7 +1364,7 @@
         <obo:IAO_0000115>Neoplasms of the B or T cell lineage.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MPATH:513</oboInOwl:id>
-        <rdfs:label>Lymphoid neoplasms</rdfs:label>
+        <rdfs:label>lymphoid neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_513"/>
@@ -1364,7 +1383,7 @@
         <oboInOwl:hasDbXref>URL:http://www.bloodjournal.org/cgi/content/full/100/1/238/DC1/2</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MPATH:515</oboInOwl:id>
-        <rdfs:label>Non-Lymphoid neoplasias</rdfs:label>
+        <rdfs:label>non-Lymphoid neoplasias</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_515"/>
@@ -1402,7 +1421,7 @@
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Myeloma ( human )</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>MPATH:530</oboInOwl:id>
-        <rdfs:label>Plasma cell neoplasms</rdfs:label>
+        <rdfs:label>plasma cell neoplasms</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_530"/>
@@ -1561,7 +1580,7 @@
         <obo:IAO_0000115>Tumor composed of small glandular clusters with small lumens.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>MPATH:559</oboInOwl:id>
-        <rdfs:label>Acinar adenocarcinoma</rdfs:label>
+        <rdfs:label>acinar adenocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_559"/>

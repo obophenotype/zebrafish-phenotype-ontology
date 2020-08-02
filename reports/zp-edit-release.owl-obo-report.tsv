@@ -3,234 +3,50 @@ ERROR	duplicate_definition	UBERON:0003059	IAO:0000115	Unsegmented field of parax
 ERROR	duplicate_definition	ZFA:0000279	IAO:0000115	Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form.	
 ERROR	duplicate_definition	UBERON:0000484	IAO:0000115	Unilaminar epithelium that consists of a single layer of cuboidal cells.	
 ERROR	duplicate_definition	ZFA:0001497	IAO:0000115	Unilaminar epithelium that consists of a single layer of cuboidal cells.	
-ERROR	duplicate_definition	ZFA:0000072	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000073	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000074	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000156	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000157	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000725	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000726	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000727	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000728	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000730	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000731	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000732	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000733	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000851	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000852	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000853	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000854	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000855	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000856	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000857	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000858	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000974	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000975	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000976	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000977	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000978	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000980	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000981	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000982	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000983	IAO:0000115	Undifferentiated mesodermal component of early trunk or tail segment or metamere, derived from paraxial mesoderm; forms the myotome, sclerotome and perhaps dermatome.	
-ERROR	duplicate_definition	ZFA:0000767	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000768	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000769	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000770	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000771	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000772	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000774	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000775	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000776	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000777	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000891	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000892	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000894	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000895	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000896	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000897	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000898	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000899	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000900	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000901	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000925	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000937	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000946	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000957	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000968	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000979	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000986	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000987	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000988	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000989	IAO:0000115	Somite-derived body wall muscle present ventral to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000718	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000729	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000739	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000740	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000741	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000742	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000743	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000744	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000745	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000746	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000747	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000748	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000749	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000751	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000864	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000865	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000866	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000867	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000868	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000869	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000870	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000872	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000873	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000874	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0000991	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0001001	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0001012	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0001023	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0001030	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0001040	IAO:0000115	Somite-derived body wall muscle present dorsal to the horizontal myoseptum.	
-ERROR	duplicate_definition	ZFA:0005671	IAO:0000115	Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005726	IAO:0000115	Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005727	IAO:0000115	Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005728	IAO:0000115	Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005729	IAO:0000115	Protoglomeruli in the medial  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005669	IAO:0000115	Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005717	IAO:0000115	Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005718	IAO:0000115	Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005719	IAO:0000115	Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005720	IAO:0000115	Protoglomeruli in the lateral  region of the glomerular layer of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005670	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
-ERROR	duplicate_definition	ZFA:0005721	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
-ERROR	duplicate_definition	ZFA:0005722	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
-ERROR	duplicate_definition	ZFA:0005723	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
-ERROR	duplicate_definition	ZFA:0005724	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
-ERROR	duplicate_definition	ZFA:0005725	IAO:0000115	Protoglomeruli in the central zone  of the glomerular layer of the olfactory bulb.  The central zone protoglomeruli have somewhat indistinct boundaries.	
 ERROR	duplicate_definition	UBERON:0005425	IAO:0000115	Portion of tissue that is the inner layer of the optic cup and will become the neural retina.	
 ERROR	duplicate_definition	ZFA:0001071	IAO:0000115	Portion of tissue that is the inner layer of the optic cup and will become the neural retina.	
+ERROR	duplicate_definition	UBERON:0007278	IAO:0000115	Portion of tissue that is part of the heart tube and will become the sinus venosus.	
+ERROR	duplicate_definition	ZFA:0001722	IAO:0000115	Portion of tissue that is part of the heart tube and will become the sinus venosus.	
 ERROR	duplicate_definition	UBERON:0005427	IAO:0000115	Portion of tissue that is part of the eye and gives rise to the mature, fully layered cornea.	
 ERROR	duplicate_definition	ZFA:0001688	IAO:0000115	Portion of tissue that is part of the eye and gives rise to the mature, fully layered cornea.	
 ERROR	duplicate_definition	UBERON:0010285	IAO:0000115	Portion of tissue that is dorsolateral to the floor plate and part of the midbrain.	
 ERROR	duplicate_definition	ZFA:0000761	IAO:0000115	Portion of tissue that is dorsolateral to the floor plate and part of the midbrain.	
 ERROR	duplicate_definition	UBERON:0005496	IAO:0000115	Portion of tissue on the side of the lumen of the neural tube.	
 ERROR	duplicate_definition	ZFA:0001435	IAO:0000115	Portion of tissue on the side of the lumen of the neural tube.	
-ERROR	duplicate_definition	ZFA:0000044	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000801	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000802	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000803	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000804	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000805	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000807	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000808	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000809	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000810	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000924	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000926	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000927	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000928	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000929	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000930	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000931	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000932	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000933	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0000934	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001013	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001014	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001015	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001016	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001017	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001018	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001019	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001020	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001021	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	ZFA:0001022	IAO:0000115	Portion of the somite giving rise to body wall muscle masses.	
-ERROR	duplicate_definition	UBERON:0007377	IAO:0000115	Portion of the dermis characterized by a well-arranged, plywood-like, collagenous network.	
-ERROR	duplicate_definition	ZFA:0001182	IAO:0000115	Portion of the dermis characterized by a well-arranged, plywood-like, collagenous network.	
+ERROR	duplicate_definition	ZFA:0000807	IAO:0000115	Portion of somite 16 that gives rise to body wall muscle masses.	
+ERROR	duplicate_definition	ZFA:0000927	IAO:0000115	Portion of somite 16 that gives rise to body wall muscle masses.	
 ERROR	duplicate_definition	UBERON:0006598	IAO:0000115	Portion of embryonic tissue determined by fate mapping to become a structure.	
 ERROR	duplicate_definition	ZFA:0001116	IAO:0000115	Portion of embryonic tissue determined by fate mapping to become a structure.	
-ERROR	duplicate_definition	ZFA:0000166	IAO:0000115	Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000566	IAO:0000115	Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000619	IAO:0000115	Patches of thickened, pseudostratified epithelium of the inner ear, consisting of regular arrays of sensory hair cells interspersed with supporting cells. Each patch has its own characteristic shape and polarity pattern. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/sens/sens.html'>sensory patches of the ear</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0005700	IAO:0000115	One of two large glomeruli located in the ventroposterior zone olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005701	IAO:0000115	One of two large glomeruli located in the ventroposterior zone olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0000259	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000344	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000400	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000424	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000443	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000464	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
-ERROR	duplicate_definition	ZFA:0000524	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
 ERROR	duplicate_definition	ZFA:0000944	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
 ERROR	duplicate_definition	ZFA:0005112	IAO:0000115	One of eight distinct lateral lines in the 4-day larva. A sensory system on the surface of the fish, consisting of small sensory patches (neuromasts) distributed in discrete lines over the body surface. The lateral line system is stimulated by local water displacements and vibrations, and detects propulsion of the fish through the water, as well as facilitating shoaling, prey capture, and predator and obstacle avoidance. (See Anatomical Atlas entry for <a href='http://zfin.org/zf_info/anatomy/dict/lat_line/lat_line.html'>lateral line</a> by T. Whitfield.)	
 ERROR	duplicate_definition	UBERON:0000464	IAO:0000115	Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.	
 ERROR	duplicate_definition	ZFA:0001643	IAO:0000115	Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.	
 ERROR	duplicate_definition	UBERON:0008229	IAO:0000115	Musculature system of the pharyngeal and head regions.	
 ERROR	duplicate_definition	ZFA:0000328	IAO:0000115	Musculature system of the pharyngeal and head regions.	
+ERROR	duplicate_definition	UBERON:0001083	IAO:0000115	Muscular layer of the cardiac ventricle composed of a compact myocardial layer surrounding the trabecular layer.	
+ERROR	duplicate_definition	ZFA:0005061	IAO:0000115	Muscular layer of the cardiac ventricle composed of a compact myocardial layer surrounding the trabecular layer.	
+ERROR	duplicate_definition	UBERON:0006283	IAO:0000115	Multi-tissue structure that is part of the heart tube and will become the cardiac ventricle.	
+ERROR	duplicate_definition	ZFA:0001719	IAO:0000115	Multi-tissue structure that is part of the heart tube and will become the cardiac ventricle.	
+ERROR	duplicate_definition	UBERON:0010227	IAO:0000115	Multi-tissue structure that is part of the heart tube and will become the cardiac atrium.	
+ERROR	duplicate_definition	ZFA:0001718	IAO:0000115	Multi-tissue structure that is part of the heart tube and will become the cardiac atrium.	
 ERROR	duplicate_definition	UBERON:0005498	IAO:0000115	Multi-tissue structure that arises from the heart rudiment and will become the heart tube.	
 ERROR	duplicate_definition	ZFA:0000149	IAO:0000115	Multi-tissue structure that arises from the heart rudiment and will become the heart tube.	
-ERROR	duplicate_definition	ZFA:0005212	IAO:0000115	Midbrain interneuron located in the medial midbrain.	
-ERROR	duplicate_definition	ZFA:0005216	IAO:0000115	Midbrain interneuron located in the medial midbrain.	
-ERROR	duplicate_definition	ZFA:0000829	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000830	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000831	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000832	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000833	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000834	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000835	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000836	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000837	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000839	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000952	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000953	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000954	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000955	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000956	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000958	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000959	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000960	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000961	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0000962	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001036	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001037	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001038	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001039	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001041	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001042	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001043	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001044	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001045	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
-ERROR	duplicate_definition	ZFA:0001046	IAO:0000115	Medial ventral region of the somite that will form vertebral cartilages.	
 ERROR	duplicate_definition	CARO:0000003	IAO:0000115	Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.	
 ERROR	duplicate_definition	UBERON:0000061	IAO:0000115	Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.	
 ERROR	duplicate_definition	UBERON:0000463	IAO:0000115	Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.	
 ERROR	duplicate_definition	ZFA:0001487	IAO:0000115	Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.	
-ERROR	duplicate_definition	ZFA:0005225	IAO:0000115	Lip that covers the lower portion of the mouth.	
-ERROR	duplicate_definition	ZFA:0005226	IAO:0000115	Lip that covers the lower portion of the mouth.	
-ERROR	duplicate_definition	ZFA:0001233	IAO:0000115	Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults.	
-ERROR	duplicate_definition	ZFA:0001235	IAO:0000115	Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults.	
-ERROR	duplicate_definition	ZFA:0001236	IAO:0000115	Hypobranchial ossifications 1-3 develop in the small hypobranchial cartilages that lie between the medial tips of the ceratobranchials and copula 1. The first and second hypobranchials are small and irregular in shape; one or both ossifications are absent in some adults.	
-ERROR	duplicate_definition	ZFA:0000069	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0000153	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0000822	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0000823	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0000948	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0000949	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0001031	IAO:0000115	Hindbrain segment or neuromere.	
-ERROR	duplicate_definition	ZFA:0001032	IAO:0000115	Hindbrain segment or neuromere.	
 ERROR	duplicate_definition	ZFA:0005709	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0005710	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0005711	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0005712	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0005713	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0005714	IAO:0000115	Glomerulus located in the mediodorsal zone of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005703	IAO:0000115	Glomerulus located in the lateral zone of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005704	IAO:0000115	Glomerulus located in the lateral zone of the olfactory bulb.	
-ERROR	duplicate_definition	ZFA:0005705	IAO:0000115	Glomerulus located in the lateral zone of the olfactory bulb.	
 ERROR	duplicate_definition	ZFA:0000110	IAO:0000115	Fluid-filled brain cavity.	
 ERROR	duplicate_definition	ZFA:0000161	IAO:0000115	Fluid-filled brain cavity.	
+ERROR	duplicate_definition	UBERON:0001081	IAO:0000115	Endocardium that is part of the cardiac ventricle.	
+ERROR	duplicate_definition	ZFA:0001615	IAO:0000115	Endocardium that is part of the cardiac ventricle.	
+ERROR	duplicate_definition	UBERON:0002166	IAO:0000115	Endocardium that is part of the atrium.	
+ERROR	duplicate_definition	ZFA:0001614	IAO:0000115	Endocardium that is part of the atrium.	
 ERROR	duplicate_definition	UBERON:0007281	IAO:0000115	Embryonic structure that gives rise to the midbrain hindbrain boundary.	
 ERROR	duplicate_definition	ZFA:0001187	IAO:0000115	Embryonic structure that gives rise to the midbrain hindbrain boundary.	
 ERROR	duplicate_definition	ZFA:0000294	IAO:0000115	Diencephalic nucleus which is part of the caudal tuberculum. From Neuroanatomy of the Zebrafish Brain.	
@@ -254,30 +70,6 @@ ERROR	duplicate_definition	UBERON:0000477	IAO:0000115	Anatomical group that has 
 ERROR	duplicate_definition	ZFA:0001478	IAO:0000115	Anatomical group that has its parts adjacent to one another.	
 ERROR	duplicate_definition	UBERON:0007135	IAO:0000115	An intermediate stage (between the neural plate and neural rod) during the early segmentation period in the morphogenesis of the central nervous system primordium; the keel is roughly triangular shaped in cross section.	
 ERROR	duplicate_definition	ZFA:0000131	IAO:0000115	An intermediate stage (between the neural plate and neural rod) during the early segmentation period in the morphogenesis of the central nervous system primordium; the keel is roughly triangular shaped in cross section.	
-ERROR	duplicate_definition	ZP:0022274	IAO:0000115	Abnormal(ly) spatial pattern (of) epicardium of cell.	
-ERROR	duplicate_definition	ZP:0130811	IAO:0000115	Abnormal(ly) spatial pattern (of) epicardium of cell.	
-ERROR	duplicate_definition	ZP:0018128	IAO:0000115	Abnormal(ly) morphology (of) retinal pigmented epithelium of cell.	
-ERROR	duplicate_definition	ZP:0130805	IAO:0000115	Abnormal(ly) morphology (of) retinal pigmented epithelium of cell.	
-ERROR	duplicate_definition	ZP:0008256	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
-ERROR	duplicate_definition	ZP:0011825	IAO:0000115	Abnormal(ly) morphology (of) EVL of cell.	
-ERROR	duplicate_definition	ZP:0010624	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
-ERROR	duplicate_definition	ZP:0012563	IAO:0000115	Abnormal(ly) mislocalised (of) parapineal organ of cell.	
-ERROR	duplicate_definition	ZP:0014564	IAO:0000115	Abnormal(ly) has fewer parts of type (of) atrioventricular canal (endocardium of cell).	
-ERROR	duplicate_definition	ZP:0130766	IAO:0000115	Abnormal(ly) has fewer parts of type (of) atrioventricular canal (endocardium of cell).	
-ERROR	duplicate_definition	ZP:0006256	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
-ERROR	duplicate_definition	ZP:0103459	IAO:0000115	Abnormal(ly) disorganized (of) lens of cell.	
-ERROR	duplicate_definition	ZP:0008777	IAO:0000115	Abnormal(ly) detached from (of) intestinal epithelium of cell (intestinal epithelium).	
-ERROR	duplicate_definition	ZP:0130708	IAO:0000115	Abnormal(ly) detached from (of) intestinal epithelium of cell (intestinal epithelium).	
-ERROR	duplicate_definition	ZP:0005992	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
-ERROR	duplicate_definition	ZP:0006134	IAO:0000115	Abnormal(ly) decreased amount (of) retinal inner nuclear layer of cell.	
-ERROR	duplicate_definition	ZP:0002061	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
-ERROR	duplicate_definition	ZP:0006721	IAO:0000115	Abnormal(ly) decreased amount (of) retina of cell.	
-ERROR	duplicate_definition	ZP:0018659	IAO:0000115	Abnormal(ly) decreased amount (of) forerunner cell group of cell.	
-ERROR	duplicate_definition	ZP:0130767	IAO:0000115	Abnormal(ly) decreased amount (of) forerunner cell group of cell.	
-ERROR	duplicate_definition	ZP:0104120	IAO:0000115	Abnormal(ly) cuboid (of) notochord of cell.	
-ERROR	duplicate_definition	ZP:0130836	IAO:0000115	Abnormal(ly) cuboid (of) notochord of cell.	
-ERROR	duplicate_definition	ZP:0007542	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
-ERROR	duplicate_definition	ZP:0011625	IAO:0000115	Abnormal(ly) apoptotic (of) head of cell.	
 ERROR	duplicate_definition	ZFA:0005199	IAO:0000115	A RoL2 interneuron that is part of rhombomere 2.	
 ERROR	duplicate_definition	ZFA:0005200	IAO:0000115	A RoL2 interneuron that is part of rhombomere 2.	
 ERROR	duplicate_definition	CARO:0000010	IAO:0000115	A non-material anatomical entity of two dimensions. Anatomical boundaries are contiguous structures.	
@@ -286,16 +78,25 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
-ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	014099d4527b61f3f5c971c28345843c	
-ERROR	multiple_equivalent_classes	GO:0048522	owl:equivalentClass	c60295c0e9182b0abff6381eac85e3b5	
-ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	1dbb70846f80039cd7c60f11490ccc3a	
-ERROR	multiple_equivalent_classes	GO:0050794	owl:equivalentClass	d37bacf1d1e45adc2519d386fac52d44	
-ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
+ERROR	misused_obsolete_label	ZP:0002061	rdfs:label	obsolete cell retina decreased amount, abnormal	
+ERROR	misused_obsolete_label	ZP:0004327	rdfs:label	obsolete cytoskeletal anchoring at plasma membrane decreased process quality, abnormal	
+ERROR	misused_obsolete_label	ZP:0005992	rdfs:label	obsolete cell retinal inner nuclear layer decreased amount, abnormal	
+ERROR	misused_obsolete_label	ZP:0007057	rdfs:label	obsolete cytoskeletal anchoring at plasma membrane increased process quality, abnormal	
+ERROR	misused_obsolete_label	ZP:0007542	rdfs:label	obsolete cell head apoptotic, abnormal	
+ERROR	misused_obsolete_label	ZP:0008256	rdfs:label	obsolete cell EVL morphology, abnormal	
+ERROR	misused_obsolete_label	ZP:0010624	rdfs:label	obsolete cell parapineal organ mislocalised, abnormal	
+ERROR	misused_obsolete_label	ZP:0018128	rdfs:label	obsolete cell retinal pigmented epithelium morphology, abnormal	
+ERROR	misused_obsolete_label	ZP:0018659	rdfs:label	obsolete cell forerunner cell group decreased amount, abnormal	
+ERROR	misused_obsolete_label	ZP:0021530	rdfs:label	obsolete multi-organism behaviormulti-organism behavior process quality, abnormal	
+ERROR	misused_obsolete_label	ZP:0022274	rdfs:label	obsolete cell epicardium spatial pattern, abnormal	
 ERROR	misused_obsolete_label	ZP:0103262	rdfs:label	obsolete plasma membrane part of cell junction compact layer of ventricle oblique orientation, abnormal	
-ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0042734	
-ERROR	deprecated_class_reference	GO:0044456	rdfs:subClassOf	GO:0045211	
-ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0005634	
-ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0042995	
+ERROR	misused_obsolete_label	ZP:0103459	rdfs:label	obsolete cell lens disorganized, abnormal	
+ERROR	misused_obsolete_label	ZP:0104120	rdfs:label	obsolete cell notochord cuboid, abnormal	
+ERROR	deprecated_class_reference	1b63b8ad-8160-4a4f-9593-e4bab9c249ed	owl:someValuesFrom	GO:0072358	
+ERROR	deprecated_class_reference	25429d24-e675-4123-8ad0-164e4c3d4051	owl:someValuesFrom	GO:0072358	
+ERROR	deprecated_class_reference	7cae0587-d97c-48bb-bfcd-289634a45fb8	owl:someValuesFrom	GO:0007016	
+ERROR	deprecated_class_reference	ceebb0d5-841e-444c-8dfb-6d2e9c5a5283	owl:someValuesFrom	GO:0007016	
+ERROR	deprecated_class_reference	da091cad-443b-49a9-ae3e-3bb0778eadac	owl:someValuesFrom	GO:0051705	
 ERROR	missing_ontology_description	zp.owl	dc11:description		
 ERROR	duplicate_label	GO:0060417	rdfs:label	yolk	
 ERROR	duplicate_label	ZFA:0000084	rdfs:label	yolk	
@@ -347,6 +148,8 @@ ERROR	duplicate_label	UBERON:0001434	rdfs:label	skeletal system
 ERROR	duplicate_label	ZFA:0000434	rdfs:label	skeletal system	
 ERROR	duplicate_label	UBERON:0004765	rdfs:label	skeletal element	
 ERROR	duplicate_label	ZFA:0005494	rdfs:label	skeletal element	
+ERROR	duplicate_label	UBERON:0002063	rdfs:label	sinus venosus	
+ERROR	duplicate_label	ZFA:0000154	rdfs:label	sinus venosus	
 ERROR	duplicate_label	UBERON:0000487	rdfs:label	simple squamous epithelium	
 ERROR	duplicate_label	ZFA:0001498	rdfs:label	simple squamous epithelium	
 ERROR	duplicate_label	UBERON:0000484	rdfs:label	simple cuboidal epithelium	
@@ -375,6 +178,8 @@ ERROR	duplicate_label	UBERON:0005498	rdfs:label	primitive heart tube
 ERROR	duplicate_label	ZFA:0000149	rdfs:label	primitive heart tube	
 ERROR	duplicate_label	UBERON:0006598	rdfs:label	presumptive structure	
 ERROR	duplicate_label	ZFA:0001116	rdfs:label	presumptive structure	
+ERROR	duplicate_label	UBERON:0007278	rdfs:label	presumptive sinus venosus	
+ERROR	duplicate_label	ZFA:0001722	rdfs:label	presumptive sinus venosus	
 ERROR	duplicate_label	UBERON:0007282	rdfs:label	presumptive segmental plate	
 ERROR	duplicate_label	ZFA:0000053	rdfs:label	presumptive segmental plate	
 ERROR	duplicate_label	UBERON:0007285	rdfs:label	presumptive paraxial mesoderm	
@@ -427,8 +232,12 @@ ERROR	duplicate_label	UBERON:0000010	rdfs:label	peripheral nervous system
 ERROR	duplicate_label	ZFA:0000142	rdfs:label	peripheral nervous system	
 ERROR	duplicate_label	UBERON:0003055	rdfs:label	periderm	
 ERROR	duplicate_label	ZFA:0001185	rdfs:label	periderm	
+ERROR	duplicate_label	UBERON:0002407	rdfs:label	pericardium	
+ERROR	duplicate_label	ZFA:0000054	rdfs:label	pericardium	
 ERROR	duplicate_label	UBERON:0035814	rdfs:label	pericardial fat	
 ERROR	duplicate_label	ZFA:0005765	rdfs:label	pericardial fat	
+ERROR	duplicate_label	UBERON:0001074	rdfs:label	pericardial cavity	
+ERROR	duplicate_label	ZFA:0001655	rdfs:label	pericardial cavity	
 ERROR	duplicate_label	BFO:0000050	rdfs:label	part of	
 ERROR	duplicate_label	http://purl.obolibrary.org/obo/mpath#part_of	rdfs:label	part of	
 ERROR	duplicate_label	UBERON:0003077	rdfs:label	paraxial mesoderm	
@@ -463,10 +272,10 @@ ERROR	duplicate_label	UBERON:0002342	rdfs:label	neural crest
 ERROR	duplicate_label	ZFA:0000045	rdfs:label	neural crest	
 ERROR	duplicate_label	UBERON:0001016	rdfs:label	nervous system	
 ERROR	duplicate_label	ZFA:0000396	rdfs:label	nervous system	
+ERROR	duplicate_label	UBERON:0002349	rdfs:label	myocardium	
+ERROR	duplicate_label	ZFA:0001319	rdfs:label	myocardium	
 ERROR	duplicate_label	UBERON:0000486	rdfs:label	multilaminar epithelium	
 ERROR	duplicate_label	ZFA:0001494	rdfs:label	multilaminar epithelium	
-ERROR	duplicate_label	CARO:0010000	rdfs:label	multicellular anatomical structure	
-ERROR	duplicate_label	UBERON:0010000	rdfs:label	multicellular anatomical structure	
 ERROR	duplicate_label	UBERON:0000481	rdfs:label	multi-tissue structure	
 ERROR	duplicate_label	ZFA:0001488	rdfs:label	multi-tissue structure	
 ERROR	duplicate_label	UBERON:0000165	rdfs:label	mouth	
@@ -505,10 +314,6 @@ ERROR	duplicate_label	UBERON:0003081	rdfs:label	lateral plate mesoderm
 ERROR	duplicate_label	ZFA:0000121	rdfs:label	lateral plate mesoderm	
 ERROR	duplicate_label	UBERON:0001769	rdfs:label	iris	
 ERROR	duplicate_label	ZFA:0001238	rdfs:label	iris	
-ERROR	duplicate_label	BSPO:0000105	rdfs:label	ipsilateral to	
-ERROR	duplicate_label	PATO:0002035	rdfs:label	ipsilateral to	
-ERROR	duplicate_label	ZP:0008777	rdfs:label	intestinal epithelium detached from cell intestinal epithelium, abnormal	
-ERROR	duplicate_label	ZP:0130708	rdfs:label	intestinal epithelium detached from cell intestinal epithelium, abnormal	
 ERROR	duplicate_label	UBERON:0002199	rdfs:label	integument	
 ERROR	duplicate_label	ZFA:0000368	rdfs:label	integument	
 ERROR	duplicate_label	UBERON:0010312	rdfs:label	immature eye	
@@ -545,10 +350,14 @@ ERROR	duplicate_label	UBERON:0000478	rdfs:label	extraembryonic structure
 ERROR	duplicate_label	ZFA:0000020	rdfs:label	extraembryonic structure	
 ERROR	duplicate_label	UBERON:0000483	rdfs:label	epithelium	
 ERROR	duplicate_label	ZFA:0001486	rdfs:label	epithelium	
+ERROR	duplicate_label	UBERON:0002348	rdfs:label	epicardium	
+ERROR	duplicate_label	ZFA:0005057	rdfs:label	epicardium	
 ERROR	duplicate_label	UBERON:0000925	rdfs:label	endoderm	
 ERROR	duplicate_label	ZFA:0000017	rdfs:label	endoderm	
 ERROR	duplicate_label	UBERON:0002165	rdfs:label	endocardium	
 ERROR	duplicate_label	ZFA:0001320	rdfs:label	endocardium	
+ERROR	duplicate_label	UBERON:0002062	rdfs:label	endocardial cushion	
+ERROR	duplicate_label	ZFA:0001317	rdfs:label	endocardial cushion	
 ERROR	duplicate_label	UBERON:0002050	rdfs:label	embryonic structure	
 ERROR	duplicate_label	ZFA:0001105	rdfs:label	embryonic structure	
 ERROR	duplicate_label	UBERON:0000924	rdfs:label	ectoderm	
@@ -557,8 +366,6 @@ ERROR	duplicate_label	UBERON:0000058	rdfs:label	duct
 ERROR	duplicate_label	ZFA:0005171	rdfs:label	duct	
 ERROR	duplicate_label	BSPO:0000098	rdfs:label	dorsal to	
 ERROR	duplicate_label	PATO:0001233	rdfs:label	dorsal to	
-ERROR	duplicate_label	BSPO:0000097	rdfs:label	distal to	
-ERROR	duplicate_label	PATO:0001234	rdfs:label	distal to	
 ERROR	duplicate_label	UBERON:0003928	rdfs:label	digestive system duct	
 ERROR	duplicate_label	ZFA:0005162	rdfs:label	digestive system duct	
 ERROR	duplicate_label	UBERON:0001007	rdfs:label	digestive system	
@@ -587,38 +394,14 @@ ERROR	duplicate_label	UBERON:0003103	rdfs:label	compound organ
 ERROR	duplicate_label	ZFA:0000496	rdfs:label	compound organ	
 ERROR	duplicate_label	UBERON:0011997	rdfs:label	coelom	
 ERROR	duplicate_label	ZFA:0001438	rdfs:label	coelom	
-ERROR	duplicate_label	GO:0042600	rdfs:label	chorion	
-ERROR	duplicate_label	ZFA:0000329	rdfs:label	chorion	
 ERROR	duplicate_label	UBERON:0001017	rdfs:label	central nervous system	
 ERROR	duplicate_label	ZFA:0000012	rdfs:label	central nervous system	
-ERROR	duplicate_label	ZP:0018128	rdfs:label	cell retinal pigmented epithelium morphology, abnormal	
-ERROR	duplicate_label	ZP:0130805	rdfs:label	cell retinal pigmented epithelium morphology, abnormal	
-ERROR	duplicate_label	ZP:0005992	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
-ERROR	duplicate_label	ZP:0006134	rdfs:label	cell retinal inner nuclear layer decreased amount, abnormal	
-ERROR	duplicate_label	ZP:0002061	rdfs:label	cell retina decreased amount, abnormal	
-ERROR	duplicate_label	ZP:0006721	rdfs:label	cell retina decreased amount, abnormal	
-ERROR	duplicate_label	CARO:0000014	rdfs:label	cell part@en	
-ERROR	duplicate_label	GO:0044464	rdfs:label	cell part@en	
-ERROR	duplicate_label	ZP:0010624	rdfs:label	cell parapineal organ mislocalised, abnormal	
-ERROR	duplicate_label	ZP:0012563	rdfs:label	cell parapineal organ mislocalised, abnormal	
-ERROR	duplicate_label	ZP:0104120	rdfs:label	cell notochord cuboid, abnormal	
-ERROR	duplicate_label	ZP:0130836	rdfs:label	cell notochord cuboid, abnormal	
-ERROR	duplicate_label	ZP:0006256	rdfs:label	cell lens disorganized, abnormal	
-ERROR	duplicate_label	ZP:0103459	rdfs:label	cell lens disorganized, abnormal	
-ERROR	duplicate_label	ZP:0007542	rdfs:label	cell head apoptotic, abnormal	
-ERROR	duplicate_label	ZP:0011625	rdfs:label	cell head apoptotic, abnormal	
-ERROR	duplicate_label	ZP:0018659	rdfs:label	cell forerunner cell group decreased amount, abnormal	
-ERROR	duplicate_label	ZP:0130767	rdfs:label	cell forerunner cell group decreased amount, abnormal	
-ERROR	duplicate_label	ZP:0008256	rdfs:label	cell EVL morphology, abnormal	
-ERROR	duplicate_label	ZP:0011825	rdfs:label	cell EVL morphology, abnormal	
-ERROR	duplicate_label	ZP:0022274	rdfs:label	cell epicardium spatial pattern, abnormal	
-ERROR	duplicate_label	ZP:0130811	rdfs:label	cell epicardium spatial pattern, abnormal	
-ERROR	duplicate_label	GO:0005623	rdfs:label	cell	
-ERROR	duplicate_label	ZFA:0009000	rdfs:label	cell	
 ERROR	duplicate_label	UBERON:0000489	rdfs:label	cavitated compound organ	
 ERROR	duplicate_label	ZFA:0001490	rdfs:label	cavitated compound organ	
 ERROR	duplicate_label	UBERON:0004535	rdfs:label	cardiovascular system	
 ERROR	duplicate_label	ZFA:0000010	rdfs:label	cardiovascular system	
+ERROR	duplicate_label	UBERON:0002082	rdfs:label	cardiac ventricle	
+ERROR	duplicate_label	ZFA:0000009	rdfs:label	cardiac ventricle	
 ERROR	duplicate_label	UBERON:0001982	rdfs:label	capillary	
 ERROR	duplicate_label	ZFA:0005250	rdfs:label	capillary	
 ERROR	duplicate_label	UBERON:0002298	rdfs:label	brainstem	
@@ -641,8 +424,6 @@ ERROR	duplicate_label	UBERON:0003068	rdfs:label	axial mesoderm
 ERROR	duplicate_label	ZFA:0001204	rdfs:label	axial mesoderm	
 ERROR	duplicate_label	UBERON:0000488	rdfs:label	atypical epithelium	
 ERROR	duplicate_label	ZFA:0001493	rdfs:label	atypical epithelium	
-ERROR	duplicate_label	ZP:0014564	rdfs:label	atrioventricular canal has fewer parts of type cell endocardium, abnormal	
-ERROR	duplicate_label	ZP:0130766	rdfs:label	atrioventricular canal has fewer parts of type cell endocardium, abnormal	
 ERROR	duplicate_label	UBERON:0001637	rdfs:label	artery	
 ERROR	duplicate_label	ZFA:0000005	rdfs:label	artery	
 ERROR	duplicate_label	UBERON:0001980	rdfs:label	arteriole	
@@ -669,101 +450,26 @@ ERROR	duplicate_label	UBERON:0004111	rdfs:label	anatomical conduit
 ERROR	duplicate_label	ZFA:0007114	rdfs:label	anatomical conduit	
 ERROR	duplicate_label	UBERON:0000477	rdfs:label	anatomical cluster	
 ERROR	duplicate_label	ZFA:0001478	rdfs:label	anatomical cluster	
-ERROR	duplicate_label	PATO:0002259	rdfs:label	adjacent to	
-ERROR	duplicate_label	RO:0002220	rdfs:label	adjacent to	
 ERROR	duplicate_label	UBERON:0001013	rdfs:label	adipose tissue	
 ERROR	duplicate_label	ZFA:0005345	rdfs:label	adipose tissue	
 ERROR	duplicate_label	GO:0001508	rdfs:label	action potential	
 ERROR	duplicate_label	PATO:0001463	rdfs:label	action potential	
 ERROR	duplicate_label	UBERON:0000476	rdfs:label	acellular anatomical structure	
 ERROR	duplicate_label	ZFA:0000382	rdfs:label	acellular anatomical structure	
-ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
-ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
-ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
-ERROR	multiple_definitions	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en	
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
-ERROR	multiple_definitions	BFO:0000031	IAO:0000115	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en	
-ERROR	multiple_definitions	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
 ERROR	multiple_definitions	BSPO:0000096	IAO:0000115	x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
 ERROR	multiple_definitions	BSPO:0000096	IAO:0000115	x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer	
-ERROR	multiple_definitions	BSPO:0000097	IAO:0000115	x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).	
-ERROR	multiple_definitions	BSPO:0000097	IAO:0000115	x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).	
 ERROR	multiple_definitions	BSPO:0000098	IAO:0000115	x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
 ERROR	multiple_definitions	BSPO:0000098	IAO:0000115	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).	
 ERROR	multiple_definitions	BSPO:0000099	IAO:0000115	x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
 ERROR	multiple_definitions	BSPO:0000099	IAO:0000115	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.	
-ERROR	multiple_definitions	BSPO:0000100	IAO:0000115	x proximal to y iff x is closer to the point of attachment with the body than y.	
-ERROR	multiple_definitions	BSPO:0000100	IAO:0000115	x proximal_to y iff x is closer to the point of attachment with the body than y.	
 ERROR	multiple_definitions	BSPO:0000102	IAO:0000115	x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
 ERROR	multiple_definitions	BSPO:0000102	IAO:0000115	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).	
-ERROR	multiple_definitions	BSPO:0000120	IAO:0000115	X in left side of Y <=> if Y is subdivided into two left and right portions, X is part of the left portion.	
-ERROR	multiple_definitions	BSPO:0000120	IAO:0000115	X in_left_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the left portion.	
-ERROR	multiple_definitions	BSPO:0000121	IAO:0000115	X in right side of Y <=> if Y is subdivided into two left and right portions, X is part of the right portion.	
-ERROR	multiple_definitions	BSPO:0000121	IAO:0000115	X in_right_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the right portion.	
-ERROR	multiple_definitions	BSPO:0000122	IAO:0000115	X posterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the posterior portion.	
-ERROR	multiple_definitions	BSPO:0000122	IAO:0000115	X posterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the posterior portion.	
-ERROR	multiple_definitions	BSPO:0000123	IAO:0000115	X anterior side of Y <=> if Y is subdivided into two anterior and posterior portions, X is part of the anterior portion.	
-ERROR	multiple_definitions	BSPO:0000123	IAO:0000115	X anterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the anterior portion.	
-ERROR	multiple_definitions	BSPO:0000124	IAO:0000115	X proximal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the proximal portion.	
-ERROR	multiple_definitions	BSPO:0000124	IAO:0000115	x in proximal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the proximal portion.	
-ERROR	multiple_definitions	BSPO:0000125	IAO:0000115	X distal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the distal portion.	
-ERROR	multiple_definitions	BSPO:0000125	IAO:0000115	x in distal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the distal portion.	
-ERROR	multiple_definitions	BSPO:0000126	IAO:0000115	X in lateral side of Y <=> if X is in left side of Y or X is in right side of Y. X is often, but not always a paired structure	
-ERROR	multiple_definitions	BSPO:0000126	IAO:0000115	X in_lateral_side_of Y <=> if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure	
-ERROR	multiple_definitions	BSPO:0001106	IAO:0000115	X proximalmost part of Y <=> X is in proximal side of Y and X is adjacent to the proximal boundary of Y	
-ERROR	multiple_definitions	BSPO:0001106	IAO:0000115	X proximalmost_part_of Y <=> X is part_of Y and X is adjacent_to the proximal boundary of Y	
-ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	This relation holds when both the deep_to and ajdacent_to relationship similarly hold.	
-ERROR	multiple_definitions	BSPO:0001107	IAO:0000115	x immediately deep to y iff x deep_to y and x is contiguous with y.	
-ERROR	multiple_definitions	RO:0002131	IAO:0000115	A overlaps B if they share some part in common.	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.	
-ERROR	multiple_definitions	RO:0002170	IAO:0000115	Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship.	
-ERROR	multiple_definitions	RO:0002170	IAO:0000115	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b	
-ERROR	multiple_definitions	RO:0002176	IAO:0000115	Binary relationship: z connects x if and only if there exists some y such that z connects x and y in a ternary connected_to(x,y,z) relationship.	
-ERROR	multiple_definitions	RO:0002176	IAO:0000115	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.	
-ERROR	multiple_definitions	RO:0002178	IAO:0000115	Relation between an arterial structure and another structure, where the arterial structure acts as a conduit channeling fluid, substance or energy.	
-ERROR	multiple_definitions	RO:0002178	IAO:0000115	relation between an artery and the structure is supplies with blood.	
-ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
-ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y	
-ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
-ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent_to y iff: x and y share a boundary	
-ERROR	multiple_definitions	RO:0002221	IAO:0000115	inverse of surrounded by	
-ERROR	multiple_definitions	RO:0002221	IAO:0000115	inverse of surrounded_by	
-ERROR	multiple_definitions	RO:0002223	IAO:0000115	Relation between occurrents, shares a start boundary with.	
-ERROR	multiple_definitions	RO:0002223	IAO:0000115	inverse of starts with	
-ERROR	multiple_definitions	RO:0002229	IAO:0000115	Relation between occurrents, shares an end boundary with.	
-ERROR	multiple_definitions	RO:0002229	IAO:0000115	inverse of ends with	
-ERROR	multiple_definitions	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
-ERROR	multiple_definitions	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y.	
-ERROR	multiple_definitions	RO:0002256	IAO:0000115	t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.	
-ERROR	multiple_definitions	RO:0002256	IAO:0000115	t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T	
-ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
-ERROR	multiple_definitions	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
-ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
-ERROR	multiple_definitions	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
-ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
-ERROR	multiple_definitions	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
-ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
-ERROR	multiple_definitions	RO:0002473	IAO:0000115	x composed_primarily_of y iff: more than half of the mass of x is made from parts of y	
-ERROR	multiple_definitions	RO:0002488	IAO:0000115	Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s.	
-ERROR	multiple_definitions	RO:0002488	IAO:0000115	x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y).	
-ERROR	multiple_definitions	RO:0002489	IAO:0000115	Relation between continuant and occurrent, such that c comes into existence at the start of p.	
-ERROR	multiple_definitions	RO:0002489	IAO:0000115	x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y).	
-ERROR	multiple_definitions	RO:0002492	IAO:0000115	Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely.	
-ERROR	multiple_definitions	RO:0002492	IAO:0000115	x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y).	
-ERROR	multiple_definitions	RO:0002493	IAO:0000115	Relation between continuant and occurrent, such that c ceases to exist at the end of p.	
-ERROR	multiple_definitions	RO:0002493	IAO:0000115	x existence ends with y if and only if the time point at which x ends is equivalent to the time point at which y ends. Formally: x existence ends with y iff ω(x) = ω(y).	
-ERROR	multiple_definitions	RO:0002496	IAO:0000115	c existence starts during s iff start_of(c) part_of s.	
-ERROR	multiple_definitions	RO:0002496	IAO:0000115	x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y).	
-ERROR	multiple_definitions	RO:0002497	IAO:0000115	c existence ends during s iff  end_of(c) part_of s.	
-ERROR	multiple_definitions	RO:0002497	IAO:0000115	x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends.	
-ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision.	
-ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision.	
 ERROR	missing_ontology_license	zp.owl	dc:license		
 ERROR	missing_ontology_title	zp.owl	dc11:title		
 ERROR	multiple_labels	BFO:0000050	rdfs:label	part of	
@@ -778,44 +484,14 @@ ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes
 ERROR	multiple_labels	BFO:0000063	rdfs:label	precedes@en	
 ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in	
 ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in@en	
-ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process	
-ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process@en	
 ERROR	multiple_labels	BSPO:0000096	rdfs:label	anterior to	
 ERROR	multiple_labels	BSPO:0000096	rdfs:label	anterior_to	
-ERROR	multiple_labels	BSPO:0000097	rdfs:label	distal to	
-ERROR	multiple_labels	BSPO:0000097	rdfs:label	distal_to	
 ERROR	multiple_labels	BSPO:0000098	rdfs:label	dorsal to	
 ERROR	multiple_labels	BSPO:0000098	rdfs:label	dorsal_to	
 ERROR	multiple_labels	BSPO:0000099	rdfs:label	posterior to	
 ERROR	multiple_labels	BSPO:0000099	rdfs:label	posterior_to	
-ERROR	multiple_labels	BSPO:0000100	rdfs:label	proximal to	
-ERROR	multiple_labels	BSPO:0000100	rdfs:label	proximal_to	
 ERROR	multiple_labels	BSPO:0000102	rdfs:label	ventral to	
 ERROR	multiple_labels	BSPO:0000102	rdfs:label	ventral_to	
-ERROR	multiple_labels	BSPO:0000107	rdfs:label	deep to	
-ERROR	multiple_labels	BSPO:0000107	rdfs:label	deep_to	
-ERROR	multiple_labels	BSPO:0000108	rdfs:label	superficial to	
-ERROR	multiple_labels	BSPO:0000108	rdfs:label	superficial_to	
-ERROR	multiple_labels	BSPO:0000120	rdfs:label	in left side of	
-ERROR	multiple_labels	BSPO:0000120	rdfs:label	in_left_side_of	
-ERROR	multiple_labels	BSPO:0000121	rdfs:label	in right side of	
-ERROR	multiple_labels	BSPO:0000121	rdfs:label	in_right_side_of	
-ERROR	multiple_labels	BSPO:0000122	rdfs:label	in posterior side of	
-ERROR	multiple_labels	BSPO:0000122	rdfs:label	in_posterior_side_of	
-ERROR	multiple_labels	BSPO:0000123	rdfs:label	in anterior side of	
-ERROR	multiple_labels	BSPO:0000123	rdfs:label	in_anterior_side_of	
-ERROR	multiple_labels	BSPO:0000124	rdfs:label	in proximal side of	
-ERROR	multiple_labels	BSPO:0000124	rdfs:label	in_proximal_side_of	
-ERROR	multiple_labels	BSPO:0000125	rdfs:label	in distal side of	
-ERROR	multiple_labels	BSPO:0000125	rdfs:label	in_distal_side_of	
-ERROR	multiple_labels	BSPO:0000126	rdfs:label	in lateral side of	
-ERROR	multiple_labels	BSPO:0000126	rdfs:label	in_lateral_side_of	
-ERROR	multiple_labels	BSPO:0001106	rdfs:label	proximalmost part of	
-ERROR	multiple_labels	BSPO:0001106	rdfs:label	proximalmost_part_of	
-ERROR	multiple_labels	BSPO:0001107	rdfs:label	immediately deep to	
-ERROR	multiple_labels	BSPO:0001107	rdfs:label	immediately_deep_to	
-ERROR	multiple_labels	BSPO:0015014	rdfs:label	immediately superficial to	
-ERROR	multiple_labels	BSPO:0015014	rdfs:label	immediately_superficial_to	
 ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity	
 ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure	
@@ -826,203 +502,51 @@ ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus
 ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus@en	
 ERROR	multiple_labels	GO:0016020	rdfs:label	membrane	
 ERROR	multiple_labels	GO:0016020	rdfs:label	membrane@en	
-ERROR	multiple_labels	GO:0019787	rdfs:label	small conjugating protein ligase activity	
-ERROR	multiple_labels	GO:0019787	rdfs:label	ubiquitin-like protein transferase activity	
 ERROR	multiple_labels	GO:0030424	rdfs:label	axon	
 ERROR	multiple_labels	GO:0030424	rdfs:label	axon@en	
 ERROR	multiple_labels	GO:0030425	rdfs:label	dendrite	
 ERROR	multiple_labels	GO:0030425	rdfs:label	dendrite@en	
-ERROR	multiple_labels	GO:0042734	rdfs:label	presynaptic membrane	
-ERROR	multiple_labels	GO:0042734	rdfs:label	presynaptic membrane@en	
 ERROR	multiple_labels	GO:0042995	rdfs:label	cell projection	
 ERROR	multiple_labels	GO:0042995	rdfs:label	cell projection@en	
 ERROR	multiple_labels	GO:0043005	rdfs:label	neuron projection	
 ERROR	multiple_labels	GO:0043005	rdfs:label	neuron projection@en	
-ERROR	multiple_labels	GO:0044403	rdfs:label	symbiosis, encompassing mutualism through parasitism	
-ERROR	multiple_labels	GO:0044403	rdfs:label	symbiotic process	
 ERROR	multiple_labels	GO:0045202	rdfs:label	synapse	
 ERROR	multiple_labels	GO:0045202	rdfs:label	synapse@en	
-ERROR	multiple_labels	GO:0045211	rdfs:label	postsynaptic membrane	
-ERROR	multiple_labels	GO:0045211	rdfs:label	postsynaptic membrane@en	
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage	
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en	
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition	
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en	
-ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note	
-ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en	
-ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en	
-ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes	
-ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
-ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to@en	
-ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of	
-ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of@en	
-ERROR	multiple_labels	RO:0000087	rdfs:label	has role	
-ERROR	multiple_labels	RO:0000087	rdfs:label	has role@en	
-ERROR	multiple_labels	RO:0001015	rdfs:label	location of@en	
-ERROR	multiple_labels	RO:0001015	rdfs:label	location_of	
-ERROR	multiple_labels	RO:0001019	rdfs:label	contains	
-ERROR	multiple_labels	RO:0001019	rdfs:label	contains@en	
-ERROR	multiple_labels	RO:0001025	rdfs:label	located in@en	
-ERROR	multiple_labels	RO:0001025	rdfs:label	located_in	
-ERROR	multiple_labels	RO:0002000	rdfs:label	2D boundary of@en	
-ERROR	multiple_labels	RO:0002000	rdfs:label	boundary of	
-ERROR	multiple_labels	RO:0002002	rdfs:label	has 2D boundary@en	
-ERROR	multiple_labels	RO:0002002	rdfs:label	has boundary	
-ERROR	multiple_labels	RO:0002007	rdfs:label	bounding layer of	
-ERROR	multiple_labels	RO:0002007	rdfs:label	bounding layer of@en	
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en	
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by	
-ERROR	multiple_labels	RO:0002091	rdfs:label	starts during@en	
-ERROR	multiple_labels	RO:0002091	rdfs:label	starts_during	
-ERROR	multiple_labels	RO:0002092	rdfs:label	happens during	
-ERROR	multiple_labels	RO:0002092	rdfs:label	happens during@en	
-ERROR	multiple_labels	RO:0002093	rdfs:label	ends during@en	
-ERROR	multiple_labels	RO:0002093	rdfs:label	ends_during	
 ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps	
 ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps@en	
 ERROR	multiple_labels	RO:0002150	rdfs:label	continuous with	
-ERROR	multiple_labels	RO:0002150	rdfs:label	continuous with@en	
 ERROR	multiple_labels	RO:0002150	rdfs:label	continuous_with	
-ERROR	multiple_labels	RO:0002170	rdfs:label	connected to	
-ERROR	multiple_labels	RO:0002170	rdfs:label	connected to@en	
-ERROR	multiple_labels	RO:0002174	rdfs:label	dubious for taxon@en	
-ERROR	multiple_labels	RO:0002174	rdfs:label	dubious_for_taxon	
-ERROR	multiple_labels	RO:0002175	rdfs:label	present in taxon@en	
-ERROR	multiple_labels	RO:0002175	rdfs:label	present_in_taxon	
-ERROR	multiple_labels	RO:0002176	rdfs:label	connects	
-ERROR	multiple_labels	RO:0002176	rdfs:label	connects@en	
-ERROR	multiple_labels	RO:0002177	rdfs:label	attached to part of@en	
-ERROR	multiple_labels	RO:0002177	rdfs:label	attaches_to_part_of	
-ERROR	multiple_labels	RO:0002178	rdfs:label	supplies	
-ERROR	multiple_labels	RO:0002178	rdfs:label	supplies@en	
-ERROR	multiple_labels	RO:0002179	rdfs:label	drains	
-ERROR	multiple_labels	RO:0002179	rdfs:label	drains@en	
-ERROR	multiple_labels	RO:0002180	rdfs:label	has component	
-ERROR	multiple_labels	RO:0002180	rdfs:label	has component@en	
 ERROR	multiple_labels	RO:0002202	rdfs:label	develops from	
-ERROR	multiple_labels	RO:0002202	rdfs:label	develops from@en	
 ERROR	multiple_labels	RO:0002202	rdfs:label	develops_from	
-ERROR	multiple_labels	RO:0002203	rdfs:label	develops into@en	
-ERROR	multiple_labels	RO:0002203	rdfs:label	develops_into	
-ERROR	multiple_labels	RO:0002207	rdfs:label	directly develops from@en	
-ERROR	multiple_labels	RO:0002207	rdfs:label	directly_develops_from	
 ERROR	multiple_labels	RO:0002211	rdfs:label	regulates	
 ERROR	multiple_labels	RO:0002211	rdfs:label	regulates@en	
 ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates	
 ERROR	multiple_labels	RO:0002212	rdfs:label	negatively regulates@en	
 ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates	
 ERROR	multiple_labels	RO:0002213	rdfs:label	positively regulates@en	
-ERROR	multiple_labels	RO:0002215	rdfs:label	capable of	
-ERROR	multiple_labels	RO:0002215	rdfs:label	capable of@en	
-ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of	
-ERROR	multiple_labels	RO:0002216	rdfs:label	capable of part of@en	
-ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded by@en	
-ERROR	multiple_labels	RO:0002219	rdfs:label	surrounded_by	
-ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to	
-ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent to@en	
-ERROR	multiple_labels	RO:0002220	rdfs:label	adjacent_to	
-ERROR	multiple_labels	RO:0002221	rdfs:label	surrounds	
-ERROR	multiple_labels	RO:0002221	rdfs:label	surrounds@en	
-ERROR	multiple_labels	RO:0002223	rdfs:label	starts	
-ERROR	multiple_labels	RO:0002223	rdfs:label	starts@en	
-ERROR	multiple_labels	RO:0002224	rdfs:label	starts with	
-ERROR	multiple_labels	RO:0002224	rdfs:label	starts with@en	
-ERROR	multiple_labels	RO:0002225	rdfs:label	develops from part of@en	
-ERROR	multiple_labels	RO:0002225	rdfs:label	develops_from_part_of	
-ERROR	multiple_labels	RO:0002226	rdfs:label	develops in@en	
-ERROR	multiple_labels	RO:0002226	rdfs:label	develops_in	
-ERROR	multiple_labels	RO:0002229	rdfs:label	ends	
-ERROR	multiple_labels	RO:0002229	rdfs:label	ends@en	
-ERROR	multiple_labels	RO:0002230	rdfs:label	ends with	
-ERROR	multiple_labels	RO:0002230	rdfs:label	ends with@en	
-ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from	
-ERROR	multiple_labels	RO:0002254	rdfs:label	has developmental contribution from@en	
-ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally contributes to@en	
-ERROR	multiple_labels	RO:0002255	rdfs:label	developmentally_contributes_to	
-ERROR	multiple_labels	RO:0002256	rdfs:label	developmentally induced by@en	
-ERROR	multiple_labels	RO:0002256	rdfs:label	developmentally_induced_by	
-ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by	
-ERROR	multiple_labels	RO:0002258	rdfs:label	developmentally preceded by@en	
-ERROR	multiple_labels	RO:0002285	rdfs:label	developmentally replaces@en	
-ERROR	multiple_labels	RO:0002285	rdfs:label	developmentally_replaces	
-ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to	
-ERROR	multiple_labels	RO:0002328	rdfs:label	functionally related to@en	
-ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of	
-ERROR	multiple_labels	RO:0002329	rdfs:label	part of structure that is capable of@en	
-ERROR	multiple_labels	RO:0002350	rdfs:label	member of	
-ERROR	multiple_labels	RO:0002350	rdfs:label	member of@en	
-ERROR	multiple_labels	RO:0002351	rdfs:label	has member	
-ERROR	multiple_labels	RO:0002351	rdfs:label	has member@en	
-ERROR	multiple_labels	RO:0002352	rdfs:label	input of	
-ERROR	multiple_labels	RO:0002352	rdfs:label	input of@en	
-ERROR	multiple_labels	RO:0002371	rdfs:label	attached to@en	
-ERROR	multiple_labels	RO:0002371	rdfs:label	attaches_to	
-ERROR	multiple_labels	RO:0002376	rdfs:label	tributary of@en	
-ERROR	multiple_labels	RO:0002376	rdfs:label	tributary_of	
-ERROR	multiple_labels	RO:0002380	rdfs:label	branching part of@en	
-ERROR	multiple_labels	RO:0002380	rdfs:label	branching_part_of	
-ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to	
-ERROR	multiple_labels	RO:0002385	rdfs:label	has potential to developmentally contribute to@en	
-ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into	
-ERROR	multiple_labels	RO:0002387	rdfs:label	has potential to develop into@en	
-ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into	
-ERROR	multiple_labels	RO:0002388	rdfs:label	has potential to directly develop into@en	
 ERROR	multiple_labels	RO:0002496	rdfs:label	existence starts during or after	
 ERROR	multiple_labels	RO:0002496	rdfs:label	start stage	
 ERROR	multiple_labels	RO:0002497	rdfs:label	end stage	
 ERROR	multiple_labels	RO:0002497	rdfs:label	existence ends during or before	
-ERROR	multiple_labels	RO:0002604	rdfs:label	is opposite of	
-ERROR	multiple_labels	RO:0002604	rdfs:label	is_opposite_of	
-ERROR	multiple_labels	RO:0003000	rdfs:label	produces	
-ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
-ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
-ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
-WARN	annotation_whitespace	fcd9ce5e5d03e8f3c37a1c03295e9bbe	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 	
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 	
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 	
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 	
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 	
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 	
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 	
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 	
-WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 	
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 	
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 	
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 	
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 	
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 	
-WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 	
-WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 	
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 	
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 	
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 	
+WARN	annotation_whitespace	e90812972d807f5916668b043b9dbaa5	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BSPO:0000026	oboInOwl:hasExactSynonym	anterodorsal region 	
 WARN	annotation_whitespace	BSPO:0000027	oboInOwl:hasExactSynonym	anteroventral region 	
 WARN	annotation_whitespace	BSPO:0001001	oboInOwl:hasRelatedSynonym	proximal-distal axis 	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasExactSynonym	Myosarcoma 	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasRelatedSynonym	 Rhabdopoietic Sarcoma	
 WARN	annotation_whitespace	MPATH:710	oboInOwl:hasRelatedSynonym	 Sarcoma Botryoides [Soft Tissues]	
-WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
-WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en	
-WARN	annotation_whitespace	RO:0002163	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en	
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 	
-WARN	annotation_whitespace	RO:0002256	IAO:0000119	 Developmental Biology, Gilbert, 8th edition, figure 6.5(F)	
-WARN	annotation_whitespace	RO:0002326	IAO:0000232	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 	
-WARN	annotation_whitespace	ZFA:0000077	oboInOwl:hasRelatedSynonym	tail bud mesenchyme 	
 WARN	annotation_whitespace	ZFA:0000188	oboInOwl:hasExactSynonym	corpus cerebelli granular layer 	
-WARN	annotation_whitespace	ZFA:0000233	oboInOwl:hasRelatedSynonym	buccal valve 	
 WARN	annotation_whitespace	ZFA:0000287	oboInOwl:hasExactSynonym	flexor caudalis dorsalis superioris  	
-WARN	annotation_whitespace	ZFA:0000298	oboInOwl:hasExactSynonym	cloacal vent 	
-WARN	annotation_whitespace	ZFA:0000343	oboInOwl:hasRelatedSynonym	Vd 	
-WARN	annotation_whitespace	ZFA:0000451	oboInOwl:hasExactSynonym	maxillary valve 	
 WARN	annotation_whitespace	ZFA:0000451	oboInOwl:hasExactSynonym	upper semilunar valve 	
 WARN	annotation_whitespace	ZFA:0000498	oboInOwl:hasExactSynonym	 dilatator opercula	
 WARN	annotation_whitespace	ZFA:0000512	oboInOwl:hasRelatedSynonym	tuberculum impar of Herrick 	
 WARN	annotation_whitespace	ZFA:0000549	oboInOwl:hasRelatedSynonym	post-temporal 	
+WARN	annotation_whitespace	ZFA:0000588	oboInOwl:hasExactSynonym	octaval ganglion 	
 WARN	annotation_whitespace	ZFA:0000599	oboInOwl:hasExactSynonym	semicircular torus 	
 WARN	annotation_whitespace	ZFA:0000608	oboInOwl:hasExactSynonym	transversus ventralis 	
 WARN	annotation_whitespace	ZFA:0000634	oboInOwl:hasExactSynonym	hypothalamus pars tuberalis 	
@@ -1088,6 +612,7 @@ WARN	annotation_whitespace	ZFA:0005742	oboInOwl:hasRelatedSynonym	pancreatic F c
 WARN	annotation_whitespace	ZFA:0005772	oboInOwl:hasExactSynonym	zygote 	
 WARN	annotation_whitespace	ZFA:0005778	oboInOwl:hasRelatedSynonym	orexin secreting neuron 	
 WARN	annotation_whitespace	ZFA:0005815	oboInOwl:hasRelatedSynonym	T shaped reticular neuron 	
+WARN	annotation_whitespace	ZFA:0005822	oboInOwl:hasExactSynonym	interfilamenti caudalis dorsalis    	
 WARN	annotation_whitespace	ZFA:0005824	oboInOwl:hasExactSynonym	lateralis profundus ventralis 	
 WARN	annotation_whitespace	ZFA:0005835	oboInOwl:hasExactSynonym	LAA4 	
 WARN	annotation_whitespace	ZFA:0005839	oboInOwl:hasExactSynonym	MFL 	
@@ -1109,8 +634,6 @@ WARN	duplicate_exact_synonym	UBERON:0004362	oboInOwl:hasExactSynonym	visceral ar
 WARN	duplicate_exact_synonym	ZFA:0001612	oboInOwl:hasExactSynonym	visceral arch 1	
 WARN	duplicate_exact_synonym	ZFA:0005283	oboInOwl:hasExactSynonym	urinary space	
 WARN	duplicate_exact_synonym	ZFA:0005312	oboInOwl:hasExactSynonym	urinary space	
-WARN	duplicate_exact_synonym	UBERON:0007377	oboInOwl:hasExactSynonym	stratum compactum	
-WARN	duplicate_exact_synonym	ZFA:0001182	oboInOwl:hasExactSynonym	stratum compactum	
 WARN	duplicate_exact_synonym	UBERON:0014777	oboInOwl:hasExactSynonym	spinal neuromeres	
 WARN	duplicate_exact_synonym	ZFA:0001332	oboInOwl:hasExactSynonym	spinal neuromeres	
 WARN	duplicate_exact_synonym	UBERON:0002458	oboInOwl:hasExactSynonym	spinal arteries	
@@ -1131,6 +654,8 @@ WARN	duplicate_exact_synonym	UBERON:0007284	oboInOwl:hasExactSynonym	prospective
 WARN	duplicate_exact_synonym	ZFA:0000063	oboInOwl:hasExactSynonym	prospective vegetal ectoderm	
 WARN	duplicate_exact_synonym	UBERON:0007284	oboInOwl:hasExactSynonym	prospective neuroectoderm	
 WARN	duplicate_exact_synonym	ZFA:0000063	oboInOwl:hasExactSynonym	prospective neuroectoderm	
+WARN	duplicate_exact_synonym	UBERON:0004160	oboInOwl:hasExactSynonym	proepicardial organ	
+WARN	duplicate_exact_synonym	ZFA:0005808	oboInOwl:hasExactSynonym	proepicardial organ	
 WARN	duplicate_exact_synonym	UBERON:0006598	oboInOwl:hasExactSynonym	presumptive structures	
 WARN	duplicate_exact_synonym	ZFA:0001116	oboInOwl:hasExactSynonym	presumptive structures	
 WARN	duplicate_exact_synonym	UBERON:0006241	oboInOwl:hasExactSynonym	presumptive spinal cord neural rod	
@@ -1205,8 +730,6 @@ WARN	duplicate_exact_synonym	UBERON:0001555	oboInOwl:hasExactSynonym	enteric tra
 WARN	duplicate_exact_synonym	ZFA:0000112	oboInOwl:hasExactSynonym	enteric tract	
 WARN	duplicate_exact_synonym	BSPO:0000063	oboInOwl:hasExactSynonym	dorsal	
 WARN	duplicate_exact_synonym	PATO:0001233	oboInOwl:hasExactSynonym	dorsal	
-WARN	duplicate_exact_synonym	BSPO:0000062	oboInOwl:hasExactSynonym	distal	
-WARN	duplicate_exact_synonym	PATO:0001234	oboInOwl:hasExactSynonym	distal	
 WARN	duplicate_exact_synonym	UBERON:0002217	oboInOwl:hasExactSynonym	diarthroses	
 WARN	duplicate_exact_synonym	ZFA:0005153	oboInOwl:hasExactSynonym	diarthroses	
 WARN	duplicate_exact_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper	
@@ -1243,7 +766,7 @@ WARN	duplicate_exact_synonym	UBERON:0003123	oboInOwl:hasExactSynonym	AA6
 WARN	duplicate_exact_synonym	ZFA:0005016	oboInOwl:hasExactSynonym	AA6	
 WARN	duplicate_exact_synonym	UBERON:0003118	oboInOwl:hasExactSynonym	AA1	
 WARN	duplicate_exact_synonym	ZFA:0005005	oboInOwl:hasExactSynonym	AA1	
-WARN	missing_definition	BFO:0000141	IAO:0000115		
+WARN	missing_definition	BFO:0000019	IAO:0000115		
 WARN	missing_definition	BSPO:0000001	IAO:0000115		
 WARN	missing_definition	BSPO:0000004	IAO:0000115		
 WARN	missing_definition	BSPO:0000031	IAO:0000115		
@@ -1269,14 +792,19 @@ WARN	missing_definition	BSPO:0000376	IAO:0000115
 WARN	missing_definition	BSPO:0015001	IAO:0000115		
 WARN	missing_definition	BSPO:0015007	IAO:0000115		
 WARN	missing_definition	BSPO:0015008	IAO:0000115		
-WARN	missing_definition	CARO:0000014	IAO:0000115		
-WARN	missing_definition	CARO:0010000	IAO:0000115		
 WARN	missing_definition	CARO:0030000	IAO:0000115		
 WARN	missing_definition	CHEBI:12936	IAO:0000115		
+WARN	missing_definition	CHEBI:134207	IAO:0000115		
 WARN	missing_definition	CHEBI:13941	IAO:0000115		
 WARN	missing_definition	CHEBI:140785	IAO:0000115		
+WARN	missing_definition	CHEBI:140941	IAO:0000115		
 WARN	missing_definition	CHEBI:143532	IAO:0000115		
+WARN	missing_definition	CHEBI:146291	IAO:0000115		
+WARN	missing_definition	CHEBI:146293	IAO:0000115		
 WARN	missing_definition	CHEBI:15036	IAO:0000115		
+WARN	missing_definition	CHEBI:15358	IAO:0000115		
+WARN	missing_definition	CHEBI:156255	IAO:0000115		
+WARN	missing_definition	CHEBI:16234	IAO:0000115		
 WARN	missing_definition	CHEBI:16618	IAO:0000115		
 WARN	missing_definition	CHEBI:16733	IAO:0000115		
 WARN	missing_definition	CHEBI:16862	IAO:0000115		
@@ -1288,6 +816,7 @@ WARN	missing_definition	CHEBI:17326	IAO:0000115
 WARN	missing_definition	CHEBI:17668	IAO:0000115		
 WARN	missing_definition	CHEBI:17858	IAO:0000115		
 WARN	missing_definition	CHEBI:17972	IAO:0000115		
+WARN	missing_definition	CHEBI:18009	IAO:0000115		
 WARN	missing_definition	CHEBI:18140	IAO:0000115		
 WARN	missing_definition	CHEBI:18291	IAO:0000115		
 WARN	missing_definition	CHEBI:18420	IAO:0000115		
@@ -1316,13 +845,14 @@ WARN	missing_definition	CHEBI:23230	IAO:0000115
 WARN	missing_definition	CHEBI:23333	IAO:0000115		
 WARN	missing_definition	CHEBI:23334	IAO:0000115		
 WARN	missing_definition	CHEBI:23341	IAO:0000115		
+WARN	missing_definition	CHEBI:23366	IAO:0000115		
 WARN	missing_definition	CHEBI:23377	IAO:0000115		
 WARN	missing_definition	CHEBI:23390	IAO:0000115		
 WARN	missing_definition	CHEBI:23447	IAO:0000115		
 WARN	missing_definition	CHEBI:23449	IAO:0000115		
+WARN	missing_definition	CHEBI:23505	IAO:0000115		
 WARN	missing_definition	CHEBI:23521	IAO:0000115		
 WARN	missing_definition	CHEBI:23523	IAO:0000115		
-WARN	missing_definition	CHEBI:23524	IAO:0000115		
 WARN	missing_definition	CHEBI:237958	IAO:0000115		
 WARN	missing_definition	CHEBI:23905	IAO:0000115		
 WARN	missing_definition	CHEBI:23906	IAO:0000115		
@@ -1336,6 +866,7 @@ WARN	missing_definition	CHEBI:24455	IAO:0000115
 WARN	missing_definition	CHEBI:24458	IAO:0000115		
 WARN	missing_definition	CHEBI:24471	IAO:0000115		
 WARN	missing_definition	CHEBI:24473	IAO:0000115		
+WARN	missing_definition	CHEBI:24500	IAO:0000115		
 WARN	missing_definition	CHEBI:24588	IAO:0000115		
 WARN	missing_definition	CHEBI:24610	IAO:0000115		
 WARN	missing_definition	CHEBI:24712	IAO:0000115		
@@ -1358,6 +889,7 @@ WARN	missing_definition	CHEBI:25216	IAO:0000115
 WARN	missing_definition	CHEBI:25414	IAO:0000115		
 WARN	missing_definition	CHEBI:25430	IAO:0000115		
 WARN	missing_definition	CHEBI:25527	IAO:0000115		
+WARN	missing_definition	CHEBI:25534	IAO:0000115		
 WARN	missing_definition	CHEBI:25555	IAO:0000115		
 WARN	missing_definition	CHEBI:25585	IAO:0000115		
 WARN	missing_definition	CHEBI:25604	IAO:0000115		
@@ -1387,7 +919,6 @@ WARN	missing_definition	CHEBI:26396	IAO:0000115
 WARN	missing_definition	CHEBI:26397	IAO:0000115		
 WARN	missing_definition	CHEBI:26398	IAO:0000115		
 WARN	missing_definition	CHEBI:26437	IAO:0000115		
-WARN	missing_definition	CHEBI:26440	IAO:0000115		
 WARN	missing_definition	CHEBI:26441	IAO:0000115		
 WARN	missing_definition	CHEBI:26442	IAO:0000115		
 WARN	missing_definition	CHEBI:26446	IAO:0000115		
@@ -1416,6 +947,7 @@ WARN	missing_definition	CHEBI:28659	IAO:0000115
 WARN	missing_definition	CHEBI:28694	IAO:0000115		
 WARN	missing_definition	CHEBI:28976	IAO:0000115		
 WARN	missing_definition	CHEBI:29034	IAO:0000115		
+WARN	missing_definition	CHEBI:29057	IAO:0000115		
 WARN	missing_definition	CHEBI:29075	IAO:0000115		
 WARN	missing_definition	CHEBI:29108	IAO:0000115		
 WARN	missing_definition	CHEBI:29192	IAO:0000115		
@@ -1423,11 +955,15 @@ WARN	missing_definition	CHEBI:29214	IAO:0000115
 WARN	missing_definition	CHEBI:29222	IAO:0000115		
 WARN	missing_definition	CHEBI:29337	IAO:0000115		
 WARN	missing_definition	CHEBI:29369	IAO:0000115		
+WARN	missing_definition	CHEBI:29412	IAO:0000115		
+WARN	missing_definition	CHEBI:29792	IAO:0000115		
 WARN	missing_definition	CHEBI:29917	IAO:0000115		
 WARN	missing_definition	CHEBI:29919	IAO:0000115		
 WARN	missing_definition	CHEBI:29922	IAO:0000115		
 WARN	missing_definition	CHEBI:29989	IAO:0000115		
 WARN	missing_definition	CHEBI:30052	IAO:0000115		
+WARN	missing_definition	CHEBI:30353	IAO:0000115		
+WARN	missing_definition	CHEBI:30356	IAO:0000115		
 WARN	missing_definition	CHEBI:30412	IAO:0000115		
 WARN	missing_definition	CHEBI:30488	IAO:0000115		
 WARN	missing_definition	CHEBI:30848	IAO:0000115		
@@ -1438,7 +974,18 @@ WARN	missing_definition	CHEBI:32530	IAO:0000115
 WARN	missing_definition	CHEBI:32531	IAO:0000115		
 WARN	missing_definition	CHEBI:32532	IAO:0000115		
 WARN	missing_definition	CHEBI:32594	IAO:0000115		
+WARN	missing_definition	CHEBI:32683	IAO:0000115		
+WARN	missing_definition	CHEBI:32688	IAO:0000115		
+WARN	missing_definition	CHEBI:32690	IAO:0000115		
+WARN	missing_definition	CHEBI:32695	IAO:0000115		
+WARN	missing_definition	CHEBI:32696	IAO:0000115		
+WARN	missing_definition	CHEBI:32697	IAO:0000115		
 WARN	missing_definition	CHEBI:32785	IAO:0000115		
+WARN	missing_definition	CHEBI:32832	IAO:0000115		
+WARN	missing_definition	CHEBI:32833	IAO:0000115		
+WARN	missing_definition	CHEBI:32859	IAO:0000115		
+WARN	missing_definition	CHEBI:32860	IAO:0000115		
+WARN	missing_definition	CHEBI:32879	IAO:0000115		
 WARN	missing_definition	CHEBI:33241	IAO:0000115		
 WARN	missing_definition	CHEBI:33242	IAO:0000115		
 WARN	missing_definition	CHEBI:33280	IAO:0000115		
@@ -1501,6 +1048,7 @@ WARN	missing_definition	CHEBI:33745	IAO:0000115
 WARN	missing_definition	CHEBI:33760	IAO:0000115		
 WARN	missing_definition	CHEBI:33767	IAO:0000115		
 WARN	missing_definition	CHEBI:33791	IAO:0000115		
+WARN	missing_definition	CHEBI:33792	IAO:0000115		
 WARN	missing_definition	CHEBI:33793	IAO:0000115		
 WARN	missing_definition	CHEBI:33804	IAO:0000115		
 WARN	missing_definition	CHEBI:33836	IAO:0000115		
@@ -1544,6 +1092,9 @@ WARN	missing_definition	CHEBI:35571	IAO:0000115
 WARN	missing_definition	CHEBI:35573	IAO:0000115		
 WARN	missing_definition	CHEBI:35605	IAO:0000115		
 WARN	missing_definition	CHEBI:35693	IAO:0000115		
+WARN	missing_definition	CHEBI:35721	IAO:0000115		
+WARN	missing_definition	CHEBI:35722	IAO:0000115		
+WARN	missing_definition	CHEBI:35724	IAO:0000115		
 WARN	missing_definition	CHEBI:35740	IAO:0000115		
 WARN	missing_definition	CHEBI:35786	IAO:0000115		
 WARN	missing_definition	CHEBI:35788	IAO:0000115		
@@ -1590,13 +1141,16 @@ WARN	missing_definition	CHEBI:37246	IAO:0000115
 WARN	missing_definition	CHEBI:37247	IAO:0000115		
 WARN	missing_definition	CHEBI:37328	IAO:0000115		
 WARN	missing_definition	CHEBI:37404	IAO:0000115		
+WARN	missing_definition	CHEBI:37584	IAO:0000115		
 WARN	missing_definition	CHEBI:37617	IAO:0000115		
 WARN	missing_definition	CHEBI:37618	IAO:0000115		
 WARN	missing_definition	CHEBI:37662	IAO:0000115		
 WARN	missing_definition	CHEBI:37734	IAO:0000115		
 WARN	missing_definition	CHEBI:37749	IAO:0000115		
 WARN	missing_definition	CHEBI:37750	IAO:0000115		
+WARN	missing_definition	CHEBI:37826	IAO:0000115		
 WARN	missing_definition	CHEBI:37834	IAO:0000115		
+WARN	missing_definition	CHEBI:37863	IAO:0000115		
 WARN	missing_definition	CHEBI:3815	IAO:0000115		
 WARN	missing_definition	CHEBI:38157	IAO:0000115		
 WARN	missing_definition	CHEBI:38166	IAO:0000115		
@@ -1617,15 +1171,20 @@ WARN	missing_definition	CHEBI:38856	IAO:0000115
 WARN	missing_definition	CHEBI:39123	IAO:0000115		
 WARN	missing_definition	CHEBI:39124	IAO:0000115		
 WARN	missing_definition	CHEBI:39128	IAO:0000115		
-WARN	missing_definition	CHEBI:39446	IAO:0000115		
 WARN	missing_definition	CHEBI:3992	IAO:0000115		
 WARN	missing_definition	CHEBI:41609	IAO:0000115		
 WARN	missing_definition	CHEBI:42485	IAO:0000115		
 WARN	missing_definition	CHEBI:43176	IAO:0000115		
+WARN	missing_definition	CHEBI:44409	IAO:0000115		
 WARN	missing_definition	CHEBI:45506	IAO:0000115		
+WARN	missing_definition	CHEBI:45696	IAO:0000115		
 WARN	missing_definition	CHEBI:46629	IAO:0000115		
+WARN	missing_definition	CHEBI:46691	IAO:0000115		
+WARN	missing_definition	CHEBI:46701	IAO:0000115		
 WARN	missing_definition	CHEBI:46721	IAO:0000115		
 WARN	missing_definition	CHEBI:46723	IAO:0000115		
+WARN	missing_definition	CHEBI:46767	IAO:0000115		
+WARN	missing_definition	CHEBI:46773	IAO:0000115		
 WARN	missing_definition	CHEBI:46867	IAO:0000115		
 WARN	missing_definition	CHEBI:46883	IAO:0000115		
 WARN	missing_definition	CHEBI:46966	IAO:0000115		
@@ -1649,6 +1208,7 @@ WARN	missing_definition	CHEBI:49302	IAO:0000115
 WARN	missing_definition	CHEBI:49637	IAO:0000115		
 WARN	missing_definition	CHEBI:50297	IAO:0000115		
 WARN	missing_definition	CHEBI:50298	IAO:0000115		
+WARN	missing_definition	CHEBI:50299	IAO:0000115		
 WARN	missing_definition	CHEBI:50312	IAO:0000115		
 WARN	missing_definition	CHEBI:50315	IAO:0000115		
 WARN	missing_definition	CHEBI:50319	IAO:0000115		
@@ -1660,6 +1220,8 @@ WARN	missing_definition	CHEBI:50334	IAO:0000115
 WARN	missing_definition	CHEBI:50336	IAO:0000115		
 WARN	missing_definition	CHEBI:50338	IAO:0000115		
 WARN	missing_definition	CHEBI:50339	IAO:0000115		
+WARN	missing_definition	CHEBI:50340	IAO:0000115		
+WARN	missing_definition	CHEBI:50341	IAO:0000115		
 WARN	missing_definition	CHEBI:50385	IAO:0000115		
 WARN	missing_definition	CHEBI:50395	IAO:0000115		
 WARN	missing_definition	CHEBI:5054	IAO:0000115		
@@ -1669,38 +1231,23 @@ WARN	missing_definition	CHEBI:51447	IAO:0000115
 WARN	missing_definition	CHEBI:51958	IAO:0000115		
 WARN	missing_definition	CHEBI:52208	IAO:0000115		
 WARN	missing_definition	CHEBI:52211	IAO:0000115		
+WARN	missing_definition	CHEBI:52625	IAO:0000115		
 WARN	missing_definition	CHEBI:5386	IAO:0000115		
 WARN	missing_definition	CHEBI:81567	IAO:0000115		
 WARN	missing_definition	CHEBI:81568	IAO:0000115		
 WARN	missing_definition	CHEBI:81569	IAO:0000115		
 WARN	missing_definition	CHEBI:81580	IAO:0000115		
 WARN	missing_definition	CHEBI:8386	IAO:0000115		
+WARN	missing_definition	CHEBI:85043	IAO:0000115		
 WARN	missing_definition	CHEBI:89634	IAO:0000115		
 WARN	missing_definition	CL:0000000	IAO:0000115		
 WARN	missing_definition	CL:0000540	IAO:0000115		
-WARN	missing_definition	IAO:0000111	IAO:0000115		
-WARN	missing_definition	IAO:0000112	IAO:0000115		
-WARN	missing_definition	IAO:0000114	IAO:0000115		
+WARN	missing_definition	GO:0044464	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
-WARN	missing_definition	IAO:0000116	IAO:0000115		
-WARN	missing_definition	IAO:0000117	IAO:0000115		
-WARN	missing_definition	IAO:0000118	IAO:0000115		
-WARN	missing_definition	IAO:0000119	IAO:0000115		
-WARN	missing_definition	IAO:0000232	IAO:0000115		
-WARN	missing_definition	IAO:0000412	IAO:0000115		
-WARN	missing_definition	IAO:0000424	IAO:0000115		
-WARN	missing_definition	IAO:0000589	IAO:0000115		
-WARN	missing_definition	IAO:0000600	IAO:0000115		
-WARN	missing_definition	IAO:0000601	IAO:0000115		
-WARN	missing_definition	IAO:0000602	IAO:0000115		
-WARN	missing_definition	IAO:0010000	IAO:0000115		
-WARN	missing_definition	IAO:0100001	IAO:0000115		
 WARN	missing_definition	MPATH:695	IAO:0000115		
 WARN	missing_definition	PATO:0000068	IAO:0000115		
 WARN	missing_definition	PATO:0001492	IAO:0000115		
-WARN	missing_definition	PATO:0001493	IAO:0000115		
 WARN	missing_definition	PATO:0001494	IAO:0000115		
-WARN	missing_definition	PATO:0001760	IAO:0000115		
 WARN	missing_definition	PATO:0001763	IAO:0000115		
 WARN	missing_definition	PATO:0001767	IAO:0000115		
 WARN	missing_definition	PATO:0002016	IAO:0000115		
@@ -1710,50 +1257,66 @@ WARN	missing_definition	PATO:0002062	IAO:0000115
 WARN	missing_definition	PATO:0002143	IAO:0000115		
 WARN	missing_definition	PATO:0002267	IAO:0000115		
 WARN	missing_definition	PATO:0002290	IAO:0000115		
-WARN	missing_definition	RO:0001018	IAO:0000115		
+WARN	missing_definition	RO:0000087	IAO:0000115		
+WARN	missing_definition	RO:0001015	IAO:0000115		
 WARN	missing_definition	RO:0001019	IAO:0000115		
+WARN	missing_definition	RO:0001025	IAO:0000115		
+WARN	missing_definition	RO:0002002	IAO:0000115		
+WARN	missing_definition	RO:0002007	IAO:0000115		
 WARN	missing_definition	RO:0002017	IAO:0000115		
 WARN	missing_definition	RO:0002022	IAO:0000115		
-WARN	missing_definition	RO:0002084	IAO:0000115		
-WARN	missing_definition	RO:0002085	IAO:0000115		
 WARN	missing_definition	RO:0002086	IAO:0000115		
-WARN	missing_definition	RO:0002088	IAO:0000115		
 WARN	missing_definition	RO:0002090	IAO:0000115		
-WARN	missing_definition	RO:0002091	IAO:0000115		
 WARN	missing_definition	RO:0002092	IAO:0000115		
 WARN	missing_definition	RO:0002093	IAO:0000115		
+WARN	missing_definition	RO:0002177	IAO:0000115		
+WARN	missing_definition	RO:0002179	IAO:0000115		
+WARN	missing_definition	RO:0002202	IAO:0000115		
+WARN	missing_definition	RO:0002203	IAO:0000115		
 WARN	missing_definition	RO:0002222	IAO:0000115		
-WARN	missing_definition	RO:0002287	IAO:0000115		
+WARN	missing_definition	RO:0002224	IAO:0000115		
+WARN	missing_definition	RO:0002230	IAO:0000115		
+WARN	missing_definition	RO:0002255	IAO:0000115		
+WARN	missing_definition	RO:0002285	IAO:0000115		
 WARN	missing_definition	RO:0002304	IAO:0000115		
 WARN	missing_definition	RO:0002305	IAO:0000115		
-WARN	missing_definition	RO:0002326	IAO:0000115		
 WARN	missing_definition	RO:0002327	IAO:0000115		
+WARN	missing_definition	RO:0002350	IAO:0000115		
+WARN	missing_definition	RO:0002351	IAO:0000115		
+WARN	missing_definition	RO:0002371	IAO:0000115		
+WARN	missing_definition	RO:0002376	IAO:0000115		
+WARN	missing_definition	RO:0002380	IAO:0000115		
 WARN	missing_definition	RO:0002405	IAO:0000115		
-WARN	missing_definition	RO:0002423	IAO:0000115		
+WARN	missing_definition	RO:0002433	IAO:0000115		
 WARN	missing_definition	RO:0002447	IAO:0000115		
 WARN	missing_definition	RO:0002464	IAO:0000115		
-WARN	missing_definition	RO:0002465	IAO:0000115		
 WARN	missing_definition	RO:0002481	IAO:0000115		
-WARN	missing_definition	RO:0002487	IAO:0000115		
+WARN	missing_definition	RO:0002494	IAO:0000115		
+WARN	missing_definition	RO:0002495	IAO:0000115		
 WARN	missing_definition	RO:0002502	IAO:0000115		
 WARN	missing_definition	RO:0002506	IAO:0000115		
 WARN	missing_definition	RO:0002559	IAO:0000115		
 WARN	missing_definition	RO:0002563	IAO:0000115		
 WARN	missing_definition	RO:0002564	IAO:0000115		
+WARN	missing_definition	RO:0002569	IAO:0000115		
+WARN	missing_definition	RO:0002572	IAO:0000115		
+WARN	missing_definition	RO:0002576	IAO:0000115		
+WARN	missing_definition	RO:0003000	IAO:0000115		
+WARN	missing_definition	RO:0003001	IAO:0000115		
 WARN	missing_definition	RO:0004032	IAO:0000115		
 WARN	missing_definition	RO:0004033	IAO:0000115		
 WARN	missing_definition	RO:0004046	IAO:0000115		
 WARN	missing_definition	RO:0004047	IAO:0000115		
-WARN	missing_definition	RO:0004049	IAO:0000115		
-WARN	missing_definition	RO:0004050	IAO:0000115		
 WARN	missing_definition	UBERON:0000153	IAO:0000115		
 WARN	missing_definition	UBERON:0000154	IAO:0000115		
 WARN	missing_definition	UBERON:0001444	IAO:0000115		
 WARN	missing_definition	UBERON:0003076	IAO:0000115		
 WARN	missing_definition	UBERON:0003080	IAO:0000115		
+WARN	missing_definition	UBERON:0005092	IAO:0000115		
 WARN	missing_definition	UBERON:0005339	IAO:0000115		
 WARN	missing_definition	UBERON:0005423	IAO:0000115		
 WARN	missing_definition	UBERON:0006056	IAO:0000115		
+WARN	missing_definition	UBERON:0006218	IAO:0000115		
 WARN	missing_definition	UBERON:0006241	IAO:0000115		
 WARN	missing_definition	UBERON:0006596	IAO:0000115		
 WARN	missing_definition	UBERON:0007026	IAO:0000115		
@@ -1770,6 +1333,7 @@ WARN	missing_definition	UBERON:0009722	IAO:0000115
 WARN	missing_definition	UBERON:0009856	IAO:0000115		
 WARN	missing_definition	UBERON:0009881	IAO:0000115		
 WARN	missing_definition	UBERON:0009920	IAO:0000115		
+WARN	missing_definition	UBERON:0010191	IAO:0000115		
 WARN	missing_definition	UBERON:0010316	IAO:0000115		
 WARN	missing_definition	UBERON:0011159	IAO:0000115		
 WARN	missing_definition	UBERON:0011222	IAO:0000115		
@@ -1780,8 +1344,10 @@ WARN	missing_definition	UBERON:0011860	IAO:0000115
 WARN	missing_definition	UBERON:0012416	IAO:0000115		
 WARN	missing_definition	UBERON:0012466	IAO:0000115		
 WARN	missing_definition	UBERON:0013522	IAO:0000115		
+WARN	missing_definition	UBERON:0015128	IAO:0000115		
 WARN	missing_definition	UBERON:0015410	IAO:0000115		
 WARN	missing_definition	UBERON:0016570	IAO:0000115		
+WARN	missing_definition	UBERON:0018649	IAO:0000115		
 WARN	missing_definition	UBERON:0019189	IAO:0000115		
 WARN	missing_definition	UBERON:0019263	IAO:0000115		
 WARN	missing_definition	UBERON:0019267	IAO:0000115		
@@ -1801,12 +1367,14 @@ WARN	missing_definition	UBERON:0035965	IAO:0000115
 WARN	missing_definition	UBERON:0036072	IAO:0000115		
 WARN	missing_definition	UBERON:0036073	IAO:0000115		
 WARN	missing_definition	UBERON:0036253	IAO:0000115		
+WARN	missing_definition	UBERON:0036288	IAO:0000115		
+WARN	missing_definition	UBERON:0036290	IAO:0000115		
+WARN	missing_definition	UBERON:0036291	IAO:0000115		
 WARN	missing_definition	UBERON:0036302	IAO:0000115		
 WARN	missing_definition	UBERON:0036303	IAO:0000115		
-WARN	missing_definition	UBPROP:0000006	IAO:0000115		
-WARN	missing_definition	UBPROP:0000007	IAO:0000115		
-WARN	missing_definition	UBPROP:0000100	IAO:0000115		
-WARN	missing_definition	UBPROP:0000202	IAO:0000115		
+WARN	missing_definition	UBERON:0036422	IAO:0000115		
+WARN	missing_definition	UBERON:0036925	IAO:0000115		
+WARN	missing_definition	UBERON:0037094	IAO:0000115		
 WARN	missing_definition	ZFA:0000017	IAO:0000115		
 WARN	missing_definition	ZFA:0000033	IAO:0000115		
 WARN	missing_definition	ZFA:0000039	IAO:0000115		
@@ -1837,7 +1405,6 @@ WARN	missing_definition	ZFA:0000266	IAO:0000115
 WARN	missing_definition	ZFA:0000275	IAO:0000115		
 WARN	missing_definition	ZFA:0000276	IAO:0000115		
 WARN	missing_definition	ZFA:0000278	IAO:0000115		
-WARN	missing_definition	ZFA:0000286	IAO:0000115		
 WARN	missing_definition	ZFA:0000288	IAO:0000115		
 WARN	missing_definition	ZFA:0000296	IAO:0000115		
 WARN	missing_definition	ZFA:0000306	IAO:0000115		
@@ -1873,7 +1440,6 @@ WARN	missing_definition	ZFA:0000501	IAO:0000115
 WARN	missing_definition	ZFA:0000503	IAO:0000115		
 WARN	missing_definition	ZFA:0000504	IAO:0000115		
 WARN	missing_definition	ZFA:0000510	IAO:0000115		
-WARN	missing_definition	ZFA:0000513	IAO:0000115		
 WARN	missing_definition	ZFA:0000517	IAO:0000115		
 WARN	missing_definition	ZFA:0000520	IAO:0000115		
 WARN	missing_definition	ZFA:0000523	IAO:0000115		
@@ -1906,39 +1472,10 @@ WARN	missing_definition	ZFA:0000702	IAO:0000115
 WARN	missing_definition	ZFA:0000708	IAO:0000115		
 WARN	missing_definition	ZFA:0000709	IAO:0000115		
 WARN	missing_definition	ZFA:0000710	IAO:0000115		
-WARN	missing_definition	ZFA:0000750	IAO:0000115		
-WARN	missing_definition	ZFA:0000752	IAO:0000115		
-WARN	missing_definition	ZFA:0000753	IAO:0000115		
-WARN	missing_definition	ZFA:0000754	IAO:0000115		
-WARN	missing_definition	ZFA:0000755	IAO:0000115		
-WARN	missing_definition	ZFA:0000756	IAO:0000115		
-WARN	missing_definition	ZFA:0000757	IAO:0000115		
-WARN	missing_definition	ZFA:0000758	IAO:0000115		
-WARN	missing_definition	ZFA:0000759	IAO:0000115		
-WARN	missing_definition	ZFA:0000760	IAO:0000115		
-WARN	missing_definition	ZFA:0000773	IAO:0000115		
-WARN	missing_definition	ZFA:0000784	IAO:0000115		
 WARN	missing_definition	ZFA:0000786	IAO:0000115		
 WARN	missing_definition	ZFA:0000787	IAO:0000115		
-WARN	missing_definition	ZFA:0000795	IAO:0000115		
-WARN	missing_definition	ZFA:0000806	IAO:0000115		
 WARN	missing_definition	ZFA:0000815	IAO:0000115		
-WARN	missing_definition	ZFA:0000817	IAO:0000115		
 WARN	missing_definition	ZFA:0000821	IAO:0000115		
-WARN	missing_definition	ZFA:0000827	IAO:0000115		
-WARN	missing_definition	ZFA:0000838	IAO:0000115		
-WARN	missing_definition	ZFA:0000849	IAO:0000115		
-WARN	missing_definition	ZFA:0000860	IAO:0000115		
-WARN	missing_definition	ZFA:0000876	IAO:0000115		
-WARN	missing_definition	ZFA:0000877	IAO:0000115		
-WARN	missing_definition	ZFA:0000878	IAO:0000115		
-WARN	missing_definition	ZFA:0000879	IAO:0000115		
-WARN	missing_definition	ZFA:0000880	IAO:0000115		
-WARN	missing_definition	ZFA:0000881	IAO:0000115		
-WARN	missing_definition	ZFA:0000883	IAO:0000115		
-WARN	missing_definition	ZFA:0000884	IAO:0000115		
-WARN	missing_definition	ZFA:0000885	IAO:0000115		
-WARN	missing_definition	ZFA:0000886	IAO:0000115		
 WARN	missing_definition	ZFA:0000903	IAO:0000115		
 WARN	missing_definition	ZFA:0000905	IAO:0000115		
 WARN	missing_definition	ZFA:0000910	IAO:0000115		
@@ -1965,7 +1502,6 @@ WARN	missing_definition	ZFA:0001134	IAO:0000115
 WARN	missing_definition	ZFA:0001177	IAO:0000115		
 WARN	missing_definition	ZFA:0001178	IAO:0000115		
 WARN	missing_definition	ZFA:0001201	IAO:0000115		
-WARN	missing_definition	ZFA:0001204	IAO:0000115		
 WARN	missing_definition	ZFA:0001206	IAO:0000115		
 WARN	missing_definition	ZFA:0001259	IAO:0000115		
 WARN	missing_definition	ZFA:0001261	IAO:0000115		
@@ -1986,7 +1522,6 @@ WARN	missing_definition	ZFA:0001332	IAO:0000115
 WARN	missing_definition	ZFA:0001350	IAO:0000115		
 WARN	missing_definition	ZFA:0001359	IAO:0000115		
 WARN	missing_definition	ZFA:0001365	IAO:0000115		
-WARN	missing_definition	ZFA:0001378	IAO:0000115		
 WARN	missing_definition	ZFA:0001379	IAO:0000115		
 WARN	missing_definition	ZFA:0001388	IAO:0000115		
 WARN	missing_definition	ZFA:0001401	IAO:0000115		
@@ -1994,7 +1529,6 @@ WARN	missing_definition	ZFA:0001402	IAO:0000115
 WARN	missing_definition	ZFA:0001425	IAO:0000115		
 WARN	missing_definition	ZFA:0001431	IAO:0000115		
 WARN	missing_definition	ZFA:0001460	IAO:0000115		
-WARN	missing_definition	ZFA:0001461	IAO:0000115		
 WARN	missing_definition	ZFA:0001467	IAO:0000115		
 WARN	missing_definition	ZFA:0001535	IAO:0000115		
 WARN	missing_definition	ZFA:0001559	IAO:0000115		
@@ -2019,11 +1553,9 @@ WARN	missing_definition	ZFA:0005106	IAO:0000115
 WARN	missing_definition	ZFA:0005107	IAO:0000115		
 WARN	missing_definition	ZFA:0005108	IAO:0000115		
 WARN	missing_definition	ZFA:0005266	IAO:0000115		
-WARN	missing_definition	ZFA:0005275	IAO:0000115		
 WARN	missing_definition	ZFA:0005276	IAO:0000115		
 WARN	missing_definition	ZFA:0005320	IAO:0000115		
 WARN	missing_definition	ZFA:0005577	IAO:0000115		
-WARN	missing_definition	ZFA:0005851	IAO:0000115		
 WARN	missing_definition	ZFA:0007067	IAO:0000115		
 WARN	missing_definition	ZFA:0009001	IAO:0000115		
 WARN	missing_definition	ZFA:0009009	IAO:0000115		
@@ -2078,7 +1610,6 @@ WARN	missing_definition	ZFA:0009109	IAO:0000115
 WARN	missing_definition	ZFA:0009110	IAO:0000115		
 WARN	missing_definition	ZFA:0009113	IAO:0000115		
 WARN	missing_definition	ZFA:0009115	IAO:0000115		
-WARN	missing_definition	ZFA:0009117	IAO:0000115		
 WARN	missing_definition	ZFA:0009125	IAO:0000115		
 WARN	missing_definition	ZFA:0009126	IAO:0000115		
 WARN	missing_definition	ZFA:0009131	IAO:0000115		
@@ -2115,7 +1646,6 @@ WARN	missing_definition	ZFA:0009186	IAO:0000115
 WARN	missing_definition	ZFA:0009187	IAO:0000115		
 WARN	missing_definition	ZFA:0009188	IAO:0000115		
 WARN	missing_definition	ZFA:0009189	IAO:0000115		
-WARN	missing_definition	ZFA:0009191	IAO:0000115		
 WARN	missing_definition	ZFA:0009194	IAO:0000115		
 WARN	missing_definition	ZFA:0009195	IAO:0000115		
 WARN	missing_definition	ZFA:0009196	IAO:0000115		
@@ -2207,11 +1737,6 @@ WARN	missing_definition	ZFS:0000043	IAO:0000115
 WARN	missing_definition	ZFS:0000044	IAO:0000115		
 WARN	missing_definition	ZFS:0100000	IAO:0000115		
 WARN	missing_definition	ZP:00000000	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#human	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/bspo#vertebrate	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#BRAND_NAME	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#INN	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#IUPAC_NAME	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#has_functional_parent	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#has_parent_hydride	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of	IAO:0000115		
@@ -2219,44 +1744,18 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#is_conjugate_base_o
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#is_enantiomer_of	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#is_substituent_group_from	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#is_tautomer_of	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/go#syngo_official_label	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/go#systematic_synonym	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/mpath#part_of	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#correlates_with	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#has_relative_magnitude	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#towards	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#DEPRECATED	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#DUBIOUS	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#LATIN	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#PLURAL	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#SENSU	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#channel_for	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#channels_from	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#channels_into	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#existence_starts_and_ends_during	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#protects	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#subdivision_of	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_connected_to	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/zfa#PLURAL	IAO:0000115		
-WARN	missing_definition	dc11:contributor	IAO:0000115		
-WARN	missing_definition	dc11:creator	IAO:0000115		
-WARN	missing_definition	dc11:source	IAO:0000115		
-WARN	missing_definition	oboInOwl:SubsetProperty	IAO:0000115		
-WARN	missing_definition	oboInOwl:consider	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasScope	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115		
-WARN	missing_definition	oboInOwl:inSubset	IAO:0000115		
-WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
-WARN	missing_definition	foaf:page	IAO:0000115		
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate	
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate	
 WARN	duplicate_scoped_synonym	CHEBI:15705	oboInOwl:hasExactSynonym	L-alpha-amino acids	
@@ -2363,6 +1862,10 @@ WARN	duplicate_scoped_synonym	CHEBI:33641	oboInOwl:hasExactSynonym	olefins
 WARN	duplicate_scoped_synonym	CHEBI:33641	oboInOwl:hasRelatedSynonym	olefins	
 WARN	duplicate_scoped_synonym	CHEBI:33664	oboInOwl:hasExactSynonym	monocyclic hydrocarbons	
 WARN	duplicate_scoped_synonym	CHEBI:33664	oboInOwl:hasRelatedSynonym	monocyclic hydrocarbons	
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids	
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids	
+WARN	duplicate_scoped_synonym	CHEBI:33823	oboInOwl:hasExactSynonym	enols	
+WARN	duplicate_scoped_synonym	CHEBI:33823	oboInOwl:hasRelatedSynonym	enols	
 WARN	duplicate_scoped_synonym	CHEBI:33838	oboInOwl:hasExactSynonym	nucleosides	
 WARN	duplicate_scoped_synonym	CHEBI:33838	oboInOwl:hasRelatedSynonym	nucleosides	
 WARN	duplicate_scoped_synonym	CHEBI:34133	oboInOwl:hasExactSynonym	17beta-hydroxyandrost-4-ene-3,11-dione	
@@ -2375,6 +1878,10 @@ WARN	duplicate_scoped_synonym	CHEBI:35193	oboInOwl:hasExactSynonym	tetraterpenes
 WARN	duplicate_scoped_synonym	CHEBI:35193	oboInOwl:hasRelatedSynonym	tetraterpenes	
 WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids	
 WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids	
+WARN	duplicate_scoped_synonym	CHEBI:35924	oboInOwl:hasExactSynonym	peroxols	
+WARN	duplicate_scoped_synonym	CHEBI:35924	oboInOwl:hasRelatedSynonym	peroxols	
+WARN	duplicate_scoped_synonym	CHEBI:36141	oboInOwl:hasExactSynonym	quinones	
+WARN	duplicate_scoped_synonym	CHEBI:36141	oboInOwl:hasRelatedSynonym	quinones	
 WARN	duplicate_scoped_synonym	CHEBI:36961	oboInOwl:hasExactSynonym	chalcocarbonic acids	
 WARN	duplicate_scoped_synonym	CHEBI:36961	oboInOwl:hasRelatedSynonym	chalcocarbonic acids	
 WARN	duplicate_scoped_synonym	CHEBI:37445	oboInOwl:hasExactSynonym	folates	
@@ -2389,12 +1896,10 @@ WARN	duplicate_scoped_synonym	CHEBI:49637	oboInOwl:hasExactSynonym	hydrogen
 WARN	duplicate_scoped_synonym	CHEBI:49637	oboInOwl:hasRelatedSynonym	hydrogen	
 WARN	duplicate_scoped_synonym	CHEBI:50313	oboInOwl:hasExactSynonym	onium cations	
 WARN	duplicate_scoped_synonym	CHEBI:50313	oboInOwl:hasRelatedSynonym	onium cations	
+WARN	duplicate_scoped_synonym	CHEBI:51349	oboInOwl:hasExactSynonym	polyamine	
+WARN	duplicate_scoped_synonym	CHEBI:51349	oboInOwl:hasRelatedSynonym	polyamine	
 WARN	duplicate_scoped_synonym	RO:0002087	IAO:0000118	starts_at_end_of	
 WARN	duplicate_scoped_synonym	RO:0002087	oboInOwl:hasExactSynonym	starts_at_end_of	
-WARN	duplicate_scoped_synonym	RO:0002376	IAO:0000118	drains into	
-WARN	duplicate_scoped_synonym	RO:0002376	oboInOwl:hasRelatedSynonym	drains into	
-WARN	duplicate_scoped_synonym	RO:0002551	IAO:0000118	has supporting framework	
-WARN	duplicate_scoped_synonym	RO:0002551	oboInOwl:hasRelatedSynonym	has supporting framework	
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	fertilized egg stage	
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasRelatedSynonym	fertilized egg stage	
 WARN	duplicate_scoped_synonym	UBERON:0000117	oboInOwl:hasExactSynonym	segment of tracheobronchial tree	
@@ -2407,10 +1912,16 @@ WARN	duplicate_scoped_synonym	UBERON:0001776	oboInOwl:hasExactSynonym	choroidea
 WARN	duplicate_scoped_synonym	UBERON:0001776	oboInOwl:hasRelatedSynonym	choroidea	
 WARN	duplicate_scoped_synonym	UBERON:0003729	oboInOwl:hasExactSynonym	tunica mucosa oris	
 WARN	duplicate_scoped_synonym	UBERON:0003729	oboInOwl:hasRelatedSynonym	tunica mucosa oris	
+WARN	duplicate_scoped_synonym	UBERON:0004148	oboInOwl:hasExactSynonym	coronary vein	
+WARN	duplicate_scoped_synonym	UBERON:0004148	oboInOwl:hasRelatedSynonym	coronary vein	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasExactSynonym	branchial aortic arches	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasExactSynonym	pharyngeal arch artery	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasRelatedSynonym	branchial aortic arches	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasRelatedSynonym	pharyngeal arch artery	
+WARN	duplicate_scoped_synonym	UBERON:0004667	oboInOwl:hasExactSynonym	muscular interventricular septum	
+WARN	duplicate_scoped_synonym	UBERON:0004667	oboInOwl:hasRelatedSynonym	muscular interventricular septum	
+WARN	duplicate_scoped_synonym	UBERON:0005953	oboInOwl:hasExactSynonym	pulmonary conus	
+WARN	duplicate_scoped_synonym	UBERON:0005953	oboInOwl:hasRelatedSynonym	pulmonary conus	
 WARN	duplicate_scoped_synonym	UBERON:0006761	oboInOwl:hasExactSynonym	limbus corneae	
 WARN	duplicate_scoped_synonym	UBERON:0006761	oboInOwl:hasRelatedSynonym	limbus corneae	
 WARN	duplicate_scoped_synonym	UBERON:0008229	oboInOwl:hasExactSynonym	head or neck muscle	
@@ -2420,8 +1931,7 @@ WARN	duplicate_scoped_synonym	UBERON:0010427	oboInOwl:hasRelatedSynonym	processu
 WARN	invalid_xref	MPATH:359	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/skin_models/malignant_melanoma#melanoma_table	
 WARN	invalid_xref	MPATH:371	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/mouse_models/organ_models/lung_models/murinecancer/tumorclass	
 WARN	invalid_xref	MPATH:530	oboInOwl:hasDbXref	URL: http://emice.nci.nih.gov/emice/mouse_models/organ_models/hema_models/hema_mouse_class	
-WARN	missing_obsolete_label	GO:0044456	rdfs:label	synapse part@en	
-WARN	missing_obsolete_label	GO:0044464	rdfs:label	cell part@en	
+WARN	missing_obsolete_label	GO:0051705	rdfs:label	multi-organism behavior	
 WARN	missing_obsolete_label	ZP:0009916	rdfs:label	0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051	
 WARN	missing_obsolete_label	ZP:0013943	rdfs:label	0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107	
 WARN	missing_obsolete_label	ZP:0019233	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0	
@@ -2445,12 +1955,6 @@ WARN	missing_obsolete_label	ZP:0100206	rdfs:label	http://purl.obolibrary.org/obo
 WARN	missing_obsolete_label	ZP:0100207	rdfs:label	Z disc cardiac muscle cell increased length, abnormal	
 WARN	missing_obsolete_label	ZP:0100208	rdfs:label	http://purl.obolibrary.org/obo/GO_0072372 somite increased length, abnormal	
 WARN	missing_obsolete_label	ZP:0103211	rdfs:label	BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0	
-INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
-INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
-INFO	lowercase_definition	BFO:0000019	IAO:0000600	a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])@en	
-INFO	lowercase_definition	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en	
-INFO	lowercase_definition	BFO:0000023	IAO:0000600	b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])@en	
-INFO	lowercase_definition	BFO:0000031	IAO:0000115	b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en	
 INFO	lowercase_definition	BFO:0000050	IAO:0000115	a core relation that holds between a part and its whole@en	
 INFO	lowercase_definition	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
 INFO	lowercase_definition	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
@@ -2460,20 +1964,14 @@ INFO	lowercase_definition	BFO:0000067	IAO:0000115	[copied from inverse property 
 INFO	lowercase_definition	BSPO:0000096	IAO:0000115	x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
 INFO	lowercase_definition	BSPO:0000096	IAO:0000115	x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer	
 INFO	lowercase_definition	BSPO:0000097	IAO:0000115	x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).	
-INFO	lowercase_definition	BSPO:0000097	IAO:0000115	x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).	
 INFO	lowercase_definition	BSPO:0000098	IAO:0000115	x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
 INFO	lowercase_definition	BSPO:0000098	IAO:0000115	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).	
 INFO	lowercase_definition	BSPO:0000099	IAO:0000115	x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.	
 INFO	lowercase_definition	BSPO:0000099	IAO:0000115	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.	
 INFO	lowercase_definition	BSPO:0000100	IAO:0000115	x proximal to y iff x is closer to the point of attachment with the body than y.	
-INFO	lowercase_definition	BSPO:0000100	IAO:0000115	x proximal_to y iff x is closer to the point of attachment with the body than y.	
 INFO	lowercase_definition	BSPO:0000102	IAO:0000115	x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).	
 INFO	lowercase_definition	BSPO:0000102	IAO:0000115	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).	
-INFO	lowercase_definition	BSPO:0000124	IAO:0000115	x in proximal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the proximal portion.	
-INFO	lowercase_definition	BSPO:0000125	IAO:0000115	x in distal side of y <=> if y is subdivided into two proximal and distal portions, y is part of the distal portion.	
-INFO	lowercase_definition	BSPO:0001107	IAO:0000115	x immediately deep to y iff x deep_to y and x is contiguous with y.	
 INFO	lowercase_definition	BSPO:0015005	IAO:0000115	crossing at right angles	
-INFO	lowercase_definition	BSPO:0015014	IAO:0000115	x immediately superficial to y iff x superficial to y and x is contiguous with y.	
 INFO	lowercase_definition	CHEBI:18059	IAO:0000115	'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.	
 INFO	lowercase_definition	CHEBI:33567	IAO:0000115	4-(2-Aminoethyl)pyrocatechol [4-(2-aminoethyl)benzene-1,2-diol] and derivatives formed by substitution.	
 INFO	lowercase_definition	PATO:0015026	IAO:0000115	quality, state, or degree of being stable.	
@@ -2481,51 +1979,21 @@ INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifical
 INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en	
 INFO	lowercase_definition	RO:0000056	IAO:0000115	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en	
 INFO	lowercase_definition	RO:0000057	IAO:0000115	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en	
-INFO	lowercase_definition	RO:0000081	IAO:0000115	a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence@en	
-INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en	
-INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en	
-INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en	
-INFO	lowercase_definition	RO:0001901	IAO:0000115	        ## Elucidation        This is used when the statement/axiom is assumed to hold true 'eternally'        ## How to interpret (informal)        First the \"atemporal\" FOL is derived from the OWL using the standard    interpretation. This axiom is temporalized by embedding the axiom    within a for-all-times quantified sentence. The t argument is added to    all instantiation predicates and predicates that use this relation.        ## Example            Class: nucleus        SubClassOf: part_of some cell            forall t :          forall n :            instance_of(n,Nucleus,t)             implies            exists c :              instance_of(c,Cell,t)              part_of(n,c,t)        ## Notes        This interpretation is *not* the same as an at-all-times relation        	
-INFO	lowercase_definition	RO:0002000	IAO:0000115	a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity@en	
-INFO	lowercase_definition	RO:0002002	IAO:0000115	a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity@en	
 INFO	lowercase_definition	RO:0002018	IAO:0000115	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y iff they have some part in common.	
-INFO	lowercase_definition	RO:0002170	IAO:0000115	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b	
-INFO	lowercase_definition	RO:0002176	IAO:0000115	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.	
-INFO	lowercase_definition	RO:0002177	IAO:0000115	a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b.	
 INFO	lowercase_definition	RO:0002178	IAO:0000115	relation between an artery and the structure is supplies with blood.	
 INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.	
-INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
-INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
-INFO	lowercase_definition	RO:0002210	IAO:0000115	inverse of directly develops from	
 INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
 INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.	
-INFO	lowercase_definition	RO:0002217	IAO:0000115	x actively participates in y if and only if x participates in y and x realizes some active role	
-INFO	lowercase_definition	RO:0002218	IAO:0000115	x has participant y if and only if x realizes some active role that inheres in y	
-INFO	lowercase_definition	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
 INFO	lowercase_definition	RO:0002219	IAO:0000115	x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y	
-INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
 INFO	lowercase_definition	RO:0002220	IAO:0000115	x adjacent_to y iff: x and y share a boundary	
-INFO	lowercase_definition	RO:0002221	IAO:0000115	inverse of surrounded by	
 INFO	lowercase_definition	RO:0002221	IAO:0000115	inverse of surrounded_by	
-INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with	
-INFO	lowercase_definition	RO:0002224	IAO:0000115	x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
-INFO	lowercase_definition	RO:0002225	IAO:0000115	x develops from part of y if and only if there exists some z such that x develops from z and z is part of y	
-INFO	lowercase_definition	RO:0002226	IAO:0000115	x develops_in y if x is located in y whilst x is developing	
-INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with	
-INFO	lowercase_definition	RO:0002230	IAO:0000115	x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.	
-INFO	lowercase_definition	RO:0002231	IAO:0000115	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y	
-INFO	lowercase_definition	RO:0002232	IAO:0000115	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y	
 INFO	lowercase_definition	RO:0002233	IAO:0000115	p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.	
-INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y@en	
 INFO	lowercase_definition	RO:0002254	IAO:0000115	x has developmental contribution from y iff x has some part z such that z develops from y.	
-INFO	lowercase_definition	RO:0002255	IAO:0000115	inverse of has developmental contribution from	
 INFO	lowercase_definition	RO:0002256	IAO:0000115	t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.	
-INFO	lowercase_definition	RO:0002256	IAO:0000115	t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T	
 INFO	lowercase_definition	RO:0002263	IAO:0000115	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.	
 INFO	lowercase_definition	RO:0002264	IAO:0000115	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.	
-INFO	lowercase_definition	RO:0002285	IAO:0000115	x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else	
 INFO	lowercase_definition	RO:0002314	IAO:0000115	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.	
 INFO	lowercase_definition	RO:0002329	IAO:0000115	this relation holds between c and p when c is part of some c', and c' is capable of p.	
 INFO	lowercase_definition	RO:0002331	IAO:0000115	c involved_in p if and only if c enables some process p', and p' is part of p	
@@ -2533,21 +2001,9 @@ INFO	lowercase_definition	RO:0002333	IAO:0000115	inverse of enables
 INFO	lowercase_definition	RO:0002334	IAO:0000115	inverse of regulates	
 INFO	lowercase_definition	RO:0002335	IAO:0000115	inverse of negatively regulates	
 INFO	lowercase_definition	RO:0002336	IAO:0000115	inverse of positively regulates	
-INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological relation between a item and a collection.	
-INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.	
 INFO	lowercase_definition	RO:0002352	IAO:0000115	inverse of has input	
-INFO	lowercase_definition	RO:0002371	IAO:0000115	a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a	
-INFO	lowercase_definition	RO:0002376	IAO:0000115	x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.	
-INFO	lowercase_definition	RO:0002379	IAO:0000115	x spatially_coextensive_with y if and inly if x and y have the same location	
-INFO	lowercase_definition	RO:0002380	IAO:0000115	x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y	
-INFO	lowercase_definition	RO:0002384	IAO:0000115	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en	
 INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y	
-INFO	lowercase_definition	RO:0002385	IAO:0000115	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en	
-INFO	lowercase_definition	RO:0002386	IAO:0000115	x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y@en	
 INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y	
-INFO	lowercase_definition	RO:0002387	IAO:0000115	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en	
-INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y	
-INFO	lowercase_definition	RO:0002388	IAO:0000115	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en	
 INFO	lowercase_definition	RO:0002404	IAO:0000115	inverse of upstream of	
 INFO	lowercase_definition	RO:0002411	IAO:0000115	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain	
 INFO	lowercase_definition	RO:0002412	IAO:0000115	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.	
@@ -2558,32 +2014,13 @@ INFO	lowercase_definition	RO:0002429	IAO:0000115	c involved in regulation of p i
 INFO	lowercase_definition	RO:0002430	IAO:0000115	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p	
 INFO	lowercase_definition	RO:0002431	IAO:0000115	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p	
 INFO	lowercase_definition	RO:0002432	IAO:0000115	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.	
-INFO	lowercase_definition	RO:0002433	IAO:0000115	p contributes to morphology of w if and only if a change in the morphology of p entails a change in the morphology of w. Examples: every skull contributes to morphology of the head which it is a part of. Counter-example: nuclei do not generally contribute to the morphology of the cell they are part of, as they are buffered by cytoplasm.	
-INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.	
 INFO	lowercase_definition	RO:0002473	IAO:0000115	x composed_primarily_of y iff: more than half of the mass of x is made from parts of y	
 INFO	lowercase_definition	RO:0002479	IAO:0000115	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.	
-INFO	lowercase_definition	RO:0002488	IAO:0000115	x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y).	
-INFO	lowercase_definition	RO:0002489	IAO:0000115	x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y).	
-INFO	lowercase_definition	RO:0002490	IAO:0000115	x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) >= α(y) & α(x) <= ω(y)) OR (ω(x) <= ω(y) & ω(x) >= α(y))	
-INFO	lowercase_definition	RO:0002492	IAO:0000115	x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y).	
-INFO	lowercase_definition	RO:0002493	IAO:0000115	x existence ends with y if and only if the time point at which x ends is equivalent to the time point at which y ends. Formally: x existence ends with y iff ω(x) = ω(y).	
-INFO	lowercase_definition	RO:0002494	IAO:0000115	x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships	
-INFO	lowercase_definition	RO:0002495	IAO:0000115	x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t	
 INFO	lowercase_definition	RO:0002496	IAO:0000115	c existence starts during s iff start_of(c) part_of s.	
-INFO	lowercase_definition	RO:0002496	IAO:0000115	x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y).	
 INFO	lowercase_definition	RO:0002497	IAO:0000115	c existence ends during s iff  end_of(c) part_of s.	
-INFO	lowercase_definition	RO:0002497	IAO:0000115	x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends.	
 INFO	lowercase_definition	RO:0002501	IAO:0000115	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.	
 INFO	lowercase_definition	RO:0002503	IAO:0000115	q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2	
-INFO	lowercase_definition	RO:0002569	IAO:0000115	inverse of branching part of	
-INFO	lowercase_definition	RO:0002571	IAO:0000115	x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull.	
-INFO	lowercase_definition	RO:0002572	IAO:0000115	s is luminal space of x iff s is lumen_of x and s is an immaterial entity	
-INFO	lowercase_definition	RO:0002575	IAO:0000115	relation p is the direct form of relation q iff p is a subPropertyOf q, p does not have the Transitive characteristic, q does have the Transitive characteristic, and for all x, y: x q y -> exists z1, z2, ..., zn such that x p z1 ... z2n y	
-INFO	lowercase_definition	RO:0002576	IAO:0000115	inverse of has skeleton	
 INFO	lowercase_definition	RO:0002584	IAO:0000115	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p	
-INFO	lowercase_definition	RO:0002604	IAO:0000115	x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x).	
-INFO	lowercase_definition	RO:0003000	IAO:0000115	a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.	
-INFO	lowercase_definition	RO:0003001	IAO:0000115	a produced_by b iff some process that occurs_in b has_output a.	
 INFO	lowercase_definition	RO:0004034	IAO:0000115	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive	
 INFO	lowercase_definition	RO:0004035	IAO:0000115	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative	
 INFO	lowercase_definition	UBERON:0000042	IAO:0000115	multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.	
@@ -2601,19 +2038,30 @@ INFO	lowercase_definition	UBERON:0001776	IAO:0000115	vascular layer containing c
 INFO	lowercase_definition	UBERON:0001801	IAO:0000115	any of the parts of the eye that lie in front of, or ventral to, the lens (inclusive)	
 INFO	lowercase_definition	UBERON:0001802	IAO:0000115	any of the parts of the eye that lie in back of, or dorsal to, the lens (but not inclusive)	
 INFO	lowercase_definition	UBERON:0001804	IAO:0000115	the elastic, clear, membrane-like structure, that is outer most layer of the lens	
+INFO	lowercase_definition	UBERON:0002302	IAO:0000115	the atrial part of middle layer of the heart, comprised of involuntary muscle	
+INFO	lowercase_definition	UBERON:0002348	IAO:0000115	a region of the serous membrane that forms the innermost layer of the pericardium and the outer surface of the heart.	
+INFO	lowercase_definition	UBERON:0002349	IAO:0000115	the middle layer of the heart, comprised mainly of striated cardiac muscle fibers	
+INFO	lowercase_definition	UBERON:0002406	IAO:0000115	a double-walled sac containing the heart and the roots of the great vessels.	
 INFO	lowercase_definition	UBERON:0002530	IAO:0000115	an organ that functions as a secretory or excretory organ	
 INFO	lowercase_definition	UBERON:0003099	IAO:0000115	neural crest cells (NCCs) originating in the anterior part of the developing embryo and residing between the mid-diencephalon and the forming hindbrain; cranial NCCs migrate dorsolaterally to form the craniofacial mesenchyme that differentiates into various craniofacial cartilages and bones, cranial neurons, glia, and connective tissues of the face; these cells enter the pharyngeal pouches and arches where they give rise to thymic cells, bones of the middle ear and jaw (mandible), and the odontoblasts of the tooth primordia; like their counterparts in the trunk, cranial NCCs also contribute to the developing peripheral nervous system, along with the pigmented cell (i.e. melanocyte) lineage.	
 INFO	lowercase_definition	UBERON:0003386	IAO:0000115	any of the striated muscles that move the eye and include: superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique, retractor bulbi	
+INFO	lowercase_definition	UBERON:0004178	IAO:0000115	the nonstriated, involuntary muscle tissue located in the wall of the aorta	
 INFO	lowercase_definition	UBERON:0004237	IAO:0000115	smooth muscle found within, and composing the majority of the wall of blood vessels.	
+INFO	lowercase_definition	UBERON:0004664	IAO:0000115	the outermost layer of the aorta wall, containing connective tissue and collagen and elastic fibers	
+INFO	lowercase_definition	UBERON:0004706	IAO:0000115	a transient fetal dilation of the distal (or cranial) heart tube located where the arterial trunk joins the ventral roots of the aortic arches	
 INFO	lowercase_definition	UBERON:0004785	IAO:0000115	the mucous membrane lining the respiratory tract	
 INFO	lowercase_definition	UBERON:0004802	IAO:0000115	the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi	
+INFO	lowercase_definition	UBERON:0004851	IAO:0000115	the thin layer of flat cells that line the aorta and form a barrier between circulating blood in the lumen and the rest of the vessel wall	
 INFO	lowercase_definition	UBERON:0005867	IAO:0000115	the paired ventral prominences formed by bifurcation of the first pharyngeal arches in the embryo; the two prominences unite ventrally and fuse to form the mandible and lower lip	
 INFO	lowercase_definition	UBERON:0006761	IAO:0000115	the edge of the cornea where it joins the sclera; the limbus is a common site for the occurrence of corneal epithelial neoplasm	
 INFO	lowercase_definition	UBERON:0007625	IAO:0000115	epithelial layer of the retina, ciliary body, or iris composed of cells containing pigment granules.	
 INFO	lowercase_definition	UBERON:0007690	IAO:0000115	.	
 INFO	lowercase_definition	UBERON:0010291	IAO:0000115	.	
+INFO	lowercase_definition	UBERON:0016513	IAO:0000115	luminal space of the left atrium of the heart.	
+INFO	lowercase_definition	UBERON:0016514	IAO:0000115	luminal space of the left ventricle of the heart.	
+INFO	lowercase_definition	UBERON:0016522	IAO:0000115	luminal space of the right atrium of the heart.	
 INFO	lowercase_definition	UBERON:0034878	IAO:0000115	the area of axial mesoderm that develops into the prechordal plate	
-INFO	lowercase_definition	UBPROP:0000103	IAO:0000115	x pharyngeal_arch_number N if and only if (i) x is a pharyngeal arch, and (ii) x is ancestrally pharyngeal arch number N in a series of pharyngeal arches repeated along a antero-posterior axis, with arch_number 1 being the mandibular arch.	
+INFO	lowercase_definition	UBERON:0037144	IAO:0000115	wall of organ which has as its parts the endocardium, myocardium , epicardium, and the cardiac septum, surrounded by the pericardial sac proper and is continuous with the walls of the systemic and pulmonary arterial and venous trees.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/bspo#parallel_to	IAO:0000115	x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to	IAO:0000115	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to	IAO:0000115	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
@@ -2625,12 +2073,11 @@ INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#conduit_for
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#indirectly_supplies	IAO:0000115	a indirectly_supplies s iff a has a branch and the branch supplies or indirectly supplies s	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to	IAO:0000115	x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
-INFO	missing_superclass	BFO:0000001	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:24431	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:36342	rdfs:subClassOf		
 INFO	missing_superclass	CHEBI:50906	rdfs:subClassOf		
 INFO	missing_superclass	GO:0005575	rdfs:subClassOf		
-INFO	missing_superclass	MPATH:0	rdfs:subClassOf		
+INFO	missing_superclass	MPATH:1000	rdfs:subClassOf		
 INFO	missing_superclass	UBERON:0000000	rdfs:subClassOf		
 INFO	missing_superclass	UBERON:0001062	rdfs:subClassOf		
 INFO	missing_superclass	ZFA:0100000	rdfs:subClassOf		
