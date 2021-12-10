@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,7 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2020-08-02/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2021-12-09/imports/mpath_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/mpath/2020-05-19/mpath.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1307,6 +1310,45 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_128"/>
+        <obo:IAO_0000115>Histologically apparent areas of dysplasia that are not grossly visible (smaller than 0.5-1 mm). Lesions may involve single or multiple glands.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>GIN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>IIN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microadenoma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:487</oboInOwl:id>
+        <rdfs:label>intestinal intra-epithelial neoplasia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_487"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Histologically apparent areas of dysplasia that are not grossly visible (smaller than 0.5-1 mm). Lesions may involve single or multiple glands.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12612914</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_487"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>GIN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_487"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>IIN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_487"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>microadenoma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_490">
@@ -1674,6 +1716,67 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Anatomically located instance of pathological response or entity.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_556"/>
+        <obo:IAO_0000115>Focal lesions of hepatocytes characterised primarily by altered cytoplasmic tinctorial properties. Classified as basophilic, eosinophilic, clear cell or mixed type.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Areas of cellular alteration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Enzyme altered focus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Focus of altered hepatocytes (fah)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hyperplastic focus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Phenotypically altered focus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Preneoplastic focus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MPATH:617</oboInOwl:id>
+        <rdfs:comment>More recently amphophilic cell foci, diffusely basophilic cell foci and vacuolated cell foci have been described.</rdfs:comment>
+        <rdfs:label>focus of cellular alteration</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Focal lesions of hepatocytes characterised primarily by altered cytoplasmic tinctorial properties. Classified as basophilic, eosinophilic, clear cell or mixed type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Mohr</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Areas of cellular alteration</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Enzyme altered focus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Focus of altered hepatocytes (fah)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Hyperplastic focus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Phenotypically altered focus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_617"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Preneoplastic focus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
