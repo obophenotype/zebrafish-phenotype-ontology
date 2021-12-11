@@ -1,0 +1,35 @@
+pattern_name: abnormalQualityPartOfThing
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing
+
+classes:
+  pato_id: owl:Thing
+  abnormal: PATO:0000460
+  chemical entity: CHEBI:24431
+  affected_entity_1_super: owl:Thing
+  affected_entity_1_sub: owl:Thing
+
+relations:
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+  has_role: RO:0000087
+
+vars:
+  affected_entity_1_super: "'affected_entity_1_super'"
+  pato_id: "'pato_id'"
+  affected_entity_1_sub: "'affected_entity_1_sub'"
+
+name:
+  text: "%s %s %s, abnormal"
+  vars:
+   - affected_entity_1_sub
+   - affected_entity_1_super
+   - pato_id
+
+def:
+  text: "Abnormal(ly) %s (of) %s of %s."
+  vars:
+   - pato_id
+   - affected_entity_1_super
+   - affected_entity_1_sub

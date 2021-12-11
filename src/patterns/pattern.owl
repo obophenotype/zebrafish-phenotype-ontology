@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -8,10 +8,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfChemicalRolePartOfThing>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsPartOfThing>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThingTowardsThing>))
 Declaration(Class(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
@@ -27,6 +29,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002503>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
@@ -39,6 +42,11 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfChemicalRolePartOfThing> (<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfChemicalRolePartOfThing>)
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfChemicalRolePartOfThing> "abnormalQualityOfChemicalRolePartOfThing"^^xsd:string)
+EquivalentClasses(<http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfChemicalRolePartOfThing> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityOfThing> ('affected_entity_1_super' 'pato_id', abnormal)
 
