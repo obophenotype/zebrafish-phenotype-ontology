@@ -8,11 +8,11 @@ cd ../curation
 
 echo "######################################"
 echo "Updating the ZP to ZFIN EQ mappings..."
-#python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 || exit 1
+python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 || exit 1
 
 echo "######################################"
 echo "Determining Obsoletion candidates..."
-#python3 ../scripts/zfin_obsoletion.py deprecated_id_map.tsv ../templates/obsolete.tsv ../templates/df_obsolete_candidates.txt ../ontology/zp_labels.csv || exit 1
+python3 ../scripts/zfin_obsoletion.py deprecated_id_map.tsv ../templates/obsolete.tsv ../templates/df_obsolete_candidates.txt ../ontology/zp_labels.csv || exit 1
 
 echo "######################################"
 echo "Determining basic ZFIN patterns..."

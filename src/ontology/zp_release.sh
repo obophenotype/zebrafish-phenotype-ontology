@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-IMP=false
+IMP=true
 PAT=true
 sh run.sh make IMP=false PAT=false zp_pipeline_prepare_data -B
 sh run.sh make IMP=false PAT=true templates patterns -B
