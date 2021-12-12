@@ -18,6 +18,8 @@ prefix = "ZP:"
 pbase="https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/patterns/dosdp-patterns/"
 ubase="https://raw.githubusercontent.com/obophenotype/upheno/master/src/patterns/"
 
+CHEBI_ROLES = ["CHEBI:27027", "CHEBI:25512"]
+
 # METHODS
 
 def get_rows_with_duplicates(x,id_col):
@@ -50,7 +52,10 @@ def determine_base_pattern(i):
                     else:
                         id = pbase + "abnormalQualityPartOfThingTowardsThing.yaml"
                 else:
-                    id = pbase + "abnormalQualityPartOfThing.yaml"
+                    if i['affected_entity_1_sub'] in CHEBI_ROLES:
+                        id = pbase + "abnormalQualityOfChemicalRolePartOfThing.yaml"
+                    else:
+                        id = pbase + "abnormalQualityPartOfThing.yaml"
             elif i['affected_entity_1_rel'] == 'BFO:0000066':
                 if not (i['affected_entity_2_super'] == '' or pd.isnull(i['affected_entity_2_super'])):
                     if not (i['affected_entity_2_rel'] == '' or pd.isnull(i['affected_entity_2_rel'])):

@@ -1,12 +1,30 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/zp/components/obsolete.owl#"
      xml:base="http://purl.obolibrary.org/obo/zp/components/obsolete.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/components/obsolete.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -46,6 +64,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0000281">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0048709-PATO:0000460-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete oligodendrocyte differentiation abnormal, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0000453">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0072358-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0072358 disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0000673">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048747-BFO:0000066-ZFA:0009116-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete slow muscle cell decreased process quality http://purl.obolibrary.org/obo/GO_0048747, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0000674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0000674">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048747-BFO:0000066-ZFA:0009117-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete fast muscle cell decreased process quality http://purl.obolibrary.org/obo/GO_0048747, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -126,6 +174,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0001844">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042384-PATO:0002051-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0042384 increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0002061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0002061">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000152-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell retina decreased amount, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -321,6 +379,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0004217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004217">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001288-PATO:0001478-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete renal glomerulus collapsed, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0004219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004219">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005604-BFO:0000050-ZFA:0001288-PATO:0000937-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete basement membrane renal glomerulus disorganized, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0004327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004327">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007016-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cytoskeletal anchoring at plasma membrane decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0004377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004377">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0048747-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0048747 disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0004391 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004391">
@@ -336,6 +434,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004479">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0043206-PATO:0002302-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0043206 decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0004484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004484">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0015696-PATO:0000911-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0015696 decreased rate, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -361,6 +469,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0004688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004688">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0000040-PATO:0000025-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 median fin fold composition, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0004731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004731">
@@ -376,6 +494,46 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0004732">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete lamina lucida epidermis absent, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0005093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005093">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071156-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0071156 disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0005094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005094">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071850-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0071850 increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0005308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005308">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0048310-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete nucleus inheritance disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0005458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005458">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0000086-PATO:0000141-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 EVL structure, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -451,6 +609,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0005823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005823">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000029-PATO:0002182-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete hindbrain molecular quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0005961 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005961">
@@ -461,11 +629,51 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0005992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005992">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000119-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell retinal inner nuclear layer decreased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0006301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006301">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0000790-BFO:0000050-ZFA:0009154-PATO:0001485-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0000790 eye photoreceptor cell condensed, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0006330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006330">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0015696-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0015696 decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0006588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006588">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007067-PATO:0002052-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0007067 decreased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0006719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006719">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007050-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0007050 disrupted, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -521,11 +729,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0006866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006866">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071850-PATO:0000498-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0071850 increased duration, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0006886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006886">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000152-PATO:0000460-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retina abnormal, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0007057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0007057">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007016-PATO:0002304-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cytoskeletal anchoring at plasma membrane increased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0007542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0007542">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0001114-PATO:0000638-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell head apoptotic, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -561,6 +799,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0007932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0007932">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0000790-BFO:0000050-ZFA:0009316-PATO:0002261-GO:0031965-BFO:0000050-ZFA:0009316</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete cardiac muscle cell located in http://purl.obolibrary.org/obo/GO_0000790 nuclear membrane cardiac muscle cell, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0008101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008101">
@@ -576,6 +824,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008109">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete death increased rate, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0008256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008256">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000086-PATO:0000051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell EVL morphology, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -621,6 +879,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0008631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008631">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0001205-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 Meckel&apos;s cartilage increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0008642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008642">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0009084-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 chondrocyte increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0008731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008731">
@@ -631,11 +909,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0008777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008777">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0005124-PATO:0001453-0-0-ZFA:0005124</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete intestinal epithelium detached from obsolete cell intestinal epithelium, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0008876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0008876">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0031081-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0031081 disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0009019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0009019">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007004-PATO:0000460-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete telomere maintenance via telomerase abnormal, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0009021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0009021">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007050-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0007050 increased occurrence, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -724,8 +1032,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0009916 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0009916">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete melanocyte accumulation posterior_toposterior to otic vesicle, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009091-PATO:0002269-BSPO:0000099-BFO:0000050-ZFA:0000051</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete melanocyte accumulation posterior_toposterior to otic vesicle, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -761,6 +1069,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0010159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010159">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071850-PATO:0000502-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0071850 delayed, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0010242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010242">
@@ -786,6 +1104,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010480">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0016271-PATO:0002051-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete tissue death increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0010624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010624">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0001360-PATO:0000628-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell parapineal organ mislocalised, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -836,6 +1164,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010972">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete cytoskeletal part intestinal epithelium mislocalised, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0010973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010973">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0071437-BFO:0000050-ZFA:0005124-PATO:0000467-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete invadopodium intestinal epithelium present, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -931,11 +1269,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0011416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011416">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000075-PATO:0002182-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete spinal cord molecular quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0011459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011459">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0000046-PATO:0001236-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0000046 process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0011521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011521">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000140-PATO:0002182-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pancreas molecular quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -991,6 +1349,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0011867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011867">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:1990126-BFO:0000066-ZFA:0009150-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Rohon-Beard neuron decreased occurrence http://purl.obolibrary.org/obo/GO_1990126, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0011948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011948">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000944-PATO:0002182-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior lateral line molecular quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0012000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012000">
@@ -1011,11 +1389,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0012150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012150">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071733-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete transcriptional activation by promoter-enhancer looping decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0012239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012239">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000529-PATO:0001999-0-0-ZFA:0009014</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete kidney lacks parts or has fewer parts of type hematopoietic stem cell, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0012501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012501">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0060852-BFO:0000066-ZFA:0000477-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior cardinal vein process quality obsolete regulation of transcription involved in venous endothelial cell fate commitment, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1121,6 +1519,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0013393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013393">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0048747-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0048747 process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0013461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013461">
@@ -1191,6 +1599,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0013788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013788">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0071850-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0071850 process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0013928 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013928">
@@ -1224,8 +1642,28 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0013943 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0013943">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retina extends to posterior_toposterior to eye, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000152-PATO:0002463-BSPO:0000099-BFO:0000050-ZFA:0000107</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retina extends to posterior_toposterior to eye, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0014041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014041">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042493-PATO:0001783-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0042493 decreased intensity, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0014042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014042">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042493-PATO:0001782-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0042493 increased intensity, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1251,11 +1689,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0014150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014150">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0031572-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0031572 disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0014250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014250">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007067-PATO:0000911-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0007067 decreased rate, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0014358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014358">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0009405-PATO:0002304-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete pathogenesis increased process quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1286,6 +1744,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014494">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0097369-PATO:0002304-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete GO:0097369 increased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0014564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014564">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001315-PATO:0002001-GO:0005623-BFO:0000050-ZFA:0001320</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete atrioventricular canal has fewer parts of type obsolete cell endocardium, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0014570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014570">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0015696-PATO:0000912-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0015696 increased rate, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1351,6 +1829,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0014959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0014959">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042493-PATO:0000001-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0042493 quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0015017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0015017">
@@ -1366,6 +1854,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0015044">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0021867-PATO:0000057-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete neuron-producing asymmetric radial glial cell division in forebrain occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0015083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0015083">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0001157-PATO:0002303-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 posterior lateral line primordium decreased object quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1441,6 +1939,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0016915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0016915">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0000186-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete activation of MAPKK activity decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0016921 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0016921">
@@ -1511,6 +2019,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0018128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0018128">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000144-PATO:0000051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell retinal pigmented epithelium morphology, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0018493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0018493">
@@ -1526,6 +2044,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0018494">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete intracellular part myoseptum aggregated, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0018659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0018659">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000023-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell forerunner cell group decreased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0018791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0018791">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042769-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete DNA damage response, detection of DNA damage process quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1561,6 +2099,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0019126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019126">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000072-BFO:0000050-ZFA:0005023-PATO:0001672-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior region hematopoietic system decreased distribution, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0019139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019139">
@@ -1574,8 +2122,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0019233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019233">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of lateral plate mesoderm absent, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000121-PATO:0000462-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of lateral plate mesoderm absent, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1584,8 +2132,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0019234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019234">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of lateral plate mesoderm mislocalised, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0000121-PATO:0000628-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0000121-PATO:0000628-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of lateral plate mesoderm mislocalised, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1674,8 +2222,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0019964 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019964">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to dorsal todorsal_to vertebral column, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000098-BFO:0000050-ZFA:0001559</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000098-BFO:0000050-ZFA:0001559</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to dorsal todorsal_to vertebral column, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1684,8 +2232,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0019970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019970">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to posterior_toposterior to swim bladder, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete iridophore displaced to posterior_toposterior to swim bladder, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1714,8 +2262,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0020051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020051">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of intestinal bulb mislocalised, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of intestinal bulb mislocalised, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1724,8 +2272,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0020056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020056">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of intestinal bulb mislocalised, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001076-PATO:0000628-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of intestinal bulb mislocalised, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1734,8 +2282,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0020057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020057">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of mid intestine absent, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000121-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in right side ofin_right_side_of mid intestine absent, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1744,8 +2292,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0020058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020058">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of mid intestine absent, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0001323-PATO:0000462-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of mid intestine absent, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1771,6 +2319,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0020161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020161">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0071437-BFO:0000050-ZFA:0005124-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete invadopodium intestinal epithelium increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0020169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020169">
@@ -1786,6 +2344,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020260">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001338-PATO:0001671-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete intestine increased distribution, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020381">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048747-BFO:0000066-ZFA:0001652-PATO:0000502-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete head muscle delayed http://purl.obolibrary.org/obo/GO_0048747, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1811,11 +2379,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0020805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020805">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042769-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete DNA damage response, detection of DNA damage disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0020898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020898">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0000784-BFO:0000050-ZFA:0001094-PATO:0000574-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0000784 whole organism decreased length, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0020950 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0020950">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0030018-BFO:0000050-ZFA:0005061-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Z disc ventricular myocardium amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0021211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021211">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0060968-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete regulation of gene silencing disrupted, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2331,6 +2929,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0021530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021530">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0051705-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete multi-organism behavior process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0021534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021534">
@@ -2516,6 +3124,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021643">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009301-BFO:0000050-ZFA:0000128-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete dopaminergic neuron midbrain amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0021645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021645">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042769-BFO:0000066-ZFA:0001094-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete whole organism increased occurrence obsolete DNA damage response, detection of DNA damage, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3004,8 +3622,8 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0022105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022105">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete microglial cell accumulation anterior toanterior_to optic tectum, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009077-PATO:0002269-BSPO:0000096-BFO:0000050-ZFA:0000445</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0009077-PATO:0002269-BSPO:0000096-BFO:0000050-ZFA:0000445</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete microglial cell accumulation anterior toanterior_to optic tectum, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3226,6 +3844,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022268">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000056-BFO:0000050-ZFA:0000155-PATO:0000060-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior side somite spatial pattern, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0022274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022274">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0005057-PATO:0000060-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell epicardium spatial pattern, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3841,6 +4469,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0022690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022690">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0072358-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0072358 process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0022701 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022701">
@@ -4006,6 +4644,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022799">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009158-BFO:0000050-ZFA:0001180-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete keratinocyte epidermal basal stratum amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0022801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022801">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0048739-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0048739 disrupted, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -4591,6 +5239,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0100125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100125">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098858-BFO:0000050-ZFA:0009041-PATO:0000122-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete actin-based cell projection peridermal cell length, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0100150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100150">
@@ -4604,7 +5262,9 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0100153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100153">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZP_0100510"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0042541-BFO:0000066-ZFA:0009256-PATO:0000057-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ZP_0100153</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete nucleate erythrocyte occurrence hemoglobin biosynthetic process, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4614,7 +5274,9 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0100155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100155">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZP_0018670"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042541-PATO:0000057-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ZP_0100155</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete hemoglobin biosynthetic process occurrence, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4624,7 +5286,9 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0100156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100156">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZP_0100222"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0043249-PATO:0000057-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ZP_0100156</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete erythrocyte maturation occurrence, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4654,7 +5318,9 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0100206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100206">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZP_0019605"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008283-BFO:0000066-ZFA:0001464-PATO:0000057-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ZP_0100206</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retinal outer nuclear layer occurrence cell population proliferation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4674,7 +5340,9 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0100208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100208">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/ZP_0021362"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001464-PATO:0000070-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ZP_0100208</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retinal outer nuclear layer amount, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4706,6 +5374,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100274">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009256-BFO:0000050-ZFA:0000114-PATO:0000467-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete nucleate erythrocyte heart present, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0100303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100303">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001367-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete forebrain midbrain boundary decreased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0100304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100304">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0007033-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete forebrain midbrain boundary neural rod decreased amount, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -5181,6 +5869,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0100977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100977">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0055114-PATO:0002304-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete oxidation-reduction process increased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0100998 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0100998">
@@ -5316,6 +6014,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101101">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000042-PATO:0002326-0-0-ZFA:0000042</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete midbrain hindbrain boundary angle midbrain hindbrain boundary, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0101102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101102">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000042-PATO:0002327-0-0-ZFA:0000042</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete midbrain hindbrain boundary increased angle to midbrain hindbrain boundary, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0101103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101103">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0000042-PATO:0002328-0-0-ZFA:0000042</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete midbrain hindbrain boundary decreased angle to midbrain hindbrain boundary, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -5936,6 +6654,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101908">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009052-BFO:0000050-ZFA:0000206-PATO:0000918-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete motor neuron facial nerve motor nucleus volume, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0101915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101915">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031099-BFO:0000066-ZFA:0000944-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior lateral line increased occurrence regeneration, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -6694,8 +7422,18 @@
     <!-- http://purl.obolibrary.org/obo/ZP_0103211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103211">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of diencephalon absent, abnormal</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:0000120-BFO:0000050-ZFA:0000101-PATO:0000462-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in left side ofin_left_side_of diencephalon absent, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0103262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103262">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0061466-BFO:0000050-ZFA:0005062-PATO:0002481-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete plasma membrane part of cell junction compact layer of ventricle oblique orientation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -6736,6 +7474,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103369">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-ZFA:0001557-PATO:0000117-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pronephric glomerulus size, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0103459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103459">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000035-PATO:0000937-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell lens disorganized, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -6971,6 +7719,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0103997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103997">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0007050-BFO:0000066-ZFA:0000152-PATO:0000502-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete retina delayed http://purl.obolibrary.org/obo/GO_0007050, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0104062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104062">
@@ -7006,6 +7764,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104108">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009327-BFO:0000050-ZFA:0000112-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete neutrophil gut amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0104120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104120">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623-BFO:0000050-ZFA:0000135-PATO:0001872-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete cell notochord cuboid, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -7246,6 +8014,56 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104778">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0072089-BFO:0000066-ZFA:0009292-PATO:0000057-0-0-0</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete radial glial cell occurrence stem cell proliferation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0105655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0105655">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0007050-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0007050 decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0105661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0105661">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005913-BFO:0000050-ZFA:0001135-PATO:0000051-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005913 neural tube morphology, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0105887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0105887">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0044117-PATO:0000057-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0044117 occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0105888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0105888">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0044117-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0044117 decreased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0106949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0106949">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0042493-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0042493 process quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -37536,6 +38354,86 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0130671">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete abnormal zebrafish anatomical entity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0131106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0131106">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5931-BFO:0000050-ZFA:0005654-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete insulin (human) blood plasma increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137360">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009367-BFO:0000050-ZFA:0000940-PATO:0001652-ZFA:0009367-BFO:0000050-ZFA:0000940</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete posterior lateral line neuromast alignment neuromast hair cell neuromast hair cell posterior lateral line neuromast, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137388">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0044117-PATO:0001863-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0044117 chronic, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137389">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0-0-GO:0044117-PATO:0002019-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0044117 aplastic growth, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137403">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005720-BFO:0000050-ZFA:0001094-PATO:0000462-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005720 whole organism absent, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137404">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005720-BFO:0000050-ZFA:0001094-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete http://purl.obolibrary.org/obo/GO_0005720 whole organism increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0138437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138437">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009367-BFO:0000050-ZFA:0001025-PATO:0001654-ZFA:0009367-BFO:0000050-ZFA:0001025</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete occipital lateral line neuromast misaligned with neuromast hair cell neuromast hair cell occipital lateral line neuromast, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0138438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138438">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0009367-BFO:0000050-ZFA:0005113-PATO:0001654-ZFA:0009367-BFO:0000050-ZFA:0005113</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete dorsal lateral line neuromast misaligned with neuromast hair cell neuromast hair cell dorsal lateral line neuromast, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
 </rdf:RDF>
