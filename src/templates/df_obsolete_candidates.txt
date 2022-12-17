@@ -1,1 +1,11 @@
 Ontology ID	ZFIN Annotation	Obsolete	Label
+http://purl.obolibrary.org/obo/ZP_0006446	0-0-ZFA:0000217-PATO:0001617-0-0-0	true	obsolete inner ear deformed, abnormal
+http://purl.obolibrary.org/obo/ZP_0010658	0-0-GO:0055069-PATO:0001507-0-0-0	true	obsolete zinc ion homeostasis disrupted, abnormal
+http://purl.obolibrary.org/obo/ZP_0010845	0-0-GO:0035511-PATO:0001236-0-0-0	true	obsolete oxidative DNA demethylation process quality, abnormal
+http://purl.obolibrary.org/obo/ZP_0020723	GO:0055071-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0	true	obsolete whole organism decreased process quality manganese ion homeostasis, abnormal
+http://purl.obolibrary.org/obo/ZP_0020724	GO:0055071-BFO:0000066-ZFA:0000008-PATO:0002302-0-0-0	true	obsolete brain decreased process quality manganese ion homeostasis, abnormal
+http://purl.obolibrary.org/obo/ZP_0022466	0-0-GO:0055071-PATO:0002302-0-0-0	true	obsolete manganese ion homeostasis decreased process quality, abnormal
+http://purl.obolibrary.org/obo/ZP_0022468	GO:0055071-BFO:0000066-ZFA:0000339-PATO:0001236-0-0-0	true	obsolete digestive system process quality manganese ion homeostasis, abnormal
+http://purl.obolibrary.org/obo/ZP_0022469	GO:0055069-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	true	obsolete whole organism process quality zinc ion homeostasis, abnormal
+http://purl.obolibrary.org/obo/ZP_0022470	GO:0055072-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	true	obsolete whole organism process quality iron ion homeostasis, abnormal
+http://purl.obolibrary.org/obo/ZP_0022471	GO:0055073-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	true	obsolete whole organism process quality cadmium ion homeostasis, abnormal

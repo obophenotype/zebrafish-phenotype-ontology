@@ -45,3 +45,4 @@ src/ontology/imports/chebi_terms_combined.txt
 src/scripts/__pycache__/zp_lib.cpython-38.pyc
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+*.pyc

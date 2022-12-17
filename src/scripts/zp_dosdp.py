@@ -18,7 +18,7 @@ prefix = "ZP:"
 pbase="https://raw.githubusercontent.com/obophenotype/zebrafish-phenotype-ontology/master/src/patterns/dosdp-patterns/"
 ubase="https://raw.githubusercontent.com/obophenotype/upheno/master/src/patterns/"
 
-CHEBI_ROLES = ["CHEBI:27027", "CHEBI:25512"]
+CHEBI_ROLES = ["CHEBI:27027", "CHEBI:25512", "CHEBI:50113", "CHEBI:50114", "CHEBI:37845", "CHEBI:60311", "CHEBI:33290"]
 
 # METHODS
 
