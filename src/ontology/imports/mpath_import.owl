@@ -10,9 +10,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2021-12-11/imports/mpath_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/zp/releases/2022-12-17/imports/mpath_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/mpath/2020-05-19/mpath.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-11</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -149,6 +149,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
+        <obo:IAO_0000115>Defects in growth (changes in proliferation or mass) and differentiation of cells tissues or organs.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:126</oboInOwl:id>
+        <rdfs:label>growth and differentiation defect</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_126"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Defects in growth (changes in proliferation or mass) and differentiation of cells tissues or organs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_128">
@@ -171,6 +189,44 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>intra-epithelial lesion</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_602"/>
+        <obo:IAO_0000115>Abnormal proliferation of epithelial cells and epithelial components.</obo:IAO_0000115>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:138</oboInOwl:id>
+        <rdfs:label>epithelial hyperplasia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Abnormal proliferation of epithelial cells and epithelial components.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_491"/>
+        <obo:IAO_0000115>A benign polyp, usually in the colon, showing hyperplasia.</obo:IAO_0000115>
+        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:140</oboInOwl:id>
+        <rdfs:label>hyperplastic polyp</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_140"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A benign polyp, usually in the colon, showing hyperplasia.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781727286</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -246,18 +302,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>hemangioendothelioma malignant.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Malignant neoplasm derived from pluripotential mesenchymal stem cells or endothelial cells of blood vessels. (M-9120/3).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8569146</oboInOwl:hasDbXref>
@@ -266,6 +310,18 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Hemangioma malignant</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>hemangioendothelioma malignant, angiosarcoma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_242"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>hemangioendothelioma malignant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1011,6 +1067,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_570"/>
+        <obo:IAO_0000115>A benign neoplasm composed of mature ganglionic neurons scattered singly or in clumps within a relatively abundant and dense stroma of neurofibrils and collagenous fibers. (M-9490/0).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:375</oboInOwl:id>
+        <rdfs:label>ganglioneuroma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_375"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A benign neoplasm composed of mature ganglionic neurons scattered singly or in clumps within a relatively abundant and dense stroma of neurofibrils and collagenous fibers. (M-9490/0).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_376 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_376">
@@ -1380,6 +1454,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_138"/>
+        <obo:IAO_0000115>A mass of tissue which projects outward or upward from the normal surface level being macroscopically visible as a hemispheroidal, spheroidal, or irregular moundlike structure growing from a relatively broad base or a slender stalk.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:491</oboInOwl:id>
+        <rdfs:label>polyp</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mass of tissue which projects outward or upward from the normal surface level being macroscopically visible as a hemispheroidal, spheroidal, or irregular moundlike structure growing from a relatively broad base or a slender stalk.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781727286</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_496">
@@ -1697,6 +1789,24 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_570"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Tumors of the peripheral nervous system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_126"/>
+        <obo:IAO_0000115>An organ or a tissue with an abnormal increase in the number of cells as a consequence of cell proliferation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:602</oboInOwl:id>
+        <rdfs:label>hyperplastic tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_602"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An organ or a tissue with an abnormal increase in the number of cells as a consequence of cell proliferation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
