@@ -24,7 +24,7 @@ Annotation(<http://purl.org/dc/elements/1.1/description> "The Zebrafish Phenotyp
 Annotation(<http://purl.org/dc/elements/1.1/title> "Zebrafish Phenotype Ontology (ZP)"^^xsd:string)
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/>)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000000>))
 
 
 
@@ -32,10 +32,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_00000000>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/ZP_00000000> (Zebrafish Phenotype)
+# Class: <http://purl.obolibrary.org/obo/ZP_0000000> (Zebrafish Phenotype)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_00000000> "Zebrafish Phenotype"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_00000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000000> "Zebrafish Phenotype"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ZP_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> owl:Thing) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 
 )
