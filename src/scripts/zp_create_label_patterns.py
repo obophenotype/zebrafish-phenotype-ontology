@@ -9,7 +9,7 @@ obo_prefix = "http://purl.obolibrary.org/obo/"
 
 class zpconfig:
     def __init__(self, config_file):
-        self.config = yaml.load(open(config_file, 'r'))
+        self.config = yaml.safe_load(open(config_file, 'r'))
 
     def get_iri_accession(self):
         return int(self.config.get("label_config").get("iri_accession"))

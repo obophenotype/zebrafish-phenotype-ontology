@@ -16,7 +16,8 @@ python3 ../scripts/zfin_obsoletion.py deprecated_id_map.tsv ../templates/obsolet
 
 echo "######################################"
 echo "Determining basic ZFIN patterns..."
-rm -r ../patterns/data/zfin/*
+mkdir -p ../patterns/data/zfin/
+rm -rf ../patterns/data/zfin/*
 python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin ../templates/obsolete.tsv pattern_assignments.txt ../ontology/zp_labels.csv || exit 1
 
 echo "######################################"

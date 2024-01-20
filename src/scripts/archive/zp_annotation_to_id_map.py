@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import sys
 
 # Author: Nicolas Matentzoglu
@@ -23,10 +24,10 @@ current_id_map = sys.argv[1]
 # this is set as well.
 #zfin = "/data/phenotype_fish.txt"
 df = pd.read_csv(zfin, sep='\t', header=None)
-functionalcolumns = pd.np.array([7,9,11,13,16,18,20])-1
+functionalcolumns = np.array([7,9,11,13,16,18,20])-1
 d = df[functionalcolumns].drop_duplicates()
 d.columns = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
-d = d.replace(pd.np.nan, "0", regex=True)
+d = d.replace(np.nan, "0", regex=True)
 d = d.replace("nan", "0", regex=True)
 d = d.replace("http://purl.obolibrary.org/obo/", "")
 d = d.replace("_", ":")
@@ -35,7 +36,7 @@ d = d.replace("_", ":")
 df_ids = pd.read_csv(original_id_map, sep='\t', header=None)
 df_ids = df_ids[[0,3,2,4,7,6]]
 df_ids.columns = ['iri','affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super']
-df_ids = df_ids.replace(pd.np.nan, "0", regex=True)
+df_ids = df_ids.replace(np.nan, "0", regex=True)
 df_ids = df_ids.replace("nan", "0", regex=True)
 df_ids = df_ids.replace("http://purl.obolibrary.org/obo/", "")
 df_ids = df_ids.replace("_", ":")
@@ -47,7 +48,7 @@ beforelen=len(df_ids)
 df_ids = pd.merge(df_ids, d, on=['affected_entity_1_sub','affected_entity_1_super','pato_id','affected_entity_2_sub','affected_entity_2_super'], how='left')
 afterlen=len(df_ids)
 print("Before: "+str(beforelen)+", after: "+str(afterlen))
-df_ids = df_ids.replace(pd.np.nan, "0", regex=True)
+df_ids = df_ids.replace(np.nan, "0", regex=True)
 df_ids = df_ids.replace("nan", "0", regex=True)
 df_ids = df_ids.replace("http://purl.obolibrary.org/obo/", "")
 df_ids = df_ids.replace("_", ":")

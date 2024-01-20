@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import copy
 import sys
 import os
@@ -11,8 +12,8 @@ class zp_pipeline_config:
         self.zp_prefix = "ZP:"
         self.minid = accession
         self.maxid = 9999999 # THE maximum integer the current OBO IRI space allows (ZP_9999999).
-        self.phenotype_fish_functional_columns=pd.np.array([7,9,11,13,15,16,18,20])-1
-        self.phenotype_gene_functional_columns=pd.np.array([4,6,8,10,12,13,15,17])-1
+        self.phenotype_fish_functional_columns=np.array([7,9,11,13,15,16,18,20])-1
+        self.phenotype_gene_functional_columns=np.array([4,6,8,10,12,13,15,17])-1
         self.functional_column_names=['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','modifier','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
         if reserved_ids_file is None:
             self.reserved_ids = []
@@ -54,7 +55,7 @@ class zp_pipeline_config:
         d.columns = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','modifier','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
 
         # For the ID generation process, we decided to replace empty or NAN values with 0
-        d = d.replace(pd.np.nan, "0", regex=True)
+        d = d.replace(np.nan, "0", regex=True)
         d = d.replace("nan", "0", regex=True)
         d = d.replace("http://purl.obolibrary.org/obo/", "")
         d = d.replace("_", ":")

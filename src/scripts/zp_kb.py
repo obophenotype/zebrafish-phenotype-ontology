@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import copy
 import sys
 
@@ -29,7 +30,7 @@ id_map = pd.read_csv(id_map, sep='\t')
 print(id_map.shape)
 
 # Generate ID string in ZFIN Gene annotation data and merge with ID MAP to get corresponding ZP identifier
-functionalcolumns = pd.np.array([4,6,8,10,13,15,17])-1
+functionalcolumns = np.array([4,6,8,10,13,15,17])-1
 df_zfin.update(df_zfin[functionalcolumns].fillna('0'))
 print(len(df_zfin))
 df_zfin['id'] = df_zfin[functionalcolumns].astype(str).apply('-'.join, axis=1)
@@ -39,7 +40,7 @@ df_zfin[functionalcolumns] = df_zfin[functionalcolumns].replace('^0$', '', regex
 print(len(df_zfin))
 
 # Extract relevant GENE annotation columns (GENE id, Fish id, etc)
-annotationcolumns = pd.np.array([1,3,12,19,21,22,23,24,25])-1
+annotationcolumns = np.array([1,3,12,19,21,22,23,24,25])-1
 kb = df_zfin[annotationcolumns]
 kb.columns = ["ZFINID", "GENEID","PHENOTYPETAG","FISHID","STARTSTAGEID","ENDSTAGEID","FISHENVIRONMENTID","PUBLICATIONID","FIGUREID"]
 kb = kb.assign(IRI=df_zfin['iri'])

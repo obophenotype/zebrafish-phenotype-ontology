@@ -47,16 +47,17 @@ for dir in pattern_data_dirs:
             yids_incl_pattern = yids.copy()
             yids_incl_pattern.append("pattern")
             df = pd.read_csv(tsv, sep='\t')
-            df = df.dropna()
             for col in yids_incl_def:
                 df[col] = [str(i).replace(obo_prefix,"") for i in df[col]]
                 df[col] = [str(i).replace("_", ":") for i in df[col]]
             #df.to_csv(tsv, sep = '\t', index=False)
-            
             df['pattern'] = filename.replace(".tsv","")
             df['pattern_file'] = tsv
             df['pipeline'] = os.path.basename(dir)
-            df['id'] = df[yids_incl_pattern].apply('-'.join, axis=1) #generate a unique id string
+            if len(df)>0:
+                df['id'] = df[yids_incl_pattern].apply('-'.join, axis=1) #generate a unique id string
+            else:
+                df['id'] = []
             df = df.rename(columns={'defined_class': 'iri'})
             df = df[~df['iri'].isnull()]
             #print(df.head())

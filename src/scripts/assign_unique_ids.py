@@ -3,6 +3,7 @@ import pandas as pd
 import yaml
 import os
 import collections
+import numpy as np
 
 tsv = sys.argv[1]
 id_map = sys.argv[2]
@@ -61,21 +62,25 @@ def add_id_column(df,idcolumns):
         df_copy[col] = [str(i).replace(obo_prefix,"") for i in df_copy[col]]
         df_copy[col] = [str(i).replace("_", ":") for i in df_copy[col]]
 
-    df['id'] = df_copy[idcolumns_incl_patterns].apply('-'.join, axis=1)
+    if len(df_copy)>0:
+        df['id'] = df_copy[idcolumns_incl_patterns].apply('-'.join, axis=1)
+    else:
+        df['id'] = []
 
     if df_ids.empty:
         df['iritemp001'] = ""
     else:
         df = pd.merge(df, df_ids, on='id', how='left')
 
-    df = df.replace(pd.np.nan, '', regex=True)
+    df = df.replace(np.nan, '', regex=True)
     #df.loc[(df['defined_class'] != '') & (df['iritemp001'] == ''), 'iritemp001'] = df['']
-    broken = pd.np.where((df['defined_class'] != '') & (df['iritemp001'] != '' )& (df['iritemp001'] != df['defined_class']), df[['defined_class','iritemp001']].apply('-'.join, axis=1),"OK")
-    if len(broken)>0:
-        print("WARNING: Broken records")
-        print(broken)
+    if not df.empty:
+        broken = np.where((df['defined_class'] != '') & (df['iritemp001'] != '' )& (df['iritemp001'] != df['defined_class']), df[['defined_class','iritemp001']].apply('-'.join, axis=1),"OK")
+        if len(broken)>0:
+            print("WARNING: Broken records")
+            print(broken)
 
-    df['iritemp001'] = pd.np.where(df['defined_class'] != '', df['defined_class'], df['iritemp001'])
+    df['iritemp001'] = np.where(df['defined_class'] != '', df['defined_class'], df['iritemp001'])
 
     df['defined_class'] = [generate_id(i) for i in df['iritemp001']]
     x = df[['defined_class','id']]
