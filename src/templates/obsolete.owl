@@ -7686,6 +7686,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0102384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0102384">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
+        <rdfs:label>obsolete ZP:0102384</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0102420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0102420">
@@ -39291,6 +39301,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0137439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137439">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
+        <rdfs:label>obsolete ZP:0137439</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137553">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
+        <rdfs:label>obsolete ZP:0137553</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0137554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137554">
@@ -39631,6 +39661,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0147193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0147193">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
+        <rdfs:label>obsolete ZP:0147193</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0147194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0147194">
@@ -39656,6 +39696,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0147198">
         <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
         <rdfs:label>obsolete ZP:0147198</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0147200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0147200">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64"/>
+        <rdfs:label>obsolete ZP:0147200</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
