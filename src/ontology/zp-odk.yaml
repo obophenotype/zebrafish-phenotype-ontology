@@ -19,9 +19,10 @@ import_group:
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/SO_*>
     - <http://purl.obolibrary.org/obo/PR_*>
-    - <http://purl.obolibrary.org/obo/CL_>
-    - <http://purl.obolibrary.org/obo/NBO_>
+    - <http://purl.obolibrary.org/obo/CL_*>
+    - <http://purl.obolibrary.org/obo/NBO_*>
     - <http://purl.obolibrary.org/obo/cl#*>
+    - <http://purl.obolibrary.org/obo/UBERON_*>
     - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
     - <http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>
     - <http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>
@@ -46,8 +47,6 @@ import_group:
       use_base: TRUE
     - id: go
       make_base: TRUE
-    - id: uberon 
-      use_base: TRUE 
     - id: ro
       use_base: TRUE
     - id: chebi
