@@ -176,7 +176,7 @@ clean:
 	rm -rf $(TMPDIR_CURATION)/*
 
 pattern_labels:
-	rm -rf $(LABELPATTERNDIR)/*
+	rm -rf $(LABELPATTERNDIR)/*.tsv
 	python3 ../scripts/zp_create_label_patterns.py ../patterns
 
 zp_labels.csv:
