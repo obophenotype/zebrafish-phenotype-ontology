@@ -35,7 +35,7 @@ src/ontology/tmp/
 catalog-v001.xml
 /zp.*
 /zp-*
-src/ontology/zp-*
+src/ontology/zp-*.owl
 src/curation/id_map_zfin copy.tsv
 src/ontology/df_id_map_dup_id.tsv
 src/ontology/id_map_rem.txt
@@ -47,3 +47,4 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 *.pyc
 src/curation/kb_zp.ttl
+src/ontology/imports/*_terms_combined.txt
