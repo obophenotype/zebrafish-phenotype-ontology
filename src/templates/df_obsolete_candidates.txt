@@ -1,4 +1,1 @@
 Ontology ID	ZFIN Annotation	Obsolete	Label
-http://purl.obolibrary.org/obo/ZP_0018355	0-0-GO:0043970-PATO:0002304-0-0-0	true	obsolete obsolete histone H3-K9 acetylation increased process quality, abnormal
-http://purl.obolibrary.org/obo/ZP_0018356	0-0-GO:0043974-PATO:0002304-0-0-0	true	obsolete obsolete histone H3-K27 acetylation increased process quality, abnormal
-http://purl.obolibrary.org/obo/ZP_0143757	0-0-GO:0010452-PATO:0002052-0-0-0	true	obsolete obsolete histone H3-K36 methylation decreased occurrence, abnormal
