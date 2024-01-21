@@ -3940,3 +3940,24 @@ http://purl.obolibrary.org/obo/ZP_0148190	obsolete ependymoglial cell increased 
 http://purl.obolibrary.org/obo/ZP_0148195	obsolete adenylate cyclase-activating adrenergic receptor signaling pathway involved in positive regulation of heart rate, decreased process quality, abnormal	true	0-0-GO:0086024-PATO:0002302-0-0-0		
 http://purl.obolibrary.org/obo/ZP_0148522	obsolete myotome has extra parts of type anterior region protein-containing complex myotome, abnormal	true	BSPO:0000071-BFO:0000050-ZFA:0001056-PATO:0002002-GO:0032991-BFO:0000050-ZFA:0001056		
 http://purl.obolibrary.org/obo/ZP_0148523	obsolete myotome has extra parts of type posterior region protein-containing complex myotome, abnormal	true	BSPO:0000072-BFO:0000050-ZFA:0001056-PATO:0002002-GO:0032991-BFO:0000050-ZFA:0001056		
+http://purl.obolibrary.org/obo/ZP_0137554	obsolete ZP:0137554	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0137867	obsolete ZP:0137867	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0139781	obsolete ZP:0139781	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0140582	obsolete ZP:0140582	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0140847	obsolete ZP:0140847	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0140848	obsolete ZP:0140848	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0143757	obsolete ZP:0143757	true	0-0-GO:0010452-PATO:0002052-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0147191	obsolete ZP:0147191	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0147192	obsolete ZP:0147192	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0147194	obsolete ZP:0147194	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0147195	obsolete ZP:0147195	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0147198	obsolete ZP:0147198	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0131000	obsolete ZP:0131000	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0001528	obsolete ZP:0001528	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0003408	obsolete ZP:0003408	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0003963	obsolete ZP:0003963	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0004326	obsolete ZP:0004326	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0007175	obsolete ZP:0007175	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0018355	obsolete ZP:0018355	true	0-0-GO:0043970-PATO:0002304-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0018356	obsolete ZP:0018356	true	0-0-GO:0043974-PATO:0002304-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
+http://purl.obolibrary.org/obo/ZP_0101668	obsolete ZP:0101668	true			https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64
