@@ -71,4 +71,6 @@ pattern_pipelines_group:
     - id: labels
       dosdp_tools_options: "--obo-prefixes=true"
 robot_java_args: '-Xmx8G'
-allow_equivalents: asserted-only   
+allow_equivalents: asserted-only
+documentation:
+  documentation_system: mkdocs
