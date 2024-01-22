@@ -2,7 +2,6 @@ AUTOPATTERNACCESSION = 99999
 OBOPURL=http://purl.obolibrary.org/obo/
 PURL=$(OBOPURL)ZP_
 ZPCURIEPREFIX=ZP:
-ROBOT=robot -vv
 
 PDIR=../patterns/dosdp-patterns
 TEMPLATEDIR=../templates
@@ -11,7 +10,7 @@ MANUALPATTERNDIR=../patterns/data/manual
 LABELPATTERNDIR=../patterns/data/labels
 ZFINPATTERNDIR=../patterns/data/zfin
 TODOPATTERNDIR=../patterns/data/todo
-TMPDIR=../curation/tmp
+TMPDIR_CURATION=../curation/tmp
 
 ID_MAP_ZFIN=../curation/id_map_zfin.tsv
 ID_MAP=../curation/id_map.tsv
@@ -23,12 +22,12 @@ ID_MAP=../curation/id_map.tsv
 # Defiinitions.owl overwrite (occurs in hack!)
 ####
 
+mirror-zfa: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/zfa.owl --create-dirs -o $(MIRRORDIR)/zfa.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) merge -i $(MIRRORDIR)/zfa.owl remove --term BFO:0000050 convert -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
-mirror/zfa.owl: mirror/zfa.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) merge -I $(URIBASE)/zfa.owl remove --term BFO:0000050 convert -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-
-
-$(PDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
+$(PDIR)/definitions.owl: update_patterns $(individual_patterns_default)   $(individual_patterns_manual) $(individual_patterns_anatomy) $(individual_patterns_zfin) $(individual_patterns_process)
 	$(ROBOT) merge $(addprefix -i , $(individual_patterns_default))   $(addprefix -i , $(individual_patterns_manual)) $(addprefix -i , $(individual_patterns_anatomy)) $(addprefix -i , $(individual_patterns_zfin)) $(addprefix -i , $(individual_patterns_process)) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
 	mv definitions.ofn $@ &&\
 	echo 'OCCURS IN HACK SKIPPED!'
@@ -37,8 +36,8 @@ $(PDIR)/definitions.owl: prepare_patterns $(individual_patterns_default)   $(ind
 #############################################
 ### Computing all reserved iris in ZP ######
 #############################################
-RESERVED_IRI=$(TMPDIR)/reserved_iris.txt
-ZP_SRC_SEED=$(TMPDIR)/editseed.txt
+RESERVED_IRI=$(TMPDIR_CURATION)/reserved_iris.txt
+ZP_SRC_SEED=$(TMPDIR_CURATION)/editseed.txt
 pattern_term_lists_auto := $(patsubst %.tsv, $(AUTOPATTERNDIR)/%.txt, $(notdir $(wildcard $(AUTOPATTERNDIR)/*.tsv)))
 pattern_term_lists_manual := $(patsubst %.tsv, $(MANUALPATTERNDIR)/%.txt, $(notdir $(wildcard $(MANUALPATTERNDIR)/*.tsv)))
 pattern_term_lists_zfin := $(patsubst %.tsv, $(ZFINPATTERNDIR)/%.txt, $(notdir $(wildcard $(ZFINPATTERNDIR)/*.tsv)))
@@ -57,47 +56,47 @@ $(ZP_SRC_SEED): $(SRC)
 	robot query -f csv -i $< --use-graphs true --query ../sparql/zp_terms.sparql $@
 
 
-$(TMPDIR)/id_map_terms.txt.tmp:
+$(TMPDIR_CURATION)/id_map_terms.txt.tmp:
 	grep -Eo '(ZP)[^[:space:]"]+' ../curation/id_map_zfin.tsv | sort | uniq > $@
 
-$(TMPDIR)/id_map_terms.txt.zp.tmp:
+$(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp:
 	grep -Eo '(ZP)[:][^[:space:]"]+' ../curation/id_map.tsv | sort | uniq > $@	
 	
-$(TMPDIR)/id_map_terms.txt: $(TMPDIR)/id_map_terms.txt.tmp $(TMPDIR)/id_map_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/id_map_terms.txt: $(TMPDIR_CURATION)/id_map_terms.txt.tmp $(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR)/idmap_removed_ambiguous_terms.txt.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR)/idmap_removed_ambiguous_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR)/idmap_removed_ambiguous_terms.txt: $(TMPDIR)/idmap_removed_ambiguous_terms.txt.tmp $(TMPDIR)/idmap_removed_ambiguous_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt: $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR)/idmap_removed_incomplete_terms.txt.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR)/idmap_removed_incomplete_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR)/idmap_removed_incomplete_terms.txt: $(TMPDIR)/idmap_removed_incomplete_terms.txt.tmp $(TMPDIR)/idmap_removed_incomplete_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt: $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR)/obsoleted.txt.tmp: ../templates/obsolete.tsv
+$(TMPDIR_CURATION)/obsoleted.txt.tmp: ../templates/obsolete.tsv
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR)/obsoleted.txt.zp.tmp: ../templates/obsolete.tsv
+$(TMPDIR_CURATION)/obsoleted.txt.zp.tmp: ../templates/obsolete.tsv
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR)/obsoleted.txt: $(TMPDIR)/obsoleted.txt.tmp $(TMPDIR)/obsoleted.txt.zp.tmp
+$(TMPDIR_CURATION)/obsoleted.txt: $(TMPDIR_CURATION)/obsoleted.txt.tmp $(TMPDIR_CURATION)/obsoleted.txt.zp.tmp
 	cat $^ | sort | uniq > $@
 
 
-$(RESERVED_IRI)_tmp.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR)/id_map_terms.txt $(TMPDIR)/idmap_removed_ambiguous_terms.txt $(TMPDIR)/idmap_removed_incomplete_terms.txt $(TMPDIR)/obsoleted.txt
+$(RESERVED_IRI)_tmp.txt: $(pattern_term_lists_auto) $(pattern_term_lists_manual) $(pattern_term_lists_zfin) $(ZP_SRC_SEED) $(TMPDIR_CURATION)/id_map_terms.txt $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt $(TMPDIR_CURATION)/obsoleted.txt
 	cat $^ | sort | uniq > $@
 
 $(RESERVED_IRI)_iri.txt: $(RESERVED_IRI)_tmp.txt
@@ -129,7 +128,7 @@ missing_iris: $(MANUALPATTERNIDS)
 ###################################
 
 ZFA_IRI = $(OBOPURL)zfa.owl
-ZFA = $(TMPDIR)/zfa.owl
+ZFA = $(TMPDIR_CURATION)/zfa.owl
 PATTERN_CONFIG=../patterns/pattern-config.yaml
 PIPELINE_DATA_PATH=../patterns/data/anatomy/
 SPARQLDIR=../sparql
@@ -173,31 +172,19 @@ update_id_map: $(ID_MAP_ZFIN)
 	python3 ../scripts/create_id_map.py ../patterns $(ID_MAP)
 
 clean:
-	mkdir -p $(TMPDIR)
-	rm -rf $(TMPDIR)/*
+	mkdir -p $(TMPDIR_CURATION)
+	rm -rf $(TMPDIR_CURATION)/*
 
 pattern_labels:
-	rm -rf $(LABELPATTERNDIR)/*
+	rm -rf $(LABELPATTERNDIR)/*.tsv
 	python3 ../scripts/zp_create_label_patterns.py ../patterns
 
 zp_labels.csv:
 	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
 	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
-zfin_pipeline: clean prepare_patterns $(RESERVED_IRI) zp_labels.csv
+zfin_pipeline: clean update_patterns $(RESERVED_IRI) zp_labels.csv
 	sh ../scripts/zfin_pipeline.sh
-
-preprocess: all_imports
-	$(ROBOT) merge -i zp-edit.owl \
-	reason --reasoner ELK  --exclude-tautologies structural \
-	remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false -o zp-edit-release.ofn
-	mv zp-edit-release.ofn zp-edit-release.owl
-
-# BASE product needs to be overwritten because SRC is, during run of prepare release, a merged artefact (see zp_release.sh)
-$(ONT)-base.owl: $(SRC) $(OTHER_SRC)
-	$(ROBOT) remove --input zp-edit.owl --select imports --trim false \
-		merge $(patsubst %, -i %, $(OTHER_SRC)) \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 # This should only ever be run on a local machin
@@ -212,14 +199,14 @@ z:
 ### TEST PIPELINE                 ##########
 #############################################
 
-$(TMPDIR)/new_labels.txt:
+$(TMPDIR_CURATION)/new_labels.txt:
 	robot query -f csv -i ../../zp.owl --query ../sparql/zp_label_terms.sparql $@
 
-$(TMPDIR)/old_labels.txt:
+$(TMPDIR_CURATION)/old_labels.txt:
 	robot query -f csv -I $(OBOPURL)zp.owl --query ../sparql/zp_label_terms.sparql $@
 
-mass_obsolete: $(TMPDIR)/old_labels.txt $(TMPDIR)/new_labels.txt
-	python3 ../scripts/mass_obsolete.py $(TMPDIR)/old_labels.txt $(TMPDIR)/new_labels.txt ../templates/obsolete.tsv
+mass_obsolete: $(TMPDIR_CURATION)/old_labels.txt $(TMPDIR_CURATION)/new_labels.txt
+	python3 ../scripts/mass_obsolete.py $(TMPDIR_CURATION)/old_labels.txt $(TMPDIR_CURATION)/new_labels.txt ../templates/obsolete.tsv
 
 qc:
 	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl

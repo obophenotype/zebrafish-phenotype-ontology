@@ -7,22 +7,16 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/zp.owl>
-Import(<http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/zfa_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/zp/imports/merged_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/patterns/definitions.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl>)
-Import(<http://purl.obolibrary.org/obo/zp/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/zp/components/obsolete.owl>)
 
 Annotation(rdfs:comment "Zebrafish Phenotype Ontology")
 Annotation(<http://purl.org/dc/elements/1.1/description> "The Zebrafish Phenotype Ontology formally defines all phenotypes of the Zebrafish model organism."^^xsd:string)
 Annotation(<http://purl.org/dc/elements/1.1/title> "Zebrafish Phenotype Ontology (ZP)"^^xsd:string)
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/ZP_0000000>)
+
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000000>))
 

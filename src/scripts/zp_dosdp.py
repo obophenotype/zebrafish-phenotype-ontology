@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import sys
 import os
 
@@ -28,8 +29,8 @@ def get_rows_with_duplicates(x,id_col):
     return(broken)
 
 def split_eq(dfs):
-    df = dfs['id'].str.split('-', expand=True).reindex(columns=pd.np.arange(7))
-    xs = pd.concat([dfs, df], axis=1).replace({'0': pd.np.NaN})
+    df = dfs['id'].str.split('-', expand=True).reindex(columns=np.arange(7))
+    xs = pd.concat([dfs, df], axis=1).replace({'0': np.NaN})
     return(xs)
 
 def determine_base_pattern(i):

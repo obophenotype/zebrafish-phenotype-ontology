@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import copy
 import sys
 
@@ -24,7 +25,7 @@ id_map = pd.read_csv(id_map, sep='\t')
 print(id_map.shape)
 
 # Generate ID string in ZFIN Gene annotation data and merge with ID MAP to get corresponding ZP identifier
-functionalcolumns = pd.np.array([7,9,11,13,15,16,18,20])-1
+functionalcolumns = np.array([7,9,11,13,15,16,18,20])-1
 df_zfin.update(df_zfin[functionalcolumns].fillna('0'))
 print(len(df_zfin))
 df_zfin['id'] = df_zfin[functionalcolumns].astype(str).apply('-'.join, axis=1)
