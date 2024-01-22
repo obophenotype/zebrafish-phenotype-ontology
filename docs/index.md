@@ -1,8 +1,12 @@
-# ZP Ontology Documentation
+# Zebrafish Phenotype Ontology Documentation
 
 [//]: # "This file is meant to be edited by the ontology maintainer."
 
 Welcome to the ZP documentation!
+
+ZP is developed by members of the [Monarch Initiative](https://monarchinitiative.org/) and [ZFIN](https://zfin.org/).
+
+Its primary purpose is to classify ZFIN post coordinated annotations for semantic analaysis and annotation grouping.
 
 You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
 
