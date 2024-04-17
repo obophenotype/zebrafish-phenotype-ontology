@@ -3,6 +3,7 @@ title: "Zebrafish Phenotype Ontology"
 github_org: obophenotype
 repo: zebrafish-phenotype-ontology
 report_fail_on: none
+git_main_branch: master
 use_dosdps: TRUE
 export_formats:
   - owl
