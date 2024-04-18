@@ -219,6 +219,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0001756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0001756">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0016477-PATO:0001530-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete cell migration behavioral quality of a process, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0001844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0001844">
@@ -428,6 +439,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0003633">
         <rdfs:comment>0-0-GO:0007067-PATO:0000297-0-0-0</rdfs:comment>
         <rdfs:label>obsolete GO:0007067 arrested, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0003652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0003652">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0005844-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete polysome whole organism decreased amount, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -654,6 +676,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0005199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005199">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0032776-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation on cytosine decreased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0005305 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005305">
@@ -802,6 +835,28 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0005992">
         <rdfs:comment>GO:0005623-BFO:0000050-ZFA:0000119-PATO:0001997-0-0-0</rdfs:comment>
         <rdfs:label>obsolete obsolete cell retinal inner nuclear layer decreased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0006121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006121">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0006306-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation decreased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0006122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0006122">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0010424-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation on cytosine within a CG sequence decreased occurrence, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -976,6 +1031,17 @@
         <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/60"/>
         <rdfs:comment>0-0-GO:0060389-PATO:0001507-0-0-0</rdfs:comment>
         <rdfs:label>obsolete pathway-restricted SMAD protein phosphorylation disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0007463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0007463">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0001501-BFO:0000066-ZFA:0000317-PATO:0001530-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete postcranial axial skeleton behavioral quality of a process skeletal system development, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1419,6 +1485,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0010553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010553">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0032776-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation on cytosine increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0010624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0010624">
@@ -1702,6 +1779,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0011917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011917">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009111-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete hepatocyte decreased process quality obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0011948 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0011948">
@@ -1727,6 +1815,28 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012094">
         <rdfs:comment>0-0-GO:0097369-PATO:0002051-0-0-0</rdfs:comment>
         <rdfs:label>obsolete GO:0097369 increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0012111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012111">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0006306-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation disrupted, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0012112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012112">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0010424-PATO:0001507-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation on cytosine within a CG sequence disrupted, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1778,6 +1888,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012509">
         <rdfs:comment>0-0-ZFA:0000029-PATO:0002001-0-0-ZFA:0005182</rdfs:comment>
         <rdfs:label>obsolete hindbrain has fewer parts of type ZFA:0005182, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0012546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0012546">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0006306-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation decreased process quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2371,6 +2492,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0016309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0016309">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000123-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete liver decreased process quality obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0016529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0016529">
@@ -2494,6 +2626,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0017462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0017462">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009399-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete intestinal epithelial cell decreased process quality obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0017531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0017531">
@@ -2520,6 +2663,17 @@
         <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/60"/>
         <rdfs:comment>0-0-GO:0014065-PATO:0001236-0-0-0</rdfs:comment>
         <rdfs:label>obsolete phosphatidylinositol 3-kinase signaling process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0017748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0017748">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0005844-BFO:0000050-ZFA:0001114-PATO:0001997-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete polysome head decreased amount, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2632,6 +2786,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019126">
         <rdfs:comment>BSPO:0000072-BFO:0000050-ZFA:0005023-PATO:0001672-0-0-0</rdfs:comment>
         <rdfs:label>obsolete posterior region hematopoietic system decreased distribution, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0019128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0019128">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009044-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete blood cell decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -3682,6 +3847,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0021629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021629">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0006306-PATO:0002051-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation increased occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0021630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021630">
@@ -3938,6 +4114,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021842">
         <rdfs:comment>0-0-ZFA:0001114-PATO:0000070-0-0-0</rdfs:comment>
         <rdfs:label>obsolete head amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0021845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0021845">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>0-0-GO:0006306-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete obsolete DNA methylation process quality, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -4628,6 +4815,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022428">
         <rdfs:comment>0-0-GO:0050802-PATO:0000057-0-0-0</rdfs:comment>
         <rdfs:label>obsolete circadian sleep/wake cycle, sleep occurrence, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0022433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0022433">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009354-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete hematopoietic multipotent progenitor cell decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -7104,6 +7302,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0101465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101465">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0005634-BFO:0000050-ZFA:0009111-PATO:0000117-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete nucleus hepatocyte size, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0101467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0101467">
@@ -8327,6 +8536,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0103546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103546">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete whole organism decreased process quality obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0103623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0103623">
@@ -8723,6 +8943,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104525">
         <rdfs:comment>GO:0001568-BFO:0000066-ZFA:0001094-PATO:0000057-0-0-0</rdfs:comment>
         <rdfs:label>obsolete whole organism occurrence blood vessel development, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0104547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0104547">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000107-PATO:0002304-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete eye increased process quality obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -39198,6 +39429,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0130674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0130674">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0005634-BFO:0000050-ZFA:0009401-PATO:0000470-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete nucleus lens fiber cell increased amount, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0130891 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0130891">
@@ -39241,6 +39483,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0131073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0131073">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009006-PATO:0001236-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete sperm process quality obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0131106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0131106">
@@ -39256,6 +39509,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137360">
         <rdfs:comment>ZFA:0009367-BFO:0000050-ZFA:0000940-PATO:0001652-ZFA:0009367-BFO:0000050-ZFA:0000940</rdfs:comment>
         <rdfs:label>obsolete posterior lateral line neuromast alignment neuromast hair cell neuromast hair cell posterior lateral line neuromast, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0137365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0137365">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0001269-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete regenerating fin decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -39383,6 +39647,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0138518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138518">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000008-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete brain decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0138519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138519">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000108-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete fin decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0138520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138520">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000368-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete integument decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0138521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0138521">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0005145-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete muscle decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0139781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0139781">
@@ -39403,12 +39711,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ZP_0140590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0140590">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000079-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete telencephalon decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ZP_0140591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0140591">
         <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/60"/>
         <rdfs:comment>GO:0097394-BFO:0000066-ZFA:0000079-PATO:0002051-0-0-0</rdfs:comment>
         <rdfs:label>obsolete telencephalon increased occurrence telomeric repeat-containing RNA transcription by RNA polymerase II, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0140638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0140638">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0000023-PATO:0002052-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete forerunner cell group decreased occurrence obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -39726,6 +40056,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0148195">
         <rdfs:comment>0-0-GO:0086024-PATO:0002302-0-0-0</rdfs:comment>
         <rdfs:label>obsolete adenylate cyclase-activating adrenergic receptor signaling pathway involved in positive regulation of heart rate, decreased process quality, abnormal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ZP_0148260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ZP_0148260">
+        <obo:IAO_0000233 rdf:resource="https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67"/>
+        <rdfs:comment>GO:0006306-BFO:0000066-ZFA:0009325-PATO:0002302-0-0-0</rdfs:comment>
+        <rdfs:label>obsolete erythroid lineage cell decreased process quality obsolete DNA methylation, abnormal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
