@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                e861ae4f503c5b399d4615f40df29bf59e0f668cfeb8f98e476622c122ae3e8d
+CONFIG_HASH=                425e7bd75bdfe5619407ec571c01d05f1627a18ef2eaf0d468879f9b7590d5b0
 
 
 # ----------------------------------------
@@ -729,12 +729,12 @@ DOSDP_YAML_FILES_MANUAL = $(foreach name, $(DOSDP_PATTERN_NAMES_MANUAL), $(PATTE
 $(DOSDP_OWL_FILES_MANUAL): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MANUAL) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_MANUAL}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/manual --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_MANUAL)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --outfile=$(PATTERNDIR)/data/manual; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/manual; fi
 
 .PHONY: dosdp-docs-manual
 dosdp-docs-manual: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MANUAL) $(DOSDP_YAML_FILES_MANUAL)
 	mkdir -p $(DOCSDIR)/patterns/manual
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/manual \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
@@ -753,12 +753,12 @@ DOSDP_YAML_FILES_ANATOMY = $(foreach name, $(DOSDP_PATTERN_NAMES_ANATOMY), $(PAT
 $(DOSDP_OWL_FILES_ANATOMY): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ANATOMY) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_ANATOMY}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/anatomy --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_ANATOMY)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --outfile=$(PATTERNDIR)/data/anatomy; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/anatomy; fi
 
 .PHONY: dosdp-docs-anatomy
 dosdp-docs-anatomy: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ANATOMY) $(DOSDP_YAML_FILES_ANATOMY)
 	mkdir -p $(DOCSDIR)/patterns/anatomy
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/anatomy \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
@@ -777,12 +777,12 @@ DOSDP_YAML_FILES_ZFIN = $(foreach name, $(DOSDP_PATTERN_NAMES_ZFIN), $(PATTERNDI
 $(DOSDP_OWL_FILES_ZFIN): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ZFIN) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_ZFIN}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/zfin --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_ZFIN)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --outfile=$(PATTERNDIR)/data/zfin; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/zfin; fi
 
 .PHONY: dosdp-docs-zfin
 dosdp-docs-zfin: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ZFIN) $(DOSDP_YAML_FILES_ZFIN)
 	mkdir -p $(DOCSDIR)/patterns/zfin
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/zfin \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
@@ -801,12 +801,12 @@ DOSDP_YAML_FILES_LABELS = $(foreach name, $(DOSDP_PATTERN_NAMES_LABELS), $(PATTE
 $(DOSDP_OWL_FILES_LABELS): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_LABELS) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_LABELS}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/labels --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_LABELS)" \
-    --ontology=$< --obo-prefixes=true --outfile=$(PATTERNDIR)/data/labels; fi
+    --ontology=$< --obo-prefixes=true   --outfile=$(PATTERNDIR)/data/labels; fi
 
 .PHONY: dosdp-docs-labels
 dosdp-docs-labels: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_LABELS) $(DOSDP_YAML_FILES_LABELS)
 	mkdir -p $(DOCSDIR)/patterns/labels
-	$(DOSDPT) docs --obo-prefixes=true --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/labels \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
