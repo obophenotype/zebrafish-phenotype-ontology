@@ -8,6 +8,9 @@ use_dosdps: TRUE
 export_formats:
   - owl
   - obo
+release_artefacts: 
+  - base
+  - full
 import_group:
   use_base_merging: TRUE
   exclude_iri_patterns:
@@ -61,6 +64,13 @@ import_group:
       make_base: TRUE
     - id: bfo
       make_base: TRUE
+components:
+  products:
+    - filename: obsolete.owl
+      description: "Contains all the deprecated entities."
+      use_template: TRUE
+      templates:
+        - obsolete.tsv
 pattern_pipelines_group:
   products:
     - id: manual
