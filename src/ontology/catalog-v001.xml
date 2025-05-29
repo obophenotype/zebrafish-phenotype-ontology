@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="urn:unnamed:ontology#ont1" uri="file:/ws/zebrafish-phenotype-ontology/src/patterns/pattern.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/go_import.owl" uri="imports/go_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl" uri="imports/bspo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl" uri="imports/mpath_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/zfa_import.owl" uri="imports/zfa_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/merged_import.owl" uri="imports/merged_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/components/obsolete.owl" uri="../templates/obsolete.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/zp/imports/merged_import.owl" uri="imports/merged_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/zp/components/obsolete.owl" uri="components/obsolete.owl" />
+    <uri name="http://purl.obolibrary.org/obo/zp/patterns/definitions.owl" uri="../patterns/definitions.owl" />
+  </group>
+  <uri id="Imports Wizard Entry" name="urn:unnamed:ontology#ont1" uri="file:/ws/zebrafish-phenotype-ontology/src/patterns/pattern.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/go_import.owl" uri="imports/go_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/ro_import.owl" uri="imports/ro_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/pato_import.owl" uri="imports/pato_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bspo_import.owl" uri="imports/bspo_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/chebi_import.owl" uri="imports/chebi_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/mpath_import.owl" uri="imports/mpath_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/zfa_import.owl" uri="imports/zfa_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/bfo_import.owl" uri="imports/bfo_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/zp/imports/uberon_import.owl" uri="imports/uberon_import.owl" />
+  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" />
 </catalog>
