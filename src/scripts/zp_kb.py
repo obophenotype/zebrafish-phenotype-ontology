@@ -122,28 +122,34 @@ preamble = """@prefix : <http://zfin.org/zp/annotations#> .
 #################################################################
 
 """
-main = ""
-
 iris = list(set(kb[kb.IRI.notnull()]["IRI"]))
 ###  http://purl.obolibrary.org/obo/ZP_0021318
+
+text_file = open(annotation_ttl, "w")
+text_file.write(preamble)
+
+zfin_eqstring_by_iri = {}
+for row in kb.itertuples():
+    zfin_eqstring_by_iri[row.IRI] = row.ANID
+
 for iri in iris:
-    main += """
+    text_file.write("""
 <%s> rdf:type owl:Class ;
         :hasX "%s" . 
 
-""" % (iri,kb[kb.IRI==iri]['ANID'].iloc[0])
+""" % (iri,zfin_eqstring_by_iri[iri]))
 
-main += """
+text_file.write("""
 #################################################################
 #    Individuals
 #################################################################
 
-"""
+""")
 
 ###  http://www.semanticweb.org/matentzn/ontologies/2018/9/untitled-ontology-320#testI
 
-for index, row in kb.iterrows():
-   main += """
+for row in kb.itertuples():
+    text_file.write("""
 :ZPK_%s rdf:type owl:NamedIndividual ,
         [ rdf:type owl:Restriction ;
           owl:onProperty :hasPhenotype ;
@@ -159,13 +165,9 @@ for index, row in kb.iterrows():
         :hasPUBLICATIONID "%s" ;
         :hasFIGUREID "%s" .
 
-""" % (row['ZFINID'], row['IRI'], row['ZFINID'], row['GENEID'], row['PHENOTYPETAG'], row['FISHID'], row['STARTSTAGEID'], row['ENDSTAGEID'], row['FISHENVIRONMENTID'], row['PUBLICATIONID'], row['FIGUREID'])
-
-o = preamble + main
+""" % (row.ZFINID, row.IRI, row.ZFINID, row.GENEID, row.PHENOTYPETAG, row.FISHID, row.STARTSTAGEID, row.ENDSTAGEID, row.FISHENVIRONMENTID, row.PUBLICATIONID, row.FIGUREID))
 
 # Export KB and gene_annotation to ZP mappings.
-text_file = open(annotation_ttl, "w")
-text_file.write("%s" % o)
 text_file.close()
 kb.to_csv(gene_annotation_mappings, sep = '\t', index=False)
 
