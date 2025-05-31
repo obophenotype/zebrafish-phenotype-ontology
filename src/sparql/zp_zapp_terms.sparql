@@ -1,0 +1,17 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT DISTINCT ?class WHERE {
+  ?class a owl:Class .
+
+  VALUES ?source {
+    <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>
+    <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntityInLocation.yaml>
+  }
+
+  # Reified label axiom
+  ?axiom a owl:Axiom ;
+         owl:annotatedSource ?class ;
+         oio:source ?source .
+}

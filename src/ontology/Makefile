@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                425e7bd75bdfe5619407ec571c01d05f1627a18ef2eaf0d468879f9b7590d5b0
+CONFIG_HASH=                99af76b7f2328471bf0bb6570a80b7c7424e15a85ba9754da8106283b744a2b2
 
 
 # ----------------------------------------
@@ -69,7 +69,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 
 FORMATS = $(sort  owl obo owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full zp-zapp )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -648,6 +648,7 @@ PATTERN_CLEAN_FILES=../patterns/all_pattern_terms.txt \
 	$(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_TERM_FILES_DEFAULT) \
 	$(DOSDP_OWL_FILES_MANUAL) $(DOSDP_TERM_FILES_MANUAL) \
 	$(DOSDP_OWL_FILES_ANATOMY) $(DOSDP_TERM_FILES_ANATOMY) \
+	$(DOSDP_OWL_FILES_PROCESS) $(DOSDP_TERM_FILES_PROCESS) \
 	$(DOSDP_OWL_FILES_ZFIN) $(DOSDP_TERM_FILES_ZFIN) \
 	$(DOSDP_OWL_FILES_LABELS) $(DOSDP_TERM_FILES_LABELS)
 
@@ -729,12 +730,12 @@ DOSDP_YAML_FILES_MANUAL = $(foreach name, $(DOSDP_PATTERN_NAMES_MANUAL), $(PATTE
 $(DOSDP_OWL_FILES_MANUAL): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MANUAL) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_MANUAL}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/manual --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_MANUAL)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/manual; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --outfile=$(PATTERNDIR)/data/manual; fi
 
 .PHONY: dosdp-docs-manual
 dosdp-docs-manual: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MANUAL) $(DOSDP_YAML_FILES_MANUAL)
 	mkdir -p $(DOCSDIR)/patterns/manual
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/manual \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
@@ -753,18 +754,42 @@ DOSDP_YAML_FILES_ANATOMY = $(foreach name, $(DOSDP_PATTERN_NAMES_ANATOMY), $(PAT
 $(DOSDP_OWL_FILES_ANATOMY): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ANATOMY) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_ANATOMY}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/anatomy --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_ANATOMY)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/anatomy; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --outfile=$(PATTERNDIR)/data/anatomy; fi
 
 .PHONY: dosdp-docs-anatomy
 dosdp-docs-anatomy: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ANATOMY) $(DOSDP_YAML_FILES_ANATOMY)
 	mkdir -p $(DOCSDIR)/patterns/anatomy
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/anatomy \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
 		       --batch-patterns="$(DOSDP_PATTERN_NAMES_ANATOMY)" \
 		       --outfile=$(DOCSDIR)/patterns/anatomy \
 		       --data-location-prefix=https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/anatomy
+
+# DOSDP process pipeline
+
+DOSDP_TSV_FILES_PROCESS = $(wildcard $(PATTERNDIR)/data/process/*.tsv)
+DOSDP_PATTERN_NAMES_PROCESS = $(strip $(patsubst %.tsv, %, $(notdir $(DOSDP_TSV_FILES_PROCESS))))
+DOSDP_OWL_FILES_PROCESS = $(foreach name, $(DOSDP_PATTERN_NAMES_PROCESS), $(PATTERNDIR)/data/process/$(name).ofn)
+DOSDP_TERM_FILES_PROCESS = $(foreach name, $(DOSDP_PATTERN_NAMES_PROCESS), $(PATTERNDIR)/data/process/$(name).txt)
+DOSDP_YAML_FILES_PROCESS = $(foreach name, $(DOSDP_PATTERN_NAMES_PROCESS), $(PATTERNDIR)/dosdp-patterns/$(name).yaml)
+
+$(DOSDP_OWL_FILES_PROCESS): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_PROCESS) $(ALL_PATTERN_FILES)
+	if [ "${DOSDP_PATTERN_NAMES_PROCESS}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/process --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_PROCESS)" \
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --outfile=$(PATTERNDIR)/data/process; fi
+
+.PHONY: dosdp-docs-process
+dosdp-docs-process: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_PROCESS) $(DOSDP_YAML_FILES_PROCESS)
+	mkdir -p $(DOCSDIR)/patterns/process
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --catalog=$(CATALOG) \
+		       --ontology=$< \
+		       --infile=$(PATTERNDIR)/data/process \
+		       --template=$(PATTERNDIR)/dosdp-patterns \
+		       --batch-patterns="$(DOSDP_PATTERN_NAMES_PROCESS)" \
+		       --outfile=$(DOCSDIR)/patterns/process \
+		       --data-location-prefix=https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/process
 
 # DOSDP zfin pipeline
 
@@ -777,12 +802,12 @@ DOSDP_YAML_FILES_ZFIN = $(foreach name, $(DOSDP_PATTERN_NAMES_ZFIN), $(PATTERNDI
 $(DOSDP_OWL_FILES_ZFIN): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ZFIN) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_ZFIN}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
     --infile=$(PATTERNDIR)/data/zfin --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_ZFIN)" \
-    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --outfile=$(PATTERNDIR)/data/zfin; fi
+    --ontology=$< --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --outfile=$(PATTERNDIR)/data/zfin; fi
 
 .PHONY: dosdp-docs-zfin
 dosdp-docs-zfin: $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_ZFIN) $(DOSDP_YAML_FILES_ZFIN)
 	mkdir -p $(DOCSDIR)/patterns/zfin
-	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation   --catalog=$(CATALOG) \
+	$(DOSDPT) docs --obo-prefixes=true --restrict-axioms-to=logical --add-axiom-source-annotation=true   --catalog=$(CATALOG) \
 		       --ontology=$< \
 		       --infile=$(PATTERNDIR)/data/zfin \
 		       --template=$(PATTERNDIR)/dosdp-patterns \
@@ -826,14 +851,21 @@ $(PATTERNDIR)/data/manual/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDI
 $(PATTERNDIR)/data/anatomy/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/anatomy/%.tsv
 	$(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
+$(PATTERNDIR)/data/process/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/process/%.tsv
+	$(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
+
 $(PATTERNDIR)/data/zfin/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/zfin/%.tsv
 	$(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
 $(PATTERNDIR)/data/labels/%.txt: $(PATTERNDIR)/dosdp-patterns/%.yaml $(PATTERNDIR)/data/labels/%.tsv
 	$(DOSDPT) terms --infile=$(word 2, $^) --template=$< --obo-prefixes=true --outfile=$@
 
+
+dosdp-matches-matches: tmp/zp-edit-merged-reasoned.owl $(ALL_PATTERN_FILES)
+	$(DOSDPT) query --ontology=$< --catalog=$(CATALOG) --reasoner=elk --obo-prefixes=true --restrict-axioms-to=logical \
+    --batch-patterns="$(ALL_PATTERN_NAMES)" --template="$(PATTERNDIR)/dosdp-patterns" --outfile="$(PATTERNDIR)/data/matches/"
 # Generating the seed file from all the TSVs.
-$(TMPDIR)/all_pattern_terms.txt: $(DOSDP_TERM_FILES_DEFAULT)   $(DOSDP_TERM_FILES_MANUAL) $(DOSDP_TERM_FILES_ANATOMY) $(DOSDP_TERM_FILES_ZFIN) $(DOSDP_TERM_FILES_LABELS) $(TMPDIR)/pattern_owl_seed.txt
+$(TMPDIR)/all_pattern_terms.txt: $(DOSDP_TERM_FILES_DEFAULT)   $(DOSDP_TERM_FILES_MANUAL) $(DOSDP_TERM_FILES_ANATOMY) $(DOSDP_TERM_FILES_PROCESS) $(DOSDP_TERM_FILES_ZFIN) $(DOSDP_TERM_FILES_LABELS) $(TMPDIR)/pattern_owl_seed.txt
 	cat $^ | sort | uniq > $@
 
 $(TMPDIR)/pattern_owl_seed.txt: $(PATTERNDIR)/pattern.owl
@@ -846,8 +878,8 @@ $(PATTERNDIR)/pattern.owl: $(ALL_PATTERN_FILES)
 	$(DOSDPT) prototype --obo-prefixes true --template=$(PATTERNDIR)/dosdp-patterns --outfile=$@
 
 # Generating the individual pattern modules and merging them into definitions.owl
-$(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)   $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ANATOMY) $(DOSDP_OWL_FILES_ZFIN) $(DOSDP_OWL_FILES_LABELS)
-	if [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]   || [ "${DOSDP_PATTERN_NAMES_MANUAL}" ] || [ "${DOSDP_PATTERN_NAMES_ANATOMY}" ] || [ "${DOSDP_PATTERN_NAMES_ZFIN}" ] || [ "${DOSDP_PATTERN_NAMES_LABELS}" ] && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $^) \
+$(PATTERNDIR)/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT)   $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ANATOMY) $(DOSDP_OWL_FILES_PROCESS) $(DOSDP_OWL_FILES_ZFIN) $(DOSDP_OWL_FILES_LABELS)
+	if [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]   || [ "${DOSDP_PATTERN_NAMES_MANUAL}" ] || [ "${DOSDP_PATTERN_NAMES_ANATOMY}" ] || [ "${DOSDP_PATTERN_NAMES_PROCESS}" ] || [ "${DOSDP_PATTERN_NAMES_ZFIN}" ] || [ "${DOSDP_PATTERN_NAMES_LABELS}" ] && [ $(PAT) = true ]; then $(ROBOT) merge $(addprefix -i , $^) \
 		annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl \
       --annotation owl:versionInfo $(VERSION) -o definitions.ofn && mv definitions.ofn $@; fi
 
@@ -867,6 +899,8 @@ endif
 $(ONT)-base.obo: $(ONT)-base.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
 $(ONT)-full.obo: $(ONT)-full.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
+zp-zapp.obo: zp-zapp.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
@@ -910,6 +944,9 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		relax $(RELAX_OPTIONS) \
 		reduce -r $(REASONER) $(REDUCE_OPTIONS) \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+zp-zapp.owl:
+	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in zp.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
 # ----------------------------------------
@@ -931,7 +968,7 @@ public_release:
 # General Validation
 # ----------------------------------------
 TSV=
-ALL_TSV_FILES=$(DOSDP_TSV_FILES_MANUAL) $(DOSDP_TSV_FILES_ANATOMY) $(DOSDP_TSV_FILES_ZFIN) $(DOSDP_TSV_FILES_LABELS) $(DOSDP_TSV_FILES_DEFAULT)
+ALL_TSV_FILES=$(DOSDP_TSV_FILES_MANUAL) $(DOSDP_TSV_FILES_ANATOMY) $(DOSDP_TSV_FILES_PROCESS) $(DOSDP_TSV_FILES_ZFIN) $(DOSDP_TSV_FILES_LABELS) $(DOSDP_TSV_FILES_DEFAULT)
 
 validate-tsv: $(TSV) | $(TMPDIR)
 	for FILE in $< ; do \
