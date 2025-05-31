@@ -1,1 +1,18 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0021309	blood vessel retina increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0104580	cardiac jelly atrium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001318	cardiac jelly	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
+http://purl.obolibrary.org/obo/ZP_0009959	cartilage element pharyngeal arch 3 increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element	http://purl.obolibrary.org/obo/ZFA_0001606	pharyngeal arch 3
+http://purl.obolibrary.org/obo/ZP_0000887	cartilaginous joint opercle increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005155	cartilaginous joint	http://purl.obolibrary.org/obo/ZFA_0000250	opercle
+http://purl.obolibrary.org/obo/ZP_0144689	epidermis integument increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000105	epidermis	http://purl.obolibrary.org/obo/ZFA_0000368	integument
+http://purl.obolibrary.org/obo/ZP_0137839	epithelium endolymphatic sac increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0005912	endolymphatic sac
+http://purl.obolibrary.org/obo/ZP_0020438	epithelium notochord increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
+http://purl.obolibrary.org/obo/ZP_0009092	epithelium sensory system increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0000282	sensory system
+http://purl.obolibrary.org/obo/ZP_0022051	epithelium swim bladder increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0000076	swim bladder
+http://purl.obolibrary.org/obo/ZP_0143874	glomerular basement membrane male organism increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005285	glomerular basement membrane	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0009035	gut male organism increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0149372	muscle sinus venosus increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0000154	sinus venosus
+http://purl.obolibrary.org/obo/ZP_0144817	myocardium atrium increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001319	myocardium	http://purl.obolibrary.org/obo/ZFA_0000471	atrium
+http://purl.obolibrary.org/obo/ZP_0008582	portion of tissue cardiac ventricle increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001477	portion of tissue	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0104630	proliferative region optic tectum increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0000098	proliferative region	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
+http://purl.obolibrary.org/obo/ZP_0146883	smooth muscle gut increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0005274	smooth muscle	http://purl.obolibrary.org/obo/ZFA_0000112	gut
+http://purl.obolibrary.org/obo/ZP_0021979	vascular endothelium optic artery increased thickness, abnormal	http://purl.obolibrary.org/obo/ZFA_0001639	vascular endothelium	http://purl.obolibrary.org/obo/ZFA_0005044	optic artery

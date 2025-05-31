@@ -1,1 +1,9 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0011013	basal lamina intestinal epithelium damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0001485	basal lamina	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
+http://purl.obolibrary.org/obo/ZP_0148739	blood vessel endothelial cell intersegmental vessel damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009036	blood vessel endothelial cell	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
+http://purl.obolibrary.org/obo/ZP_0021793	cell brain damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0023093	endothelial cell pronephros damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009065	endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000151	pronephros
+http://purl.obolibrary.org/obo/ZP_0102237	epithelial cell pronephric tubule damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001558	pronephric tubule
+http://purl.obolibrary.org/obo/ZP_0146440	slow muscle cell somite damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell	http://purl.obolibrary.org/obo/ZFA_0000155	somite
+http://purl.obolibrary.org/obo/ZP_0143283	vascular endothelium caudal vein damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0001639	vascular endothelium	http://purl.obolibrary.org/obo/ZFA_0000180	caudal vein
+http://purl.obolibrary.org/obo/ZP_0003401	white matter brain damaged, abnormal	http://purl.obolibrary.org/obo/ZFA_0001682	white matter	http://purl.obolibrary.org/obo/ZFA_0000008	brain

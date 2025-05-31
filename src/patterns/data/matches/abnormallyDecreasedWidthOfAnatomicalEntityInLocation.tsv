@@ -1,1 +1,7 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0021993	blood vessel trunk vasculature decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0005024	trunk vasculature
+http://purl.obolibrary.org/obo/ZP_0140560	caudal fin principal ray regenerating fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001585	caudal fin principal ray	http://purl.obolibrary.org/obo/ZFA_0001269	regenerating fin
+http://purl.obolibrary.org/obo/ZP_0138427	cranial vault female organism decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault	http://purl.obolibrary.org/obo/ZFA_0000303	female organism
+http://purl.obolibrary.org/obo/ZP_0138426	cranial vault male organism decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005606	cranial vault	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0144282	lumen intestinal bulb decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005930	lumen	http://purl.obolibrary.org/obo/ZFA_0001076	intestinal bulb
+http://purl.obolibrary.org/obo/ZP_0012254	melanophore stripe anal fin decreased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001463	melanophore stripe	http://purl.obolibrary.org/obo/ZFA_0001162	anal fin

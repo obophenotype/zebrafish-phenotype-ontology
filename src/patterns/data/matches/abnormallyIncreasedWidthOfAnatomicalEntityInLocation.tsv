@@ -1,1 +1,11 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0011536	axis whole organism increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000092	axis	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0140929	blood vessel retina increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0137374	cell midbrain hindbrain boundary constriction increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0007125	midbrain hindbrain boundary constriction
+http://purl.obolibrary.org/obo/ZP_0011699	cell midbrain hindbrain boundary increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000042	midbrain hindbrain boundary
+http://purl.obolibrary.org/obo/ZP_0020818	cell notochord increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
+http://purl.obolibrary.org/obo/ZP_0007582	endothelial tip cell intersegmental vessel increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0009303	endothelial tip cell	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
+http://purl.obolibrary.org/obo/ZP_0005187	mesoderm head increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000041	mesoderm	http://purl.obolibrary.org/obo/ZFA_0001114	head
+http://purl.obolibrary.org/obo/ZP_0017366	somite post-vent region increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
+http://purl.obolibrary.org/obo/ZP_0008661	somite trunk increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0000155	somite	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
+http://purl.obolibrary.org/obo/ZP_0010275	ventricular zone telencephalon increased width, abnormal	http://purl.obolibrary.org/obo/ZFA_0001083	ventricular zone	http://purl.obolibrary.org/obo/ZFA_0000079	telencephalon

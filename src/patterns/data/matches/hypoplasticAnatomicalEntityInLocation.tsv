@@ -1,1 +1,11 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0004530	CaP motoneuron myotome hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0009243	CaP motoneuron	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0017025	artery trunk hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000005	artery	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
+http://purl.obolibrary.org/obo/ZP_0004250	capillary pharyngeal arch hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005250	capillary	http://purl.obolibrary.org/obo/ZFA_0001306	pharyngeal arch
+http://purl.obolibrary.org/obo/ZP_0003286	mesenchyme caudal fin hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0000393	mesenchyme	http://purl.obolibrary.org/obo/ZFA_0001058	caudal fin
+http://purl.obolibrary.org/obo/ZP_0011965	muscle fin musculature hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0000207	fin musculature
+http://purl.obolibrary.org/obo/ZP_0011968	muscle hypaxial myotome region hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0001085	hypaxial myotome region
+http://purl.obolibrary.org/obo/ZP_0011966	muscle trunk musculature hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature
+http://purl.obolibrary.org/obo/ZP_0003385	regenerating tissue liver hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0102598	vasculature aortic arch hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005249	vasculature	http://purl.obolibrary.org/obo/ZFA_0005004	aortic arch
+http://purl.obolibrary.org/obo/ZP_0009511	vasculature neurohypophysis hypoplastic, abnormal	http://purl.obolibrary.org/obo/ZFA_0005249	vasculature	http://purl.obolibrary.org/obo/ZFA_0001271	neurohypophysis

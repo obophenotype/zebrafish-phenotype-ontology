@@ -1,1 +1,3 @@
 defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0002511	cell cloacal chamber increased height, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000330	cloacal chamber
+http://purl.obolibrary.org/obo/ZP_0144078	cell renal glomerular capsule epithelium increased height, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0005253	renal glomerular capsule epithelium
