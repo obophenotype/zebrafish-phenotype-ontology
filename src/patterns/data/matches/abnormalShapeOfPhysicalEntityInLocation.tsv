@@ -1,0 +1,46 @@
+defined_class	defined_class_label	entity	entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0008742	anatomical compartment boundary somite shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000092	anatomical compartment boundary	http://purl.obolibrary.org/obo/ZFA_0000155	somite
+http://purl.obolibrary.org/obo/ZP_0020470	anatomical margin dorsal aorta shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000006	anatomical margin	http://purl.obolibrary.org/obo/ZFA_0000014	dorsal aorta
+http://purl.obolibrary.org/obo/ZP_0020471	anatomical margin posterior cardinal vein shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000006	anatomical margin	http://purl.obolibrary.org/obo/ZFA_0000477	posterior cardinal vein
+http://purl.obolibrary.org/obo/ZP_0021743	anterior-posterior axis whole organism shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000013	anterior-posterior axis	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0015487	blastoderm cell DEL shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009177	blastoderm cell	http://purl.obolibrary.org/obo/ZFA_0000711	DEL
+http://purl.obolibrary.org/obo/ZP_0020676	blood vessel endothelial cell common cardinal vein shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009036	blood vessel endothelial cell	http://purl.obolibrary.org/obo/ZFA_0000186	common cardinal vein
+http://purl.obolibrary.org/obo/ZP_0021308	blood vessel retina shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0003264	cardiac muscle cell atrial myocardium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0001374	atrial myocardium
+http://purl.obolibrary.org/obo/ZP_0005492	cardiac muscle cell cardiac ventricle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0017809	cartilage element gill filament shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001501	cartilage element	http://purl.obolibrary.org/obo/ZFA_0000667	gill filament
+http://purl.obolibrary.org/obo/ZP_0003722	cell EVL shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000086	EVL
+http://purl.obolibrary.org/obo/ZP_0008095	cell Kupffer's vesicle shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000001	Kupffer's vesicle
+http://purl.obolibrary.org/obo/ZP_0144807	cell blastoderm shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001176	blastoderm
+http://purl.obolibrary.org/obo/ZP_0011488	cell ectoderm shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000016	ectoderm
+http://purl.obolibrary.org/obo/ZP_0145362	cell lens epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
+http://purl.obolibrary.org/obo/ZP_0008510	cell lens shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000035	lens
+http://purl.obolibrary.org/obo/ZP_0011491	cell notochord shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000135	notochord
+http://purl.obolibrary.org/obo/ZP_0139759	cell optic cup shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001202	optic cup
+http://purl.obolibrary.org/obo/ZP_0143884	cell periderm shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0001185	periderm
+http://purl.obolibrary.org/obo/ZP_0011545	cell posterior lateral mesoderm shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0005040	posterior lateral mesoderm
+http://purl.obolibrary.org/obo/ZP_0144892	cell retinal pigmented epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium
+http://purl.obolibrary.org/obo/ZP_0146359	central region lens shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000075	central region	http://purl.obolibrary.org/obo/ZFA_0000035	lens
+http://purl.obolibrary.org/obo/ZP_0147649	chondrocyte ceratohyal cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001400	ceratohyal cartilage
+http://purl.obolibrary.org/obo/ZP_0008401	chondrocyte ethmoid cartilage shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001405	ethmoid cartilage
+http://purl.obolibrary.org/obo/ZP_0011469	chondrocyte pharyngeal arch 1 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009084	chondrocyte	http://purl.obolibrary.org/obo/ZFA_0001612	pharyngeal arch 1
+http://purl.obolibrary.org/obo/ZP_0006278	columnar/cuboidal epithelial cell lens epithelium shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009038	columnar/cuboidal epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001326	lens epithelium
+http://purl.obolibrary.org/obo/ZP_0001292	deep blastomere blastodisc shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0001473	deep blastomere	http://purl.obolibrary.org/obo/ZFA_0001175	blastodisc
+http://purl.obolibrary.org/obo/ZP_0017528	ecto-epithelial cell epidermal basal stratum shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009385	ecto-epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001180	epidermal basal stratum
+http://purl.obolibrary.org/obo/ZP_0017034	endodermal cell pharyngeal pouch shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009139	endodermal cell	http://purl.obolibrary.org/obo/ZFA_0001106	pharyngeal pouch
+http://purl.obolibrary.org/obo/ZP_0005332	endothelial tip cell intersegmental vessel shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009303	endothelial tip cell	http://purl.obolibrary.org/obo/ZFA_0001285	intersegmental vessel
+http://purl.obolibrary.org/obo/ZP_0104103	epidermal cell ventral fin fold shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009183	epidermal cell	http://purl.obolibrary.org/obo/ZFA_0001069	ventral fin fold
+http://purl.obolibrary.org/obo/ZP_0102748	epithelial cell integument shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0000368	integument
+http://purl.obolibrary.org/obo/ZP_0149312	epithelial cell intestine shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009034	epithelial cell	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0102458	macrophage liver shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0148301	macrophage trunk shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009141	macrophage	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
+http://purl.obolibrary.org/obo/ZP_0106592	marginal blastomere external yolk syncytial layer shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000541	marginal blastomere	http://purl.obolibrary.org/obo/ZFA_0000309	external yolk syncytial layer
+http://purl.obolibrary.org/obo/ZP_0018809	melanocyte whole organism shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009091	melanocyte	http://purl.obolibrary.org/obo/ZFA_0001094	whole organism
+http://purl.obolibrary.org/obo/ZP_0149409	muscle cell trunk shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/ZFA_0001115	trunk
+http://purl.obolibrary.org/obo/ZP_0107068	neural crest cell pharyngeal arch 2 shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009165	neural crest cell	http://purl.obolibrary.org/obo/ZFA_0001611	pharyngeal arch 2
+http://purl.obolibrary.org/obo/ZP_0140806	neuroepithelial cell hindbrain neural keel shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009306	neuroepithelial cell	http://purl.obolibrary.org/obo/ZFA_0007029	hindbrain neural keel
+http://purl.obolibrary.org/obo/ZP_0017937	ocular blood vessel retina shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0007057	ocular blood vessel	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0139734	scale regenerating tissue shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0000277	scale	http://purl.obolibrary.org/obo/ZFA_0005147	regenerating tissue
+http://purl.obolibrary.org/obo/ZP_0018904	slow muscle cell myotome shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0101743	smooth muscle cell intestine shape, abnormal	http://purl.obolibrary.org/obo/ZFA_0009118	smooth muscle cell	http://purl.obolibrary.org/obo/ZFA_0001338	intestine
+http://purl.obolibrary.org/obo/ZP_0022014	transverse plane skeletal muscle shape, abnormal	http://purl.obolibrary.org/obo/BSPO_0000018	transverse plane	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle

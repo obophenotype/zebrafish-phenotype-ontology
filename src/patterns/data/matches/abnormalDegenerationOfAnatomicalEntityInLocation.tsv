@@ -1,0 +1,38 @@
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label	location	location_label
+http://purl.obolibrary.org/obo/ZP_0145009	Purkinje cell Purkinje cell layer corpus cerebelli degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009071	Purkinje cell	http://purl.obolibrary.org/obo/ZFA_0001706	Purkinje cell layer corpus cerebelli
+http://purl.obolibrary.org/obo/ZP_0010974	basal lamina intestinal epithelium degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001485	basal lamina	http://purl.obolibrary.org/obo/ZFA_0005124	intestinal epithelium
+http://purl.obolibrary.org/obo/ZP_0104233	blood vessel superior ocular sulcus degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005314	blood vessel	http://purl.obolibrary.org/obo/ZFA_0005901	superior ocular sulcus
+http://purl.obolibrary.org/obo/ZP_0017863	cardiac muscle cell cardiac ventricle degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009316	cardiac muscle cell	http://purl.obolibrary.org/obo/ZFA_0000009	cardiac ventricle
+http://purl.obolibrary.org/obo/ZP_0007261	cell brain degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0007263	cell eye degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000107	eye
+http://purl.obolibrary.org/obo/ZP_0103752	cell midbrain degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000128	midbrain
+http://purl.obolibrary.org/obo/ZP_0010426	cell optic tectum degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000445	optic tectum
+http://purl.obolibrary.org/obo/ZP_0006697	cell retinal inner nuclear layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000119	retinal inner nuclear layer
+http://purl.obolibrary.org/obo/ZP_0144893	cell retinal pigmented epithelium degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009000	cell	http://purl.obolibrary.org/obo/ZFA_0000144	retinal pigmented epithelium
+http://purl.obolibrary.org/obo/ZP_0015721	epithelium pectoral fin degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0001486	epithelium	http://purl.obolibrary.org/obo/ZFA_0001161	pectoral fin
+http://purl.obolibrary.org/obo/ZP_0143100	fast muscle cell myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0004309	fast muscle cell somite degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009117	fast muscle cell	http://purl.obolibrary.org/obo/ZFA_0000155	somite
+http://purl.obolibrary.org/obo/ZP_0009037	gut male organism degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000112	gut	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0009043	head kidney male organism degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000669	head kidney	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0149002	hepatocyte liver degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009111	hepatocyte	http://purl.obolibrary.org/obo/ZFA_0000123	liver
+http://purl.obolibrary.org/obo/ZP_0009040	liver male organism degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000123	liver	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
+http://purl.obolibrary.org/obo/ZP_0015454	mesenchymal cell post-vent region degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009081	mesenchymal cell	http://purl.obolibrary.org/obo/ZFA_0001117	post-vent region
+http://purl.obolibrary.org/obo/ZP_0007835	mesenchymal cell posterior intestine degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009081	mesenchymal cell	http://purl.obolibrary.org/obo/ZFA_0000706	posterior intestine
+http://purl.obolibrary.org/obo/ZP_0001502	muscle cell myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0142534	muscle cell posterior hypaxial muscle degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009114	muscle cell	http://purl.obolibrary.org/obo/ZFA_0005926	posterior hypaxial muscle
+http://purl.obolibrary.org/obo/ZP_0007788	muscle intestinal bulb degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0001076	intestinal bulb
+http://purl.obolibrary.org/obo/ZP_0007791	muscle mid intestine degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005145	muscle	http://purl.obolibrary.org/obo/ZFA_0001323	mid intestine
+http://purl.obolibrary.org/obo/ZP_0022307	myelinating Schwann cell posterior lateral line degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009135	myelinating Schwann cell	http://purl.obolibrary.org/obo/ZFA_0000944	posterior lateral line
+http://purl.obolibrary.org/obo/ZP_0017372	neuroepithelial cell nervous system degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009306	neuroepithelial cell	http://purl.obolibrary.org/obo/ZFA_0000396	nervous system
+http://purl.obolibrary.org/obo/ZP_0017371	neuroepithelial cell spinal cord degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009306	neuroepithelial cell	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
+http://purl.obolibrary.org/obo/ZP_0101171	neuron brain degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000008	brain
+http://purl.obolibrary.org/obo/ZP_0004001	neuron retinal ganglion cell layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000024	retinal ganglion cell layer
+http://purl.obolibrary.org/obo/ZP_0004011	neuron retinal inner plexiform layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0001329	retinal inner plexiform layer
+http://purl.obolibrary.org/obo/ZP_0005955	neuron spinal cord degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009248	neuron	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
+http://purl.obolibrary.org/obo/ZP_0022306	oligodendrocyte spinal cord degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009076	oligodendrocyte	http://purl.obolibrary.org/obo/ZFA_0000075	spinal cord
+http://purl.obolibrary.org/obo/ZP_0005995	photoreceptor cell retina degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0000152	retina
+http://purl.obolibrary.org/obo/ZP_0019706	photoreceptor cell retinal outer nuclear layer degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009127	photoreceptor cell	http://purl.obolibrary.org/obo/ZFA_0001464	retinal outer nuclear layer
+http://purl.obolibrary.org/obo/ZP_0145353	skeletal muscle cell myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009115	skeletal muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0001501	skeletal muscle myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0005277	skeletal muscle	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0143099	slow muscle cell myotome degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0009116	slow muscle cell	http://purl.obolibrary.org/obo/ZFA_0001056	myotome
+http://purl.obolibrary.org/obo/ZP_0009041	trunk musculature male organism degenerate, abnormal	http://purl.obolibrary.org/obo/ZFA_0000473	trunk musculature	http://purl.obolibrary.org/obo/ZFA_0000242	male organism
