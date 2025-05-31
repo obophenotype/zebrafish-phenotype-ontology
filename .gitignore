@@ -101,3 +101,4 @@ src/ontology/imports/chebi_terms_combined.txt
 src/scripts/__pycache__/zp_lib.cpython-38.pyc
 *.pyc
 src/curation/kb_zp.ttl
+src/ontology/diff.txt
