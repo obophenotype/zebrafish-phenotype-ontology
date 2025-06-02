@@ -66,7 +66,7 @@ tmp/definitions-matches-no-labels.owl: tmp/definitions-matches.owl
 
 ../patterns/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ZFIN)  $(DOSDP_OWL_FILES_ANATOMY)  $(DOSDP_OWL_FILES_PROCESS) tmp/definitions-matches-no-labels.owl
 	#$(MAKE) update_patterns
-	$(MAKE) dosdp-matches-matches
+	#$(MAKE) dosdp-matches-matches
 	$(ROBOT) merge $(addprefix -i , $^) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
 	mv definitions.ofn $@ &&\
 	echo 'OCCURS IN HACK SKIPPED!'
