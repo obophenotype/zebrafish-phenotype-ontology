@@ -6,10 +6,6 @@ SELECT DISTINCT ?class WHERE {
   ?class a owl:Class .
 
   VALUES ?source {
-    # TODO: This URI will change after this PR is merged:
-    # <https://github.com/obophenotype/upheno/pull/991>
-    <http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml>
-
     <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml>
@@ -44,6 +40,7 @@ SELECT DISTINCT ?class WHERE {
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntity.yaml>
+    <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPersistenceOfAnatomicalEntity.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPigmentationOfAnatomicalEntity.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntity.yaml>
