@@ -263,18 +263,23 @@ tmp/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv
 tmp/zp-zapp.csv: zp.owl ../sparql/zp_zapp_terms.sparql
 	$(ROBOT) query -f csv -i $< --use-graphs true --query ../sparql/zp_zapp_terms.sparql $@
 
-ANNOTATION_PROPERTIES_ZAPP = rdfs:label IAO:0000115 OMO:0002000 oboInOwl:hasDbXref oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
-
-zp-zapp.owl: zp.owl tmp/zp-zapp.csv tmp/zp-zapp-manual.owl tmp/definitions-matches.owl
-	$(ROBOT) merge -i zp.owl \
-	  	remove -T tmp/zp-zapp.csv --select complement \
-	  	remove $(foreach p, $(ANNOTATION_PROPERTIES_ZAPP), --term $(p)) \
-		        --term-file tmp/zp-zapp.csv \
-		        --select complement \
-	  	remove --term rdfs:label --select "ZP:*" \
-		merge -i tmp/zp-zapp-manual.owl \
+zp-zapp.owl: zp.owl tmp/zp-zapp.csv tmp/zp-zapp-manual.owl tmp/definitions-matches.owl ../sparql/drop-zfin-labels.ru
+	$(ROBOT) merge -i $< \
+		upheno:extract-upheno-relations \
+			--term-file=tmp/zp-zapp.csv \
+			--relation UPHENO:0000003 \
 		merge -i tmp/definitions-matches.owl \
+		filter \
+			--term ZP:0000000 \
+			--term UPHENO:0000003 \
+			--term-file=tmp/zp-zapp.csv \
+			--select annotations \
+		query --update ../sparql/drop-zfin-labels.ru \
+		merge -i tmp/zp-zapp-manual.owl \
 		$(SHARED_ROBOT_COMMANDS) \
-		annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
-		--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		--output $@.tmp.owl && mv $@.tmp.owl $@
+		annotate \
+			--annotation dc:description 'A subset of the Zebrafish Phenotype Ontology for use in the ZAPP project.' \
+			--link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
+			--link-annotation http://purl.obolibrary.org/obo/IAO_0000700 http://purl.obolibrary.org/obo/ZP_0000000 \
+			--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		--output $@
