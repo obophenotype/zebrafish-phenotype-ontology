@@ -1,2 +1,4 @@
-ID	LABEL
-ID	LABEL
+ID	LABEL	Submitter
+ID	LABEL	>AI prov:wasAttributedTo
+ZP:0000711	microencephaly	orcid:0000-0002-4142-7153
+ZP:0003410	macroencephaly	orcid:0000-0002-4142-7153

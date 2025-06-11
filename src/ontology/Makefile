@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                99af76b7f2328471bf0bb6570a80b7c7424e15a85ba9754da8106283b744a2b2
+CONFIG_HASH=                95caacb33d47877b4b17c9330f52ac6d80d553c7c3d33b0175b8d1be6c800bbc
 
 
 # ----------------------------------------
@@ -154,7 +154,7 @@ custom_robot_plugins:
 
 
 .PHONY: extra_robot_plugins
-extra_robot_plugins: 
+extra_robot_plugins:  $(ROBOT_PLUGINS_DIRECTORY)/upheno.jar 
 
 
 # Install all ROBOT plugins to the runtime plugins directory
@@ -173,6 +173,9 @@ $(ROBOT_PLUGINS_DIRECTORY)/%.jar:
 	fi
 
 # Specific rules for supplementary plugins defined in configuration
+
+$(ROBOT_PLUGINS_DIRECTORY)/upheno.jar:
+	curl -L -o $@ https://github.com/monarch-initiative/monarch-robot-plugins/releases/latest/download/monarch-robot-extensions.jar
 
 
 # ----------------------------------------
