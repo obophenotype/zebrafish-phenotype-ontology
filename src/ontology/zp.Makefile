@@ -258,7 +258,10 @@ qc:
 #############################################
 
 tmp/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv
-	$(ROBOT) template --template $< --output $@
+	$(ROBOT) template \
+		--prefix 'orcid: https://orcid.org/' \
+		--template $< \
+		--output $@
 
 tmp/zp-zapp.csv: zp.owl ../sparql/zp_zapp_terms.sparql
 	$(ROBOT) query -f csv -i $< --use-graphs true --query ../sparql/zp_zapp_terms.sparql $@
