@@ -277,8 +277,10 @@ zp-zapp.owl: zp.owl tmp/zp-zapp.csv tmp/zp-zapp-manual.owl tmp/definitions-match
 			--term UPHENO:0000003 \
 			--term-file=tmp/zp-zapp.csv \
 			--select annotations \
-		query --update ../sparql/drop-zfin-labels.ru \
 		merge -i tmp/zp-zapp-manual.owl \
+		query \
+			--update ../sparql/drop-zfin-labels.ru \
+			--update ../sparql/promote-manual-zapp-labels.ru \
 		$(SHARED_ROBOT_COMMANDS) \
 		annotate \
 			--annotation dc:description 'A subset of the Zebrafish Phenotype Ontology for use in the ZAPP project.' \
