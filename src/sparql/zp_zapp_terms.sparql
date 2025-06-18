@@ -3,8 +3,6 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
 
 SELECT DISTINCT ?class WHERE {
-  ?class a owl:Class .
-
   VALUES ?source {
     <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>
     <http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.yaml>
@@ -174,8 +172,23 @@ SELECT DISTINCT ?class WHERE {
     <http://purl.obolibrary.org/obo/upheno/patterns-dev/wrinkledAnatomicalEntity.yaml>
   }
 
-  # Reified label axiom
-  ?axiom a owl:Axiom ;
-         owl:annotatedSource ?class ;
-         oio:source ?source .
+  {
+    ?class a owl:Class .
+
+    # Reified label axiom
+    ?axiom a owl:Axiom ;
+           owl:annotatedSource ?class ;
+           oio:source ?source .
+  }
+  UNION
+  {
+    ?class a owl:Class .
+
+    FILTER(
+      isIRI(?class) &&
+      (?class = <http://purl.obolibrary.org/ZP_0000000>) ||
+      (STRSTARTS(str(?class), "http://purl.obolibrary.org/obo/ZFA_")) ||
+      (STRSTARTS(str(?class), "http://purl.obolibrary.org/obo/GO_"))
+    )
+  }
 }

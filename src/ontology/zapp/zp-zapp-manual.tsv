@@ -1,2 +1,6 @@
-ID	LABEL
-ID	LABEL
+ID	Preferred label	Label submitter	Exact synonym	Synonym submitter
+ID	A skos:preferredLabel	>AI dc:contributor	A oboInOwl:exactSynonym	>AI dc:contributor
+ZP:0000711	microencephaly	orcid:0000-0002-4142-7153		
+ZP:0000711			undersized brain	orcid:0000-0002-4142-7153
+ZP:0003410	macroencephaly	orcid:0000-0002-4142-7153		
+ZP:0003410			oversized brain	orcid:0000-0002-4142-7153

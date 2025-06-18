@@ -1,0 +1,25 @@
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?entity ?label ?source WHERE {
+  {
+    SELECT ?entity WHERE {
+      ?entity a owl:Class .
+      ?entity rdfs:label ?_label .
+    }
+    GROUP BY ?entity
+    HAVING(COUNT(?_label) > 1)
+  }
+  ?entity rdfs:label ?label .
+  OPTIONAL {
+    [
+      a owl:Axiom ;
+      owl:annotatedSource ?entity ;
+      owl:annotatedProperty rdfs:label ;
+      owl:annotatedTarget ?label ;
+      oboInOwl:source ?source
+    ]
+  }
+}
+ORDER BY ?cls
