@@ -273,7 +273,6 @@ zp-zapp.owl: zp.owl tmp/zp-zapp.csv tmp/zp-zapp-manual.owl tmp/definitions-match
 			--relation UPHENO:0000003 \
 		merge -i tmp/definitions-matches.owl \
 		filter \
-			--term ZP:0000000 \
 			--term UPHENO:0000003 \
 			--term-file=tmp/zp-zapp.csv \
 			--select annotations \

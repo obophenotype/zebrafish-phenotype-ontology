@@ -186,6 +186,7 @@ SELECT DISTINCT ?class WHERE {
 
     FILTER(
       isIRI(?class) &&
+      (?class = <http://purl.obolibrary.org/ZP_0000000>) ||
       (STRSTARTS(str(?class), "http://purl.obolibrary.org/obo/ZFA_")) ||
       (STRSTARTS(str(?class), "http://purl.obolibrary.org/obo/GO_"))
     )
