@@ -257,6 +257,16 @@ qc:
 ### ZP ZAPP                 #################
 #############################################
 
+.PHONY: qc-zapp
+qc-zapp: zp-zapp.owl tmp/zp-zapp.csv
+	@echo
+	@echo "Checking count of entities in ZAPP subset..."
+	../scripts/zapp_check_subset_count.sh
+	@echo
+	mkdir -p $(REPORTDIR)/zapp
+	$(ROBOT) verify -i $< --queries ../sparql/multiple-labels-violation.sparql -O $(REPORTDIR)/zapp
+
+
 tmp/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv
 	$(ROBOT) template \
 		--prefix 'orcid: https://orcid.org/' \
