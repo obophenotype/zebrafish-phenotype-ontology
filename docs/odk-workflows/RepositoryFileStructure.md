@@ -20,7 +20,7 @@ These are the current imports in ZP
 | caro | http://purl.obolibrary.org/obo/caro.owl | slme |
 | go | http://purl.obolibrary.org/obo/go.owl | slme |
 | ro | http://purl.obolibrary.org/obo/ro.owl | slme |
-| chebi | https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl | slme |
+| chebi | http://purl.obolibrary.org/obo/upheno/chebi_slim.owl | slme |
 | bspo | http://purl.obolibrary.org/obo/bspo.owl | slme |
 | pato | http://purl.obolibrary.org/obo/pato.owl | slme |
 | mpath | http://purl.obolibrary.org/obo/mpath.owl | slme |
