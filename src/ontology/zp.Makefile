@@ -261,17 +261,70 @@ zp_labels.csv:
 	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
 	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
-zfin_pipeline: clean update_patterns $(RESERVED_IRI) zp_labels.csv $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
-	sh ../scripts/zfin_pipeline.sh
+#############################################
+### ZFIN pipeline steps            ##########
+#############################################
+# Completion of steps is marked by stamps, since some scripts are written in
+# a way that is not possible to track with `make`. (e.g. in-place mutations,
+# multiple outputs).
+
+ZFIN_STAMPS=$(TMPDIR_CURATION)/stamps
+
+$(ZFIN_STAMPS):
+	mkdir -p $@
+
+$(ZFIN_STAMPS)/id_map_updated: $(ZFIN_FISH_DATA) $(RESERVED_IRI) ../scripts/zp_update_id_map.py ../scripts/zp_lib.py | $(ZFIN_STAMPS)
+	@echo "######################################"
+	@echo "Updating the ZP to ZFIN EQ mappings..."
+	cd ../curation && python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 ../curation/tmp/phenotype_fish.txt
+	touch $@
+
+$(ZFIN_STAMPS)/obsoletion_candidates: $(ZFIN_STAMPS)/id_map_updated zp_labels.csv ../templates/obsolete.tsv ../scripts/zfin_obsoletion.py | $(ZFIN_STAMPS)
+	@echo "######################################"
+	@echo "Determining Obsoletion candidates..."
+	cd ../curation && python3 ../scripts/zfin_obsoletion.py deprecated_id_map.tsv ../templates/obsolete.tsv ../templates/df_obsolete_candidates.txt ../ontology/zp_labels.csv
+	touch $@
+
+$(ZFIN_STAMPS)/zfin_patterns: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_STAMPS)/obsoletion_candidates ../scripts/zp_dosdp.py | $(ZFIN_STAMPS)
+	@echo "######################################"
+	@echo "Determining basic ZFIN patterns..."
+	mkdir -p $(ZFINPATTERNDIR)
+	rm -rf $(ZFINPATTERNDIR)/*
+	cd ../curation && python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin ../templates/obsolete.tsv pattern_assignments.txt ../ontology/zp_labels.csv
+	touch $@
+
+$(ZFIN_STAMPS)/upheno_aligned: $(ZFIN_STAMPS)/zfin_patterns ../scripts/zp_extract_upheno.py | $(ZFIN_STAMPS)
+	@echo "######################################"
+	@echo "Assigning to uPheno patterns..."
+	for i in $(ZFINPATTERNDIR)/*.tsv; do \
+		python3 ../scripts/zp_extract_upheno.py "$$i" || exit 1; \
+	done
+	touch $@
+
+../curation/zp_zfin_phenotype_fish.tsv: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_FISH_DATA) ../scripts/zp_fish_data.py
+	@echo "######################################"
+	@echo "Associating the ZFIN fish annotations with ZP ids..."
+	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv ../curation/tmp/phenotype_fish.txt
+
+../curation/kb_zp.ttl: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_GENE_DATA) ../scripts/zp_kb.py
+	@echo "######################################"
+	@echo "Associating the ZFIN gene annotations with ZP ids and exporting as RDF..."
+	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl ../curation/tmp/phenoGeneCleanData_fish.txt
+
+ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
+			  ../curation/zp_zfin_phenotype_fish.tsv \
+			  ../curation/kb_zp.ttl
+
+.PHONY: zfin_pipeline
+zfin_pipeline: clean update_patterns $(ZFIN_PIPELINE_PRODUCTS)
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 # This should only ever be run on a local machin
 zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_labels
-	
+
 #zp_pipeline_prepare_ontology: templates patterns preprocess
 
-z: $(ZFIN_FISH_DATA)
-	sh ../scripts/zfin_pipeline_test.sh
+z: $(ZFIN_STAMPS)/id_map_updated
 
 #############################################
 ### TEST PIPELINE                 ##########
