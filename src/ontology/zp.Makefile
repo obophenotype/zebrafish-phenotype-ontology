@@ -202,6 +202,34 @@ templates: $(TEMPLATES)
 	
 	
 #############################################
+### ZFIN data snapshots            ##########
+#############################################
+# Force data refresh by using `ZFIN_REFRESH=true` or explicitly running
+# `make refresh_zfin_data`.
+
+ZFIN_FISH_DATA=$(TMPDIR_CURATION)/phenotype_fish.txt
+ZFIN_GENE_DATA=$(TMPDIR_CURATION)/phenoGeneCleanData_fish.txt
+
+ZFIN_REFRESH=false
+ifeq ($(ZFIN_REFRESH),true)
+$(ZFIN_FISH_DATA): .FORCE
+$(ZFIN_GENE_DATA): .FORCE
+endif
+
+$(ZFIN_FISH_DATA):
+	curl -L --fail --create-dirs --retry 4 --max-time 400 -o $@.tmp https://zfin.org/downloads/phenotype_fish.txt
+	mv $@.tmp $@
+
+$(ZFIN_GENE_DATA):
+	curl -L --fail --create-dirs --retry 4 --max-time 400 -o $@.tmp https://zfin.org/downloads/phenoGeneCleanData_fish.txt
+	mv $@.tmp $@
+
+.PHONY: refresh_zfin_data
+refresh_zfin_data:
+	rm -f $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
+	$(MAKE) $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
+
+#############################################
 ### WHOLE PIPELINE (main job)      ##########
 #############################################
 
@@ -233,7 +261,7 @@ zp_labels.csv:
 	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
 	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
-zfin_pipeline: clean update_patterns $(RESERVED_IRI) zp_labels.csv
+zfin_pipeline: clean update_patterns $(RESERVED_IRI) zp_labels.csv $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
 	sh ../scripts/zfin_pipeline.sh
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
@@ -242,7 +270,7 @@ zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_la
 	
 #zp_pipeline_prepare_ontology: templates patterns preprocess
 
-z:
+z: $(ZFIN_FISH_DATA)
 	sh ../scripts/zfin_pipeline_test.sh
 
 #############################################

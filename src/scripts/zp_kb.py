@@ -14,8 +14,7 @@ import sys
 id_map = sys.argv[1] # The current ZP-ZFIN EQ id map
 gene_annotation_mappings = sys.argv[2] # The desired location for the resulting gene annotation to ZP mappings
 annotation_ttl = sys.argv[3] # The desired output location of the KB
-
-tsv = 'https://zfin.org/downloads/phenoGeneCleanData_fish.txt'
+tsv = sys.argv[4] # Local copy of ZFIN's phenoGeneCleanData_fish.txt
 
 # LOAD ZFIN GENE ANNOTATION DATA
 df_zfin = pd.read_csv(tsv, sep='\t', header=None)

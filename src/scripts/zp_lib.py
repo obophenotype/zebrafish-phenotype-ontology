@@ -7,8 +7,11 @@ import os
 
 class zp_pipeline_config:
     def __init__(self,accession,reserved_ids_file=None, include_modifier=True):
-        self.zfin_fish_data = "https://zfin.org/downloads/phenotype_fish.txt"
-        self.zfin_gene_data = 'https://zfin.org/downloads/phenoGeneCleanData_fish.txt'
+        # Data locations must be set to local copies. This library does not hit
+        # the network.
+        self.zfin_fish_data = None
+        self.zfin_gene_data = None
+
         self.zp_prefix = "ZP:"
         self.minid = accession
         self.maxid = 9999999 # THE maximum integer the current OBO IRI space allows (ZP_9999999).

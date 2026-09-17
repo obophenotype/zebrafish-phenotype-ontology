@@ -8,7 +8,7 @@ cd ../curation
 
 echo "######################################"
 echo "Updating the ZP to ZFIN EQ mappings..."
-python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 || exit 1
+python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 ../curation/tmp/phenotype_fish.txt || exit 1
 
 echo "######################################"
 echo "Determining Obsoletion candidates..."
@@ -28,10 +28,10 @@ done
 
 echo "######################################"
 echo "Associating the ZFIN fish annotations with ZP ids..."
-python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv || exit 1
+python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv ../curation/tmp/phenotype_fish.txt || exit 1
 
 echo "######################################"
 echo "Associating the ZFIN gene annotations with ZP ids and exporting as RDF..."
-python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl || exit 1
+python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl ../curation/tmp/phenoGeneCleanData_fish.txt || exit 1
 
 cd ../ontology
