@@ -162,6 +162,7 @@ zfa_terms = file_to_list(zfa_terms_file)
 if 'term' in zfa_terms: zfa_terms.remove('term')
 zfa_terms = [str(i).replace(obo_prefix,"") for i in zfa_terms]
 zfa_terms = [str(i).replace("_", ":") for i in zfa_terms]
+zfa_terms.sort()
 
 
 ## COMPUTE GLOBAL BLACKLIST. THIS HAS TWO COMPONENTS: (1) Loading the IRIS from the the 
