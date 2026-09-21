@@ -1,7 +1,7 @@
 import pandas as pd
 import copy
 import sys
-from zp_lib import zp_pipeline_config
+from zp_lib import ZPPipelineConfig
 
 # Author: Nicolas Matentzoglu
 # Date: 21.11.2018
@@ -21,8 +21,7 @@ zfin_data = sys.argv[5] # Local copy of ZFIN's phenotype_fish.txt
 
 id_map = pd.read_csv(current_id_map, sep='\t')
 
-config = zp_pipeline_config(accession=accession,reserved_ids_file=reserved_ids, include_modifier = False)
-config.zfin_fish_data = zfin_data
+config = ZPPipelineConfig(accession=accession,zfin_fish_data_file=zfin_data,reserved_ids_file=reserved_ids, include_modifier = False)
 d = config.load_zfin_phenotype_fish()
 
 # Merge the fresh set of annotations with the current set of ZP identifiers
