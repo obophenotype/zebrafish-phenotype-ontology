@@ -43,7 +43,7 @@ annotationcolumns = np.array([1,3,12,19,21,22,23,24,25])-1
 kb = df_zfin[annotationcolumns]
 kb.columns = ["ZFINID", "GENEID","PHENOTYPETAG","FISHID","STARTSTAGEID","ENDSTAGEID","FISHENVIRONMENTID","PUBLICATIONID","FIGUREID"]
 kb = kb.assign(IRI=df_zfin['iri'])
-kb['IRI'].replace({'ZP:': 'http://purl.obolibrary.org/obo/ZP_'}, inplace=True,regex=True)
+kb['IRI'] = kb['IRI'].replace({'ZP:': 'http://purl.obolibrary.org/obo/ZP_'}, regex=True)
 kb = kb.assign(ANID=df_zfin['id'])
 #kb.head(3)
 
