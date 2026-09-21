@@ -322,8 +322,6 @@ zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_la
 
 #zp_pipeline_prepare_ontology: templates patterns preprocess
 
-z: $(ZFIN_STAMPS)/id_map_updated
-
 #############################################
 ### TEST PIPELINE                 ##########
 #############################################
