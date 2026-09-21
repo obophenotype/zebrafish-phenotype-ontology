@@ -1,3 +1,9 @@
+# This makefile is not safe to run with `make -j`: several rules mutate
+# shared state outside their own targets (`download_patterns` deletes and
+# re-downloads pattern files that other rules read, and the ZFIN pipeline
+# scripts rewrite files in place — see the stamps in "ZFIN pipeline steps").
+.NOTPARALLEL:
+
 AUTOPATTERNACCESSION = 99999
 OBOPURL=http://purl.obolibrary.org/obo/
 PURL=$(OBOPURL)ZP_
@@ -316,7 +322,12 @@ zfin_pipeline:
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 # This should only ever be run on a local machin
-zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_labels
+.PHONY: zp_pipeline_prepare_data
+zp_pipeline_prepare_data:
+	$(MAKE) zfin_pipeline
+	$(MAKE) anatomy_pipeline
+	$(MAKE) missing_iris
+	$(MAKE) pattern_labels
 
 #zp_pipeline_prepare_ontology: templates patterns preprocess
 
