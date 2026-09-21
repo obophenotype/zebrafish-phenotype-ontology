@@ -240,18 +240,13 @@ $(ID_MAP): update_id_map
 update_id_map: $(ID_MAP_ZFIN)
 	python3 ../scripts/create_id_map.py ../patterns $(ID_MAP)
 
-CLEANFILES += ../curation/kb_zp.ttl
-
-.PHONY: clean
-clean:
+.PHONY: zp-clean
+zp-clean:
 	mkdir -p $(TMPDIR_CURATION)
 	rm -rf $(TMPDIR_CURATION)/*
-	$(MAKE) pattern_clean
-	for dir in $(MIRRORDIR) $(TMPDIR) $(UPDATEREPODIR) ; do      \
-		reldir=$$(realpath --relative-to=$$(pwd) $$dir) ;    \
-		case $$reldir in .*|"") ;; *) rm -rf $$reldir/* ;; esac \
-	done
-	rm -f $(CLEANFILES)
+	rm -f ../curation/kb_zp.ttl
+
+clean: zp-clean
 
 pattern_labels:
 	rm -rf $(LABELPATTERNDIR)/*.tsv
