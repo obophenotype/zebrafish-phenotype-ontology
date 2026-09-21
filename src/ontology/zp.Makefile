@@ -93,7 +93,7 @@ $(AUTOPATTERNDIR)/%.txt: $(AUTOPATTERNDIR)/%.tsv
 $(ZFINPATTERNDIR)/%.txt: $(ZFINPATTERNDIR)/%.tsv
 	grep -Eo '(ZP)[^[:space:]"]+' $< | sort | uniq > $@
 
-$(ZP_SRC_SEED): $(SRC)
+$(ZP_SRC_SEED): $(SRC) | $(TMPDIR_CURATION)
 	robot query -f csv -i $< --use-graphs true --query ../sparql/zp_terms.sparql $@
 
 
@@ -178,7 +178,7 @@ download_patterns: .FORCE
 	cat $(PDIR)/external.txt | sed 's!.*/!!' | sed 's! !!g' |  xargs -I{} rm -f $(PDIR)/{}
 	cat $(PDIR)/external.txt | sed 's! !!g' | xargs -I{} wget -q {} -P $(PDIR)/
 
-$(ZFA):
+$(ZFA): | $(TMPDIR_CURATION)
 	$(ROBOT) reason --reasoner ELK -I $(ZFA_IRI) --output $@
 
 anatomy_pipeline: download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
@@ -324,10 +324,10 @@ zp_pipeline_prepare_data: zfin_pipeline anatomy_pipeline missing_iris pattern_la
 ### TEST PIPELINE                 ##########
 #############################################
 
-$(TMPDIR_CURATION)/new_labels.txt:
+$(TMPDIR_CURATION)/new_labels.txt: | $(TMPDIR_CURATION)
 	robot query -f csv -i ../../zp.owl --query ../sparql/zp_label_terms.sparql $@
 
-$(TMPDIR_CURATION)/old_labels.txt:
+$(TMPDIR_CURATION)/old_labels.txt: | $(TMPDIR_CURATION)
 	robot query -f csv -I $(OBOPURL)zp.owl --query ../sparql/zp_label_terms.sparql $@
 
 mass_obsolete: $(TMPDIR_CURATION)/old_labels.txt $(TMPDIR_CURATION)/new_labels.txt
