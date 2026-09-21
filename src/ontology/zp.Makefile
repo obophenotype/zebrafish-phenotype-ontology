@@ -32,7 +32,7 @@ ifeq ($(PAT),true)
 # This goal is needed for the `dosdp-matches-matches` pipeline. 
 # The pipeline, right now, only creates a report if there are matches.
 # TODO: Make the pipeline create a report for classes where there are no matches.
-tmp/zp-edit-merged-reasoned.owl: $(SRC)
+$(TMPDIR)/zp-edit-merged-reasoned.owl: $(SRC) | $(TMPDIR)
 	$(ROBOT) merge -i $< \
 		-I https://raw.githubusercontent.com/obophenotype/uberon/refs/heads/master/src/ontology/bridge/cl-bridge-to-zfa.owl \
 		-I https://raw.githubusercontent.com/obophenotype/uberon/refs/heads/master/src/ontology/bridge/uberon-bridge-to-zfa.owl \
@@ -49,7 +49,7 @@ ALL_PATTERN_NAMES_WO_LABELS := $(filter-out %_label, $(ALL_PATTERN_NAMES))
 ALL_PATTERN_NAMES_WO_LABELS_AND_ZFIN := $(filter-out abnormalQuality%, $(ALL_PATTERN_NAMES_WO_LABELS))
 
 # We have to filter out the ZFIN patterns here, because some of them cannot be matched (they are missing EQs)
-dosdp-matches-matches: tmp/zp-edit-merged-reasoned.owl
+dosdp-matches-matches: $(TMPDIR)/zp-edit-merged-reasoned.owl
 	$(DOSDPT) query --ontology=$< --catalog=$(CATALOG) --reasoner=elk --obo-prefixes=true --restrict-axioms-to=logical \
     --batch-patterns="$(ALL_PATTERN_NAMES_WO_LABELS_AND_ZFIN)" --template="$(PATTERNDIR)/dosdp-patterns" --outfile="$(PATTERNDIR)/data/matches/"
 
@@ -58,13 +58,13 @@ $(DOSDP_OWL_FILES_MATCHES): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MATCHES) $(AL
     --infile=$(PATTERNDIR)/data/matches --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_MATCHES)" \
     --ontology=$< --obo-prefixes=true --restrict-axioms-to=annotation --add-axiom-source-annotation=true  --outfile=$(PATTERNDIR)/data/matches; fi
 
-tmp/definitions-matches.owl: $(DOSDP_OWL_FILES_MATCHES)
+$(TMPDIR)/definitions-matches.owl: $(DOSDP_OWL_FILES_MATCHES) | $(TMPDIR)
 	$(ROBOT) merge $(addprefix -i , $(DOSDP_OWL_FILES_MATCHES)) annotate --ontology-iri $(ONTBASE)/patterns/definitions-matches.owl --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions-matches.owl -o $@
 
-tmp/definitions-matches-no-labels.owl: tmp/definitions-matches.owl
+$(TMPDIR)/definitions-matches-no-labels.owl: $(TMPDIR)/definitions-matches.owl | $(TMPDIR)
 	$(ROBOT) remove -i $< --term rdfs:label --axioms annotation -o $@
 
-../patterns/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ZFIN)  $(DOSDP_OWL_FILES_ANATOMY)  $(DOSDP_OWL_FILES_PROCESS) tmp/definitions-matches-no-labels.owl
+../patterns/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ZFIN)  $(DOSDP_OWL_FILES_ANATOMY)  $(DOSDP_OWL_FILES_PROCESS) $(TMPDIR)/definitions-matches-no-labels.owl
 	#$(MAKE) update_patterns
 	#$(MAKE) dosdp-matches-matches
 	$(ROBOT) merge $(addprefix -i , $^) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
@@ -97,43 +97,43 @@ $(ZP_SRC_SEED): $(SRC)
 	robot query -f csv -i $< --use-graphs true --query ../sparql/zp_terms.sparql $@
 
 
-$(TMPDIR_CURATION)/id_map_terms.txt.tmp:
+$(TMPDIR_CURATION)/id_map_terms.txt.tmp: | $(TMPDIR_CURATION)
 	grep -Eo '(ZP)[^[:space:]"]+' ../curation/id_map_zfin.tsv | sort | uniq > $@
 
-$(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp:
+$(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp: | $(TMPDIR_CURATION)
 	grep -Eo '(ZP)[:][^[:space:]"]+' ../curation/id_map.tsv | sort | uniq > $@	
 	
-$(TMPDIR_CURATION)/id_map_terms.txt: $(TMPDIR_CURATION)/id_map_terms.txt.tmp $(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/id_map_terms.txt: $(TMPDIR_CURATION)/id_map_terms.txt.tmp $(TMPDIR_CURATION)/id_map_terms.txt.zp.tmp | $(TMPDIR_CURATION)
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp: ../curation/id_map_zfin.tsv | $(TMPDIR_CURATION)
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv | $(TMPDIR_CURATION)
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt: $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt: $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_ambiguous_terms.txt.zp.tmp | $(TMPDIR_CURATION)
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp: ../curation/id_map_zfin.tsv | $(TMPDIR_CURATION)
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp: ../curation/id_map_zfin.tsv | $(TMPDIR_CURATION)
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt: $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp
+$(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt: $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.tmp $(TMPDIR_CURATION)/idmap_removed_incomplete_terms.txt.zp.tmp | $(TMPDIR_CURATION)
 	cat $^ | sort | uniq > $@
 
 
-$(TMPDIR_CURATION)/obsoleted.txt.tmp: ../templates/obsolete.tsv
+$(TMPDIR_CURATION)/obsoleted.txt.tmp: ../templates/obsolete.tsv | $(TMPDIR_CURATION)
 	grep -Eo '($(PURL))[^[:space:]"]+' $< | sort | uniq > $@
 
-$(TMPDIR_CURATION)/obsoleted.txt.zp.tmp: ../templates/obsolete.tsv
+$(TMPDIR_CURATION)/obsoleted.txt.zp.tmp: ../templates/obsolete.tsv | $(TMPDIR_CURATION)
 	grep -Eo '(ZP)[:][^[:space:]"]+' $< | sort | uniq > $@	
 	
-$(TMPDIR_CURATION)/obsoleted.txt: $(TMPDIR_CURATION)/obsoleted.txt.tmp $(TMPDIR_CURATION)/obsoleted.txt.zp.tmp
+$(TMPDIR_CURATION)/obsoleted.txt: $(TMPDIR_CURATION)/obsoleted.txt.tmp $(TMPDIR_CURATION)/obsoleted.txt.zp.tmp | $(TMPDIR_CURATION)
 	cat $^ | sort | uniq > $@
 
 
@@ -240,10 +240,12 @@ $(ID_MAP): update_id_map
 update_id_map: $(ID_MAP_ZFIN)
 	python3 ../scripts/create_id_map.py ../patterns $(ID_MAP)
 
+$(TMPDIR_CURATION):
+	mkdir -p $@
+
 .PHONY: zp-clean
 zp-clean:
-	mkdir -p $(TMPDIR_CURATION)
-	rm -rf $(TMPDIR_CURATION)/*
+	rm -rf $(TMPDIR_CURATION)
 	rm -f ../curation/kb_zp.ttl
 
 clean: zp-clean
@@ -271,7 +273,7 @@ $(ZFIN_STAMPS):
 $(ZFIN_STAMPS)/id_map_updated: $(ZFIN_FISH_DATA) $(RESERVED_IRI) ../scripts/zp_update_id_map.py ../scripts/zp_lib.py | $(ZFIN_STAMPS)
 	@echo "######################################"
 	@echo "Updating the ZP to ZFIN EQ mappings..."
-	cd ../curation && python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv ../curation/tmp/reserved_iris.txt 100000 ../curation/tmp/phenotype_fish.txt
+	cd ../curation && python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv $(TMPDIR_CURATION)/reserved_iris.txt 100000 $(TMPDIR_CURATION)/phenotype_fish.txt
 	touch $@
 
 $(ZFIN_STAMPS)/obsoletion_candidates: $(ZFIN_STAMPS)/id_map_updated zp_labels.csv ../templates/obsolete.tsv ../scripts/zfin_obsoletion.py | $(ZFIN_STAMPS)
@@ -299,12 +301,12 @@ $(ZFIN_STAMPS)/upheno_aligned: $(ZFIN_STAMPS)/zfin_patterns ../scripts/zp_extrac
 ../curation/zp_zfin_phenotype_fish.tsv: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_FISH_DATA) ../scripts/zp_fish_data.py
 	@echo "######################################"
 	@echo "Associating the ZFIN fish annotations with ZP ids..."
-	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv ../curation/tmp/phenotype_fish.txt
+	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv $(TMPDIR_CURATION)/phenotype_fish.txt
 
 ../curation/kb_zp.ttl: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_GENE_DATA) ../scripts/zp_kb.py
 	@echo "######################################"
 	@echo "Associating the ZFIN gene annotations with ZP ids and exporting as RDF..."
-	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl ../curation/tmp/phenoGeneCleanData_fish.txt
+	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl $(TMPDIR_CURATION)/phenoGeneCleanData_fish.txt
 
 ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 			  ../curation/zp_zfin_phenotype_fish.tsv \
@@ -343,24 +345,24 @@ qc:
 ### ZP ZAPP                 #################
 #############################################
 
-tmp/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv
+$(TMPDIR)/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv | $(TMPDIR)
 	$(ROBOT) template --template $< --output $@
 
-tmp/zp-zapp.csv: zp.owl ../sparql/zp_zapp_terms.sparql
+$(TMPDIR)/zp-zapp.csv: zp.owl ../sparql/zp_zapp_terms.sparql | $(TMPDIR)
 	$(ROBOT) query -f csv -i $< --use-graphs true --query ../sparql/zp_zapp_terms.sparql $@
 
 ANNOTATION_PROPERTIES_ZAPP = rdfs:label IAO:0000115 OMO:0002000 oboInOwl:hasDbXref oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
 
-zp-zapp.owl: zp.owl tmp/zp-zapp.csv tmp/zp-zapp-manual.owl tmp/definitions-matches.owl
+zp-zapp.owl: zp.owl $(TMPDIR)/zp-zapp.csv $(TMPDIR)/zp-zapp-manual.owl $(TMPDIR)/definitions-matches.owl
 	$(ROBOT) merge -i zp.owl \
-	  	remove -T tmp/zp-zapp.csv --select complement \
-	  	remove $(foreach p, $(ANNOTATION_PROPERTIES_ZAPP), --term $(p)) \
-		        --term-file tmp/zp-zapp.csv \
-		        --select complement \
-	  	remove --term rdfs:label --select "ZP:*" \
-		merge -i tmp/zp-zapp-manual.owl \
-		merge -i tmp/definitions-matches.owl \
+		remove -T $(TMPDIR)/zp-zapp.csv --select complement \
+		remove $(foreach p, $(ANNOTATION_PROPERTIES_ZAPP), --term $(p)) \
+			--term-file $(TMPDIR)/zp-zapp.csv \
+			--select complement \
+		remove --term rdfs:label --select "ZP:*" \
+		merge -i $(TMPDIR)/zp-zapp-manual.owl \
+		merge -i $(TMPDIR)/definitions-matches.owl \
 		$(SHARED_ROBOT_COMMANDS) \
 		annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
-		--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-		--output $@.tmp.owl && mv $@.tmp.owl $@
+			--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+			--output $@.tmp.owl && mv $@.tmp.owl $@
