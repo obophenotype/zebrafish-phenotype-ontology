@@ -204,17 +204,12 @@ templates: $(TEMPLATES)
 #############################################
 ### ZFIN data snapshots            ##########
 #############################################
-# Force data refresh by using `ZFIN_REFRESH=true` or explicitly running
-# `make refresh_zfin_data`.
+# Snapshots are kept outside of $(TMPDIR_CURATION) so that `clean` does not
+# remove them. Force a new download with `make refresh_zfin_data`.
 
-ZFIN_FISH_DATA=$(TMPDIR_CURATION)/phenotype_fish.txt
-ZFIN_GENE_DATA=$(TMPDIR_CURATION)/phenoGeneCleanData_fish.txt
-
-ZFIN_REFRESH=false
-ifeq ($(ZFIN_REFRESH),true)
-$(ZFIN_FISH_DATA): .FORCE
-$(ZFIN_GENE_DATA): .FORCE
-endif
+ZFIN_SNAPSHOT_DIR=../curation/zfin-snapshots
+ZFIN_FISH_DATA=$(ZFIN_SNAPSHOT_DIR)/phenotype_fish.txt
+ZFIN_GENE_DATA=$(ZFIN_SNAPSHOT_DIR)/phenoGeneCleanData_fish.txt
 
 $(ZFIN_FISH_DATA):
 	curl -L --fail --create-dirs --retry 4 --max-time 400 -o $@.tmp https://zfin.org/downloads/phenotype_fish.txt
@@ -273,7 +268,7 @@ $(ZFIN_STAMPS):
 $(ZFIN_STAMPS)/id_map_updated: $(ZFIN_FISH_DATA) $(RESERVED_IRI) ../scripts/zp_update_id_map.py ../scripts/zp_lib.py | $(ZFIN_STAMPS)
 	@echo "######################################"
 	@echo "Updating the ZP to ZFIN EQ mappings..."
-	cd ../curation && python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv $(TMPDIR_CURATION)/reserved_iris.txt 100000 $(TMPDIR_CURATION)/phenotype_fish.txt
+	cd ../curation && python3 ../scripts/zp_update_id_map.py id_map_zfin.tsv deprecated_id_map.tsv $(TMPDIR_CURATION)/reserved_iris.txt 100000 $(ZFIN_FISH_DATA)
 	touch $@
 
 $(ZFIN_STAMPS)/obsoletion_candidates: $(ZFIN_STAMPS)/id_map_updated zp_labels.csv ../templates/obsolete.tsv ../scripts/zfin_obsoletion.py | $(ZFIN_STAMPS)
@@ -301,12 +296,12 @@ $(ZFIN_STAMPS)/upheno_aligned: $(ZFIN_STAMPS)/zfin_patterns ../scripts/zp_extrac
 ../curation/zp_zfin_phenotype_fish.tsv: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_FISH_DATA) ../scripts/zp_fish_data.py
 	@echo "######################################"
 	@echo "Associating the ZFIN fish annotations with ZP ids..."
-	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv $(TMPDIR_CURATION)/phenotype_fish.txt
+	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv $(ZFIN_FISH_DATA)
 
 ../curation/kb_zp.ttl: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_GENE_DATA) ../scripts/zp_kb.py
 	@echo "######################################"
 	@echo "Associating the ZFIN gene annotations with ZP ids and exporting as RDF..."
-	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl $(TMPDIR_CURATION)/phenoGeneCleanData_fish.txt
+	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl $(ZFIN_GENE_DATA)
 
 ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 			  ../curation/zp_zfin_phenotype_fish.tsv \
@@ -315,6 +310,7 @@ ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 .PHONY: zfin_pipeline
 zfin_pipeline:
 	$(MAKE) clean
+	$(MAKE) refresh_zfin_data
 	$(MAKE) update_patterns
 	$(MAKE) $(ZFIN_PIPELINE_PRODUCTS)
 
