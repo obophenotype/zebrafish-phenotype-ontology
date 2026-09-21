@@ -316,7 +316,6 @@ ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 .PHONY: zfin_pipeline
 zfin_pipeline:
 	$(MAKE) clean
-	$(MAKE) refresh_zfin_data
 	$(MAKE) update_patterns
 	$(MAKE) $(ZFIN_PIPELINE_PRODUCTS)
 
