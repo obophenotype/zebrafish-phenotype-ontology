@@ -311,7 +311,10 @@ ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 			  ../curation/kb_zp.ttl
 
 .PHONY: zfin_pipeline
-zfin_pipeline: clean update_patterns $(ZFIN_PIPELINE_PRODUCTS)
+zfin_pipeline:
+	$(MAKE) clean
+	$(MAKE) update_patterns
+	$(MAKE) $(ZFIN_PIPELINE_PRODUCTS)
 
 #zp_pipeline: anatomy_pipeline missing_iris pattern_labels templates prepare_release
 # This should only ever be run on a local machin
