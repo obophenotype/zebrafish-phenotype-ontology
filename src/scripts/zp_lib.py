@@ -94,7 +94,7 @@ class ZPPipelineConfig:
         return(broken)
     
     def dump_reserved_ids(self,df,reserved_ids_file):
-        ids=list(set(self.reserved_ids+df['iri'].tolist()))
+        ids = sorted(list(set(self.reserved_ids+df['iri'].tolist())))
         with open(reserved_ids_file, 'w') as f:
             for item in ids:
                 f.write("%s\n" % item)

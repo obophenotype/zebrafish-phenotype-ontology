@@ -37,7 +37,7 @@ pattern_data_dirs = [zfin_patterns,anatomy_patterns,manual_patterns]
 joined = []
 
 for dir in pattern_data_dirs:
-    for filename in os.listdir(dir):
+    for filename in sorted(os.listdir(dir)):
         if filename.endswith(".tsv") and not filename.endswith("_label.tsv"): 
             tsv = os.path.join(dir, filename)
             yamlf = os.path.join(pattern_yaml_dir, filename.replace(".tsv",".yaml"))

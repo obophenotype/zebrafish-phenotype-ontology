@@ -237,7 +237,7 @@ for pattern in config.get_patterns():
     idcolumns = get_id_columns(pattern_yaml) # Parses the var fillers from the pattern
     df = add_id_column(df, idcolumns,pattern+".tsv")
 
-    ids=list(set(ids+df_ids['iritemp001'].tolist()))
+    ids = sorted(list(set(ids+df_ids['iritemp001'].tolist())))
     
     defclass = df['defined_class']
     df.drop(labels=['defined_class'], axis=1,inplace = True)
