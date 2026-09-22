@@ -1,7 +1,7 @@
 import pandas as pd
 import copy
 import sys
-from zp_lib import zp_pipeline_config
+from zp_lib import ZPPipelineConfig
 
 # Author: Nicolas Matentzoglu
 # Date: 21.11.2018
@@ -15,12 +15,13 @@ current_id_map = sys.argv[1] # The current stable mapping between ZFIN post-comp
 deprecated_id_map = sys.argv[2] #The file that contains all currently deprecated ZP classes, i.e. those ZP classes that were previously assigned to a ZFIN EQ statement, but have no corresponding one after the current run
 reserved_ids = sys.argv[3] # This file contains a list of ALL ZP identifiers currently in use anywhere (deprecated or not). This is important to not assign a new EQ to a previously used ZP identifier
 accession=int(sys.argv[4]) # The number from which we should start counting (if set to 1, ZP assignment resumes from the highest ZP identifier currently assigned
+zfin_data = sys.argv[5] # Local copy of ZFIN's phenotype_fish.txt
 
 # Load ID MAP
 
 id_map = pd.read_csv(current_id_map, sep='\t')
 
-config = zp_pipeline_config(accession=accession,reserved_ids_file=reserved_ids, include_modifier = False)
+config = ZPPipelineConfig(accession=accession,zfin_fish_data_file=zfin_data,reserved_ids_file=reserved_ids, include_modifier = False)
 d = config.load_zfin_phenotype_fish()
 
 # Merge the fresh set of annotations with the current set of ZP identifiers

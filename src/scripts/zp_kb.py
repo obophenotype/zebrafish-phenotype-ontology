@@ -14,8 +14,7 @@ import sys
 id_map = sys.argv[1] # The current ZP-ZFIN EQ id map
 gene_annotation_mappings = sys.argv[2] # The desired location for the resulting gene annotation to ZP mappings
 annotation_ttl = sys.argv[3] # The desired output location of the KB
-
-tsv = 'https://zfin.org/downloads/phenoGeneCleanData_fish.txt'
+tsv = sys.argv[4] # Local copy of ZFIN's phenoGeneCleanData_fish.txt
 
 # LOAD ZFIN GENE ANNOTATION DATA
 df_zfin = pd.read_csv(tsv, sep='\t', header=None)
@@ -44,7 +43,7 @@ annotationcolumns = np.array([1,3,12,19,21,22,23,24,25])-1
 kb = df_zfin[annotationcolumns]
 kb.columns = ["ZFINID", "GENEID","PHENOTYPETAG","FISHID","STARTSTAGEID","ENDSTAGEID","FISHENVIRONMENTID","PUBLICATIONID","FIGUREID"]
 kb = kb.assign(IRI=df_zfin['iri'])
-kb['IRI'].replace({'ZP:': 'http://purl.obolibrary.org/obo/ZP_'}, inplace=True,regex=True)
+kb['IRI'] = kb['IRI'].replace({'ZP:': 'http://purl.obolibrary.org/obo/ZP_'}, regex=True)
 kb = kb.assign(ANID=df_zfin['id'])
 #kb.head(3)
 

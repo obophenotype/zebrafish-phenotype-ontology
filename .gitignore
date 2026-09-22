@@ -69,6 +69,7 @@ src/patterns/all_pattern_terms.txt
 # End of ODK-managed rules
 src/ontology/zp-base.owl
 src/curation/tmp
+src/curation/zfin-snapshots
 src/.DS_Store
 src/ontology/zp-merged.owl
 .idea

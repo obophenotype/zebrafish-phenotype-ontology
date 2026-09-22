@@ -9,8 +9,7 @@ import sys
 
 id_map = sys.argv[1] # The current ZP-ZFIN EQ id map
 zp_zfin_mappings = sys.argv[2] # The desired location for the resulting gene annotation to ZP mappings
-
-tsv = 'https://zfin.org/downloads/phenotype_fish.txt'
+tsv = sys.argv[3] # Local copy of ZFIN's phenotype_fish.txt
 
 # LOAD ZFIN GENE ANNOTATION DATA
 df_zfin = pd.read_csv(tsv, sep='\t', header=None)

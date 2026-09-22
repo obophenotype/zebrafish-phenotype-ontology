@@ -5,15 +5,16 @@ import sys
 import os
 
 
-class zp_pipeline_config:
-    def __init__(self,accession,reserved_ids_file=None, include_modifier=True):
-        self.zfin_fish_data = "https://zfin.org/downloads/phenotype_fish.txt"
-        self.zfin_gene_data = 'https://zfin.org/downloads/phenoGeneCleanData_fish.txt'
+class ZPPipelineConfig:
+    def __init__(self,accession,zfin_fish_data_file,reserved_ids_file=None, include_modifier=True):
+        # zfin_fish_data_file must be a local copy of ZFIN's
+        # phenotype_fish.txt. This library does not hit the network.
+        self.zfin_fish_data_file = zfin_fish_data_file
+
         self.zp_prefix = "ZP:"
         self.minid = accession
         self.maxid = 9999999 # THE maximum integer the current OBO IRI space allows (ZP_9999999).
         self.phenotype_fish_functional_columns=np.array([7,9,11,13,15,16,18,20])-1
-        self.phenotype_gene_functional_columns=np.array([4,6,8,10,12,13,15,17])-1
         self.functional_column_names=['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','modifier','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
         if reserved_ids_file is None:
             self.reserved_ids = []
@@ -49,8 +50,8 @@ class zp_pipeline_config:
         #    id = id.replace("PATO:0000001","PATO:0001236")
         return id
         
-    def load_zfin_data(self,data_url, functional_column_indexes):
-        df = pd.read_csv(data_url, sep='\t', header=None)
+    def load_zfin_data(self,data_file, functional_column_indexes):
+        df = pd.read_csv(data_file, sep='\t', header=None)
         d = df[functional_column_indexes].drop_duplicates()
         d.columns = ['affected_entity_1_sub','affected_entity_1_rel','affected_entity_1_super','pato_id','modifier','affected_entity_2_sub','affected_entity_2_rel','affected_entity_2_super']
 
@@ -71,11 +72,8 @@ class zp_pipeline_config:
         return d
         
     def load_zfin_phenotype_fish(self):
-        return self.load_zfin_data(self.zfin_fish_data,self.phenotype_fish_functional_columns)
-        
-    def load_zfin_phenotype_gene(self):
-        return self.load_zfin_data(self.zfin_gene_data,self.phenotype_gene_functional_columns)
-    
+        return self.load_zfin_data(self.zfin_fish_data_file,self.phenotype_fish_functional_columns)
+
     def generate_id(self,i):
         if isinstance(i,str):
             if i.startswith(self.zp_prefix):
