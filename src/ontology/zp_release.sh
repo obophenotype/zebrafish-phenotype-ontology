@@ -8,5 +8,4 @@ ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=false zp_pipeline_p
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true templates patterns
 ODK_TAG=$ODK ./run.sh make IMP=true PAT=false MIR=true COMP=false refresh-merged
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true patterns
-SHARED="remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false query --update ../sparql/rename-obsolete-classes.ru "
-ODK_TAG=$ODK ./run.sh make SHARED_ROBOT_COMMANDS="$SHARED" prepare_release_fast
+ODK_TAG=$ODK ./run.sh make prepare_release_fast
