@@ -55,6 +55,14 @@ jobs:
       - name: Rebuild patterns against refreshed imports
         run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true patterns
 
+      # Same invocation as qc.yml. It has to run here because pull requests
+      # opened with the default GITHUB_TOKEN do not trigger pull_request
+      # workflows. A QC failure still opens the PR, marked as failed.
+      - name: Run ontology QC checks
+        id: qc
+        continue-on-error: true
+        run: cd src/ontology && make IMP=false PAT=false MIR=false test
+
       - name: Create pull request with updated pipeline outputs
         uses: peter-evans/create-pull-request@v8
         with:
@@ -65,10 +73,13 @@ jobs:
           body: |
             Automated run of the ZFIN pipeline against data downloaded on
             ${{ steps.date.outputs.date }}, plus refreshed imports and patterns.
+
+            QC outcome: **${{ steps.qc.outcome }}** (reports are attached to the
+            workflow run as an artifact if QC failed).
           delete-branch: true
 
       - name: Upload QC reports on failure
-        if: failure()
+        if: steps.qc.outcome == 'failure'
         uses: actions/upload-artifact@v7
         with:
           name: zfin-update-reports-${{ steps.date.outputs.date }}
