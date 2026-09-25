@@ -37,7 +37,7 @@ jobs:
         run: echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
       - name: Build release artifacts
-        run: cd src/ontology && make IMP=false PAT=false MIR=false COMP=false prepare_release_fast
+        run: cd src/ontology && make TODAY=${{ steps.date.outputs.date }} IMP=false PAT=false MIR=false COMP=false prepare_release_fast
 
       - name: Create draft GitHub release with artifacts
         uses: softprops/action-gh-release@v3
