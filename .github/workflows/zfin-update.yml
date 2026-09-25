@@ -67,7 +67,6 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           branch: zfin-update-${{ steps.date.outputs.date }}
-          branch-suffix: random
           commit-message: Update from ZFIN data downloaded ${{ steps.date.outputs.date }}
           title: "ZFIN update ${{ steps.date.outputs.date }}"
           body: |
