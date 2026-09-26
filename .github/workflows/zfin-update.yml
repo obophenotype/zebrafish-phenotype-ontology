@@ -1,0 +1,86 @@
+# Pull fresh ZFIN data, rerun the ZFIN/anatomy pipelines, refresh imports and
+# patterns, and open a pull request with the resulting changes to tracked
+# files (id maps, ZFIN pattern TSVs, labels, definitions.owl, imports).
+#
+# This is the only place that mints new ZP ids. Review and merge the PR before
+# making a release with release.yml.
+#
+# Local equivalent: the first six steps of src/ontology/zp_release.sh.
+
+name: Update from ZFIN
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: zfin-update
+  cancel-in-progress: false
+
+env:
+  ROBOT_JAVA_ARGS: -Xmx10G
+  JAVA_OPTS: -Xmx10G
+
+jobs:
+  zfin-update:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6.1
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh ZFIN data
+        run: cd src/ontology && make refresh_zfin_data
+
+      - name: Rebuild ZP label index
+        run: cd src/ontology && make -B zp_labels.csv
+
+      - name: Run ZFIN and anatomy pipelines
+        run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=false zp_pipeline_prepare_data
+
+      - name: Build templates and patterns
+        run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true templates patterns
+
+      - name: Refresh mirrors and merged import
+        run: cd src/ontology && make IMP=true PAT=false MIR=true COMP=false refresh-merged
+
+      - name: Rebuild patterns against refreshed imports
+        run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true patterns
+
+      # Same invocation as qc.yml. It has to run here because pull requests
+      # opened with the default GITHUB_TOKEN do not trigger pull_request
+      # workflows. A QC failure still opens the PR, marked as failed.
+      - name: Run ontology QC checks
+        id: qc
+        continue-on-error: true
+        run: cd src/ontology && make IMP=false PAT=false MIR=false test
+
+      - name: Create pull request with updated pipeline outputs
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: zfin-update-${{ steps.date.outputs.date }}
+          commit-message: Update from ZFIN data downloaded ${{ steps.date.outputs.date }}
+          title: "ZFIN update ${{ steps.date.outputs.date }}"
+          body: |
+            Automated run of the ZFIN pipeline against data downloaded on
+            ${{ steps.date.outputs.date }}, plus refreshed imports and patterns.
+
+            QC outcome: **${{ steps.qc.outcome }}** (reports are attached to the
+            workflow run as an artifact if QC failed).
+          delete-branch: true
+
+      - name: Upload QC reports on failure
+        if: steps.qc.outcome == 'failure'
+        uses: actions/upload-artifact@v7
+        with:
+          name: zfin-update-reports-${{ steps.date.outputs.date }}
+          path: src/ontology/reports/
+          if-no-files-found: ignore

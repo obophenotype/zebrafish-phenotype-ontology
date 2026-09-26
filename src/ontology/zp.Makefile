@@ -234,6 +234,9 @@ refresh_zfin_data:
 ### WHOLE PIPELINE (main job)      ##########
 #############################################
 
+SHARED_ROBOT_COMMANDS += remove -T blacklist_eqs.txt --axioms equivalent --preserve-structure false \
+	query --update ../sparql/rename-obsolete-classes.ru
+
 .PHONY: .FORCE
 
 $(ID_MAP): update_id_map

@@ -1,0 +1,55 @@
+# Build the release artifacts from the current state of master and attach
+# them to a draft GitHub release tagged v<date>.
+
+name: Create release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zp-release
+  cancel-in-progress: false
+
+env:
+  ROBOT_JAVA_ARGS: -Xmx10G
+  JAVA_OPTS: -Xmx10G
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6.1
+
+    steps:
+      - name: Refuse to release from a branch other than master
+        if: github.ref != 'refs/heads/master'
+        run: |
+          echo "::error::Releases are created from master only (got ${{ github.ref }})."
+          exit 1
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Build release artifacts
+        run: cd src/ontology && make TODAY=${{ steps.date.outputs.date }} IMP=false PAT=false MIR=false COMP=false prepare_release_fast
+
+      - name: Create draft GitHub release with artifacts
+        uses: softprops/action-gh-release@v3
+        with:
+          generate_release_notes: true
+          draft: true
+          tag_name: v${{ steps.date.outputs.date }}
+          target_commitish: ${{ github.sha }}
+          files: |
+            zp.owl
+            zp.obo
+            zp-base.owl
+            zp-base.obo
+            zp-full.owl
+            zp-full.obo
