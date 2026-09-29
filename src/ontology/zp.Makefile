@@ -350,6 +350,17 @@ qc:
 	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
 	$(ROBOT) merge --input ../../zp.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
+.PHONY: check_obsoletion_candidates
+check_obsoletion_candidates:
+	@if tail -n +2 ../templates/df_obsolete_candidates.txt | grep -q .; then \
+		echo "ERROR: src/templates/df_obsolete_candidates.txt has unprocessed obsoletion candidates. Move them into obsolete.tsv"; \
+		exit 1; \
+	fi
+
+prepare_release: check_obsoletion_candidates
+
+prepare_release_fast: check_obsoletion_candidates
+
 #############################################
 ### ZP ZAPP                 #################
 #############################################
