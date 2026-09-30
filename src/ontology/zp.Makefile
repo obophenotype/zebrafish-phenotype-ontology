@@ -260,7 +260,6 @@ pattern_labels:
 
 zp_labels.csv:
 	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
-	cat tmp_$@ | sort | uniq > $@ && rm tmp_$@
 	
 #############################################
 ### ZFIN pipeline steps            ##########

@@ -7,3 +7,4 @@ WHERE {
   OPTIONAL { ?term rdfs:label ?label }
   FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/ZP_"))
 }
+ORDER BY ?term
