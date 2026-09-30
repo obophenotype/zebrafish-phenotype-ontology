@@ -17,6 +17,17 @@ Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licen
 Annotation(rdfs:comment "Zebrafish Phenotype Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/zp#zapp>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/zp#zapp> (<http://purl.obolibrary.org/obo/zp#zapp>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/zp#zapp> "Phenotypes used in the Zebrafish Toxicology Phenotype Atlas Project (ZAPP)."@en)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/zp#zapp> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
 
 
 
