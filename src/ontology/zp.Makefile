@@ -259,7 +259,7 @@ pattern_labels:
 	python3 ../scripts/zp_create_label_patterns.py ../patterns
 
 zp_labels.csv:
-	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql tmp_$@
+	robot query -f csv -i ../patterns/definitions.owl --query ../sparql/zp_label_terms.sparql $@
 	
 #############################################
 ### ZFIN pipeline steps            ##########
