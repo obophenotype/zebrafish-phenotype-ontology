@@ -121,7 +121,7 @@ preamble = """@prefix : <http://zfin.org/zp/annotations#> .
 #################################################################
 
 """
-iris = list(set(kb[kb.IRI.notnull()]["IRI"]))
+iris = sorted(list(set(kb[kb.IRI.notnull()]["IRI"])))
 ###  http://purl.obolibrary.org/obo/ZP_0021318
 
 text_file = open(annotation_ttl, "w")

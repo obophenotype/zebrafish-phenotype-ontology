@@ -63,7 +63,7 @@ joined = []
 
 for pattern_dir in pattern_data_dirs:
     print(pattern_dir)
-    for filename in os.listdir(pattern_dir):
+    for filename in sorted(os.listdir(pattern_dir)):
         if filename.endswith(".tsv") and not filename.endswith("_label.tsv"): 
             tsv = os.path.join(pattern_dir, filename)
             pattern = filename.replace(".tsv","")
