@@ -349,8 +349,15 @@ qc:
 	$(ROBOT) report -i ../../zp.owl --fail-on None --print 5 -o zp_owl_report.owl
 	$(ROBOT) merge --input ../../zp.owl reason --reasoner ELK  --equivalent-classes-allowed asserted-only --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
+# `../templates/df_obsolete_candidates.txt` is deliberately not a prerequisite.
+# This check should run without triggering the ZFIN pipeline, which is what
+# writes that file.
 .PHONY: check_obsoletion_candidates
 check_obsoletion_candidates:
+	@if [ ! -f ../templates/df_obsolete_candidates.txt ]; then \
+		echo "ERROR: src/templates/df_obsolete_candidates.txt is missing; the obsoletion check cannot run"; \
+		exit 1; \
+	fi
 	@if tail -n +2 ../templates/df_obsolete_candidates.txt | grep -q .; then \
 		echo "ERROR: src/templates/df_obsolete_candidates.txt has unprocessed obsoletion candidates. Move them into obsolete.tsv"; \
 		exit 1; \
