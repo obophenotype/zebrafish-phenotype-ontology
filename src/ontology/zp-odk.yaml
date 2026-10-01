@@ -11,7 +11,6 @@ export_formats:
 release_artefacts: 
   - base
   - full
-  - custom-zp-zapp
 import_group:
   use_base_merging: TRUE
   exclude_iri_patterns:
@@ -72,6 +71,10 @@ components:
       use_template: TRUE
       templates:
         - obsolete.tsv
+subset_group:
+  products:
+    - id: zapp
+      description: "Phenotypes used in the Zebrafish Toxicology Phenotype Atlas Project (ZAPP)."
 pattern_pipelines_group:
   products:
     - id: manual
