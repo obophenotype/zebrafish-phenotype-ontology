@@ -55,3 +55,6 @@ jobs:
             zp-full.obo
             src/curation/id_map.tsv
             src/curation/id_map_zfin.tsv
+            subsets/zapp.owl
+            subsets/zapp.obo
+            subsets/zapp.tsv

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                27bcfbf22854c6eb318992d90aaa2f698967c12545e5df8c945d2b57796aff60
+CONFIG_HASH=                9c20aac2c63cf8419d4d1312d284e6546373db4be4bf51bc07b214f68616f0dc
 
 
 # ----------------------------------------
@@ -69,7 +69,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 
 FORMATS = $(sort  owl obo owl)
 FORMATS_INCL_TSV = $(sort $(FORMATS) tsv)
-RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full zp-zapp )
+RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full )
 
 ifeq ($(ODK_DEBUG),yes)
 ODK_DEBUG_FILE = debug.log
@@ -207,7 +207,7 @@ all_imports: $(IMPORT_FILES)
 # ----------------------------------------
 
 
-SUBSETS = 
+SUBSETS =  zapp
 
 SUBSET_ROOTS = $(patsubst %, $(SUBSETDIR)/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -900,8 +900,6 @@ $(ONT)-base.obo: $(ONT)-base.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
 $(ONT)-full.obo: $(ONT)-full.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
-zp-zapp.obo: zp-zapp.owl
-	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@
 # ----------------------------------------
 # Release artefacts: main release artefacts
 # ----------------------------------------
@@ -944,9 +942,6 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 		relax $(RELAX_OPTIONS) \
 		reduce -r $(REASONER) $(REDUCE_OPTIONS) \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-
-zp-zapp.owl:
-	echo "ERROR: You have configured a custom release artefact ($@); this release artefact needs to be define in zp.Makefile!" && false
 # ----------------------------------------
 # Debugging Tools
 # ----------------------------------------

@@ -67,10 +67,12 @@ $(DOSDP_OWL_FILES_MATCHES): $(EDIT_PREPROCESSED) $(DOSDP_TSV_FILES_MATCHES) $(AL
 $(TMPDIR)/definitions-matches.owl: $(DOSDP_OWL_FILES_MATCHES) | $(TMPDIR)
 	$(ROBOT) merge $(addprefix -i , $(DOSDP_OWL_FILES_MATCHES)) annotate --ontology-iri $(ONTBASE)/patterns/definitions-matches.owl --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions-matches.owl -o $@
 
-$(TMPDIR)/definitions-matches-no-labels.owl: $(TMPDIR)/definitions-matches.owl | $(TMPDIR)
-	$(ROBOT) remove -i $< --term rdfs:label --axioms annotation -o $@
+# uPheno pattern-derived labels become exact synonyms and are marked as ZAPP's
+# community preferred label.
+$(TMPDIR)/definitions-matches-synonyms.owl: $(TMPDIR)/definitions-matches.owl ../sparql/labels-to-synonyms.ru | $(TMPDIR)
+	$(ROBOT) query -i $< --update ../sparql/labels-to-synonyms.ru -o $@
 
-../patterns/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ZFIN)  $(DOSDP_OWL_FILES_ANATOMY)  $(DOSDP_OWL_FILES_PROCESS) $(TMPDIR)/definitions-matches-no-labels.owl
+../patterns/definitions.owl: $(DOSDP_OWL_FILES_DEFAULT) $(DOSDP_OWL_FILES_MANUAL) $(DOSDP_OWL_FILES_ZFIN)  $(DOSDP_OWL_FILES_ANATOMY)  $(DOSDP_OWL_FILES_PROCESS) $(TMPDIR)/definitions-matches-synonyms.owl
 	#$(MAKE) update_patterns
 	#$(MAKE) dosdp-matches-matches
 	$(ROBOT) merge $(addprefix -i , $^) annotate --ontology-iri $(ONTBASE)/patterns/definitions.owl  --version-iri $(ONTBASE)/releases/$(TODAY)/patterns/definitions.owl -o definitions.ofn &&\
@@ -368,27 +370,18 @@ prepare_release: check_obsoletion_candidates
 prepare_release_fast: check_obsoletion_candidates
 
 #############################################
-### ZP ZAPP                 #################
+### ZAPP subset             #################
 #############################################
 
-$(TMPDIR)/zp-zapp-manual.owl: zapp/zp-zapp-manual.tsv | $(TMPDIR)
-	$(ROBOT) template --template $< --output $@
+ZAPP_PATTERNS := $(shell cat zapp/include-patterns.txt)
+ZAPP_MATCH_TSVS := $(ZAPP_PATTERNS:%=$(PATTERNDIR)/data/matches/%.tsv)
+ZAPP_SUBSET_URI := http://purl.obolibrary.org/obo/zp\#zapp
 
-$(TMPDIR)/zp-zapp.csv: zp.owl ../sparql/zp_zapp_terms.sparql | $(TMPDIR)
-	$(ROBOT) query -f csv -i $< --use-graphs true --query ../sparql/zp_zapp_terms.sparql $@
+$(TMPDIR)/zapp-subset.tsv: $(ZAPP_MATCH_TSVS) | $(TMPDIR)
+	printf 'ID\tSubset\n' > $@
+	printf 'ID\tAI oboInOwl:inSubset\n' >> $@
+	tail -q -n +2 $^ | cut -f1 | sort -u | awk '{ print $$0 "\t" "$(ZAPP_SUBSET_URI)" }' >> $@
 
-ANNOTATION_PROPERTIES_ZAPP = rdfs:label IAO:0000115 OMO:0002000 oboInOwl:hasDbXref oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
+SHARED_ROBOT_COMMANDS += template --merge-before --template $(TMPDIR)/zapp-subset.tsv
 
-zp-zapp.owl: zp.owl $(TMPDIR)/zp-zapp.csv $(TMPDIR)/zp-zapp-manual.owl $(TMPDIR)/definitions-matches.owl
-	$(ROBOT) merge -i zp.owl \
-		remove -T $(TMPDIR)/zp-zapp.csv --select complement \
-		remove $(foreach p, $(ANNOTATION_PROPERTIES_ZAPP), --term $(p)) \
-			--term-file $(TMPDIR)/zp-zapp.csv \
-			--select complement \
-		remove --term rdfs:label --select "ZP:*" \
-		merge -i $(TMPDIR)/zp-zapp-manual.owl \
-		merge -i $(TMPDIR)/definitions-matches.owl \
-		$(SHARED_ROBOT_COMMANDS) \
-		annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
-			--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-			--output $@.tmp.owl && mv $@.tmp.owl $@
+$(ONT)-full.owl $(ONT)-base.owl: $(TMPDIR)/zapp-subset.tsv
