@@ -53,3 +53,6 @@ jobs:
             zp-base.obo
             zp-full.owl
             zp-full.obo
+            subsets/zapp.owl
+            subsets/zapp.obo
+            subsets/zapp.tsv
