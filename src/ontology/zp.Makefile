@@ -212,25 +212,44 @@ templates: $(TEMPLATES)
 #############################################
 ### ZFIN data snapshots            ##########
 #############################################
-# Snapshots are kept outside of $(TMPDIR_CURATION) so that `clean` does not
-# remove them. Force a new download with `make refresh_zfin_data`.
+# ZFIN publishes a daily archive of its download files. The tracked lockfile
+# $(ZFIN_LOCKFILE) names the archive day the current id map was minted
+# from, plus checksums. The dumps themselves are not tracked. They're kept
+# outside $(TMPDIR_CURATION) so that `clean` does not force a
+# re-download (~100 MB) on every pipeline run.
 
 ZFIN_SNAPSHOT_DIR=../curation/zfin-snapshots
+ZFIN_LOCKFILE=../curation/zfin-lock.yaml
+ZFIN_SNAPSHOT=python3 ../scripts/zfin_snapshot.py
 ZFIN_FISH_DATA=$(ZFIN_SNAPSHOT_DIR)/phenotype_fish.txt
 ZFIN_GENE_DATA=$(ZFIN_SNAPSHOT_DIR)/phenoGeneCleanData_fish.txt
 
-$(ZFIN_FISH_DATA):
-	curl -L --fail --create-dirs --retry 4 --max-time 400 -o $@.tmp https://zfin.org/downloads/phenotype_fish.txt
-	mv $@.tmp $@
+# A changed lockfile means the dumps on disk are from another day: remove them
+# so that `fetch` downloads the recorded day rather than skipping them.
+$(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA) &: $(ZFIN_LOCKFILE)
+	rm -f $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
+	$(ZFIN_SNAPSHOT) fetch $< $(ZFIN_SNAPSHOT_DIR)
+	$(ZFIN_SNAPSHOT) verify $< $(ZFIN_SNAPSHOT_DIR)
 
-$(ZFIN_GENE_DATA):
-	curl -L --fail --create-dirs --retry 4 --max-time 400 -o $@.tmp https://zfin.org/downloads/phenoGeneCleanData_fish.txt
-	mv $@.tmp $@
+.PHONY: verify_zfin_snapshot
+verify_zfin_snapshot: $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
+	$(ZFIN_SNAPSHOT) verify $(ZFIN_LOCKFILE) $(ZFIN_SNAPSHOT_DIR)
 
+# Update the lockfile to point to the newest date, and download the latest
+# dumps. Run at the start of a ZFIN update.
 .PHONY: refresh_zfin_data
 refresh_zfin_data:
-	rm -f $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
-	$(MAKE) $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
+	$(ZFIN_SNAPSHOT) refresh $(ZFIN_LOCKFILE) $(ZFIN_SNAPSHOT_DIR)
+
+# Publish which ZFIN files the release was built from, as dcterms:source
+# annotations on the ontology header of every release artefact. The list is
+# read at recipe time, after the file has been built.
+$(TMPDIR)/zfin-sources.txt: $(ZFIN_LOCKFILE) ../scripts/zfin_snapshot.py | $(TMPDIR)
+	$(ZFIN_SNAPSHOT) files $< > $@
+
+SHARED_ROBOT_COMMANDS += annotate $(foreach url,$(file <$(TMPDIR)/zfin-sources.txt),--link-annotation http://purl.org/dc/terms/source $(url))
+
+$(addsuffix .owl,$(RELEASE_ARTEFACTS)): $(TMPDIR)/zfin-sources.txt
 
 #############################################
 ### WHOLE PIPELINE (main job)      ##########
@@ -318,7 +337,7 @@ ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
 			  ../curation/kb_zp.ttl
 
 .PHONY: zfin_pipeline
-zfin_pipeline:
+zfin_pipeline: verify_zfin_snapshot
 	$(MAKE) clean
 	$(MAKE) update_patterns
 	$(MAKE) $(ZFIN_PIPELINE_PRODUCTS)
