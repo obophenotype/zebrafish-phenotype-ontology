@@ -271,7 +271,6 @@ $(TMPDIR_CURATION):
 .PHONY: zp-clean
 zp-clean:
 	rm -rf $(TMPDIR_CURATION)
-	rm -f ../curation/kb_zp.ttl
 
 clean: zp-clean
 
@@ -322,19 +321,7 @@ $(ZFIN_STAMPS)/upheno_aligned: $(ZFIN_STAMPS)/zfin_patterns ../scripts/zp_extrac
 	done
 	touch $@
 
-../curation/zp_zfin_phenotype_fish.tsv: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_FISH_DATA) ../scripts/zp_fish_data.py
-	@echo "######################################"
-	@echo "Associating the ZFIN fish annotations with ZP ids..."
-	cd ../curation && python3 ../scripts/zp_fish_data.py id_map_zfin.tsv zp_zfin_phenotype_fish.tsv $(ZFIN_FISH_DATA)
-
-../curation/kb_zp.ttl: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_GENE_DATA) ../scripts/zp_kb.py
-	@echo "######################################"
-	@echo "Associating the ZFIN gene annotations with ZP ids and exporting as RDF..."
-	cd ../curation && python3 ../scripts/zp_kb.py id_map_zfin.tsv zp_zfin_phenoGeneCleanData_fish.tsv kb_zp.ttl $(ZFIN_GENE_DATA)
-
-ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned \
-			  ../curation/zp_zfin_phenotype_fish.tsv \
-			  ../curation/kb_zp.ttl
+ZFIN_PIPELINE_PRODUCTS := $(ZFIN_STAMPS)/upheno_aligned
 
 .PHONY: zfin_pipeline
 zfin_pipeline: verify_zfin_snapshot
@@ -352,6 +339,31 @@ zp_pipeline_prepare_data:
 	$(MAKE) pattern_labels
 
 #zp_pipeline_prepare_ontology: templates patterns preprocess
+
+#############################################
+### ZFIN EXPORTS                   ##########
+#############################################
+# Flat tables of ZFIN's annotations with their ZP ids, published with each
+# release (the equivalent of HP's genes_to_phenotype.txt). Built from the
+# pinned ZFIN dumps, the committed id map and the committed labels, so a
+# release can build them without being able to mint. Not part of
+# prepare_release: run `make zfin_exports` as its own step.
+
+ZFIN_EXPORTS_DIR = $(TMPDIR)/zfin-exports
+ZFIN_EXPORTS = $(ZFIN_EXPORTS_DIR)/fish_to_phenotype.tsv \
+               $(ZFIN_EXPORTS_DIR)/genes_to_phenotype.tsv
+
+$(ZFIN_EXPORTS_DIR):
+	mkdir -p $@
+
+$(ZFIN_EXPORTS_DIR)/fish_to_phenotype.tsv: $(ZFIN_FISH_DATA) $(ID_MAP_ZFIN) zp_labels.csv | $(ZFIN_EXPORTS_DIR)
+	python3 ../scripts/zfin_tables.py fish $< -o $@ --id-map $(ID_MAP_ZFIN) --labels zp_labels.csv
+
+$(ZFIN_EXPORTS_DIR)/genes_to_phenotype.tsv: $(ZFIN_GENE_DATA) $(ID_MAP_ZFIN) zp_labels.csv | $(ZFIN_EXPORTS_DIR)
+	python3 ../scripts/zfin_tables.py genes $< -o $@ --id-map $(ID_MAP_ZFIN) --labels zp_labels.csv
+
+.PHONY: zfin_exports
+zfin_exports: $(ZFIN_EXPORTS)
 
 #############################################
 ### TEST PIPELINE                 ##########

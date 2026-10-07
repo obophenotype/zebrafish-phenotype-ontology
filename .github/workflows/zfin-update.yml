@@ -55,6 +55,9 @@ jobs:
       - name: Rebuild patterns against refreshed imports
         run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true patterns
 
+      - name: Rebuild ZP label index with new IDs
+        run: cd src/ontology && make -B zp_labels.csv
+
       # Same invocation as qc.yml. It has to run here because pull requests
       # opened with the default GITHUB_TOKEN do not trigger pull_request
       # workflows. A QC failure still opens the PR, marked as failed.

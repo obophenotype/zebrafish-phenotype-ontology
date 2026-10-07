@@ -8,4 +8,6 @@ ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=false zp_pipeline_p
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true templates patterns
 ODK_TAG=$ODK ./run.sh make IMP=true PAT=false MIR=true COMP=false refresh-merged
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true patterns
+ODK_TAG=$ODK ./run.sh make -B zp_labels.csv
 ODK_TAG=$ODK ./run.sh make prepare_release_fast
+ODK_TAG=$ODK ./run.sh make zfin_exports
