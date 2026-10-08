@@ -1,10 +1,10 @@
 # ZFIN archive day from which the ZP ids in id_map_zfin.tsv were minted.
 # Written by src/scripts/zfin_snapshot.py refresh; do not edit by hand.
-date: 2024.04.16
+date: 2026.10.07
 files:
   phenotype_fish.txt:
-    url: https://zfin.org/downloads/archive/2024.04.16/phenotype_fish.txt
-    md5: 8fa354bf578406d1a525533a11cf4e28
+    url: https://zfin.org/downloads/archive/2026.10.07/phenotype_fish.txt
+    md5: 3f3f561d8d27fd944bf0d1697334a718
   phenoGeneCleanData_fish.txt:
-    url: https://zfin.org/downloads/archive/2024.04.16/phenoGeneCleanData_fish.txt
-    md5: d50c2fa1b7285b63afcd82e6e038e48e
+    url: https://zfin.org/downloads/archive/2026.10.07/phenoGeneCleanData_fish.txt
+    md5: 0a6426ba7073edb6dad8bdad7480eb7f
