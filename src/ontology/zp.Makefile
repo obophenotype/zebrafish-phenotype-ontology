@@ -229,7 +229,7 @@ ZFIN_GENE_DATA=$(ZFIN_SNAPSHOT_DIR)/phenoGeneCleanData_fish.txt
 $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA) &: $(ZFIN_LOCKFILE)
 	rm -f $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
 	$(ZFIN_SNAPSHOT) fetch $< $(ZFIN_SNAPSHOT_DIR)
-	$(ZFIN_SNAPSHOT) verify $< $(ZFIN_SNAPSHOT_DIR)
+	$(ZFIN_SNAPSHOT) verify $< $(ZFIN_SNAPSHOT_DIR) || { rm -f $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA); exit 1; }
 
 .PHONY: verify_zfin_snapshot
 verify_zfin_snapshot: $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
