@@ -3997,3 +3997,174 @@ http://purl.obolibrary.org/obo/ZP_0138521	obsolete muscle decreased occurrence o
 http://purl.obolibrary.org/obo/ZP_0140590	obsolete telencephalon decreased occurrence obsolete DNA methylation, abnormal	true	GO:0006306-BFO:0000066-ZFA:0000079-PATO:0002052-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67
 http://purl.obolibrary.org/obo/ZP_0140638	obsolete forerunner cell group decreased occurrence obsolete DNA methylation, abnormal	true	GO:0006306-BFO:0000066-ZFA:0000023-PATO:0002052-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67
 http://purl.obolibrary.org/obo/ZP_0148260	obsolete erythroid lineage cell decreased process quality obsolete DNA methylation, abnormal	true	GO:0006306-BFO:0000066-ZFA:0009325-PATO:0002302-0-0-0		https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/67
+http://purl.obolibrary.org/obo/ZP_0000280	obsolete cell differentiation involved in pronephros development disrupted, abnormal	true	0-0-GO:0039014-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0000338	obsolete obsolete Wnt-activated signaling pathway involved in forebrain neuron fate commitment disrupted, abnormal	true	0-0-GO:0021881-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0000408	obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	true	0-0-GO:0006919-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0000849	obsolete regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal	true	0-0-GO:2000298-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0001341	obsolete whole organism increased occurrence obsolete activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway, abnormal	true	GO:0097296-BFO:0000066-ZFA:0001094-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0001437	obsolete epithelial cell migration involved in distal tubule morphogenesis disrupted, abnormal	true	0-0-GO:0072157-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0002317	obsolete obsolete chondroitin sulfate biosynthetic process process quality, abnormal	true	0-0-GO:0030206-PATO:0001236-0-0-0	ZP:0149939	
+http://purl.obolibrary.org/obo/ZP_0002593	obsolete motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation disrupted, abnormal	true	0-0-GO:0035765-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0003517	obsolete early endosome to recycling endosome transport decreased occurrence, abnormal	true	0-0-GO:0061502-PATO:0002052-0-0-0	ZP:0149875	
+http://purl.obolibrary.org/obo/ZP_0003620	obsolete D-glucose import decreased rate, abnormal	true	0-0-GO:0046323-PATO:0000911-0-0-0	ZP:0149812	
+http://purl.obolibrary.org/obo/ZP_0004635	obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal	true	0-0-GO:0006977-PATO:0002051-0-0-0	ZP:0150000	
+http://purl.obolibrary.org/obo/ZP_0004940	obsolete delamination involved in gastrulation with mouth forming second disrupted, abnormal	true	0-0-GO:0055112-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0004965	obsolete obsolete canonical Wnt signaling pathway involved in neural crest cell differentiation disrupted, abnormal	true	0-0-GO:0044335-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0005469	obsolete regulation of proton-transporting ATPase activity, rotational mechanism decreased process quality, abnormal	true	0-0-GO:0010849-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0005471	obsolete regulation of cellular pH reduction decreased process quality, abnormal	true	0-0-GO:0032847-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0005513	obsolete obsolete DNA demethylation increased occurrence, abnormal	true	0-0-GO:0080111-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0005779	obsolete extracellular space DEL decreased area, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000711-PATO:0002058-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0006654	obsolete obsolete mRNA polyadenylation disrupted, abnormal	true	0-0-GO:0006378-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0006748	obsolete D-glucose import decreased process quality, abnormal	true	0-0-GO:0046323-PATO:0002302-0-0-0	ZP:0151542	
+http://purl.obolibrary.org/obo/ZP_0006833	obsolete protein glycosylation decreased process quality, abnormal	true	0-0-GO:0006486-PATO:0002302-0-0-0	ZP:0149757	
+http://purl.obolibrary.org/obo/ZP_0007188	obsolete obsolete chondroitin sulfate biosynthetic process increased occurrence, abnormal	true	0-0-GO:0030206-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0007646	obsolete obsolete RNA 3' uridylation increased occurrence, abnormal	true	0-0-GO:0071076-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0007679	obsolete glycosylation decreased occurrence, abnormal	true	0-0-GO:0070085-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0007743	obsolete obsolete planar cell polarity pathway involved in axis elongation disrupted, abnormal	true	0-0-GO:0003402-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0007886	obsolete obsolete oligosaccharide-lipid intermediate biosynthetic process disrupted, abnormal	true	0-0-GO:0006490-PATO:0001507-0-0-0	ZP:0007885	
+http://purl.obolibrary.org/obo/ZP_0008719	obsolete protein glycosylation disrupted, abnormal	true	0-0-GO:0006486-PATO:0001507-0-0-0	ZP:0150013	
+http://purl.obolibrary.org/obo/ZP_0010716	obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	true	0-0-GO:0006919-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0010760	obsolete lymphoid lineage cell migration into thymus involved in thymus epithelium morphogenesis disrupted, abnormal	true	0-0-GO:1902550-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0011261	obsolete obsolete NADH oxidation decreased rate, abnormal	true	0-0-GO:0006116-PATO:0000911-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0011324	obsolete whole organism process quality mitotic cell cycle, abnormal	true	GO:0000278-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0012224	obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased amount, abnormal	true	GO:0005747-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0	ZP:0149977	
+http://purl.obolibrary.org/obo/ZP_0012514	obsolete forebrain increased process quality Roundabout signaling pathway involved in axon guidance, abnormal	true	GO:2001266-BFO:0000066-ZFA:0000109-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0012687	obsolete D-glucose import disrupted, abnormal	true	0-0-GO:0046323-PATO:0001507-0-0-0	ZP:0150015	
+http://purl.obolibrary.org/obo/ZP_0012810	obsolete pronephric proximal convoluted tubule process quality cell differentiation involved in pronephros development, abnormal	true	GO:0039014-BFO:0000066-ZFA:0001620-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0012811	obsolete pronephric proximal straight tubule process quality cell differentiation involved in pronephros development, abnormal	true	GO:0039014-BFO:0000066-ZFA:0001621-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0013206	obsolete obsolete regulation of telomerase activity process quality, abnormal	true	0-0-GO:0051972-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0013228	obsolete DEL differentiated, abnormal	true	0-0-ZFA:0000711-PATO:0002099-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0013433	obsolete obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation process quality, abnormal	true	0-0-GO:0050653-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0013486	obsolete fucosylation decreased process quality, abnormal	true	0-0-GO:0036065-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0014485	obsolete D-glucose import increased process quality, abnormal	true	0-0-GO:0046323-PATO:0002304-0-0-0	ZP:0150944	
+http://purl.obolibrary.org/obo/ZP_0014509	obsolete forebrain process quality Roundabout signaling pathway involved in axon guidance, abnormal	true	GO:2001266-BFO:0000066-ZFA:0000109-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0014523	obsolete protein kinase A signaling increased occurrence, abnormal	true	0-0-GO:0010737-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0014605	obsolete obsolete retinoic acid receptor signaling pathway involved in somitogenesis process quality, abnormal	true	0-0-GO:0090242-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0014716	obsolete whole organism decreased process quality apoptotic process, abnormal	true	GO:0006915-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0014717	obsolete whole organism decreased process quality cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0015625	obsolete regulation of guanylate cyclase activity disrupted, abnormal	true	0-0-GO:0031282-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0015834	obsolete obsolete chondroitin sulfate biosynthetic process disrupted, abnormal	true	0-0-GO:0030206-PATO:0001507-0-0-0	ZP:0149980	
+http://purl.obolibrary.org/obo/ZP_0016006	obsolete anatomical boundary somite morphology, abnormal	true	CARO:0000010-BFO:0000050-ZFA:0000155-PATO:0000051-0-0-0	ZP:0003153	
+http://purl.obolibrary.org/obo/ZP_0018283	obsolete obsolete mitochondrial respirasome slow muscle cell decreased functionality, abnormal	true	GO:0005746-BFO:0000050-ZFA:0009116-PATO:0001624-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018284	obsolete obsolete mitochondrial respirasome fast muscle cell decreased functionality, abnormal	true	GO:0005746-BFO:0000050-ZFA:0009117-PATO:0001624-0-0-0	ZP:0151602	
+http://purl.obolibrary.org/obo/ZP_0018425	obsolete retinal pigmented epithelium detached from retina, abnormal	true	0-0-ZFA:0000144-PATO:0001453-0-0-ZFA:0000152		
+http://purl.obolibrary.org/obo/ZP_0018426	obsolete neuron retina mislocalised, abnormal	true	ZFA:0009248-BFO:0000050-ZFA:0000152-PATO:0000628-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018427	obsolete adherens junction outer limiting membrane absent, abnormal	true	GO:0005912-BFO:0000050-ZFA:0001331-PATO:0000462-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018428	obsolete adherens junction outer limiting membrane malformed, abnormal	true	GO:0005912-BFO:0000050-ZFA:0001331-PATO:0000646-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018429	obsolete eye photoreceptor cell immature, abnormal	true	0-0-ZFA:0009154-PATO:0001501-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018430	obsolete green sensitive photoreceptor cell absent, abnormal	true	0-0-ZFA:0009223-PATO:0000462-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018431	obsolete red sensitive photoreceptor cell absent, abnormal	true	0-0-ZFA:0009224-PATO:0000462-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0018762	obsolete obsolete Wnt signaling pathway involved in dorsal/ventral axis specification increased occurrence, abnormal	true	0-0-GO:0044332-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0019315	obsolete pronephric duct decreased process quality ciliary basal body-plasma membrane docking, abnormal	true	GO:0097711-BFO:0000066-ZFA:0000150-PATO:0002302-0-0-0	ZP:0151646	
+http://purl.obolibrary.org/obo/ZP_0019459	obsolete obsolete planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	true	0-0-GO:1904938-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0019538	obsolete extracellular space chondrocyte mislocalised, abnormal	true	GO:0005615-BFO:0000050-ZFA:0009084-PATO:0000628-0-0-0	ZP:0149926	
+http://purl.obolibrary.org/obo/ZP_0019898	obsolete cell motility involved in camera-type eye morphogenesis disrupted, abnormal	true	0-0-GO:0003411-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0020011	obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	true	0-0-GO:0097153-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0020478	obsolete negative regulation of hh target transcription factor activity disrupted, abnormal	true	0-0-GO:1990787-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0021735	obsolete neuromast hair cell decreased occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0009367-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0021736	obsolete regenerating tissue has fewer parts of type neuromast neuromast support cell, abnormal	true	ZFA:0000243-BFO:0000050-ZFA:0005147-PATO:0002001-0-0-ZFA:0009363		
+http://purl.obolibrary.org/obo/ZP_0023004	obsolete anatomical boundary myotome spatial pattern, abnormal	true	CARO:0000010-BFO:0000050-ZFA:0001056-PATO:0000060-0-0-0	ZP:0151645	
+http://purl.obolibrary.org/obo/ZP_0100477	obsolete hepatocyte increased process quality inflammatory response, abnormal	true	GO:0006954-BFO:0000066-ZFA:0009111-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0101051	obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	true	0-0-GO:0097153-PATO:0002051-0-0-0	ZP:0149854	
+http://purl.obolibrary.org/obo/ZP_0101052	obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased occurrence, abnormal	true	0-0-GO:0097153-PATO:0002052-0-0-0	ZP:0150083	
+http://purl.obolibrary.org/obo/ZP_0103026	obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	true	0-0-GO:0006919-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0103592	obsolete ciliary basal body-plasma membrane docking disrupted, abnormal	true	0-0-GO:0097711-PATO:0001507-0-0-0	ZP:0151691	
+http://purl.obolibrary.org/obo/ZP_0103621	obsolete common bile duct increased occurrence cell population proliferation, abnormal	true	GO:0008283-BFO:0000066-ZFA:0005165-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0103625	obsolete common bile duct hyperplastic, abnormal	true	0-0-ZFA:0005165-PATO:0000644-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0103626	obsolete common bile duct increased circumference, abnormal	true	0-0-ZFA:0005165-PATO:0001898-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0103671	obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	true	0-0-GO:0097153-PATO:0002302-0-0-0	ZP:0151693	
+http://purl.obolibrary.org/obo/ZP_0104642	obsolete obsolete RNA 3' uridylation decreased occurrence, abnormal	true	0-0-GO:0071076-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0104724	obsolete lens epithelium decreased occurrence early endosome to recycling endosome transport, abnormal	true	GO:0061502-BFO:0000066-ZFA:0001326-PATO:0002052-0-0-0	ZP:0151717	
+http://purl.obolibrary.org/obo/ZP_0104774	obsolete brain decreased occurrence nitric oxide mediated signal transduction, abnormal	true	GO:0007263-BFO:0000066-ZFA:0000008-PATO:0002052-0-0-0	ZP:0151718	
+http://purl.obolibrary.org/obo/ZP_0105654	obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest decreased process quality, abnormal	true	0-0-GO:0006977-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0105703	obsolete negative regulation of convergent extension involved in axis elongation delayed, abnormal	true	0-0-GO:1901233-PATO:0000502-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0106222	obsolete photoreceptor cell decreased occurrence synaptic vesicle docking, abnormal	true	GO:0016081-BFO:0000066-ZFA:0009127-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0110335	obsolete pronephric tubule process quality obsolete retinoic acid receptor signaling pathway involved in pronephros anterior/posterior pattern specification, abnormal	true	GO:0034671-BFO:0000066-ZFA:0001558-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0110352	obsolete pronephric tubule decreased occurrence ciliary basal body-plasma membrane docking, abnormal	true	GO:0097711-BFO:0000066-ZFA:0001558-PATO:0002052-0-0-0	ZP:0151736	
+http://purl.obolibrary.org/obo/ZP_0137420	obsolete obsolete 3,4-dihydroxyphenanthrene dioxygenase activity disrupted, abnormal	true	0-0-GO:0018568-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0137765	obsolete anatomical boundary hepatocyte amorphous, abnormal	true	CARO:0000010-BFO:0000050-ZFA:0009111-PATO:0001332-0-0-0	ZP:0008091	
+http://purl.obolibrary.org/obo/ZP_0138154	obsolete whole organism process quality aldo-keto reductase (NADPH) activity, abnormal	true	GO:0004033-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	ZP:0151765	
+http://purl.obolibrary.org/obo/ZP_0138672	obsolete obsolete reproduction decreased efficacy, abnormal	true	0-0-GO:0000003-PATO:0015003-0-0-0	ZP:0151767	
+http://purl.obolibrary.org/obo/ZP_0138681	obsolete clearance of damaged tissue involved in inflammatory response wound healing decreased occurrence, abnormal	true	0-0-GO:0002247-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0139742	obsolete regulation of cell cycle decreased process quality, abnormal	true	0-0-GO:0051726-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0139797	obsolete positive regulation of NF-kappaB transcription factor activity increased magnitude, abnormal	true	0-0-GO:0051092-PATO:0002017-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0139865	obsolete liver increased occurrence obsolete cellular lipid catabolic process, abnormal	true	GO:0044242-BFO:0000066-ZFA:0000123-PATO:0002051-0-0-0	ZP:0149979	
+http://purl.obolibrary.org/obo/ZP_0140059	obsolete regulation of cAMP-mediated signaling increased occurrence, abnormal	true	0-0-GO:0043949-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0140184	obsolete obsolete mitochondrial respirasome whole organism decreased amount, abnormal	true	GO:0005746-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0	ZP:0150924	
+http://purl.obolibrary.org/obo/ZP_0140322	obsolete D-glucose import increased rate, abnormal	true	0-0-GO:0046323-PATO:0000912-0-0-0	ZP:0151019	
+http://purl.obolibrary.org/obo/ZP_0140682	obsolete atrioventricular canal decreased occurrence cell proliferation involved in heart valve morphogenesis, abnormal	true	GO:0003249-BFO:0000066-ZFA:0001315-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0141093	obsolete obsolete RNA polymerase I activity disrupted, abnormal	true	0-0-GO:0001054-PATO:0001507-0-0-0	ZP:0151785	
+http://purl.obolibrary.org/obo/ZP_0141352	obsolete anatomical boundary notochord straight, abnormal	true	CARO:0000010-BFO:0000050-ZFA:0000135-PATO:0002180-0-0-0	ZP:0151792	
+http://purl.obolibrary.org/obo/ZP_0141389	obsolete retina disrupted detection of electrical stimulus involved in electroception, abnormal	true	GO:0050964-BFO:0000066-ZFA:0000152-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0141410	obsolete obsolete mitochondrial respiratory chain complex III skeletal muscle decreased amount, abnormal	true	GO:0005750-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0	ZP:0151794	
+http://purl.obolibrary.org/obo/ZP_0141579	obsolete extracellular space muscle cell increased amount, abnormal	true	GO:0005615-BFO:0000050-ZFA:0009114-PATO:0000470-0-0-0	ZP:0151795	
+http://purl.obolibrary.org/obo/ZP_0141581	obsolete extracellular space pericardial muscle increased amount, abnormal	true	GO:0005615-BFO:0000050-ZFA:0001653-PATO:0000470-0-0-0	ZP:0151796	
+http://purl.obolibrary.org/obo/ZP_0141884	obsolete atrioventricular canal increased occurrence cell proliferation involved in heart valve morphogenesis, abnormal	true	GO:0003249-BFO:0000066-ZFA:0001315-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142073	obsolete D-glucose import process quality, abnormal	true	0-0-GO:0046323-PATO:0001236-0-0-0	ZP:0151800	
+http://purl.obolibrary.org/obo/ZP_0142106	obsolete mitochondrial genome maintenance process quality, abnormal	true	0-0-GO:0000002-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142209	obsolete positive regulation of NF-kappaB transcription factor activity decreased magnitude, abnormal	true	0-0-GO:0051092-PATO:0002018-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142249	obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased efficiency, abnormal	true	GO:0005747-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142250	obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased efficiency, abnormal	true	GO:0005749-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142251	obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased amount, abnormal	true	GO:0005749-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142252	obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased efficiency, abnormal	true	GO:0005751-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0	ZP:0151806	
+http://purl.obolibrary.org/obo/ZP_0142253	obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased amount, abnormal	true	GO:0005751-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142254	obsolete obsolete mitochondrial proton-transporting ATP synthase complex whole organism decreased efficiency, abnormal	true	GO:0005753-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142423	obsolete liver increased magnitude obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process, abnormal	true	GO:0006919-BFO:0000066-ZFA:0000123-PATO:0002017-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142469	obsolete obsolete DNA demethylation decreased occurrence, abnormal	true	0-0-GO:0080111-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142690	obsolete positive regulation of NF-kappaB transcription factor activity increased occurrence, abnormal	true	0-0-GO:0051092-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142691	obsolete positive regulation of NF-kappaB transcription factor activity normal occurrence, abnormal	true	0-0-GO:0051092-PATO:0045086-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0142934	obsolete cerebellum decreased occurrence cell proliferation in forebrain, abnormal	true	GO:0021846-BFO:0000066-ZFA:0000100-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0143093	obsolete trunk decreased process quality regulation of lysosomal lumen pH, abnormal	true	GO:0035751-BFO:0000066-ZFA:0001115-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0143094	obsolete post-vent region decreased process quality regulation of lysosomal lumen pH, abnormal	true	GO:0035751-BFO:0000066-ZFA:0001117-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0143118	obsolete heart decreased occurrence obsolete DNA demethylation, abnormal	true	GO:0080111-BFO:0000066-ZFA:0000114-PATO:0002052-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0143988	obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased magnitude, abnormal	true	0-0-GO:0006919-PATO:0002017-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144002	obsolete whole organism decreased process quality aldo-keto reductase (NADPH) activity, abnormal	true	GO:0004033-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144026	obsolete extracellular space lens absent, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000035-PATO:0000462-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144027	obsolete extracellular space yolk absent, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000084-PATO:0000462-0-0-0	ZP:0151834	
+http://purl.obolibrary.org/obo/ZP_0144039	obsolete extracellular space lens decreased amount, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000035-PATO:0001997-0-0-0	ZP:0151835	
+http://purl.obolibrary.org/obo/ZP_0144040	obsolete extracellular space yolk decreased amount, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000084-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144290	obsolete whole organism process quality obsolete exo-alpha-(2->3)-sialidase activity, abnormal	true	GO:0052794-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	ZP:0151839	
+http://purl.obolibrary.org/obo/ZP_0144291	obsolete whole organism process quality obsolete exo-alpha-(2->6)-sialidase activity, abnormal	true	GO:0052795-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0	ZP:0151839	
+http://purl.obolibrary.org/obo/ZP_0144323	obsolete optic cup decreased linear velocity cell motility involved in camera-type eye morphogenesis, abnormal	true	GO:0003411-BFO:0000066-ZFA:0001202-PATO:0040033-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144687	obsolete collagen-containing extracellular matrix centrum disorganized, abnormal	true	GO:0062023-BFO:0000050-ZFA:0000126-PATO:0000937-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144787	obsolete obsolete mitochondrial respiratory chain complex I skeletal muscle decreased amount, abnormal	true	GO:0005747-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144788	obsolete obsolete mitochondrial respiratory chain complex IV skeletal muscle decreased amount, abnormal	true	GO:0005751-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144789	obsolete obsolete mitochondrial proton-transporting ATP synthase complex skeletal muscle decreased amount, abnormal	true	GO:0005753-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0144857	obsolete protein glycosylation decreased occurrence, abnormal	true	0-0-GO:0006486-PATO:0002052-0-0-0	ZP:0151849	
+http://purl.obolibrary.org/obo/ZP_0145119	obsolete positive regulation of CREB transcription factor activity increased occurrence, abnormal	true	0-0-GO:0032793-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145606	obsolete macrophage increased efficacy obsolete glucocorticoid mediated signaling pathway, abnormal	true	GO:0043402-BFO:0000066-ZFA:0009141-PATO:0015004-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145638	obsolete CaP motoneuron disrupted obsolete cellular biosynthetic process, abnormal	true	GO:0044249-BFO:0000066-ZFA:0009243-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145652	obsolete obsolete regulation of DNA methylation disrupted, abnormal	true	0-0-GO:0044030-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145735	obsolete membrane lipid catabolic process increased process quality, abnormal	true	0-0-GO:0046466-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145736	obsolete L-dopa biosynthetic process decreased process quality, abnormal	true	0-0-GO:1903185-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145737	obsolete L-dopa biosynthetic process normal process quality, abnormal	true	0-0-GO:1903185-PATO:0045073-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0145738	obsolete regulation of glutathione peroxidase activity decreased process quality, abnormal	true	0-0-GO:1903282-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0146446	obsolete cardiac muscle cell decreased process quality vesicle docking, abnormal	true	GO:0048278-BFO:0000066-ZFA:0009316-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0146464	obsolete obsolete nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5' decreased occurrence, abnormal	true	0-0-GO:0034427-PATO:0002052-0-0-0	ZP:0151857	
+http://purl.obolibrary.org/obo/ZP_0146732	obsolete cardiac ventricle decreased rate sequestering of calcium ion, abnormal	true	GO:0051208-BFO:0000066-ZFA:0000009-PATO:0000911-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0146800	obsolete obsolete basement membrane collagen trimer myoseptum anatomical structure quality, abnormal	true	GO:0098651-BFO:0000050-ZFA:0001089-PATO:0070044-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0147951	obsolete extracellular space telencephalon increased amount, abnormal	true	GO:0005615-BFO:0000050-ZFA:0000079-PATO:0000470-0-0-0	ZP:0151924	
+http://purl.obolibrary.org/obo/ZP_0148133	obsolete obsolete regulation of deoxyribonuclease activity decreased process quality, abnormal	true	0-0-GO:0032070-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148536	obsolete obsolete regulation of prostaglandin-E synthase activity decreased process quality, abnormal	true	0-0-GO:2000361-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148541	obsolete caudal hematopoietic tissue decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal	true	GO:2000361-BFO:0000066-ZFA:0005898-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148542	obsolete endothelial cell decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal	true	GO:2000361-BFO:0000066-ZFA:0009065-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148602	obsolete obsolete cellular response to organic substance increased occurrence, abnormal	true	0-0-GO:0071310-PATO:0002051-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148698	obsolete sclera decreased process quality obsolete positive regulation of collagen binding, abnormal	true	GO:0033343-BFO:0000066-ZFA:0005563-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148699	obsolete sclera normal process quality obsolete positive regulation of collagen binding, abnormal	true	GO:0033343-BFO:0000066-ZFA:0005563-PATO:0045073-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0148963	obsolete obsolete regulation of DNA methylation-dependent heterochromatin formation disrupted, abnormal	true	0-0-GO:0090308-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149079	obsolete obsolete cellular lipid catabolic process increased occurrence, abnormal	true	0-0-GO:0044242-PATO:0002051-0-0-0	ZP:0151322	
+http://purl.obolibrary.org/obo/ZP_0149126	obsolete telencephalon disrupted obsolete regulation of DNA methylation, abnormal	true	GO:0044030-BFO:0000066-ZFA:0000079-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149151	obsolete obsolete regulation of DNA methylation process quality, abnormal	true	0-0-GO:0044030-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149152	obsolete sperm process quality obsolete regulation of DNA methylation, abnormal	true	GO:0044030-BFO:0000066-ZFA:0009006-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149160	obsolete testis disrupted histone arginine N-methyltransferase activity, abnormal	true	GO:0008469-BFO:0000066-ZFA:0000598-PATO:0001507-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149178	obsolete erythroid lineage cell decreased process quality obsolete regulation of DNA methylation, abnormal	true	GO:0044030-BFO:0000066-ZFA:0009325-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149213	obsolete cardiac muscle cell decreased process quality positive regulation of oxygen metabolic process, abnormal	true	GO:2000376-BFO:0000066-ZFA:0009316-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149284	obsolete dopaminergic neuron increased frequency inorganic ion transmembrane transport, abnormal	true	GO:0098660-BFO:0000066-ZFA:0009301-PATO:0000380-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149479	obsolete whole organism decreased occurrence N-glycan fucosylation, abnormal	true	GO:0036071-BFO:0000066-ZFA:0001094-PATO:0002052-0-0-0	ZP:0152013	
+http://purl.obolibrary.org/obo/ZP_0149541	obsolete oocyte decreased process quality obsolete regulation of DNA methylation, abnormal	true	GO:0044030-BFO:0000066-ZFA:0001109-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149585	obsolete heart decreased process quality membrane lipid metabolic process, abnormal	true	GO:0006643-BFO:0000066-ZFA:0000114-PATO:0002302-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149595	obsolete heart increased process quality membrane lipid metabolic process, abnormal	true	GO:0006643-BFO:0000066-ZFA:0000114-PATO:0002304-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149707	obsolete whole organism delayed embryo development ending in birth or egg hatching, abnormal	true	GO:0009792-BFO:0000066-ZFA:0001094-PATO:0000502-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149720	obsolete neural crest cell process quality methylated histone binding, abnormal	true	GO:0035064-BFO:0000066-ZFA:0009165-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149725	obsolete melanocyte process quality methylated histone binding, abnormal	true	GO:0035064-BFO:0000066-ZFA:0009091-PATO:0001236-0-0-0		
+http://purl.obolibrary.org/obo/ZP_0149726	obsolete iridophore process quality methylated histone binding, abnormal	true	GO:0035064-BFO:0000066-ZFA:0009199-PATO:0001236-0-0-0		
