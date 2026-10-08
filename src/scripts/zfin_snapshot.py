@@ -151,6 +151,10 @@ def refresh(lockfile: Path, snapshot_dir: Path, date: str | None):
         files[name] = PinnedFile(url=url, md5=md5sum(dest))
     Lockfile(date=date, files=files).to_file(lockfile)
     click.echo(f"wrote {lockfile}")
+    # The lockfile is now newer than the dumps it describes. Make would take
+    # that as the dumps being stale and fetch them again; mark them newer.
+    for name in FILES:
+        (snapshot_dir / name).touch()
 
 
 @cli.command()
