@@ -3651,8 +3651,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9516>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9753>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9937>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000028>))
@@ -3777,7 +3775,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001050>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001054>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001101>))
@@ -4001,7 +3998,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002237>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002238>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002244>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002246>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002248>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0002251>))
@@ -4239,7 +4235,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003241>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003242>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003245>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003249>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003259>))
@@ -4307,14 +4302,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003382>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003383>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003384>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003401>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003403>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003404>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003408>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003411>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003412>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003413>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003415>))
@@ -4355,7 +4348,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004030>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0004089>))
@@ -4525,7 +4517,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005587>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005589>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005604>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005614>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005615>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005622>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005635>))
@@ -4543,12 +4534,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005739>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005740>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005741>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005743>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005746>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005747>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005749>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005750>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005751>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005753>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005758>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005759>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005761>))
@@ -4656,7 +4641,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006112>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006119>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006121>))
@@ -4703,7 +4687,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006368>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006376>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006378>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006382>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006383>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006390>))
@@ -4741,10 +4724,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006475>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006477>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006479>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006487>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006488>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006497>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006508>))
@@ -4791,7 +4772,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006639>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006642>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006646>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006650>))
@@ -4880,7 +4860,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006911>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006913>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006914>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006915>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006919>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006921>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006929>))
@@ -4904,7 +4883,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006959>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006970>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006972>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006974>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006977>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006979>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006983>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006984>))
@@ -5020,7 +4998,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007260>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007263>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007264>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007265>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007266>))
@@ -5236,7 +5213,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008409>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008417>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008443>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008475>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008483>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008484>))
@@ -5586,7 +5562,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010731>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010732>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010733>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010734>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010742>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010743>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010744>))
@@ -5627,7 +5602,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010840>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010841>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010842>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010845>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010849>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010851>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010853>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010854>))
@@ -5909,7 +5883,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016079>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016103>))
@@ -6128,7 +6101,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018345>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018393>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018455>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018919>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018958>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018991>))
@@ -6360,7 +6332,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021871>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021872>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021877>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021879>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021881>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021884>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021885>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021886>))
@@ -6506,7 +6477,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030203>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030206>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030212>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030216>))
@@ -6721,7 +6691,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031281>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031283>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031290>))
@@ -6865,7 +6834,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032064>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032079>))
@@ -7044,14 +7012,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032784>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032785>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032786>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032787>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032793>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032796>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032809>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032813>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032835>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032838>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032839>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032847>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032868>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032869>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032870>))
@@ -7190,7 +7156,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033338>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033339>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033340>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033343>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033500>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033504>))
@@ -7292,7 +7257,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034397>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034399>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034405>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034427>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034440>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034483>))
@@ -7320,7 +7284,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034651>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034653>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034655>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034671>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034672>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034702>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0034703>))
@@ -7353,7 +7316,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035051>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035089>))
@@ -7479,9 +7441,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035733>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035735>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035736>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035749>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035751>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035752>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035765>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035770>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035771>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035773>))
@@ -7540,9 +7500,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036064>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036066>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036075>))
@@ -7630,7 +7588,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039013>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0039020>))
@@ -7983,7 +7940,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043396>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043397>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043400>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043401>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043403>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043406>))
@@ -8081,14 +8037,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043903>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043931>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043932>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043933>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043949>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043954>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043992>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044027>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044042>))
@@ -8111,8 +8065,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044232>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044233>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044238>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044241>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044242>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044249>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044281>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044282>))
@@ -8135,8 +8087,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044321>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044327>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044331>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044332>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044342>))
@@ -8494,7 +8444,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046209>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046321>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046322>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046324>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046326>))
@@ -8519,7 +8468,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046463>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046470>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046485>))
@@ -8721,7 +8669,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048262>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048264>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048265>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048266>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048285>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048306>))
@@ -9002,7 +8949,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050542>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050650>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050653>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050657>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050658>))
@@ -9147,7 +9093,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050954>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050956>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050957>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050962>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050966>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050968>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050973>))
@@ -9187,7 +9132,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051081>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051098>))
@@ -9216,7 +9160,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051189>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051208>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051209>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051216>))
@@ -9444,7 +9387,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051968>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051969>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051970>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051971>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051972>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051983>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051984>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051985>))
@@ -9457,8 +9399,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052548>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052652>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052689>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052742>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052794>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052795>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052803>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052866>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055001>))
@@ -9507,7 +9447,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055111>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055117>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055118>))
@@ -9961,7 +9900,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061468>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061472>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061484>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061502>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061515>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061517>))
@@ -10039,7 +9977,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061983>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062014>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062027>))
@@ -10077,7 +10014,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070073>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070092>))
@@ -10265,7 +10201,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071073>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071173>))
@@ -10289,7 +10224,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071295>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071305>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071322>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071326>))
@@ -10468,7 +10402,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072114>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072132>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072156>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072158>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0072161>))
@@ -10543,7 +10476,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0075294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0075509>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0075512>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080090>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080135>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080144>))
@@ -10668,7 +10600,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090232>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090233>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090235>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090242>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090243>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090244>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090245>))
@@ -10704,7 +10635,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090303>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090304>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090306>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090307>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090313>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090315>))
@@ -10783,7 +10713,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097151>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097156>))
@@ -10806,7 +10735,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097252>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097284>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097296>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097305>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097306>))
@@ -10885,7 +10813,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097707>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097708>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097709>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097711>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097712>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097719>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097720>))
@@ -10930,12 +10857,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098645>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098647>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098651>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098655>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098656>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098657>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098659>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098683>))
@@ -11642,7 +11567,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901222>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901223>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901224>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901232>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901233>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901265>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901270>))
@@ -11883,7 +11807,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902532>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902533>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902547>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902548>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902550>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902563>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1902564>))
@@ -12040,7 +11963,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903181>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903186>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903188>))
@@ -12054,7 +11976,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903265>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903276>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903277>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903278>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903302>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903305>))
@@ -12491,7 +12412,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904932>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904933>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904934>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904935>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904938>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904949>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904950>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1904951>))
@@ -12823,7 +12743,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990768>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990773>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990777>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990778>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990787>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990791>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990794>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1990798>))
@@ -12949,7 +12868,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000292>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000293>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000297>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000298>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000302>))
@@ -12965,11 +12883,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000354>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000355>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000361>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000374>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000376>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000377>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000378>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000379>))
@@ -13190,7 +13106,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001252>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001259>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001266>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001279>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_2001280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_7770019>))
@@ -45716,18 +45631,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_9937> "vaso
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9937> <http://purl.obolibrary.org/obo/CHEBI_24533>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9937> <http://purl.obolibrary.org/obo/CHEBI_25905>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0000002> (obsolete mitochondrial genome maintenance)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0000002> "https://github.com/geneontology/go-ontology/issues/29646"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000002> "obsolete mitochondrial genome maintenance")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0000003> (obsolete reproduction)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0000003> "https://github.com/geneontology/go-ontology/issues/27054"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0000003> <http://purl.obolibrary.org/obo/GO_0022414>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0000003> "reproductive physiological process")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000003> "obsolete reproduction")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0000018> (regulation of DNA recombination)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000018> "regulation of DNA recombination")
@@ -46741,14 +46644,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0001050> "T7-type RNA polymerase binding")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0001050> "single-subunit type RNA polymerase binding")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0001050> <http://purl.obolibrary.org/obo/GO_0070063>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0001054> (obsolete RNA polymerase I activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0001054> "https://github.com/geneontology/go-ontology/issues/23779"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0001054> "https://github.com/geneontology/go-ontology/issues/28520"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0001054> <http://purl.obolibrary.org/obo/GO_0003899>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0001054> "DNA-directed RNA polymerase activity involved in transcription from RNA polymerase I promoter")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0001054> "obsolete RNA polymerase I activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0001067> (transcription regulatory region nucleic acid binding)
 
@@ -48593,11 +48488,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0002246> "woun
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0002246> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0042060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0006954>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0002246> <http://purl.obolibrary.org/obo/GO_0042060>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0002246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0090594>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0002247> (obsolete clearance of damaged tissue involved in inflammatory response wound healing)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0002247> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0002247> "obsolete clearance of damaged tissue involved in inflammatory response wound healing")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0002248> (connective tissue replacement involved in inflammatory response wound healing)
 
@@ -50644,11 +50534,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0003245> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003245> <http://purl.obolibrary.org/obo/GO_0055017>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003245> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0055008>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0003249> (obsolete cell proliferation involved in heart valve morphogenesis)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0003249> "https://github.com/geneontology/go-ontology/issues/31306"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003249> "obsolete cell proliferation involved in heart valve morphogenesis")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0003253> (cardiac neural crest cell migration involved in outflow tract morphogenesis)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003253> "cardiac neural crest cell migration involved in outflow tract morphogenesis")
@@ -51110,11 +50995,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0003384> ObjectSomeValuesFrom(<htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003401> "axis elongation")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003401> <http://purl.obolibrary.org/obo/GO_0060560>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0003402> (obsolete planar cell polarity pathway involved in axis elongation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0003402> "https://github.com/geneontology/go-ontology/issues/28548"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003402> "obsolete planar cell polarity pathway involved in axis elongation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0003403> (optic vesicle formation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003403> "optic vesicle formation")
@@ -51152,11 +51032,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0003407> ObjectSomeValuesFrom(<htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003408> "optic cup formation involved in camera-type eye development")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003408> <http://purl.obolibrary.org/obo/GO_0048646>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0002072>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0003411> (obsolete cell motility involved in camera-type eye morphogenesis)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0003411> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003411> "obsolete cell motility involved in camera-type eye morphogenesis")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003412> (establishment of epithelial cell apical/basal polarity involved in camera-type eye morphogenesis)
 
@@ -51524,17 +51399,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0004030> "https://github.com/geneontology/go-ontology/issues/29544"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004030> "aldehyde dehydrogenase [NAD(P)+] activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004030> <http://purl.obolibrary.org/obo/GO_0016620>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0004033> (obsolete aldo-keto reductase (NADPH) activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0004033> "https://github.com/geneontology/go-ontology/issues/27180"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0004033> "https://github.com/geneontology/go-ontology/issues/28532"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0004033> <http://purl.obolibrary.org/obo/GO_0008106>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004033> "aldo-keto reductase (NADP) activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004033> "aldo-keto reductase (NADP+) activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004033> "aldo-keto reductase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0004033> "alcohol dehydrogenase (NADP+) activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004033> "obsolete aldo-keto reductase (NADPH) activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004035> (alkaline phosphatase activity)
 
@@ -52964,13 +52828,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005614> "interstitial matrix")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005614> <http://purl.obolibrary.org/obo/GO_0031012>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0005615> (obsolete extracellular space)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005615> "https://github.com/geneontology/go-ontology/issues/31545"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005615> <http://purl.obolibrary.org/obo/GO_0005576>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0005615> "intercellular space")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005615> "obsolete extracellular space")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0005622> (intracellular anatomical structure)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005622> "https://github.com/geneontology/go-ontology/issues/17776"^^xsd:anyURI)
@@ -53092,51 +52949,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005743> "mitochondrial inner membrane")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005743> <http://purl.obolibrary.org/obo/GO_0019866>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005743> <http://purl.obolibrary.org/obo/GO_0031966>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005746> (obsolete mitochondrial respirasome)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005746> "https://github.com/geneontology/go-ontology/issues/12846"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005746> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005746> <http://purl.obolibrary.org/obo/GO_0098803>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005746> "mitochondrial electron transport chain")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005746> "mitochondrial respiratory chain")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005746> "mitochondrial respiratory chain supercomplex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005746> "mitochondrial respiratory supercomplex")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005746> "obsolete mitochondrial respirasome")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005747> (obsolete mitochondrial respiratory chain complex I)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005747> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005747> <http://purl.obolibrary.org/obo/GO_0045271>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005747> "obsolete mitochondrial respiratory chain complex I")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005749> (obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone))
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005749> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005749> <http://purl.obolibrary.org/obo/GO_0045273>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005749> "mitochondrial fumarate reductase complex")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005749> "obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005750> (obsolete mitochondrial respiratory chain complex III)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005750> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005750> <http://purl.obolibrary.org/obo/GO_0045275>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005750> "mitochondrial coenzyme Q-cytochrome c oxidoreductase complex")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005750> "mitochondrial coenzyme Q-cytochrome c reductase complex")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005750> "obsolete mitochondrial respiratory chain complex III")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005751> (obsolete mitochondrial respiratory chain complex IV)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005751> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005751> <http://purl.obolibrary.org/obo/GO_0045277>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005751> "obsolete mitochondrial respiratory chain complex IV")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005753> (obsolete mitochondrial proton-transporting ATP synthase complex)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0005753> "https://github.com/geneontology/go-ontology/issues/27253"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0005753> <http://purl.obolibrary.org/obo/GO_0045259>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005753> "mitochondrial respiratory chain complex V")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005753> "obsolete mitochondrial proton-transporting ATP synthase complex")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005758> (mitochondrial intermembrane space)
 
@@ -53988,19 +53800,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006112> "energy reserve metabolic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006112> <http://purl.obolibrary.org/obo/GO_0015980>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0006116> (obsolete NADH oxidation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006116> "https://github.com/geneontology/go-ontology/issues/21577"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006116> "https://github.com/geneontology/go-ontology/issues/29050"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "NAD (reduced) dehydrogenation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "NAD (reduced) oxidation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "NADH dehydrogenation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "reduced NAD dehydrogenation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "reduced NAD oxidation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "reduced nicotinamide adenine dinucleotide dehydrogenation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006116> "reduced nicotinamide adenine dinucleotide oxidation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006116> "obsolete NADH oxidation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0006119> (oxidative phosphorylation)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006119> "respiratory-chain phosphorylation")
@@ -54440,12 +54239,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006376> "mRNA
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006376> <http://purl.obolibrary.org/obo/GO_0022618>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006376> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0000245>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0006378> (obsolete mRNA polyadenylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006378> "https://github.com/geneontology/go-ontology/issues/24924"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006378> "https://github.com/geneontology/go-ontology/issues/26944"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006378> "obsolete mRNA polyadenylation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0006382> (adenosine to inosine editing)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006382> "adenosine to inosine editing")
@@ -54733,13 +54526,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006479> "prot
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006479> <http://purl.obolibrary.org/obo/GO_0008213>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006479> <http://purl.obolibrary.org/obo/GO_0043414>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0006486> (obsolete protein glycosylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006486> "https://github.com/geneontology/go-ontology/issues/29770"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006486> "https://github.com/geneontology/go-ontology/issues/30371"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0006486> <http://purl.obolibrary.org/obo/GO_0009101>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006486> "obsolete protein glycosylation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0006487> (protein N-linked glycosylation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006487> "https://github.com/geneontology/go-ontology/issues/29770"^^xsd:anyURI)
@@ -54761,13 +54547,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006488> "dolichol-linked oligosaccharide biosynthetic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006488> <http://purl.obolibrary.org/obo/GO_1901137>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0006487>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0006490> (obsolete oligosaccharide-lipid intermediate biosynthetic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006490> "https://github.com/geneontology/go-ontology/issues/28319"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006490> "https://github.com/geneontology/go-ontology/issues/28373"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0006490> <http://purl.obolibrary.org/obo/GO_0006488>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006490> "obsolete oligosaccharide-lipid intermediate biosynthetic process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0006493> (protein O-linked glycosylation)
 
@@ -55170,14 +54949,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0006641> <http://purl.obolibrary.o
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006642> "triacylglycerol mobilization")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006642> "triglyceride mobilization")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006642> <http://purl.obolibrary.org/obo/GO_0006641>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0006643> (obsolete membrane lipid metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006643> "https://github.com/geneontology/go-ontology/issues/26698"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006643> "https://github.com/geneontology/go-ontology/issues/28908"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0006643> <http://purl.obolibrary.org/obo/GO_0006629>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006643> "membrane lipid metabolism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006643> "obsolete membrane lipid metabolic process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0006644> (phospholipid metabolic process)
 
@@ -55983,13 +55754,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0006915> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0097190>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006915> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0097194>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0006919> (obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006919> "https://github.com/geneontology/go-ontology/issues/28468"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0006919> "activation of caspase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0006919> "activation of metacaspase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006919> "obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0006921> (cellular component disassembly involved in execution phase of apoptosis)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0006921> "cellular component disassembly involved in apoptosis")
@@ -56152,12 +55916,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006974> "response to genotoxic stress")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006974> "DNA damage response")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006974> <http://purl.obolibrary.org/obo/GO_0033554>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0006977> (obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0006977> "https://github.com/geneontology/go-ontology/issues/26003"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0006977> <http://purl.obolibrary.org/obo/GO_0030330>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006977> "obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0006979> (response to oxidative stress)
 
@@ -57137,12 +56895,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynon
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007260> "tyrosine phosphorylation of STAT protein")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0007260> <http://purl.obolibrary.org/obo/GO_0018108>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0007260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007259>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0007263> (obsolete nitric oxide mediated signal transduction)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0007263> "https://github.com/geneontology/go-ontology/issues/26613"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0007263> <http://purl.obolibrary.org/obo/GO_0038060>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007263> "obsolete nitric oxide mediated signal transduction")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0007264> (small GTPase-mediated signal transduction)
 
@@ -58759,14 +58511,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0008417> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008443> "phosphofructokinase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008443> <http://purl.obolibrary.org/obo/GO_0016773>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008443> <http://purl.obolibrary.org/obo/GO_0019200>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0008469> (obsolete histone arginine N-methyltransferase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0008469> "https://github.com/geneontology/go-ontology/issues/30583"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008469> "S-adenosyl-L-methionine:histone-arginine nomega-methyltransferase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008469> "S-adenosyl-L-methionine:histone-arginine omega-N-methyltransferase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008469> "histone-arginine N-methyltransferase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008469> "obsolete histone arginine N-methyltransferase activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008475> (procollagen-lysine 5-dioxygenase activity)
 
@@ -61650,12 +61394,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0010734> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010734> <http://purl.obolibrary.org/obo/GO_0031400>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010734> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0010731>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0010737> (obsolete protein kinase A signaling)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0010737> "https://github.com/geneontology/go-ontology/issues/26794"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0010737> "https://github.com/geneontology/go-ontology/issues/26899"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010737> "obsolete protein kinase A signaling")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0010742> (macrophage derived foam cell differentiation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010742> "macrophage derived foam cell differentiation")
@@ -61965,11 +61703,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0010845> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010845> <http://purl.obolibrary.org/obo/GO_0045836>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010845> <http://purl.obolibrary.org/obo/GO_0045911>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010845> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0007131>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0010849> (obsolete regulation of proton-transporting ATPase activity, rotational mechanism)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0010849> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010849> "obsolete regulation of proton-transporting ATPase activity, rotational mechanism")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0010851> (cyclase regulator activity)
 
@@ -64097,11 +63830,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0016079> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0016079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0099504>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0016079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0098793>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0016081> (obsolete synaptic vesicle docking)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0016081> "https://github.com/geneontology/go-ontology/issues/31880"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016081> "obsolete synaptic vesicle docking")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0016101> (diterpenoid metabolic process)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0016101> "diterpenoid metabolism")
@@ -65682,11 +65410,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0018394> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0018455> "https://github.com/geneontology/go-ontology/issues/28532"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018455> "alcohol dehydrogenase [NAD(P)+] activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0018455> <http://purl.obolibrary.org/obo/GO_0016616>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0018568> (obsolete 3,4-dihydroxyphenanthrene dioxygenase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0018568> "https://github.com/geneontology/go-ontology/issues/28108"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018568> "obsolete 3,4-dihydroxyphenanthrene dioxygenase activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0018919> (gamma-1,2,3,4,5,6-hexachlorocyclohexane catabolic process)
 
@@ -67340,13 +67063,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0021879> "fore
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0021879> <http://purl.obolibrary.org/obo/GO_0021953>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0021879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0021872>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0021881> (obsolete Wnt-activated signaling pathway involved in forebrain neuron fate commitment)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0021881> "https://github.com/geneontology/go-ontology/issues/25766"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0021881> "Wnt receptor signaling pathway involved in forebrain neuron fate commitment")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0021881> "Wnt receptor signalling pathway involved in forebrain neuron fate commitment")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0021881> "obsolete Wnt-activated signaling pathway involved in forebrain neuron fate commitment")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0021884> (forebrain neuron development)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0021884> "forebrain neuron development")
@@ -68465,19 +68181,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030203> "glycosaminoglycan metabolism")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030203> "glycosaminoglycan metabolic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0030203> <http://purl.obolibrary.org/obo/GO_0006022>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0030206> (obsolete chondroitin sulfate biosynthetic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0030206> "https://github.com/geneontology/go-ontology/issues/27107"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0030206> "https://github.com/geneontology/go-ontology/issues/28977"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0030206> <http://purl.obolibrary.org/obo/GO_0050650>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulfate anabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulfate biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulfate formation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulfate synthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulphate biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030206> "chondroitin sulphate biosynthetic process")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030206> "obsolete chondroitin sulfate biosynthetic process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0030212> (hyaluronan metabolic process)
 
@@ -70308,11 +70011,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0031281> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0031281> <http://purl.obolibrary.org/obo/GO_0043085>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0031281> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0009975>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0031282> (obsolete regulation of guanylate cyclase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0031282> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0031282> "obsolete regulation of guanylate cyclase activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0031283> (negative regulation of guanylate cyclase activity)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0031283> "down regulation of guanylate cyclase activity")
@@ -71750,13 +71448,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0032064> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032064> <http://purl.obolibrary.org/obo/GO_0032058>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032064> <http://purl.obolibrary.org/obo/GO_0032062>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032064> <http://purl.obolibrary.org/obo/GO_0043561>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0032070> (obsolete regulation of deoxyribonuclease activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0032070> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0032070> "DNase regulator")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0032070> "deoxyribonuclease regulator")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032070> "obsolete regulation of deoxyribonuclease activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0032071> (regulation of endodeoxyribonuclease activity)
 
@@ -73568,13 +73259,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032787> "monocarboxylic acid metabolic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032787> <http://purl.obolibrary.org/obo/GO_0019752>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0032793> (obsolete positive regulation of CREB transcription factor activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0032793> "https://github.com/geneontology/go-ontology/issues/30856"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0032793> "activation of CREB")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0032793> "CREB activator")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032793> "obsolete positive regulation of CREB transcription factor activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0032796> (uropod organization)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032796> "uropod organization")
@@ -73617,11 +73301,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032839> "dend
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0032839> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0005737> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0030425>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032839> <http://purl.obolibrary.org/obo/GO_0120111>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0032839> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0030425>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0032847> (obsolete regulation of cellular pH reduction)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0032847> "https://github.com/geneontology/go-ontology/issues/29164"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032847> "obsolete regulation of cellular pH reduction")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0032868> (response to insulin)
 
@@ -74824,16 +74503,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033340> "pelv
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0033340> <http://purl.obolibrary.org/obo/GO_0033333>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0033340> <http://purl.obolibrary.org/obo/GO_0060173>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0033343> (obsolete positive regulation of collagen binding)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0033343> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033343> "up regulation of collagen binding")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033343> "up-regulation of collagen binding")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033343> "upregulation of collagen binding")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0033343> "activation of collagen binding")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0033343> "stimulation of collagen binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033343> "obsolete positive regulation of collagen binding")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0033365> (protein localization to organelle)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033365> "protein localization to organelle")
@@ -75682,12 +75351,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0034399> ObjectSomeValuesFrom(<htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034405> "response to fluid shear stress")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0034405> <http://purl.obolibrary.org/obo/GO_0006950>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0034427> (obsolete nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5')
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0034427> "https://github.com/geneontology/go-ontology/issues/27169"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0034427> <http://purl.obolibrary.org/obo/GO_0000956>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034427> "obsolete nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5'")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0034440> (lipid oxidation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034440> "lipid oxidation")
@@ -75916,11 +75579,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034655> "nucleobase-containing compound catabolic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0034655> <http://purl.obolibrary.org/obo/GO_0006139>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0034655> <http://purl.obolibrary.org/obo/GO_0009056>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0034671> (obsolete retinoic acid receptor signaling pathway involved in pronephros anterior/posterior pattern specification)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0034671> "https://github.com/geneontology/go-ontology/issues/28035"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0034671> "obsolete retinoic acid receptor signaling pathway involved in pronephros anterior/posterior pattern specification")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0034672> (anterior/posterior pattern specification involved in pronephros development)
 
@@ -76206,11 +75864,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035051> "cardiocyte differentiation")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035051> <http://purl.obolibrary.org/obo/GO_0030154>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007507>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0035064> (obsolete methylated histone binding)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0035064> "https://github.com/geneontology/go-ontology/issues/27427"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035064> "obsolete methylated histone binding")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0035082> (axoneme assembly)
 
@@ -77064,20 +76717,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035749> "myel
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035749> <http://purl.obolibrary.org/obo/GO_0110165>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035749> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0043209>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0035751> (obsolete regulation of lysosomal lumen pH)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0035751> "https://github.com/geneontology/go-ontology/issues/29164"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035751> "obsolete regulation of lysosomal lumen pH")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0035752> (lysosomal lumen pH elevation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035752> "lysosomal lumen pH elevation")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035752> <http://purl.obolibrary.org/obo/GO_0051454>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0035765> (obsolete motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0035765> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035765> "obsolete motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0035770> (ribonucleoprotein granule)
 
@@ -77438,11 +77081,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0036064> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0036064> <http://purl.obolibrary.org/obo/GO_0005815>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0036064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0005929>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0036065> (obsolete fucosylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0036065> "https://github.com/geneontology/go-ontology/issues/30371"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0036065> "obsolete fucosylation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0036066> (protein O-linked glycosylation via fucose)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0036066> "https://github.com/geneontology/go-ontology/issues/29770"^^xsd:anyURI)
@@ -77452,12 +77090,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0036066> "protein O-linked fucosylation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0036066> "protein O-linked glycosylation via fucose")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0036066> <http://purl.obolibrary.org/obo/GO_0006493>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0036071> (obsolete N-glycan fucosylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0036071> "https://github.com/geneontology/go-ontology/issues/30371"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0036071> <http://purl.obolibrary.org/obo/GO_0036066>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0036071> "obsolete N-glycan fucosylation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0036072> (direct ossification)
 
@@ -77999,11 +77631,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0039013> "pron
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0039013> <http://purl.obolibrary.org/obo/GO_0039008>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0039013> <http://purl.obolibrary.org/obo/GO_0072156>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0039013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0035777>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0039014> (obsolete cell differentiation involved in pronephros development)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0039014> "https://github.com/geneontology/go-ontology/issues/31330"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0039014> "obsolete cell differentiation involved in pronephros development")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0039015> (cell proliferation involved in pronephros development)
 
@@ -81155,13 +80782,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043401> "ster
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043401> <http://purl.obolibrary.org/obo/GO_0009755>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0071383>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0043402> (obsolete glucocorticoid mediated signaling pathway)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0043402> "https://github.com/geneontology/go-ontology/issues/27594"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0043402> <http://purl.obolibrary.org/obo/GO_0042921>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043402> "glucocorticoid mediated signalling")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043402> "obsolete glucocorticoid mediated signaling pathway")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0043403> (skeletal muscle tissue regeneration)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0043403> "myofiber turnover")
@@ -82056,12 +81676,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043933> "protein-containing complex organization")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043933> <http://purl.obolibrary.org/obo/GO_0016043>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0043949> (obsolete regulation of cAMP-mediated signaling)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0043949> "https://github.com/geneontology/go-ontology/issues/26899"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043949> "regulation of cAMP-mediated signalling")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043949> "obsolete regulation of cAMP-mediated signaling")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0043954> (cellular component maintenance)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043954> "cellular component maintenance at cellular level")
@@ -82134,11 +81748,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0044027> "negative regulation of gene expression via chromosomal CG dinucleotide methylation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044027> "negative regulation of gene expression via chromosomal CpG island methylation")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0044027> <http://purl.obolibrary.org/obo/GO_0045814>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0044030> (obsolete regulation of DNA methylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044030> "https://github.com/geneontology/go-ontology/issues/26602"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044030> "obsolete regulation of DNA methylation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0044036> (cell wall macromolecule metabolic process)
 
@@ -82299,26 +81908,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0044238> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044241> "lipid digestion")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0044241> <http://purl.obolibrary.org/obo/GO_0007586>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0044242> (obsolete cellular lipid catabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044242> "https://github.com/geneontology/go-ontology/issues/28908"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044242> "https://github.com/geneontology/go-ontology/issues/28975"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0044242> <http://purl.obolibrary.org/obo/GO_0016042>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044242> "cellular lipid breakdown")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044242> "cellular lipid catabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044242> "cellular lipid degradation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044242> "obsolete cellular lipid catabolic process")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0044249> (obsolete cellular biosynthetic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044249> "https://github.com/geneontology/go-ontology/issues/27052"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0044249> <http://purl.obolibrary.org/obo/GO_0009058>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044249> "cellular anabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044249> "cellular biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044249> "cellular formation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044249> "cellular synthesis")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044249> "obsolete cellular biosynthetic process")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0044272> (sulfur compound biosynthetic process)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044272> "sulfur compound anabolism")
@@ -82470,18 +82059,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0044327> ObjectSomeValuesFrom(<htt
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044331> "cell-cell adhesion mediated by cadherin")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0044331> <http://purl.obolibrary.org/obo/GO_0098609>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0044332> (obsolete Wnt signaling pathway involved in dorsal/ventral axis specification)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044332> "https://github.com/geneontology/go-ontology/issues/25766"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044332> "Wnt receptor signaling pathway involved in dorsal/ventral axis specification")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044332> "obsolete Wnt signaling pathway involved in dorsal/ventral axis specification")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0044335> (obsolete canonical Wnt signaling pathway involved in neural crest cell differentiation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0044335> "https://github.com/geneontology/go-ontology/issues/25766"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0044335> "canonical Wnt receptor signaling pathway involved in neural crest cell differentiation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044335> "obsolete canonical Wnt signaling pathway involved in neural crest cell differentiation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0044336> (canonical Wnt signaling pathway involved in negative regulation of apoptotic process)
 
@@ -86423,13 +86000,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0046322> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046322> <http://purl.obolibrary.org/obo/GO_0046320>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0019395>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0046323> (obsolete D-glucose import)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0046323> "https://github.com/geneontology/go-ontology/issues/30861"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0046323> <http://purl.obolibrary.org/obo/GO_0098708>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0046323> "glucose import")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046323> "obsolete D-glucose import")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0046324> (regulation of D-glucose import across plasma membrane)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0046324> "https://github.com/geneontology/go-ontology/issues/30861"^^xsd:anyURI)
@@ -86679,16 +86249,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046463> "acyl
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046463> <http://purl.obolibrary.org/obo/GO_0006639>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046463> <http://purl.obolibrary.org/obo/GO_0045017>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046463> <http://purl.obolibrary.org/obo/GO_0046460>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0046466> (obsolete membrane lipid catabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0046466> "https://github.com/geneontology/go-ontology/issues/26698"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0046466> "https://github.com/geneontology/go-ontology/issues/28908"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0046466> <http://purl.obolibrary.org/obo/GO_0016042>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0046466> "membrane lipid breakdown")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0046466> "membrane lipid catabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0046466> "membrane lipid degradation")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046466> "obsolete membrane lipid catabolic process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0046470> (phosphatidylcholine metabolic process)
 
@@ -88621,11 +88181,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048266> "behavioral response to pain")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0048266> <http://purl.obolibrary.org/obo/GO_0007610>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0048266> <http://purl.obolibrary.org/obo/GO_0048265>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0048278> (obsolete vesicle docking)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0048278> "https://github.com/geneontology/go-ontology/issues/31880"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048278> "obsolete vesicle docking")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0048284> (organelle fusion)
 
@@ -90877,20 +90432,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0050650> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050650> <http://purl.obolibrary.org/obo/GO_0050654>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050650> <http://purl.obolibrary.org/obo/GO_0180064>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0050653> (obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0050653> "https://github.com/geneontology/go-ontology/issues/28977"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0050653> <http://purl.obolibrary.org/obo/GO_0050650>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan anabolism, polysaccharide chain anabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan chain elongation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan formation, polysaccharide chain biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan formation, polysaccharide chain formation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulfate proteoglycan synthesis, polysaccharide chain synthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulphate proteoglycan biosynthesis, polysaccharide chain biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050653> "chondroitin sulphate proteoglycan biosynthesis, polysaccharide chain biosynthetic process")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050653> "obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0050654> (chondroitin sulfate proteoglycan metabolic process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0050654> "https://github.com/geneontology/go-ontology/issues/29294"^^xsd:anyURI)
@@ -92362,17 +91903,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0050962> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050962> <http://purl.obolibrary.org/obo/GO_0050906>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050962> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0050953>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0050964> (obsolete detection of electrical stimulus involved in electroception)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0050964> "https://github.com/geneontology/go-ontology/issues/31306"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "electroception, detection of electrical stimulus")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "electroception, sensory detection of electrical stimulus")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "electroception, sensory transduction")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "electroception, sensory transduction of electrical stimulus")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "sensory detection of electrical stimulus during electroception")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0050964> "sensory transduction of electrical stimulus during electroception")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050964> "obsolete detection of electrical stimulus involved in electroception")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0050966> (detection of mechanical stimulus involved in sensory perception of pain)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050966> "perception of pain, detection of mechanical stimulus")
@@ -92812,13 +92342,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051081> "nucl
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051081> <http://purl.obolibrary.org/obo/GO_0030397>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051081> <http://purl.obolibrary.org/obo/GO_0071763>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0051092> (obsolete positive regulation of NF-kappaB transcription factor activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0051092> "https://github.com/geneontology/go-ontology/issues/30856"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051092> "NF-kappaB activation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051092> "activation of NF-kappaB")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051092> "obsolete positive regulation of NF-kappaB transcription factor activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0051093> (negative regulation of developmental process)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051093> "down regulation of developmental process")
@@ -93086,22 +92609,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051189> "prosthetic group metabolic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051189> <http://purl.obolibrary.org/obo/GO_0008152>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051189> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0019538>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0051208> (obsolete sequestering of calcium ion)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0051208> "https://github.com/geneontology/go-ontology/issues/24112"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0051208> "https://github.com/geneontology/go-ontology/issues/30777"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "calcium ion (Ca2+) retention")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "calcium ion (Ca2+) sequestering")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "calcium ion (Ca2+) sequestration")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "calcium ion (Ca2+) storage")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "retention of calcium ion (Ca2+)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "sequestering of calcium ion (Ca2+)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "sequestration of calcium ion (Ca2+)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "storage of calcium ion (Ca2+)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "calcium ion storage activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0051208> "negative regulation of calcium ion (Ca2+) transport")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051208> "obsolete sequestering of calcium ion")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0051209> (release of sequestered calcium ion into cytosol)
 
@@ -95504,12 +95011,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0051971> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051971> <http://purl.obolibrary.org/obo/GO_0051969>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051971> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0019226>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0051972> (obsolete regulation of telomerase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0051972> "https://github.com/geneontology/go-ontology/issues/28437"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051972> "telomerase regulator")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051972> "obsolete regulation of telomerase activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0051983> (regulation of chromosome segregation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051983> "regulation of chromosome segregation")
@@ -95608,22 +95109,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0052742> "phosphatidylinositol kinase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0052742> <http://purl.obolibrary.org/obo/GO_0001727>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0052742> <http://purl.obolibrary.org/obo/GO_0016773>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0052794> (obsolete exo-alpha-(2->3)-sialidase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0052794> "https://github.com/geneontology/go-ontology/issues/28070"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0052794> <http://purl.obolibrary.org/obo/GO_0004308>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0052794> "exo-alpha-(2,3)-sialidase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0052794> "exo-alpha-2,3-sialidase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0052794> "obsolete exo-alpha-(2->3)-sialidase activity")
-
-# Class: <http://purl.obolibrary.org/obo/GO_0052795> (obsolete exo-alpha-(2->6)-sialidase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0052795> "https://github.com/geneontology/go-ontology/issues/28070"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0052795> <http://purl.obolibrary.org/obo/GO_0004308>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0052795> "exo-alpha-(2,6)-sialidase activity")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0052795> "exo-alpha-2,6-sialidase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0052795> "obsolete exo-alpha-(2->6)-sialidase activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0052803> (imidazole-containing compound metabolic process)
 
@@ -96012,11 +95497,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0055111> "ingr
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0055111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0001667> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0001702>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0055111> <http://purl.obolibrary.org/obo/GO_0042074>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0055111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0001702>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0055112> (obsolete delamination involved in gastrulation with mouth forming second)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0055112> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0055112> "obsolete delamination involved in gastrulation with mouth forming second")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0055113> (epiboly involved in gastrulation with mouth forming second)
 
@@ -99277,13 +98757,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0061472> ObjectSomeValuesFrom(<htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061484> "hematopoietic stem cell homeostasis")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0061484> <http://purl.obolibrary.org/obo/GO_0048872>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0061502> (obsolete early endosome to recycling endosome transport)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0061502> "https://github.com/geneontology/go-ontology/issues/26386"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0061502> "https://github.com/geneontology/go-ontology/issues/31240"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0061502> <http://purl.obolibrary.org/obo/GO_0032456>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061502> "obsolete early endosome to recycling endosome transport")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0061512> (protein localization to cilium)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061512> "protein localization to cilium")
@@ -99808,13 +99281,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0062014> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0062014> <http://purl.obolibrary.org/obo/GO_0062012>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0062014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0044281>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0062023> (obsolete collagen-containing extracellular matrix)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0062023> "https://github.com/geneontology/go-ontology/issues/29475"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0062023> <http://purl.obolibrary.org/obo/GO_0031012>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0062023> "collagen-containing ECM")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0062023> "obsolete collagen-containing extracellular matrix")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0062025> (regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0062025> "regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process")
@@ -100083,11 +99549,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0070073> "voltage-gated calcium channel clustering")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0070073> "clustering of voltage-gated calcium channels")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0070073> <http://purl.obolibrary.org/obo/GO_0045161>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0070085> (obsolete glycosylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0070085> "https://github.com/geneontology/go-ontology/issues/30371"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0070085> "obsolete glycosylation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0070090> (metaphase plate)
 
@@ -101438,11 +100899,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0071073> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0071073> <http://purl.obolibrary.org/obo/GO_1903727>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0071073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0008654>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0071076> (obsolete RNA 3' uridylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0071076> "https://github.com/geneontology/go-ontology/issues/29291"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071076> "obsolete RNA 3' uridylation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0071166> (ribonucleoprotein complex localization)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071166> "ribonucleoprotein complex localization")
@@ -101595,11 +101051,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0071305> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0071305> <http://purl.obolibrary.org/obo/GO_0071295>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0071305> <http://purl.obolibrary.org/obo/GO_0071396>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0071305> <http://purl.obolibrary.org/obo/GO_1901701>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0071310> (obsolete cellular response to organic substance)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0071310> "https://github.com/geneontology/go-ontology/issues/27386"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0071310> "obsolete cellular response to organic substance")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0071320> (cellular response to cAMP)
 
@@ -102740,11 +102191,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0072156> "dist
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0072156> <http://purl.obolibrary.org/obo/GO_0072078>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0072156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0072017>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0072157> (obsolete epithelial cell migration involved in distal tubule morphogenesis)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0072157> "https://github.com/geneontology/go-ontology/issues/31330"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0072157> "obsolete epithelial cell migration involved in distal tubule morphogenesis")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0072158> (proximal tubule morphogenesis)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0072158> "proximal tubule morphogenesis")
@@ -103238,11 +102684,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080090> "regu
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0080090> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0065007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0044238>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0080090> <http://purl.obolibrary.org/obo/GO_0019222>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0080090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0044238>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0080111> (obsolete DNA demethylation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0080111> "https://github.com/geneontology/go-ontology/issues/27590"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080111> "obsolete DNA demethylation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0080134> (regulation of response to stress)
 
@@ -104163,10 +103604,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0090235> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0090235> <http://purl.obolibrary.org/obo/GO_0032879>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0090235> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0051310>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0090242> (obsolete retinoic acid receptor signaling pathway involved in somitogenesis)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0090242> "obsolete retinoic acid receptor signaling pathway involved in somitogenesis")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0090243> (fibroblast growth factor receptor signaling pathway involved in somitogenesis)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0090243> "fibroblast growth factor receptor signaling pathway involved in somitogenesis")
@@ -104455,13 +103892,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0090307> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0090307> <http://purl.obolibrary.org/obo/GO_0007052>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0090307> <http://purl.obolibrary.org/obo/GO_0051225>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0090307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0000070>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0090308> (obsolete regulation of DNA methylation-dependent heterochromatin formation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0090308> "https://github.com/geneontology/go-ontology/issues/23553"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0090308> "https://github.com/geneontology/go-ontology/issues/28927"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0090308> "regulation of DNA methylation-dependent heterochromatin assembly")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0090308> "obsolete regulation of DNA methylation-dependent heterochromatin formation")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0090313> (regulation of protein targeting to membrane)
 
@@ -105021,12 +104451,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0097151> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097151> <http://purl.obolibrary.org/obo/GO_0098828>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097151> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0060080>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0097153> (obsolete cysteine-type endopeptidase activity involved in apoptotic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0097153> "https://github.com/geneontology/go-ontology/issues/28468"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0097153> <http://purl.obolibrary.org/obo/GO_0004197>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097153> "obsolete cysteine-type endopeptidase activity involved in apoptotic process")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0097154> (GABAergic neuron differentiation)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097154> "GABAergic neuron differentiation")
@@ -105175,13 +104599,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0097272> <http://purl.obolibrary.o
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0097284> "hepatocyte apoptosis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097284> "hepatocyte apoptotic process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097284> <http://purl.obolibrary.org/obo/GO_1904019>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0097296> (obsolete activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0097296> "https://github.com/geneontology/go-ontology/issues/28468"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0097296> "activation of cysteine-type endopeptidase activity involved in apoptotic signalling pathway")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0097296> "activation of initiator caspase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097296> "obsolete activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0097300> (programmed necrotic cell death)
 
@@ -105718,12 +105135,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0097708> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097709> "connective tissue replacement")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097709> <http://purl.obolibrary.org/obo/GO_0048771>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0097711> (obsolete ciliary basal body-plasma membrane docking)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0097711> "https://github.com/geneontology/go-ontology/issues/31882"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0097711> <http://purl.obolibrary.org/obo/GO_1905349>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097711> "obsolete ciliary basal body-plasma membrane docking")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0097712> (trans-Golgi to periciliary membrane compartment transport)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0097712> "https://github.com/geneontology/go-ontology/issues/31865"^^xsd:anyURI)
@@ -106056,11 +105467,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0098647> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0098647> <http://purl.obolibrary.org/obo/GO_0099512>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0098647> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0140086>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0098651> (obsolete basement membrane collagen trimer)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0098651> "https://github.com/geneontology/go-ontology/issues/29487"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098651> "obsolete basement membrane collagen trimer")
-
 # Class: <http://purl.obolibrary.org/obo/GO_0098655> (monoatomic cation transmembrane transport)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0098655> "ATP hydrolysis coupled cation transmembrane transport")
@@ -106086,13 +105492,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0098657> <http://purl.obolibrary.o
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0098659> "inorganic cation import into cell")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098659> "inorganic cation import across plasma membrane")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0098659> <http://purl.obolibrary.org/obo/GO_0099587>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0098660> (obsolete inorganic ion transmembrane transport)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0098660> "https://github.com/geneontology/go-ontology/issues/30715"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GO_0098660> <http://purl.obolibrary.org/obo/GO_0055085>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0098660> "inorganic ion membrane transport")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098660> "obsolete inorganic ion transmembrane transport")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0098664> (G protein-coupled serotonin receptor signaling pathway)
 
@@ -111585,11 +110984,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1901232> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1901232> <http://purl.obolibrary.org/obo/GO_1905330>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1901232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0060028>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_1901233> (obsolete negative regulation of convergent extension involved in axis elongation)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1901233> "https://github.com/geneontology/go-ontology/issues/31330"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1901233> "obsolete negative regulation of convergent extension involved in axis elongation")
-
 # Class: <http://purl.obolibrary.org/obo/GO_1901265> (nucleoside phosphate binding)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1901265> "nucleoside phosphate binding")
@@ -113482,11 +112876,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1902548> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1902548> <http://purl.obolibrary.org/obo/GO_1902547>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1902548> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0035924>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_1902550> (obsolete lymphoid lineage cell migration into thymus involved in thymus epithelium morphogenesis)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1902550> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1902550> "obsolete lymphoid lineage cell migration into thymus involved in thymus epithelium morphogenesis")
-
 # Class: <http://purl.obolibrary.org/obo/GO_1902553> (positive regulation of catalase activity)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1902553> "positive regulation of catalase activity")
@@ -114747,11 +114136,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1903181> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1903181> <http://purl.obolibrary.org/obo/GO_1903179>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1903181> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0042416>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_1903185> (obsolete L-dopa biosynthetic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1903185> "https://github.com/geneontology/go-ontology/issues/31703"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1903185> "obsolete L-dopa biosynthetic process")
-
 # Class: <http://purl.obolibrary.org/obo/GO_1903186> (regulation of vitellogenesis)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1903186> "regulation of vitellogenesis")
@@ -114855,11 +114239,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_1903278> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1903278> <http://purl.obolibrary.org/obo/GO_1902307>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1903278> <http://purl.obolibrary.org/obo/GO_1903276>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1903278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0036376>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_1903282> (obsolete regulation of glutathione peroxidase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1903282> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1903282> "obsolete regulation of glutathione peroxidase activity")
 
 # Class: <http://purl.obolibrary.org/obo/GO_1903301> (positive regulation of hexokinase activity)
 
@@ -118319,11 +117698,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1904935> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1904935> <http://purl.obolibrary.org/obo/GO_2000179>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1904935> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0033278>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_1904938> (obsolete planar cell polarity pathway involved in axon guidance)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1904938> "https://github.com/geneontology/go-ontology/issues/25766"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1904938> "obsolete planar cell polarity pathway involved in axon guidance")
-
 # Class: <http://purl.obolibrary.org/obo/GO_1904949> (ATPase complex)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_1904949> "VPS4 complex")
@@ -120895,12 +120269,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1990777> <http://purl.obolibrary.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1990778> "protein localization to cell periphery")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1990778> <http://purl.obolibrary.org/obo/GO_0008104>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_1990787> (obsolete negative regulation of hh target transcription factor activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_1990787> "https://github.com/geneontology/go-ontology/issues/30856"^^xsd:anyURI)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_1990787> "negative regulation of hedgehog target transcription factor")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1990787> "obsolete negative regulation of hh target transcription factor activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_1990791> (dorsal root ganglion development)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_1990791> "DRG development")
@@ -121906,11 +121274,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_2000297> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000297> <http://purl.obolibrary.org/obo/GO_1905809>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000297> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0060074>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_2000298> (obsolete regulation of Rho-dependent protein serine/threonine kinase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_2000298> "https://github.com/geneontology/go-ontology/issues/21233"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000298> "obsolete regulation of Rho-dependent protein serine/threonine kinase activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_2000300> (regulation of synaptic vesicle exocytosis)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000300> "regulation of synaptic vesicle exocytosis")
@@ -122033,11 +121396,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_2000355> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000355> <http://purl.obolibrary.org/obo/GO_2000354>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000355> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/GO_0001541>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_2000361> (obsolete regulation of prostaglandin-E synthase activity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_2000361> "https://github.com/geneontology/go-ontology/issues/22455"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000361> "obsolete regulation of prostaglandin-E synthase activity")
-
 # Class: <http://purl.obolibrary.org/obo/GO_2000369> (regulation of clathrin-dependent endocytosis)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_2000369> "regulation of clathrin-mediated endocytosis")
@@ -122061,11 +121419,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000374> "regu
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_2000374> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0065007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0072592>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000374> <http://purl.obolibrary.org/obo/GO_0019222>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2000374> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0072592>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_2000376> (obsolete positive regulation of oxygen metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_2000376> "https://github.com/geneontology/go-ontology/issues/30570"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000376> "obsolete positive regulation of oxygen metabolic process")
 
 # Class: <http://purl.obolibrary.org/obo/GO_2000377> (regulation of reactive oxygen species metabolic process)
 
@@ -123831,11 +123184,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_2001259> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2001259> <http://purl.obolibrary.org/obo/GO_0032414>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2001259> <http://purl.obolibrary.org/obo/GO_1904064>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_2001259> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GO_0005261>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_2001266> (obsolete Roundabout signaling pathway involved in axon guidance)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_2001266> "https://github.com/geneontology/go-ontology/issues/31254"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2001266> "obsolete Roundabout signaling pathway involved in axon guidance")
 
 # Class: <http://purl.obolibrary.org/obo/GO_2001279> (regulation of unsaturated fatty acid biosynthetic process)
 

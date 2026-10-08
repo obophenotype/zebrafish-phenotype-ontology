@@ -13,15 +13,21 @@ Annotation(owl:versionInfo "2026-10-08")
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_00000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000281>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000338>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000408>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000771>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000849>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001271>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001320>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001341>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001437>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001468>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001528>))
@@ -32,8 +38,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0001844>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002196>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002277>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002317>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002593>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002892>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002924>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0002983>))
@@ -47,7 +55,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003456>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003464>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003517>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003590>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003620>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003652>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0003653>))
@@ -67,23 +77,30 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004479>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004583>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004688>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004731>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004940>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0004965>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005305>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005471>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005476>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005724>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005759>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005761>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005762>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005779>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005795>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005823>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0005961>))
@@ -94,23 +111,31 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006330>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006446>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006588>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006719>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006739>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006748>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006793>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006795>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006810>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006812>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006813>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006833>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006866>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0006886>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007188>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007463>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007542>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007636>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007646>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007679>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007743>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007778>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007886>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007907>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0007932>))
@@ -124,6 +149,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008616>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008642>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008719>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008731>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008777>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0008876>))
@@ -155,6 +181,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010624>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010636>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010658>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010760>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010844>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010852>))
@@ -167,8 +195,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011261>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011298>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011324>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011340>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011416>))
@@ -187,25 +217,34 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012224>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012426>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012514>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012581>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012645>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012810>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012811>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012894>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0012972>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013228>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013238>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013302>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013393>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013440>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013462>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013529>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013539>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013587>))
@@ -226,8 +265,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014429>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014494>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014509>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014523>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014525>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014539>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014564>))
@@ -235,8 +277,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014570>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014605>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014675>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014716>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014717>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014750>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014821>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0014871>))
@@ -249,6 +294,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015427>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015456>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015625>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0015834>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0016006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0016275>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0016309>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0016529>))
@@ -269,11 +317,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0017619>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0017714>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0017748>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018283>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018425>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018426>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018427>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018428>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018429>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018430>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018659>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018762>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018791>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018875>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018878>))
@@ -286,17 +344,22 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019233>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019248>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019315>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019481>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019497>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019538>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019544>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019621>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019898>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019926>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019970>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020051>))
@@ -310,6 +373,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020381>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020478>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020620>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020723>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020724>))
@@ -402,6 +466,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021718>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021724>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021729>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021735>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021736>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021738>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021755>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0021774>))
@@ -585,6 +651,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0022945>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0022971>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0022978>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0022987>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0023004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0023014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0023015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0023018>))
@@ -641,6 +708,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100455>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100458>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100477>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100483>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0100587>))
@@ -685,6 +753,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101055>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0101069>))
@@ -833,6 +903,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102973>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102985>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102989>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102990>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103033>))
@@ -851,10 +922,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103500>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103509>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103546>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103592>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103625>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103640>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103649>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103671>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103678>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103714>))
@@ -892,24 +968,32 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104503>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104504>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104525>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104547>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104713>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104714>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104717>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104718>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104720>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104724>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104733>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104741>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104746>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104774>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104775>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0104778>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105655>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105661>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105703>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105887>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0105888>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0106222>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0106241>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0106242>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0106949>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0110335>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0110352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0127643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0127644>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0127645>))
@@ -3952,44 +4036,106 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137388>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137403>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137439>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137554>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137689>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137765>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0137867>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138437>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138438>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138518>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138519>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138520>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138672>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0138681>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0139742>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0139781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0139797>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0139865>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140322>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140582>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140590>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140638>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140676>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140682>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140847>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0140848>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141190>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141192>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141389>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141410>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141579>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141581>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141869>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0141884>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142252>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142384>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142423>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142469>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142690>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142691>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142793>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142872>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0142934>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143118>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143597>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143743>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143757>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0143988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144323>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144687>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144787>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144788>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144789>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144857>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0144987>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145119>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145226>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145414>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145432>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145443>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145638>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145652>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145735>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145736>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145737>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0145738>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0146446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0146464>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0146732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0146800>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147192>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147193>))
@@ -3997,11 +4143,36 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147194>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147195>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147198>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147200>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147951>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148190>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148195>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148522>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148523>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148536>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148541>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148542>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148602>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148698>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148699>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148963>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149151>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149160>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149479>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149541>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149585>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149595>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149707>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149720>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149725>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149726>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000233>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 
@@ -4030,11 +4201,29 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000278> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000278> "obsolete symmetric radial glial cell division in forebrain increased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000278> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0000280> (obsolete cell differentiation involved in pronephros development disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000280> "0-0-GO:0039014-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000280> "obsolete cell differentiation involved in pronephros development disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000280> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0000281> (obsolete oligodendrocyte differentiation abnormal, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000281> "0-0-GO:0048709-PATO:0000460-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000281> "obsolete oligodendrocyte differentiation abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000281> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0000338> (obsolete obsolete Wnt-activated signaling pathway involved in forebrain neuron fate commitment disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000338> "0-0-GO:0021881-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000338> "obsolete obsolete Wnt-activated signaling pathway involved in forebrain neuron fate commitment disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000338> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0000408> (obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000408> "0-0-GO:0006919-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000408> "obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000408> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0000453> (obsolete circulatory system development disrupted, abnormal)
 
@@ -4066,6 +4255,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000773> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000773> "obsolete regulation of nodal signaling pathway abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000773> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0000849> (obsolete regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000849> "0-0-GO:2000298-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0000849> "obsolete regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0000849> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0000964> (obsolete anterior commissure morphogenesis abnormal, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0000964> "0-0-GO:0021960-PATO:0000460-0-0-0")
@@ -4084,6 +4279,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0001320> "0-0-GO:0060803-PATO:0001236-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001320> "obsolete BMP signaling pathway involved in mesodermal cell fate specification process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0001320> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0001341> (obsolete whole organism increased occurrence obsolete activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0001341> "GO:0097296-BFO:0000066-ZFA:0001094-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001341> "obsolete whole organism increased occurrence obsolete activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0001341> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0001437> (obsolete epithelial cell migration involved in distal tubule morphogenesis disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0001437> "0-0-GO:0072157-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0001437> "obsolete epithelial cell migration involved in distal tubule morphogenesis disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0001437> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0001467> (obsolete thigmotaxis abnormal, abnormal)
 
@@ -4149,6 +4356,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0002277> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002277> "obsolete obsolete cell aging decreased magnitude, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0002277> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0002317> (obsolete obsolete chondroitin sulfate biosynthetic process process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0002317> <http://purl.obolibrary.org/obo/ZP_0149939>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0002317> "0-0-GO:0030206-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002317> "obsolete obsolete chondroitin sulfate biosynthetic process process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0002317> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0002375> (obsolete extracellular matrix component cranial cartilage spatial pattern, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0002375> "Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.")
@@ -4160,6 +4374,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0002375> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0002483> "Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002483> "obsolete death increased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0002483> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0002593> (obsolete motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0002593> "0-0-GO:0035765-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0002593> "obsolete motor neuron precursor migration involved in dorsal motor nucleus of vagus nerve formation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0002593> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0002892> (obsolete GO:0043206 disrupted, abnormal)
 
@@ -4241,11 +4461,25 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0003469> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003469> "obsolete regulation of actin cytoskeleton reorganization decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0003469> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0003517> (obsolete early endosome to recycling endosome transport decreased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0003517> <http://purl.obolibrary.org/obo/ZP_0149875>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0003517> "0-0-GO:0061502-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003517> "obsolete early endosome to recycling endosome transport decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0003517> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0003590> (obsolete GO:0000046 arrested, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0003590> "0-0-GO:0000046-PATO:0000297-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003590> "obsolete GO:0000046 arrested, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0003590> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0003620> (obsolete D-glucose import decreased rate, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0003620> <http://purl.obolibrary.org/obo/ZP_0149812>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0003620> "0-0-GO:0046323-PATO:0000911-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0003620> "obsolete D-glucose import decreased rate, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0003620> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0003633> (obsolete GO:0007067 arrested, abnormal)
 
@@ -4363,6 +4597,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004583> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004583> "obsolete lateral line abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004583> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0004635> (obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0004635> <http://purl.obolibrary.org/obo/ZP_0150000>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004635> "0-0-GO:0006977-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004635> "obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004635> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0004688> (obsolete adherens junction median fin fold composition, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004688> "GO:0005913-BFO:0000050-ZFA:0000040-PATO:0000025-0-0-0")
@@ -4380,6 +4621,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004731> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004732> "Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004732> "obsolete lamina lucida epidermis absent, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004732> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0004940> (obsolete delamination involved in gastrulation with mouth forming second disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004940> "0-0-GO:0055112-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004940> "obsolete delamination involved in gastrulation with mouth forming second disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004940> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0004965> (obsolete obsolete canonical Wnt signaling pathway involved in neural crest cell differentiation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0004965> "0-0-GO:0044335-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0004965> "obsolete obsolete canonical Wnt signaling pathway involved in neural crest cell differentiation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0004965> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0005093> (obsolete regulation of cell cycle disrupted, abnormal)
 
@@ -4419,6 +4672,18 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005458> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005458> "obsolete adherens junction EVL structure, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005458> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0005469> (obsolete regulation of proton-transporting ATPase activity, rotational mechanism decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005469> "0-0-GO:0010849-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005469> "obsolete regulation of proton-transporting ATPase activity, rotational mechanism decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005469> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0005471> (obsolete regulation of cellular pH reduction decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005471> "0-0-GO:0032847-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005471> "obsolete regulation of cellular pH reduction decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005471> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0005476> (obsolete GO:0090002 disrupted, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005476> "0-0-GO:0090002-PATO:0001507-0-0-0")
@@ -4431,6 +4696,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005509> "0-0-GO:0044028-PATO:0001863-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005509> "obsolete DNA hypomethylation chronic, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005509> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0005513> (obsolete obsolete DNA demethylation increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005513> "0-0-GO:0080111-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005513> "obsolete obsolete DNA demethylation increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005513> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0005638> (obsolete water homeostasis disrupted, abnormal)
 
@@ -4468,6 +4739,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005761> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005762> "0-0-GO:0008345-PATO:0000460-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005762> "obsolete larval locomotory behavior abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005762> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0005779> (obsolete extracellular space DEL decreased area, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0005779> "GO:0005615-BFO:0000050-ZFA:0000711-PATO:0002058-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0005779> "obsolete extracellular space DEL decreased area, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0005779> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0005795> (obsolete GO:0015992 disrupted, abnormal)
 
@@ -4532,6 +4809,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006588> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006588> "obsolete GO:0007067 decreased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006588> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0006654> (obsolete obsolete mRNA polyadenylation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006654> "0-0-GO:0006378-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006654> "obsolete obsolete mRNA polyadenylation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006654> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0006719> (obsolete regulation of cell cycle disrupted, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006719> "0-0-GO:0007050-PATO:0001507-0-0-0")
@@ -4544,6 +4827,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006739> "0-0-GO:0070997-PATO:0002051-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006739> "obsolete neuron death increased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006739> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0006748> (obsolete D-glucose import decreased process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0006748> <http://purl.obolibrary.org/obo/ZP_0151542>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006748> "0-0-GO:0046323-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006748> "obsolete D-glucose import decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006748> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0006793> (obsolete startle response abnormal, abnormal)
 
@@ -4574,6 +4864,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006812> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006813> "0-0-GO:0048589-PATO:0000460-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006813> "obsolete developmental growth abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006813> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0006833> (obsolete protein glycosylation decreased process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0006833> <http://purl.obolibrary.org/obo/ZP_0149757>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0006833> "0-0-GO:0006486-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0006833> "obsolete protein glycosylation decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0006833> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0006866> (obsolete regulation of cell cycle increased duration, abnormal)
 
@@ -4606,6 +4903,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007175> "obsolete ZP:0007175")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007175> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0007188> (obsolete obsolete chondroitin sulfate biosynthetic process increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007188> "0-0-GO:0030206-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007188> "obsolete obsolete chondroitin sulfate biosynthetic process increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007188> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0007364> (obsolete pathway-restricted SMAD protein phosphorylation disrupted, abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0007364> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/60>)
@@ -4633,11 +4936,36 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007636> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007636> "obsolete regulation of phosphatidylinositol 3-kinase signaling disrupted, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007636> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0007646> (obsolete obsolete RNA 3' uridylation increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007646> "0-0-GO:0071076-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007646> "obsolete obsolete RNA 3' uridylation increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007646> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0007679> (obsolete glycosylation decreased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007679> "0-0-GO:0070085-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007679> "obsolete glycosylation decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007679> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0007743> (obsolete obsolete planar cell polarity pathway involved in axis elongation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007743> "0-0-GO:0003402-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007743> "obsolete obsolete planar cell polarity pathway involved in axis elongation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007743> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0007778> (obsolete death premature, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007778> "Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007778> "obsolete death premature, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007778> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0007886> (obsolete obsolete oligosaccharide-lipid intermediate biosynthetic process disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0007886> <http://purl.obolibrary.org/obo/ZP_0007885>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0007886> "0-0-GO:0006490-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0007886> "obsolete obsolete oligosaccharide-lipid intermediate biosynthetic process disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0007886> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0007907> (obsolete neuromuscular process controlling balance abnormal, abnormal)
 
@@ -4717,6 +5045,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0008631> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0008642> "GO:0005913-BFO:0000050-ZFA:0009084-PATO:0000470-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008642> "obsolete adherens junction chondrocyte increased amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0008642> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0008719> (obsolete protein glycosylation disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0008719> <http://purl.obolibrary.org/obo/ZP_0150013>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0008719> "0-0-GO:0006486-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0008719> "obsolete protein glycosylation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0008719> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0008731> (obsolete laminin binding whole organism decreased occurrence, abnormal)
 
@@ -4912,6 +5247,18 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0010658> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010658> "obsolete zinc ion homeostasis disrupted, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0010658> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0010716> (obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0010716> "0-0-GO:0006919-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010716> "obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0010716> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0010760> (obsolete lymphoid lineage cell migration into thymus involved in thymus epithelium morphogenesis disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0010760> "0-0-GO:1902550-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0010760> "obsolete lymphoid lineage cell migration into thymus involved in thymus epithelium morphogenesis disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0010760> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0010844> (obsolete cranial cartilage abnormal, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0010844> "0-0-ZFA:0001458-PATO:0000460-0-0-0")
@@ -4985,6 +5332,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0011111> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0011111> "obsolete fourth ventricle development abnormal, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0011111> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0011261> (obsolete obsolete NADH oxidation decreased rate, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0011261> "0-0-GO:0006116-PATO:0000911-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0011261> "obsolete obsolete NADH oxidation decreased rate, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0011261> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0011273> (obsolete vH ionocyte rate ATP hydrolysis coupled proton transport, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0011273> "GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000161-0-0-0")
@@ -4996,6 +5349,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0011273> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0011298> "GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000911-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0011298> "obsolete vH ionocyte decreased rate ATP hydrolysis coupled proton transport, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0011298> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0011324> (obsolete whole organism process quality mitotic cell cycle, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0011324> "GO:0000278-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0011324> "obsolete whole organism process quality mitotic cell cycle, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0011324> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0011340> (obsolete presumptive endocardium decreased process quality BMP signaling pathway involved in heart development, abnormal)
 
@@ -5109,6 +5468,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012150> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012150> "obsolete obsolete transcriptional activation by promoter-enhancer looping decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012150> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0012224> (obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0012224> <http://purl.obolibrary.org/obo/ZP_0149977>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012224> "GO:0005747-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012224> "obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012224> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0012239> (obsolete kidney lacks parts or has fewer parts of type hematopoietic stem cell, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012239> "0-0-ZFA:0000529-PATO:0001999-0-0-ZFA:0009014")
@@ -5133,6 +5499,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012501> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012509> "0-0-ZFA:0000029-PATO:0002001-0-0-ZFA:0005182")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012509> "obsolete hindbrain has fewer parts of type ZFA:0005182, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012509> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0012514> (obsolete forebrain increased process quality Roundabout signaling pathway involved in axon guidance, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012514> "GO:2001266-BFO:0000066-ZFA:0000109-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012514> "obsolete forebrain increased process quality Roundabout signaling pathway involved in axon guidance, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012514> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0012546> (obsolete obsolete DNA methylation decreased process quality, abnormal)
 
@@ -5165,6 +5537,25 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012645> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012645> "obsolete NMDA glutamate receptor activity Mauthner neuron decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012645> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0012687> (obsolete D-glucose import disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0012687> <http://purl.obolibrary.org/obo/ZP_0150015>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012687> "0-0-GO:0046323-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012687> "obsolete D-glucose import disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012687> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0012810> (obsolete pronephric proximal convoluted tubule process quality cell differentiation involved in pronephros development, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012810> "GO:0039014-BFO:0000066-ZFA:0001620-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012810> "obsolete pronephric proximal convoluted tubule process quality cell differentiation involved in pronephros development, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012810> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0012811> (obsolete pronephric proximal straight tubule process quality cell differentiation involved in pronephros development, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012811> "GO:0039014-BFO:0000066-ZFA:0001621-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0012811> "obsolete pronephric proximal straight tubule process quality cell differentiation involved in pronephros development, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0012811> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0012894> (obsolete GO:0042384 growth quality of occurrent, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0012894> "0-0-GO:0042384-PATO:0001433-0-0-0")
@@ -5183,6 +5574,18 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013049> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013049> "obsolete convergent extension occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013049> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0013206> (obsolete obsolete regulation of telomerase activity process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013206> "0-0-GO:0051972-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013206> "obsolete obsolete regulation of telomerase activity process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013206> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0013228> (obsolete DEL differentiated, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013228> "0-0-ZFA:0000711-PATO:0002099-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013228> "obsolete DEL differentiated, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013228> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0013238> (obsolete ZFA:0005182 amount, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013238> "0-0-ZFA:0005182-PATO:0000070-0-0-0")
@@ -5200,6 +5603,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013302> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013393> "0-0-GO:0048747-PATO:0001236-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013393> "obsolete muscle cell development process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013393> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0013433> (obsolete obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013433> "0-0-GO:0050653-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013433> "obsolete obsolete chondroitin sulfate proteoglycan biosynthetic process, chain elongation process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013433> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0013440> (obsolete astral spindle assembly process quality, abnormal)
 
@@ -5225,6 +5634,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013462> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013468> "0-0-GO:0060047-PATO:0000505-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013468> "obsolete heart contraction rhythmic, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013468> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0013486> (obsolete fucosylation decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0013486> "0-0-GO:0036065-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0013486> "obsolete fucosylation decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0013486> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0013529> (obsolete regulation of transcription from RNA polymerase II promoter in response to stress occurrence, abnormal)
 
@@ -5349,6 +5764,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014429> "Re
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014429> "obsolete ATP catabolic process increased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014429> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0014485> (obsolete D-glucose import increased process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0014485> <http://purl.obolibrary.org/obo/ZP_0150944>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014485> "0-0-GO:0046323-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014485> "obsolete D-glucose import increased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014485> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0014493> (obsolete GO:0071436 increased process quality, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014493> "0-0-GO:0071436-PATO:0002304-0-0-0")
@@ -5360,6 +5782,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014493> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014494> "0-0-GO:0097369-PATO:0002304-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014494> "obsolete GO:0097369 increased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014494> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0014509> (obsolete forebrain process quality Roundabout signaling pathway involved in axon guidance, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014509> "GO:2001266-BFO:0000066-ZFA:0000109-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014509> "obsolete forebrain process quality Roundabout signaling pathway involved in axon guidance, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014509> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0014523> (obsolete protein kinase A signaling increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014523> "0-0-GO:0010737-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014523> "obsolete protein kinase A signaling increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014523> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0014525> (obsolete BMP signaling pathway involved in heart development decreased process quality, abnormal)
 
@@ -5406,6 +5840,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014578> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014578> "obsolete GO:0000046 decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014578> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0014605> (obsolete obsolete retinoic acid receptor signaling pathway involved in somitogenesis process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014605> "0-0-GO:0090242-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014605> "obsolete obsolete retinoic acid receptor signaling pathway involved in somitogenesis process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014605> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0014675> (obsolete cysteine-type endopeptidase activity retinal ganglion cell occurrence, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014675> "GO:0004197-BFO:0000050-ZFA:0009310-PATO:0000057-0-0-0")
@@ -5417,6 +5857,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014675> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014683> "GO:0015991-BFO:0000066-ZFA:0005327-PATO:0000912-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014683> "obsolete vH ionocyte increased rate ATP hydrolysis coupled proton transport, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014683> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0014716> (obsolete whole organism decreased process quality apoptotic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014716> "GO:0006915-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014716> "obsolete whole organism decreased process quality apoptotic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014716> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0014717> (obsolete whole organism decreased process quality cell population proliferation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0014717> "GO:0008283-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0014717> "obsolete whole organism decreased process quality cell population proliferation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0014717> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0014750> (obsolete acetylcholinesterase activity gut decreased process quality, abnormal)
 
@@ -5490,6 +5942,26 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0015456> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0015457> "Removed as part of a major revision session. Please contact us on https://github.com/obophenotype/zebrafish-phenotype-ontology/issues for suitable replacement terms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0015457> "obsolete antibiotic transmembrane transporter activity decreased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0015457> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0015625> (obsolete regulation of guanylate cyclase activity disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0015625> "0-0-GO:0031282-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0015625> "obsolete regulation of guanylate cyclase activity disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0015625> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0015834> (obsolete obsolete chondroitin sulfate biosynthetic process disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0015834> <http://purl.obolibrary.org/obo/ZP_0149980>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0015834> "0-0-GO:0030206-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0015834> "obsolete obsolete chondroitin sulfate biosynthetic process disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0015834> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0016006> (obsolete anatomical boundary somite morphology, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0016006> <http://purl.obolibrary.org/obo/ZP_0003153>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0016006> "CARO:0000010-BFO:0000050-ZFA:0000155-PATO:0000051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0016006> "obsolete anatomical boundary somite morphology, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0016006> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0016275> (obsolete catechol oxidase activity melanocyte decreased process quality, abnormal)
 
@@ -5618,6 +6090,19 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018128> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018128> "obsolete obsolete cell retinal pigmented epithelium morphology, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018128> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0018283> (obsolete obsolete mitochondrial respirasome slow muscle cell decreased functionality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018283> "GO:0005746-BFO:0000050-ZFA:0009116-PATO:0001624-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018283> "obsolete obsolete mitochondrial respirasome slow muscle cell decreased functionality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018283> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018284> (obsolete obsolete mitochondrial respirasome fast muscle cell decreased functionality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0018284> <http://purl.obolibrary.org/obo/ZP_0151602>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018284> "GO:0005746-BFO:0000050-ZFA:0009117-PATO:0001624-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018284> "obsolete obsolete mitochondrial respirasome fast muscle cell decreased functionality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018284> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0018355> (obsolete ZP:0018355)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0018355> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
@@ -5631,6 +6116,48 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018356> "0-0-GO:0043974-PATO:0002304-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018356> "obsolete ZP:0018356")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018356> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018425> (obsolete retinal pigmented epithelium detached from retina, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018425> "0-0-ZFA:0000144-PATO:0001453-0-0-ZFA:0000152")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018425> "obsolete retinal pigmented epithelium detached from retina, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018425> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018426> (obsolete neuron retina mislocalised, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018426> "ZFA:0009248-BFO:0000050-ZFA:0000152-PATO:0000628-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018426> "obsolete neuron retina mislocalised, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018426> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018427> (obsolete adherens junction outer limiting membrane absent, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018427> "GO:0005912-BFO:0000050-ZFA:0001331-PATO:0000462-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018427> "obsolete adherens junction outer limiting membrane absent, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018427> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018428> (obsolete adherens junction outer limiting membrane malformed, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018428> "GO:0005912-BFO:0000050-ZFA:0001331-PATO:0000646-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018428> "obsolete adherens junction outer limiting membrane malformed, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018428> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018429> (obsolete eye photoreceptor cell immature, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018429> "0-0-ZFA:0009154-PATO:0001501-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018429> "obsolete eye photoreceptor cell immature, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018429> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018430> (obsolete green sensitive photoreceptor cell absent, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018430> "0-0-ZFA:0009223-PATO:0000462-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018430> "obsolete green sensitive photoreceptor cell absent, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018430> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018431> (obsolete red sensitive photoreceptor cell absent, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018431> "0-0-ZFA:0009224-PATO:0000462-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018431> "obsolete red sensitive photoreceptor cell absent, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018431> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0018493> (obsolete intracellular part skeletal muscle aggregated, abnormal)
 
@@ -5649,6 +6176,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018494> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018659> "GO:0005623-BFO:0000050-ZFA:0000023-PATO:0001997-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018659> "obsolete obsolete cell forerunner cell group decreased amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018659> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0018762> (obsolete obsolete Wnt signaling pathway involved in dorsal/ventral axis specification increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0018762> "0-0-GO:0044332-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0018762> "obsolete obsolete Wnt signaling pathway involved in dorsal/ventral axis specification increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0018762> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0018791> (obsolete obsolete DNA damage response, detection of DNA damage process quality, abnormal)
 
@@ -5724,6 +6257,19 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019257> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019257> "obsolete obsolete mitotic chromosome decondensation premature, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019257> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0019315> (obsolete pronephric duct decreased process quality ciliary basal body-plasma membrane docking, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0019315> <http://purl.obolibrary.org/obo/ZP_0151646>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019315> "GO:0097711-BFO:0000066-ZFA:0000150-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019315> "obsolete pronephric duct decreased process quality ciliary basal body-plasma membrane docking, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019315> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0019459> (obsolete obsolete planar cell polarity pathway involved in axon guidance decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019459> "0-0-GO:1904938-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019459> "obsolete obsolete planar cell polarity pathway involved in axon guidance decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019459> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0019481> (obsolete ubiquinol-cytochrome-c reductase activity brain decreased process quality, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019481> "GO:0008121-BFO:0000050-ZFA:0000008-PATO:0002302-0-0-0")
@@ -5747,6 +6293,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019494> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019497> "GO:0015929-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019497> "obsolete hexosaminidase activity brain increased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019497> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0019538> (obsolete extracellular space chondrocyte mislocalised, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0019538> <http://purl.obolibrary.org/obo/ZP_0149926>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019538> "GO:0005615-BFO:0000050-ZFA:0009084-PATO:0000628-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019538> "obsolete extracellular space chondrocyte mislocalised, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019538> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0019544> (obsolete embryonic viscerocranium morphogenesis occurrence, abnormal)
 
@@ -5773,6 +6326,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019621> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019621> "obsolete iron ion homeostasis decreased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019621> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0019898> (obsolete cell motility involved in camera-type eye morphogenesis disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019898> "0-0-GO:0003411-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019898> "obsolete cell motility involved in camera-type eye morphogenesis disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019898> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0019926> (obsolete interneuron spatial pattern, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019926> "0-0-ZFA:0009051-PATO:0000060-0-0-0")
@@ -5790,6 +6349,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019964> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0019970> "0-0-ZFA:0009199-PATO:0002168-BSPO:0000099-BFO:0000050-ZFA:0000076")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0019970> "obsolete iridophore displaced to posterior_toposterior to swim bladder, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0019970> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0020011> (obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0020011> "0-0-GO:0097153-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0020011> "obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0020011> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0020021> (obsolete midbrain hindbrain boundary increased distribution, abnormal)
 
@@ -5868,6 +6433,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0020381> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0020405> "GO:0005248-BFO:0000050-ZFA:0009150-PATO:0002302-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0020405> "obsolete voltage-gated sodium channel activity Rohon-Beard neuron decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0020405> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0020478> (obsolete negative regulation of hh target transcription factor activity disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0020478> "0-0-GO:1990787-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0020478> "obsolete negative regulation of hh target transcription factor activity disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0020478> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0020620> (obsolete anatomical structure amount, abnormal)
 
@@ -6424,6 +6995,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0021729> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0021732> "0-0-ZFA:0005057-PATO:0000070-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0021732> "obsolete epicardium amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0021732> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0021735> (obsolete neuromast hair cell decreased occurrence cell population proliferation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0021735> "GO:0008283-BFO:0000066-ZFA:0009367-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0021735> "obsolete neuromast hair cell decreased occurrence cell population proliferation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0021735> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0021736> (obsolete regenerating tissue has fewer parts of type neuromast neuromast support cell, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0021736> "ZFA:0000243-BFO:0000050-ZFA:0005147-PATO:0002001-0-0-ZFA:0009363")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0021736> "obsolete regenerating tissue has fewer parts of type neuromast neuromast support cell, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0021736> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0021738> (obsolete plasma lipoprotein particle blood amount, abnormal)
 
@@ -7532,6 +8115,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0022987> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0022987> "obsolete cardiac muscle cell action potential involved in contraction duration, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0022987> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0023004> (obsolete anatomical boundary myotome spatial pattern, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0023004> <http://purl.obolibrary.org/obo/ZP_0151645>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0023004> "CARO:0000010-BFO:0000050-ZFA:0001056-PATO:0000060-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0023004> "obsolete anatomical boundary myotome spatial pattern, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0023004> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0023014> (obsolete ectomesenchyme amount, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0023014> "0-0-ZFA:0005771-PATO:0000070-0-0-0")
@@ -7882,6 +8472,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0100458> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0100458> "obsolete neuromast hair cell process quality apoptotic process, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0100458> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0100477> (obsolete hepatocyte increased process quality inflammatory response, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0100477> "GO:0006954-BFO:0000066-ZFA:0009111-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0100477> "obsolete hepatocyte increased process quality inflammatory response, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0100477> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0100483> (obsolete leukocyte amount, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0100483> "0-0-ZFA:0009309-PATO:0000070-0-0-0")
@@ -8145,6 +8741,20 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0101044> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0101047> "GO:0016209-BFO:0000050-ZFA:0000008-PATO:0002304-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0101047> "obsolete antioxidant activity brain increased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0101047> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0101051> (obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0101051> <http://purl.obolibrary.org/obo/ZP_0149854>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0101051> "0-0-GO:0097153-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0101051> "obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0101051> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0101052> (obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0101052> <http://purl.obolibrary.org/obo/ZP_0150083>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0101052> "0-0-GO:0097153-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0101052> "obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0101052> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0101055> (obsolete oligodendrocyte hindbrain amount, abnormal)
 
@@ -9039,6 +9649,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0102990> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0102990> "obsolete bone development occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0102990> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0103026> (obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103026> "0-0-GO:0006919-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103026> "obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103026> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0103031> (obsolete mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity brain decreased occurrence, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103031> "GO:0016422-BFO:0000050-ZFA:0000008-PATO:0002052-0-0-0")
@@ -9148,11 +9764,36 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103546> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103546> "obsolete whole organism decreased process quality obsolete DNA methylation, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103546> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0103592> (obsolete ciliary basal body-plasma membrane docking disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0103592> <http://purl.obolibrary.org/obo/ZP_0151691>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103592> "0-0-GO:0097711-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103592> "obsolete ciliary basal body-plasma membrane docking disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103592> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0103621> (obsolete common bile duct increased occurrence cell population proliferation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103621> "GO:0008283-BFO:0000066-ZFA:0005165-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103621> "obsolete common bile duct increased occurrence cell population proliferation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103621> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0103623> (obsolete cholangiocyte liver amount, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103623> "ZFA:0009397-BFO:0000050-ZFA:0000123-PATO:0000070-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103623> "obsolete cholangiocyte liver amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103623> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0103625> (obsolete common bile duct hyperplastic, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103625> "0-0-ZFA:0005165-PATO:0000644-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103625> "obsolete common bile duct hyperplastic, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103625> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0103626> (obsolete common bile duct increased circumference, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103626> "0-0-ZFA:0005165-PATO:0001898-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103626> "obsolete common bile duct increased circumference, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103626> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0103640> (obsolete whole organism has number of dorsal region melanocyte, abnormal)
 
@@ -9171,6 +9812,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103649> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103670> "0-0-ZFA:0000416-PATO:0000070-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103670> "obsolete presumptive endoderm amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103670> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0103671> (obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0103671> <http://purl.obolibrary.org/obo/ZP_0151693>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0103671> "0-0-GO:0097153-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0103671> "obsolete obsolete cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0103671> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0103673> (obsolete presumptive mesoderm amount, abnormal)
 
@@ -9396,6 +10044,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104547> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104547> "obsolete eye increased process quality obsolete DNA methylation, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104547> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0104642> (obsolete obsolete RNA 3' uridylation decreased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104642> "0-0-GO:0071076-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104642> "obsolete obsolete RNA 3' uridylation decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104642> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0104713> (obsolete anterior region lens spatial pattern, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104713> "BSPO:0000071-BFO:0000050-ZFA:0000035-PATO:0000060-0-0-0")
@@ -9426,6 +10080,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104720> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104720> "obsolete lens epithelium thickness, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104720> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0104724> (obsolete lens epithelium decreased occurrence early endosome to recycling endosome transport, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0104724> <http://purl.obolibrary.org/obo/ZP_0151717>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104724> "GO:0061502-BFO:0000066-ZFA:0001326-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104724> "obsolete lens epithelium decreased occurrence early endosome to recycling endosome transport, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104724> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0104733> (obsolete heart decreased process quality heart jogging, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104733> "GO:0003146-BFO:0000066-ZFA:0000114-PATO:0002302-0-0-0")
@@ -9450,6 +10111,13 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104746> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104746> "obsolete GO:0033142 ovary process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104746> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0104774> (obsolete brain decreased occurrence nitric oxide mediated signal transduction, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0104774> <http://purl.obolibrary.org/obo/ZP_0151718>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104774> "GO:0007263-BFO:0000066-ZFA:0000008-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104774> "obsolete brain decreased occurrence nitric oxide mediated signal transduction, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104774> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0104775> (obsolete aggressive behavior occurrence, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104775> "0-0-GO:0002118-PATO:0000057-0-0-0")
@@ -9461,6 +10129,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104775> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0104778> "GO:0072089-BFO:0000066-ZFA:0009292-PATO:0000057-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0104778> "obsolete radial glial cell occurrence stem cell proliferation, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0104778> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0105654> (obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0105654> "0-0-GO:0006977-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0105654> "obsolete obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0105654> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0105655> (obsolete regulation of cell cycle decreased process quality, abnormal)
 
@@ -9474,6 +10148,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0105661> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0105661> "obsolete adherens junction neural tube morphology, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0105661> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0105703> (obsolete negative regulation of convergent extension involved in axis elongation delayed, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0105703> "0-0-GO:1901233-PATO:0000502-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0105703> "obsolete negative regulation of convergent extension involved in axis elongation delayed, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0105703> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0105887> (obsolete biological process involved in interaction with host occurrence, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0105887> "0-0-GO:0044117-PATO:0000057-0-0-0")
@@ -9485,6 +10165,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0105887> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0105888> "0-0-GO:0044117-PATO:0002052-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0105888> "obsolete biological process involved in interaction with host decreased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0105888> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0106222> (obsolete photoreceptor cell decreased occurrence synaptic vesicle docking, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0106222> "GO:0016081-BFO:0000066-ZFA:0009127-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0106222> "obsolete photoreceptor cell decreased occurrence synaptic vesicle docking, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0106222> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0106241> (obsolete whole organism decreased process quality histone H3-K36 trimethylation, abnormal)
 
@@ -9503,6 +10189,19 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0106242> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0106949> "0-0-GO:0042493-PATO:0001236-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0106949> "obsolete response to xenobiotic stimulus process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0106949> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0110335> (obsolete pronephric tubule process quality obsolete retinoic acid receptor signaling pathway involved in pronephros anterior/posterior pattern specification, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0110335> "GO:0034671-BFO:0000066-ZFA:0001558-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0110335> "obsolete pronephric tubule process quality obsolete retinoic acid receptor signaling pathway involved in pronephros anterior/posterior pattern specification, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0110335> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0110352> (obsolete pronephric tubule decreased occurrence ciliary basal body-plasma membrane docking, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0110352> <http://purl.obolibrary.org/obo/ZP_0151736>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0110352> "GO:0097711-BFO:0000066-ZFA:0001558-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0110352> "obsolete pronephric tubule decreased occurrence ciliary basal body-plasma membrane docking, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0110352> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0127643> (obsolete abnormal Kupffer's vesicle)
 
@@ -27762,6 +28461,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0137404> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0137404> "obsolete GO:0005720 whole organism increased amount, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0137404> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0137420> (obsolete obsolete 3,4-dihydroxyphenanthrene dioxygenase activity disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0137420> "0-0-GO:0018568-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0137420> "obsolete obsolete 3,4-dihydroxyphenanthrene dioxygenase activity disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0137420> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0137439> (obsolete ZP:0137439)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0137439> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
@@ -27794,11 +28499,25 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0137689> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0137689> "obsolete pathway-restricted SMAD protein phosphorylation increased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0137689> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0137765> (obsolete anatomical boundary hepatocyte amorphous, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0137765> <http://purl.obolibrary.org/obo/ZP_0008091>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0137765> "CARO:0000010-BFO:0000050-ZFA:0009111-PATO:0001332-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0137765> "obsolete anatomical boundary hepatocyte amorphous, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0137765> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0137867> (obsolete ZP:0137867)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0137867> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0137867> "obsolete ZP:0137867")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0137867> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0138154> (obsolete whole organism process quality aldo-keto reductase (NADPH) activity, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0138154> <http://purl.obolibrary.org/obo/ZP_0151765>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0138154> "GO:0004033-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0138154> "obsolete whole organism process quality aldo-keto reductase (NADPH) activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0138154> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0138437> (obsolete occipital lateral line neuromast misaligned with neuromast hair cell neuromast hair cell occipital lateral line neuromast, abnormal)
 
@@ -27840,11 +28559,63 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0138521> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0138521> "obsolete muscle decreased occurrence obsolete DNA methylation, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0138521> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0138672> (obsolete obsolete reproduction decreased efficacy, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0138672> <http://purl.obolibrary.org/obo/ZP_0151767>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0138672> "0-0-GO:0000003-PATO:0015003-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0138672> "obsolete obsolete reproduction decreased efficacy, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0138672> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0138681> (obsolete clearance of damaged tissue involved in inflammatory response wound healing decreased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0138681> "0-0-GO:0002247-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0138681> "obsolete clearance of damaged tissue involved in inflammatory response wound healing decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0138681> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0139742> (obsolete regulation of cell cycle decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0139742> "0-0-GO:0051726-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0139742> "obsolete regulation of cell cycle decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0139742> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0139781> (obsolete ZP:0139781)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0139781> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0139781> "obsolete ZP:0139781")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0139781> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0139797> (obsolete positive regulation of NF-kappaB transcription factor activity increased magnitude, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0139797> "0-0-GO:0051092-PATO:0002017-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0139797> "obsolete positive regulation of NF-kappaB transcription factor activity increased magnitude, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0139797> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0139865> (obsolete liver increased occurrence obsolete cellular lipid catabolic process, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0139865> <http://purl.obolibrary.org/obo/ZP_0149979>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0139865> "GO:0044242-BFO:0000066-ZFA:0000123-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0139865> "obsolete liver increased occurrence obsolete cellular lipid catabolic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0139865> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0140059> (obsolete regulation of cAMP-mediated signaling increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0140059> "0-0-GO:0043949-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140059> "obsolete regulation of cAMP-mediated signaling increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140059> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0140184> (obsolete obsolete mitochondrial respirasome whole organism decreased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0140184> <http://purl.obolibrary.org/obo/ZP_0150924>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0140184> "GO:0005746-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140184> "obsolete obsolete mitochondrial respirasome whole organism decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140184> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0140322> (obsolete D-glucose import increased rate, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0140322> <http://purl.obolibrary.org/obo/ZP_0151019>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0140322> "0-0-GO:0046323-PATO:0000912-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140322> "obsolete D-glucose import increased rate, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140322> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0140582> (obsolete ZP:0140582)
 
@@ -27880,6 +28651,12 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0140676> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140676> "obsolete integument increased occurrence obsolete animal organ senescence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140676> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0140682> (obsolete atrioventricular canal decreased occurrence cell proliferation involved in heart valve morphogenesis, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0140682> "GO:0003249-BFO:0000066-ZFA:0001315-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140682> "obsolete atrioventricular canal decreased occurrence cell proliferation involved in heart valve morphogenesis, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140682> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0140847> (obsolete ZP:0140847)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0140847> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
@@ -27891,6 +28668,13 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140847> "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0140848> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0140848> "obsolete ZP:0140848")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0140848> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0141093> (obsolete obsolete RNA polymerase I activity disrupted, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0141093> <http://purl.obolibrary.org/obo/ZP_0151785>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141093> "0-0-GO:0001054-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141093> "obsolete obsolete RNA polymerase I activity disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141093> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0141190> (obsolete vertebra increased occurrence biomineralization, abnormal)
 
@@ -27913,6 +28697,40 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141192> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141192> "obsolete postcranial axial skeleton increased occurrence biomineralization, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141192> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0141352> (obsolete anatomical boundary notochord straight, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0141352> <http://purl.obolibrary.org/obo/ZP_0151792>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141352> "CARO:0000010-BFO:0000050-ZFA:0000135-PATO:0002180-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141352> "obsolete anatomical boundary notochord straight, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141352> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0141389> (obsolete retina disrupted detection of electrical stimulus involved in electroception, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141389> "GO:0050964-BFO:0000066-ZFA:0000152-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141389> "obsolete retina disrupted detection of electrical stimulus involved in electroception, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141389> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0141410> (obsolete obsolete mitochondrial respiratory chain complex III skeletal muscle decreased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0141410> <http://purl.obolibrary.org/obo/ZP_0151794>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141410> "GO:0005750-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141410> "obsolete obsolete mitochondrial respiratory chain complex III skeletal muscle decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141410> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0141579> (obsolete extracellular space muscle cell increased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0141579> <http://purl.obolibrary.org/obo/ZP_0151795>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141579> "GO:0005615-BFO:0000050-ZFA:0009114-PATO:0000470-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141579> "obsolete extracellular space muscle cell increased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141579> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0141581> (obsolete extracellular space pericardial muscle increased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0141581> <http://purl.obolibrary.org/obo/ZP_0151796>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141581> "GO:0005615-BFO:0000050-ZFA:0001653-PATO:0000470-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141581> "obsolete extracellular space pericardial muscle increased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141581> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0141869> (obsolete regenerating fin arrested obsolete histone citrullination, abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0141869> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/50>)
@@ -27920,12 +28738,98 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141869> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141869> "obsolete regenerating fin arrested obsolete histone citrullination, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141869> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0141884> (obsolete atrioventricular canal increased occurrence cell proliferation involved in heart valve morphogenesis, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0141884> "GO:0003249-BFO:0000066-ZFA:0001315-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0141884> "obsolete atrioventricular canal increased occurrence cell proliferation involved in heart valve morphogenesis, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0141884> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142073> (obsolete D-glucose import process quality, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0142073> <http://purl.obolibrary.org/obo/ZP_0151800>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142073> "0-0-GO:0046323-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142073> "obsolete D-glucose import process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142073> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142106> (obsolete mitochondrial genome maintenance process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142106> "0-0-GO:0000002-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142106> "obsolete mitochondrial genome maintenance process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142106> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142209> (obsolete positive regulation of NF-kappaB transcription factor activity decreased magnitude, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142209> "0-0-GO:0051092-PATO:0002018-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142209> "obsolete positive regulation of NF-kappaB transcription factor activity decreased magnitude, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142209> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142249> (obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased efficiency, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142249> "GO:0005747-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142249> "obsolete obsolete mitochondrial respiratory chain complex I whole organism decreased efficiency, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142249> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142250> (obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased efficiency, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142250> "GO:0005749-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142250> "obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased efficiency, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142250> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142251> (obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142251> "GO:0005749-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142251> "obsolete obsolete mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) whole organism decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142251> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142252> (obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased efficiency, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0142252> <http://purl.obolibrary.org/obo/ZP_0151806>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142252> "GO:0005751-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142252> "obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased efficiency, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142252> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142253> (obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142253> "GO:0005751-BFO:0000050-ZFA:0001094-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142253> "obsolete obsolete mitochondrial respiratory chain complex IV whole organism decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142253> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142254> (obsolete obsolete mitochondrial proton-transporting ATP synthase complex whole organism decreased efficiency, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142254> "GO:0005753-BFO:0000050-ZFA:0001094-PATO:0001675-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142254> "obsolete obsolete mitochondrial proton-transporting ATP synthase complex whole organism decreased efficiency, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142254> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0142384> (obsolete GO:0014024 delayed, abnormal)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0142384> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/50>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142384> "0-0-GO:0014024-PATO:0000502-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142384> "obsolete GO:0014024 delayed, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142384> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142423> (obsolete liver increased magnitude obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142423> "GO:0006919-BFO:0000066-ZFA:0000123-PATO:0002017-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142423> "obsolete liver increased magnitude obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142423> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142469> (obsolete obsolete DNA demethylation decreased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142469> "0-0-GO:0080111-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142469> "obsolete obsolete DNA demethylation decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142469> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142690> (obsolete positive regulation of NF-kappaB transcription factor activity increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142690> "0-0-GO:0051092-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142690> "obsolete positive regulation of NF-kappaB transcription factor activity increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142690> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142691> (obsolete positive regulation of NF-kappaB transcription factor activity normal occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142691> "0-0-GO:0051092-PATO:0045086-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142691> "obsolete positive regulation of NF-kappaB transcription factor activity normal occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142691> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0142793> (obsolete multicellular organism aging increased process quality, abnormal)
 
@@ -27939,6 +28843,30 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142793> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142872> "0-0-GO:0016571-PATO:0002051-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142872> "obsolete histone methylation increased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142872> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0142934> (obsolete cerebellum decreased occurrence cell proliferation in forebrain, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0142934> "GO:0021846-BFO:0000066-ZFA:0000100-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0142934> "obsolete cerebellum decreased occurrence cell proliferation in forebrain, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0142934> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0143093> (obsolete trunk decreased process quality regulation of lysosomal lumen pH, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0143093> "GO:0035751-BFO:0000066-ZFA:0001115-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0143093> "obsolete trunk decreased process quality regulation of lysosomal lumen pH, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0143093> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0143094> (obsolete post-vent region decreased process quality regulation of lysosomal lumen pH, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0143094> "GO:0035751-BFO:0000066-ZFA:0001117-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0143094> "obsolete post-vent region decreased process quality regulation of lysosomal lumen pH, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0143094> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0143118> (obsolete heart decreased occurrence obsolete DNA demethylation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0143118> "GO:0080111-BFO:0000066-ZFA:0000114-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0143118> "obsolete heart decreased occurrence obsolete DNA demethylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0143118> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0143597> (obsolete lens fiber cell decreased process quality mitochondrion disassembly, abnormal)
 
@@ -27961,11 +28889,100 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0143757> "0-
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0143757> "obsolete ZP:0143757")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0143757> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0143988> (obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased magnitude, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0143988> "0-0-GO:0006919-PATO:0002017-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0143988> "obsolete obsolete activation of cysteine-type endopeptidase activity involved in apoptotic process increased magnitude, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0143988> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144002> (obsolete whole organism decreased process quality aldo-keto reductase (NADPH) activity, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144002> "GO:0004033-BFO:0000066-ZFA:0001094-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144002> "obsolete whole organism decreased process quality aldo-keto reductase (NADPH) activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144002> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144026> (obsolete extracellular space lens absent, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144026> "GO:0005615-BFO:0000050-ZFA:0000035-PATO:0000462-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144026> "obsolete extracellular space lens absent, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144026> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144027> (obsolete extracellular space yolk absent, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0144027> <http://purl.obolibrary.org/obo/ZP_0151834>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144027> "GO:0005615-BFO:0000050-ZFA:0000084-PATO:0000462-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144027> "obsolete extracellular space yolk absent, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144027> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144039> (obsolete extracellular space lens decreased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0144039> <http://purl.obolibrary.org/obo/ZP_0151835>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144039> "GO:0005615-BFO:0000050-ZFA:0000035-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144039> "obsolete extracellular space lens decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144039> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144040> (obsolete extracellular space yolk decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144040> "GO:0005615-BFO:0000050-ZFA:0000084-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144040> "obsolete extracellular space yolk decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144040> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144290> (obsolete whole organism process quality obsolete exo-alpha-(2->3)-sialidase activity, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0144290> <http://purl.obolibrary.org/obo/ZP_0151839>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144290> "GO:0052794-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144290> "obsolete whole organism process quality obsolete exo-alpha-(2->3)-sialidase activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144290> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144291> (obsolete whole organism process quality obsolete exo-alpha-(2->6)-sialidase activity, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0144291> <http://purl.obolibrary.org/obo/ZP_0151839>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144291> "GO:0052795-BFO:0000066-ZFA:0001094-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144291> "obsolete whole organism process quality obsolete exo-alpha-(2->6)-sialidase activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144291> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144323> (obsolete optic cup decreased linear velocity cell motility involved in camera-type eye morphogenesis, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144323> "GO:0003411-BFO:0000066-ZFA:0001202-PATO:0040033-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144323> "obsolete optic cup decreased linear velocity cell motility involved in camera-type eye morphogenesis, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144323> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144687> (obsolete collagen-containing extracellular matrix centrum disorganized, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144687> "GO:0062023-BFO:0000050-ZFA:0000126-PATO:0000937-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144687> "obsolete collagen-containing extracellular matrix centrum disorganized, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144687> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0144773> (obsolete histone H3-K4 trimethylation decreased occurrence, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144773> "0-0-GO:0080182-PATO:0002052-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144773> "obsolete histone H3-K4 trimethylation decreased occurrence, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144773> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144787> (obsolete obsolete mitochondrial respiratory chain complex I skeletal muscle decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144787> "GO:0005747-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144787> "obsolete obsolete mitochondrial respiratory chain complex I skeletal muscle decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144787> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144788> (obsolete obsolete mitochondrial respiratory chain complex IV skeletal muscle decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144788> "GO:0005751-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144788> "obsolete obsolete mitochondrial respiratory chain complex IV skeletal muscle decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144788> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144789> (obsolete obsolete mitochondrial proton-transporting ATP synthase complex skeletal muscle decreased amount, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144789> "GO:0005753-BFO:0000050-ZFA:0005277-PATO:0001997-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144789> "obsolete obsolete mitochondrial proton-transporting ATP synthase complex skeletal muscle decreased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144789> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0144857> (obsolete protein glycosylation decreased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0144857> <http://purl.obolibrary.org/obo/ZP_0151849>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144857> "0-0-GO:0006486-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144857> "obsolete protein glycosylation decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144857> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0144987> (obsolete cleavage involved in rRNA processing decreased process quality, abnormal)
 
@@ -27973,6 +28990,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0144987> "0-0-GO:0000469-PATO:0002302-0-0-0")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0144987> "obsolete cleavage involved in rRNA processing decreased process quality, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0144987> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145119> (obsolete positive regulation of CREB transcription factor activity increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145119> "0-0-GO:0032793-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145119> "obsolete positive regulation of CREB transcription factor activity increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145119> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0145226> (obsolete neuromast hair cell increased occurrence necrotic cell death, abnormal)
 
@@ -28016,6 +29039,73 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145443> "GO
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145443> "obsolete eye photoreceptor cell disrupted iron ion homeostasis, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145443> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0145606> (obsolete macrophage increased efficacy obsolete glucocorticoid mediated signaling pathway, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145606> "GO:0043402-BFO:0000066-ZFA:0009141-PATO:0015004-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145606> "obsolete macrophage increased efficacy obsolete glucocorticoid mediated signaling pathway, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145606> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145638> (obsolete CaP motoneuron disrupted obsolete cellular biosynthetic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145638> "GO:0044249-BFO:0000066-ZFA:0009243-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145638> "obsolete CaP motoneuron disrupted obsolete cellular biosynthetic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145638> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145652> (obsolete obsolete regulation of DNA methylation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145652> "0-0-GO:0044030-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145652> "obsolete obsolete regulation of DNA methylation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145652> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145735> (obsolete membrane lipid catabolic process increased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145735> "0-0-GO:0046466-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145735> "obsolete membrane lipid catabolic process increased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145735> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145736> (obsolete L-dopa biosynthetic process decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145736> "0-0-GO:1903185-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145736> "obsolete L-dopa biosynthetic process decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145736> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145737> (obsolete L-dopa biosynthetic process normal process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145737> "0-0-GO:1903185-PATO:0045073-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145737> "obsolete L-dopa biosynthetic process normal process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145737> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0145738> (obsolete regulation of glutathione peroxidase activity decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0145738> "0-0-GO:1903282-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0145738> "obsolete regulation of glutathione peroxidase activity decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0145738> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0146446> (obsolete cardiac muscle cell decreased process quality vesicle docking, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0146446> "GO:0048278-BFO:0000066-ZFA:0009316-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0146446> "obsolete cardiac muscle cell decreased process quality vesicle docking, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0146446> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0146464> (obsolete obsolete nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5' decreased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0146464> <http://purl.obolibrary.org/obo/ZP_0151857>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0146464> "0-0-GO:0034427-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0146464> "obsolete obsolete nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5' decreased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0146464> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0146732> (obsolete cardiac ventricle decreased rate sequestering of calcium ion, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0146732> "GO:0051208-BFO:0000066-ZFA:0000009-PATO:0000911-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0146732> "obsolete cardiac ventricle decreased rate sequestering of calcium ion, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0146732> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0146800> (obsolete obsolete basement membrane collagen trimer myoseptum anatomical structure quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0146800> "GO:0098651-BFO:0000050-ZFA:0001089-PATO:0070044-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0146800> "obsolete obsolete basement membrane collagen trimer myoseptum anatomical structure quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0146800> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0147191> (obsolete ZP:0147191)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/ZP_0147191> <https://github.com/obophenotype/zebrafish-phenotype-ontology/issues/64>)
@@ -28058,6 +29148,19 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0147200> "obsolete ZP:0147200")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0147200> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/ZP_0147951> (obsolete extracellular space telencephalon increased amount, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0147951> <http://purl.obolibrary.org/obo/ZP_0151924>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0147951> "GO:0005615-BFO:0000050-ZFA:0000079-PATO:0000470-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0147951> "obsolete extracellular space telencephalon increased amount, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0147951> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148133> (obsolete obsolete regulation of deoxyribonuclease activity decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148133> "0-0-GO:0032070-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148133> "obsolete obsolete regulation of deoxyribonuclease activity decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148133> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/ZP_0148190> (obsolete ependymoglial cell increased magnitude histone acetylation, abnormal)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148190> "GO:0016573-BFO:0000066-ZFA:0009294-PATO:0002017-0-0-0")
@@ -28088,6 +29191,146 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148522> "
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148523> "BSPO:0000072-BFO:0000050-ZFA:0001056-PATO:0002002-GO:0032991-BFO:0000050-ZFA:0001056")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148523> "obsolete myotome has extra parts of type posterior region protein-containing complex myotome, abnormal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148523> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148536> (obsolete obsolete regulation of prostaglandin-E synthase activity decreased process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148536> "0-0-GO:2000361-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148536> "obsolete obsolete regulation of prostaglandin-E synthase activity decreased process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148536> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148541> (obsolete caudal hematopoietic tissue decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148541> "GO:2000361-BFO:0000066-ZFA:0005898-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148541> "obsolete caudal hematopoietic tissue decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148541> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148542> (obsolete endothelial cell decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148542> "GO:2000361-BFO:0000066-ZFA:0009065-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148542> "obsolete endothelial cell decreased process quality obsolete regulation of prostaglandin-E synthase activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148542> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148602> (obsolete obsolete cellular response to organic substance increased occurrence, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148602> "0-0-GO:0071310-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148602> "obsolete obsolete cellular response to organic substance increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148602> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148698> (obsolete sclera decreased process quality obsolete positive regulation of collagen binding, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148698> "GO:0033343-BFO:0000066-ZFA:0005563-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148698> "obsolete sclera decreased process quality obsolete positive regulation of collagen binding, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148698> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148699> (obsolete sclera normal process quality obsolete positive regulation of collagen binding, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148699> "GO:0033343-BFO:0000066-ZFA:0005563-PATO:0045073-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148699> "obsolete sclera normal process quality obsolete positive regulation of collagen binding, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148699> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0148963> (obsolete obsolete regulation of DNA methylation-dependent heterochromatin formation disrupted, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0148963> "0-0-GO:0090308-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0148963> "obsolete obsolete regulation of DNA methylation-dependent heterochromatin formation disrupted, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0148963> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149079> (obsolete obsolete cellular lipid catabolic process increased occurrence, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0149079> <http://purl.obolibrary.org/obo/ZP_0151322>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149079> "0-0-GO:0044242-PATO:0002051-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149079> "obsolete obsolete cellular lipid catabolic process increased occurrence, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149079> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149126> (obsolete telencephalon disrupted obsolete regulation of DNA methylation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149126> "GO:0044030-BFO:0000066-ZFA:0000079-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149126> "obsolete telencephalon disrupted obsolete regulation of DNA methylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149126> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149151> (obsolete obsolete regulation of DNA methylation process quality, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149151> "0-0-GO:0044030-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149151> "obsolete obsolete regulation of DNA methylation process quality, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149151> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149152> (obsolete sperm process quality obsolete regulation of DNA methylation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149152> "GO:0044030-BFO:0000066-ZFA:0009006-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149152> "obsolete sperm process quality obsolete regulation of DNA methylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149152> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149160> (obsolete testis disrupted histone arginine N-methyltransferase activity, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149160> "GO:0008469-BFO:0000066-ZFA:0000598-PATO:0001507-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149160> "obsolete testis disrupted histone arginine N-methyltransferase activity, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149160> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149178> (obsolete erythroid lineage cell decreased process quality obsolete regulation of DNA methylation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149178> "GO:0044030-BFO:0000066-ZFA:0009325-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149178> "obsolete erythroid lineage cell decreased process quality obsolete regulation of DNA methylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149178> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149213> (obsolete cardiac muscle cell decreased process quality positive regulation of oxygen metabolic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149213> "GO:2000376-BFO:0000066-ZFA:0009316-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149213> "obsolete cardiac muscle cell decreased process quality positive regulation of oxygen metabolic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149213> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149284> (obsolete dopaminergic neuron increased frequency inorganic ion transmembrane transport, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149284> "GO:0098660-BFO:0000066-ZFA:0009301-PATO:0000380-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149284> "obsolete dopaminergic neuron increased frequency inorganic ion transmembrane transport, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149284> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149479> (obsolete whole organism decreased occurrence N-glycan fucosylation, abnormal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/ZP_0149479> <http://purl.obolibrary.org/obo/ZP_0152013>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149479> "GO:0036071-BFO:0000066-ZFA:0001094-PATO:0002052-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149479> "obsolete whole organism decreased occurrence N-glycan fucosylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149479> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149541> (obsolete oocyte decreased process quality obsolete regulation of DNA methylation, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149541> "GO:0044030-BFO:0000066-ZFA:0001109-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149541> "obsolete oocyte decreased process quality obsolete regulation of DNA methylation, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149541> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149585> (obsolete heart decreased process quality membrane lipid metabolic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149585> "GO:0006643-BFO:0000066-ZFA:0000114-PATO:0002302-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149585> "obsolete heart decreased process quality membrane lipid metabolic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149585> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149595> (obsolete heart increased process quality membrane lipid metabolic process, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149595> "GO:0006643-BFO:0000066-ZFA:0000114-PATO:0002304-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149595> "obsolete heart increased process quality membrane lipid metabolic process, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149595> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149707> (obsolete whole organism delayed embryo development ending in birth or egg hatching, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149707> "GO:0009792-BFO:0000066-ZFA:0001094-PATO:0000502-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149707> "obsolete whole organism delayed embryo development ending in birth or egg hatching, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149707> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149720> (obsolete neural crest cell process quality methylated histone binding, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149720> "GO:0035064-BFO:0000066-ZFA:0009165-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149720> "obsolete neural crest cell process quality methylated histone binding, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149720> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149725> (obsolete melanocyte process quality methylated histone binding, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149725> "GO:0035064-BFO:0000066-ZFA:0009091-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149725> "obsolete melanocyte process quality methylated histone binding, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149725> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/ZP_0149726> (obsolete iridophore process quality methylated histone binding, abnormal)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ZP_0149726> "GO:0035064-BFO:0000066-ZFA:0009199-PATO:0001236-0-0-0")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ZP_0149726> "obsolete iridophore process quality methylated histone binding, abnormal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/ZP_0149726> "true"^^xsd:boolean)
 
 
 )
