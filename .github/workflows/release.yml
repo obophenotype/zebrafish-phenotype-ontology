@@ -39,6 +39,9 @@ jobs:
       - name: Build release artifacts
         run: cd src/ontology && make TODAY=${{ steps.date.outputs.date }} IMP=false PAT=false MIR=false COMP=false prepare_release_fast
 
+      - name: Build ZFIN export tables
+        run: cd src/ontology && make zfin_exports
+
       - name: Create draft GitHub release with artifacts
         uses: softprops/action-gh-release@v3
         with:
@@ -55,6 +58,8 @@ jobs:
             zp-full.obo
             src/curation/id_map.tsv
             src/curation/id_map_zfin.tsv
+            src/ontology/tmp/zfin-exports/fish_to_phenotype.tsv
+            src/ontology/tmp/zfin-exports/genes_to_phenotype.tsv
             subsets/zapp.owl
             subsets/zapp.obo
             subsets/zapp.tsv
