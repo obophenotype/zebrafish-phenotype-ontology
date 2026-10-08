@@ -235,6 +235,9 @@ $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA) &: $(ZFIN_LOCKFILE)
 verify_zfin_snapshot: $(ZFIN_FISH_DATA) $(ZFIN_GENE_DATA)
 	$(ZFIN_SNAPSHOT) verify $(ZFIN_LOCKFILE) $(ZFIN_SNAPSHOT_DIR)
 
+$(ZFIN_LOCKFILE):
+	$(error $@ has not yet been generated and is not created automatically. Run `make refresh_zfin_data` to create it.)
+
 # Update the lockfile to point to the newest date, and download the latest
 # dumps. Run at the start of a ZFIN update.
 .PHONY: refresh_zfin_data
