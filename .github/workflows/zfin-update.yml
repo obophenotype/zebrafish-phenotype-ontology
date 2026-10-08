@@ -11,6 +11,11 @@ name: Update from ZFIN
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_zfin:
+        description: "Pin the newest ZFIN archive day (off: rebuild against the committed lockfile)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -38,6 +43,7 @@ jobs:
         run: echo "date=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
       - name: Refresh ZFIN data
+        if: ${{ inputs.refresh_zfin }}
         run: cd src/ontology && make refresh_zfin_data
 
       - name: Rebuild ZP label index
@@ -66,6 +72,12 @@ jobs:
         continue-on-error: true
         run: cd src/ontology && make IMP=false PAT=false MIR=false test
 
+      - name: Count what needs curation
+        id: curation
+        run: |
+          echo "zfin_day=$(python3 src/scripts/zfin_snapshot.py date src/curation/zfin-lock.yaml)" >> "$GITHUB_OUTPUT"
+          echo "obsoletion_candidates=$(tail -n +2 src/templates/df_obsolete_candidates.txt | grep -c .)" >> "$GITHUB_OUTPUT"
+
       - name: Create pull request with updated pipeline outputs
         uses: peter-evans/create-pull-request@v8
         with:
@@ -73,11 +85,11 @@ jobs:
           commit-message: Update from ZFIN data downloaded ${{ steps.date.outputs.date }}
           title: "ZFIN update ${{ steps.date.outputs.date }}"
           body: |
-            Automated run of the ZFIN pipeline against data downloaded on
-            ${{ steps.date.outputs.date }}, plus refreshed imports and patterns.
+            Automated run of the ZFIN pipeline against ZFIN archive day **${{ steps.curation.outputs.zfin_day }}**, plus refreshed imports and patterns.
 
-            QC outcome: **${{ steps.qc.outcome }}** (reports are attached to the
-            workflow run as an artifact if QC failed).
+            New obsoletion candidates: **${{ steps.curation.outputs.obsoletion_candidates }}** (See `src/templates/df_obsolete_candidates.txt`). They must be moved into `obsolete.tsv` before making a release.
+
+            QC outcome: **${{ steps.qc.outcome }}** (reports are attached to the workflow run as an artifact if QC failed).
           delete-branch: true
 
       - name: Upload QC reports on failure

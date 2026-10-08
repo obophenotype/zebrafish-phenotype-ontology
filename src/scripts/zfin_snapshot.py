@@ -179,6 +179,13 @@ def fetch(lockfile: Path, snapshot_dir: Path):
 
 @cli.command()
 @click.argument("lockfile", type=click.Path(exists=True, dir_okay=False, path_type=Path))
+def date(lockfile: Path):
+    """Print the ZFIN archive day pinned by <lockfile>."""
+    click.echo(Lockfile.from_file(lockfile).date)
+
+
+@cli.command()
+@click.argument("lockfile", type=click.Path(exists=True, dir_okay=False, path_type=Path))
 def files(lockfile: Path):
     """Print the archive URL of each file pinned by <lockfile>, one per line.
 
