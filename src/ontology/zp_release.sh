@@ -1,12 +1,12 @@
 #!/bin/sh
 set -e
-ODK=v1.6.1
+ODK=v1.7
 # A release always starts from fresh ZFIN data
 ODK_TAG=$ODK ./run.sh make refresh_zfin_data
 ODK_TAG=$ODK ./run.sh make -B zp_labels.csv
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=false zp_pipeline_prepare_data
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true templates patterns
-ODK_TAG=$ODK ./run.sh make IMP=true PAT=false MIR=true COMP=false refresh-merged
+ODK_TAG=$ODK ./run.sh make IMP=true PAT=false MIR=true COMP=false --assume-new=zp-edit.owl imports/merged_import.owl
 ODK_TAG=$ODK ./run.sh make IMP=false PAT=true MIR=false COMP=true patterns
 ODK_TAG=$ODK ./run.sh make -B zp_labels.csv
 ODK_TAG=$ODK ./run.sh make prepare_release_fast

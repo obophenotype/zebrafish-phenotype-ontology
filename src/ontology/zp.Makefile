@@ -1,7 +1,7 @@
 # This makefile is not safe to run with `make -j`: several rules mutate
-# shared state outside their own targets (`download_patterns` deletes and
-# re-downloads pattern files that other rules read, and the ZFIN pipeline
-# scripts rewrite files in place — see the stamps in "ZFIN pipeline steps").
+# shared state outside their own targets (`update_patterns` overwrites
+# pattern files that other rules read, and the ZFIN pipeline scripts rewrite
+# files in place — see the stamps in "ZFIN pipeline steps").
 .NOTPARALLEL:
 
 AUTOPATTERNACCESSION = 99999
@@ -28,10 +28,21 @@ ID_MAP=../curation/id_map.tsv
 # Defiinitions.owl overwrite (occurs in hack!)
 ####
 
-mirror-zfa: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/zfa.owl --create-dirs -o $(MIRRORDIR)/zfa.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) merge -i $(MIRRORDIR)/zfa.owl remove --term BFO:0000050 convert -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+ifeq ($(MIR),true)
+# ZP mirrors the full ZFA (not zfa-base) and strips all part_of axioms from it.
+download-mirror-zfa: | $(TMPDIR)
+	odk-helper download --output $(TMPDIR)/$@.owl \
+	                    --reference $(MIRRORDIR)/zfa.owl \
+	                    --max-retry 4 \
+	                    $(OBOBASE)/zfa.owl
+
+$(MIRRORDIR)/zfa.owl: download-mirror-zfa | $(MIRRORDIR)
+	@if [ -f $(TMPDIR)/download-mirror-zfa.owl ]; then \
+	        $(ROBOT) merge --input $(TMPDIR)/download-mirror-zfa.owl \
+	                 remove --term BFO:0000050 \
+	                 convert --format ofn --output $@ ; \
+	fi
+endif
 
 ifeq ($(PAT),true)
 
@@ -182,14 +193,10 @@ PATTERN_CONFIG=../patterns/pattern-config.yaml
 PIPELINE_DATA_PATH=../patterns/data/anatomy/
 SPARQLDIR=../sparql
 
-download_patterns: .FORCE
-	cat $(PDIR)/external.txt | sed 's!.*/!!' | sed 's! !!g' |  xargs -I{} rm -f $(PDIR)/{}
-	cat $(PDIR)/external.txt | sed 's! !!g' | xargs -I{} wget -q {} -P $(PDIR)/
-
 $(ZFA): | $(TMPDIR_CURATION)
 	$(ROBOT) reason --reasoner ELK -I $(ZFA_IRI) --output $@
 
-anatomy_pipeline: download_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
+anatomy_pipeline: update_patterns $(ZFA) $(ID_MAP) $(RESERVED_IRI) 
 	echo "Using $(ZFA_IRI) for running anatomy pipeline, make sure this is correct!"
 	python3 ../scripts/zp_anatomy_pipeline.py  $(ZFA) $(ID_MAP) $(RESERVED_IRI) $(PDIR) $(SPARQLDIR) $(PIPELINE_DATA_PATH) $(PATTERN_CONFIG) || exit 1
 
@@ -312,7 +319,7 @@ $(ZFIN_STAMPS)/zfin_patterns: $(ZFIN_STAMPS)/id_map_updated $(ZFIN_STAMPS)/obsol
 	@echo "######################################"
 	@echo "Determining basic ZFIN patterns..."
 	mkdir -p $(ZFINPATTERNDIR)
-	rm -rf $(ZFINPATTERNDIR)/*
+	find $(ZFINPATTERNDIR) -mindepth 1 -maxdepth 1 ! -name README.md -exec rm -rf {} +
 	cd ../curation && python3 ../scripts/zp_dosdp.py id_map_zfin.tsv ../patterns/data/zfin ../templates/obsolete.tsv pattern_assignments.txt ../ontology/zp_labels.csv
 	touch $@
 
