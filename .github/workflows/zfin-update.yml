@@ -32,7 +32,7 @@ env:
 jobs:
   zfin-update:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.6.1
+    container: obolibrary/odkfull:v1.7
 
     steps:
       - name: Checkout
@@ -56,7 +56,7 @@ jobs:
         run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true templates patterns
 
       - name: Refresh mirrors and merged import
-        run: cd src/ontology && make IMP=true PAT=false MIR=true COMP=false refresh-merged
+        run: cd src/ontology && make IMP=true PAT=false MIR=true COMP=false --assume-new=zp-edit.owl imports/merged_import.owl
 
       - name: Rebuild patterns against refreshed imports
         run: cd src/ontology && make IMP=false PAT=true MIR=false COMP=true patterns
