@@ -20,7 +20,7 @@ env:
 jobs:
   release:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.6.1
+    container: obolibrary/odkfull:v1.7
 
     steps:
       - name: Refuse to release from a branch other than master
