@@ -48062,6 +48062,10 @@ WARN	duplicate_exact_synonym	caudal fin principal ray broken, abnormal	oboInOwl:
 WARN	duplicate_exact_synonym	caudal fin principal ray fractured, abnormal	oboInOwl:hasExactSynonym	bone caudal fin principal ray
 WARN	duplicate_exact_synonym	caudal fin lepidotrichium broken, abnormal	oboInOwl:hasExactSynonym	bone caudal fin lepidotrichium
 WARN	duplicate_exact_synonym	caudal fin lepidotrichium fractured, abnormal	oboInOwl:hasExactSynonym	bone caudal fin lepidotrichium
+WARN	duplicate_exact_synonym	ceratohyal cartilage distance Meckel's cartilage, abnormal	oboInOwl:hasExactSynonym	abnormal distance between Meckel's cartilage and ceratohyal cartilage
+WARN	duplicate_exact_synonym	Meckel's cartilage distance ceratohyal cartilage, abnormal	oboInOwl:hasExactSynonym	abnormal distance between Meckel's cartilage and ceratohyal cartilage
+WARN	duplicate_exact_synonym	ceratohyal cartilage distance Meckel's cartilage, abnormal	oboInOwl:hasExactSynonym	abnormal distance between ceratohyal cartilage and Meckel's cartilage
+WARN	duplicate_exact_synonym	Meckel's cartilage distance ceratohyal cartilage, abnormal	oboInOwl:hasExactSynonym	abnormal distance between ceratohyal cartilage and Meckel's cartilage
 WARN	missing_definition	Zebrafish Phenotype	IAO:0000115	
 INFO	lowercase_definition	rhombomere 3 increased length, abnormal	IAO:0000115	longer, increased length of, rhombomere 3
 INFO	lowercase_definition	retinoic acid catabolic process decreased rate, abnormal	IAO:0000115	decreased retinoic acid catabolic process.
@@ -98800,3 +98804,278 @@ INFO	missing_superclass	trigeminal motor neuron characteristic, abnormal	rdfs:su
 INFO	missing_superclass	trochlear motor neuron characteristic, abnormal	rdfs:subClassOf	
 INFO	missing_superclass	abducens motor neuron characteristic, abnormal	rdfs:subClassOf	
 INFO	missing_superclass	migratory facial motor neuron characteristic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intersegmental vessel structurally discontinuous, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	swimming behavior decreased rate of continuous process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	involuntary skeletal muscle contraction decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	T cell caudal tuberculum infiltrative, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	astrocyte caudal tuberculum increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	microglial cell caudal tuberculum increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cholesteryl ester intestine normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	lipid liver increased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal vein increased accumulation nucleate erythrocyte, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	periventricular grey zone spatial distribution of a process behavioral response to starvation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	imidazolinone whole organism increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	prostaglandin E2 whole organism increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Endothelin-1 whole organism increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism decreased process quality aconitate hydratase activity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism increased process quality lipid oxidation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	rough endoplasmic reticulum brain morphology, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	endothelial blood brain barrier brain broken, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	4-hydroxynonenal whole organism normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	acetaldehyde whole organism normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	acrolein whole organism normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	imidazolinone whole organism normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	3-deoxyglucosone whole organism normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	arginine liver normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism increased magnitude positive regulation of receptor signaling pathway via STAT, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	trunk decreased process quality microtubule cytoskeleton organization, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	trunk decreased process quality double-strand break repair, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	trunk decreased process quality chromosome segregation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	trunk decreased process quality cell cycle process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neutrophilic myelocyte increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neutrophilic myelocyte decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dihydroceramide brain present, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sphingosine brain normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	N-acylsphinganine-1-phosphocholine brain normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	periventricular grey zone morphology, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	blood vessel endothelial cell retina decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cytoplasm Meckel's cartilage increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cytoplasm ceratohyal cartilage increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	plasma membrane Meckel's cartilage decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	plasma membrane ceratohyal cartilage decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dermatan sulfate whole organism amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	regulation of MAPK cascade increased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	regulation of lysosome organization decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cilium trunk decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cilium trunk normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	perichondrium Meckel's cartilage decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	calcium ion regulated lysosome exocytosis decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism increased magnitude phosphatidylinositol 3-kinase/protein kinase B signal transduction, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism decreased magnitude phosphatidylinositol 3-kinase/protein kinase B signal transduction, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	arginine liver decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	liver decreased magnitude phosphatidylinositol 3-kinase/protein kinase B signal transduction, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	muscle decreased magnitude phosphatidylinositol 3-kinase/protein kinase B signal transduction, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chondrocyte Meckel's cartilage decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chondrocyte ceratohyal cartilage decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	optic furrow decreased process quality basement membrane disassembly, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	whole organism disrupted gastrulation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neurotransmitter transport decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	swimming behavior ictal, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	interneuron optic tectum decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	otic vesicle normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	optic tectum ictal neuronal action potential, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	glutamate receptor signaling pathway decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chemical synaptic transmission decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	modulation of chemical synaptic transmission decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	anterograde trans-synaptic signaling decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	regulation of trans-synaptic signaling decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	synaptic signaling decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	trans-synaptic signaling decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	axonogenesis decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	axon guidance decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sodium ion transmembrane transport decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	synaptic vesicle endocytosis decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neuron projection morphogenesis decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	axon development decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	vesicle-mediated transport in synapse decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	signal release from synapse decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	presynaptic endocytosis decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neuron projection extension decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cerebrospinal fluid contacting neuron increased occurrence calcium ion transport, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cerebrospinal fluid contacting neuron spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cerebrospinal fluid contacting neuron increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cerebrospinal fluid contacting neuron occurrence calcium ion transport, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	CaP motoneuron decreased thickness, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	CaP motoneuron decreased angle to spinal cord, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	nucleus cardiac ventricle decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sarcomere cardiac muscle structure, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal ganglion cell layer volumetric density, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal ganglion cell layer irregularly shaped, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	motor neuron overlap with acetylcholine-gated channel complex presynapse motor neuron, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	motor neuron decreased accumulation acetylcholine-gated channel complex presynapse motor neuron, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	muscle cell myotome spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	optic cup malformed, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral side optic cup increased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	optic cup decreased process quality dorsal/ventral pattern formation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ocular blood vessel increased spatial extent of a process branching involved in blood vessel morphogenesis, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intermediate cell mass of mesoderm post-vent region decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitotic spindle common myeloid progenitor spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitotic spindle hematopoietic multipotent progenitor cell spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	common myeloid progenitor decreased process quality regulation of cell cycle phase transition, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	hematopoietic multipotent progenitor cell decreased process quality regulation of cell cycle phase transition, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	common myeloid progenitor decreased process quality mitotic chromosome condensation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	hematopoietic multipotent progenitor cell decreased process quality mitotic chromosome condensation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal hematopoietic tissue increased occurrence programmed cell death, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal hematopoietic tissue premature myeloid cell differentiation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal hematopoietic tissue premature hematopoietic stem cell differentiation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal hematopoietic tissue decreased occurrence hematopoietic stem cell differentiation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	detection of light stimulus involved in sensory perception increased magnitude, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral aorta normal diameter, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	central region hindbrain increased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dorsal region hindbrain decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	proliferative region hindbrain increased size, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	detection of light stimulus involved in sensory perception decreased magnitude, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	detection of light stimulus involved in sensory perception delayed, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	collagen trimer bulbus arteriosus inner layer increased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral aorta detached from blood vessel endothelial cell basement membrane ventral aorta, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	blood vessel endothelial cell ventral aorta rhomboid, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	vascular associated smooth muscle cell ventral aorta morphology, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral aorta ruptured, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral aorta dissected, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventriculo bulbo valve hypertrophic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	aortic arch size, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	atrioventricular valve hypertrophic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	blood vessel endothelial cell ventral aorta increased length, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intermediate-density lipoprotein blood plasma normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	apolipoprotein blood plasma normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	low-density lipoprotein blood plasma normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	very-low-density lipoprotein blood plasma normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve III decreased process quality motor neuron axon guidance, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve VI spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve III spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve III decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve IV spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve IV decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve VI decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve VI decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cranial nerve III decreased occurrence fasciculation of motor neuron axon, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cell cycle checkpoint signaling decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	G1/S transition of mitotic cell cycle decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitotic metaphase decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitotic prometaphase decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	rRNA processing decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	SRP-dependent cotranslational protein targeting to membrane decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	striated muscle contraction decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	phototransduction, visible light increased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	antigen processing and presentation of endogenous peptide antigen via MHC class I decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	estrogen receptor signaling pathway decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Roundabout signaling pathway decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	protein neddylation decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sensory perception of light stimulus decreased process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DNA biosynthetic process decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	GCN2-mediated signaling decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	pre-mRNA catabolic process decreased occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sensory perception of sound normal process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sensory perception of light stimulus normal process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	kidney temporal distribution quality neutrophil differentiation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	kidney normal process quality neutrophil differentiation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral fin fold normal process quality phagocytosis, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	otic vesicle increased occurrence neutrophil-mediated killing of gram-negative bacterium, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	otic vesicle increased occurrence neutrophil migration, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mature neutrophil otic vesicle increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mature neutrophil regenerating fin increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	integument increased occurrence neutrophil mediated immunity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	integument surrounded by melanocytic tumor mature neutrophil, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mature neutrophil integument increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	regenerating fin normal rate neutrophil migration, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	fin regeneration normal process quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mature neutrophil head kidney decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	periventricular grey zone spatial distribution of a process pattern orientation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	periventricular grey zone decreased process quality detection of light stimulus involved in visual perception, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC2 dopaminergic neuron decreased process quality detection of light stimulus involved in visual perception, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC4 dopaminergic neuron decreased process quality detection of light stimulus involved in visual perception, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	periventricular grey zone spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Golgi membrane cardiac muscle cell broken, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cardiac muscle cell dissolved Golgi membrane cardiac muscle cell, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	endoplasmic reticulum cardiac muscle cell broken, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	endoplasmic reticulum cardiac muscle cell decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Golgi apparatus cardiac muscle cell blurry, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrial crista cardiac muscle cell structure, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrial membrane cardiac muscle cell structure, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cardiac myofibril cardiac ventricle broken, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cardiac ventricle dissolved cardiac myofibril cardiac muscle cell, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	cardiac muscle cell cardiac ventricle loose, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	maxilla increased angle to mouth, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	pretectum increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC2 dopaminergic neuron increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC2 dopaminergic neuron decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC4 dopaminergic neuron increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	DC4 dopaminergic neuron decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	branchiostegal ray 3 decreased length, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	pharyngeal arch cartilage dysplastic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chondrocyte decreased size, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	pharyngeal arch immature, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	subintestinal vein process characteristic sprouting angiogenesis, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	17beta-estradiol eye decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	lateral dorsal aorta increased rate of continuous process blood circulation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dorsal aorta deformed, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neutrophil disrupted phagocytosis, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neutrophil decreased functionality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine normal occurrence cell death, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine decreased occurrence reactive oxygen species biosynthetic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine decreased process quality nucleoside metabolic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine decreased process quality nucleotide biosynthetic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine decreased process quality ribosome assembly, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	stem cell intestine decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	intestine decreased process quality cell cycle, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	vascular endothelium decreased occurrence cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	heart vasculature decreased occurrence regeneration, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	heart vasculature decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	oocyte ovary increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion ventricular myocardium degenerate, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	sarcomere cardiac muscle cell position, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventricular myocardium apoptotic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	heart vasculature deformed, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	heart vasculature constricted, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	swimming behavior non-ictal, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	synaptic vesicle brain decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	brain increased occurrence amino acid biosynthetic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	membrane brain decreased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	brain increased occurrence protein digestion, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	excitatory synapse brain increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	forebrain amplitude action potential, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	caudal periventricular hypothalamus decreased process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	medial zone of dorsal telencephalon decreased process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	olfactory bulb increased process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ventral nucleus of ventral telencephalon normal process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	lateral zone of dorsal telencephalon decreased process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	parvocellular preoptic nucleus normal process quality cell population proliferation, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	brain decreased process quality aromatase activity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	ovary absent process aromatase activity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	testis absent process aromatase activity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	radial glial cell caudal periventricular hypothalamus decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dopaminergic neuron olfactory bulb normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dopaminergic neuron ventral nucleus of ventral telencephalon normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dopaminergic neuron caudal tuberal nucleus normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dopaminergic neuron thalamus normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	dopaminergic neuron parvocellular preoptic nucleus normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	serotonergic neuron caudal periventricular hypothalamus normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	serotonergic neuron paraventricular organ normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	serotonergic neuron caudal tuberal nucleus normal amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	medial zone of dorsal telencephalon decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	olfactory bulb increased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	lateral zone of dorsal telencephalon decreased distribution, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	swimming behavior irregular rhythm, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	response to light stimulus increased duration, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mechanosensory behavior normal occurrence, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	response to light stimulus normal duration, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	swimming behavior rhythm quality, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	brain accumulation nucleate erythrocyte, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	brain decreased process quality vasculature development, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chromosome sperm polyploid, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	chromosome cell triploid, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	photoreceptor outer segment photoreceptor cell absence of anatomical entity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrial matrix neuron ballooning, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrial crista retinal photoreceptor layer disorganized, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrial crista neuron disorganized, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	neuron brain sparse, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal pigmented epithelium apoptotic, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal inner plexiform layer absence of anatomical entity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retinal cone cell spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retinal cone cell increased acidity, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion Muller cell increased amount, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal cone cell increased occurrence reactive oxygen species biosynthetic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal inner nuclear layer occurrence mitophagy, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	photoreceptor cell occurrence mitophagy, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Muller cell occurrence mitophagy, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal cone cell normal occurrence apoptotic process, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal cone cell decreased process quality establishment of mitochondrion localization, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal cone cell normal occurrence apoptotic mitochondrial changes, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retinal cone cell mislocalised, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retinal cone cell swollen, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retina spatial pattern, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	retinal cone cell displaced to mitochondrion Muller cell, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion Muller cell mislocalised, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	Muller cell adjacent to lysosome mitochondrion Muller cell, abnormal	rdfs:subClassOf	
+INFO	missing_superclass	mitochondrion retinal cone cell normal acidity, abnormal	rdfs:subClassOf	
